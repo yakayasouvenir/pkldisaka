@@ -31,117 +31,145 @@ const arsipBgImages = [
 
 const dailyRoutine = [
   {
+    step: 1,
     time: 'Sebelum 08:00 WIB',
+    shortTime: '< 08:00',
+    emoji: '🌅',
     badge: 'Disiplin Pagi',
-    title: 'Datang Sebelum Jam 08:00, Doa Bersama & Piket Pagi',
-    desc: 'Peserta magang hadir tepat waktu sebelum jam 08:00. Mengawali pagi dengan doa bersama demi kelancaran aktivitas, dilanjutkan piket pagi bersama membersihkan dan merapikan ruang kerja studio.',
+    progress: 15,
+    title: 'Datang, Doa Bersama & Piket Pagi',
+    desc: 'Peserta hadir sebelum jam 08:00. Mengawali pagi dengan doa bersama demi kelancaran hari, lalu piket pagi bareng menjaga kerapian studio kerja agar nyaman dan estetik.',
     icon: 'bi-sun-fill',
     badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
   },
   {
+    step: 2,
     time: '08:00 – 08:30 WIB',
+    shortTime: '08:00 Briefing',
+    emoji: '☕',
     badge: 'Briefing Santai',
-    title: 'Briefing Tugas yang Akan Dikerjakan / Materi',
-    desc: 'Setelah piket, seluruh siswa dan mentor berkumpul untuk briefing harian. Mentor memaparkan materi praktis, arahan teknis proyek komersial klien, serta pembagian target hari ini.',
+    progress: 30,
+    title: 'Briefing Tugas & Materi Bersama Mentor',
+    desc: 'Setelah piket, kumpul santai bareng mentor. Mentor memaparkan target yang akan dikerjakan hari ini, materi praktis industri, dan arahan proyek komersial klien tanpa rasa tegang.',
     icon: 'bi-chat-dots-fill',
     badgeClass: 'bg-info-subtle text-info border-info-subtle',
   },
   {
+    step: 3,
     time: '08:30 – 11:30 WIB',
+    shortTime: '08:30 Praktik',
+    emoji: '💻',
     badge: 'Praktik Nyata',
+    progress: 50,
     title: 'Mengerjakan Tugas Divisi & Proyek Industri',
-    desc: 'Fokus pengerjaan tugas divisi (DKV, Web Development, SEO, Video Konten, maupun Produksi Kemasan) dengan bimbingan dan supervisi santai dari mentor profesional.',
+    desc: 'Fokus pengerjaan tugas divisi (DKV, Web Dev, SEO, Video Kreatif, atau Kemasan). Mentor selalu standby di samping untuk mendampingi jika ada kendala teknis.',
     icon: 'bi-laptop-fill',
     badgeClass: 'bg-success-subtle text-success border-success-subtle',
   },
   {
+    step: 4,
     time: '11:30 – 13:00 WIB',
+    shortTime: '11:30 Ishoma',
+    emoji: '🍱',
     badge: 'Ishoma 1,5 Jam',
+    progress: 70,
     title: 'Istirahat Jam 11:30 / Adzan Dzuhur – Jam 1 (13:00)',
-    desc: 'Waktu istirahat panjang 1,5 jam mulai saat adzan Dzuhur (11:30) sampai jam 13:00 siang. Siswa dapat sholat Dzuhur berjamaah, makan siang santai bareng, ngobrol akrab, dan rehat.',
+    desc: 'Waktu istirahat panjang 1,5 jam mulai saat adzan Dzuhur (11:30) sampai jam 13:00 siang. Leluasa untuk sholat Dzuhur berjamaah, makan siang santai bareng, ngobrol akrab, dan rehat.',
     icon: 'bi-cup-hot-fill',
     badgeClass: 'bg-warning-subtle text-warning-emphasis border-warning-subtle',
   },
   {
+    step: 5,
     time: '13:00 – 15:50 WIB',
+    shortTime: '13:00 Lanjut',
+    emoji: '🚀',
     badge: 'Lanjut Tugas',
-    title: 'Lanjut Mengerjakan Tugas & Review Hasil Kerja',
-    desc: 'Kembali beraktivitas melanjutkan eksekusi tugas proyek, eksplorasi ide kreatif, serta sesi review langsung dari mentor untuk memastikan kualitas portofolio siswa.',
+    progress: 85,
+    title: 'Lanjut Mengerjakan Tugas & Review Mentor',
+    desc: 'Melanjutkan pengerjaan tugas proyek industri, eksplorasi ide kreatif, dan sesi review santai dari mentor untuk memastikan kualitas portofolio siswa berstandar agensi.',
     icon: 'bi-gear-wide-connected',
     badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
   },
   {
+    step: 6,
     time: '15:50 – 16:00 WIB',
-    badge: 'Penutupan Hari',
+    shortTime: '15:50 Siap Pulang',
+    emoji: '🎒',
+    badge: 'Persiapan Pulang',
+    progress: 95,
     title: 'Persiapan Pulang & Doa Bersama',
-    desc: 'Ketika jam 15:50, peserta mulai bersiap-siap, merapikan file pekerjaan, menyimpan dokumen di repositori/cloud, evaluasi singkat harian, dan ditutup dengan doa bersama.',
+    desc: 'Jam 15:50 mulai bersiap-siap, merapikan file pekerjaan, menyimpan dokumen di repositori/cloud, evaluasi singkat harian, dan ditutup dengan doa bersama.',
     icon: 'bi-check-circle-fill',
     badgeClass: 'bg-secondary-subtle text-secondary border-secondary-subtle',
   },
   {
+    step: 7,
     time: 'Tepat 16:00 WIB',
+    shortTime: '16:00 Pulang',
+    emoji: '🚪',
     badge: 'Langsung Pulang',
+    progress: 100,
     title: 'Piket Sore & Langsung Pulang (Bebas Lembur)',
-    desc: 'Setelah doa bersama, siswa melakukan piket sore merapikan workstation masing-masing. Tepat jam 16:00 langsung pulang tanpa ada beban lembur malam!',
+    desc: 'Piket sore kilat merapikan workstation masing-masing. Begitu jam 16:00 tiba, seluruh anak magang langsung pulang! Tidak ada lembur malam, waktu istirahat di rumah terjamin.',
     icon: 'bi-door-open-fill',
     badgeClass: 'bg-danger-subtle text-danger border-danger-subtle',
   },
 ];
 
-const lingkunganPhotos = [
-  {
-    image: '/images/12.webp',
-    alt: 'Peserta PKL divisi Desain Grafis dan DKV sedang merancang layout desain visual di studio',
-    badge: 'Divisi Desain & DKV',
-    title: 'Studio Desain & Perancangan Visual',
-    desc: 'Peserta jurusan DKV dan Multimedia mengasah kemahiran dalam perancangan identitas merek, desain kemasan produk UMKM, tipografi, dan aset visual pemasaran dengan bimbingan standar industri.',
-    link: '/divisi/desain-grafis/',
-    linkText: 'Pelajari Divisi Desain →',
-  },
+const digitalMarketingPhotos = [
   {
     image: '/images/21.webp',
-    alt: 'Sesi praktik teknis coding web development dan mentoring arsitektur website peserta PKL',
-    badge: 'Divisi Web & IT',
-    title: 'Mentoring Teknis & Analisis Digital',
-    desc: 'Siswa RPL dan TKJ mendapatkan arahan teknis rutin mengenai optimasi struktur website, performa kecepatan halaman, riset kata kunci SEO, dan integrasi analitik secara berkala.',
+    alt: 'Praktik riset kata kunci SEO dan optimasi arsitektur website komersial peserta PKL',
+    badge: 'SEO & Website Analysis',
+    title: 'Riset Kata Kunci & Optimasi Organik Google',
+    desc: 'Siswa memperdalam teknik pembidikan keyword komersial berdaya beli tinggi, perbaikan struktur halaman website, on-page SEO, dan pemantauan trafik menggunakan tools analitik modern.',
     link: '/divisi/seo-website/',
     linkText: 'Pelajari Divisi SEO & Web →',
   },
   {
+    image: '/images/13.webp',
+    alt: 'Sesi perencanaan konten media sosial, copywriting hook iklan, dan kalender editorial tim marketing',
+    badge: 'Social Media & Viral Content',
+    title: 'Kurasi Konten Kreatif & Copywriting Iklan',
+    desc: 'Penyusunan kalender editorial media sosial Instagram & TikTok, penulisan copywriting persuasif berdaya pikat tinggi, serta perencanaan hook konten video pendek untuk meningkatkan engagement.',
+    link: '/divisi/social-media/',
+    linkText: 'Pelajari Social Media Marketing →',
+  },
+  {
+    image: '/images/15.webp',
+    alt: 'Pemotretan produk komersial UMKM dengan penataan tata cahaya softbox di mini studio Saka',
+    badge: 'Ad Creative & Commercial Photo',
+    title: 'Studio Visual Katalog & Iklan Komersial',
+    desc: 'Praktik langsung penataan tata cahaya studio softbox, pemotretan katalog produk klien berstandar e-commerce, kurasi visual etalase digital, dan produksi video iklan bernilai konversi tinggi.',
+    link: '/divisi/foto-video-produk/',
+    linkText: 'Pelajari Foto & Video Iklan →',
+  },
+  {
     image: '/images/22.webp',
-    alt: 'Peserta magang PKL berdiskusi dan berkolaborasi dalam menyelesaikan proyek digital tim',
-    badge: 'Kolaborasi Antar Jurusan',
-    title: 'Ruang Kerja Kolaboratif Antar Divisi',
-    desc: 'Membiasakan peserta dengan ritme kerja agensi nyata: sinergi antara divisi kreatif visual, pemrograman web, dan pemasaran digital agar proyek terselesaikan tepat sasaran.',
+    alt: 'Kolaborasi tim peserta PKL mengoptimasi etalase marketplace dan riset tren belanja daring',
+    badge: 'Marketplace & E-Commerce',
+    title: 'Optimasi Toko Online & Marketplace UMKM',
+    desc: 'Pengelolaan etalase toko digital di marketplace Shopee & Tokopedia, perancangan deskripsi produk SEO-friendly, pengelolaan program voucher promosi, dan analisis tren belanja konsumen.',
     link: '/divisi/digital-marketing/',
     linkText: 'Pelajari Digital Marketing →',
   },
   {
-    image: '/images/15.webp',
-    alt: 'Aktivitas pemotretan produk dengan tata cahaya softbox studio oleh siswi magang SMK',
-    badge: 'Divisi Konten & Multimedia',
-    title: 'Studio Foto & Kurasi Konten Kreatif',
-    desc: 'Praktik langsung penataan tata cahaya softbox, pemotretan katalog produk komersial, penyusunan storyboard, serta kurasi video promosi pendek untuk platform media sosial.',
-    link: '/divisi/foto-video-produk/',
-    linkText: 'Pelajari Foto & Video →',
-  },
-  {
-    image: '/images/1.webp',
-    alt: 'Praktik perakitan boks kemasan souvenir dan pemeriksaan dummy prototipe oleh peserta PKL',
-    badge: 'Divisi Kemasan & Produksi',
-    title: 'Pemeriksaan Pracetak & Finishing Kemasan',
-    desc: 'Siswa Teknik Grafika dan Produksi mempelajari kalibrasi warna cetak, spesifikasi bahan karton kemasan, pembuatan dummy prototipe, serta teknik finishing hotprint dan embossing.',
-    link: '/divisi/packaging/',
-    linkText: 'Pelajari Divisi Kemasan →',
+    image: '/images/12.webp',
+    alt: 'Perancangan desain feed carousel dan banner iklan promosi digital oleh siswi magang DKV',
+    badge: 'Branding & Visual Ads',
+    title: 'Desain Grafis Materi Promosi & Kampanye',
+    desc: 'Sinergi antara divisi desain grafis dan marketing dalam merancang feed carousel informatif, banner diskon promosi berkala, serta materi promosi visual yang konsisten dengan identitas brand klien.',
+    link: '/divisi/desain-grafis/',
+    linkText: 'Pelajari Desain Grafis Promosi →',
   },
   {
     image: '/images/10.webp',
-    alt: 'Suasana ruang kerja dan fasilitas operasional PKL peserta magang di Saka Malang',
-    badge: 'Fasilitas & Ekosistem Industri',
-    title: 'Fasilitas Ruang Kerja Kondusif',
-    desc: 'Didukung koneksi internet cepat, perangkat kerja terintegrasi, suasana studio yang tenang, serta area diskusi terbuka untuk menunjang produktivitas harian seluruh peserta magang.',
-    link: '/program-pkl/fasilitas/',
-    linkText: 'Lihat Fasilitas PKL →',
+    alt: 'Analisis metrik performa kampanye digital dan penyusunan laporan evaluasi mingguan di workstation',
+    badge: 'Marketing Analytics',
+    title: 'Evaluasi Data & Laporan Metrik Digital',
+    desc: 'Peserta dilatih membaca data metrik jangkauan (reach), impresi, click-through-rate (CTR), dan rasio konversi untuk menyusun rekomendasi strategi pemasaran berikutnya secara terukur dan objektif.',
+    link: '/divisi/digital-marketing/',
+    linkText: 'Lihat Evaluasi Marketing →',
   },
 ];
 
@@ -264,238 +292,327 @@ const faqs = homePage.faqs;
     </div>
   </section>
 
-  <!-- JADWAL MAGANG & RUTINITAS HARIAN (5 HARI KERJA, SENIN - JUMAT, 08:00 - 16:00) -->
+  <!-- JADWAL MAGANG & RUTINITAS HARIAN INTERAKTIF (MOBILE-FRIENDLY SWIPE DECK) -->
   <section class="content-section" id="jadwal-rutinitas" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
     <div class="container">
-      <div class="text-center mx-auto mb-5" style="max-width: 760px;">
+      <div class="text-center mx-auto mb-4" style="max-width: 760px;">
         <span class="section-heading-eyebrow">Jam Kerja & Keseharian Magang</span>
         <h2 class="section-heading-title">PKL Cuma 5 Hari Kerja: Senin – Jumat (08:00 – 16:00)</h2>
-        <p class="section-heading-desc">
+        <p class="section-heading-desc mb-0">
           Di Saka, kami menerapkan jam magang mulai jam <strong>08:00 – 16:00 WIB</strong>. PKL di kami cuma 5 hari kerja (Senin – Jumat), <strong>Sabtu dan Minggu libur</strong>. Istirahat siang leluasa 1,5 jam, lingkungan kerja family friendly, dan tanpa senioritas!
         </p>
       </div>
 
-      <!-- 4 Highlight Cards Jadwal -->
-      <div class="row g-4 mb-5">
-        <div class="col-md-6 col-lg-3">
-          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
-            <div class="schedule-stat-icon bg-primary text-white mx-auto mb-3">
+      <!-- 4 Highlight Cards Jadwal (Compact Grid) -->
+      <div class="row g-3 g-md-4 mb-4">
+        <div class="col-6 col-lg-3">
+          <div class="schedule-stat-card p-3 p-md-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-primary text-white mx-auto mb-2 mb-md-3">
               <i class="bi bi-calendar2-week-fill"></i>
             </div>
-            <div class="h5 fw-bold mb-1 text-dark">5 Hari Kerja</div>
-            <div class="badge bg-primary-subtle text-primary border border-primary-subtle mb-2">Senin – Jumat</div>
-            <p class="small text-muted mb-0">Sabtu & Minggu libur total. Anak magang punya waktu berkualitas untuk keluarga, teman, dan beristirahat.</p>
+            <div class="h6 fw-bold mb-1 text-dark">5 Hari Kerja</div>
+            <div class="badge bg-primary-subtle text-primary border border-primary-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">Senin – Jumat</div>
+            <p class="small text-muted mb-0 d-none d-sm-block">Sabtu & Minggu libur total. Waktu seimbang buat istirahat & keluarga.</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
-            <div class="schedule-stat-icon bg-success text-white mx-auto mb-3">
+        <div class="col-6 col-lg-3">
+          <div class="schedule-stat-card p-3 p-md-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-success text-white mx-auto mb-2 mb-md-3">
               <i class="bi bi-clock-history"></i>
             </div>
-            <div class="h5 fw-bold mb-1 text-dark">08:00 – 16:00 WIB</div>
-            <div class="badge bg-success-subtle text-success border border-success-subtle mb-2">Jam Magang Pasti</div>
-            <p class="small text-muted mb-0">Magang mulai jam 08:00 sampai 16:00. Selesai piket langsung pulang tepat waktu tanpa lembur.</p>
+            <div class="h6 fw-bold mb-1 text-dark">08:00 – 16:00 WIB</div>
+            <div class="badge bg-success-subtle text-success border border-success-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">Jam Teratur</div>
+            <p class="small text-muted mb-0 d-none d-sm-block">Magang mulai jam 8 pagi sampai 4 sore. Selesai piket langsung pulang on-time.</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
-            <div class="schedule-stat-icon bg-warning text-dark mx-auto mb-3">
+        <div class="col-6 col-lg-3">
+          <div class="schedule-stat-card p-3 p-md-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-warning text-dark mx-auto mb-2 mb-md-3">
               <i class="bi bi-cup-hot-fill"></i>
             </div>
-            <div class="h5 fw-bold mb-1 text-dark">Istirahat 1,5 Jam</div>
-            <div class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-2">11:30 – 13:00 WIB</div>
-            <p class="small text-muted mb-0">Istirahat jam 11:30 / adzan Dzuhur – jam 1 (13:00). Leluasa untuk sholat Dzuhur dan makan siang santai.</p>
+            <div class="h6 fw-bold mb-1 text-dark">Istirahat 1,5 Jam</div>
+            <div class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">11:30 – 13:00 WIB</div>
+            <p class="small text-muted mb-0 d-none d-sm-block">Istirahat mulai adzan Dzuhur. Waktu santai sholat dan makan siang bareng.</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
-            <div class="schedule-stat-icon bg-info text-white mx-auto mb-3">
+        <div class="col-6 col-lg-3">
+          <div class="schedule-stat-card p-3 p-md-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-info text-white mx-auto mb-2 mb-md-3">
               <i class="bi bi-heart-fill"></i>
             </div>
-            <div class="h5 fw-bold mb-1 text-dark">No Senioritas</div>
-            <div class="badge bg-info-subtle text-info border border-info-subtle mb-2">Family Friendly</div>
-            <p class="small text-muted mb-0">Diawali dan diakhiri doa bersama, piket bareng, briefing santai, dan mentor yang suportif membimbing.</p>
+            <div class="h6 fw-bold mb-1 text-dark">No Senioritas</div>
+            <div class="badge bg-info-subtle text-info border border-info-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">Family Friendly</div>
+            <p class="small text-muted mb-0 d-none d-sm-block">Doa bersama pagi & sore, piket bareng, dan mentor suportif seperti teman.</p>
           </div>
         </div>
       </div>
 
-      <!-- Timeline Rangkaian Kegiatan Harian (Step-by-Step) -->
-      <div class="daily-timeline-wrapper bg-white p-4 p-lg-5 rounded-4 border shadow-sm">
-        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
-          <i class="bi bi-list-task text-primary fs-4"></i>
-          <div>
-            <h3 class="h5 fw-bold mb-0 text-dark">Rangkaian Kegiatan yang Dilakukan Harian</h3>
-            <span class="small text-muted">Aktivitas teratur mulai dari kedatangan sebelum jam 08:00 hingga kepulangan jam 16:00 WIB</span>
+      <!-- INTERACTIVE DAILY JOURNEY (Mobile Swipe Card Deck & Desktop Step Roadmap) -->
+      <div class="daily-routine-box bg-white p-3 p-md-4 p-lg-5 rounded-4 border shadow-sm">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 mb-3 pb-2 border-bottom">
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-primary text-white rounded-circle p-2">
+              <i class="bi bi-list-stars"></i>
+            </span>
+            <div>
+              <h3 class="h6 fw-bold mb-0 text-dark">Rangkaian Kegiatan Harian Anak Magang</h3>
+              <span class="small text-muted">Aktivitas teratur mulai dari kedatangan pagi hingga kepulangan</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 text-muted small font-monospace">
+            <i class="bi bi-arrow-left-right text-primary"></i>
+            <span>Geser kartu untuk jelajahi alur seharian</span>
           </div>
         </div>
 
-        <div class="daily-timeline">
-          {dailyRoutine.map((item, idx) => (
-            <div class="daily-timeline-item">
-              <div class="daily-timeline-marker">
-                <div class="daily-timeline-icon">
-                  <i class={`bi ${item.icon}`}></i>
+        <!-- Horizontal Quick Nav Pills (Interactive on Mobile & Desktop) -->
+        <div class="routine-pills-nav-wrapper mb-3">
+          <div class="routine-pills-nav" id="routinePillsNav" role="tablist" aria-label="Pilih Jam Kegiatan">
+            {dailyRoutine.map((item, idx) => (
+              <button
+                type="button"
+                class={`routine-pill-btn ${idx === 0 ? 'active' : ''}`}
+                data-step-target={idx}
+                aria-label={`Lihat kegiatan ${item.time}`}
+              >
+                <span>{item.emoji}</span>
+                <span class="routine-pill-time">{item.shortTime}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- Swipeable Cards Track (Not Just Vertical Scroll on Mobile!) -->
+        <div class="routine-swipe-container">
+          <div class="routine-swipe-track" id="routineSwipeTrack" tabindex="0" role="region" aria-label="Alur kegiatan harian anak magang">
+            {dailyRoutine.map((item, idx) => (
+              <div class="routine-swipe-card" data-step-index={idx}>
+                <div class="routine-card-inner">
+                  <!-- Header Step & Progress -->
+                  <div class="routine-card-header">
+                    <div class="d-flex align-items-center justify-content-between w-100 mb-2">
+                      <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.7rem;">
+                        Step {item.step} of 7
+                      </span>
+                      <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">
+                        {item.badge}
+                      </span>
+                    </div>
+
+                    <!-- Mini progress bar -->
+                    <div class="routine-card-progressbar" title={`Progres Hari: ${item.progress}%`}>
+                      <div class="routine-card-progressbar-fill" style={`width: ${item.progress}%;`}></div>
+                    </div>
+                  </div>
+
+                  <!-- Body -->
+                  <div class="routine-card-body">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <span class="routine-card-emoji">{item.emoji}</span>
+                      <span class="routine-card-time font-monospace fw-bold">{item.time}</span>
+                    </div>
+                    <h4 class="routine-card-title">{item.title}</h4>
+                    <p class="routine-card-desc">{item.desc}</p>
+                  </div>
+
+                  <!-- Footer Next Button -->
+                  <div class="routine-card-footer mt-auto pt-2 border-top d-flex align-items-center justify-content-between">
+                    <span class="small text-muted" style="font-size: 0.74rem;">
+                      {idx < dailyRoutine.length - 1 ? 'Lanjut ke tahap berikutnya' : 'Selesai tepat waktu!'}
+                    </span>
+                    {idx < dailyRoutine.length - 1 && (
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-link text-decoration-none p-0 fw-semibold text-primary routine-next-btn"
+                        data-next-step={idx + 1}
+                      >
+                        Berikutnya <i class="bi bi-chevron-right"></i>
+                      </button>
+                    )}
+                    {idx === dailyRoutine.length - 1 && (
+                      <span class="badge bg-success-subtle text-success border border-success-subtle">
+                        <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
+                      </span>
+                    )}
+                  </div>
                 </div>
-                {idx < dailyRoutine.length - 1 && <div class="daily-timeline-line"></div>}
               </div>
-              <div class="daily-timeline-content">
-                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
-                  <span class="daily-timeline-time font-monospace fw-bold">{item.time}</span>
-                  <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">{item.badge}</span>
-                </div>
-                <h4 class="h6 fw-bold mb-1 text-dark">{item.title}</h4>
-                <p class="small text-muted mb-0" style="line-height: 1.55;">{item.desc}</p>
-              </div>
-            </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Mobile Step Indicator Dots -->
+        <div class="d-flex align-items-center justify-content-center gap-1.5 mt-3 d-md-none">
+          {dailyRoutine.map((_, idx) => (
+            <span class={`routine-step-dot ${idx === 0 ? 'active' : ''}`} data-dot-index={idx}></span>
           ))}
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONI DARI MURID / ANAK MAGANG (TEKS, FOTO & VIDIO) -->
-  <section class="content-section" id="testimoni-magang" style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);">
+  <!-- TESTIMONI GEN Z AESTHETIC (DESKTOP & MOBILE SOCIAL VIBE) -->
+  <section class="content-section" id="testimoni-magang" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
     <div class="container">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-5">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
-          <span class="section-heading-eyebrow">Cerita & Pengalaman Nyata</span>
-          <h2 class="section-heading-title mb-1">Testimoni Anak Magang di Saka</h2>
+          <div class="d-inline-flex align-items-center gap-1.5 badge bg-rose-subtle text-danger border border-danger-subtle rounded-pill px-3 py-1 mb-2 font-monospace" style="font-size: 0.74rem;">
+            <span>✨ 100% Real Testimonials • Gen Z Approved</span>
+          </div>
+          <h2 class="section-heading-title mb-1">Kata Anak Magang: Serunya PKL di Saka!</h2>
           <p class="section-heading-desc mb-0" style="max-width: 680px;">
-            Simak ulasan otentik, foto, dan video singkat dari para siswa SMK serta mahasiswa vokasi yang merasakan langsung serunya magang tanpa senioritas di Saka Malang.
+            Dari yang awalnya grogi, sekarang malah betah. Simak cerita jujur dan video singkat dari teman-teman SMK & Vokasi yang udah ngerasain sendiri ekosistem tanpa senioritas.
           </p>
         </div>
-        <div>
-          <a href="/aktivitas-magang/" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center gap-2 shadow-2xs">
+        <div class="d-flex gap-2 align-items-center">
+          <a href="/aktivitas-magang/" class="btn btn-outline-primary rounded-pill px-3.5 py-2 fw-semibold d-inline-flex align-items-center gap-2 shadow-2xs" style="font-size: 0.85rem;">
             <i class="bi bi-play-circle-fill"></i>
-            <span>Lihat Semua Video & Aktivitas</span>
+            <span>Buka Semua Video & Foto</span>
             <i class="bi bi-arrow-right"></i>
           </a>
         </div>
       </div>
 
-      <div class="row g-4">
-        {TESTIMONIALS.map((t) => (
-          <div class="col-md-6 col-lg-4">
-            <div class="testimonial-card-modern h-100 p-4 rounded-4 bg-white border d-flex flex-column shadow-xs">
-              <!-- Header: Avatar, Name, School, City -->
-              <div class="d-flex align-items-center gap-3 mb-3">
-                <img
-                  src={t.avatar}
-                  alt={`Foto ${t.name}`}
-                  class="rounded-circle object-fit-cover border border-2 border-primary-subtle flex-shrink-0"
-                  width="52"
-                  height="52"
-                  loading="lazy"
-                />
-                <div class="min-w-0">
-                  <div class="d-flex align-items-center gap-1.5 mb-0.5">
-                    <h3 class="h6 fw-bold mb-0 text-dark text-truncate" style="font-size: 0.95rem;">{t.name}</h3>
+      <!-- Testimonial Bento / Grid (Desktop) and Horizontal Snap-Scroll (Mobile) -->
+      <div class="testi-genz-wrapper">
+        <div class="testi-genz-track" id="testiGenzTrack">
+          {TESTIMONIALS.map((t) => (
+            <div class="testi-genz-col">
+              <div class="testi-genz-card h-100">
+                <!-- Top Social Profile Header -->
+                <div class="testi-social-header">
+                  <!-- Story Ring Avatar -->
+                  <div class="testi-story-avatar-wrap">
+                    <img
+                      src={t.avatar}
+                      alt={`Foto profil ${t.name}`}
+                      class="testi-story-avatar"
+                      loading="lazy"
+                      width="54"
+                      height="54"
+                    />
                   </div>
-                  <div class="small text-muted text-truncate" style="font-size: 0.78rem;">
-                    {t.school}
-                  </div>
-                  <div class="d-flex align-items-center gap-2 mt-0.5">
-                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle py-0 px-1.5 font-monospace" style="font-size: 0.65rem;">
-                      {t.badge}
-                    </span>
-                    <span class="small text-muted" style="font-size: 0.72rem;">
-                      <i class="bi bi-geo-alt text-danger me-0.5"></i>{t.city}
-                    </span>
+
+                  <!-- Name, Handle & Verified Badge -->
+                  <div class="min-w-0 flex-grow-1">
+                    <div class="d-flex align-items-center gap-1 mb-0.5">
+                      <span class="testi-user-name text-truncate">{t.name}</span>
+                      <i class="bi bi-patch-check-fill text-primary flex-shrink-0" title="Alumni Terverifikasi" style="font-size: 0.92rem;"></i>
+                    </div>
+                    <div class="testi-user-handle text-truncate">
+                      {t.handle} • <span class="text-secondary">{t.school}</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-1.5 mt-1">
+                      <span class="badge bg-light text-dark border py-0 px-1.5 font-monospace" style="font-size: 0.65rem;">
+                        {t.badge}
+                      </span>
+                      <span class="small text-muted" style="font-size: 0.72rem;">
+                        <i class="bi bi-geo-alt text-danger me-0.5"></i>{t.city}
+                      </span>
+                    </div>
                   </div>
                 </div>
+
+                <!-- Rating & Gen Z Vibe Tag -->
+                <div class="testi-rating-bar">
+                  <div class="testi-stars">
+                    {Array.from({ length: t.rating }).map(() => (
+                      <i class="bi bi-star-fill text-warning"></i>
+                    ))}
+                  </div>
+                  <span class="testi-vibe-pill">{t.vibeTag}</span>
+                </div>
+
+                <!-- Quote Highlight & Full Text -->
+                <div class="testi-quote-highlight">
+                  "{t.highlight}"
+                </div>
+                <p class="testi-quote-full">
+                  "{t.quote}"
+                </p>
+
+                <!-- Tags / Hashtags -->
+                <div class="testi-hashtags">
+                  {t.tags.map((tag) => (
+                    <span class="testi-tag-pill">{tag}</span>
+                  ))}
+                </div>
+
+                <!-- Interactive Video Reel Preview (if has video) -->
+                {t.hasVideo && (
+                  <div class="testi-video-mini-container mt-auto">
+                    <div class="testi-video-mini-thumb-wrap">
+                      <img
+                        src={t.videoThumbnail || t.avatar}
+                        alt={`Preview video testimoni ${t.name}`}
+                        class="testi-video-mini-thumb"
+                        loading="lazy"
+                        width="400"
+                        height="200"
+                      />
+                      <div class="testi-video-mini-overlay"></div>
+
+                      <button
+                        type="button"
+                        class="testi-video-mini-play-btn home-video-modal-btn"
+                        data-title={t.videoTitle || t.name}
+                        data-desc={t.quote}
+                        data-author={`${t.name} (${t.handle}) - ${t.school}`}
+                        data-thumb={t.videoThumbnail || t.avatar}
+                        aria-label={`Putar video cerita ${t.name}`}
+                      >
+                        <i class="bi bi-play-fill"></i>
+                      </button>
+
+                      <div class="testi-video-mini-meta">
+                        <span class="badge bg-black bg-opacity-75 text-white backdrop-blur font-monospace">
+                          <i class="bi bi-soundwave text-warning me-1"></i>{t.videoDuration}
+                        </span>
+                        <span class="badge bg-primary text-white">Tonton Klip</span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {!t.hasVideo && (
+                  <div class="testi-footer-verified mt-auto pt-3 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.75rem;">
+                    <span><i class="bi bi-shield-check text-success me-1"></i>Pengalaman Nyata</span>
+                    <span class="font-monospace text-secondary">{t.batch}</span>
+                  </div>
+                )}
               </div>
-
-              <!-- Rating Stars -->
-              <div class="d-flex align-items-center gap-1 mb-2.5 text-warning" style="font-size: 0.85rem;">
-                {Array.from({ length: t.rating }).map(() => (
-                  <i class="bi bi-star-fill"></i>
-                ))}
-                <span class="small text-muted ms-1 font-monospace" style="font-size: 0.75rem;">(5.0)</span>
-              </div>
-
-              <!-- Quote Text -->
-              <p class="small text-secondary mb-3 flex-grow-1" style="line-height: 1.6; font-size: 0.86rem;">
-                "{t.quote}"
-              </p>
-
-              <!-- Video Clip Preview / Trigger (jika ada video) -->
-              {t.hasVideo && (
-                <div class="mt-auto pt-3 border-top">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-danger w-100 rounded-pill py-2 d-flex align-items-center justify-content-center gap-2 font-monospace fw-semibold home-video-modal-btn"
-                    data-title={t.videoTitle || t.name}
-                    data-desc={t.quote}
-                    data-author={`${t.name} - ${t.school}`}
-                    data-thumb={t.videoThumbnail || t.avatar}
-                  >
-                    <i class="bi bi-play-circle-fill fs-6"></i>
-                    <span>Tonton Video Singkat ({t.videoDuration})</span>
-                  </button>
-                </div>
-              )}
-
-              {!t.hasVideo && (
-                <div class="mt-auto pt-3 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.76rem;">
-                  <span><i class="bi bi-patch-check-fill text-success me-1"></i>Ulasan Terverifikasi</span>
-                  <span class="font-monospace">{t.batch}</span>
-                </div>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- 2. RINGKASAN PROGRAM & JALUR INFORMASI (7 Kelompok Konten Utama) -->
-  <section class="content-section">
-    <div class="container">
-      <SectionHeading
-        eyebrow="Struktur Informasi"
-        title="7 Jalur Utama Panduan PKL"
-        description="Temukan informasi spesifik sesuai kebutuhan persiapan magang Anda dari indeks kelompok materi resmi."
-        center={true}
-      />
-
-      <div class="row g-4">
-        {Object.entries(GROUPS_INFO)
-          .filter(([key]) => key !== 'B4')
-          .map(([key, group]) => (
-            <div class="col-md-6 col-lg-4">
-              <LinkCard
-                href={group.path}
-                title={group.title}
-                description={group.desc}
-                icon={group.icon}
-                badge={`Kode ${key}`}
-                linkText="Buka Direktori"
-              />
             </div>
           ))}
+        </div>
+      </div>
+
+      <!-- Mobile Swipe Hint -->
+      <div class="d-flex align-items-center justify-content-center gap-2 mt-3 text-muted small d-md-none font-monospace">
+        <i class="bi bi-arrow-left-right text-primary"></i>
+        <span>Geser ke samping untuk ulasan lainnya</span>
       </div>
     </div>
   </section>
 
-  <!-- 3. VISUAL SHOWCASE: PEMBINAAN & FASILITAS KERJA NYATA (CAROUSEL / 1 BARIS SCROLL) -->
-  <section class="content-section content-section-alt">
+  <!-- 3. VISUAL SHOWCASE: PRAKTIK DIGITAL MARKETING & BISNIS DIGITAL (MENGGANTIKAN LINGKUNGAN PRAKTIK) -->
+  <section class="content-section content-section-alt" id="divisi-digital-marketing">
     <div class="container">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
-          <span class="section-heading-eyebrow">Lingkungan Praktik</span>
-          <h2 class="section-heading-title mb-1">Suasana Belajar & Pembinaan Terarah</h2>
+          <span class="section-heading-eyebrow">Divisi Unggulan & Praktik Nyata</span>
+          <h2 class="section-heading-title mb-1">Praktik Digital Marketing & Bisnis Digital di Saka</h2>
           <p class="section-heading-desc mb-0" style="max-width: 680px;">
-            Peserta terjun langsung dalam ritme kerja profesional berstandar industri dengan fasilitas memadai dan bimbingan mentor sesuai peminatan keahlian.
+            Peserta terjun langsung menangani proyek pemasaran komersial klien riil: riset kata kunci Google SEO, kurasi konten media sosial viral, foto katalog produk komersial, hingga tata kelola etalase marketplace.
           </p>
         </div>
         <div class="d-flex align-items-center gap-3">
           <span class="small text-muted d-none d-sm-inline">
             <i class="bi bi-arrows-expand-vertical me-1" style="transform: rotate(90deg); display: inline-block;"></i>Geser foto
           </span>
-          <div class="env-nav-controls" role="group" aria-label="Navigasi Galeri Foto Lingkungan">
+          <div class="env-nav-controls" role="group" aria-label="Navigasi Galeri Foto Digital Marketing">
             <button
               type="button"
               id="envCarouselPrev"
@@ -520,8 +637,8 @@ const faqs = homePage.faqs;
 
       <!-- Carousel 1 Baris Scroll Samping -->
       <div class="env-carousel-wrapper">
-        <div id="envCarouselTrack" class="env-carousel-track" tabindex="0" role="region" aria-label="Koleksi foto lingkungan praktik">
-          {lingkunganPhotos.map((item) => (
+        <div id="envCarouselTrack" class="env-carousel-track" tabindex="0" role="region" aria-label="Koleksi foto praktik digital marketing">
+          {digitalMarketingPhotos.map((item) => (
             <div class="env-carousel-item">
               <div class="photo-card">
                 <div class="photo-card-img-wrap">
@@ -803,14 +920,13 @@ const faqs = homePage.faqs;
         track.scrollBy({ left: cardWidth, behavior: 'smooth' });
       });
 
-      // Mouse Drag-to-Scroll (Desktop)
       let isDown = false;
       let startX = 0;
       let scrollLeft = 0;
       let hasDragged = false;
 
       track.addEventListener('mousedown', (e: MouseEvent) => {
-        if (e.button !== 0) return; // Klik kiri saja
+        if (e.button !== 0) return;
         isDown = true;
         hasDragged = false;
         track.classList.add('is-dragging');
@@ -834,7 +950,7 @@ const faqs = homePage.faqs;
         if (!isDown) return;
         e.preventDefault();
         const x = e.pageX - track.offsetLeft;
-        const walk = (x - startX) * 1.5; // Kecepatan scroll responsif
+        const walk = (x - startX) * 1.5;
         if (Math.abs(walk) > 5) {
           hasDragged = true;
         }
@@ -860,7 +976,7 @@ const faqs = homePage.faqs;
     function setupHomeVideoModal() {
       const videoBtns = document.querySelectorAll('.home-video-modal-btn');
       const modalTitle = document.getElementById('homeModalVideoTitle');
-      const modalThumb = document.getElementById('homeModalVideoThumb') as HTMLImageElement | null;
+      const modalThumb = document.getElementById('homeModalVideoThumb');
       const modalDesc = document.getElementById('homeModalVideoDesc');
       const modalAuthor = document.getElementById('homeModalVideoAuthor');
 
@@ -872,7 +988,7 @@ const faqs = homePage.faqs;
           const thumb = btn.getAttribute('data-thumb') || '';
 
           if (modalTitle) modalTitle.textContent = title;
-          if (modalThumb && thumb) modalThumb.src = thumb;
+          if (modalThumb && thumb) (modalThumb as HTMLImageElement).src = thumb;
           if (modalDesc) modalDesc.textContent = desc;
           if (modalAuthor) modalAuthor.textContent = author;
 
@@ -885,9 +1001,74 @@ const faqs = homePage.faqs;
       });
     }
 
+    function setupDailyRoutineSwipe() {
+      const track = document.getElementById('routineSwipeTrack');
+      const pills = document.querySelectorAll('.routine-pill-btn');
+      const dots = document.querySelectorAll('.routine-step-dot');
+      const nextBtns = document.querySelectorAll('.routine-next-btn');
+      if (!track) return;
+
+      function updateActiveState(stepIdx: number) {
+        pills.forEach((p, i) => {
+          if (i === stepIdx) {
+            p.classList.add('active');
+            p.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          } else {
+            p.classList.remove('active');
+          }
+        });
+
+        dots.forEach((d, i) => {
+          if (i === stepIdx) {
+            d.classList.add('active');
+          } else {
+            d.classList.remove('active');
+          }
+        });
+      }
+
+      function scrollToStep(stepIdx: number) {
+        const card = track?.querySelector(`[data-step-index="${stepIdx}"]`) as HTMLElement | null;
+        if (card && track) {
+          track.scrollTo({ left: card.offsetLeft - 16, behavior: 'smooth' });
+          updateActiveState(stepIdx);
+        }
+      }
+
+      pills.forEach((pill) => {
+        pill.addEventListener('click', () => {
+          const target = Number(pill.getAttribute('data-step-target') || 0);
+          scrollToStep(target);
+        });
+      });
+
+      nextBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const next = Number(btn.getAttribute('data-next-step') || 0);
+          scrollToStep(next);
+        });
+      });
+
+      track.addEventListener(
+        'scroll',
+        () => {
+          const cards = track.querySelectorAll('.routine-swipe-card');
+          const scrollLeft = track.scrollLeft;
+          cards.forEach((card, idx) => {
+            const el = card as HTMLElement;
+            if (Math.abs(el.offsetLeft - scrollLeft - 16) < el.offsetWidth / 2) {
+              updateActiveState(idx);
+            }
+          });
+        },
+        { passive: true }
+      );
+    }
+
     function initHomePage() {
       setupEnvCarousel();
       setupHomeVideoModal();
+      setupDailyRoutineSwipe();
     }
 
     initHomePage();
@@ -895,7 +1076,9 @@ const faqs = homePage.faqs;
   </script>
 
   <style>
-    /* Schedule Cards Styling */
+    /* =========================================================
+       SCHEDULE & ROUTINE STYLES (MOBILE-FIRST INTERACTIVE SLIDER)
+       ========================================================= */
     .schedule-stat-card {
       transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
     }
@@ -905,71 +1088,372 @@ const faqs = homePage.faqs;
       border-color: #0284c7 !important;
     }
     .schedule-stat-icon {
-      width: 52px;
-      height: 52px;
-      border-radius: 14px;
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.5rem;
+      font-size: 1.35rem;
+    }
+    @media (min-width: 768px) {
+      .schedule-stat-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        font-size: 1.5rem;
+      }
     }
 
-    /* Daily Routine Timeline */
-    .daily-timeline {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      position: relative;
+    /* Routine Pills Nav */
+    .routine-pills-nav-wrapper {
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-bottom: 4px;
     }
-    .daily-timeline-item {
-      display: flex;
-      gap: 1.25rem;
-      position: relative;
+    .routine-pills-nav-wrapper::-webkit-scrollbar {
+      display: none;
     }
-    .daily-timeline-marker {
+    .routine-pills-nav {
       display: flex;
-      flex-direction: column;
+      gap: 0.5rem;
+      min-width: max-content;
+      padding: 0.25rem 0;
+    }
+    .routine-pill-btn {
+      display: inline-flex;
       align-items: center;
-      flex-shrink: 0;
-      width: 44px;
+      gap: 0.45rem;
+      padding: 0.45rem 0.95rem;
+      border-radius: 9999px;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
     }
-    .daily-timeline-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #f0f9ff;
-      border: 2px solid #0284c7;
-      color: #0284c7;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.1rem;
-      z-index: 2;
-    }
-    .daily-timeline-line {
-      width: 2px;
-      flex-grow: 1;
+    .routine-pill-btn:hover {
       background: #e2e8f0;
-      margin-top: 6px;
-      margin-bottom: -6px;
+      color: #0f172a;
     }
-    .daily-timeline-content {
-      flex-grow: 1;
-      padding-bottom: 0.5rem;
-    }
-    .daily-timeline-time {
-      font-size: 0.85rem;
-      color: #0284c7;
+    .routine-pill-btn.active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #0284c7;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
     }
 
-    /* Testimonial Cards */
-    .testimonial-card-modern {
-      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    /* Routine Swipe Track (Mobile: Horizontal Snap, Desktop: Horizontal Flow) */
+    .routine-swipe-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
     }
-    .testimonial-card-modern:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 28px -6px rgba(15, 23, 42, 0.1);
-      border-color: #0284c7 !important;
+    .routine-swipe-track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding: 0.5rem 0.25rem 0.75rem;
+      scrollbar-width: thin;
+    }
+    .routine-swipe-card {
+      flex: 0 0 86%;
+      max-width: 380px;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+    @media (min-width: 768px) {
+      .routine-swipe-card {
+        flex: 0 0 48%;
+      }
+    }
+    @media (min-width: 1200px) {
+      .routine-swipe-card {
+        flex: 0 0 31%;
+      }
+    }
+    .routine-card-inner {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 18px;
+      padding: 1.25rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+    .routine-card-inner:hover {
+      border-color: #0284c7;
+      box-shadow: 0 8px 24px -4px rgba(2, 132, 199, 0.16);
+      transform: translateY(-3px);
+    }
+    .routine-card-progressbar {
+      width: 100%;
+      height: 4px;
+      background: #f1f5f9;
+      border-radius: 9999px;
+      overflow: hidden;
+    }
+    .routine-card-progressbar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #0284c7 0%, #38bdf8 100%);
+      border-radius: 9999px;
+    }
+    .routine-card-emoji {
+      font-size: 1.35rem;
+    }
+    .routine-card-time {
+      font-size: 0.86rem;
+      color: #0284c7;
+    }
+    .routine-card-title {
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.35;
+      margin-bottom: 0.45rem;
+    }
+    .routine-card-desc {
+      font-size: 0.82rem;
+      color: #64748b;
+      line-height: 1.55;
+      margin-bottom: 0.75rem;
+      flex-grow: 1;
+    }
+    .routine-step-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #cbd5e1;
+      transition: all 0.2s ease;
+    }
+    .routine-step-dot.active {
+      width: 20px;
+      border-radius: 9999px;
+      background: #0284c7;
+    }
+
+    /* =========================================================
+       GEN Z TESTIMONIALS STYLING (SOCIAL STORY & BEAL VIBE)
+       ========================================================= */
+    .testi-genz-wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+    .testi-genz-track {
+      display: flex;
+      gap: 1.25rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding: 0.5rem 0.25rem 1rem;
+      scrollbar-width: thin;
+    }
+    .testi-genz-col {
+      flex: 0 0 88%;
+      max-width: 400px;
+      scroll-snap-align: start;
+    }
+    @media (min-width: 768px) {
+      .testi-genz-col {
+        flex: 0 0 48%;
+      }
+    }
+    @media (min-width: 992px) {
+      .testi-genz-track {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: visible;
+        gap: 1.5rem;
+        padding: 0;
+      }
+      .testi-genz-col {
+        flex: none;
+        max-width: none;
+      }
+    }
+
+    .testi-genz-card {
+      background: #ffffff;
+      border: 1.5px solid rgba(226, 232, 240, 0.95);
+      border-radius: 22px;
+      padding: 1.35rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .testi-genz-card:hover {
+      transform: translateY(-5px);
+      border-color: #0284c7;
+      box-shadow: 0 16px 36px -8px rgba(2, 132, 199, 0.18);
+    }
+
+    /* Story Ring Avatar */
+    .testi-social-header {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      margin-bottom: 0.85rem;
+    }
+    .testi-story-avatar-wrap {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      padding: 2.5px;
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #0284c7);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .testi-story-avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ffffff;
+    }
+    .testi-user-name {
+      font-size: 0.94rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .testi-user-handle {
+      font-size: 0.76rem;
+      color: #64748b;
+      font-family: var(--font-mono, monospace);
+    }
+
+    /* Rating & Vibe Pill */
+    .testi-rating-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    .testi-stars {
+      display: flex;
+      gap: 2px;
+      font-size: 0.85rem;
+    }
+    .testi-vibe-pill {
+      font-size: 0.72rem;
+      font-weight: 700;
+      background: rgba(2, 132, 199, 0.08);
+      color: #0284c7;
+      border: 1px solid rgba(2, 132, 199, 0.2);
+      border-radius: 9999px;
+      padding: 0.2rem 0.65rem;
+      font-family: var(--font-mono, monospace);
+    }
+
+    /* Quote Highlight */
+    .testi-quote-highlight {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.35;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #0f172a 0%, #0369a1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .testi-quote-full {
+      font-size: 0.84rem;
+      color: #475569;
+      line-height: 1.55;
+      margin-bottom: 0.85rem;
+      flex-grow: 1;
+    }
+
+    /* Hashtags */
+    .testi-hashtags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.85rem;
+    }
+    .testi-tag-pill {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: #0284c7;
+      background: #f0f9ff;
+      border: 1px solid #e0f2fe;
+      border-radius: 6px;
+      padding: 0.15rem 0.45rem;
+      font-family: var(--font-mono, monospace);
+    }
+
+    /* Mini Video Preview */
+    .testi-video-mini-container {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      background: #0f172a;
+    }
+    .testi-video-mini-thumb-wrap {
+      position: relative;
+      width: 100%;
+      height: 120px;
+      overflow: hidden;
+    }
+    .testi-video-mini-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .testi-genz-card:hover .testi-video-mini-thumb {
+      transform: scale(1.05);
+    }
+    .testi-video-mini-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.2) 0%, rgba(15, 23, 42, 0.75) 100%);
+    }
+    .testi-video-mini-play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #e11d48;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      cursor: pointer;
+      z-index: 2;
+      transition: transform 0.2s ease, background 0.2s ease;
+      box-shadow: 0 4px 14px rgba(225, 29, 72, 0.4);
+    }
+    .testi-video-mini-play-btn:hover {
+      transform: translate(-50%, -50%) scale(1.15);
+      background: #be123c;
+    }
+    .testi-video-mini-meta {
+      position: absolute;
+      bottom: 8px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+      font-size: 0.7rem;
     }
   </style>
 </BaseLayout>
