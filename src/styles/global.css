@@ -2005,6 +2005,26 @@ p {
   border-radius: 16px;
   position: relative;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+/* Board menjaga struktur 3 cabang & konektor tetap utuh di semua perangkat termasuk mobile */
+.org-chart-board {
+  min-width: 820px;
+  margin: 0 auto;
+  padding: 0.5rem 0.25rem;
+}
+
+.org-three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding-top: 0.25rem;
+}
+
+.org-branch-wrap {
+  width: 100%;
 }
 
 .org-card-box {

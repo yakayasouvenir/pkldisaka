@@ -225,31 +225,38 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
             Bagan struktur organisasi Saka dirancang untuk memastikan tata kelola industri yang profesional, pembagian tanggung jawab yang transparan, serta jalur bimbingan intensif bagi seluruh peserta Praktik Kerja Lapangan.
           </p>
 
-          <!-- Diagram Struktur Sesuai Bagan Resmi -->
+          <!-- Diagram Struktur Sesuai Bagan Resmi (Mempertahankan Struktur Utuh di Mobile) -->
           <div class="org-chart-container p-3 p-md-4 rounded-4 bg-light border shadow-sm">
-            <!-- LEVEL 1: DIREKTUR -->
-            <div class="d-flex justify-content-center mb-3">
-              <div class="org-card-box org-card-director text-center shadow-sm">
-                <div class="org-person-name">Aditiya Yoga Isnaeni</div>
-                <div class="org-person-role">DIREKTUR</div>
-              </div>
+            <!-- Indikator Geser Horizontal di Mobile -->
+            <div class="d-lg-none d-flex align-items-center justify-content-center gap-1.5 text-muted small mb-3 py-1.5 px-3 bg-white rounded-pill border shadow-xs mx-auto" style="width: fit-content; font-size: 0.78rem;">
+              <i class="bi bi-arrows-expand text-primary"></i>
+              <span>Geser ke samping untuk melihat bagan struktur lengkap</span>
             </div>
 
-            <!-- Connector dari Direktur ke 3 Cabang -->
-            <div class="org-tree-stem-container d-none d-lg-block">
-              <div class="org-stem-vertical"></div>
-              <div class="org-stem-horizontal-3"></div>
-              <div class="org-stem-drops d-flex justify-content-between">
-                <div class="org-stem-drop"></div>
-                <div class="org-stem-drop"></div>
-                <div class="org-stem-drop"></div>
+            <!-- Board Bagan Struktur (Tetap 3 Kolom & Konektor Garis Utuh) -->
+            <div class="org-chart-board">
+              <!-- LEVEL 1: DIREKTUR -->
+              <div class="d-flex justify-content-center mb-3">
+                <div class="org-card-box org-card-director text-center shadow-sm">
+                  <div class="org-person-name">Aditiya Yoga Isnaeni</div>
+                  <div class="org-person-role">DIREKTUR</div>
+                </div>
               </div>
-            </div>
 
-            <!-- LEVEL 2 & 3: 3 CABANG UTAMA (CRO, FINANCE, LEADER PRODUKSI) -->
-            <div class="row g-4 pt-lg-2">
-              <!-- CABANG 1: CRO (Kiri) -->
-              <div class="col-lg-4">
+              <!-- Connector dari Direktur ke 3 Cabang -->
+              <div class="org-tree-stem-container">
+                <div class="org-stem-vertical"></div>
+                <div class="org-stem-horizontal-3"></div>
+                <div class="org-stem-drops d-flex justify-content-between">
+                  <div class="org-stem-drop"></div>
+                  <div class="org-stem-drop"></div>
+                  <div class="org-stem-drop"></div>
+                </div>
+              </div>
+
+              <!-- LEVEL 2 & 3: 3 CABANG UTAMA (CRO, FINANCE, LEADER PRODUKSI) -->
+              <div class="org-three-columns">
+                <!-- CABANG 1: CRO (Kiri) -->
                 <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
                   <!-- Level 2 Card: CRO -->
                   <div class="org-card-box w-100 text-center mb-3 shadow-sm">
@@ -258,7 +265,7 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
                   </div>
 
                   <!-- Connector Sub-Cabang CRO -->
-                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                  <div class="org-sub-stem-container w-100">
                     <div class="org-stem-vertical-short"></div>
                     <div class="org-sub-horizontal-2"></div>
                     <div class="org-sub-drops d-flex justify-content-between">
@@ -283,10 +290,8 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- CABANG 2: FINANCE (Tengah) -->
-              <div class="col-lg-4">
+                <!-- CABANG 2: FINANCE (Tengah) -->
                 <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
                   <!-- Level 2 Card: FINANCE -->
                   <div class="org-card-box w-100 text-center mb-3 shadow-sm">
@@ -295,7 +300,7 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
                   </div>
 
                   <!-- Connector Sub-Cabang FINANCE -->
-                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                  <div class="org-sub-stem-container w-100">
                     <div class="org-stem-drop-single"></div>
                   </div>
 
@@ -306,10 +311,8 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- CABANG 3: LEADER PRODUKSI (Kanan) -->
-              <div class="col-lg-4">
+                <!-- CABANG 3: LEADER PRODUKSI (Kanan) -->
                 <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
                   <!-- Level 2 Card: LEADER PRODUKSI -->
                   <div class="org-card-box w-100 text-center mb-3 shadow-sm">
@@ -318,7 +321,7 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
                   </div>
 
                   <!-- Connector Sub-Cabang PRODUKSI -->
-                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                  <div class="org-sub-stem-container w-100">
                     <div class="org-stem-vertical-short"></div>
                     <div class="org-sub-horizontal-2"></div>
                     <div class="org-sub-drops d-flex justify-content-between">
