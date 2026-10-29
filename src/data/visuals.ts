@@ -330,3 +330,94 @@ export function getDeterministicImage(str: string): string {
   const index = Math.abs(hash) % allImagesPool.length;
   return allImagesPool[index];
 }
+
+export interface GalleryPhoto {
+  src: string;
+  alt: string;
+  badge: string;
+  caption: string;
+}
+
+export function getArticleGallery(path: string, primarySrc: string): GalleryPhoto[] {
+  let hash1 = 0;
+  for (let i = 0; i < path.length; i++) {
+    hash1 = (hash1 << 5) - hash1 + path.charCodeAt(i) + 7;
+    hash1 |= 0;
+  }
+  let hash2 = 0;
+  for (let i = 0; i < path.length; i++) {
+    hash2 = (hash2 << 5) - hash2 + path.charCodeAt(i) + 17;
+    hash2 |= 0;
+  }
+
+  const poolFiltered = allImagesPool.filter((img) => img !== primarySrc);
+  const img1 = poolFiltered[Math.abs(hash1) % poolFiltered.length];
+  const remaining = poolFiltered.filter((img) => img !== img1);
+  const img2 = remaining[Math.abs(hash2) % remaining.length];
+
+  if (path.includes('/jurusan/rpl') || path.includes('/jurusan/tkj') || path.includes('/jurusan/teknik-informatika') || path.includes('/divisi/seo-website')) {
+    return [
+      {
+        src: img1,
+        alt: 'Sesi bimbingan arsitektur software dan optimasi website',
+        badge: 'Praktik Teknis',
+        caption: 'Peserta mendiskusikan implementasi kode, debugging, dan integrasi modul sistem secara langsung bersama mentor.',
+      },
+      {
+        src: img2,
+        alt: 'Pengujian performa server dan koneksi infrastruktur kerja',
+        badge: 'Fasilitas Kerja',
+        caption: 'Ruang kerja dilengkapi akses internet berkecepatan tinggi serta lingkungan pengujian aplikasi yang terisolasi.',
+      },
+    ];
+  }
+
+  if (path.includes('/jurusan/dkv') || path.includes('/divisi/desain-grafis') || path.includes('/divisi/foto-video-produk') || path.includes('/divisi/content-creator')) {
+    return [
+      {
+        src: img1,
+        alt: 'Proses kreatif perancangan visual dan tata letak aset digital',
+        badge: 'Studio Desain',
+        caption: 'Eksplorasi palet warna, tipografi komersial, dan proofing materi promosi digital di studio Saka.',
+      },
+      {
+        src: img2,
+        alt: 'Sesi kurasi dan review materi publikasi bersama tim kreatif',
+        badge: 'Review Berkala',
+        caption: 'Setiap karya mendapatkan arahan masukan konstruktif agar standar estetika memenuhi ekspektasi industri.',
+      },
+    ];
+  }
+
+  if (path.includes('/dokumen-pkl/')) {
+    return [
+      {
+        src: img1,
+        alt: 'Penyusunan berkas administrasi dan pengesahan laporan PKL',
+        badge: 'Administrasi Rapi',
+        caption: 'Panduan tata kelola penulisan dokumen resmi agar disetujui pihak sekolah dan ditandatangani pimpinan industri.',
+      },
+      {
+        src: img2,
+        alt: 'Konsultasi kelengkapan berkas dan jurnal kegiatan harian',
+        badge: 'Verifikasi Berkas',
+        caption: 'Pemeriksaan kepatuhan format persuratan dan rubrik penilaian kompetensi sebelum penyerahan akhir.',
+      },
+    ];
+  }
+
+  return [
+    {
+      src: img1,
+      alt: 'Suasana kolaborasi kerja dan pendampingan mentor di Saka Malang',
+      badge: 'Bimbingan Nyata',
+      caption: 'Peserta dibiasakan berinteraksi dalam ekosistem profesional dengan pendampingan intensif dari staf industri.',
+    },
+    {
+      src: img2,
+      alt: 'Fasilitas ruang kerja kolaboratif dan ruang diskusi proyek',
+      badge: 'Fasilitas Agensi',
+      caption: 'Dukungan lingkungan kerja kondusif yang mendorong pemecahan masalah secara mandiri maupun tim.',
+    },
+  ];
+}

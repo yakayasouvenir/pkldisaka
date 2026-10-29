@@ -24,6 +24,19 @@ const isParentActive = (item: (typeof NAV)[number]) => {
   }
   return false;
 };
+
+// Icon map for top-level navigation items
+const navIcons: Record<string, string> = {
+  'Beranda': 'bi-house-door-fill',
+  'Program': 'bi-grid-fill',
+  'Jurusan': 'bi-mortarboard-fill',
+  'Divisi': 'bi-briefcase-fill',
+  'Dokumen PKL': 'bi-file-earmark-text-fill',
+  'PKL Malang': 'bi-geo-alt-fill',
+  'Tentang': 'bi-info-circle-fill',
+  'FAQ': 'bi-question-circle-fill',
+  'Kontak': 'bi-telephone-fill',
+};
 ---
 
 <header class="site-header" id="siteHeader">
@@ -100,33 +113,71 @@ const isParentActive = (item: (typeof NAV)[number]) => {
         class="mobile-toggler-btn d-lg-none"
         type="button"
         id="mobileMenuToggle"
-        aria-label="Buka menu navigasi"
+        aria-label="Buka navigasi menu"
         aria-expanded="false"
         aria-controls="mobileNavPanel"
       >
-        <i class="bi bi-list menu-icon-open"></i>
-        <i class="bi bi-x-lg menu-icon-close d-none"></i>
+        <span class="toggler-icon-wrap">
+          <i class="bi bi-list menu-icon-open"></i>
+          <i class="bi bi-x-lg menu-icon-close d-none"></i>
+        </span>
+        <span class="toggler-text">Menu</span>
       </button>
     </div>
   </div>
 
-  <!-- 5. DEDICATED FULL-VIEWPORT MOBILE NAV PANEL (Never trapped by containers) -->
+  <!-- 5. DEDICATED FULL-VIEWPORT MOBILE NAV PANEL (Permanently anchored below fixed header) -->
   <div class="mobile-nav-panel" id="mobileNavPanel" aria-hidden="true">
     <div class="mobile-nav-inner">
+      <!-- Announcement & Active Period Badge -->
+      <div class="mobile-status-pill mb-3">
+        <span class="pulse-dot"></span>
+        <span class="status-text">Pendaftaran PKL & Magang SMK/Kampus Dibuka</span>
+      </div>
+
+      <!-- Quick Action Cards (Cara Daftar & WA Cepat) -->
+      <div class="row g-2 mb-3">
+        <div class="col-6">
+          <a href="/cara-daftar/" class="mobile-quick-card card-primary">
+            <div class="quick-icon"><i class="bi bi-journal-check"></i></div>
+            <div class="quick-meta">
+              <span class="quick-title">Cara Daftar</span>
+              <span class="quick-sub">Alur & Syarat</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href={waLink()} target="_blank" rel="noopener" class="mobile-quick-card card-whatsapp">
+            <div class="quick-icon"><i class="bi bi-whatsapp"></i></div>
+            <div class="quick-meta">
+              <span class="quick-title">WhatsApp</span>
+              <span class="quick-sub">Respon Cepat</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Main Navigation Groups -->
       <div class="mobile-menu-list">
         {NAV.map((item, idx) => (
           item.children ? (
             <div class="mobile-nav-group">
               <button
                 type="button"
-                class="mobile-group-toggle"
+                class:list={['mobile-group-toggle', { 'is-active': isParentActive(item) }]}
                 data-target={`#mobileGroup-${idx}`}
                 aria-expanded="false"
               >
-                <span class:list={['mobile-group-title', { 'text-primary': isParentActive(item) }]}>
-                  {item.label}
-                </span>
-                <i class="bi bi-chevron-down mobile-chevron"></i>
+                <div class="d-flex align-items-center gap-2">
+                  <span class="mobile-cat-icon">
+                    <i class={`bi ${navIcons[item.label] || 'bi-folder-fill'}`}></i>
+                  </span>
+                  <span class="mobile-group-title">{item.label}</span>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                  <span class="mobile-badge-count">{item.children.length}</span>
+                  <i class="bi bi-chevron-down mobile-chevron"></i>
+                </div>
               </button>
               <div class="mobile-group-collapse" id={`mobileGroup-${idx}`}>
                 <div class="mobile-sub-list">
@@ -135,8 +186,17 @@ const isParentActive = (item: (typeof NAV)[number]) => {
                       class:list={['mobile-sub-link', { active: isActive(child.href) }]}
                       href={child.href}
                     >
-                      {child.icon && <i class={`bi ${child.icon} me-2 text-primary`}></i>}
-                      <span>{child.label}</span>
+                      <div class="d-flex align-items-start gap-2">
+                        {child.icon ? (
+                          <i class={`bi ${child.icon} mobile-sub-ico`}></i>
+                        ) : (
+                          <i class="bi bi-arrow-right-short mobile-sub-ico"></i>
+                        )}
+                        <div class="mobile-sub-text">
+                          <div class="sub-label">{child.label}</div>
+                          {child.desc && <div class="sub-desc">{child.desc}</div>}
+                        </div>
+                      </div>
                     </a>
                   ))}
                 </div>
@@ -148,42 +208,55 @@ const isParentActive = (item: (typeof NAV)[number]) => {
                 class:list={['mobile-single-link', { active: isActive(item.href) }]}
                 href={item.href}
               >
-                {item.label}
+                <span class="mobile-cat-icon">
+                  <i class={`bi ${navIcons[item.label] || 'bi-link-45deg'}`}></i>
+                </span>
+                <span>{item.label}</span>
               </a>
             </div>
           )
         ))}
       </div>
 
-      <!-- Mobile CTA Section -->
-      <div class="mobile-cta-section mt-4 pt-3 border-top">
-        <a class="btn-primary-saka w-100 py-3 mb-2" href="/cara-daftar/">
-          <i class="bi bi-journal-check me-1"></i>
-          <span>Panduan Cara Daftar</span>
-        </a>
-        <a class="btn-secondary-saka w-100 py-2" href={waLink()} target="_blank" rel="noopener">
-          <i class="bi bi-whatsapp me-1 text-success"></i>
-          <span>Chat WhatsApp Resmi</span>
-        </a>
+      <!-- Quick Contact & Studio Info -->
+      <div class="mobile-info-card mt-4">
+        <div class="info-head">
+          <i class="bi bi-geo-alt-fill text-danger me-1"></i>
+          <strong>Lokasi Studio Saka</strong>
+        </div>
+        <p class="info-address mb-2">
+          {SITE.address.full}
+        </p>
+        <div class="info-schedule">
+          <i class="bi bi-clock me-1 text-primary"></i>
+          <span>Senin - Jumat: 08.00 - 16.00 WIB</span>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
 <style>
-  /* Header Main Bar (Posisi Tetap Diam di Atas Layar Saat Scroll) */
+  /* Fixed Header Bar (Always pinned to top of viewport) */
   .site-header {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1040;
-    background: #ffffff;
-    border-bottom: 1px solid var(--color-border);
-    box-shadow: 0 2px 10px rgba(32, 41, 56, 0.08);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: var(--header-height, 64px);
+    z-index: 1050;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(220, 226, 234, 0.85);
+    box-shadow: 0 2px 14px rgba(15, 23, 42, 0.06);
+    display: flex;
+    align-items: center;
   }
 
   .site-header-inner {
-    padding: 0.55rem 0;
+    width: 100%;
   }
 
   .header-container {
@@ -362,52 +435,71 @@ const isParentActive = (item: (typeof NAV)[number]) => {
     flex-shrink: 0;
   }
 
-  /* Mobile Toggler Button */
+  /* Modern Mobile Toggler Button */
   .mobile-toggler-btn {
-    width: 44px;
-    height: 44px;
+    height: 42px;
+    padding: 0 0.85rem;
     border: 1px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 10px;
     background: #ffffff;
     color: var(--color-text);
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+    gap: 0.45rem;
     cursor: pointer;
-    transition: background 0.15s ease;
+    transition: all 0.18s ease;
+    box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
   }
 
   .mobile-toggler-btn:hover,
   .mobile-toggler-btn:focus {
-    background: var(--color-background);
+    background: var(--color-primary-light);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
     outline: none;
+  }
+
+  .toggler-icon-wrap {
+    font-size: 1.25rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .toggler-text {
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   /* Dedicated Mobile Nav Panel */
   .mobile-nav-panel {
     display: none;
     position: fixed;
-    top: 57px;
+    top: var(--header-height, 64px);
     left: 0;
     right: 0;
     bottom: 0;
+    height: calc(100vh - var(--header-height, 64px));
+    height: calc(100dvh - var(--header-height, 64px));
     background: #ffffff;
-    z-index: 1045;
+    z-index: 1049;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+    overscroll-behavior: contain;
+    box-shadow: 0 24px 48px rgba(15, 23, 42, 0.18);
   }
 
   .mobile-nav-panel.is-open {
     display: block;
-    animation: mobileSlideDown 0.22s ease-out;
+    animation: mobileSlideDown 0.24s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   @keyframes mobileSlideDown {
     from {
       opacity: 0;
-      transform: translateY(-8px);
+      transform: translateY(-10px);
     }
     to {
       opacity: 1;
@@ -416,29 +508,122 @@ const isParentActive = (item: (typeof NAV)[number]) => {
   }
 
   .mobile-nav-inner {
-    padding: 1rem 1.25rem 3.5rem;
+    padding: 1rem 1rem 3.5rem;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
-  /* Mobile Nav Items */
-  .mobile-nav-single {
-    border-bottom: 1px solid var(--color-border-subtle);
+  /* Status Announcement Pill */
+  .mobile-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #166534;
+    width: 100%;
+    justify-content: center;
   }
 
-  .mobile-single-link {
-    display: block;
-    padding: 0.85rem 0.5rem;
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--color-text);
+  .pulse-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    animation: pulseGlow 1.8s infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes pulseGlow {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+    }
+  }
+
+  /* Quick Action Cards */
+  .mobile-quick-card {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 10px;
     text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
 
-  .mobile-single-link.active {
-    color: var(--color-primary);
+  .mobile-quick-card:active {
+    transform: scale(0.98);
   }
 
-  .mobile-nav-group {
-    border-bottom: 1px solid var(--color-border-subtle);
+  .mobile-quick-card.card-primary {
+    background: linear-gradient(135deg, #2457A7, #183D78);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(36, 87, 167, 0.25);
+  }
+
+  .mobile-quick-card.card-whatsapp {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+  }
+
+  .quick-icon {
+    font-size: 1.35rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quick-meta {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  .quick-title {
+    font-weight: 750;
+    font-size: 0.88rem;
+  }
+
+  .quick-sub {
+    font-size: 0.72rem;
+    opacity: 0.9;
+  }
+
+  /* Mobile Nav Items & Accordions */
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .mobile-nav-group,
+  .mobile-nav-single {
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    transition: border-color 0.15s ease;
+  }
+
+  .mobile-nav-group:hover,
+  .mobile-nav-single:hover {
+    border-color: rgba(36, 87, 167, 0.3);
   }
 
   .mobile-group-toggle {
@@ -446,68 +631,173 @@ const isParentActive = (item: (typeof NAV)[number]) => {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.85rem 0.5rem;
+    padding: 0.75rem 0.85rem;
     background: transparent;
     border: none;
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--color-text);
     cursor: pointer;
     text-align: left;
+    transition: background 0.15s ease;
   }
 
-  .mobile-group-toggle:hover {
+  .mobile-group-toggle:hover,
+  .mobile-group-toggle.is-active {
+    background: #f8fafc;
+  }
+
+  .mobile-cat-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background: var(--color-primary-light);
     color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .mobile-group-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--color-text);
+  }
+
+  .mobile-badge-count {
+    background: #e2e8f0;
+    color: #475569;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.1rem 0.45rem;
+    border-radius: 9999px;
   }
 
   .mobile-chevron {
-    font-size: 0.85rem;
-    transition: transform 0.2s ease;
+    font-size: 0.8rem;
+    color: #64748b;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .mobile-group-toggle.is-active .mobile-chevron {
+  .mobile-group-toggle.is-expanded .mobile-chevron {
     transform: rotate(180deg);
+    color: var(--color-primary);
   }
 
   .mobile-group-collapse {
     display: none;
-    background: var(--color-background);
-    border-radius: var(--radius-sm);
-    margin-bottom: 0.65rem;
+    background: #f8fafc;
+    border-top: 1px solid var(--color-border-subtle);
     padding: 0.4rem 0.5rem;
   }
 
   .mobile-group-collapse.is-expanded {
     display: block;
+    animation: mobileGroupFade 0.2s ease-out;
+  }
+
+  @keyframes mobileGroupFade {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .mobile-sub-list {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
   }
 
   .mobile-sub-link {
-    display: flex;
-    align-items: center;
-    padding: 0.55rem 0.65rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--color-text);
+    display: block;
+    padding: 0.55rem 0.7rem;
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 6px;
-    transition: background 0.15s ease;
+    color: var(--color-text);
+    transition: all 0.15s ease;
   }
 
   .mobile-sub-link:hover,
   .mobile-sub-link.active {
+    background: #ffffff;
+    color: var(--color-primary);
+    box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
+  }
+
+  .mobile-sub-ico {
+    font-size: 0.95rem;
+    color: var(--color-primary);
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .mobile-sub-text {
+    line-height: 1.25;
+  }
+
+  .sub-label {
+    font-weight: 650;
+    font-size: 0.88rem;
+  }
+
+  .sub-desc {
+    font-size: 0.74rem;
+    color: var(--color-muted);
+    margin-top: 2px;
+  }
+
+  .mobile-single-link {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.75rem 0.85rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+
+  .mobile-single-link:hover,
+  .mobile-single-link.active {
     background: var(--color-primary-light);
     color: var(--color-primary);
+  }
+
+  /* Info Card */
+  .mobile-info-card {
+    background: #f8fafc;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 0.85rem;
+  }
+
+  .info-head {
+    font-size: 0.85rem;
+    color: var(--color-text);
+    margin-bottom: 0.35rem;
+  }
+
+  .info-address {
+    font-size: 0.76rem;
+    color: var(--color-muted);
+    line-height: 1.4;
+  }
+
+  .info-schedule {
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #334155;
+    display: flex;
+    align-items: center;
   }
 </style>
 
 <script>
-  // Robust vanilla JS for mobile menu and accordion
   document.addEventListener('DOMContentLoaded', () => {
     const toggleBtn = document.getElementById('mobileMenuToggle');
     const navPanel = document.getElementById('mobileNavPanel');
@@ -525,7 +815,8 @@ const isParentActive = (item: (typeof NAV)[number]) => {
           toggleBtn.setAttribute('aria-expanded', 'true');
           iconOpen?.classList.add('d-none');
           iconClose?.classList.remove('d-none');
-          document.body.style.overflow = 'hidden'; // lock background scrolling
+          document.documentElement.classList.add('mobile-menu-open');
+          document.body.classList.add('mobile-menu-open');
         } else {
           closeMobileNav();
         }
@@ -539,7 +830,8 @@ const isParentActive = (item: (typeof NAV)[number]) => {
         toggleBtn?.setAttribute('aria-expanded', 'false');
         iconOpen?.classList.remove('d-none');
         iconClose?.classList.add('d-none');
-        document.body.style.overflow = '';
+        document.documentElement.classList.remove('mobile-menu-open');
+        document.body.classList.remove('mobile-menu-open');
       }
     }
 
@@ -554,24 +846,24 @@ const isParentActive = (item: (typeof NAV)[number]) => {
 
         const isExpanded = targetCollapse.classList.contains('is-expanded');
 
-        // Close all other groups for clean accordion
+        // Close all other groups for clean accordion experience
         document.querySelectorAll('.mobile-group-collapse.is-expanded').forEach((col) => {
           if (col !== targetCollapse) {
             col.classList.remove('is-expanded');
             const otherBtn = document.querySelector(`[data-target="#${col.id}"]`);
-            otherBtn?.classList.remove('is-active');
+            otherBtn?.classList.remove('is-expanded');
             otherBtn?.setAttribute('aria-expanded', 'false');
           }
         });
 
         targetCollapse.classList.toggle('is-expanded', !isExpanded);
-        btn.classList.toggle('is-active', !isExpanded);
+        btn.classList.toggle('is-expanded', !isExpanded);
         btn.setAttribute('aria-expanded', !isExpanded ? 'true' : 'false');
       });
     });
 
     // Close when tapping on any link
-    const mobileLinks = document.querySelectorAll('.mobile-sub-link, .mobile-single-link');
+    const mobileLinks = document.querySelectorAll('.mobile-sub-link, .mobile-single-link, .mobile-quick-card');
     mobileLinks.forEach((link) => {
       link.addEventListener('click', () => {
         closeMobileNav();

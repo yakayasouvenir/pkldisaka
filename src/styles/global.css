@@ -5,6 +5,7 @@
 
 :root {
   /* Proposed Design Tokens (DESIGN.md Bab 2) */
+  --header-height: 64px;
   --color-primary: #2457A7;
   --color-primary-dark: #183D78;
   --color-primary-light: #EBF2FC;
@@ -36,15 +37,16 @@
   --bs-link-hover-color: var(--color-primary-dark);
 }
 
-/* Base styles & Prevent Mobile Overflow (overflow-x: clip maintains sticky positioning) */
+/* Base styles & Prevent Mobile Overflow (overflow-x: clip maintains fixed/sticky positioning) */
 html, body {
   overflow-x: clip;
   max-width: 100%;
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: calc(var(--header-height, 64px) + 20px);
 }
 
 body {
+  padding-top: var(--header-height, 64px);
   background-color: var(--color-background);
   color: var(--color-text);
   font-family: var(--bs-body-font-family);
@@ -53,6 +55,12 @@ body {
   text-rendering: optimizeLegibility;
   word-break: break-word;
   overflow-wrap: break-word;
+}
+
+html.mobile-menu-open,
+body.mobile-menu-open {
+  overflow: hidden !important;
+  touch-action: none;
 }
 
 img, svg, video {

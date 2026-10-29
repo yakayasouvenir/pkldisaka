@@ -41,16 +41,101 @@ const allFaqs = [
         note="Jawaban disusun transparan untuk memberikan kejelasan bagi calon siswa, mahasiswa, dan guru pembimbing."
       />
 
-      <!-- Banner Link to Tentang Saka -->
-      <div class="p-3 p-md-4 rounded-4 bg-light border mb-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
-        <div>
-          <div class="fw-bold text-dark mb-1">Mencari Profil & Visi Industri Saka?</div>
-          <p class="small text-muted mb-0">Pelajari profil agensi, fasilitas studio kerja, dan komitmen bimbingan vokasi kami.</p>
+      <!-- Feature Box: Bantuan Informasi & Konsultasi Terpadu (Foto 2) -->
+      <div class="article-feature-box mb-4">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-5">
+            <div class="article-feature-img-wrap">
+              <img
+                src="/images/10.webp"
+                alt="Sesi asistensi dan penjelasan informasi PKL kepada siswa"
+                loading="lazy"
+                width="480"
+                height="300"
+              />
+              <span class="article-feature-badge">
+                <i class="bi bi-patch-question me-1"></i>Pusat Bantuan
+              </span>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h3 class="h6 fw-bold text-primary mb-2">Transparansi Kebijakan & Standar Pembinaan</h3>
+            <p class="small text-muted mb-2">
+              Saka berkomitmen menyajikan informasi magang secara jujur dan faktual. Tidak ada biaya pendaftaran tersembunyi, kuota buatan, maupun janji fiktif.
+            </p>
+            <div class="competency-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Respon Cepat:</strong> Jawaban pertanyaan administratif via WhatsApp dalam 1x24 jam kerja.</span>
+            </div>
+            <div class="competency-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Panduan Resmi:</strong> Selaras dengan ketentuan kurikulum vokasi Kemendikbud & MBKM.</span>
+            </div>
+            <div class="competency-item mb-0">
+              <i class="bi bi-check-circle-fill"></i>
+              <span><strong>Bebas Pungutan:</strong> Seluruh proses pendaftaran dan bimbingan 100% gratis.</span>
+            </div>
+          </div>
         </div>
-        <a href="/tentang/" class="btn-primary-saka text-nowrap align-self-start align-self-md-center">
-          <i class="bi bi-building"></i>
-          <span>Halaman Tentang Saka</span>
-        </a>
+      </div>
+
+      <!-- Dokumentasi Foto Layanan & Suasana Magang (Foto 3 & 4) -->
+      <div class="my-4 p-3 p-md-4 rounded-4 bg-light border">
+        <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+          <div>
+            <h3 class="h6 fw-bold text-dark mb-0">
+              <i class="bi bi-camera-fill text-primary me-2"></i>Aktivitas Nyata & Suasana Konsultasi
+            </h3>
+            <p class="small text-muted mb-0">Dokumentasi lingkungan kerja dan interaksi pembimbingan di studio Saka Malang.</p>
+          </div>
+          <span class="badge bg-white text-primary border shadow-xs">
+            <i class="bi bi-images me-1"></i>Dokumentasi Faktual
+          </span>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="bg-white rounded-3 overflow-hidden border shadow-xs h-100 d-flex flex-column">
+              <div class="position-relative">
+                <img
+                  src="/images/22.webp"
+                  alt="Suasana ruang kerja kolaboratif peserta magang di Saka"
+                  loading="lazy"
+                  class="w-100 object-fit-cover"
+                  style="height: 195px;"
+                />
+                <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                  <i class="bi bi-laptop me-1"></i>Ruang Kolaborasi
+                </span>
+              </div>
+              <div class="p-3 d-flex flex-column flex-grow-1">
+                <div class="fw-bold small text-dark mb-1">Ruang Kerja Kolaboratif</div>
+                <p class="small text-muted mb-0">Peserta magang bekerja dalam tim terpadu dengan fasilitas laptop, koneksi internet agensi, dan layar presentasi proyek.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="bg-white rounded-3 overflow-hidden border shadow-xs h-100 d-flex flex-column">
+              <div class="position-relative">
+                <img
+                  src="/images/8.webp"
+                  alt="Sesi diskusi mentoring teknis bersama pembimbing industri"
+                  loading="lazy"
+                  class="w-100 object-fit-cover"
+                  style="height: 195px;"
+                />
+                <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                  <i class="bi bi-people-fill me-1"></i>Mentoring Rutin
+                </span>
+              </div>
+              <div class="p-3 d-flex flex-column flex-grow-1">
+                <div class="fw-bold small text-dark mb-1">Bimbingan Teknis & Solusi Hambatan</div>
+                <p class="small text-muted mb-0">Peserta tidak dilepas begitu saja; mentor mendampingi pemecahan masalah teknis dan mereview progres pekerjaan secara terjadwal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- FAQ Section -->
@@ -62,9 +147,9 @@ const allFaqs = [
       />
 
       <div class="article-content mt-4">
-        <h2 class="h4 fw-bold mb-3">Butuh Bantuan Pertanyaan Lain?</h2>
+        <h2 class="h4 fw-bold mb-3">Pedoman Tambahan untuk Pihak Sekolah & Wali Siswa</h2>
         <p class="text-muted">
-          Jika pertanyaan spesifik Anda belum tercantum pada daftar di atas, Anda dapat berkoordinasi langsung dengan tim administrasi kami melalui kanal WhatsApp atau formulir di halaman kontak.
+          Pihak SMK, vokasi, dan perguruan tinggi yang membutuhkan koordinasi khusus terkait draft MoU, surat pengantar kolektif (satu angkatan), atau penyesuaian kalender akademik magang dapat menghubungi kami melalui jalur email resmi administrasi (<a href="mailto:info@pkldisaka.com">info@pkldisaka.com</a>) atau WhatsApp pelayanan. Kami siap memfasilitasi kebutuhan administrasi formal institusi Anda.
         </p>
         <RelatedLinks urls={page.relatedUrls} />
       </div>

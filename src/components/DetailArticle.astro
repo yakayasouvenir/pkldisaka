@@ -24,10 +24,12 @@ const crumbs = [
 
 const faqs = page.faqs || [];
 
-import { articleVisuals, getDeterministicImage } from '../data/visuals';
+import { articleVisuals, getDeterministicImage, getArticleGallery } from '../data/visuals';
 
 const visualItem = articleVisuals[page.path];
 const heroBg = visualItem?.src || getDeterministicImage(page.path);
+const galleryPhotos = getArticleGallery(page.path, heroBg);
+const featurePhoto = galleryPhotos[0]?.src || heroBg;
 ---
 
 <BaseLayout
@@ -73,14 +75,14 @@ const heroBg = visualItem?.src || getDeterministicImage(page.path);
               <p class="article-summary-text">{page.summary}</p>
             </div>
 
-            <!-- Interactive Feature Box: Tata Letak Split dengan Foto Compact & Standar Kompetensi -->
+            <!-- Interactive Feature Box: Tata Letak Split dengan Foto Compact & Standar Kompetensi (Foto 2) -->
             <div class="article-feature-box">
               <div class="row g-3 align-items-center">
                 <div class="col-md-5">
                   <div class="article-feature-img-wrap">
                     <img
-                      src={heroBg}
-                      alt={`Aktivitas ${page.h1}`}
+                      src={featurePhoto}
+                      alt={`Praktik kerja nyata pada ${page.h1}`}
                       loading="lazy"
                       width="480"
                       height="300"
@@ -134,6 +136,124 @@ const heroBg = visualItem?.src || getDeterministicImage(page.path);
                   )}
                 </div>
               ))}
+            </div>
+
+            <!-- Dokumentasi Foto Lapangan & Fasilitas Terkait (Foto 3 & 4) -->
+            <div class="article-gallery-showcase my-4 p-3 p-md-4 rounded-4 bg-light border">
+              <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+                <div>
+                  <h3 class="h6 fw-bold text-dark mb-0">
+                    <i class="bi bi-camera-fill text-primary me-2"></i>Dokumentasi Aktivitas & Fasilitas Terkait
+                  </h3>
+                  <p class="small text-muted mb-0">Gambaran nyata ekosistem kerja, sarana penunjang, dan pendampingan di Saka Malang.</p>
+                </div>
+                <span class="badge bg-white text-primary border shadow-xs">
+                  <i class="bi bi-images me-1"></i>Dokumentasi Nyata
+                </span>
+              </div>
+
+              <div class="row g-3">
+                {galleryPhotos.map((photo) => (
+                  <div class="col-md-6">
+                    <div class="gallery-photo-card h-100 bg-white rounded-3 overflow-hidden border shadow-xs d-flex flex-column">
+                      <div class="position-relative">
+                        <img
+                          src={photo.src}
+                          alt={photo.alt}
+                          loading="lazy"
+                          class="w-100 object-fit-cover"
+                          style="height: 195px;"
+                        />
+                        <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                          <i class="bi bi-tag-fill me-1"></i>{photo.badge}
+                        </span>
+                      </div>
+                      <div class="p-3 d-flex flex-column flex-grow-1">
+                        <div class="fw-bold small text-dark mb-1">{photo.alt}</div>
+                        <p class="small text-muted mb-0" style="line-height: 1.5;">{photo.caption}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <!-- Alur SOP & Pelaksanaan Praktik Industri Terstruktur -->
+            <div class="sop-guide-box my-4 p-3 p-md-4 rounded-4 bg-white border shadow-xs">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <div class="rounded-circle bg-primary-subtle text-primary p-2 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px;">
+                  <i class="bi bi-clipboard2-check-fill"></i>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold text-dark mb-0">Alur Standar Operasional Prosedur (SOP) Industri</h3>
+                  <p class="small text-muted mb-0">Tahapan pelaksanaan kerja terarah yang dilalui setiap peserta di Saka:</p>
+                </div>
+              </div>
+
+              <div class="sop-steps-list d-flex flex-column gap-3">
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">1</div>
+                  <div>
+                    <div class="fw-bold text-dark small">Orientasi Divisi & Pengenalan Budaya Kerja</div>
+                    <p class="small text-muted mb-0">Pemahaman tata tertib kantor, pengenalan tools kolaborasi (Trello, Slack/Drive), dan penentuan target kompetensi individu.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">2</div>
+                  <div>
+                    <div class="fw-bold text-dark small">Pengerjaan Proyek Industri & Asistensi Rutin</div>
+                    <p class="small text-muted mb-0">Eksekusi tugas nyata sesuai pembagian tim dengan pendampingan mentor untuk memastikan standar teknis memenuhi ekspektasi klien/pasar.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">3</div>
+                  <div>
+                    <div class="fw-bold text-dark small">Verifikasi Portofolio & Pencatatan Jurnal Harian</div>
+                    <p class="small text-muted mb-0">Review mingguan atas output kerja, penyusunan studi kasus, dan pembubuhan tanda tangan verifikasi mentor pada buku logbook/jurnal PKL.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">4</div>
+                  <div>
+                    <div class="fw-bold text-dark small">Evaluasi Akhir & Penerbitan Sertifikat Resmi</div>
+                    <p class="small text-muted mb-0">Presentasi hasil pencapaian kerja, pengisian formulir penilaian sekolah/kampus, dan penerbitan sertifikat magang berstandar industri.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rubrik Evaluasi & Indikator Kelulusan -->
+            <div class="evaluation-rubric-box my-4 p-3 p-md-4 rounded-4 bg-light border">
+              <h3 class="h6 fw-bold text-dark mb-2">
+                <i class="bi bi-award-fill text-warning me-2"></i>Rubrik Penilaian & Indikator Kelulusan
+              </h3>
+              <p class="small text-muted mb-3">Aspek penilaian pembimbing industri yang dijadikan rujukan nilai rapor/transkrip magang:</p>
+              <div class="row g-2">
+                <div class="col-sm-6">
+                  <div class="p-2.5 bg-white rounded-3 border h-100">
+                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Kedisiplinan & Etika (25%)</div>
+                    <div class="small text-muted" style="font-size: 0.78rem;">Ketaatan jam kerja, attitude komunikasi profesional, dan kerapian lingkungan kantor.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-2.5 bg-white rounded-3 border h-100">
+                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Keterampilan Teknis (35%)</div>
+                    <div class="small text-muted" style="font-size: 0.78rem;">Ketelitian eksekusi, adaptasi teknologi, dan pemenuhan standar kualitas output proyek.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-2.5 bg-white rounded-3 border h-100">
+                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Inisiatif & Kerja Tim (20%)</div>
+                    <div class="small text-muted" style="font-size: 0.78rem;">Keaktifan bertanya, kolaborasi lintas divisi, dan kemampuan menyelesaikan hambatan.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-2.5 bg-white rounded-3 border h-100">
+                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Laporan & Portofolio (20%)</div>
+                    <div class="small text-muted" style="font-size: 0.78rem;">Kerapian jurnal harian, kelengkapan berkas pengesahan, dan portofolio karya nyata.</div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!-- Tips Pembimbing Industri -->
