@@ -1,0 +1,20 @@
+---
+import DetailArticle from '../../components/DetailArticle.astro';
+import { getCategoryChildren, type PklPage } from '../../data/pklData';
+
+export function getStaticPaths() {
+  const children = getCategoryChildren('persiapan-pkl');
+  return children.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: PklPage;
+}
+
+const { page } = Astro.props;
+---
+
+<DetailArticle page={page} />

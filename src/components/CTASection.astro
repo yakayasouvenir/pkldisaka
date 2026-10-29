@@ -1,0 +1,40 @@
+---
+import { waLink } from '../data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  primaryHref?: string;
+  primaryText?: string;
+  secondaryHref?: string;
+  secondaryText?: string;
+}
+
+const {
+  title = 'Siap Memulai Praktik Kerja Industri di Saka?',
+  description = 'Pelajari panduan cara daftar dan persiapkan berkas resmi sekolah Anda untuk konfirmasi jadwal pelaksanaan magang.',
+  primaryHref = '/cara-daftar/',
+  primaryText = 'Lihat Panduan Cara Daftar',
+  secondaryHref = waLink(),
+  secondaryText = 'Konsultasi via WhatsApp',
+} = Astro.props;
+---
+
+<section class="container" aria-label="Aksi Tindak Lanjut">
+  <div class="cta-box">
+    <h2>{title}</h2>
+    <p>{description}</p>
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+      <a href={primaryHref} class="btn-cta-white">
+        <i class="bi bi-file-earmark-check me-1"></i>
+        {primaryText}
+      </a>
+      {secondaryHref && (
+        <a href={secondaryHref} class="btn btn-outline-light rounded-pill px-4 py-2 fw-semibold" target={secondaryHref.startsWith('http') ? '_blank' : undefined} rel={secondaryHref.startsWith('http') ? 'noopener' : undefined}>
+          <i class="bi bi-whatsapp me-1"></i>
+          {secondaryText}
+        </a>
+      )}
+    </div>
+  </div>
+</section>

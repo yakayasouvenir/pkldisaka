@@ -1,0 +1,32 @@
+---
+import Breadcrumbs, { type BreadcrumbItem } from './Breadcrumbs.astro';
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  lead?: string;
+  crumbs?: BreadcrumbItem[];
+  bgImage?: string;
+}
+
+const {
+  eyebrow,
+  title,
+  lead,
+  crumbs = [],
+  bgImage = '/images/13.webp',
+} = Astro.props;
+---
+
+<header
+  class:list={['page-hero', { 'page-hero-has-bg': Boolean(bgImage) }]}
+  style={bgImage ? `--hero-bg: url('${bgImage}');` : undefined}
+>
+  {bgImage && <div class="page-hero-overlay" aria-hidden="true" />}
+  <div class="container position-relative" style="z-index: 2;">
+    {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
+    {eyebrow && <span class="page-badge">{eyebrow}</span>}
+    <h1 class="page-hero-title">{title}</h1>
+    {lead && <p class="page-hero-lead">{lead}</p>}
+  </div>
+</header>

@@ -1,0 +1,8 @@
+---
+import DetailArticle from '../../components/DetailArticle.astro';
+import { getPageByPath } from '../../data/pklData';
+
+const page = getPageByPath('/program-pkl/fasilitas/')!;
+---
+
+<DetailArticle page={page} />

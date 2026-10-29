@@ -1,0 +1,576 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import LinkCard from '../components/LinkCard.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import FAQList from '../components/FAQList.astro';
+import CTASection from '../components/CTASection.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import { PKL_PAGES, GROUPS_INFO, getCategoryChildren } from '../data/pklData';
+import { SCHOOL_PARTNERS } from '../data/partners';
+import { faqNode } from '../lib/schema';
+import { waLink } from '../data/site';
+
+const homePage = PKL_PAGES.find((p) => p.path === '/')!;
+const jurusans = getCategoryChildren('jurusan').slice(0, 6);
+const divisis = getCategoryChildren('divisi').slice(0, 6);
+const panduanArticles = PKL_PAGES.filter(
+  (p) => ['B8', 'B9', 'B10', 'B11'].includes(p.group) && !p.isHub
+).slice(0, 6);
+
+const arsipBgImages = [
+  '/images/4.webp',
+  '/images/8.webp',
+  '/images/10.webp',
+  '/images/13.webp',
+  '/images/22.webp',
+  '/images/21.webp',
+];
+
+const lingkunganPhotos = [
+  {
+    image: '/images/12.webp',
+    alt: 'Peserta PKL divisi Desain Grafis dan DKV sedang merancang layout desain visual di studio',
+    badge: 'Divisi Desain & DKV',
+    title: 'Studio Desain & Perancangan Visual',
+    desc: 'Peserta jurusan DKV dan Multimedia mengasah kemahiran dalam perancangan identitas merek, desain kemasan produk UMKM, tipografi, dan aset visual pemasaran dengan bimbingan standar industri.',
+    link: '/divisi/desain-grafis/',
+    linkText: 'Pelajari Divisi Desain →',
+  },
+  {
+    image: '/images/21.webp',
+    alt: 'Sesi praktik teknis coding web development dan mentoring arsitektur website peserta PKL',
+    badge: 'Divisi Web & IT',
+    title: 'Mentoring Teknis & Analisis Digital',
+    desc: 'Siswa RPL dan TKJ mendapatkan arahan teknis rutin mengenai optimasi struktur website, performa kecepatan halaman, riset kata kunci SEO, dan integrasi analitik secara berkala.',
+    link: '/divisi/seo-website/',
+    linkText: 'Pelajari Divisi SEO & Web →',
+  },
+  {
+    image: '/images/22.webp',
+    alt: 'Peserta magang PKL berdiskusi dan berkolaborasi dalam menyelesaikan proyek digital tim',
+    badge: 'Kolaborasi Antar Jurusan',
+    title: 'Ruang Kerja Kolaboratif Antar Divisi',
+    desc: 'Membiasakan peserta dengan ritme kerja agensi nyata: sinergi antara divisi kreatif visual, pemrograman web, dan pemasaran digital agar proyek terselesaikan tepat sasaran.',
+    link: '/divisi/digital-marketing/',
+    linkText: 'Pelajari Digital Marketing →',
+  },
+  {
+    image: '/images/15.webp',
+    alt: 'Aktivitas pemotretan produk dengan tata cahaya softbox studio oleh siswi magang SMK',
+    badge: 'Divisi Konten & Multimedia',
+    title: 'Studio Foto & Kurasi Konten Kreatif',
+    desc: 'Praktik langsung penataan tata cahaya softbox, pemotretan katalog produk komersial, penyusunan storyboard, serta kurasi video promosi pendek untuk platform media sosial.',
+    link: '/divisi/foto-video-produk/',
+    linkText: 'Pelajari Foto & Video →',
+  },
+  {
+    image: '/images/1.webp',
+    alt: 'Praktik perakitan boks kemasan souvenir dan pemeriksaan dummy prototipe oleh peserta PKL',
+    badge: 'Divisi Kemasan & Produksi',
+    title: 'Pemeriksaan Pracetak & Finishing Kemasan',
+    desc: 'Siswa Teknik Grafika dan Produksi mempelajari kalibrasi warna cetak, spesifikasi bahan karton kemasan, pembuatan dummy prototipe, serta teknik finishing hotprint dan embossing.',
+    link: '/divisi/packaging/',
+    linkText: 'Pelajari Divisi Kemasan →',
+  },
+  {
+    image: '/images/10.webp',
+    alt: 'Suasana ruang kerja dan fasilitas operasional PKL peserta magang di Saka Malang',
+    badge: 'Fasilitas & Ekosistem Industri',
+    title: 'Fasilitas Ruang Kerja Kondusif',
+    desc: 'Didukung koneksi internet cepat, perangkat kerja terintegrasi, suasana studio yang tenang, serta area diskusi terbuka untuk menunjang produktivitas harian seluruh peserta magang.',
+    link: '/program-pkl/fasilitas/',
+    linkText: 'Lihat Fasilitas PKL →',
+  },
+];
+
+const faqs = homePage.faqs;
+---
+
+<BaseLayout
+  title={homePage.title}
+  description={homePage.metaDescription}
+  path="/"
+  schema={[faqNode('/', faqs)]}
+>
+  <!-- 1. HERO SECTION: FULLSCREEN BACKGROUND DENGAN OVERLAY TRANSPARAN -->
+  <section
+    class="home-hero-fullscreen text-center"
+    style="--hero-bg: url('/images/13.webp');"
+  >
+    <div class="home-hero-overlay" aria-hidden="true"></div>
+
+    <div class="container home-hero-content">
+      <div class="home-hero-badge">
+        <span class="badge bg-primary rounded-pill px-2 py-1">Vokasi & Magang</span>
+        <span class="small text-white-50">Portal Resmi Panduan Praktik Kerja Industri</span>
+      </div>
+
+      <h1 class="home-hero-title">
+        Pusat Informasi & Praktik Kerja Lapangan (PKL) di Saka
+      </h1>
+
+      <p class="home-hero-lead">
+        Panduan terstruktur bagi siswa SMK dan mahasiswa vokasi: informasi program, pemetaan jurusan, pilihan divisi kerja, format dokumen administrasi, serta ekosistem magang di Kota Malang.
+      </p>
+
+      <div class="d-flex flex-wrap gap-3 justify-content-center mb-3">
+        <a href="/cara-daftar/" class="btn-primary-saka shadow-lg">
+          <i class="bi bi-journal-check"></i>
+          <span>Panduan Cara Daftar</span>
+        </a>
+        <a
+          href="/program-pkl/"
+          class="btn btn-outline-light rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2 fw-semibold"
+          style="backdrop-filter: blur(6px); background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.4);"
+        >
+          <i class="bi bi-grid-3x3-gap"></i>
+          <span>Pelajari Program</span>
+        </a>
+      </div>
+
+      <!-- Factual Notice Transparan & Teks Jelas -->
+      <div class="home-hero-status-box mx-auto" style="max-width: 760px;">
+        <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap text-start">
+          <span class="badge bg-success text-white px-2 py-1 rounded-pill flex-shrink-0" style="font-size: 0.76rem;">
+            <i class="bi bi-shield-check me-1"></i>Informasi Faktual
+          </span>
+          <span class="small" style="line-height: 1.5;">
+            Seluruh prosedur administrasi, kelengkapan berkas, dan jadwal penerimaan diselaraskan dengan tata kelola resmi pendidikan vokasi.
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MITRA SEKOLAH (ANIMASI 1 BARIS / CONTINUOUS RUNNING LOGO TICKER) -->
+  <section class="partner-marquee-section" aria-label="Mitra Sekolah & Kampus">
+    <div class="container mb-3">
+      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+        <div>
+          <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2.5 py-1 mb-1 font-monospace" style="font-size: 0.72rem;">
+            <i class="bi bi-mortarboard-fill text-primary"></i>
+            <span>Sinergi Vokasi Industri</span>
+          </div>
+          <h2 class="h5 fw-bold mb-0 text-dark">Sekolah & Kampus Mitra PKL di Saka</h2>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <span class="small text-muted d-none d-lg-inline">Telah bermitra dengan 12+ institusi pendidikan</span>
+          <a
+            href="/mitra/"
+            class="btn btn-sm btn-outline-primary rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5 shadow-2xs"
+            style="font-size: 0.82rem;"
+          >
+            <span>Lihat Semua Mitra</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1 Baris Ticker Marquee yang Mengalir Terus Menerus -->
+    <div class="partner-marquee-container">
+      <div class="partner-marquee-track">
+        {[...SCHOOL_PARTNERS, ...SCHOOL_PARTNERS].map((school, idx) => (
+          <a
+            href="/mitra/"
+            class="partner-marquee-item"
+            title={`${school.name} - ${school.city} (${school.type})`}
+            aria-hidden={idx >= SCHOOL_PARTNERS.length ? 'true' : 'false'}
+          >
+            <div class="partner-marquee-logo">
+              <img
+                src={school.logo}
+                alt={`Logo ${school.name}`}
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+            </div>
+            <div class="partner-marquee-info">
+              <span class="partner-marquee-name">{school.name}</span>
+              <span class="partner-marquee-meta">
+                <span class="badge bg-light text-secondary border py-0 px-1 font-monospace" style="font-size: 0.65rem;">
+                  {school.type}
+                </span>
+                <span>•</span>
+                <span>{school.city}</span>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. RINGKASAN PROGRAM & JALUR INFORMASI (7 Kelompok Konten Utama) -->
+  <section class="content-section">
+    <div class="container">
+      <SectionHeading
+        eyebrow="Struktur Informasi"
+        title="7 Jalur Utama Panduan PKL"
+        description="Temukan informasi spesifik sesuai kebutuhan persiapan magang Anda dari indeks kelompok materi resmi."
+        center={true}
+      />
+
+      <div class="row g-4">
+        {Object.entries(GROUPS_INFO)
+          .filter(([key]) => key !== 'B4')
+          .map(([key, group]) => (
+            <div class="col-md-6 col-lg-4">
+              <LinkCard
+                href={group.path}
+                title={group.title}
+                description={group.desc}
+                icon={group.icon}
+                badge={`Kode ${key}`}
+                linkText="Buka Direktori"
+              />
+            </div>
+          ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. VISUAL SHOWCASE: PEMBINAAN & FASILITAS KERJA NYATA (CAROUSEL / 1 BARIS SCROLL) -->
+  <section class="content-section content-section-alt">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
+        <div>
+          <span class="section-heading-eyebrow">Lingkungan Praktik</span>
+          <h2 class="section-heading-title mb-1">Suasana Belajar & Pembinaan Terarah</h2>
+          <p class="section-heading-desc mb-0" style="max-width: 680px;">
+            Peserta terjun langsung dalam ritme kerja profesional berstandar industri dengan fasilitas memadai dan bimbingan mentor sesuai peminatan keahlian.
+          </p>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <span class="small text-muted d-none d-sm-inline">
+            <i class="bi bi-arrows-expand-vertical me-1" style="transform: rotate(90deg); display: inline-block;"></i>Geser foto
+          </span>
+          <div class="env-nav-controls" role="group" aria-label="Navigasi Galeri Foto Lingkungan">
+            <button
+              type="button"
+              id="envCarouselPrev"
+              class="env-nav-btn"
+              aria-label="Foto Sebelumnya"
+              title="Geser ke kiri"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button
+              type="button"
+              id="envCarouselNext"
+              class="env-nav-btn"
+              aria-label="Foto Berikutnya"
+              title="Geser ke kanan"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel 1 Baris Scroll Samping -->
+      <div class="env-carousel-wrapper">
+        <div id="envCarouselTrack" class="env-carousel-track" tabindex="0" role="region" aria-label="Koleksi foto lingkungan praktik">
+          {lingkunganPhotos.map((item) => (
+            <div class="env-carousel-item">
+              <div class="photo-card">
+                <div class="photo-card-img-wrap">
+                  <img
+                    src={item.image}
+                    alt={item.alt}
+                    loading="lazy"
+                    width="800"
+                    height="500"
+                  />
+                  <span class="photo-card-badge">{item.badge}</span>
+                </div>
+                <div class="photo-card-body">
+                  <h3 class="photo-card-title">{item.title}</h3>
+                  <p class="photo-card-text">{item.desc}</p>
+                  <div class="mt-auto pt-3 border-top mt-3">
+                    <a href={item.link} class="saka-card-link small">
+                      {item.linkText}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PINTASAN KE JURUSAN & DIVISI -->
+  <section class="content-section">
+    <div class="container">
+      <div class="row g-4 align-items-center mb-4">
+        <div class="col-lg-8">
+          <div class="section-heading-eyebrow">Kesesuaian Kompetensi</div>
+          <h2 class="section-heading-title mb-0">Jurusan yang Relevan untuk PKL</h2>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="/jurusan/" class="btn-secondary-saka">
+            <span>Lihat Semua 9 Jurusan</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Tombol Menuju Galeri Kenangan Lengkap -->
+      <div class="text-center mt-3 mb-5">
+        <a href="/galeri/" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold">
+          <i class="bi bi-images me-2"></i>Buka Galeri & Kenang-Kenangan Lengkap
+          <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+
+      <div class="row g-3 mb-5">
+        {jurusans.map((j) => (
+          <div class="col-md-6 col-lg-4">
+            <a href={j.path} class="saka-card p-3">
+              <div class="d-flex align-items-center gap-3">
+                <div class="saka-card-icon mb-0 flex-shrink-0" style="width: 38px; height: 38px; font-size: 1.1rem;">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div>
+                  <div class="fw-bold text-dark">{j.h1.replace('Praktik Kerja Lapangan Jurusan ', 'Jurusan ')}</div>
+                  <small class="text-muted">Target: {j.targetDate}</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <div class="row g-4 align-items-center mb-4">
+        <div class="col-lg-8">
+          <div class="section-heading-eyebrow">Struktur Penempatan</div>
+          <h2 class="section-heading-title mb-0">Divisi Praktik Kerja Industri</h2>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="/divisi/" class="btn-secondary-saka">
+            <span>Lihat Semua 8 Divisi</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        {divisis.map((d) => (
+          <div class="col-md-6 col-lg-4">
+            <a href={d.path} class="saka-card p-3">
+              <div class="d-flex align-items-center gap-3">
+                <div class="saka-card-icon mb-0 flex-shrink-0" style="width: 38px; height: 38px; font-size: 1.1rem;">
+                  <i class="bi bi-diagram-3"></i>
+                </div>
+                <div>
+                  <div class="fw-bold text-dark">{d.h1.replace('Praktik Kerja di ', '')}</div>
+                  <small class="text-muted">Target: {d.targetDate}</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. CARA DAFTAR & ALUR SELEKSI DALAM RINGKASAN FAKTUAL -->
+  <section class="content-section">
+    <div class="container">
+      <SectionHeading
+        eyebrow="Prosedur Baku"
+        title="Alur Pengajuan & Tahapan Seleksi"
+        description="4 langkah sistematis dari pengurusan berkas sekolah hingga konfirmasi penerimaan resmi."
+        center={true}
+      />
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="saka-card">
+            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 01</div>
+            <h3 class="h5 fw-bold">Pengurusan Berkas</h3>
+            <p class="text-muted small">
+              Siapkan Surat Pengantar resmi dari pihak sekolah/BKK, CV ringkas 1 halaman, dan portofolio karya (bagi DKV/RPL).
+            </p>
+            <a href="/dokumen-pkl/surat-pengantar/" class="saka-card-link small mt-auto">Pelajari Berkas &rarr;</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="saka-card">
+            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 02</div>
+            <h3 class="h5 fw-bold">Pengiriman Berkas</h3>
+            <p class="text-muted small">
+              Kirimkan dokumen format PDF ke kanal narahubung resmi dengan mencantumkan nama, jurusan, dan periode magang.
+            </p>
+            <a href="/cara-daftar/" class="saka-card-link small mt-auto">Detail Pengiriman &rarr;</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="saka-card">
+            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 03</div>
+            <h3 class="h5 fw-bold">Verifikasi & Wawancara</h3>
+            <p class="text-muted small">
+              Tim akan memvalidasi ketersediaan kuota divisi dan menjadwalkan sesi wawancara perkenalan secara daring/luring.
+            </p>
+            <a href="/program-pkl/alur-seleksi/" class="saka-card-link small mt-auto">Tahap Seleksi &rarr;</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="saka-card">
+            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 04</div>
+            <h3 class="h5 fw-bold">Surat Konfirmasi</h3>
+            <p class="text-muted small">
+              Peserta yang diterima menerima Surat Balasan resmi untuk diserahkan kembali kepada pihak sekolah pemohon.
+            </p>
+            <a href="/dokumen-pkl/surat-balasan/" class="saka-card-link small mt-auto">Info Surat Balasan &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PANDUAN & DOKUMEN EDUKASI TERBARU -->
+  <section class="content-section content-section-alt">
+    <div class="container">
+      <div class="row g-4 align-items-center mb-4">
+        <div class="col-lg-8">
+          <div class="section-heading-eyebrow">Arsip Pengetahuan</div>
+          <h2 class="section-heading-title mb-0">Panduan & Bekal Praktis Magang</h2>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="/info-pkl/" class="btn-secondary-saka">
+            <span>Buka Semua Artikel</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        {panduanArticles.map((art, idx) => (
+          <div class="col-md-6 col-lg-4">
+            <ArticleCard
+              href={art.path}
+              title={art.h1}
+              summary={art.summary}
+              category={art.groupName}
+              targetDate={art.targetDate}
+              badge={art.status}
+              bgImage={arsipBgImages[idx % arsipBgImages.length]}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ SINGKAT -->
+  <FAQList
+    items={faqs}
+    id="home-faq"
+    title="Pertanyaan Umum Seputar PKL di Saka"
+    description="Rangkuman jawaban atas pertanyaan dasar seputar syarat dan pelaksanaan magang."
+  />
+
+  <!-- 7. CTA SECTION -->
+  <CTASection
+    title="Siap Mengajukan Permohonan PKL?"
+    description="Konsultasikan kesesuaian jadwal dan kuota divisi Anda dengan tim administrasi kami melalui kanal WhatsApp resmi."
+    primaryHref="/cara-daftar/"
+    primaryText="Baca Panduan Cara Daftar"
+    secondaryHref={waLink()}
+    secondaryText="Chat WhatsApp Resmi"
+  />
+
+  <script>
+    function setupEnvCarousel() {
+      const track = document.getElementById('envCarouselTrack');
+      const prevBtn = document.getElementById('envCarouselPrev') as HTMLButtonElement | null;
+      const nextBtn = document.getElementById('envCarouselNext') as HTMLButtonElement | null;
+      if (!track || !prevBtn || !nextBtn) return;
+
+      function updateNavState() {
+        if (!track || !prevBtn || !nextBtn) return;
+        const atStart = track.scrollLeft <= 10;
+        const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 10;
+        prevBtn.disabled = atStart;
+        nextBtn.disabled = atEnd;
+      }
+
+      prevBtn.addEventListener('click', () => {
+        const item = track.querySelector('.env-carousel-item') as HTMLElement | null;
+        const cardWidth = item ? item.offsetWidth + 20 : 340;
+        track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+      });
+
+      nextBtn.addEventListener('click', () => {
+        const item = track.querySelector('.env-carousel-item') as HTMLElement | null;
+        const cardWidth = item ? item.offsetWidth + 20 : 340;
+        track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+      });
+
+      // Mouse Drag-to-Scroll (Desktop)
+      let isDown = false;
+      let startX = 0;
+      let scrollLeft = 0;
+      let hasDragged = false;
+
+      track.addEventListener('mousedown', (e: MouseEvent) => {
+        if (e.button !== 0) return; // Klik kiri saja
+        isDown = true;
+        hasDragged = false;
+        track.classList.add('is-dragging');
+        startX = e.pageX - track.offsetLeft;
+        scrollLeft = track.scrollLeft;
+      });
+
+      window.addEventListener('mouseup', () => {
+        if (!isDown) return;
+        isDown = false;
+        track.classList.remove('is-dragging');
+      });
+
+      track.addEventListener('mouseleave', () => {
+        if (!isDown) return;
+        isDown = false;
+        track.classList.remove('is-dragging');
+      });
+
+      track.addEventListener('mousemove', (e: MouseEvent) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - track.offsetLeft;
+        const walk = (x - startX) * 1.5; // Kecepatan scroll responsif
+        if (Math.abs(walk) > 5) {
+          hasDragged = true;
+        }
+        track.scrollLeft = scrollLeft - walk;
+      });
+
+      // Cegah navigasi tautan yang tidak sengaja saat pengguna sedang menggeser mouse
+      track.addEventListener(
+        'click',
+        (e: MouseEvent) => {
+          if (hasDragged) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        },
+        true
+      );
+
+      track.addEventListener('scroll', updateNavState, { passive: true });
+      window.addEventListener('resize', updateNavState, { passive: true });
+      updateNavState();
+    }
+
+    setupEnvCarousel();
+    document.addEventListener('astro:page-load', setupEnvCarousel);
+  </script>
+</BaseLayout>

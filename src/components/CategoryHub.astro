@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from './PageHero.astro';
+import SectionHeading from './SectionHeading.astro';
+import ArticleCard from './ArticleCard.astro';
+import FAQList from './FAQList.astro';
+import CTASection from './CTASection.astro';
+import StatusNotice from './StatusNotice.astro';
+import { type PklPage } from '../data/pklData';
+import { faqNode } from '../lib/schema';
+
+interface Props {
+  page: PklPage;
+  childrenPages: PklPage[];
+}
+
+const { page, childrenPages } = Astro.props;
+const crumbs = [{ name: page.h1, path: page.path }];
+const faqs = page.faqs || [];
+
+const categoryImages: Record<string, { src: string; alt: string; caption: string }> = {
+  jurusan: {
+    src: '/images/12.webp',
+    alt: 'Kegiatan praktik siswa kejuruan dalam studio kerja Saka Malang',
+    caption: 'Praktik langsung penugasan karya riil disesuaikan dengan kurikulum keahlian masing-masing jurusan SMK.',
+  },
+  divisi: {
+    src: '/images/5.webp',
+    alt: 'Sesi pendampingan teknis dan review mingguan divisi kerja di Saka',
+    caption: 'Penempatan divisi kerja terstruktur dengan evaluasi mingguan bersama mentor praktisi industri.',
+  },
+  'dokumen-pkl': {
+    src: '/images/4.webp',
+    alt: 'Penyusunan format berkas administrasi dan kelulusan sertifikasi PKL resmi',
+    caption: 'Kelengkapan format surat lamaran, CV magang, jurnal harian, dan sertifikat resmi standar BKK.',
+  },
+  'info-pkl': {
+    src: '/images/8.webp',
+    alt: 'Informasi dan wawasan pelaksanaan praktik kerja lapangan di Saka Malang',
+    caption: 'Panduan fundamental mengenai hakikat magang, durasi, dan ekosistem industri digital di Saka.',
+  },
+  'persiapan-pkl': {
+    src: '/images/10.webp',
+    alt: 'Persiapan keterampilan dan operasional kerja magang',
+    caption: 'Kesiapan teknis dan soft skill sebelum terjun ke ritme operasional proyek riil.',
+  },
+  'pkl-malang': {
+    src: '/images/9.webp',
+    alt: 'Lingkungan kantor dan siswa PKL Saka di Kota Malang',
+    caption: 'Ekosistem kerja digital yang dinamis di kawasan Kota Malang, Jawa Timur.',
+  },
+  pengalaman: {
+    src: '/images/3.webp',
+    alt: 'Refleksi pengalaman dan kultur kerja tim kolaboratif peserta magang Saka',
+    caption: 'Cerita nyata alumni, studi kasus penanganan proyek, dan kultur kerja tim kolaboratif.',
+  },
+};
+
+const hubImage = categoryImages[page.slug || ''] || {
+  src: '/images/13.webp',
+  alt: page.h1,
+  caption: 'Ekosistem kerja digital dan pembinaan vokasi terstruktur di Saka Malang.',
+};
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.metaDescription}
+  path={page.path}
+  crumbs={crumbs}
+  schema={faqs.length > 0 ? [faqNode(page.path, faqs)] : []}
+>
+  <PageHero
+    eyebrow={page.groupName}
+    title={page.h1}
+    lead={page.summary}
+    crumbs={crumbs}
+    bgImage={hubImage.src}
+  />
+
+  <section class="content-section">
+    <div class="container">
+      <div class="mb-4">
+        <StatusNotice
+          status={page.status}
+          targetDate={page.targetDate}
+          note="Kategori indeks resmi memuat seluruh sub-halaman terstruktur sesuai panduan PRD pkldisaka.com."
+        />
+      </div>
+
+      <!-- Main Category Content: Split Layout dengan Foto Ilustrasi & Poin Inti -->
+      {page.sections && page.sections.length > 0 && (
+        <div class="article-content mb-5">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="position-relative rounded-3 overflow-hidden border shadow-sm">
+                <img
+                  src={hubImage.src}
+                  alt={hubImage.alt}
+                  class="w-100 h-auto d-block"
+                  width="540"
+                  height="340"
+                  loading="lazy"
+                />
+                <div class="p-3 bg-white border-top">
+                  <small class="text-muted d-block" style="font-size: 0.8rem; line-height: 1.45;">
+                    <i class="bi bi-camera-fill text-primary me-1"></i>{hubImage.caption}
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="article-body">
+                {page.sections.map((sec) => (
+                  <div>
+                    <h2 class="h5 fw-bold text-dark mb-2">{sec.heading}</h2>
+                    <p class="text-secondary mb-3" style="font-size: 0.94rem; line-height: 1.6;">{sec.content}</p>
+                    {sec.bullets && (
+                      <ul class="mb-0">
+                        {sec.bullets.map((b) => (
+                          <li class="small text-secondary mb-1.5">{b}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <!-- 4 Indikator Utama Kategori -->
+      <div class="hub-metrics-grid">
+        <div class="hub-metric-card">
+          <div class="hub-metric-icon">
+            <i class="bi bi-collection-fill"></i>
+          </div>
+          <div>
+            <div class="hub-metric-label">Cakupan Topik</div>
+            <div class="hub-metric-value">{childrenPages.length} Sub-Materi</div>
+          </div>
+        </div>
+
+        <div class="hub-metric-card">
+          <div class="hub-metric-icon">
+            <i class="bi bi-gear-wide-connected"></i>
+          </div>
+          <div>
+            <div class="hub-metric-label">Metode Praktik</div>
+            <div class="hub-metric-value">Proyek Nyata 100%</div>
+          </div>
+        </div>
+
+        <div class="hub-metric-card">
+          <div class="hub-metric-icon">
+            <i class="bi bi-people-fill"></i>
+          </div>
+          <div>
+            <div class="hub-metric-label">Pendampingan</div>
+            <div class="hub-metric-value">Mentor Praktisi</div>
+          </div>
+        </div>
+
+        <div class="hub-metric-card">
+          <div class="hub-metric-icon">
+            <i class="bi bi-award-fill"></i>
+          </div>
+          <div>
+            <div class="hub-metric-label">Hasil Akhir</div>
+            <div class="hub-metric-value">Nilai & Sertifikat</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid of Child Pages (DESIGN.md Bab 4.B) -->
+      <SectionHeading
+        eyebrow="Direktori Halaman"
+        title={`Daftar Lengkap Sub-Halaman ${page.groupName}`}
+        description="Pilih salah satu topik di bawah untuk melihat rincian panduan, kurikulum tugas, dan materi pembelajaran."
+      />
+
+      <div class="row g-4">
+        {childrenPages.map((child) => (
+          <div class="col-md-6 col-lg-4">
+            <ArticleCard
+              href={child.path}
+              title={child.h1}
+              summary={child.summary}
+              category={page.groupName}
+              targetDate={child.targetDate}
+              badge={child.status}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ jika ada -->
+  {faqs.length > 0 && (
+    <FAQList
+      items={faqs}
+      id={`faq-${page.slug || 'category'}`}
+      title={`Tanya Jawab Seputar ${page.groupName}`}
+    />
+  )}
+
+  <CTASection />
+</BaseLayout>

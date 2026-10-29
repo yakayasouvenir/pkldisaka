@@ -1,0 +1,20 @@
+---
+import { SITE } from "../lib/site";
+const { extra = [] } = Astro.props;
+const U = SITE.url;
+// TODO: tambahkan email, geo (lat/long), hasMap, dan sameAs setelah dikonfirmasi.
+const graph = [
+  { "@type": ["Organization","ProfessionalService","LocalBusiness"], "@id": `${U}/#organization`, name: "PKL Di Saka", url: `${U}/`,
+    logo: { "@type": "ImageObject", "@id": `${U}/#logo`, url: `${U}/images/saka.webp`, width: 512, height: 512 }, image: `${U}/images/og-default.webp`,
+    description: "PKL Di Saka adalah perusahaan solusi digital di Malang yang menyediakan layanan pengembangan website, digital marketing, dan program magang bagi siswa SMK dan mahasiswa.",
+    telephone: "+6282131087971", priceRange: "$$",
+    address: { "@type": "PostalAddress", streetAddress: SITE.street, addressLocality: SITE.city, addressRegion: SITE.region, postalCode: SITE.zip, addressCountry: "ID" },
+    areaServed: [{ "@type": "City", name: "Malang" }, { "@type": "Country", name: "Indonesia" }],
+    openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "08:00", closes: "17:00" }],
+    contactPoint: [{ "@type": "ContactPoint", contactType: "customer support", telephone: "+6282131087971", availableLanguage: ["id","en"], areaServed: "ID", url: `${U}/wa/` }],
+    knowsAbout: ["Pengembangan website","Digital marketing","SEO","Desain UI/UX","Program magang"] },
+  { "@type": "WebSite", "@id": `${U}/#website`, url: `${U}/`, name: "PKL Di Saka", inLanguage: "id-ID", publisher: { "@id": `${U}/#organization` } },
+  ...extra,
+];
+---
+<script type="application/ld+json" set:html={JSON.stringify({ "@context": "https://schema.org", "@graph": graph })} />

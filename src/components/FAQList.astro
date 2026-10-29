@@ -1,0 +1,61 @@
+---
+interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  items: FaqItem[];
+  id?: string;
+  title?: string;
+  description?: string;
+}
+
+const { items = [], id = 'faq-accordion', title, description } = Astro.props;
+---
+
+{items.length > 0 && (
+  <section class="content-section" aria-labelledby={`${id}-heading`}>
+    <div class="container">
+      {title && (
+        <div class="section-heading text-center">
+          <div class="section-heading-eyebrow">Tanya Jawab</div>
+          <h2 class="section-heading-title" id={`${id}-heading`}>{title}</h2>
+          {description && <p class="section-heading-desc">{description}</p>}
+        </div>
+      )}
+      <div class="accordion accordion-faq" id={id}>
+        {items.map((item, index) => {
+          const collapseId = `${id}-collapse-${index}`;
+          const headerId = `${id}-header-${index}`;
+          return (
+            <div class="accordion-item">
+              <h3 class="accordion-header" id={headerId}>
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target={`#${collapseId}`}
+                  aria-expanded="false"
+                  aria-controls={collapseId}
+                >
+                  {item.q}
+                </button>
+              </h3>
+              <div
+                id={collapseId}
+                class="accordion-collapse collapse"
+                aria-labelledby={headerId}
+                data-bs-parent={`#${id}`}
+              >
+                <div class="accordion-body">
+                  {item.a}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}

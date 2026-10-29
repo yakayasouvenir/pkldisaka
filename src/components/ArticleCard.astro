@@ -1,0 +1,40 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  summary: string;
+  category: string;
+  targetDate?: string;
+  badge?: string;
+  bgImage?: string;
+}
+
+const { href, title, summary, category, targetDate, badge = 'Panduan Faktual', bgImage } = Astro.props;
+---
+
+<article class:list={['saka-card', { 'has-bg-img': Boolean(bgImage) }]}>
+  {bgImage && (
+    <div
+      class="saka-card-backdrop"
+      style={`background-image: url('${bgImage}');`}
+      aria-hidden="true"
+    />
+  )}
+  <div class="saka-card-inner">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <span class="badge bg-white text-primary border shadow-xs">{category}</span>
+      <span class="badge bg-success-subtle text-success border border-success-subtle">{badge}</span>
+    </div>
+    <h3 class="saka-card-title mt-2">
+      <a href={href} class="text-decoration-none text-reset">{title}</a>
+    </h3>
+    <p class="saka-card-text">{summary}</p>
+    <div class="d-flex justify-content-between align-items-center pt-2 border-top mt-auto">
+      {targetDate ? <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Target: {targetDate}</small> : <span></span>}
+      <a href={href} class="saka-card-link">
+        Baca Panduan <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</article>
+

@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import FAQList from '../components/FAQList.astro';
+import CTASection from '../components/CTASection.astro';
+import RelatedLinks from '../components/RelatedLinks.astro';
+import { getPageByPath } from '../data/pklData';
+import { faqNode } from '../lib/schema';
+import { waLink, INITIAL_DIVISIONS } from '../data/site';
+
+const page = getPageByPath('/lowongan-pkl/')!;
+const crumbs = [{ name: page.h1, path: page.path }];
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.metaDescription}
+  path={page.path}
+  crumbs={crumbs}
+  schema={page.faqs ? [faqNode(page.path, page.faqs)] : []}
+>
+  <PageHero
+    eyebrow={page.groupName}
+    title={page.h1}
+    lead={page.summary}
+    crumbs={crumbs}
+    bgImage="/images/5.webp"
+  />
+
+  <section class="content-section">
+    <div class="container article-container">
+      <StatusNotice
+        status="Informasi Faktual & Kuota Terjadwal"
+        targetDate={page.targetDate}
+        note="Ketersediaan kuota disesuaikan per periode akademik sekolah/kampus untuk menjamin rasio bimbingan mentor tetap optimal."
+      />
+
+      <article class="article-content">
+        <div class="article-summary-box">
+          <div class="article-summary-title">
+            <i class="bi bi-info-circle-fill me-1"></i>Kebijakan Kuota Transparan
+          </div>
+          <p class="article-summary-text">
+            Saka tidak mempublikasikan kuota fiktif atau tanggal kedaluwarsa buatan. Status penerimaan kuota diproses secara berurutan berdasarkan verifikasi surat pengantar resmi yang masuk dari pihak sekolah atau perguruan tinggi.
+          </p>
+        </div>
+
+        <!-- Feature Box Evaluasi Kuota & Pembinaan -->
+        <div class="article-feature-box">
+          <div class="row g-3 align-items-center">
+            <div class="col-md-5">
+              <div class="article-feature-img-wrap">
+                <img
+                  src="/images/10.webp"
+                  alt="Sesi mentoring teknis dan evaluasi peserta magang"
+                  loading="lazy"
+                  width="480"
+                  height="300"
+                />
+                <span class="article-feature-badge">
+                  <i class="bi bi-people-fill me-1"></i>Rasio Mentor Optimal
+                </span>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <h3 class="h6 fw-bold text-primary mb-2">Jaminan Mutu Pembinaan Magang</h3>
+              <p class="small text-muted mb-2">
+                Kuota dibatasi agar setiap siswa mendapatkan porsi tugas industri yang nyata dan bimbingan langsung dari mentor profesional.
+              </p>
+              <div class="competency-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span><strong>Kuota 2-4 Siswa/Divisi:</strong> Memastikan fokus pembinaan intensif.</span>
+              </div>
+              <div class="competency-item mb-0">
+                <i class="bi bi-check-circle-fill"></i>
+                <span><strong>Verifikasi Terjadwal:</strong> Konfirmasi ketersediaan tempat secara berkala.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body">
+          {page.sections.map((sec) => (
+            <div class="mb-4">
+              <h2>{sec.heading}</h2>
+              <p>{sec.content}</p>
+              {sec.bullets && (
+                <ul>
+                  {sec.bullets.map((b) => (
+                    <li>{b}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+
+          <h2 class="mt-4 mb-3">Status Ketersediaan per Divisi Kerja</h2>
+          <div class="table-responsive">
+            <table class="table table-saka">
+              <thead>
+                <tr>
+                  <th>Divisi Kerja</th>
+                  <th>Kesesuaian Jurusan</th>
+                  <th>Status Penerimaan</th>
+                  <th>Kanal Konfirmasi</th>
+                </tr>
+              </thead>
+              <tbody>
+                {INITIAL_DIVISIONS.map((d) => (
+                  <tr>
+                    <td>
+                      <strong>{d.name}</strong>
+                      <div class="small text-muted">{d.desc}</div>
+                    </td>
+                    <td>
+                      <span class="badge bg-light text-dark border">SMK / Vokasi</span>
+                    </td>
+                    <td>
+                      <span class="badge bg-success-subtle text-success">
+                        <i class="bi bi-check-circle me-1"></i>Pendaftaran Terbuka
+                      </span>
+                    </td>
+                    <td>
+                      <a href={waLink(`Halo Admin Saka, saya ingin konfirmasi kuota magang divisi ${d.name}`)} target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary rounded-pill">
+                        Cek Kuota
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <RelatedLinks urls={page.relatedUrls} />
+      </article>
+    </div>
+  </section>
+
+  {page.faqs && (
+    <FAQList
+      items={page.faqs}
+      id="faq-lowongan"
+      title="Pertanyaan Seputar Kuota & Lowongan"
+    />
+  )}
+
+  <CTASection />
+</BaseLayout>

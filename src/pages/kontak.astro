@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import RelatedLinks from '../components/RelatedLinks.astro';
+import { getPageByPath } from '../data/pklData';
+import { SITE, mapsLink, waLink } from '../data/site';
+
+const page = getPageByPath('/kontak/')!;
+const crumbs = [{ name: page.h1, path: page.path }];
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.metaDescription}
+  path={page.path}
+  crumbs={crumbs}
+>
+  <PageHero
+    eyebrow={page.groupName}
+    title={page.h1}
+    lead={page.summary}
+    crumbs={crumbs}
+    bgImage="/images/9.webp"
+  />
+
+  <section class="content-section">
+    <div class="container">
+      <StatusNotice
+        status={page.status}
+        targetDate={page.targetDate}
+        note="Pastikan seluruh komunikasi terkait administrasi PKL hanya dilakukan melalui kanal resmi yang tertera di halaman ini."
+      />
+
+      <div class="row g-4 mb-5">
+        <!-- Col 1: Kontak Resmi -->
+        <div class="col-lg-6">
+          <div class="saka-card p-4">
+            <h2 class="h5 fw-bold mb-3"><i class="bi bi-headset text-primary me-2"></i>Kanal Komunikasi Terverifikasi</h2>
+            
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <div class="saka-card-icon mb-0 flex-shrink-0" style="width: 40px; height: 40px;">
+                <i class="bi bi-whatsapp text-success"></i>
+              </div>
+              <div>
+                <div class="fw-bold">WhatsApp Resmi Pelayanan</div>
+                <div class="small text-muted">{SITE.phoneDisplay} (Senin - Jumat, 08.00 - 16.00 WIB)</div>
+                <a href={waLink()} target="_blank" rel="noopener" class="btn btn-sm btn-outline-success mt-2 rounded-pill">
+                  Buka Chat WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <div class="saka-card-icon mb-0 flex-shrink-0" style="width: 40px; height: 40px;">
+                <i class="bi bi-envelope text-primary"></i>
+              </div>
+              <div>
+                <div class="fw-bold">Email Koordinasi Berkas</div>
+                <div class="small text-muted">{SITE.email}</div>
+                <a href={`mailto:${SITE.email}`} class="btn btn-sm btn-outline-primary mt-2 rounded-pill">
+                  Kirim Email
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3">
+              <div class="saka-card-icon mb-0 flex-shrink-0" style="width: 40px; height: 40px;">
+                <i class="bi bi-geo-alt text-danger"></i>
+              </div>
+              <div>
+                <div class="fw-bold">Wilayah Operasional</div>
+                <div class="small text-muted">{SITE.address.full}</div>
+                <small class="text-muted d-block mt-1">
+                  <em>*Pertemuan tatap muka hanya dilayani dengan konfirmasi janji temu sebelumnya.</em>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2: Formulir Pertanyaan (DESIGN.md Bab 4.H) -->
+        <div class="col-lg-6">
+          <div class="saka-card p-4">
+            <h2 class="h5 fw-bold mb-3"><i class="bi bi-chat-left-text text-primary me-2"></i>Formulir Pertanyaan & Verifikasi</h2>
+            <p class="small text-muted mb-3">
+              Kirimkan pesan Anda secara langsung. Seluruh data identitas hanya digunakan untuk keperluan koordinasi administrasi magang.
+            </p>
+
+            <form id="contactForm" onsubmit="event.preventDefault(); alert('Terima kasih. Pesan Anda telah dicatat, tim kami akan merespons melalui email/WhatsApp yang dicantumkan.');">
+              <div class="mb-3">
+                <label for="fullName" class="form-label small fw-semibold">Nama Lengkap *</label>
+                <input type="text" id="fullName" class="form-control form-control-sm" required placeholder="Contoh: Budi Santoso" />
+              </div>
+
+              <div class="mb-3">
+                <label for="institution" class="form-label small fw-semibold">Asal Sekolah / Perguruan Tinggi *</label>
+                <input type="text" id="institution" class="form-control form-control-sm" required placeholder="Contoh: SMKN 4 Malang" />
+              </div>
+
+              <div class="mb-3">
+                <label for="contactInfo" class="form-label small fw-semibold">Nomor WhatsApp / Email Aktif *</label>
+                <input type="text" id="contactInfo" class="form-control form-control-sm" required placeholder="08xxxxxxxxxx atau email@gmail.com" />
+              </div>
+
+              <div class="mb-3">
+                <label for="messageText" class="form-label small fw-semibold">Pesan / Pertanyaan *</label>
+                <textarea id="messageText" class="form-control form-control-sm" rows="3" required placeholder="Tuliskan pertanyaan seputar kuota divisi atau alur berkas..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary-saka w-100 py-2">
+                <i class="bi bi-send me-1"></i>Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-content">
+        <h2 class="h5 fw-bold mb-3">Etika Berkomunikasi</h2>
+        <p class="text-muted">
+          Saat mengirim pesan atau berkas, mohon sertakan salam pembuka, perkenalan diri, asal instansi pendidikan, serta maksud permohonan secara jelas dan santun.
+        </p>
+        <RelatedLinks urls={page.relatedUrls} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

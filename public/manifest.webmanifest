@@ -1,0 +1,23 @@
+{
+  "name": "PKL di SAKA",
+  "short_name": "PKL di SAKA",
+  "description": "Digital agency & program magang di Malang",
+  "lang": "id",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

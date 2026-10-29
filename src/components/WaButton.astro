@@ -1,0 +1,6 @@
+---
+import { wa } from "../lib/site";
+import WaIcon from "./WaIcon.astro";
+const { text, label = "Hubungi via WhatsApp", cls = "btn btn-cta" } = Astro.props;
+---
+<a class={cls} href={wa(text)} target="_blank" rel="noopener noreferrer" aria-label={`${label} (membuka WhatsApp di tab baru)`}><WaIcon /> {label}</a>

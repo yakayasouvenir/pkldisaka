@@ -1,0 +1,8 @@
+---
+const { title, answer, lead } = Astro.props;
+---
+<section class="page-hero"><div class="container">
+  <h1>{title}</h1>
+  {lead && <p class="lede mb-0">{lead}</p>}
+  {answer && <p class="answer mt-3 mb-0"><strong>Jawaban singkat:</strong> {answer}</p>}
+</div></section>

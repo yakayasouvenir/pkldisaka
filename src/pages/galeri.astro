@@ -1,0 +1,950 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import CTASection from '../components/CTASection.astro';
+import { GALERI_ITEMS, GALERI_CATEGORIES } from '../data/galeri';
+
+const title = 'Kapsul Kenangan & Galeri PKL di Saka Malang | pkldisaka.com';
+const description = 'Arsip dokumentasi visual, scrapbook foto kebersamaan, momen pelepasan siswa, dan kenang-kenangan alumni Praktik Kerja Lapangan (PKL) di Saka Kota Malang.';
+const crumbs = [
+  { name: 'Program PKL', path: '/program-pkl/' },
+  { name: 'Galeri Kenangan' },
+];
+
+const featuredItem = GALERI_ITEMS[0]; // Pelepasan Sertifikat
+const farewellItem = GALERI_ITEMS[1]; // Farewell
+const studioItem = GALERI_ITEMS[2]; // Studio DKV
+const mentorItem = GALERI_ITEMS[3]; // Mentoring RPL
+
+const alumniNotes = [
+  {
+    name: 'Dian Permata',
+    school: 'SMKN 4 Malang (DKV)',
+    batch: 'Batch 2025/2026',
+    color: '#FEF3C7',
+    border: '#F59E0B',
+    rotate: '-2deg',
+    quote: 'Awalnya grogi banget pas hari pertama masuk kantor, tapi para mentor di Saka super ramah dan sabar ngebimbing. Gak ada senioritas kaku, ilmunya daging semua!',
+  },
+  {
+    name: 'Rizky Alamsyah',
+    school: 'SMK Telkom Malang (RPL)',
+    batch: 'Batch 2024/2025',
+    color: '#E0F2FE',
+    border: '#0284C7',
+    rotate: '1.5deg',
+    quote: 'Di Saka kami beneran dilibatkan pegang website dan proyek klien nyata, bukan cuma disuruh fotokopi. Pas lulus langsung percaya diri bikin portofolio profesional.',
+  },
+  {
+    name: 'Nadia Safitri',
+    school: 'Polinema Malang (Bisnis Digital)',
+    batch: 'Batch 2025/2026',
+    color: '#DCFCE7',
+    border: '#16A34A',
+    rotate: '-1.5deg',
+    quote: 'Sesi presentasi mingguan melatih public speaking kami. Suasana studio yang estetik dan kebersamaan tim bikin 6 bulan magang terasa cepet banget!',
+  },
+  {
+    name: 'Bagus Pratama',
+    school: 'SMKN 1 Kepanjen (Multimedia)',
+    batch: 'Batch 2024/2025',
+    color: '#FCE7F3',
+    border: '#DB2777',
+    rotate: '2deg',
+    quote: 'Paling seru pas sesi foto produk dan praktik cetak merchandise souvenir. Mentor gak segan nunjukin teknik rahasia industri kreatif yang gak ada di buku sekolah.',
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/galeri/"
+  crumbs={crumbs}
+>
+  <!-- Hero Section Khusus Galeri (Scrapbook & Memory Capsule) -->
+  <header class="memory-hero position-relative overflow-hidden text-white">
+    <div class="memory-hero-ambient" aria-hidden="true"></div>
+    <div class="container position-relative py-5" style="z-index: 2;">
+      <!-- Breadcrumb -->
+      <nav class="mb-3" aria-label="Breadcrumb">
+        <ol class="breadcrumb mb-0 small">
+          <li class="breadcrumb-item"><a href="/" class="text-white text-opacity-75 text-decoration-none">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="/program-pkl/" class="text-white text-opacity-75 text-decoration-none">Program PKL</a></li>
+          <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Galeri Kenangan</li>
+        </ol>
+      </nav>
+
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill mb-3 small fw-bold" style="background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(245, 158, 11, 0.45); color: #fde047;">
+            <i class="bi bi-stars"></i>
+            <span>ARSIP VISUAL & KAPSUL WAKTU PKL SAKA</span>
+          </div>
+          <h1 class="display-5 fw-extrabold mb-3 memory-title text-white">
+            <span class="memory-title-white">Jejak Karya, Tawa, &</span> <span class="text-gradient-gold">Kenangan Magang</span>
+          </h1>
+          <p class="lead mb-4 memory-lead" style="max-width: 680px; font-size: 1.12rem;">
+            Bukan sekadar lembar absensi formal, inilah galeri autentik perjalanan siswa SMK dan mahasiswa vokasi di Kota Malang: dari gugupnya hari pertama orientasi, hangatnya bimbingan mentor, serunya studio produksi, hingga momen haru pelepasan kelulusan.
+          </p>
+          <div class="d-flex flex-wrap gap-3 align-items-center small memory-meta">
+            <span class="d-flex align-items-center gap-1 text-white">
+              <i class="bi bi-camera-fill text-warning"></i> 8+ Album Momen Otentik
+            </span>
+            <span class="d-none d-sm-inline text-white-50">•</span>
+            <span class="d-flex align-items-center gap-1 text-white">
+              <i class="bi bi-building text-info"></i> 10+ Sekolah & Kampus Mitra
+            </span>
+            <span class="d-none d-sm-inline text-white-50">•</span>
+            <span class="d-flex align-items-center gap-1 text-white">
+              <i class="bi bi-heart-fill text-danger"></i> 100% Cerita Nyata
+            </span>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <!-- Mini Floating Keepsake Preview -->
+          <div class="hero-polaroid-stack position-relative">
+            <div class="hero-polaroid hero-polaroid-back">
+              <img src="/images/7.webp" alt="Angkatan Siswa PKL Saka" />
+            </div>
+            <div class="hero-polaroid hero-polaroid-front cursor-pointer view-trigger" data-img="/images/4.webp" data-title="Momen Kelulusan & Pelepasan Siswa PKL" data-desc="Pemberian sertifikat resmi industri kepada peserta PKL berprestasi di Saka." data-meta="Batch 2025/2026 • SMKN 4 & SMKN 1 Malang">
+              <div class="tape-strip"></div>
+              <img src="/images/4.webp" alt="Pelepasan Siswa PKL" />
+              <div class="polaroid-caption">
+                <span class="fw-bold">Momen Pelepasan Siswa ✨</span>
+                <span class="text-muted d-block small">Batch Genap 2025/2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BAGIAN 1: BENTO COLLAGE SOROTAN (Bukan Sekadar Card Kotak Biasa) -->
+  <section class="py-5 bg-slate-subtle">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-primary bg-opacity-10 text-primary rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase small">
+          Sorotan Kenangan Emas
+        </span>
+        <h2 class="h3 fw-bold text-dark">Di Balik Lensa: Keseharian di Lingkungan Saka</h2>
+        <p class="text-muted mx-auto" style="max-width: 600px;">
+          Kolase visual yang merangkum dinamika kerja nyata, suasana bimbingan satu-lawan-satu, dan persahabatan antar peserta vokasi.
+        </p>
+      </div>
+
+      <!-- Bento Grid Layout -->
+      <div class="bento-grid">
+        <!-- Bento 1: Grand Featured Showcase (Span 2 col, 2 row) -->
+        <div class="bento-item bento-featured cursor-pointer view-trigger" data-img={featuredItem.image} data-title={featuredItem.title} data-desc={featuredItem.description} data-meta={`${featuredItem.batch} • ${featuredItem.school}`}>
+          <img src={featuredItem.image} alt={featuredItem.title} class="bento-img" />
+          <div class="bento-badge-tag">
+            <i class="bi bi-award-fill me-1 text-warning"></i> Sorotan Utama
+          </div>
+          <div class="bento-overlay">
+            <div class="bento-meta text-warning small fw-bold mb-1">
+              <i class="bi bi-mortarboard-fill me-1"></i> {featuredItem.school}
+            </div>
+            <h3 class="h4 fw-bold text-white mb-2">{featuredItem.title}</h3>
+            <p class="text-white-50 small mb-3 d-none d-md-block">{featuredItem.description}</p>
+            <div class="d-inline-flex align-items-center gap-2 btn btn-sm btn-light rounded-pill px-3 py-1 fw-bold shadow-sm">
+              <i class="bi bi-arrows-fullscreen"></i> Perbesar Foto
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento 2: Farewell & Team Hangout -->
+        <div class="bento-item bento-farewell cursor-pointer view-trigger" data-img={farewellItem.image} data-title={farewellItem.title} data-desc={farewellItem.description} data-meta={`${farewellItem.batch} • ${farewellItem.school}`}>
+          <img src={farewellItem.image} alt={farewellItem.title} class="bento-img" />
+          <div class="tape-strip-mini"></div>
+          <div class="bento-overlay">
+            <span class="badge bg-danger rounded-pill mb-2 small">Perayaan Farewell</span>
+            <h4 class="h6 fw-bold text-white mb-1">{farewellItem.title}</h4>
+            <span class="text-white-50 small">{farewellItem.school}</span>
+          </div>
+        </div>
+
+        <!-- Bento 3: Studio Kreatif DKV -->
+        <div class="bento-item bento-studio cursor-pointer view-trigger" data-img={studioItem.image} data-title={studioItem.title} data-desc={studioItem.description} data-meta={`${studioItem.batch} • ${studioItem.school}`}>
+          <img src={studioItem.image} alt={studioItem.title} class="bento-img" />
+          <div class="bento-overlay">
+            <span class="badge bg-info text-dark rounded-pill mb-2 small">Studio Desain DKV</span>
+            <h4 class="h6 fw-bold text-white mb-1">{studioItem.title}</h4>
+            <span class="text-white-50 small">{studioItem.school}</span>
+          </div>
+        </div>
+
+        <!-- Bento 4: Bimbingan Mentor -->
+        <div class="bento-item bento-mentor cursor-pointer view-trigger" data-img={mentorItem.image} data-title={mentorItem.title} data-desc={mentorItem.description} data-meta={`${mentorItem.batch} • ${mentorItem.school}`}>
+          <img src={mentorItem.image} alt={mentorItem.title} class="bento-img" />
+          <div class="bento-overlay">
+            <span class="badge bg-success rounded-pill mb-2 small">Bimbingan Mentor RPL</span>
+            <h4 class="h6 fw-bold text-white mb-1">{mentorItem.title}</h4>
+            <span class="text-white-50 small">{mentorItem.school}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN 2: DINDING POLAROID SCRAPBOOK (Estetik & Unik dengan Efek Kemiringan Washi Tape) -->
+  <section class="py-5 scrap-wall-section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-3">
+        <div>
+          <span class="badge bg-warning bg-opacity-25 text-dark rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase small">
+            <i class="bi bi-pin-angle-fill text-warning me-1"></i> Dinding Kenangan Siswa
+          </span>
+          <h2 class="h3 fw-bold text-dark mb-1">Koleksi Momen Pilihan Peserta</h2>
+          <p class="text-muted mb-0 small">Klik foto mana saja untuk membuka detail kenangannya dalam mode layar penuh.</p>
+        </div>
+
+        <!-- Filter Kategori Aesthetic Pills -->
+        <div class="d-flex flex-wrap gap-2" id="galleryFilter">
+          {GALERI_CATEGORIES.map((cat, index) => (
+            <button
+              type="button"
+              class:list={['scrap-filter-pill', index === 0 ? 'active' : '']}
+              data-filter={cat.id}
+            >
+              {cat.id === 'all' && <i class="bi bi-grid-fill me-1"></i>}
+              {cat.id === 'pelepasan' && <i class="bi bi-mortarboard-fill me-1"></i>}
+              {cat.id === 'studio' && <i class="bi bi-camera-fill me-1"></i>}
+              {cat.id === 'mentor' && <i class="bi bi-people-fill me-1"></i>}
+              {cat.id === 'produksi' && <i class="bi bi-tools me-1"></i>}
+              {cat.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- Scrapbook Grid of Polaroids -->
+      <div class="row g-4 pt-2" id="polaroidContainer">
+        {GALERI_ITEMS.map((item, idx) => {
+          // Playful natural rotations for authentic scrapbook feel
+          const rotations = ['-1.8deg', '1.5deg', '-1.2deg', '2deg', '-1.5deg', '1.2deg', '-2deg', '1.8deg'];
+          const rot = rotations[idx % rotations.length];
+
+          return (
+            <div class="col-sm-6 col-lg-3 polaroid-col" data-category={item.category}>
+              <div
+                class="polaroid-card cursor-pointer view-trigger"
+                style={`--card-rot: ${rot};`}
+                data-img={item.image}
+                data-title={item.title}
+                data-desc={item.description}
+                data-meta={`${item.batch} • ${item.school}`}
+              >
+                <!-- Washi Tape Effect at Top -->
+                <div class="washi-tape"></div>
+
+                <!-- Photo Frame -->
+                <div class="polaroid-photo-frame">
+                  <img src={item.image} alt={item.title} loading="lazy" />
+                  <span class="polaroid-category-tag">
+                    {item.categoryLabel}
+                  </span>
+                </div>
+
+                <!-- Handwritten-Style Bottom Caption -->
+                <div class="polaroid-details">
+                  <div class="polaroid-title">{item.title}</div>
+                  <div class="polaroid-school">
+                    <i class="bi bi-geo-alt-fill me-1"></i>{item.school}
+                  </div>
+                  <div class="polaroid-footer">
+                    <span class="polaroid-date">{item.date}</span>
+                    <span class="polaroid-btn">
+                      <i class="bi bi-zoom-in"></i> Lihat
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN 3: ROL FILM HORISONTAL (Behind the Scenes Filmstrip) -->
+  <section class="py-5 bg-dark text-white position-relative overflow-hidden">
+    <div class="container mb-4">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <span class="badge bg-warning text-dark fw-bold rounded-pill px-3 py-1 mb-2 small">
+            <i class="bi bi-film me-1"></i> BEHIND THE SCENES
+          </span>
+          <h2 class="h3 fw-bold mb-1 text-white">Rol Film: Momen Candid Keseharian</h2>
+          <p class="text-white-50 small mb-0">Geser untuk melihat potongan momen santai di sela-sela jam kerja dan workshop.</p>
+        </div>
+        <div class="small text-white-50 d-none d-sm-block">
+          <i class="bi bi-arrow-left-right me-1 text-warning"></i> Scroll Horisontal
+        </div>
+      </div>
+    </div>
+
+    <!-- Film Strip Container -->
+    <div class="filmstrip-wrapper">
+      <div class="filmstrip-track">
+        {GALERI_ITEMS.concat(GALERI_ITEMS.slice(0, 4)).map((item, idx) => (
+          <div class="filmstrip-frame cursor-pointer view-trigger" data-img={item.image} data-title={item.title} data-desc={item.description} data-meta={`${item.batch} • ${item.school}`}>
+            <div class="film-holes film-holes-top">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="film-img-box">
+              <img src={item.image} alt={item.title} loading="lazy" />
+              <div class="film-stamp">FRAME #0{idx + 1}</div>
+            </div>
+            <div class="film-holes film-holes-bottom">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN 4: STICKY NOTES CATATAN HATI ALUMNI (Wall of Love & Gratitude) -->
+  <section class="py-5 bg-light position-relative">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-secondary bg-opacity-25 text-dark rounded-pill px-3 py-1 mb-2 fw-bold text-uppercase small">
+          Kesan & Pesan Siswa
+        </span>
+        <h2 class="h3 fw-bold text-dark">Apa Kata Mereka yang Pernah Berproses di Saka?</h2>
+        <p class="text-muted mx-auto" style="max-width: 580px;">
+          Catatan hangat dan testimoni langsung dari adik-adik magang yang telah menyelesaikan masa PKL mereka.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        {alumniNotes.map((note) => (
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="sticky-note-card shadow-sm"
+              style={`background-color: ${note.color}; border-top: 5px solid ${note.border}; --note-rot: ${note.rotate};`}
+            >
+              <div class="pin-icon">
+                <i class="bi bi-pin-fill text-danger"></i>
+              </div>
+              <p class="sticky-quote fst-italic text-dark mb-4">
+                "{note.quote}"
+              </p>
+              <div class="sticky-author pt-3 border-top border-dark border-opacity-10">
+                <div class="fw-bold text-dark">{note.name}</div>
+                <div class="small text-muted">{note.school}</div>
+                <div class="badge bg-dark bg-opacity-10 text-dark rounded-pill mt-1 small">
+                  {note.batch}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal Layar Penuh -->
+  <div id="galleryLightbox" class="gallery-lightbox" aria-hidden="true" role="dialog" aria-label="Pratinjau Foto">
+    <div class="gallery-lightbox-backdrop"></div>
+    <div class="gallery-lightbox-dialog">
+      <button type="button" id="lightboxClose" class="lightbox-close" aria-label="Tutup Layar Penuh">
+        <i class="bi bi-x-lg"></i>
+      </button>
+
+      <div class="gallery-lightbox-content">
+        <div class="gallery-lightbox-img-wrap">
+          <img id="lightboxImg" src="" alt="" class="gallery-lightbox-img" />
+        </div>
+        <div class="gallery-lightbox-caption">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <span id="lightboxMeta" class="badge bg-warning text-dark px-3 py-1 rounded-pill small fw-bold"></span>
+            <span class="small text-white-50"><i class="bi bi-check-circle-fill text-success me-1"></i> Dokumentasi Terverifikasi</span>
+          </div>
+          <h3 id="lightboxTitle" class="h5 fw-bold text-white mb-2"></h3>
+          <p id="lightboxDesc" class="small text-white-50 mb-0"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Box -->
+  <CTASection
+    title="Siap Mengukir Cerita Sukses & Kenangan Berharga di Saka?"
+    description="Bergabunglah dengan ratusan siswa vokasi berprestasi lainnya. Bimbingan ramah, proyek industri nyata, dan sertifikasi resmi siap menyambutmu."
+    primaryUrl="/cara-daftar/"
+    primaryText="Baca Panduan Pendaftaran"
+    secondaryUrl="wa"
+    secondaryText="Konsultasi Kuota via WhatsApp"
+  />
+</BaseLayout>
+
+<style>
+  /* Hero Memory Styling */
+  .memory-hero {
+    background: linear-gradient(135deg, #0b1120 0%, #1a2234 50%, #111827 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .memory-hero-ambient {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(245, 158, 11, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 20% 80%, rgba(37, 99, 235, 0.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .text-gradient-gold {
+    background: linear-gradient(90deg, #F59E0B, #FDE047, #F59E0B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(245, 158, 11, 0.4));
+  }
+  .memory-title {
+    color: #ffffff !important;
+    letter-spacing: -0.03em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  .memory-title-white {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+  }
+  .memory-lead {
+    color: #f1f5f9 !important;
+    line-height: 1.75;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  .memory-meta {
+    color: #e2e8f0 !important;
+  }
+
+  /* Polaroid Stack in Hero */
+  .hero-polaroid-stack {
+    width: 290px;
+    height: 340px;
+    margin: 0 auto;
+  }
+  .hero-polaroid {
+    position: absolute;
+    width: 270px;
+    background: #ffffff;
+    padding: 12px 12px 20px 12px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  .hero-polaroid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  .hero-polaroid-back {
+    top: 25px;
+    left: -15px;
+    transform: rotate(-7deg);
+    opacity: 0.6;
+  }
+  .hero-polaroid-front {
+    top: 0;
+    left: 15px;
+    transform: rotate(3deg);
+    z-index: 2;
+  }
+  .hero-polaroid-front:hover {
+    transform: rotate(0deg) scale(1.03);
+    z-index: 3;
+  }
+  .tape-strip {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 26px;
+    background: rgba(254, 240, 138, 0.85);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    z-index: 4;
+    border-left: 2px dashed rgba(0,0,0,0.1);
+    border-right: 2px dashed rgba(0,0,0,0.1);
+  }
+  .polaroid-caption {
+    padding-top: 10px;
+    text-align: center;
+    color: #1f2937;
+  }
+
+  /* BAGIAN 1: BENTO GRID COLLAGE */
+  .bg-slate-subtle {
+    background-color: #f8fafc;
+  }
+  .bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 200px;
+    gap: 1.25rem;
+  }
+  .bento-item {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #0f172a;
+  }
+  .bento-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 36px rgba(15, 23, 42, 0.16);
+  }
+  .bento-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  .bento-item:hover .bento-img {
+    transform: scale(1.06);
+  }
+  .bento-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.4) 60%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    z-index: 2;
+  }
+  .bento-badge-tag {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 50px;
+    z-index: 3;
+  }
+  .tape-strip-mini {
+    position: absolute;
+    top: -8px;
+    right: 25px;
+    width: 60px;
+    height: 20px;
+    background: rgba(254, 240, 138, 0.85);
+    transform: rotate(6deg);
+    z-index: 4;
+  }
+
+  /* Grid Layout Spans */
+  .bento-featured {
+    grid-column: span 12;
+    grid-row: span 2;
+  }
+  .bento-farewell {
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  .bento-studio {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+  .bento-mentor {
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+
+  @media (min-width: 992px) {
+    .bento-featured {
+      grid-column: span 7;
+      grid-row: span 2;
+      height: 420px;
+    }
+    .bento-farewell {
+      grid-column: span 5;
+      grid-row: span 1;
+      height: 200px;
+    }
+    .bento-studio {
+      grid-column: span 2;
+      grid-row: span 1;
+      height: 200px;
+    }
+    .bento-mentor {
+      grid-column: span 3;
+      grid-row: span 1;
+      height: 200px;
+    }
+  }
+
+  /* BAGIAN 2: POLAROID SCRAPBOOK WALL */
+  .scrap-wall-section {
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .scrap-filter-pill {
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    border-radius: 50px;
+    padding: 8px 18px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .scrap-filter-pill:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+  .scrap-filter-pill.active {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  }
+
+  .polaroid-card {
+    background: #ffffff;
+    padding: 12px 12px 18px 12px;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transform: rotate(var(--card-rot, 0deg));
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .polaroid-card:hover {
+    transform: translateY(-8px) scale(1.03) rotate(0deg) !important;
+    box-shadow: 0 20px 35px rgba(15, 23, 42, 0.15);
+    z-index: 10;
+  }
+  .washi-tape {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 22px;
+    background: rgba(253, 224, 71, 0.85);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    z-index: 2;
+    border-left: 2px dashed rgba(0,0,0,0.08);
+    border-right: 2px dashed rgba(0,0,0,0.08);
+  }
+  .polaroid-photo-frame {
+    position: relative;
+    height: 190px;
+    background-color: #0f172a;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .polaroid-photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .polaroid-card:hover .polaroid-photo-frame img {
+    transform: scale(1.05);
+  }
+  .polaroid-category-tag {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(4px);
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 50px;
+  }
+  .polaroid-details {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .polaroid-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+    line-height: 1.35;
+  }
+  .polaroid-school {
+    font-size: 0.78rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .polaroid-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px dashed #e2e8f0;
+  }
+  .polaroid-date {
+    font-size: 0.75rem;
+    color: #94a3b8;
+  }
+  .polaroid-btn {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #2563eb;
+  }
+
+  /* BAGIAN 3: FILMSTRIP */
+  .filmstrip-wrapper {
+    overflow-x: auto;
+    padding: 1.5rem 0 2rem;
+    scrollbar-width: thin;
+    scrollbar-color: #475569 transparent;
+  }
+  .filmstrip-track {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0 1.5rem;
+    width: max-content;
+  }
+  .filmstrip-frame {
+    background: #000000;
+    padding: 8px 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border: 1px solid #334155;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+  }
+  .filmstrip-frame:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-color: #f59e0b;
+  }
+  .film-holes {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 6px;
+  }
+  .film-holes span {
+    width: 14px;
+    height: 9px;
+    background: #1e293b;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .film-img-box {
+    position: relative;
+    width: 240px;
+    height: 145px;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  .film-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .film-stamp {
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f59e0b;
+    font-family: monospace;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+
+  /* BAGIAN 4: STICKY NOTES ALUMNI */
+  .sticky-note-card {
+    padding: 1.75rem 1.5rem;
+    border-radius: 4px;
+    position: relative;
+    transform: rotate(var(--note-rot, 0deg));
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sticky-note-card:hover {
+    transform: translateY(-6px) rotate(0deg) scale(1.02) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12) !important;
+    z-index: 5;
+  }
+  .pin-icon {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 1.25rem;
+    opacity: 0.85;
+  }
+  .sticky-quote {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #334155;
+    flex-grow: 1;
+  }
+
+  /* LIGHTBOX MODAL */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-lightbox.show {
+    display: flex;
+  }
+  .gallery-lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 15, 26, 0.94);
+    backdrop-filter: blur(10px);
+  }
+  .gallery-lightbox-dialog {
+    position: relative;
+    z-index: 100000;
+    max-width: 92vw;
+    max-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-lightbox-content {
+    background: #0f172a;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    max-width: 860px;
+    width: 100%;
+  }
+  .gallery-lightbox-img-wrap {
+    height: 480px;
+    max-height: 60vh;
+    background: #020617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-lightbox-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .gallery-lightbox-caption {
+    padding: 1.25rem 1.5rem;
+    background: #0f172a;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: -46px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.35);
+  }
+</style>
+
+<script>
+  function initAestheticGallery() {
+    // Filter logic for Polaroid Scrapbook Wall
+    const filterBtns = document.querySelectorAll('.scrap-filter-pill');
+    const polaroidCols = document.querySelectorAll('.polaroid-col');
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+
+        polaroidCols.forEach((col) => {
+          const cat = col.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            (col as HTMLElement).style.display = 'block';
+          } else {
+            (col as HTMLElement).style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox Logic
+    const lightbox = document.getElementById('galleryLightbox');
+    const lightboxImg = document.getElementById('lightboxImg') as HTMLImageElement;
+    const lightboxTitle = document.getElementById('lightboxTitle');
+    const lightboxMeta = document.getElementById('lightboxMeta');
+    const lightboxDesc = document.getElementById('lightboxDesc');
+    const closeBtn = document.getElementById('lightboxClose');
+    const backdrop = document.querySelector('.gallery-lightbox-backdrop');
+
+    function openLightbox(img: string, title: string, desc: string, meta: string) {
+      if (!lightbox || !lightboxImg || !lightboxTitle || !lightboxDesc || !lightboxMeta) return;
+      lightboxImg.src = img;
+      lightboxImg.alt = title;
+      lightboxTitle.textContent = title;
+      lightboxMeta.textContent = meta;
+      lightboxDesc.textContent = desc;
+      lightbox.classList.add('show');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      if (!lightbox) return;
+      lightbox.classList.remove('show');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.view-trigger').forEach((el) => {
+      el.addEventListener('click', () => {
+        const img = el.getAttribute('data-img') || '';
+        const title = el.getAttribute('data-title') || '';
+        const desc = el.getAttribute('data-desc') || '';
+        const meta = el.getAttribute('data-meta') || '';
+        openLightbox(img, title, desc, meta);
+      });
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (backdrop) backdrop.addEventListener('click', closeLightbox);
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  }
+
+  initAestheticGallery();
+  document.addEventListener('astro:page-load', initAestheticGallery);
+</script>

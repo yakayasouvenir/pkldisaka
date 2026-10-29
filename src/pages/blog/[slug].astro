@@ -1,0 +1,429 @@
+---
+// src/pages/blog/[slug].astro
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { SITE, waLink } from '../../data/site';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      allPosts: posts,
+    },
+  }));
+}
+
+const { post, allPosts } = Astro.props;
+const { Content } = await render(post);
+
+const path = `/blog/${post.id}/`;
+const absUrl = new URL(path, SITE.url).toString();
+
+const crumbs = [
+  { name: 'Blog', path: '/blog/' },
+  { name: post.data.title, path },
+];
+
+const formatDate = (d: Date) =>
+  new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
+
+// Related articles (other posts)
+const relatedPosts = allPosts.filter((p) => p.id !== post.id).slice(0, 2);
+
+// Comprehensive Structured Data (AEO & 2026-2027 Standards matching reference)
+const schemas: any[] = [
+  {
+    '@type': 'BlogPosting',
+    '@id': `${absUrl}#article`,
+    headline: post.data.title,
+    description: post.data.description,
+    image: [new URL(post.data.image, SITE.url).toString()],
+    datePublished: post.data.published.toISOString(),
+    dateModified: (post.data.updated || post.data.published).toISOString(),
+    inLanguage: 'id-ID',
+    url: absUrl,
+    isPartOf: {
+      '@type': 'Blog',
+      '@id': `${SITE.url}/blog/#blog`,
+      name: 'Blog & Panduan Edukasi PKL Saka Malang',
+      url: `${SITE.url}/blog/`,
+    },
+    author: {
+      '@type': 'Organization',
+      name: post.data.author,
+      url: SITE.url,
+      description: post.data.authorRole,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.brandName,
+      url: SITE.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: new URL('/favicon.svg', SITE.url).toString(),
+      },
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.blog-summary-text', '.blog-prose h2', '.blog-prose p'],
+    },
+    keywords: post.data.keywords.join(', '),
+  },
+  {
+    '@type': 'BreadcrumbList',
+    '@id': `${absUrl}#breadcrumb`,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Beranda', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: 'Blog & Panduan', item: `${SITE.url}/blog/` },
+      { '@type': 'ListItem', position: 3, name: post.data.title, item: absUrl },
+    ],
+  },
+];
+
+if (post.data.faq && post.data.faq.length > 0) {
+  schemas.push({
+    '@type': 'FAQPage',
+    '@id': `${absUrl}#faq`,
+    isPartOf: { '@id': `${absUrl}#article` },
+    mainEntity: post.data.faq.map((f: { q: string; a: string }) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.a,
+      },
+    })),
+  });
+}
+---
+
+<BaseLayout
+  title={`${post.data.title} - Blog PKL Saka`}
+  description={post.data.description}
+  path={path}
+  crumbs={crumbs}
+  schema={schemas}
+  <main id="main-content" class="content-section pt-4">
+    <div class="container">
+      <div class="row g-4 g-xl-5">
+        <article class="col-lg-8 blog-article-main">
+
+          <!-- 1. BREADCRUMB -->
+          <nav aria-label="Breadcrumb" class="mb-3">
+        <ol class="breadcrumb small mb-0">
+          <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="/blog/" class="text-decoration-none">Blog</a></li>
+          <li class="breadcrumb-item active text-truncate" aria-current="page" style="max-width: 320px;">
+            {post.data.title}
+          </li>
+        </ol>
+      </nav>
+
+      <!-- 2. EYEBROW & H1 HEADLINE -->
+      <span class="section-heading-eyebrow text-uppercase mb-2 d-inline-block">
+        {post.data.eyebrow}
+      </span>
+      <h1 class="h2 fw-bold text-dark mb-3" style="line-height: 1.35; letter-spacing: -0.01em;">
+        {post.data.title}
+      </h1>
+
+      <!-- 3. ARTICLE METADATA BAR -->
+      <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mb-4 pb-3 border-bottom">
+        <span>Ditulis oleh <strong class="text-dark">{post.data.author}</strong></span>
+        <span>&bull;</span>
+        <span>{formatDate(post.data.published)}</span>
+        <span>&bull;</span>
+        <span>Waktu Baca: {post.data.readingTime}</span>
+        <span>&bull;</span>
+        <span class="badge bg-primary-subtle text-primary border border-primary-subtle font-monospace">
+          {post.data.category}
+        </span>
+      </div>
+
+      <!-- 4. FEATURED COVER IMAGE WITH CAPTION (SAMPUL ARTIKEL BERFOTO) -->
+      <figure class="blog-featured-figure mb-4">
+        <div class="blog-featured-img-wrap border">
+          <img
+            src={post.data.image}
+            alt={post.data.imageAlt || post.data.title}
+            class="blog-featured-img"
+            width="840"
+            height="472"
+            loading="eager"
+          />
+        </div>
+        <figcaption class="text-center text-muted small mt-2 fst-italic">
+          📸 {post.data.imageCaption}
+        </figcaption>
+      </figure>
+
+      <!-- 5. SUMMARY CALLOUT BOX (PANDUAN SINGKAT / POIN KUNCI) -->
+      <div class="p-4 rounded-3 border mb-4 bg-light" style="border-color: rgba(226, 232, 240, 0.9) !important;">
+        <div class="fw-bold mb-1 text-primary d-flex align-items-center gap-2">
+          <i class="bi bi-lightbulb-fill text-warning"></i>
+          <span>Panduan Singkat & Poin Kunci Jawaban:</span>
+        </div>
+        <p class="small text-secondary mb-0 blog-summary-text" style="line-height: 1.65; font-size: 0.92rem;">
+          {post.data.answer}
+        </p>
+      </div>
+
+      <!-- 6. TABLE OF CONTENTS (DAFTAR ISI PANDUAN) -->
+      <nav class="blog-toc" aria-label="Daftar Isi Artikel">
+        <div class="blog-toc-title">
+          <i class="bi bi-list-nested text-primary"></i>
+          <span>Daftar Isi Pembahasan:</span>
+        </div>
+        <ul>
+          <li><a href="#1-memahami">1. Pengantar & Latar Belakang Kebutuhan Industri</a></li>
+          <li><a href="#2-dokumen">2. Standar Kompetensi & Persiapan Berkas Esensial</a></li>
+          <li><a href="#3-etika">3. Tahapan Implementasi & Praktik Nyata di Lapangan</a></li>
+          <li><a href="#4-tahap">4. Evaluasi & Budaya Kerja Tim Profesional</a></li>
+          <li><a href="#5-matriks">5. Tabel Matriks Panduan Komprehensif</a></li>
+          <li><a href="#6-checklist">6. Checklist Verifikasi Mandiri Sebelum Melangkah</a></li>
+          {post.data.faq && post.data.faq.length > 0 && (
+            <li><a href="#faq-artikel">7. FAQ &mdash; Pertanyaan Umum yang Sering Diajukan</a></li>
+          )}
+        </ul>
+      </nav>
+
+      <!-- 7. ARTICLE PROSE (KONTEN LENGKAP ARTIKEL) -->
+      <div class="blog-prose mb-5">
+        <Content />
+      </div>
+
+      <!-- 8. FAQ ACCORDION SECTION (PERTANYAAN UMUM) -->
+      {post.data.faq && post.data.faq.length > 0 && (
+        <div id="faq-artikel" class="mb-5 pt-3">
+          <div class="mb-3">
+            <span class="section-heading-eyebrow">Tanya Jawab Terkait</span>
+            <h2 class="h4 fw-bold text-dark mb-1">FAQ &mdash; Pertanyaan Praktis Pembaca</h2>
+            <p class="small text-muted mb-0">Jawaban transparan dari tim mentor industri Saka untuk menjawab keraguan siswa dan pihak sekolah.</p>
+          </div>
+
+          <div class="accordion accordion-faq" id="articleFaqAccordion">
+            {post.data.faq.map((item: { q: string; a: string }, idx: number) => {
+              const collapseId = `faqCollapse-${idx}`;
+              const headingId = `faqHeading-${idx}`;
+              return (
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id={headingId}>
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#${collapseId}`}
+                      aria-expanded="false"
+                      aria-controls={collapseId}
+                    >
+                      {item.q}
+                    </button>
+                  </h3>
+                  <div
+                    id={collapseId}
+                    class="accordion-collapse collapse"
+                    aria-labelledby={headingId}
+                    data-bs-parent="#articleFaqAccordion"
+                  >
+                    <div class="accordion-body">
+                      {item.a}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      <!-- 9. HIGH-CONVERTING WHATSAPP CTA BANNER (MIRIP DENGAN LINK CONTOH) -->
+      <div class="p-4 p-md-5 rounded-4 mb-5 text-white position-relative overflow-hidden" style="background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);">
+        <div class="row align-items-center g-4">
+          <div class="col-md-8 text-center text-md-start">
+            <div class="small text-white-50 text-uppercase fw-semibold mb-2" style="letter-spacing: 0.06em;">
+              Ingin Praktik Langsung di Proyek Nyata?
+            </div>
+            <h3 class="h4 text-white fw-bold mb-2" style="line-height: 1.35;">
+              Konsultasikan Minat Jurusan & Jadwal PKL Anda
+            </h3>
+            <p class="small text-white-50 mb-0" style="line-height: 1.6;">
+              Diskusikan ketersediaan kuota divisi magang di Saka Malang bersama tim pembina kami. Bebas biaya pendaftaran dan rasio bimbingan terjaga.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a
+              href={waLink(`Halo Tim Mentor Saka, saya telah membaca artikel '${post.data.title}' dan ingin menanyakan ketersediaan kuota PKL.`)}
+              class="btn btn-light text-primary fw-bold px-4 py-3 rounded-pill d-inline-flex align-items-center justify-content-center gap-2 w-100 shadow-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-whatsapp text-success fs-5"></i>
+              <span>Konsultasi WhatsApp</span>
+            </a>
+            <div class="small text-white-50 mt-2" style="font-size: 0.78rem;">
+              0821-3108-7971 &middot; Respon Cepat Tim Pembina
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. AUTHOR BIO CARD (TENTANG TIM PEMBIMBING) -->
+      <div class="border rounded-4 p-4 mb-5 bg-light" style="border-color: rgba(226, 232, 240, 0.9) !important;">
+        <div class="d-flex gap-4 align-items-start flex-column flex-sm-row">
+          <div class="flex-shrink-0">
+            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center shadow-sm" style="width: 72px; height: 72px; font-size: 1.8rem;">
+              <i class="bi bi-mortarboard-fill"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <div class="small text-muted text-uppercase fw-semibold mb-1" style="letter-spacing: 0.05em; font-size: 0.75rem;">
+              Tentang Tim Pembimbing
+            </div>
+            <div class="fw-bold fs-6 text-dark mb-1">
+              {post.data.author}
+            </div>
+            <div class="small text-primary fw-semibold mb-2">
+              {post.data.authorRole}
+            </div>
+            <p class="small text-muted mb-3" style="line-height: 1.65;">
+              Tim mentor Saka terdiri dari praktisi industri aktif di bidang desain visual, rekayasa perangkat lunak, SEO teknikal, dan strategi pemasaran digital. Berkomitmen mendampingi peserta didik vokasi agar memiliki mentalitas kerja profesional serta portofolio karya nyata berstandar industri.
+            </p>
+            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-white text-secondary border font-monospace">Bimbingan Praktisi</span>
+                <span class="badge bg-white text-secondary border font-monospace">Proyek Nyata</span>
+                <span class="badge bg-white text-secondary border font-monospace">Vokasi Malang</span>
+              </div>
+              <a href="/tentang/" class="small fw-bold text-primary text-decoration-none">
+                Pelajari Profil Lengkap Agensi Saka &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. RELATED ARTICLES (ARTIKEL TERKAIT DENGAN THUMBNAIL FOTO DI KIRI) -->
+      {relatedPosts.length > 0 && (
+        <div class="border-top pt-4 mb-5">
+          <div class="small fw-bold text-uppercase text-primary mb-3" style="letter-spacing: 0.06em;">
+            Artikel Panduan Terkait Lainnya
+          </div>
+          <div class="row g-3">
+            {relatedPosts.map((rel) => (
+              <div class="col-sm-6">
+                <a href={`/blog/${rel.id}/`} class="blog-related-card">
+                  <div class="blog-related-thumb">
+                    <img
+                      src={rel.data.image}
+                      alt={rel.data.title}
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="p-3 py-2 flex-grow-1 min-w-0">
+                    <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.72rem;">
+                      {rel.data.category}
+                    </div>
+                    <div class="fw-bold text-dark text-truncate-2" style="font-size: 0.88rem; line-height: 1.4;">
+                      {rel.data.title} &rarr;
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- 12. BACK BUTTON -->
+      <div class="text-center pb-3">
+        <a href="/blog/" class="btn btn-outline-secondary rounded-pill px-4 btn-sm">
+          <i class="bi bi-arrow-left me-1"></i> Kembali ke Daftar Semua Artikel Blog
+        </a>
+      </div>
+    </article>
+
+    <!-- SIDEBAR BLOG -->
+    <div class="col-lg-4">
+      <aside class="detail-sidebar">
+        <!-- 1. WhatsApp Quick Consultation -->
+        <div class="sidebar-widget sidebar-cta-card">
+          <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2.5 py-1 mb-2 font-monospace" style="font-size: 0.72rem;">
+            <i class="bi bi-patch-check-fill text-primary"></i>
+            <span>Tanya Tim Mentor Saka</span>
+          </div>
+          <h3 class="h6 fw-bold text-dark mb-2">Konsultasi Materi & Program PKL</h3>
+          <p class="small text-muted mb-3" style="font-size: 0.85rem; line-height: 1.5;">
+            Ingin mendalami materi ini langsung di proyek industri? Diskusikan ketersediaan kuota magang Anda dengan kami.
+          </p>
+          <a
+            href={waLink(`Halo Tim Mentor Saka, saya telah membaca artikel '${post.data.title}' dan ingin berkonsultasi seputar magang.`)}
+            class="btn btn-primary w-100 rounded-pill py-2 fw-semibold d-inline-flex align-items-center justify-content-center gap-2 shadow-sm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="bi bi-whatsapp"></i>
+            <span>Konsultasi via WhatsApp</span>
+          </a>
+          <div class="d-flex align-items-center justify-content-center gap-2 mt-2 text-muted" style="font-size: 0.74rem;">
+            <i class="bi bi-shield-check text-success"></i>
+            <span>Respon Cepat • Bebas Biaya 100%</span>
+          </div>
+        </div>
+
+        <!-- 2. Ekosistem Vokasi Saka -->
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">
+            <i class="bi bi-mortarboard-fill text-primary"></i>
+            <span>Standar Pembinaan PKL</span>
+          </div>
+          <div class="sidebar-facts-list">
+            <div class="sidebar-fact-item">
+              <span class="fact-label">Kurikulum:</span>
+              <span class="fact-val">100% Proyek Nyata</span>
+            </div>
+            <div class="sidebar-fact-item">
+              <span class="fact-label">Biaya Pendaftaran:</span>
+              <span class="fact-val text-success">Gratis / Bebas Biaya</span>
+            </div>
+            <div class="sidebar-fact-item">
+              <span class="fact-label">Lokasi:</span>
+              <span class="fact-val">Kota Malang, Jatim</span>
+            </div>
+            <div class="sidebar-fact-item">
+              <span class="fact-label">Hasil Akhir:</span>
+              <span class="fact-val">Portofolio & Sertifikat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Artikel Terkait Cepat -->
+        {relatedPosts.length > 0 && (
+          <div class="sidebar-widget">
+            <div class="sidebar-widget-title">
+              <i class="bi bi-journal-text text-primary"></i>
+              <span>Bacaan Rekomendasi</span>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              {relatedPosts.map((rel) => (
+                <a href={`/blog/${rel.id}/`} class="text-decoration-none p-2.5 border rounded bg-white hover-shadow d-block transition-all">
+                  <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.72rem;">
+                    {rel.data.category}
+                  </div>
+                  <div class="fw-bold text-dark small line-clamp-2" style="font-size: 0.85rem; line-height: 1.35;">
+                    {rel.data.title} &rarr;
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </aside>
+    </div>
+  </div>
+</div>
+</main>
+</BaseLayout>

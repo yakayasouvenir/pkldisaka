@@ -1,0 +1,124 @@
+---
+// src/pages/blog/index.astro
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import StatusNotice from '../../components/StatusNotice.astro';
+import CTASection from '../../components/CTASection.astro';
+import { getCollection } from 'astro:content';
+import { webPageNode } from '../../lib/schema';
+
+const crumbs = [{ name: 'Blog', path: '/blog/' }];
+
+const rawPosts = await getCollection('blog');
+const posts = rawPosts.sort(
+  (a, b) => new Date(b.data.published).getTime() - new Date(a.data.published).getTime()
+);
+
+const formatDate = (d: Date) =>
+  new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
+---
+
+<BaseLayout
+  title="Blog & Panduan Edukasi PKL Malang - Tips Magang, Portofolio & Karier Vokasi"
+  description="Kumpulan artikel mendalam, panduan portofolio siswa SMK, persiapan interview PKL, dan wawasan industri digital nyata dari tim mentor praktisi Saka Malang."
+  path="/blog/"
+  crumbs={crumbs}
+  schema={[
+    webPageNode({
+      path: '/blog/',
+      name: 'Blog & Panduan Edukasi PKL Malang',
+      description: 'Panduan dan wawasan praktis seputar magang industri dan karier digital di Saka Malang.',
+    }),
+  ]}
+>
+  <PageHero
+    eyebrow="Wawasan & Literasi Vokasi"
+    title="Blog & Panduan Edukasi PKL"
+    lead="Artikel praktis, standar industri, dan catatan mentor untuk membantu siswa SMK serta mahasiswa vokasi mempersiapkan diri menghadapi dunia kerja digital secara percaya diri."
+    crumbs={crumbs}
+    bgImage="/images/24.webp"
+  />
+
+  <section class="content-section">
+    <div class="container">
+      <StatusNotice
+        status="Literasi Industri Vokasi"
+        note="Seluruh materi disusun berdasarkan pengalaman nyata pembimbingan ratusan siswa PKL di agensi digital Saka Malang."
+      />
+
+      <!-- Blog Highlights Grid with Real Photo Covers -->
+      <div class="row g-4 mb-5">
+        {posts.map((post) => (
+          <div class="col-md-6 col-lg-6">
+            <article class="blog-card h-100 position-relative">
+              <!-- Cover Image Thumbnail -->
+              <a href={`/blog/${post.id}/`} class="blog-card-img-wrap d-block text-decoration-none" aria-label={`Baca artikel: ${post.data.title}`}>
+                <img
+                  src={post.data.image}
+                  alt={post.data.imageAlt || post.data.title}
+                  class="blog-card-img"
+                  width="600"
+                  height="338"
+                  loading="lazy"
+                />
+                <span class="blog-card-badge">
+                  {post.data.category}
+                </span>
+              </a>
+
+              <div class="blog-card-body">
+                <div class="d-flex align-items-center gap-2 text-muted small mb-2" style="font-size: 0.8rem;">
+                  <span><i class="bi bi-calendar3 me-1 text-primary"></i>{formatDate(post.data.published)}</span>
+                  <span>&bull;</span>
+                  <span><i class="bi bi-clock me-1 text-secondary"></i>{post.data.readingTime}</span>
+                </div>
+
+                <h2 class="h5 fw-bold mb-2">
+                  <a href={`/blog/${post.id}/`} class="text-decoration-none text-dark hover-primary">
+                    {post.data.title}
+                  </a>
+                </h2>
+
+                <p class="text-muted small mb-3 flex-grow-1" style="line-height: 1.6; font-size: 0.88rem;">
+                  {post.data.description}
+                </p>
+
+                <!-- Quick Key Takeaway Box -->
+                <div class="p-3 rounded-3 bg-light border mb-3" style="font-size: 0.82rem; border-color: rgba(226, 232, 240, 0.85) !important;">
+                  <div class="fw-bold text-primary mb-1 d-flex align-items-center gap-1">
+                    <i class="bi bi-bookmark-check-fill text-warning"></i>
+                    <span>Poin Kunci Jawaban:</span>
+                  </div>
+                  <div class="text-secondary" style="line-height: 1.5;">
+                    {post.data.answer}
+                  </div>
+                </div>
+
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 pt-3 border-top mt-auto">
+                  <span class="small text-muted" style="font-size: 0.78rem;">
+                    <i class="bi bi-person-fill text-primary me-1"></i>
+                    {post.data.author}
+                  </span>
+                  <a
+                    href={`/blog/${post.id}/`}
+                    class="btn btn-sm btn-primary-saka d-inline-flex align-items-center gap-2 text-decoration-none"
+                    style="padding: 0.4rem 0.85rem; font-size: 0.82rem;"
+                  >
+                    <span>Baca Panduan Lengkap</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        ))}
+      </div>
+
+      <!-- Bottom Help & CTA -->
+      <CTASection
+        title="Siap Mengaplikasikan Skill di Proyek Nyata?"
+        description="Pelajari alur pendaftaran dan segera amankan kuota divisi magang impianmu di Saka Malang sebelum periode penuh."
+      />
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import LinkCard from '../../components/LinkCard.astro';
+import FAQList from '../../components/FAQList.astro';
+import CTASection from '../../components/CTASection.astro';
+import StatusNotice from '../../components/StatusNotice.astro';
+import RelatedLinks from '../../components/RelatedLinks.astro';
+import { getPageByPath } from '../../data/pklData';
+import { faqNode } from '../../lib/schema';
+
+const page = getPageByPath('/program-pkl/')!;
+const crumbs = [{ name: page.h1, path: page.path }];
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.metaDescription}
+  path={page.path}
+  crumbs={crumbs}
+  schema={page.faqs ? [faqNode(page.path, page.faqs)] : []}
+>
+  <PageHero
+    eyebrow={page.groupName}
+    title={page.h1}
+    lead={page.summary}
+    crumbs={crumbs}
+    bgImage="/images/6.webp"
+  />
+
+  <section class="content-section">
+    <div class="container article-container">
+      <StatusNotice
+        status={page.status}
+        targetDate={page.targetDate}
+        note="Kurikulum industri PKL diselaraskan dengan Capaian Pembelajaran SMK dan perguruan tinggi."
+      />
+
+      <article class="article-content">
+        <div class="article-summary-box">
+          <div class="article-summary-title">
+            <i class="bi bi-info-circle-fill me-1"></i>Ringkasan Kurikulum Program
+          </div>
+          <p class="article-summary-text">{page.summary}</p>
+        </div>
+
+        <!-- Feature Box Kurikulum & Fasilitas PKL -->
+        <div class="article-feature-box">
+          <div class="row g-3 align-items-center">
+            <div class="col-md-5">
+              <div class="article-feature-img-wrap">
+                <img
+                  src="/images/13.webp"
+                  alt="Kegiatan praktik dan pembimbingan peserta PKL Saka Malang"
+                  loading="lazy"
+                  width="480"
+                  height="300"
+                />
+                <span class="article-feature-badge">
+                  <i class="bi bi-mortarboard-fill me-1"></i>Vokasi Industri
+                </span>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <h3 class="h6 fw-bold text-primary mb-2">Pilar Kurikulum Praktik Saka</h3>
+              <p class="small text-muted mb-2">
+                Program disusun untuk mengonversi materi akademik menjadi keahlian siap pakai di industri pemasaran dan teknologi digital.
+              </p>
+              <div class="competency-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span><strong>Proyek Komersial:</strong> Latihan mengerjakan brief klien riil dengan supervisi mentor.</span>
+              </div>
+              <div class="competency-item mb-0">
+                <i class="bi bi-check-circle-fill"></i>
+                <span><strong>Review Mingguan:</strong> Presentasi hasil kerja untuk melatih kepercayaan diri siswa.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body">
+          {page.sections.map((sec) => (
+            <div class="mb-4">
+              <h2>{sec.heading}</h2>
+              <p>{sec.content}</p>
+              {sec.bullets && (
+                <ul>
+                  {sec.bullets.map((b) => (
+                    <li>{b}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+
+          <h2 class="mt-4 mb-3">Sub-Program Terkait</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <LinkCard
+                href="/program-pkl/alur-seleksi/"
+                title="Alur Seleksi & Penerimaan"
+                description="Tahapan pendaftaran mulai dari pengajuan berkas, tes kompetensi ringan, hingga surat balasan."
+                icon="bi-diagram-2"
+                linkText="Lihat Alur Seleksi"
+              />
+            </div>
+            <div class="col-md-6">
+              <LinkCard
+                href="/program-pkl/fasilitas/"
+                title="Fasilitas & Ruang Kerja"
+                description="Sarana kerja kolaboratif, koneksi internet berkecepatan tinggi, dan ruang diskusi penunjang."
+                icon="bi-laptop"
+                linkText="Lihat Fasilitas"
+              />
+            </div>
+          </div>
+        </div>
+
+        <RelatedLinks urls={page.relatedUrls} />
+      </article>
+    </div>
+  </section>
+
+  {page.faqs && (
+    <FAQList
+      items={page.faqs}
+      id="faq-program"
+      title="Pertanyaan Seputar Program PKL"
+    />
+  )}
+
+  <CTASection />
+</BaseLayout>

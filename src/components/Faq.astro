@@ -1,0 +1,15 @@
+---
+const { items, id = 'faq' } = Astro.props as { items: { q: string; a: string }[]; id?: string };
+---
+<div class="accordion faq" id={id}>
+  {items.map((f, i) => (
+    <div class="accordion-item">
+      <h3 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#${id}-${i}`} aria-expanded="false" aria-controls={`${id}-${i}`}>{f.q}</button>
+      </h3>
+      <div id={`${id}-${i}`} class="accordion-collapse collapse" data-bs-parent={`#${id}`}>
+        <div class="accordion-body">{f.a}</div>
+      </div>
+    </div>
+  ))}
+</div>

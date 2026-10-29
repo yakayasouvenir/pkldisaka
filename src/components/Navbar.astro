@@ -1,0 +1,588 @@
+---
+import { NAV, SITE, waLink } from '../data/site';
+
+interface Props {
+  path?: string;
+}
+
+const { path = '/' } = Astro.props;
+
+// Active matching with trailing slash tolerance
+const normalize = (p: string) => (p.endsWith('/') ? p : `${p}/`);
+const currentPath = normalize(path);
+
+const isActive = (href: string) => {
+  const normHref = normalize(href);
+  if (normHref === '/') return currentPath === '/';
+  return currentPath === normHref || currentPath.startsWith(normHref);
+};
+
+const isParentActive = (item: (typeof NAV)[number]) => {
+  if (isActive(item.href)) return true;
+  if (item.children) {
+    return item.children.some((c) => isActive(c.href));
+  }
+  return false;
+};
+---
+
+<header class="site-header" id="siteHeader">
+  <div class="site-header-inner">
+    <div class="container-fluid px-3 px-xl-4 header-container">
+      <!-- 1. BRAND LOGO -->
+      <a class="header-brand" href="/" aria-label="pkldisaka.com - Beranda">
+        <span class="brand-mark">
+          <img src="/images/saka.webp" alt="Logo Saka" width="32" height="32" class="brand-logo-img" />
+        </span>
+        <span class="brand-text">pkl<span>disaka.com</span></span>
+      </a>
+
+      <!-- 2. DESKTOP NAVIGATION (Visible on >= 992px) -->
+      <nav class="desktop-nav d-none d-lg-flex align-items-center" aria-label="Navigasi Desktop">
+        <ul class="desktop-menu list-unstyled mb-0 d-flex align-items-center gap-1">
+          {NAV.map((item) => (
+            item.children ? (
+              <li class="desktop-nav-item dropdown-parent">
+                <button
+                  type="button"
+                  class:list={['desktop-nav-link dropdown-toggle-btn', { active: isParentActive(item) }]}
+                  aria-expanded="false"
+                >
+                  <span>{item.label}</span>
+                  <i class="bi bi-chevron-down nav-chevron"></i>
+                </button>
+                <div class="desktop-dropdown-card">
+                  <div class="dropdown-card-inner">
+                    {item.children.map((child) => (
+                      <a
+                        class:list={['dropdown-sub-item', { active: isActive(child.href) }]}
+                        href={child.href}
+                      >
+                        {child.icon && (
+                          <span class="dropdown-sub-icon">
+                            <i class={`bi ${child.icon}`}></i>
+                          </span>
+                        )}
+                        <div class="dropdown-sub-text">
+                          <div class="dropdown-sub-title">{child.label}</div>
+                          {child.desc && <div class="dropdown-sub-desc">{child.desc}</div>}
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </li>
+            ) : (
+              <li class="desktop-nav-item">
+                <a
+                  class:list={['desktop-nav-link', { active: isActive(item.href) }]}
+                  href={item.href}
+                  aria-current={isActive(item.href) ? 'page' : undefined}
+                >
+                  {item.label}
+                </a>
+              </li>
+            )
+          ))}
+        </ul>
+      </nav>
+
+      <!-- 3. DESKTOP CTA BUTTON -->
+      <div class="header-cta d-none d-lg-block">
+        <a class="btn-primary-saka header-btn" href="/cara-daftar/">
+          <i class="bi bi-journal-check"></i>
+          <span>Cara Daftar</span>
+        </a>
+      </div>
+
+      <!-- 4. MOBILE HAMBURGER TOGGLER (Visible on < 992px) -->
+      <button
+        class="mobile-toggler-btn d-lg-none"
+        type="button"
+        id="mobileMenuToggle"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="mobileNavPanel"
+      >
+        <i class="bi bi-list menu-icon-open"></i>
+        <i class="bi bi-x-lg menu-icon-close d-none"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- 5. DEDICATED FULL-VIEWPORT MOBILE NAV PANEL (Never trapped by containers) -->
+  <div class="mobile-nav-panel" id="mobileNavPanel" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <div class="mobile-menu-list">
+        {NAV.map((item, idx) => (
+          item.children ? (
+            <div class="mobile-nav-group">
+              <button
+                type="button"
+                class="mobile-group-toggle"
+                data-target={`#mobileGroup-${idx}`}
+                aria-expanded="false"
+              >
+                <span class:list={['mobile-group-title', { 'text-primary': isParentActive(item) }]}>
+                  {item.label}
+                </span>
+                <i class="bi bi-chevron-down mobile-chevron"></i>
+              </button>
+              <div class="mobile-group-collapse" id={`mobileGroup-${idx}`}>
+                <div class="mobile-sub-list">
+                  {item.children.map((child) => (
+                    <a
+                      class:list={['mobile-sub-link', { active: isActive(child.href) }]}
+                      href={child.href}
+                    >
+                      {child.icon && <i class={`bi ${child.icon} me-2 text-primary`}></i>}
+                      <span>{child.label}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div class="mobile-nav-single">
+              <a
+                class:list={['mobile-single-link', { active: isActive(item.href) }]}
+                href={item.href}
+              >
+                {item.label}
+              </a>
+            </div>
+          )
+        ))}
+      </div>
+
+      <!-- Mobile CTA Section -->
+      <div class="mobile-cta-section mt-4 pt-3 border-top">
+        <a class="btn-primary-saka w-100 py-3 mb-2" href="/cara-daftar/">
+          <i class="bi bi-journal-check me-1"></i>
+          <span>Panduan Cara Daftar</span>
+        </a>
+        <a class="btn-secondary-saka w-100 py-2" href={waLink()} target="_blank" rel="noopener">
+          <i class="bi bi-whatsapp me-1 text-success"></i>
+          <span>Chat WhatsApp Resmi</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Header Main Bar (Posisi Tetap Diam di Atas Layar Saat Scroll) */
+  .site-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1040;
+    background: #ffffff;
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 10px rgba(32, 41, 56, 0.08);
+  }
+
+  .site-header-inner {
+    padding: 0.55rem 0;
+  }
+
+  .header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  /* Brand Logo */
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  .brand-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .brand-logo-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .brand-text {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--color-text);
+    white-space: nowrap;
+    letter-spacing: -0.02em;
+  }
+
+  .brand-text span {
+    color: var(--color-primary);
+  }
+
+  /* Desktop Nav Items */
+  .desktop-menu {
+    flex-wrap: nowrap;
+  }
+
+  .desktop-nav-item {
+    position: relative;
+  }
+
+  .desktop-nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: var(--color-text);
+    padding: 0.45rem 0.65rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .desktop-nav-link:hover,
+  .desktop-nav-link:focus,
+  .desktop-nav-link.active {
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+  }
+
+  .nav-chevron {
+    font-size: 0.72rem;
+    transition: transform 0.2s ease;
+  }
+
+  .dropdown-parent:hover .nav-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Desktop Dropdown Card */
+  .desktop-dropdown-card {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 290px;
+    background: #ffffff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    box-shadow: 0 16px 36px -8px rgba(32, 41, 56, 0.14);
+    padding: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: all 0.18s ease;
+    z-index: 1050;
+  }
+
+  .dropdown-parent:hover .desktop-dropdown-card {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-card-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .dropdown-sub-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: all 0.15s ease;
+  }
+
+  .dropdown-sub-item:hover,
+  .dropdown-sub-item.active {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+  }
+
+  .dropdown-sub-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .dropdown-sub-item:hover .dropdown-sub-icon {
+    background: var(--color-primary);
+    color: #ffffff;
+  }
+
+  .dropdown-sub-title {
+    font-weight: 600;
+    font-size: 0.88rem;
+    line-height: 1.25;
+  }
+
+  .dropdown-sub-desc {
+    font-size: 0.76rem;
+    color: var(--color-muted);
+    margin-top: 2px;
+  }
+
+  /* Header CTA Button */
+  .header-btn {
+    padding: 0.45rem 1.1rem;
+    font-size: 0.88rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Mobile Toggler Button */
+  .mobile-toggler-btn {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: #ffffff;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .mobile-toggler-btn:hover,
+  .mobile-toggler-btn:focus {
+    background: var(--color-background);
+    outline: none;
+  }
+
+  /* Dedicated Mobile Nav Panel */
+  .mobile-nav-panel {
+    display: none;
+    position: fixed;
+    top: 57px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 1045;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  }
+
+  .mobile-nav-panel.is-open {
+    display: block;
+    animation: mobileSlideDown 0.22s ease-out;
+  }
+
+  @keyframes mobileSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .mobile-nav-inner {
+    padding: 1rem 1.25rem 3.5rem;
+  }
+
+  /* Mobile Nav Items */
+  .mobile-nav-single {
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+
+  .mobile-single-link {
+    display: block;
+    padding: 0.85rem 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .mobile-single-link.active {
+    color: var(--color-primary);
+  }
+
+  .mobile-nav-group {
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+
+  .mobile-group-toggle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 0.5rem;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-text);
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .mobile-group-toggle:hover {
+    color: var(--color-primary);
+  }
+
+  .mobile-chevron {
+    font-size: 0.85rem;
+    transition: transform 0.2s ease;
+  }
+
+  .mobile-group-toggle.is-active .mobile-chevron {
+    transform: rotate(180deg);
+  }
+
+  .mobile-group-collapse {
+    display: none;
+    background: var(--color-background);
+    border-radius: var(--radius-sm);
+    margin-bottom: 0.65rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .mobile-group-collapse.is-expanded {
+    display: block;
+  }
+
+  .mobile-sub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .mobile-sub-link {
+    display: flex;
+    align-items: center;
+    padding: 0.55rem 0.65rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+  }
+
+  .mobile-sub-link:hover,
+  .mobile-sub-link.active {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+  }
+</style>
+
+<script>
+  // Robust vanilla JS for mobile menu and accordion
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('mobileMenuToggle');
+    const navPanel = document.getElementById('mobileNavPanel');
+    const iconOpen = document.querySelector('.menu-icon-open');
+    const iconClose = document.querySelector('.menu-icon-close');
+
+    if (toggleBtn && navPanel) {
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = navPanel.classList.contains('is-open');
+
+        if (!isOpen) {
+          navPanel.classList.add('is-open');
+          navPanel.setAttribute('aria-hidden', 'false');
+          toggleBtn.setAttribute('aria-expanded', 'true');
+          iconOpen?.classList.add('d-none');
+          iconClose?.classList.remove('d-none');
+          document.body.style.overflow = 'hidden'; // lock background scrolling
+        } else {
+          closeMobileNav();
+        }
+      });
+    }
+
+    function closeMobileNav() {
+      if (navPanel && navPanel.classList.contains('is-open')) {
+        navPanel.classList.remove('is-open');
+        navPanel.setAttribute('aria-hidden', 'true');
+        toggleBtn?.setAttribute('aria-expanded', 'false');
+        iconOpen?.classList.remove('d-none');
+        iconClose?.classList.add('d-none');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // Accordion expand/collapse in mobile drawer
+    const groupToggles = document.querySelectorAll('.mobile-group-toggle');
+    groupToggles.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+        if (!targetId) return;
+        const targetCollapse = document.querySelector(targetId);
+        if (!targetCollapse) return;
+
+        const isExpanded = targetCollapse.classList.contains('is-expanded');
+
+        // Close all other groups for clean accordion
+        document.querySelectorAll('.mobile-group-collapse.is-expanded').forEach((col) => {
+          if (col !== targetCollapse) {
+            col.classList.remove('is-expanded');
+            const otherBtn = document.querySelector(`[data-target="#${col.id}"]`);
+            otherBtn?.classList.remove('is-active');
+            otherBtn?.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        targetCollapse.classList.toggle('is-expanded', !isExpanded);
+        btn.classList.toggle('is-active', !isExpanded);
+        btn.setAttribute('aria-expanded', !isExpanded ? 'true' : 'false');
+      });
+    });
+
+    // Close when tapping on any link
+    const mobileLinks = document.querySelectorAll('.mobile-sub-link, .mobile-single-link');
+    mobileLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        closeMobileNav();
+      });
+    });
+
+    // Close on resize to desktop (>= 992px)
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 992) {
+        closeMobileNav();
+      }
+    });
+  });
+</script>

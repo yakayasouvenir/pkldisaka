@@ -1,0 +1,478 @@
+---
+// src/pages/tentang.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import FAQList from '../components/FAQList.astro';
+import CTASection from '../components/CTASection.astro';
+import RelatedLinks from '../components/RelatedLinks.astro';
+import { getPageByPath } from '../data/pklData';
+import { faqNode } from '../lib/schema';
+import { waLink } from '../data/site';
+
+const page = getPageByPath('/tentang/')!;
+const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
+---
+
+<BaseLayout
+  title="Tentang Saka - Profil Agensi & Komitmen Pembinaan Vokasi"
+  description="Mengenal Saka Malang: digital agency terkemuka, visi edukasi vokasi, budaya kerja industri nyata, fasilitas studio, serta komitmen pendampingan PKL/magang SMK dan mahasiswa."
+  path="/tentang/"
+  crumbs={crumbs}
+  schema={page.faqs ? [faqNode(page.path, page.faqs)] : []}
+>
+  <PageHero
+    eyebrow="Profil & Komitmen Edukasi"
+    title="Tentang Saka & Misi Vokasi Industri"
+    lead="Mengenal lebih dekat ekosistem kerja Saka di Kota Malang: agensi digital yang mendedikasikan fasilitas dan penugasan proyek komersial nyata untuk membina talenta muda SMK dan perguruan tinggi."
+    crumbs={crumbs}
+    bgImage="/images/8.webp"
+  />
+
+  <section class="content-section">
+    <div class="container">
+      <StatusNotice
+        status="Informasi Profil Faktual"
+        targetDate={page.targetDate}
+        note="Profil ini disajikan secara transparan tanpa klaim buatan, berfokus pada dedikasi pembinaan keterampilan industri bagi peserta didik."
+      />
+
+      <!-- 1. STATISTIK / METRIK CEPAT SAKA -->
+      <div class="row g-3 mb-4">
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-white text-center shadow-sm h-100">
+            <div class="text-primary mb-1"><i class="bi bi-geo-alt-fill fs-4"></i></div>
+            <div class="fw-bold fs-6">Kota Malang</div>
+            <small class="text-muted" style="font-size: 0.76rem;">Pusat Kreatif Vokasi</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-white text-center shadow-sm h-100">
+            <div class="text-primary mb-1"><i class="bi bi-laptop-fill fs-4"></i></div>
+            <div class="fw-bold fs-6">100% Proyek Nyata</div>
+            <small class="text-muted" style="font-size: 0.76rem;">Standar Kerja Komersial</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-white text-center shadow-sm h-100">
+            <div class="text-primary mb-1"><i class="bi bi-cash-stack fs-4"></i></div>
+            <div class="fw-bold fs-6">Gratis 100%</div>
+            <small class="text-muted" style="font-size: 0.76rem;">Bebas Biaya Masuk</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-white text-center shadow-sm h-100">
+            <div class="text-primary mb-1"><i class="bi bi-buildings-fill fs-4"></i></div>
+            <div class="fw-bold fs-6">12+ Mitra Vokasi</div>
+            <small class="text-muted" style="font-size: 0.76rem;">Jaringan SMK & Kampus</small>
+          </div>
+        </div>
+      </div>
+
+      <article class="article-content">
+        <!-- 2. SIAPA SAKA (RINGKASAN UTAMA) -->
+        <div class="article-summary-box mb-4">
+          <div class="article-summary-title">
+            <i class="bi bi-info-circle-fill me-1"></i>Siapa Kami: Saka Media & Digital Pro
+          </div>
+          <p class="article-summary-text">
+            Saka adalah agensi digital kreatif yang berbasis di Kota Malang, Jawa Timur. Kami bergerak di bidang perancangan identitas visual merek, desain kemasan produk UMKM, optimasi mesin pencari (SEO), pengembangan website bisnis, serta produksi konten multimedia promosi. Di samping aktivitas bisnis komersial, Saka membuka studio dan fasilitasnya sebagai laboratorium industri terbuka bagi peserta didik SMK dan mahasiswa vokasi.
+          </p>
+        </div>
+
+        <!-- 3. VISI & MISI PENDIDIKAN VOKASI -->
+        <div class="mb-5">
+          <h2 class="h4 fw-bold mb-3"><i class="bi bi-compass-fill text-primary me-2"></i>Visi & Misi Pembinaan Talenta</h2>
+          <div class="p-4 border rounded-3 bg-light mb-4">
+            <h3 class="h6 fw-bold text-primary text-uppercase mb-2" style="letter-spacing: 0.05em;">Visi Utama</h3>
+            <p class="mb-0 text-dark fw-medium">
+              "Menjadi jembatan kolaborasi industri terpercaya yang mentransformasikan bekal teori siswa sekolah kejuruan menjadi kompetensi profesional yang siap pakai dan diakui pasar kerja."
+            </p>
+          </div>
+
+          <h3 class="h6 fw-bold mb-3 text-secondary">Misi Pembinaan:</h3>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="p-3 border rounded-3 bg-white h-100">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check2-circle text-primary fs-5 mt-1"></i>
+                  <div>
+                    <div class="fw-bold text-dark mb-1">Pengalaman Kerja Riil</div>
+                    <div class="small text-muted">Melibatkan peserta pada alur pengerjaan brief klien nyata, dari tahap riset hingga serah terima hasil.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 border rounded-3 bg-white h-100">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check2-circle text-primary fs-5 mt-1"></i>
+                  <div>
+                    <div class="fw-bold text-dark mb-1">Rasio Mentor Intensif</div>
+                    <div class="small text-muted">Membatasi kuota divisi hanya 2–4 orang agar setiap siswa mendapatkan arahan bimbingan 1-on-1 yang berkualitas.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 border rounded-3 bg-white h-100">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check2-circle text-primary fs-5 mt-1"></i>
+                  <div>
+                    <div class="fw-bold text-dark mb-1">Etika & Sikap Profesional</div>
+                    <div class="small text-muted">Membiasakan budaya kerja transparan, kedisiplinan tenggat waktu, serta komunikasi tim yang santun.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 border rounded-3 bg-white h-100">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check2-circle text-primary fs-5 mt-1"></i>
+                  <div>
+                    <div class="fw-bold text-dark mb-1">Portofolio & Rekomendasi</div>
+                    <div class="small text-muted">Memastikan setiap lulusan memiliki portofolio karya otentik dan surat rekomendasi kepegawaian resmi.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. GALERI VISUAL STUDIO & LINGKUNGAN PRAKTIK -->
+        <div class="mb-5">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <h2 class="h4 fw-bold mb-0"><i class="bi bi-camera-fill text-primary me-2"></i>Suasana Studio & Fasilitas Belajar</h2>
+            <span class="small text-muted">Dokumentasi Nyata</span>
+          </div>
+          
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="border rounded-3 overflow-hidden shadow-sm h-100 bg-white">
+                <img
+                  src="/images/10.webp"
+                  alt="Studio kerja kolaboratif Saka Malang"
+                  class="w-100"
+                  style="aspect-ratio: 16/10; object-fit: cover;"
+                  loading="lazy"
+                />
+                <div class="p-3">
+                  <div class="fw-bold text-dark mb-1">Studio Utama & Ruang Koordinasi</div>
+                  <p class="small text-muted mb-0">Area kerja kolaboratif ber-AC dengan koneksi internet cepat untuk riset dan diskusi proyek.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="border rounded-3 overflow-hidden shadow-sm h-100 bg-white">
+                <img
+                  src="/images/12.webp"
+                  alt="Peserta divisi desain grafis sedang merancang visual di studio"
+                  class="w-100"
+                  style="aspect-ratio: 16/10; object-fit: cover;"
+                  loading="lazy"
+                />
+                <div class="p-3">
+                  <div class="fw-bold text-dark mb-1">Studio Desain & Packaging Produk</div>
+                  <p class="small text-muted mb-0">Peserta DKV dan Multimedia mempraktikkan desain kemasan komersial dan identitas visual.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="border rounded-3 overflow-hidden shadow-sm h-100 bg-white">
+                <img
+                  src="/images/21.webp"
+                  alt="Sesi mentoring teknis coding web development dan analisis sistem"
+                  class="w-100"
+                  style="aspect-ratio: 16/10; object-fit: cover;"
+                  loading="lazy"
+                />
+                <div class="p-3">
+                  <div class="fw-bold text-dark mb-1">Mentoring Teknis & Analisis Digital</div>
+                  <p class="small text-muted mb-0">Sesi evaluasi mingguan bersama mentor praktisi untuk audit arsitektur website dan performa kode.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="border rounded-3 overflow-hidden shadow-sm h-100 bg-white">
+                <img
+                  src="/images/22.webp"
+                  alt="Kolaborasi tim peserta PKL lintas divisi"
+                  class="w-100"
+                  style="aspect-ratio: 16/10; object-fit: cover;"
+                  loading="lazy"
+                />
+                <div class="p-3">
+                  <div class="fw-bold text-dark mb-1">Kolaborasi Tim Lintas Jurusan</div>
+                  <p class="small text-muted mb-0">Membiasakan sinergi antardivisi dari perancangan materi hingga publikasi online.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. STRUKTUR ORGANISASI PERUSAHAAN & TIM PEMBINA -->
+        <div class="mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 mb-3">
+            <div>
+              <span class="section-heading-eyebrow">Tata Kelola & Kepemimpinan</span>
+              <h2 class="h4 fw-bold mb-0"><i class="bi bi-diagram-3-fill text-primary me-2"></i>Struktur Organisasi Perusahaan Saka</h2>
+            </div>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill small fw-semibold">
+              <i class="bi bi-shield-check me-1"></i> Struktur Resmi Terverifikasi
+            </span>
+          </div>
+          <p class="text-muted mb-4">
+            Bagan struktur organisasi Saka dirancang untuk memastikan tata kelola industri yang profesional, pembagian tanggung jawab yang transparan, serta jalur bimbingan intensif bagi seluruh peserta Praktik Kerja Lapangan.
+          </p>
+
+          <!-- Diagram Struktur Sesuai Bagan Resmi -->
+          <div class="org-chart-container p-3 p-md-4 rounded-4 bg-light border shadow-sm">
+            <!-- LEVEL 1: DIREKTUR -->
+            <div class="d-flex justify-content-center mb-3">
+              <div class="org-card-box org-card-director text-center shadow-sm">
+                <div class="org-person-name">Aditiya Yoga Isnaeni</div>
+                <div class="org-person-role">DIREKTUR</div>
+              </div>
+            </div>
+
+            <!-- Connector dari Direktur ke 3 Cabang -->
+            <div class="org-tree-stem-container d-none d-lg-block">
+              <div class="org-stem-vertical"></div>
+              <div class="org-stem-horizontal-3"></div>
+              <div class="org-stem-drops d-flex justify-content-between">
+                <div class="org-stem-drop"></div>
+                <div class="org-stem-drop"></div>
+                <div class="org-stem-drop"></div>
+              </div>
+            </div>
+
+            <!-- LEVEL 2 & 3: 3 CABANG UTAMA (CRO, FINANCE, LEADER PRODUKSI) -->
+            <div class="row g-4 pt-lg-2">
+              <!-- CABANG 1: CRO (Kiri) -->
+              <div class="col-lg-4">
+                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                  <!-- Level 2 Card: CRO -->
+                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                    <div class="org-person-name">I Gusti Ayu Dea Salsa</div>
+                    <div class="org-person-role">CRO</div>
+                  </div>
+
+                  <!-- Connector Sub-Cabang CRO -->
+                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                    <div class="org-stem-vertical-short"></div>
+                    <div class="org-sub-horizontal-2"></div>
+                    <div class="org-sub-drops d-flex justify-content-between">
+                      <div class="org-stem-drop"></div>
+                      <div class="org-stem-drop"></div>
+                    </div>
+                  </div>
+
+                  <!-- Level 3 Cards di bawah CRO -->
+                  <div class="row g-2 w-100 flex-grow-1">
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                        <div class="org-person-name">Bayu Setiawan</div>
+                        <div class="org-person-role small">SENIOR DESAIN</div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                        <div class="org-person-name">Muchammad Maluana Ishaq</div>
+                        <div class="org-person-role small">SENIOR MARKETING</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CABANG 2: FINANCE (Tengah) -->
+              <div class="col-lg-4">
+                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                  <!-- Level 2 Card: FINANCE -->
+                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                    <div class="org-person-name no-underline">Yoga</div>
+                    <div class="org-person-role">FINANCE</div>
+                  </div>
+
+                  <!-- Connector Sub-Cabang FINANCE -->
+                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                    <div class="org-stem-drop-single"></div>
+                  </div>
+
+                  <!-- Level 3 Card di bawah FINANCE -->
+                  <div class="w-100 flex-grow-1 d-flex flex-column">
+                    <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                      <div class="org-person-role">FINANCE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CABANG 3: LEADER PRODUKSI (Kanan) -->
+              <div class="col-lg-4">
+                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                  <!-- Level 2 Card: LEADER PRODUKSI -->
+                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                    <div class="org-person-name">Jauhar Abdilah</div>
+                    <div class="org-person-role">LEADER PRODUKSI</div>
+                  </div>
+
+                  <!-- Connector Sub-Cabang PRODUKSI -->
+                  <div class="org-sub-stem-container d-none d-lg-block w-100">
+                    <div class="org-stem-vertical-short"></div>
+                    <div class="org-sub-horizontal-2"></div>
+                    <div class="org-sub-drops d-flex justify-content-between">
+                      <div class="org-stem-drop"></div>
+                      <div class="org-stem-drop"></div>
+                    </div>
+                  </div>
+
+                  <!-- Level 3 Cards di bawah LEADER PRODUKSI -->
+                  <div class="row g-2 w-100 flex-grow-1">
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                        <div class="org-person-name">Ahmad Ziyan Achwari</div>
+                        <div class="org-person-role small">STAF PRODUKSI</div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                        <div class="org-person-name">Umar Khotob</div>
+                        <div class="org-person-role small">STAF PRODUKSI</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LEVEL 4: PENEMPATAN SISWA & MAHASISWA PKL DI BAWAH STRUKTUR -->
+            <div class="org-intern-banner mt-4">
+              <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 text-center text-md-start">
+                <div>
+                  <div class="fw-bold text-dark mb-1 d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+                    <i class="bi bi-mortarboard-fill text-primary fs-5"></i>
+                    <span>Penempatan Peserta PKL di Bawah Bimbingan Langsung Tim Industri</span>
+                  </div>
+                  <p class="small text-muted mb-0" style="font-size: 0.82rem;">
+                    Siswa SMK dan mahasiswa vokasi dibimbing langsung oleh Senior Desain (DKV), Senior Marketing (Bisnis Digital & SEO), serta Leader & Staf Produksi (Merchandise & Percetakan) dengan supervisi CRO dan Direktur.
+                  </p>
+                </div>
+                <a href="/cara-daftar/" class="btn btn-sm btn-primary-saka text-nowrap flex-shrink-0">
+                  <i class="bi bi-journal-check"></i>
+                  <span>Alur Pendaftaran PKL</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. TAHAPAN PERJALANAN MAGANG SISWA DI SAKA -->
+        <div class="mb-5">
+          <h2 class="h4 fw-bold mb-3"><i class="bi bi-hourglass-split text-primary me-2"></i>4 Fase Pembinaan Siswa di Saka</h2>
+          <p class="text-muted mb-4">
+            Agar proses magang terukur dan tidak membingungkan, setiap peserta menjalani 4 tahapan sistematis selama masa penempatan:
+          </p>
+
+          <div class="d-flex flex-column gap-3">
+            <div class="p-3 border rounded-3 bg-white d-flex align-items-start gap-3">
+              <div class="badge bg-primary rounded-circle p-2 px-3 fs-6">1</div>
+              <div>
+                <div class="fw-bold text-dark">Fase Orientasi & Pengenalan Budaya (Minggu 1)</div>
+                <div class="small text-muted">Pengenalan tim, tata tertib kerja, instalasi software standar, serta pemahaman SOP dan alur koordinasi divisi.</div>
+              </div>
+            </div>
+
+            <div class="p-3 border rounded-3 bg-white d-flex align-items-start gap-3">
+              <div class="badge bg-primary rounded-circle p-2 px-3 fs-6">2</div>
+              <div>
+                <div class="fw-bold text-dark">Fase Fundamental & Studi Kasus Terbimbing (Minggu 2–3)</div>
+                <div class="small text-muted">Pengerjaan penugasan awal dengan supervisi mentor untuk memetakan tingkat keahlian dan adaptasi alat kerja.</div>
+              </div>
+            </div>
+
+            <div class="p-3 border rounded-3 bg-white d-flex align-items-start gap-3">
+              <div class="badge bg-primary rounded-circle p-2 px-3 fs-6">3</div>
+              <div>
+                <div class="fw-bold text-dark">Fase Penugasan Proyek Komersial Riil (Bulan 2 hingga Akhir)</div>
+                <div class="small text-muted">Pemberian tanggung jawab proyek nyata sesuai divisi (desain branding, konten video, coding website, optimasi artikel SEO).</div>
+              </div>
+            </div>
+
+            <div class="p-3 border rounded-3 bg-white d-flex align-items-start gap-3">
+              <div class="badge bg-primary rounded-circle p-2 px-3 fs-6">4</div>
+              <div>
+                <div class="fw-bold text-dark">Fase Evaluasi, Portofolio & Sertifikasi (2 Minggu Terakhir)</div>
+                <div class="small text-muted">Penyusunan portofolio profesional, pengesahan laporan akhir sekolah, pengisian nilai BKK, dan penyerahan Sertifikat Resmi.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. NILAI-NILAI PEMBINAAN UTAMA -->
+        <div class="mb-5">
+          <h2 class="h4 fw-bold mb-3"><i class="bi bi-shield-check text-primary me-2"></i>Nilai-Nilai Pembinaan Karakter</h2>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="p-3 border rounded-3 bg-light h-100">
+                <div class="fw-bold text-primary mb-1"><i class="bi bi-shield-lock me-1"></i>Kejujuran & Sikap</div>
+                <div class="small text-muted">Menghargai proses pembuatan karya orisinil, jujur dalam pelaporan progres, dan terbuka terhadap masukan pembimbing.</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-3 bg-light h-100">
+                <div class="fw-bold text-primary mb-1"><i class="bi bi-award me-1"></i>Kualitas & Ketelitian</div>
+                <div class="small text-muted">Membiasakan standar hasil kerja industri yang rapi, presisi, dan siap ditampilkan kepada publik.</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-3 bg-light h-100">
+                <div class="fw-bold text-primary mb-1"><i class="bi bi-people-fill me-1"></i>Kolaborasi Tim</div>
+                <div class="small text-muted">Membangun kebiasaan koordinasi cair antardivisi dari perancangan hingga evaluasi hasil bersama.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. BANNER TAUTAN KE SEKOLAH MITRA -->
+        <div class="p-4 rounded-4 bg-primary text-white mb-4 shadow-sm">
+          <div class="row g-3 align-items-center">
+            <div class="col-md-8">
+              <span class="badge bg-white text-primary mb-2 fw-semibold">Jaringan Kemitraan</span>
+              <h3 class="h5 fw-bold mb-1 text-white">Lihat Sekolah & Kampus yang Pernah Bermitra</h3>
+              <p class="small text-white-50 mb-0">
+                Temukan daftar SMK Negeri, SMK Swasta, dan Perguruan Tinggi Vokasi yang telah bekerja sama dalam penempatan siswa PKL di Saka.
+              </p>
+            </div>
+            <div class="col-md-4 text-md-end">
+              <a href="/mitra/" class="btn btn-light text-primary fw-bold rounded-pill px-4 py-2">
+                Buka Direktori Mitra &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <RelatedLinks urls={page.relatedUrls} />
+      </article>
+    </div>
+  </section>
+
+  <!-- 8. FAQ TENTANG SAKA -->
+  {page.faqs && (
+    <FAQList
+      items={page.faqs}
+      id="faq-tentang"
+      title="Pertanyaan Seputar Pelaksanaan PKL di Saka"
+      description="Jawaban atas pertanyaan seputar profil agensi, model pembinaan, dan komitmen edukasi kami."
+    />
+  )}
+
+  <CTASection
+    title="Tertarik Mengembangkan Potensi Vokasi Anda di Saka?"
+    description="Konsultasikan kesesuaian jurusan dan jadwal magang Anda bersama tim administrasi kami sekarang."
+    primaryHref="/cara-daftar/"
+    primaryText="Pelajari Cara Daftar"
+    secondaryHref={waLink('Halo Tim Saka, saya ingin menanyakan informasi PKL setelah membaca halaman profil Tentang Saka.')}
+    secondaryText="Chat WhatsApp Resmi"
+  />
+</BaseLayout>

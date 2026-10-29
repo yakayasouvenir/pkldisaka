@@ -1,0 +1,32 @@
+---
+import { getPageByPath } from '../data/pklData';
+
+interface Props {
+  urls: string[];
+  title?: string;
+}
+
+const { urls = [], title = 'Panduan & Topik Terkait' } = Astro.props;
+const items = urls
+  .map((u) => {
+    const page = getPageByPath(u);
+    return page ? { path: page.path, title: page.h1 || page.title } : null;
+  })
+  .filter(Boolean) as { path: string; title: string }[];
+---
+
+{items.length > 0 && (
+  <div class="related-links-box">
+    <h3 class="related-links-title"><i class="bi bi-link-45deg me-1"></i>{title}</h3>
+    <ul class="related-links-list">
+      {items.map((item) => (
+        <li>
+          <a href={item.path}>
+            <i class="bi bi-chevron-right text-primary small"></i>
+            <span>{item.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

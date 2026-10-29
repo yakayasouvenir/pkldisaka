@@ -1,0 +1,9 @@
+---
+import CategoryHub from '../../components/CategoryHub.astro';
+import { getPageByPath, getCategoryChildren } from '../../data/pklData';
+
+const page = getPageByPath('/pkl-malang/')!;
+const childrenPages = getCategoryChildren('pkl-malang');
+---
+
+<CategoryHub page={page} childrenPages={childrenPages} />

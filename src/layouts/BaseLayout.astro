@@ -1,0 +1,132 @@
+---
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.min.css';
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/plus-jakarta-sans';
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
+import { SITE, waLink } from '../data/site';
+import { homeGraph, webPageNode, breadcrumbNode, jsonLd } from '../lib/schema';
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  type?: 'website' | 'article';
+  image?: string;
+  noindex?: boolean;
+  crumbs?: { name: string; path?: string }[];
+  schema?: unknown[];
+  pageType?: string;
+  published?: string;
+  modified?: string;
+  section?: string;
+}
+
+const {
+  title,
+  description,
+  path = Astro.url.pathname,
+  type = 'website',
+  image = SITE.ogImage,
+  noindex = false,
+  crumbs = [],
+  schema = [],
+  pageType = 'WebPage',
+  published,
+  modified,
+  section,
+} = Astro.props;
+
+const isHome = path === '/' || path === '';
+const normPath = isHome ? '/' : path.endsWith('/') ? path : `${path}/`;
+const fullTitle = isHome ? title : `${title} | ${SITE.name}`;
+const canonical = new URL(normPath, SITE.url).toString();
+const ogImg = new URL(image, SITE.url).toString();
+
+const hasBreadcrumbs = !isHome && crumbs.length > 0;
+
+const graph = [
+  ...homeGraph(),
+  webPageNode({
+    path: normPath,
+    name: fullTitle,
+    description,
+    type: pageType,
+    image,
+    dateModified: modified,
+    hasBreadcrumbs,
+  }),
+  ...(hasBreadcrumbs ? [breadcrumbNode(normPath, crumbs)] : []),
+  ...schema,
+];
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+    <meta name="googlebot" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+    <meta name="author" content={SITE.name} />
+    <meta name="theme-color" content="#2457A7" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImg} />
+    {type === 'article' && published && <meta property="article:published_time" content={published} />}
+    {type === 'article' && modified && <meta property="article:modified_time" content={modified} />}
+    {type === 'article' && section && <meta property="article:section" content={section} />}
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImg} />
+
+    <!-- Favicon & Sitemap -->
+    <link rel="icon" href="/images/saka.webp" type="image/webp" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+
+    <!-- Structured data (JSON-LD @graph) -->
+    <script type="application/ld+json" is:inline set:html={jsonLd(graph)} />
+  </head>
+  <body>
+    <!-- Skip to main content (DESIGN.md Bab 7) -->
+    <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+
+    <Navbar path={normPath} />
+
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <Footer />
+
+    <!-- Floating WhatsApp -->
+    <a class="wa-float" href={waLink()} target="_blank" rel="noopener" aria-label="Konsultasi WhatsApp PKL di Saka">
+      <i class="bi bi-whatsapp"></i>
+      <span>Tanya PKL</span>
+    </a>
+
+    <!-- Back To Top Button -->
+    <BackToTop />
+
+    <script>
+      import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+    </script>
+  </body>
+</html>

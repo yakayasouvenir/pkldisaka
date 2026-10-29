@@ -1,0 +1,9 @@
+---
+import CategoryHub from '../../components/CategoryHub.astro';
+import { getPageByPath, getCategoryChildren } from '../../data/pklData';
+
+const page = getPageByPath('/divisi/')!;
+const childrenPages = getCategoryChildren('divisi');
+---
+
+<CategoryHub page={page} childrenPages={childrenPages} />

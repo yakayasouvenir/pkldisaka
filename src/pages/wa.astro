@@ -1,0 +1,20 @@
+---
+import { SITE, waLink } from "../data/site";
+const target = waLink();
+---
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="refresh" content={`0;url=${target}`} />
+  <link rel="canonical" href={SITE.url} />
+  <title>Mengarahkan ke WhatsApp...</title>
+</head>
+<body>
+  <p>Mengarahkan ke WhatsApp... <a href={target}>Klik di sini jika tidak terbuka otomatis</a>.</p>
+  <script define:vars={{ target }}>
+    window.location.replace(target);
+  </script>
+</body>
+</html>

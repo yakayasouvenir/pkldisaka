@@ -1,0 +1,9 @@
+---
+import CategoryHub from '../../components/CategoryHub.astro';
+import { getPageByPath, getCategoryChildren } from '../../data/pklData';
+
+const page = getPageByPath('/jurusan/')!;
+const childrenPages = getCategoryChildren('jurusan');
+---
+
+<CategoryHub page={page} childrenPages={childrenPages} />

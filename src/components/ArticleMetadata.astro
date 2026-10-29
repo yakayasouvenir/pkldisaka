@@ -1,0 +1,32 @@
+---
+interface Props {
+  groupName: string;
+  targetDate?: string;
+  status?: string;
+  readTime?: string;
+}
+
+const { groupName, targetDate, status = 'Panduan Faktual', readTime = '3 menit baca' } = Astro.props;
+---
+
+<div class="d-flex flex-wrap align-items-center gap-3 text-muted small py-2 mb-3 border-bottom">
+  <div>
+    <i class="bi bi-folder2-open text-primary me-1"></i>
+    <span>Kategori: <strong>{groupName}</strong></span>
+  </div>
+  <div>
+    <i class="bi bi-clock me-1"></i>
+    <span>{readTime}</span>
+  </div>
+  {targetDate && (
+    <div>
+      <i class="bi bi-calendar-event me-1"></i>
+      <span>Target: {targetDate}</span>
+    </div>
+  )}
+  <div class="ms-auto">
+    <span class="badge bg-success-subtle text-success border border-success-subtle">
+      <i class="bi bi-check-circle me-1"></i>{status}
+    </span>
+  </div>
+</div>

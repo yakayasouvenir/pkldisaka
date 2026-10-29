@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import FAQList from '../components/FAQList.astro';
+import CTASection from '../components/CTASection.astro';
+import RelatedLinks from '../components/RelatedLinks.astro';
+import { getPageByPath, PKL_PAGES } from '../data/pklData';
+import { faqNode } from '../lib/schema';
+
+const page = getPageByPath('/faq/')!;
+const crumbs = [{ name: page.h1, path: page.path }];
+
+// Collect top FAQs across site
+const allFaqs = [
+  ...page.faqs,
+  ...PKL_PAGES.filter((p) => p.path !== '/' && p.path !== '/faq/').flatMap((p) => p.faqs).slice(0, 8),
+];
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.metaDescription}
+  path={page.path}
+  crumbs={crumbs}
+  schema={[faqNode(page.path, allFaqs)]}
+>
+  <PageHero
+    eyebrow={page.groupName}
+    title={page.h1}
+    lead={page.summary}
+    crumbs={crumbs}
+    bgImage="/images/24.webp"
+  />
+
+  <section class="content-section">
+    <div class="container article-container">
+      <StatusNotice
+        status={page.status}
+        targetDate={page.targetDate}
+        note="Jawaban disusun transparan untuk memberikan kejelasan bagi calon siswa, mahasiswa, dan guru pembimbing."
+      />
+
+      <!-- Banner Link to Tentang Saka -->
+      <div class="p-3 p-md-4 rounded-4 bg-light border mb-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+        <div>
+          <div class="fw-bold text-dark mb-1">Mencari Profil & Visi Industri Saka?</div>
+          <p class="small text-muted mb-0">Pelajari profil agensi, fasilitas studio kerja, dan komitmen bimbingan vokasi kami.</p>
+        </div>
+        <a href="/tentang/" class="btn-primary-saka text-nowrap align-self-start align-self-md-center">
+          <i class="bi bi-building"></i>
+          <span>Halaman Tentang Saka</span>
+        </a>
+      </div>
+
+      <!-- FAQ Section -->
+      <FAQList
+        items={allFaqs}
+        id="main-faq-page"
+        title="Daftar Lengkap Pertanyaan & Jawaban"
+        description="Klik pada judul pertanyaan untuk membuka penjelasan rinci."
+      />
+
+      <div class="article-content mt-4">
+        <h2 class="h4 fw-bold mb-3">Butuh Bantuan Pertanyaan Lain?</h2>
+        <p class="text-muted">
+          Jika pertanyaan spesifik Anda belum tercantum pada daftar di atas, Anda dapat berkoordinasi langsung dengan tim administrasi kami melalui kanal WhatsApp atau formulir di halaman kontak.
+        </p>
+        <RelatedLinks urls={page.relatedUrls} />
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

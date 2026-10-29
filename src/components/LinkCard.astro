@@ -1,0 +1,26 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  icon?: string;
+  badge?: string;
+  linkText?: string;
+}
+
+const { href, title, description, icon = 'bi-file-text', badge, linkText = 'Pelajari Selengkapnya' } = Astro.props;
+---
+
+<a href={href} class="saka-card">
+  <div class="d-flex justify-content-between align-items-start mb-2">
+    <div class="saka-card-icon">
+      <i class={`bi ${icon}`}></i>
+    </div>
+    {badge && <span class="badge bg-light text-primary border">{badge}</span>}
+  </div>
+  <h3 class="saka-card-title">{title}</h3>
+  <p class="saka-card-text">{description}</p>
+  <span class="saka-card-link">
+    {linkText} <i class="bi bi-arrow-right"></i>
+  </span>
+</a>
