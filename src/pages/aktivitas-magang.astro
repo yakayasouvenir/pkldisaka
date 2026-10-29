@@ -1,0 +1,625 @@
+---
+// src/pages/aktivitas-magang.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import CTASection from '../components/CTASection.astro';
+import { waLink } from '../data/site';
+
+const crumbs = [
+  { name: 'Program PKL', path: '/program-pkl/' },
+  { name: 'Aktivitas Magang' },
+];
+
+const keywords = {
+  budaya: [
+    { text: 'Tempat Magang dan PKL Paling Asik di Malang', icon: 'bi-stars' },
+    { text: 'Tanpa Senioritas (Zero Toxic & No Senioritas)', icon: 'bi-heart-fill' },
+    { text: 'Ekosistem Kerja Family Friendly & Suportif', icon: 'bi-people-fill' },
+    { text: 'Tempat Grow Bersama & Belajar Nyata', icon: 'bi-graph-up-arrow' },
+    { text: 'PKL 5 Hari Kerja (Senin – Jumat, Sabtu & Minggu Libur)', icon: 'bi-calendar-check' },
+    { text: 'Jam Kerja Manusiawi 08:00 – 16:00 WIB', icon: 'bi-clock-fill' },
+    { text: 'Istirahat Leluasa 1,5 Jam (11:30 – 13:00 WIB)', icon: 'bi-cup-hot-fill' },
+    { text: 'Doa Bersama Pagi & Sore + Piket Bersama', icon: 'bi-sun-fill' },
+  ],
+  kompetensi: [
+    { text: 'PKL SMK DKV Malang (Desain Kemasan, Branding & Feed Sosmed)', icon: 'bi-palette-fill' },
+    { text: 'Magang Web Developer & RPL (HTML, CSS, Web Modern & SEO)', icon: 'bi-code-slash' },
+    { text: 'PKL Digital Marketing Malang (Riset Pasar & Optimasi Toko Online)', icon: 'bi-shop' },
+    { text: 'Magang Multimedia & Video Creator (Video Pendek & Fotografi)', icon: 'bi-camera-reels-fill' },
+    { text: 'Praktik Produksi Kemasan & Souvenir (Mockup Dummy & Sablon)', icon: 'bi-box-seam-fill' },
+    { text: 'PKL Manajemen Bisnis & Administrasi (Tata Kelola Berkas Resmi)', icon: 'bi-file-earmark-check-fill' },
+  ],
+  benefit: [
+    { text: '100% Bebas Biaya Pendaftaran & Bebas Pungutan (Gratis)', icon: 'bi-shield-check' },
+    { text: 'Mentor Praktisi 1-on-1 Berpengalaman & Ramah', icon: 'bi-person-check-fill' },
+    { text: 'Sertifikat Resmi Industri Berkop Surat', icon: 'bi-award-fill' },
+    { text: 'Penilaian Objektif Transparan Sesuai Form BKK Sekolah', icon: 'bi-clipboard-data-fill' },
+    { text: 'Studio Foto, Ruang Kerja Kondusif & Internet Cepat', icon: 'bi-laptop' },
+    { text: 'Kesempatan Direkrut Menjadi Karyawan Tetap Agensi', icon: 'bi-briefcase-fill' },
+  ],
+};
+
+const shortVideos = [
+  {
+    id: 'vid-01',
+    title: 'A Day in My Life: Anak PKL di Saka Malang',
+    desc: 'Dari datang jam 07:45, doa bersama, piket pagi, briefing santai jam 08:00, ngerjain proyek klien, istirahat 1,5 jam, sampai pulang jam 16:00 tanpa lembur.',
+    duration: '0:58',
+    category: 'Keseharian Magang',
+    badge: 'Trending',
+    thumbnail: '/images/pkl/12.webp',
+    author: 'Dian Permata (SMKN 4 Malang)',
+    aspectRatio: '9/16',
+    views: '12.4K',
+  },
+  {
+    id: 'vid-02',
+    title: 'No Senioritas! Suasana Makan Bareng Pas Istirahat',
+    desc: 'Jam 11:30 adzan Dzuhur langsung istirahat panjang sampai jam 13:00. Makan siang bareng, sholat berjamaah, dan ngobrol akrab antar siswa dan mentor.',
+    duration: '0:45',
+    category: 'Budaya Kerja',
+    badge: 'Family Friendly',
+    thumbnail: '/images/pkl/13.webp',
+    author: 'Faiz & Tim Magang (SMK NU Sunan Ampel)',
+    aspectRatio: '9/16',
+    views: '8.9K',
+  },
+  {
+    id: 'vid-03',
+    title: 'Behind The Scene: Sesi Studio Foto Produk',
+    desc: 'Anak DKV dan Multimedia belajar setting lighting softbox, atur sudut kamera tripod, dan proses editing visual katalog produk komersial.',
+    duration: '1:12',
+    category: 'Praktik Studio',
+    badge: 'DKV & Multimedia',
+    thumbnail: '/images/pkl/15.webp',
+    author: 'Rifki Pratama (SMKN 1 Pasuruan)',
+    aspectRatio: '9/16',
+    views: '15.2K',
+  },
+  {
+    id: 'vid-04',
+    title: 'Briefing Pagi Jam 08:00: Mentor Dengerin Ide Kita',
+    desc: 'Gak ada istilah diomelin atau digurui. Setiap pagi kita sharing rencana kerja dan mentor langsung kasih tips rahasia industri digital.',
+    duration: '0:52',
+    category: 'Bimbingan Mentor',
+    badge: 'Grow Bersama',
+    thumbnail: '/images/pkl/21.webp',
+    author: 'Nabila (SMKN 1 Malang)',
+    aspectRatio: '9/16',
+    views: '9.6K',
+  },
+  {
+    id: 'vid-05',
+    title: 'Praktik Cetak Hardbox & Heat Press Merchandise',
+    desc: 'Siswa belajar kalibrasi warna cetak, pemotongan karton boks souvenir, dan perakitan dummy prototipe langsung di workshop.',
+    duration: '1:05',
+    category: 'Produksi Nyata',
+    badge: 'Workshop',
+    thumbnail: '/images/pkl/1.webp',
+    author: 'Bagus (SMK Mambaul Ihsan)',
+    aspectRatio: '9/16',
+    views: '7.8K',
+  },
+  {
+    id: 'vid-06',
+    title: 'Momen Pelepasan & Penyerahan Sertifikat Resmi',
+    desc: 'Momen penuh haru dan tawa saat tuntas 6 bulan magang. Dapat sertifikat resmi, nilai A dari BKK, dan bekal portofolio siap kerja.',
+    duration: '1:20',
+    category: 'Pelepasan Magang',
+    badge: 'Alumni Sukses',
+    thumbnail: '/images/pkl/22.webp',
+    author: 'Clara Anindya (UMM)',
+    aspectRatio: '9/16',
+    views: '18.1K',
+  },
+];
+
+const activityPhotos = [
+  { src: '/images/pkl/12.webp', caption: 'Peserta DKV merancang desain kemasan visual produk komersial', category: 'studio' },
+  { src: '/images/pkl/21.webp', caption: 'Sesi mentoring teknis 1-on-1 pengembangan web dan optimasi SEO', category: 'mentor' },
+  { src: '/images/pkl/15.webp', caption: 'Praktik penataan lighting studio mini untuk photoshoot produk', category: 'studio' },
+  { src: '/images/pkl/13.webp', caption: 'Briefing pagi dan diskusi santai rencana kerja harian di ruang tim', category: 'kebersamaan' },
+  { src: '/images/pkl/1.webp', caption: 'Pemeriksaan cetak dummy kemasan souvenir dan merchandise', category: 'produksi' },
+  { src: '/images/pkl/22.webp', caption: 'Kolaborasi antar jurusan dan mahasiswa magang lintas institusi', category: 'kebersamaan' },
+  { src: '/images/pkl/4.webp', caption: 'Penyerahan sertifikat resmi dan pelepasan siswa magang berprestasi', category: 'pelepasan' },
+  { src: '/images/pkl/7.webp', caption: 'Momen hangat perpisahan dan makan bersama mentor industri', category: 'pelepasan' },
+  { src: '/images/pkl/10.webp', caption: 'Suasana ruang kerja kondusif dan fasilitas kerja memadai di Saka', category: 'studio' },
+  { src: '/images/pkl/11.webp', caption: 'Review progres mingguan dan sharing session karya portofolio', category: 'mentor' },
+  { src: '/images/pkl/16.webp', caption: 'Eksplorasi pembuatan aset video konten kreatif media sosial', category: 'studio' },
+  { src: '/images/pkl/18.webp', caption: 'Siswa magang aktif mengelola etalase digital dan riset kata kunci', category: 'studio' },
+];
+---
+
+<BaseLayout
+  title="Aktivitas Magang & Keseharian PKL di Saka Malang"
+  description="Dokumentasi aktivitas magang, video singkat keseharian anak PKL, galeri foto studio kerja, serta kata kunci ekosistem magang paling asik di Saka Kota Malang."
+  path="/aktivitas-magang/"
+  crumbs={crumbs}
+>
+  <PageHero
+    eyebrow="Keseharian & Budaya Kerja"
+    title="Aktivitas Magang & Keseharian PKL di Saka"
+    lead="Tempat magang dan PKL paling asik di Malang dengan ekosistem kerja family friendly, tempat grow bersama, dan bebas senioritas. Simak video singkat, foto kegiatan, dan kata kunci magang kami."
+    crumbs={crumbs}
+    bgImage="/images/13.webp"
+  />
+
+  <!-- 1. BULLET POINT KATA KUNCI MAGANG -->
+  <section class="content-section">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 760px;">
+        <span class="section-heading-eyebrow">Nilai Utama & Fokus Pencarian</span>
+        <h2 class="section-heading-title">Kata Kunci & Budaya Magang di Saka</h2>
+        <p class="section-heading-desc">
+          Rangkuman kata kunci penting seputar ekosistem kerja, kompetensi keahlian, dan keuntungan yang didapatkan selama menjalani Praktik Kerja Lapangan di Saka Malang.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Kolom 1: Budaya & Lingkungan Kerja -->
+        <div class="col-lg-4">
+          <div class="saka-card h-100 p-4 border-primary-subtle" style="background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <div class="badge bg-primary text-white rounded-circle p-2">
+                <i class="bi bi-heart-pulse-fill"></i>
+              </div>
+              <h3 class="h6 fw-bold mb-0 text-dark">Budaya & Lingkungan Kerja</h3>
+            </div>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2.5">
+              {keywords.budaya.map((k) => (
+                <li class="d-flex align-items-start gap-2.5 small text-secondary">
+                  <i class={`bi ${k.icon} text-primary mt-1 flex-shrink-0`}></i>
+                  <span class="fw-medium text-dark">{k.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Kompetensi & Divisi PKL -->
+        <div class="col-lg-4">
+          <div class="saka-card h-100 p-4 border-success-subtle" style="background: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <div class="badge bg-success text-white rounded-circle p-2">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <h3 class="h6 fw-bold mb-0 text-dark">Kompetensi & Jurusan PKL</h3>
+            </div>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2.5">
+              {keywords.kompetensi.map((k) => (
+                <li class="d-flex align-items-start gap-2.5 small text-secondary">
+                  <i class={`bi ${k.icon} text-success mt-1 flex-shrink-0`}></i>
+                  <span class="fw-medium text-dark">{k.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Kolom 3: Fasilitas & Keuntungan Resmi -->
+        <div class="col-lg-4">
+          <div class="saka-card h-100 p-4 border-warning-subtle" style="background: linear-gradient(180deg, #ffffff 0%, #fffbeb 100%);">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <div class="badge bg-warning text-dark rounded-circle p-2">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <h3 class="h6 fw-bold mb-0 text-dark">Fasilitas & Keuntungan Resmi</h3>
+            </div>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2.5">
+              {keywords.benefit.map((k) => (
+                <li class="d-flex align-items-start gap-2.5 small text-secondary">
+                  <i class={`bi ${k.icon} text-warning mt-1 flex-shrink-0`}></i>
+                  <span class="fw-medium text-dark">{k.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. VIDIO-VIDIO MAGANG SINGKAT (SHORT VIDEO SHOWCASE) -->
+  <section class="content-section content-section-alt">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
+        <div>
+          <span class="section-heading-eyebrow">Video Singkat & Reels</span>
+          <h2 class="section-heading-title mb-1">Vidio-Vidio Magang Singkat</h2>
+          <p class="section-heading-desc mb-0" style="max-width: 680px;">
+            Saksikan tayangan singkat keseharian, suasana kerja seru, testimoni langsung, dan momen kebersamaan seluruh peserta PKL di Saka Malang.
+          </p>
+        </div>
+        <div>
+          <span class="badge bg-danger-subtle text-danger border border-danger-subtle px-3 py-2 rounded-pill fw-semibold font-monospace">
+            <i class="bi bi-play-circle-fill me-1"></i> {shortVideos.length} Video Singkat Tersedia
+          </span>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        {shortVideos.map((vid) => (
+          <div class="col-md-6 col-lg-4">
+            <div class="short-video-card h-100">
+              <!-- Video Player Mock / Preview Container -->
+              <div class="short-video-thumb-wrap">
+                <img
+                  src={vid.thumbnail}
+                  alt={vid.title}
+                  class="short-video-thumb"
+                  loading="lazy"
+                  width="480"
+                  height="640"
+                />
+                <div class="short-video-overlay"></div>
+
+                <!-- Badges -->
+                <div class="short-video-top-meta">
+                  <span class="badge bg-dark bg-opacity-75 text-white backdrop-blur border border-white-subtle">
+                    {vid.category}
+                  </span>
+                  <span class="badge bg-primary text-white">
+                    {vid.badge}
+                  </span>
+                </div>
+
+                <!-- Play Button Center -->
+                <button
+                  type="button"
+                  class="short-video-play-btn"
+                  aria-label={`Putar video ${vid.title}`}
+                  data-video-id={vid.id}
+                  data-video-title={vid.title}
+                  data-video-author={vid.author}
+                  data-video-desc={vid.desc}
+                  data-video-thumb={vid.thumbnail}
+                >
+                  <i class="bi bi-play-fill"></i>
+                </button>
+
+                <!-- Bottom Duration & Views -->
+                <div class="short-video-bottom-meta">
+                  <span class="small text-white d-flex align-items-center gap-1 font-monospace">
+                    <i class="bi bi-clock"></i> {vid.duration}
+                  </span>
+                  <span class="small text-white-50 d-flex align-items-center gap-1">
+                    <i class="bi bi-eye"></i> {vid.views}
+                  </span>
+                </div>
+              </div>
+
+              <!-- Card Content -->
+              <div class="short-video-body">
+                <h3 class="short-video-title">{vid.title}</h3>
+                <p class="short-video-desc">{vid.desc}</p>
+                <div class="short-video-author">
+                  <i class="bi bi-person-circle text-primary me-1"></i>
+                  <span>{vid.author}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. FOTO-FOTO AKTIVITAS MAGANG -->
+  <section class="content-section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
+        <div>
+          <span class="section-heading-eyebrow">Dokumentasi Visual</span>
+          <h2 class="section-heading-title mb-1">Foto-Foto Aktivitas Magang</h2>
+          <p class="section-heading-desc mb-0" style="max-width: 680px;">
+            Potret otentik aktivitas harian mulai dari studio desain, workshop produksi kemasan, bimbingan mentor teknis, hingga momen pelepasan kelulusan.
+          </p>
+        </div>
+        <div class="d-flex gap-2 flex-wrap">
+          <button type="button" class="btn btn-sm btn-primary rounded-pill px-3 active filter-btn" data-filter="all">Semua Foto</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-3 filter-btn" data-filter="studio">Studio & Kerja</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-3 filter-btn" data-filter="mentor">Bimbingan</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-3 filter-btn" data-filter="kebersamaan">Kebersamaan</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-3 filter-btn" data-filter="pelepasan">Pelepasan</button>
+        </div>
+      </div>
+
+      <div class="row g-4" id="photoGalleryGrid">
+        {activityPhotos.map((photo) => (
+          <div class="col-sm-6 col-md-4 col-lg-3 photo-item" data-category={photo.category}>
+            <div class="activity-photo-card">
+              <div class="activity-photo-img-wrap">
+                <img
+                  src={photo.src}
+                  alt={photo.caption}
+                  class="activity-photo-img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+                <div class="activity-photo-overlay">
+                  <span class="badge bg-primary rounded-pill mb-1 text-capitalize">{photo.category}</span>
+                  <p class="activity-photo-caption mb-0">{photo.caption}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="/galeri/" class="btn btn-outline-primary rounded-pill px-4 py-2.5 fw-semibold shadow-sm">
+          <i class="bi bi-images me-2"></i>Kunjungi Halaman Kapsul Kenangan Lengkap
+          <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL PREVIEW VIDEO INTERAKTIF -->
+  <div class="modal fade" id="videoPreviewModal" tabindex="-1" aria-labelledby="videoPreviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 rounded-4 overflow-hidden shadow-2xl bg-dark text-white">
+        <div class="modal-header border-0 bg-black bg-opacity-50 py-3 px-4">
+          <h3 class="modal-title h6 fw-bold mb-0 text-white" id="videoPreviewModalLabel">
+            <i class="bi bi-play-circle-fill text-danger me-2"></i><span id="modalVideoTitle">Preview Video</span>
+          </h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-0 position-relative bg-black text-center" style="min-height: 420px; display: flex; align-items: center; justify-content: center;">
+          <!-- Simulated Video Screen with animated progress -->
+          <div class="simulated-video-player w-100 h-100 position-relative">
+            <img id="modalVideoThumb" src="" alt="Thumbnail Video" class="w-100 object-fit-cover" style="max-height: 480px;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-40 d-flex flex-column justify-content-between p-4">
+              <div class="text-start">
+                <span class="badge bg-danger rounded-pill px-3 py-1 font-monospace">
+                  <i class="bi bi-record-circle me-1 animate-pulse"></i>VIDEO KLIP MAGANG
+                </span>
+              </div>
+              <div class="text-center">
+                <div class="video-playing-animation d-inline-flex align-items-center gap-2 bg-dark bg-opacity-75 px-4 py-2 rounded-pill border border-white-subtle">
+                  <i class="bi bi-play-fill text-primary fs-4"></i>
+                  <span class="small text-white fw-semibold">Memutar Video Singkat Keseharian Magang...</span>
+                </div>
+              </div>
+              <div class="text-start bg-dark bg-opacity-75 p-3 rounded-3 border border-white-subtle">
+                <p id="modalVideoDesc" class="small mb-1 text-white"></p>
+                <small id="modalVideoAuthor" class="text-white-50 font-monospace"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-0 bg-dark py-2 px-4 justify-content-between">
+          <span class="small text-white-50"><i class="bi bi-info-circle me-1"></i>Dokumentasi resmi Saka Malang</span>
+          <button type="button" class="btn btn-secondary rounded-pill btn-sm px-3" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA SECTION -->
+  <CTASection
+    title="Tertarik Merasakan Magang Paling Asik di Malang?"
+    description="Gabung bersama puluhan siswa SMK dan mahasiswa vokasi lainnya di Saka. Tanpa biaya masuk, tanpa senioritas, dan didampingi mentor ramah!"
+    primaryHref="/cara-daftar/"
+    primaryText="Cara Daftar PKL"
+    secondaryHref={waLink('Halo Kak, saya melihat halaman Aktivitas Magang di Saka dan ingin mendaftar PKL.')}
+    secondaryText="Chat WhatsApp Kemitraan"
+  />
+
+  <!-- SCRIPT FOR VIDEO PREVIEW & PHOTO FILTERING -->
+  <script>
+    function setupAktivitasPage() {
+      // 1. Photo Filter
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const photoItems = document.querySelectorAll('.photo-item');
+
+      filterBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach((b) => {
+            b.classList.remove('active', 'btn-primary');
+            b.classList.add('btn-outline-secondary');
+          });
+          btn.classList.add('active', 'btn-primary');
+          btn.classList.remove('btn-outline-secondary');
+
+          const category = btn.getAttribute('data-filter');
+          photoItems.forEach((item) => {
+            const itemCat = item.getAttribute('data-category');
+            if (category === 'all' || itemCat === category) {
+              (item as HTMLElement).style.display = 'block';
+            } else {
+              (item as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 2. Video Preview Modal
+      const playBtns = document.querySelectorAll('.short-video-play-btn');
+      const modalTitle = document.getElementById('modalVideoTitle');
+      const modalThumb = document.getElementById('modalVideoThumb') as HTMLImageElement | null;
+      const modalDesc = document.getElementById('modalVideoDesc');
+      const modalAuthor = document.getElementById('modalVideoAuthor');
+
+      playBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const title = btn.getAttribute('data-video-title') || 'Video Magang';
+          const author = btn.getAttribute('data-video-author') || '';
+          const desc = btn.getAttribute('data-video-desc') || '';
+          const thumb = btn.getAttribute('data-video-thumb') || '';
+
+          if (modalTitle) modalTitle.textContent = title;
+          if (modalThumb && thumb) modalThumb.src = thumb;
+          if (modalDesc) modalDesc.textContent = desc;
+          if (modalAuthor) modalAuthor.textContent = `Direkam oleh: ${author}`;
+
+          // Trigger bootstrap modal
+          const modalEl = document.getElementById('videoPreviewModal');
+          if (modalEl && (window as any).bootstrap) {
+            const modal = new (window as any).bootstrap.Modal(modalEl);
+            modal.show();
+          }
+        });
+      });
+    }
+
+    setupAktivitasPage();
+    document.addEventListener('astro:page-load', setupAktivitasPage);
+  </script>
+</BaseLayout>
+
+<style>
+  /* Short Video Cards Styling */
+  .short-video-card {
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.95);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .short-video-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px -6px rgba(2, 132, 199, 0.16);
+    border-color: #0284c7;
+  }
+  .short-video-thumb-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: #0f172a;
+  }
+  .short-video-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .short-video-card:hover .short-video-thumb {
+    transform: scale(1.05);
+  }
+  .short-video-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.35) 0%, rgba(15, 23, 42, 0.1) 40%, rgba(15, 23, 42, 0.8) 100%);
+  }
+  .short-video-top-meta {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+  .short-video-bottom-meta {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+  .short-video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: rgba(2, 132, 199, 0.9);
+    color: #ffffff;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 3;
+    transition: transform 0.25s ease, background 0.25s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+  .short-video-play-btn:hover {
+    transform: translate(-50%, -50%) scale(1.15);
+    background: #0284c7;
+  }
+  .short-video-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .short-video-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
+  }
+  .short-video-desc {
+    font-size: 0.84rem;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+    flex-grow: 1;
+  }
+  .short-video-author {
+    font-size: 0.76rem;
+    color: #0284c7;
+    font-weight: 600;
+    padding-top: 0.65rem;
+    border-top: 1px solid #f1f5f9;
+  }
+
+  /* Activity Photos Card Styling */
+  .activity-photo-card {
+    border-radius: 14px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .activity-photo-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1);
+  }
+  .activity-photo-img-wrap {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+  .activity-photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+  }
+  .activity-photo-card:hover .activity-photo-img {
+    transform: scale(1.06);
+  }
+  .activity-photo-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 40%, rgba(15, 23, 42, 0.85) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.85rem;
+    color: #ffffff;
+  }
+  .activity-photo-caption {
+    font-size: 0.76rem;
+    line-height: 1.35;
+    color: #f1f5f9;
+  }
+</style>
+

@@ -89,6 +89,12 @@ export const NAV: NavItem[] = [
         icon: 'bi-bank2',
       },
       {
+        href: '/aktivitas-magang/',
+        label: 'Aktivitas Magang',
+        desc: 'Vidio singkat, dokumentasi foto & kata kunci magang',
+        icon: 'bi-play-circle-fill',
+      },
+      {
         href: '/galeri/',
         label: 'Galeri Kenangan',
         desc: 'Dokumentasi kegiatan, suasana kerja & momen alumni',

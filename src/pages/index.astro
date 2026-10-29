@@ -9,6 +9,7 @@ import CTASection from '../components/CTASection.astro';
 import StatusNotice from '../components/StatusNotice.astro';
 import { PKL_PAGES, GROUPS_INFO, getCategoryChildren } from '../data/pklData';
 import { SCHOOL_PARTNERS } from '../data/partners';
+import { TESTIMONIALS } from '../data/testimonials';
 import { faqNode } from '../lib/schema';
 import { waLink } from '../data/site';
 
@@ -26,6 +27,65 @@ const arsipBgImages = [
   '/images/13.webp',
   '/images/22.webp',
   '/images/21.webp',
+];
+
+const dailyRoutine = [
+  {
+    time: 'Sebelum 08:00 WIB',
+    badge: 'Disiplin Pagi',
+    title: 'Datang Sebelum Jam 08:00, Doa Bersama & Piket Pagi',
+    desc: 'Peserta magang hadir tepat waktu sebelum jam 08:00. Mengawali pagi dengan doa bersama demi kelancaran aktivitas, dilanjutkan piket pagi bersama membersihkan dan merapikan ruang kerja studio.',
+    icon: 'bi-sun-fill',
+    badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+  },
+  {
+    time: '08:00 – 08:30 WIB',
+    badge: 'Briefing Santai',
+    title: 'Briefing Tugas yang Akan Dikerjakan / Materi',
+    desc: 'Setelah piket, seluruh siswa dan mentor berkumpul untuk briefing harian. Mentor memaparkan materi praktis, arahan teknis proyek komersial klien, serta pembagian target hari ini.',
+    icon: 'bi-chat-dots-fill',
+    badgeClass: 'bg-info-subtle text-info border-info-subtle',
+  },
+  {
+    time: '08:30 – 11:30 WIB',
+    badge: 'Praktik Nyata',
+    title: 'Mengerjakan Tugas Divisi & Proyek Industri',
+    desc: 'Fokus pengerjaan tugas divisi (DKV, Web Development, SEO, Video Konten, maupun Produksi Kemasan) dengan bimbingan dan supervisi santai dari mentor profesional.',
+    icon: 'bi-laptop-fill',
+    badgeClass: 'bg-success-subtle text-success border-success-subtle',
+  },
+  {
+    time: '11:30 – 13:00 WIB',
+    badge: 'Ishoma 1,5 Jam',
+    title: 'Istirahat Jam 11:30 / Adzan Dzuhur – Jam 1 (13:00)',
+    desc: 'Waktu istirahat panjang 1,5 jam mulai saat adzan Dzuhur (11:30) sampai jam 13:00 siang. Siswa dapat sholat Dzuhur berjamaah, makan siang santai bareng, ngobrol akrab, dan rehat.',
+    icon: 'bi-cup-hot-fill',
+    badgeClass: 'bg-warning-subtle text-warning-emphasis border-warning-subtle',
+  },
+  {
+    time: '13:00 – 15:50 WIB',
+    badge: 'Lanjut Tugas',
+    title: 'Lanjut Mengerjakan Tugas & Review Hasil Kerja',
+    desc: 'Kembali beraktivitas melanjutkan eksekusi tugas proyek, eksplorasi ide kreatif, serta sesi review langsung dari mentor untuk memastikan kualitas portofolio siswa.',
+    icon: 'bi-gear-wide-connected',
+    badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+  },
+  {
+    time: '15:50 – 16:00 WIB',
+    badge: 'Penutupan Hari',
+    title: 'Persiapan Pulang & Doa Bersama',
+    desc: 'Ketika jam 15:50, peserta mulai bersiap-siap, merapikan file pekerjaan, menyimpan dokumen di repositori/cloud, evaluasi singkat harian, dan ditutup dengan doa bersama.',
+    icon: 'bi-check-circle-fill',
+    badgeClass: 'bg-secondary-subtle text-secondary border-secondary-subtle',
+  },
+  {
+    time: 'Tepat 16:00 WIB',
+    badge: 'Langsung Pulang',
+    title: 'Piket Sore & Langsung Pulang (Bebas Lembur)',
+    desc: 'Setelah doa bersama, siswa melakukan piket sore merapikan workstation masing-masing. Tepat jam 16:00 langsung pulang tanpa ada beban lembur malam!',
+    icon: 'bi-door-open-fill',
+    badgeClass: 'bg-danger-subtle text-danger border-danger-subtle',
+  },
 ];
 
 const lingkunganPhotos = [
@@ -108,11 +168,11 @@ const faqs = homePage.faqs;
       </div>
 
       <h1 class="home-hero-title">
-        Pusat Informasi & Praktik Kerja Lapangan (PKL) di Saka
+        Tempat Magang dan PKL Paling Asik di Malang
       </h1>
 
       <p class="home-hero-lead">
-        Panduan terstruktur bagi siswa SMK dan mahasiswa vokasi: informasi program, pemetaan jurusan, pilihan divisi kerja, format dokumen administrasi, serta ekosistem magang di Kota Malang.
+        Ekosistem kerja asik, family friendly, tempat grow bersama dan tidak ada senioritas.
       </p>
 
       <div class="d-flex flex-wrap gap-3 justify-content-center mb-3">
@@ -121,12 +181,12 @@ const faqs = homePage.faqs;
           <span>Panduan Cara Daftar</span>
         </a>
         <a
-          href="/program-pkl/"
+          href="/aktivitas-magang/"
           class="btn btn-outline-light rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2 fw-semibold"
           style="backdrop-filter: blur(6px); background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.4);"
         >
-          <i class="bi bi-grid-3x3-gap"></i>
-          <span>Pelajari Program</span>
+          <i class="bi bi-play-circle-fill"></i>
+          <span>Aktivitas Magang</span>
         </a>
       </div>
 
@@ -156,7 +216,7 @@ const faqs = homePage.faqs;
           <h2 class="h5 fw-bold mb-0 text-dark">Sekolah & Kampus Mitra PKL di Saka</h2>
         </div>
         <div class="d-flex align-items-center gap-2">
-          <span class="small text-muted d-none d-lg-inline">Telah bermitra dengan 12+ institusi pendidikan</span>
+          <span class="small text-muted d-none d-lg-inline">Telah bermitra dengan {SCHOOL_PARTNERS.length} institusi pendidikan</span>
           <a
             href="/mitra/"
             class="btn btn-sm btn-outline-primary rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5 shadow-2xs"
@@ -199,6 +259,193 @@ const faqs = homePage.faqs;
               </span>
             </div>
           </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- JADWAL MAGANG & RUTINITAS HARIAN (5 HARI KERJA, SENIN - JUMAT, 08:00 - 16:00) -->
+  <section class="content-section" id="jadwal-rutinitas" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 760px;">
+        <span class="section-heading-eyebrow">Jam Kerja & Keseharian Magang</span>
+        <h2 class="section-heading-title">PKL Cuma 5 Hari Kerja: Senin – Jumat (08:00 – 16:00)</h2>
+        <p class="section-heading-desc">
+          Di Saka, kami menerapkan jam magang mulai jam <strong>08:00 – 16:00 WIB</strong>. PKL di kami cuma 5 hari kerja (Senin – Jumat), <strong>Sabtu dan Minggu libur</strong>. Istirahat siang leluasa 1,5 jam, lingkungan kerja family friendly, dan tanpa senioritas!
+        </p>
+      </div>
+
+      <!-- 4 Highlight Cards Jadwal -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-primary text-white mx-auto mb-3">
+              <i class="bi bi-calendar2-week-fill"></i>
+            </div>
+            <div class="h5 fw-bold mb-1 text-dark">5 Hari Kerja</div>
+            <div class="badge bg-primary-subtle text-primary border border-primary-subtle mb-2">Senin – Jumat</div>
+            <p class="small text-muted mb-0">Sabtu & Minggu libur total. Anak magang punya waktu berkualitas untuk keluarga, teman, dan beristirahat.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-success text-white mx-auto mb-3">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <div class="h5 fw-bold mb-1 text-dark">08:00 – 16:00 WIB</div>
+            <div class="badge bg-success-subtle text-success border border-success-subtle mb-2">Jam Magang Pasti</div>
+            <p class="small text-muted mb-0">Magang mulai jam 08:00 sampai 16:00. Selesai piket langsung pulang tepat waktu tanpa lembur.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-warning text-dark mx-auto mb-3">
+              <i class="bi bi-cup-hot-fill"></i>
+            </div>
+            <div class="h5 fw-bold mb-1 text-dark">Istirahat 1,5 Jam</div>
+            <div class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-2">11:30 – 13:00 WIB</div>
+            <p class="small text-muted mb-0">Istirahat jam 11:30 / adzan Dzuhur – jam 1 (13:00). Leluasa untuk sholat Dzuhur dan makan siang santai.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="schedule-stat-card p-4 h-100 rounded-4 border bg-white shadow-xs text-center">
+            <div class="schedule-stat-icon bg-info text-white mx-auto mb-3">
+              <i class="bi bi-heart-fill"></i>
+            </div>
+            <div class="h5 fw-bold mb-1 text-dark">No Senioritas</div>
+            <div class="badge bg-info-subtle text-info border border-info-subtle mb-2">Family Friendly</div>
+            <p class="small text-muted mb-0">Diawali dan diakhiri doa bersama, piket bareng, briefing santai, dan mentor yang suportif membimbing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline Rangkaian Kegiatan Harian (Step-by-Step) -->
+      <div class="daily-timeline-wrapper bg-white p-4 p-lg-5 rounded-4 border shadow-sm">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <i class="bi bi-list-task text-primary fs-4"></i>
+          <div>
+            <h3 class="h5 fw-bold mb-0 text-dark">Rangkaian Kegiatan yang Dilakukan Harian</h3>
+            <span class="small text-muted">Aktivitas teratur mulai dari kedatangan sebelum jam 08:00 hingga kepulangan jam 16:00 WIB</span>
+          </div>
+        </div>
+
+        <div class="daily-timeline">
+          {dailyRoutine.map((item, idx) => (
+            <div class="daily-timeline-item">
+              <div class="daily-timeline-marker">
+                <div class="daily-timeline-icon">
+                  <i class={`bi ${item.icon}`}></i>
+                </div>
+                {idx < dailyRoutine.length - 1 && <div class="daily-timeline-line"></div>}
+              </div>
+              <div class="daily-timeline-content">
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                  <span class="daily-timeline-time font-monospace fw-bold">{item.time}</span>
+                  <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">{item.badge}</span>
+                </div>
+                <h4 class="h6 fw-bold mb-1 text-dark">{item.title}</h4>
+                <p class="small text-muted mb-0" style="line-height: 1.55;">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI DARI MURID / ANAK MAGANG (TEKS, FOTO & VIDIO) -->
+  <section class="content-section" id="testimoni-magang" style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-5">
+        <div>
+          <span class="section-heading-eyebrow">Cerita & Pengalaman Nyata</span>
+          <h2 class="section-heading-title mb-1">Testimoni Anak Magang di Saka</h2>
+          <p class="section-heading-desc mb-0" style="max-width: 680px;">
+            Simak ulasan otentik, foto, dan video singkat dari para siswa SMK serta mahasiswa vokasi yang merasakan langsung serunya magang tanpa senioritas di Saka Malang.
+          </p>
+        </div>
+        <div>
+          <a href="/aktivitas-magang/" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center gap-2 shadow-2xs">
+            <i class="bi bi-play-circle-fill"></i>
+            <span>Lihat Semua Video & Aktivitas</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        {TESTIMONIALS.map((t) => (
+          <div class="col-md-6 col-lg-4">
+            <div class="testimonial-card-modern h-100 p-4 rounded-4 bg-white border d-flex flex-column shadow-xs">
+              <!-- Header: Avatar, Name, School, City -->
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <img
+                  src={t.avatar}
+                  alt={`Foto ${t.name}`}
+                  class="rounded-circle object-fit-cover border border-2 border-primary-subtle flex-shrink-0"
+                  width="52"
+                  height="52"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <div class="d-flex align-items-center gap-1.5 mb-0.5">
+                    <h3 class="h6 fw-bold mb-0 text-dark text-truncate" style="font-size: 0.95rem;">{t.name}</h3>
+                  </div>
+                  <div class="small text-muted text-truncate" style="font-size: 0.78rem;">
+                    {t.school}
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mt-0.5">
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle py-0 px-1.5 font-monospace" style="font-size: 0.65rem;">
+                      {t.badge}
+                    </span>
+                    <span class="small text-muted" style="font-size: 0.72rem;">
+                      <i class="bi bi-geo-alt text-danger me-0.5"></i>{t.city}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rating Stars -->
+              <div class="d-flex align-items-center gap-1 mb-2.5 text-warning" style="font-size: 0.85rem;">
+                {Array.from({ length: t.rating }).map(() => (
+                  <i class="bi bi-star-fill"></i>
+                ))}
+                <span class="small text-muted ms-1 font-monospace" style="font-size: 0.75rem;">(5.0)</span>
+              </div>
+
+              <!-- Quote Text -->
+              <p class="small text-secondary mb-3 flex-grow-1" style="line-height: 1.6; font-size: 0.86rem;">
+                "{t.quote}"
+              </p>
+
+              <!-- Video Clip Preview / Trigger (jika ada video) -->
+              {t.hasVideo && (
+                <div class="mt-auto pt-3 border-top">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-danger w-100 rounded-pill py-2 d-flex align-items-center justify-content-center gap-2 font-monospace fw-semibold home-video-modal-btn"
+                    data-title={t.videoTitle || t.name}
+                    data-desc={t.quote}
+                    data-author={`${t.name} - ${t.school}`}
+                    data-thumb={t.videoThumbnail || t.avatar}
+                  >
+                    <i class="bi bi-play-circle-fill fs-6"></i>
+                    <span>Tonton Video Singkat ({t.videoDuration})</span>
+                  </button>
+                </div>
+              )}
+
+              {!t.hasVideo && (
+                <div class="mt-auto pt-3 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.76rem;">
+                  <span><i class="bi bi-patch-check-fill text-success me-1"></i>Ulasan Terverifikasi</span>
+                  <span class="font-monospace">{t.batch}</span>
+                </div>
+              )}
+            </div>
+          </div>
         ))}
       </div>
     </div>
@@ -379,7 +626,7 @@ const faqs = homePage.faqs;
     </div>
   </section>
 
-  <!-- 4. CARA DAFTAR & ALUR SELEKSI DALAM RINGKASAN FAKTUAL -->
+  <!-- 5. CARA DAFTAR & ALUR SELEKSI DALAM RINGKASAN FAKTUAL -->
   <section class="content-section">
     <div class="container">
       <SectionHeading
@@ -437,7 +684,7 @@ const faqs = homePage.faqs;
     </div>
   </section>
 
-  <!-- 5. PANDUAN & DOKUMEN EDUKASI TERBARU -->
+  <!-- 6. PANDUAN & DOKUMEN EDUKASI TERBARU -->
   <section class="content-section content-section-alt">
     <div class="container">
       <div class="row g-4 align-items-center mb-4">
@@ -471,7 +718,7 @@ const faqs = homePage.faqs;
     </div>
   </section>
 
-  <!-- 6. FAQ SINGKAT -->
+  <!-- 7. FAQ SINGKAT -->
   <FAQList
     items={faqs}
     id="home-faq"
@@ -479,7 +726,7 @@ const faqs = homePage.faqs;
     description="Rangkuman jawaban atas pertanyaan dasar seputar syarat dan pelaksanaan magang."
   />
 
-  <!-- 7. CTA SECTION -->
+  <!-- 8. CTA SECTION -->
   <CTASection
     title="Siap Mengajukan Permohonan PKL?"
     description="Konsultasikan kesesuaian jadwal dan kuota divisi Anda dengan tim administrasi kami melalui kanal WhatsApp resmi."
@@ -488,6 +735,46 @@ const faqs = homePage.faqs;
     secondaryHref={waLink()}
     secondaryText="Chat WhatsApp Resmi"
   />
+
+  <!-- MODAL VIDEO TESTIMONI DI BERANDA -->
+  <div class="modal fade" id="homeVideoModal" tabindex="-1" aria-labelledby="homeVideoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 rounded-4 overflow-hidden shadow-2xl bg-dark text-white">
+        <div class="modal-header border-0 bg-black bg-opacity-50 py-3 px-4">
+          <h3 class="modal-title h6 fw-bold mb-0 text-white" id="homeVideoModalLabel">
+            <i class="bi bi-play-circle-fill text-danger me-2"></i><span id="homeModalVideoTitle">Video Testimoni Magang</span>
+          </h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-0 position-relative bg-black text-center" style="min-height: 400px; display: flex; align-items: center; justify-content: center;">
+          <div class="simulated-video-player w-100 h-100 position-relative">
+            <img id="homeModalVideoThumb" src="" alt="Thumbnail Video" class="w-100 object-fit-cover" style="max-height: 460px;" />
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-40 d-flex flex-column justify-content-between p-4">
+              <div class="text-start">
+                <span class="badge bg-danger rounded-pill px-3 py-1 font-monospace">
+                  <i class="bi bi-record-circle me-1 animate-pulse"></i>VIDEO TESTIMONI SISWA
+                </span>
+              </div>
+              <div class="text-center">
+                <div class="video-playing-animation d-inline-flex align-items-center gap-2 bg-dark bg-opacity-75 px-4 py-2 rounded-pill border border-white-subtle">
+                  <i class="bi bi-play-fill text-primary fs-4"></i>
+                  <span class="small text-white fw-semibold">Memutar Tayangan Pengalaman Magang di Saka...</span>
+                </div>
+              </div>
+              <div class="text-start bg-dark bg-opacity-75 p-3 rounded-3 border border-white-subtle">
+                <p id="homeModalVideoDesc" class="small mb-1 text-white"></p>
+                <small id="homeModalVideoAuthor" class="text-white-50 font-monospace"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-0 bg-dark py-2 px-4 justify-content-between">
+          <span class="small text-white-50"><i class="bi bi-shield-check me-1 text-success"></i>Dokumentasi otentik Saka Malang</span>
+          <button type="button" class="btn btn-secondary rounded-pill btn-sm px-3" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     function setupEnvCarousel() {
@@ -554,7 +841,6 @@ const faqs = homePage.faqs;
         track.scrollLeft = scrollLeft - walk;
       });
 
-      // Cegah navigasi tautan yang tidak sengaja saat pengguna sedang menggeser mouse
       track.addEventListener(
         'click',
         (e: MouseEvent) => {
@@ -571,7 +857,119 @@ const faqs = homePage.faqs;
       updateNavState();
     }
 
-    setupEnvCarousel();
-    document.addEventListener('astro:page-load', setupEnvCarousel);
+    function setupHomeVideoModal() {
+      const videoBtns = document.querySelectorAll('.home-video-modal-btn');
+      const modalTitle = document.getElementById('homeModalVideoTitle');
+      const modalThumb = document.getElementById('homeModalVideoThumb') as HTMLImageElement | null;
+      const modalDesc = document.getElementById('homeModalVideoDesc');
+      const modalAuthor = document.getElementById('homeModalVideoAuthor');
+
+      videoBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const title = btn.getAttribute('data-title') || 'Video Testimoni';
+          const author = btn.getAttribute('data-author') || '';
+          const desc = btn.getAttribute('data-desc') || '';
+          const thumb = btn.getAttribute('data-thumb') || '';
+
+          if (modalTitle) modalTitle.textContent = title;
+          if (modalThumb && thumb) modalThumb.src = thumb;
+          if (modalDesc) modalDesc.textContent = desc;
+          if (modalAuthor) modalAuthor.textContent = author;
+
+          const modalEl = document.getElementById('homeVideoModal');
+          if (modalEl && (window as any).bootstrap) {
+            const modal = new (window as any).bootstrap.Modal(modalEl);
+            modal.show();
+          }
+        });
+      });
+    }
+
+    function initHomePage() {
+      setupEnvCarousel();
+      setupHomeVideoModal();
+    }
+
+    initHomePage();
+    document.addEventListener('astro:page-load', initHomePage);
   </script>
+
+  <style>
+    /* Schedule Cards Styling */
+    .schedule-stat-card {
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+    .schedule-stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px -4px rgba(2, 132, 199, 0.14);
+      border-color: #0284c7 !important;
+    }
+    .schedule-stat-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    /* Daily Routine Timeline */
+    .daily-timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      position: relative;
+    }
+    .daily-timeline-item {
+      display: flex;
+      gap: 1.25rem;
+      position: relative;
+    }
+    .daily-timeline-marker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      width: 44px;
+    }
+    .daily-timeline-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #f0f9ff;
+      border: 2px solid #0284c7;
+      color: #0284c7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      z-index: 2;
+    }
+    .daily-timeline-line {
+      width: 2px;
+      flex-grow: 1;
+      background: #e2e8f0;
+      margin-top: 6px;
+      margin-bottom: -6px;
+    }
+    .daily-timeline-content {
+      flex-grow: 1;
+      padding-bottom: 0.5rem;
+    }
+    .daily-timeline-time {
+      font-size: 0.85rem;
+      color: #0284c7;
+    }
+
+    /* Testimonial Cards */
+    .testimonial-card-modern {
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+    .testimonial-card-modern:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px -6px rgba(15, 23, 42, 0.1);
+      border-color: #0284c7 !important;
+    }
+  </style>
 </BaseLayout>
