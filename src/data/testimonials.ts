@@ -4,6 +4,8 @@
 export interface TestimonialItem {
   id: string;
   name: string;
+  initials: string;
+  avatarBg: string;
   handle: string;
   school: string;
   city: string;
@@ -26,6 +28,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-01',
     name: 'Dian Permata Sari',
+    initials: 'DP',
+    avatarBg: 'linear-gradient(135deg, #6366f1 0%, #a855f7 100%)',
     handle: '@dian.permata',
     school: 'SMK Negeri 4 Malang (Grafika)',
     city: 'Kota Malang',
@@ -47,6 +51,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-02',
     name: 'Ahmad Faiz Fauzan',
+    initials: 'AF',
+    avatarBg: 'linear-gradient(135deg, #059669 0%, #0d9488 100%)',
     handle: '@faiz.ampel',
     school: 'SMK NU Sunan Ampel Poncokusumo',
     city: 'Kabupaten Malang',
@@ -68,6 +74,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-03',
     name: 'Rizky Pratama Alamsyah',
+    initials: 'RP',
+    avatarBg: 'linear-gradient(135deg, #0284c7 0%, #2563eb 100%)',
     handle: '@rizky.dev',
     school: 'SMK Negeri 1 Pasuruan',
     city: 'Kota Pasuruan',
@@ -86,6 +94,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-04',
     name: 'Nabila Azzahra',
+    initials: 'NA',
+    avatarBg: 'linear-gradient(135deg, #e11d48 0%, #db2777 100%)',
     handle: '@nabila.mkt',
     school: 'SMK Negeri 1 Malang',
     city: 'Kota Malang',
@@ -107,6 +117,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-05',
     name: 'Bagus Wicaksono',
+    initials: 'BW',
+    avatarBg: 'linear-gradient(135deg, #d97706 0%, #ea580c 100%)',
     handle: '@bagus.gresik',
     school: 'SMK Mamba\'ul Ihsan Gresik',
     city: 'Kabupaten Gresik',
@@ -125,6 +137,8 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-06',
     name: 'Clara Anindya',
+    initials: 'CA',
+    avatarBg: 'linear-gradient(135deg, #0891b2 0%, #0284c7 100%)',
     handle: '@clara.umm',
     school: 'Universitas Muhammadiyah Malang (UMM)',
     city: 'Kota Malang',

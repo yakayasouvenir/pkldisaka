@@ -116,37 +116,29 @@ const dailyRoutine = [
   },
 ];
 
-const digitalMarketingPhotos = [
+// 6 Foto Showcase: Praktik Nyata & Lingkungan Kerja (Termasuk 1 Card Digital Marketing / Marketplace)
+const lingkunganPhotos = [
+  {
+    image: '/images/12.webp',
+    alt: 'Peserta PKL divisi Desain Grafis dan DKV sedang merancang layout desain visual di studio',
+    badge: 'Divisi Desain & DKV',
+    title: 'Studio Desain & Perancangan Visual',
+    desc: 'Peserta jurusan DKV dan Multimedia mengasah kemahiran dalam perancangan identitas merek, desain kemasan produk UMKM, tipografi, dan aset visual pemasaran dengan bimbingan standar industri.',
+    link: '/divisi/desain-grafis/',
+    linkText: 'Pelajari Divisi Desain →',
+  },
   {
     image: '/images/21.webp',
-    alt: 'Praktik riset kata kunci SEO dan optimasi arsitektur website komersial peserta PKL',
-    badge: 'SEO & Website Analysis',
-    title: 'Riset Kata Kunci & Optimasi Organik Google',
-    desc: 'Siswa memperdalam teknik pembidikan keyword komersial berdaya beli tinggi, perbaikan struktur halaman website, on-page SEO, dan pemantauan trafik menggunakan tools analitik modern.',
+    alt: 'Sesi praktik teknis coding web development dan mentoring arsitektur website peserta PKL',
+    badge: 'Divisi Web & IT',
+    title: 'Mentoring Teknis & Analisis Digital',
+    desc: 'Siswa RPL dan TKJ mendapatkan arahan teknis rutin mengenai optimasi struktur website, performa kecepatan halaman, riset kata kunci SEO, dan integrasi analitik secara berkala.',
     link: '/divisi/seo-website/',
     linkText: 'Pelajari Divisi SEO & Web →',
   },
   {
-    image: '/images/13.webp',
-    alt: 'Sesi perencanaan konten media sosial, copywriting hook iklan, dan kalender editorial tim marketing',
-    badge: 'Social Media & Viral Content',
-    title: 'Kurasi Konten Kreatif & Copywriting Iklan',
-    desc: 'Penyusunan kalender editorial media sosial Instagram & TikTok, penulisan copywriting persuasif berdaya pikat tinggi, serta perencanaan hook konten video pendek untuk meningkatkan engagement.',
-    link: '/divisi/social-media/',
-    linkText: 'Pelajari Social Media Marketing →',
-  },
-  {
-    image: '/images/15.webp',
-    alt: 'Pemotretan produk komersial UMKM dengan penataan tata cahaya softbox di mini studio Saka',
-    badge: 'Ad Creative & Commercial Photo',
-    title: 'Studio Visual Katalog & Iklan Komersial',
-    desc: 'Praktik langsung penataan tata cahaya studio softbox, pemotretan katalog produk klien berstandar e-commerce, kurasi visual etalase digital, dan produksi video iklan bernilai konversi tinggi.',
-    link: '/divisi/foto-video-produk/',
-    linkText: 'Pelajari Foto & Video Iklan →',
-  },
-  {
     image: '/images/22.webp',
-    alt: 'Kolaborasi tim peserta PKL mengoptimasi etalase marketplace dan riset tren belanja daring',
+    alt: 'Siswa magang mempraktikkan optimasi toko online dan strategi marketplace di laptop',
     badge: 'Marketplace & E-Commerce',
     title: 'Optimasi Toko Online & Marketplace UMKM',
     desc: 'Pengelolaan etalase toko digital di marketplace Shopee & Tokopedia, perancangan deskripsi produk SEO-friendly, pengelolaan program voucher promosi, dan analisis tren belanja konsumen.',
@@ -154,22 +146,31 @@ const digitalMarketingPhotos = [
     linkText: 'Pelajari Digital Marketing →',
   },
   {
-    image: '/images/12.webp',
-    alt: 'Perancangan desain feed carousel dan banner iklan promosi digital oleh siswi magang DKV',
-    badge: 'Branding & Visual Ads',
-    title: 'Desain Grafis Materi Promosi & Kampanye',
-    desc: 'Sinergi antara divisi desain grafis dan marketing dalam merancang feed carousel informatif, banner diskon promosi berkala, serta materi promosi visual yang konsisten dengan identitas brand klien.',
-    link: '/divisi/desain-grafis/',
-    linkText: 'Pelajari Desain Grafis Promosi →',
+    image: '/images/15.webp',
+    alt: 'Aktivitas pemotretan produk dengan tata cahaya softbox studio oleh siswi magang SMK',
+    badge: 'Divisi Konten & Multimedia',
+    title: 'Studio Foto & Kurasi Konten Kreatif',
+    desc: 'Praktik langsung penataan tata cahaya softbox, pemotretan katalog produk komersial, penyusunan storyboard, serta kurasi video promosi pendek untuk platform media sosial.',
+    link: '/divisi/foto-video-produk/',
+    linkText: 'Pelajari Foto & Video →',
+  },
+  {
+    image: '/images/1.webp',
+    alt: 'Praktik perakitan boks kemasan souvenir dan pemeriksaan dummy prototipe oleh peserta PKL',
+    badge: 'Divisi Kemasan & Produksi',
+    title: 'Pemeriksaan Pracetak & Finishing Kemasan',
+    desc: 'Siswa Teknik Grafika dan Produksi mempelajari kalibrasi warna cetak, spesifikasi bahan karton kemasan, pembuatan dummy prototipe, serta teknik finishing hotprint dan embossing.',
+    link: '/divisi/packaging/',
+    linkText: 'Pelajari Divisi Kemasan →',
   },
   {
     image: '/images/10.webp',
-    alt: 'Analisis metrik performa kampanye digital dan penyusunan laporan evaluasi mingguan di workstation',
-    badge: 'Marketing Analytics',
-    title: 'Evaluasi Data & Laporan Metrik Digital',
-    desc: 'Peserta dilatih membaca data metrik jangkauan (reach), impresi, click-through-rate (CTR), dan rasio konversi untuk menyusun rekomendasi strategi pemasaran berikutnya secara terukur dan objektif.',
-    link: '/divisi/digital-marketing/',
-    linkText: 'Lihat Evaluasi Marketing →',
+    alt: 'Suasana ruang kerja dan fasilitas operasional PKL peserta magang di Saka Malang',
+    badge: 'Fasilitas & Ekosistem Industri',
+    title: 'Fasilitas Ruang Kerja Kondusif',
+    desc: 'Didukung koneksi internet cepat, perangkat kerja terintegrasi, suasana studio yang tenang, serta area diskusi terbuka untuk menunjang produktivitas harian seluruh peserta magang.',
+    link: '/program-pkl/fasilitas/',
+    linkText: 'Lihat Fasilitas PKL →',
   },
 ];
 
@@ -292,7 +293,7 @@ const faqs = homePage.faqs;
     </div>
   </section>
 
-  <!-- JADWAL MAGANG & RUTINITAS HARIAN INTERAKTIF (MOBILE-FRIENDLY SWIPE DECK) -->
+  <!-- JADWAL MAGANG & RUTINITAS HARIAN (DESKTOP: TIMELINE VERTIKAL TETAP, MOBILE: INTERACTIVE SWIPE DECK) -->
   <section class="content-section" id="jadwal-rutinitas" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
     <div class="container">
       <div class="text-center mx-auto mb-4" style="max-width: 760px;">
@@ -350,105 +351,140 @@ const faqs = homePage.faqs;
         </div>
       </div>
 
-      <!-- INTERACTIVE DAILY JOURNEY (Mobile Swipe Card Deck & Desktop Step Roadmap) -->
-      <div class="daily-routine-box bg-white p-3 p-md-4 p-lg-5 rounded-4 border shadow-sm">
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 mb-3 pb-2 border-bottom">
-          <div class="d-flex align-items-center gap-2">
-            <span class="badge bg-primary text-white rounded-circle p-2">
-              <i class="bi bi-list-stars"></i>
-            </span>
+      <!-- 1. TAMPILAN DESKTOP: TIMELINE VERTIKAL TETAP TERSTRUKTUR (SESUAI PERMINTAAN USER) -->
+      <div class="d-none d-lg-block">
+        <div class="daily-timeline-wrapper bg-white p-4 p-lg-5 rounded-4 border shadow-sm">
+          <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+            <i class="bi bi-list-task text-primary fs-4"></i>
             <div>
-              <h3 class="h6 fw-bold mb-0 text-dark">Rangkaian Kegiatan Harian Anak Magang</h3>
-              <span class="small text-muted">Aktivitas teratur mulai dari kedatangan pagi hingga kepulangan</span>
+              <h3 class="h5 fw-bold mb-0 text-dark">Rangkaian Kegiatan yang Dilakukan Harian</h3>
+              <span class="small text-muted">Aktivitas teratur mulai dari kedatangan sebelum jam 08:00 hingga kepulangan jam 16:00 WIB</span>
             </div>
           </div>
-          <div class="d-flex align-items-center gap-2 text-muted small font-monospace">
-            <i class="bi bi-arrow-left-right text-primary"></i>
-            <span>Geser kartu untuk jelajahi alur seharian</span>
-          </div>
-        </div>
 
-        <!-- Horizontal Quick Nav Pills (Interactive on Mobile & Desktop) -->
-        <div class="routine-pills-nav-wrapper mb-3">
-          <div class="routine-pills-nav" id="routinePillsNav" role="tablist" aria-label="Pilih Jam Kegiatan">
+          <div class="daily-timeline">
             {dailyRoutine.map((item, idx) => (
-              <button
-                type="button"
-                class={`routine-pill-btn ${idx === 0 ? 'active' : ''}`}
-                data-step-target={idx}
-                aria-label={`Lihat kegiatan ${item.time}`}
-              >
-                <span>{item.emoji}</span>
-                <span class="routine-pill-time">{item.shortTime}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <!-- Swipeable Cards Track (Not Just Vertical Scroll on Mobile!) -->
-        <div class="routine-swipe-container">
-          <div class="routine-swipe-track" id="routineSwipeTrack" tabindex="0" role="region" aria-label="Alur kegiatan harian anak magang">
-            {dailyRoutine.map((item, idx) => (
-              <div class="routine-swipe-card" data-step-index={idx}>
-                <div class="routine-card-inner">
-                  <!-- Header Step & Progress -->
-                  <div class="routine-card-header">
-                    <div class="d-flex align-items-center justify-content-between w-100 mb-2">
-                      <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.7rem;">
-                        Step {item.step} of 7
-                      </span>
-                      <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">
-                        {item.badge}
-                      </span>
-                    </div>
-
-                    <!-- Mini progress bar -->
-                    <div class="routine-card-progressbar" title={`Progres Hari: ${item.progress}%`}>
-                      <div class="routine-card-progressbar-fill" style={`width: ${item.progress}%;`}></div>
-                    </div>
+              <div class="daily-timeline-item">
+                <div class="daily-timeline-marker">
+                  <div class="daily-timeline-icon">
+                    <i class={`bi ${item.icon}`}></i>
                   </div>
-
-                  <!-- Body -->
-                  <div class="routine-card-body">
-                    <div class="d-flex align-items-center gap-2 mb-2">
-                      <span class="routine-card-emoji">{item.emoji}</span>
-                      <span class="routine-card-time font-monospace fw-bold">{item.time}</span>
-                    </div>
-                    <h4 class="routine-card-title">{item.title}</h4>
-                    <p class="routine-card-desc">{item.desc}</p>
+                  {idx < dailyRoutine.length - 1 && <div class="daily-timeline-line"></div>}
+                </div>
+                <div class="daily-timeline-content">
+                  <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                    <span class="daily-timeline-time font-monospace fw-bold">{item.time}</span>
+                    <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">{item.badge}</span>
                   </div>
-
-                  <!-- Footer Next Button -->
-                  <div class="routine-card-footer mt-auto pt-2 border-top d-flex align-items-center justify-content-between">
-                    <span class="small text-muted" style="font-size: 0.74rem;">
-                      {idx < dailyRoutine.length - 1 ? 'Lanjut ke tahap berikutnya' : 'Selesai tepat waktu!'}
-                    </span>
-                    {idx < dailyRoutine.length - 1 && (
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-link text-decoration-none p-0 fw-semibold text-primary routine-next-btn"
-                        data-next-step={idx + 1}
-                      >
-                        Berikutnya <i class="bi bi-chevron-right"></i>
-                      </button>
-                    )}
-                    {idx === dailyRoutine.length - 1 && (
-                      <span class="badge bg-success-subtle text-success border border-success-subtle">
-                        <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
-                      </span>
-                    )}
-                  </div>
+                  <h4 class="h6 fw-bold mb-1 text-dark">{item.title}</h4>
+                  <p class="small text-muted mb-0" style="line-height: 1.55;">{item.desc}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
+      </div>
 
-        <!-- Mobile Step Indicator Dots -->
-        <div class="d-flex align-items-center justify-content-center gap-1.5 mt-3 d-md-none">
-          {dailyRoutine.map((_, idx) => (
-            <span class={`routine-step-dot ${idx === 0 ? 'active' : ''}`} data-dot-index={idx}></span>
-          ))}
+      <!-- 2. TAMPILAN MOBILE: INTERACTIVE SWIPE CARD DECK (TIDAK HANYA SCROLL LURUS KE BAWAH) -->
+      <div class="d-lg-none">
+        <div class="daily-routine-box bg-white p-3 p-md-4 rounded-4 border shadow-sm">
+          <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-2 mb-3 pb-2 border-bottom">
+            <div class="d-flex align-items-center gap-2">
+              <span class="badge bg-primary text-white rounded-circle p-2">
+                <i class="bi bi-list-stars"></i>
+              </span>
+              <div>
+                <h3 class="h6 fw-bold mb-0 text-dark">Rangkaian Kegiatan Harian</h3>
+                <span class="small text-muted" style="font-size: 0.75rem;">Aktivitas teratur dari pagi hingga pulang</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-1.5 text-muted small font-monospace" style="font-size: 0.72rem;">
+              <i class="bi bi-arrow-left-right text-primary"></i>
+              <span>Geser kartu alur</span>
+            </div>
+          </div>
+
+          <!-- Horizontal Quick Nav Pills -->
+          <div class="routine-pills-nav-wrapper mb-3">
+            <div class="routine-pills-nav" id="routinePillsNav" role="tablist" aria-label="Pilih Jam Kegiatan">
+              {dailyRoutine.map((item, idx) => (
+                <button
+                  type="button"
+                  class={`routine-pill-btn ${idx === 0 ? 'active' : ''}`}
+                  data-step-target={idx}
+                  aria-label={`Lihat kegiatan ${item.time}`}
+                >
+                  <span>{item.emoji}</span>
+                  <span class="routine-pill-time">{item.shortTime}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <!-- Swipeable Cards Track -->
+          <div class="routine-swipe-container">
+            <div class="routine-swipe-track" id="routineSwipeTrack" tabindex="0" role="region" aria-label="Alur kegiatan harian anak magang">
+              {dailyRoutine.map((item, idx) => (
+                <div class="routine-swipe-card" data-step-index={idx}>
+                  <div class="routine-card-inner">
+                    <!-- Header Step & Progress -->
+                    <div class="routine-card-header">
+                      <div class="d-flex align-items-center justify-content-between w-100 mb-2">
+                        <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.7rem;">
+                          Step {item.step} of 7
+                        </span>
+                        <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">
+                          {item.badge}
+                        </span>
+                      </div>
+
+                      <div class="routine-card-progressbar" title={`Progres Hari: ${item.progress}%`}>
+                        <div class="routine-card-progressbar-fill" style={`width: ${item.progress}%;`}></div>
+                      </div>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="routine-card-body">
+                      <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="routine-card-emoji">{item.emoji}</span>
+                        <span class="routine-card-time font-monospace fw-bold">{item.time}</span>
+                      </div>
+                      <h4 class="routine-card-title">{item.title}</h4>
+                      <p class="routine-card-desc">{item.desc}</p>
+                    </div>
+
+                    <!-- Footer Next Button -->
+                    <div class="routine-card-footer mt-auto pt-2 border-top d-flex align-items-center justify-content-between">
+                      <span class="small text-muted" style="font-size: 0.74rem;">
+                        {idx < dailyRoutine.length - 1 ? 'Lanjut ke jam berikutnya' : 'Selesai tepat waktu!'}
+                      </span>
+                      {idx < dailyRoutine.length - 1 && (
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-link text-decoration-none p-0 fw-semibold text-primary routine-next-btn"
+                          data-next-step={idx + 1}
+                        >
+                          Berikutnya <i class="bi bi-chevron-right"></i>
+                        </button>
+                      )}
+                      {idx === dailyRoutine.length - 1 && (
+                        <span class="badge bg-success-subtle text-success border border-success-subtle">
+                          <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Mobile Step Indicator Dots -->
+          <div class="d-flex align-items-center justify-content-center gap-1.5 mt-3">
+            {dailyRoutine.map((_, idx) => (
+              <span class={`routine-step-dot ${idx === 0 ? 'active' : ''}`} data-dot-index={idx}></span>
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -476,27 +512,126 @@ const faqs = homePage.faqs;
         </div>
       </div>
 
-      <!-- Testimonial Bento / Grid (Desktop) and Horizontal Snap-Scroll (Mobile) -->
-      <div class="testi-genz-wrapper">
-        <div class="testi-genz-track" id="testiGenzTrack">
-          {TESTIMONIALS.map((t) => (
-            <div class="testi-genz-col">
-              <div class="testi-genz-card h-100">
-                <!-- Top Social Profile Header -->
-                <div class="testi-social-header">
-                  <!-- Story Ring Avatar -->
-                  <div class="testi-story-avatar-wrap">
+      <!-- A. DESKTOP & TABLET VIEW (>= 768px): BOOTSTRAP GRID LENGKAP TANPA TERPOTONG -->
+      <div class="row g-4 d-none d-md-flex">
+        {TESTIMONIALS.map((t) => (
+          <div class="col-md-6 col-lg-4">
+            <div class="testi-genz-card h-100">
+              <!-- Top Social Profile Header with Letter Avatar -->
+              <div class="testi-social-header">
+                <!-- Story Ring with Initials/Letter Avatar (Bukan Foto Sesuai Permintaan) -->
+                <div class="testi-story-avatar-wrap" title={`Inisial ${t.name}`}>
+                  <div class="testi-letter-avatar" style={`background: ${t.avatarBg};`}>
+                    <span>{t.initials}</span>
+                  </div>
+                </div>
+
+                <!-- Name, Handle & Verified Badge -->
+                <div class="min-w-0 flex-grow-1">
+                  <div class="d-flex align-items-center gap-1 mb-0.5">
+                    <span class="testi-user-name text-truncate">{t.name}</span>
+                    <i class="bi bi-patch-check-fill text-primary flex-shrink-0" title="Alumni Terverifikasi" style="font-size: 0.92rem;"></i>
+                  </div>
+                  <div class="testi-user-handle text-truncate">
+                    {t.handle} • <span class="text-secondary">{t.school}</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1.5 mt-1">
+                    <span class="badge bg-light text-dark border py-0 px-1.5 font-monospace" style="font-size: 0.65rem;">
+                      {t.badge}
+                    </span>
+                    <span class="small text-muted" style="font-size: 0.72rem;">
+                      <i class="bi bi-geo-alt text-danger me-0.5"></i>{t.city}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rating & Gen Z Vibe Tag -->
+              <div class="testi-rating-bar">
+                <div class="testi-stars">
+                  {Array.from({ length: t.rating }).map(() => (
+                    <i class="bi bi-star-fill text-warning"></i>
+                  ))}
+                </div>
+                <span class="testi-vibe-pill">{t.vibeTag}</span>
+              </div>
+
+              <!-- Quote Highlight & Full Text -->
+              <div class="testi-quote-highlight">
+                "{t.highlight}"
+              </div>
+              <p class="testi-quote-full">
+                "{t.quote}"
+              </p>
+
+              <!-- Tags / Hashtags -->
+              <div class="testi-hashtags">
+                {t.tags.map((tag) => (
+                  <span class="testi-tag-pill">{tag}</span>
+                ))}
+              </div>
+
+              <!-- Interactive Video Reel Preview (if has video) -->
+              {t.hasVideo && (
+                <div class="testi-video-mini-container mt-auto">
+                  <div class="testi-video-mini-thumb-wrap">
                     <img
-                      src={t.avatar}
-                      alt={`Foto profil ${t.name}`}
-                      class="testi-story-avatar"
+                      src={t.videoThumbnail || t.avatar}
+                      alt={`Preview video testimoni ${t.name}`}
+                      class="testi-video-mini-thumb"
                       loading="lazy"
-                      width="54"
-                      height="54"
+                      width="400"
+                      height="200"
                     />
+                    <div class="testi-video-mini-overlay"></div>
+
+                    <button
+                      type="button"
+                      class="testi-video-mini-play-btn home-video-modal-btn"
+                      data-title={t.videoTitle || t.name}
+                      data-desc={t.quote}
+                      data-author={`${t.name} (${t.handle}) - ${t.school}`}
+                      data-thumb={t.videoThumbnail || t.avatar}
+                      aria-label={`Putar video cerita ${t.name}`}
+                    >
+                      <i class="bi bi-play-fill"></i>
+                    </button>
+
+                    <div class="testi-video-mini-meta">
+                      <span class="badge bg-black bg-opacity-75 text-white backdrop-blur font-monospace">
+                        <i class="bi bi-soundwave text-warning me-1"></i>{t.videoDuration}
+                      </span>
+                      <span class="badge bg-primary text-white">Tonton Klip</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {!t.hasVideo && (
+                <div class="testi-footer-verified mt-auto pt-3 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.75rem;">
+                  <span><i class="bi bi-shield-check text-success me-1"></i>Pengalaman Nyata</span>
+                  <span class="font-monospace text-secondary">{t.batch}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- B. MOBILE VIEW (< 768px): HORIZONTAL SWIPEABLE CARDS DENGAN PEEK & SNAP -->
+      <div class="d-md-none">
+        <div class="testi-mobile-swipe-track">
+          {TESTIMONIALS.map((t) => (
+            <div class="testi-mobile-swipe-item">
+              <div class="testi-genz-card h-100">
+                <!-- Top Social Profile Header with Letter Avatar -->
+                <div class="testi-social-header">
+                  <div class="testi-story-avatar-wrap">
+                    <div class="testi-letter-avatar" style={`background: ${t.avatarBg};`}>
+                      <span>{t.initials}</span>
+                    </div>
                   </div>
 
-                  <!-- Name, Handle & Verified Badge -->
                   <div class="min-w-0 flex-grow-1">
                     <div class="d-flex align-items-center gap-1 mb-0.5">
                       <span class="testi-user-name text-truncate">{t.name}</span>
@@ -587,32 +722,32 @@ const faqs = homePage.faqs;
             </div>
           ))}
         </div>
-      </div>
 
-      <!-- Mobile Swipe Hint -->
-      <div class="d-flex align-items-center justify-content-center gap-2 mt-3 text-muted small d-md-none font-monospace">
-        <i class="bi bi-arrow-left-right text-primary"></i>
-        <span>Geser ke samping untuk ulasan lainnya</span>
+        <!-- Mobile Swipe Hint -->
+        <div class="d-flex align-items-center justify-content-center gap-2 mt-3 text-muted small font-monospace">
+          <i class="bi bi-arrow-left-right text-primary"></i>
+          <span>Geser ke samping untuk ulasan lainnya</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- 3. VISUAL SHOWCASE: PRAKTIK DIGITAL MARKETING & BISNIS DIGITAL (MENGGANTIKAN LINGKUNGAN PRAKTIK) -->
-  <section class="content-section content-section-alt" id="divisi-digital-marketing">
+  <!-- 3. VISUAL SHOWCASE: PEMBINAAN & FASILITAS KERJA NYATA (CAROUSEL / 1 BARIS SCROLL) -->
+  <section class="content-section content-section-alt" id="lingkungan-praktik">
     <div class="container">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
-          <span class="section-heading-eyebrow">Divisi Unggulan & Praktik Nyata</span>
-          <h2 class="section-heading-title mb-1">Praktik Digital Marketing & Bisnis Digital di Saka</h2>
+          <span class="section-heading-eyebrow">Praktik Nyata & Lingkungan Kerja</span>
+          <h2 class="section-heading-title mb-1">Suasana Belajar & Pembinaan Terarah</h2>
           <p class="section-heading-desc mb-0" style="max-width: 680px;">
-            Peserta terjun langsung menangani proyek pemasaran komersial klien riil: riset kata kunci Google SEO, kurasi konten media sosial viral, foto katalog produk komersial, hingga tata kelola etalase marketplace.
+            Peserta terjun langsung dalam ritme kerja profesional berstandar industri dengan fasilitas memadai dan bimbingan mentor sesuai peminatan keahlian.
           </p>
         </div>
         <div class="d-flex align-items-center gap-3">
           <span class="small text-muted d-none d-sm-inline">
             <i class="bi bi-arrows-expand-vertical me-1" style="transform: rotate(90deg); display: inline-block;"></i>Geser foto
           </span>
-          <div class="env-nav-controls" role="group" aria-label="Navigasi Galeri Foto Digital Marketing">
+          <div class="env-nav-controls" role="group" aria-label="Navigasi Galeri Foto Praktik Nyata">
             <button
               type="button"
               id="envCarouselPrev"
@@ -637,8 +772,8 @@ const faqs = homePage.faqs;
 
       <!-- Carousel 1 Baris Scroll Samping -->
       <div class="env-carousel-wrapper">
-        <div id="envCarouselTrack" class="env-carousel-track" tabindex="0" role="region" aria-label="Koleksi foto praktik digital marketing">
-          {digitalMarketingPhotos.map((item) => (
+        <div id="envCarouselTrack" class="env-carousel-track" tabindex="0" role="region" aria-label="Koleksi foto lingkungan praktik nyata">
+          {lingkunganPhotos.map((item) => (
             <div class="env-carousel-item">
               <div class="photo-card">
                 <div class="photo-card-img-wrap">
@@ -1077,7 +1212,7 @@ const faqs = homePage.faqs;
 
   <style>
     /* =========================================================
-       SCHEDULE & ROUTINE STYLES (MOBILE-FIRST INTERACTIVE SLIDER)
+       SCHEDULE & ROUTINE STYLES
        ========================================================= */
     .schedule-stat-card {
       transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
@@ -1105,7 +1240,54 @@ const faqs = homePage.faqs;
       }
     }
 
-    /* Routine Pills Nav */
+    /* Desktop Vertical Timeline */
+    .daily-timeline {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .daily-timeline-item {
+      display: flex;
+      gap: 1.25rem;
+      position: relative;
+    }
+    .daily-timeline-marker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      width: 44px;
+    }
+    .daily-timeline-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #f0f9ff;
+      border: 2px solid #0284c7;
+      color: #0284c7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      z-index: 2;
+    }
+    .daily-timeline-line {
+      width: 2px;
+      flex-grow: 1;
+      background: #e2e8f0;
+      margin-top: 6px;
+      margin-bottom: -6px;
+    }
+    .daily-timeline-content {
+      flex-grow: 1;
+      padding-bottom: 1.5rem;
+    }
+    .daily-timeline-time {
+      font-size: 0.85rem;
+      color: #0284c7;
+    }
+
+    /* Mobile Routine Pills Nav */
     .routine-pills-nav-wrapper {
       overflow-x: auto;
       scrollbar-width: none;
@@ -1147,7 +1329,7 @@ const faqs = homePage.faqs;
       box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
     }
 
-    /* Routine Swipe Track (Mobile: Horizontal Snap, Desktop: Horizontal Flow) */
+    /* Mobile Routine Swipe Track */
     .routine-swipe-container {
       width: 100%;
       overflow: hidden;
@@ -1163,19 +1345,14 @@ const faqs = homePage.faqs;
       scrollbar-width: thin;
     }
     .routine-swipe-card {
-      flex: 0 0 86%;
-      max-width: 380px;
+      flex: 0 0 88%;
+      max-width: 360px;
       scroll-snap-align: start;
       scroll-snap-stop: always;
     }
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       .routine-swipe-card {
-        flex: 0 0 48%;
-      }
-    }
-    @media (min-width: 1200px) {
-      .routine-swipe-card {
-        flex: 0 0 31%;
+        flex: 0 0 70%;
       }
     }
     .routine-card-inner {
@@ -1241,45 +1418,8 @@ const faqs = homePage.faqs;
     }
 
     /* =========================================================
-       GEN Z TESTIMONIALS STYLING (SOCIAL STORY & BEAL VIBE)
+       GEN Z TESTIMONIALS STYLING
        ========================================================= */
-    .testi-genz-wrapper {
-      width: 100%;
-      overflow: hidden;
-    }
-    .testi-genz-track {
-      display: flex;
-      gap: 1.25rem;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      padding: 0.5rem 0.25rem 1rem;
-      scrollbar-width: thin;
-    }
-    .testi-genz-col {
-      flex: 0 0 88%;
-      max-width: 400px;
-      scroll-snap-align: start;
-    }
-    @media (min-width: 768px) {
-      .testi-genz-col {
-        flex: 0 0 48%;
-      }
-    }
-    @media (min-width: 992px) {
-      .testi-genz-track {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        overflow-x: visible;
-        gap: 1.5rem;
-        padding: 0;
-      }
-      .testi-genz-col {
-        flex: none;
-        max-width: none;
-      }
-    }
-
     .testi-genz-card {
       background: #ffffff;
       border: 1.5px solid rgba(226, 232, 240, 0.95);
@@ -1297,7 +1437,7 @@ const faqs = homePage.faqs;
       box-shadow: 0 16px 36px -8px rgba(2, 132, 199, 0.18);
     }
 
-    /* Story Ring Avatar */
+    /* Story Ring & Initials Letter Avatar (Bukan Foto) */
     .testi-social-header {
       display: flex;
       align-items: center;
@@ -1305,8 +1445,8 @@ const faqs = homePage.faqs;
       margin-bottom: 0.85rem;
     }
     .testi-story-avatar-wrap {
-      width: 54px;
-      height: 54px;
+      width: 52px;
+      height: 52px;
       border-radius: 50%;
       padding: 2.5px;
       background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #0284c7);
@@ -1315,12 +1455,20 @@ const faqs = homePage.faqs;
       align-items: center;
       justify-content: center;
     }
-    .testi-story-avatar {
+    .testi-letter-avatar {
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      object-fit: cover;
       border: 2px solid #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.05rem;
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
     }
     .testi-user-name {
       font-size: 0.94rem;
@@ -1391,6 +1539,22 @@ const faqs = homePage.faqs;
       border-radius: 6px;
       padding: 0.15rem 0.45rem;
       font-family: var(--font-mono, monospace);
+    }
+
+    /* Mobile Swipe Track for Testimonials */
+    .testi-mobile-swipe-track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding: 0.5rem 0.25rem 1rem;
+      scrollbar-width: thin;
+    }
+    .testi-mobile-swipe-item {
+      flex: 0 0 88%;
+      max-width: 360px;
+      scroll-snap-align: start;
     }
 
     /* Mini Video Preview */
