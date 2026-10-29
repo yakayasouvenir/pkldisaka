@@ -24,61 +24,10 @@ const crumbs = [
 
 const faqs = page.faqs || [];
 
-const articleVisuals: Record<string, { src: string; alt: string; caption: string }> = {
-  '/program-pkl/fasilitas/': {
-    src: '/images/10.webp',
-    alt: 'Fasilitas ruang kerja dan studio PKL di Saka Malang',
-    caption: 'Fasilitas ruang kerja kolaboratif dengan koneksi internet cepat dan area diskusi tim.',
-  },
-  '/program-pkl/alur-seleksi/': {
-    src: '/images/13.webp',
-    alt: 'Tahap verifikasi dan wawancara teknis seleksi peserta PKL',
-    caption: 'Proses seleksi dan bimbingan pengenalan kompetensi dilakukan secara terarah dan profesional.',
-  },
-  '/divisi/desain-grafis/': {
-    src: '/images/12.webp',
-    alt: 'Suasana kerja peserta divisi desain grafis dan branding',
-    caption: 'Praktik desain grafis komersial, perancangan identitas visual, dan kemasan produk.',
-  },
-  '/jurusan/dkv/': {
-    src: '/images/12.webp',
-    alt: 'Siswa jurusan DKV mengerjakan tugas perancangan visual',
-    caption: 'Penerapan kurikulum kejuruan DKV ke dalam proyek riil branding dan komunikasi visual.',
-  },
-  '/divisi/web-development/': {
-    src: '/images/21.webp',
-    alt: 'Review kode dan performa website bersama mentor',
-    caption: 'Sesi code review dan standarisasi arsitektur website modern bersama mentor teknis.',
-  },
-  '/divisi/seo-website/': {
-    src: '/images/21.webp',
-    alt: 'Praktik teknis pengembangan website dan optimasi SEO',
-    caption: 'Penerapan teknis arsitektur website modern, optimasi kecepatan, dan integrasi analitik.',
-  },
-  '/jurusan/rpl/': {
-    src: '/images/21.webp',
-    alt: 'Siswa jurusan RPL menguji performa aplikasi web dan penulisan kode',
-    caption: 'Implementasi teori Rekayasa Perangkat Lunak ke dalam pengembangan sistem website nyata.',
-  },
-  '/pengalaman/pembelajaran-rpl/': {
-    src: '/images/21.webp',
-    alt: 'Catatan pembelajaran proyek siswa RPL dan web development',
-    caption: 'Eksplorasi siswa RPL dalam mengelola kode web responsif dan standar industri.',
-  },
-};
-
-const groupHeroBg: Record<string, string> = {
-  B5: '/images/12.webp',
-  B6: '/images/5.webp',
-  B7: '/images/10.webp',
-  B8: '/images/4.webp',
-  B9: '/images/8.webp',
-  B10: '/images/3.webp',
-  B11: '/images/9.webp',
-};
+import { articleVisuals, getDeterministicImage } from '../data/visuals';
 
 const visualItem = articleVisuals[page.path];
-const heroBg = visualItem?.src || groupHeroBg[page.group] || '/images/13.webp';
+const heroBg = visualItem?.src || getDeterministicImage(page.path);
 ---
 
 <BaseLayout

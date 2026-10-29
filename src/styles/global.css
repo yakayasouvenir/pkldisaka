@@ -411,13 +411,13 @@ p {
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
-  border: 1px solid rgba(226, 232, 240, 0.95);
-  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+  border: 1px solid rgba(203, 213, 225, 0.85);
+  box-shadow: 0 4px 18px -2px rgba(15, 23, 42, 0.06);
 }
 
 .saka-card.has-bg-img:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 14px 30px -4px rgba(14, 165, 233, 0.16);
+  box-shadow: 0 16px 32px -4px rgba(14, 165, 233, 0.2);
 }
 
 .saka-card-backdrop {
@@ -427,15 +427,15 @@ p {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.16;
-  filter: contrast(1.05) saturate(1.1);
+  opacity: 0.38;
+  filter: contrast(1.08) saturate(1.15);
   transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
   pointer-events: none;
 }
 
 .saka-card.has-bg-img:hover .saka-card-backdrop {
-  transform: scale(1.06);
-  opacity: 0.24;
+  transform: scale(1.07);
+  opacity: 0.48;
 }
 
 /* Semi-transparent protective glass gradient to guarantee crisp text legibility */
@@ -444,7 +444,13 @@ p {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: linear-gradient(155deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.78) 55%, rgba(255, 255, 255, 0.86) 100%);
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.84) 0%,
+    rgba(255, 255, 255, 0.70) 50%,
+    rgba(255, 255, 255, 0.82) 100%
+  );
+  backdrop-filter: blur(1.5px);
   pointer-events: none;
 }
 
@@ -458,11 +464,26 @@ p {
 
 .saka-card.has-bg-img .saka-card-title {
   color: #0f172a;
+  font-weight: 800;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .saka-card.has-bg-img .saka-card-text {
-  color: #334155;
-  font-weight: 450;
+  color: #1e293b;
+  font-weight: 500;
+  line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.saka-card.has-bg-img .badge {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+
+.saka-card.has-bg-img .saka-card-link {
+  font-weight: 700;
+  color: #0284c7;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 .saka-card-icon {
