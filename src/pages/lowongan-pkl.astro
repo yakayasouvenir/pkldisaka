@@ -11,6 +11,28 @@ import { waLink, INITIAL_DIVISIONS } from '../data/site';
 
 const page = getPageByPath('/lowongan-pkl/')!;
 const crumbs = [{ name: page.h1, path: page.path }];
+
+const divisionIcons: Record<string, string> = {
+  'digital-marketing': 'bi-megaphone-fill',
+  'seo-website': 'bi-code-slash',
+  'social-media': 'bi-share-fill',
+  'foto-video-produk': 'bi-camera-fill',
+  'content-creator': 'bi-play-btn-fill',
+  'desain-grafis': 'bi-palette-fill',
+  'produksi-souvenir': 'bi-printer-fill',
+  packaging: 'bi-box-seam-fill',
+};
+
+const divisionMajors: Record<string, string> = {
+  'digital-marketing': 'Bisnis Digital & Pemasaran',
+  'seo-website': 'RPL, TKJ & Informatika',
+  'social-media': 'Manajemen & Komunikasi',
+  'foto-video-produk': 'Multimedia & DKV',
+  'content-creator': 'Multimedia & Broadcast',
+  'desain-grafis': 'DKV & Multimedia',
+  'produksi-souvenir': 'Grafika & Seni Rupa',
+  packaging: 'Teknik Grafika & DKV',
+};
 ---
 
 <BaseLayout
@@ -52,8 +74,8 @@ const crumbs = [{ name: page.h1, path: page.path }];
             <div class="col-md-5">
               <div class="article-feature-img-wrap">
                 <img
-                  src="/images/10.webp"
-                  alt="Sesi mentoring teknis dan evaluasi peserta magang"
+                  src="/images/13.webp"
+                  alt="Sesi mentoring teknis dan evaluasi peserta magang di ruang meeting"
                   loading="lazy"
                   width="480"
                   height="300"
@@ -96,44 +118,122 @@ const crumbs = [{ name: page.h1, path: page.path }];
           ))}
 
           <h2 class="mt-4 mb-3">Status Ketersediaan per Divisi Kerja</h2>
-          <div class="table-responsive">
-            <table class="table table-saka">
-              <thead>
-                <tr>
-                  <th>Divisi Kerja</th>
-                  <th>Kesesuaian Jurusan</th>
-                  <th>Status Penerimaan</th>
-                  <th>Kanal Konfirmasi</th>
-                </tr>
-              </thead>
-              <tbody>
-                {INITIAL_DIVISIONS.map((d) => (
+
+          <!-- A. TAMPILAN DESKTOP: TABEL KOMPREHENSIF (>= 768px) -->
+          <div class="d-none d-md-block mb-4">
+            <div class="table-responsive shadow-xs rounded-3 border">
+              <table class="table table-saka align-middle mb-0">
+                <thead class="table-light">
                   <tr>
-                    <td>
-                      <strong>{d.name}</strong>
-                      <div class="small text-muted">{d.desc}</div>
-                    </td>
-                    <td>
-                      <span class="badge bg-light text-dark border">SMK / Vokasi</span>
-                    </td>
-                    <td>
-                      <span class="badge bg-success-subtle text-success">
-                        <i class="bi bi-check-circle me-1"></i>Pendaftaran Terbuka
-                      </span>
-                    </td>
-                    <td>
-                      <a href={waLink(`Halo Admin Saka, saya ingin konfirmasi kuota magang divisi ${d.name}`)} target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary rounded-pill">
-                        Cek Kuota
-                      </a>
-                    </td>
+                    <th scope="col" style="width: 38%;">Divisi Kerja</th>
+                    <th scope="col" style="width: 24%;">Kesesuaian Jurusan</th>
+                    <th scope="col" style="width: 22%;">Status Penerimaan</th>
+                    <th scope="col" style="width: 16%;" class="text-center">Kanal Konfirmasi</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {INITIAL_DIVISIONS.map((d) => (
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-start gap-2.5">
+                          <span class="division-icon-badge mt-0.5">
+                            <i class={`bi ${divisionIcons[d.id] || 'bi-briefcase-fill'}`}></i>
+                          </span>
+                          <div>
+                            <strong class="text-dark d-block">{d.name}</strong>
+                            <div class="small text-muted" style="line-height: 1.45;">{d.desc}</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.72rem;">
+                          {divisionMajors[d.id] || 'SMK / Vokasi'}
+                        </span>
+                      </td>
+                      <td>
+                        <span class="badge bg-success-subtle text-success border border-success-subtle d-inline-flex align-items-center gap-1.5" style="font-size: 0.74rem;">
+                          <span class="status-dot-active"></span>
+                          <span>Pendaftaran Terbuka</span>
+                        </span>
+                      </td>
+                      <td class="text-center">
+                        <a
+                          href={waLink(`Halo Admin Saka, saya ingin konfirmasi ketersediaan kuota magang divisi ${d.name}`)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-semibold"
+                        >
+                          Cek Kuota
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- B. TAMPILAN MOBILE: KARTU DIVISI INTERAKTIF (< 768px) (ANTI TERPOTONG & 100% RESPONSIVE) -->
+          <div class="d-md-none mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2.5">
+              <span class="small text-muted font-monospace" style="font-size: 0.74rem;">
+                <i class="bi bi-info-circle text-primary me-1"></i>8 Divisi Tersedia
+              </span>
+              <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill font-monospace" style="font-size: 0.68rem;">
+                Semua Dibuka
+              </span>
+            </div>
+
+            <div class="d-flex flex-column gap-2.5">
+              {INITIAL_DIVISIONS.map((d) => (
+                <div class="lowongan-mobile-card p-3 rounded-4 border bg-white shadow-xs">
+                  <!-- Header: Icon, Judul Divisi & Status Buka -->
+                  <div class="d-flex align-items-start justify-content-between gap-2 mb-2">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="division-icon-badge">
+                        <i class={`bi ${divisionIcons[d.id] || 'bi-briefcase-fill'}`}></i>
+                      </span>
+                      <div>
+                        <h3 class="h6 fw-bold mb-0 text-dark" style="font-size: 0.95rem;">{d.name}</h3>
+                        <span class="badge bg-light text-secondary border font-monospace mt-0.5" style="font-size: 0.68rem;">
+                          {divisionMajors[d.id] || 'SMK / Vokasi'}
+                        </span>
+                      </div>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle flex-shrink-0 d-inline-flex align-items-center gap-1" style="font-size: 0.7rem;">
+                      <span class="status-dot-active"></span>
+                      <span>Buka</span>
+                    </span>
+                  </div>
+
+                  <!-- Deskripsi Divisi Singkat -->
+                  <p class="small text-muted mb-2.5" style="line-height: 1.5; font-size: 0.82rem;">
+                    {d.desc}
+                  </p>
+
+                  <!-- Footer Card: Kuota & Tombol WA Cek Kuota -->
+                  <div class="pt-2 border-top d-flex align-items-center justify-content-between gap-2">
+                    <span class="small text-muted d-inline-flex align-items-center gap-1" style="font-size: 0.74rem;">
+                      <i class="bi bi-people-fill text-primary"></i> 2–4 Siswa/Divisi
+                    </span>
+                    <a
+                      href={waLink(`Halo Admin Saka, saya ingin konfirmasi ketersediaan kuota magang divisi ${d.name}`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-sm btn-primary rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5 shadow-xs"
+                      style="font-size: 0.78rem;"
+                    >
+                      <i class="bi bi-whatsapp"></i>
+                      <span>Cek Kuota</span>
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <!-- Dokumentasi Foto Divisi Populer (Foto 3 & 4) -->
-          <div class="my-4 p-3 p-md-4 rounded-4 bg-light border">
+          <div class="my-4 p-3 p-md-4 rounded-4 bg-light border overflow-hidden">
             <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
               <div>
                 <h3 class="h6 fw-bold text-dark mb-0">
@@ -142,12 +242,33 @@ const crumbs = [{ name: page.h1, path: page.path }];
                 <p class="small text-muted mb-0">Dokumentasi nyata kegiatan divisi kejuruan selama masa penugasan industri.</p>
               </div>
               <span class="badge bg-white text-primary border shadow-xs">
-                <i class="bi bi-images me-1"></i>2 Foto Divisi
+                <i class="bi bi-images me-1"></i>3 Foto Divisi
               </span>
             </div>
 
             <div class="row g-3">
-              <div class="col-md-6">
+              <div class="col-md-4">
+                <div class="bg-white rounded-3 overflow-hidden border shadow-xs h-100 d-flex flex-column">
+                  <div class="position-relative">
+                    <img
+                      src="/images/praktik-digital-marketing.webp"
+                      alt="Aktivitas siswa divisi digital marketing dan e-commerce"
+                      loading="lazy"
+                      class="w-100 object-fit-cover"
+                      style="height: 185px;"
+                    />
+                    <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                      <i class="bi bi-graph-up-arrow me-1"></i>Digital Marketing
+                    </span>
+                  </div>
+                  <div class="p-3 d-flex flex-column flex-grow-1">
+                    <div class="fw-bold small text-dark mb-1">Divisi Digital Marketing</div>
+                    <p class="small text-muted mb-0">Praktik posting artikel SEO, riset tren marketplace, dan optimasi toko digital UMKM binaan.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
                 <div class="bg-white rounded-3 overflow-hidden border shadow-xs h-100 d-flex flex-column">
                   <div class="position-relative">
                     <img
@@ -155,20 +276,20 @@ const crumbs = [{ name: page.h1, path: page.path }];
                       alt="Aktivitas siswa divisi desain grafis dan multimedia"
                       loading="lazy"
                       class="w-100 object-fit-cover"
-                      style="height: 195px;"
+                      style="height: 185px;"
                     />
                     <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
-                      <i class="bi bi-palette-fill me-1"></i>Divisi Desain & Visual
+                      <i class="bi bi-palette-fill me-1"></i>Divisi Desain
                     </span>
                   </div>
                   <div class="p-3 d-flex flex-column flex-grow-1">
-                    <div class="fw-bold small text-dark mb-1">Divisi Desain Grafis & Multimedia</div>
+                    <div class="fw-bold small text-dark mb-1">Divisi Desain Grafis</div>
                     <p class="small text-muted mb-0">Fokus pada perancangan identitas visual, materi promosi sosial media, dan layout kemasan produk komersial.</p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <div class="bg-white rounded-3 overflow-hidden border shadow-xs h-100 d-flex flex-column">
                   <div class="position-relative">
                     <img
@@ -176,15 +297,15 @@ const crumbs = [{ name: page.h1, path: page.path }];
                       alt="Aktivitas siswa divisi RPL dan website engineering"
                       loading="lazy"
                       class="w-100 object-fit-cover"
-                      style="height: 195px;"
+                      style="height: 185px;"
                     />
                     <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
                       <i class="bi bi-code-slash me-1"></i>Divisi Web & IT
                     </span>
                   </div>
                   <div class="p-3 d-flex flex-column flex-grow-1">
-                    <div class="fw-bold small text-dark mb-1">Divisi Website & SEO Engineering</div>
-                    <p class="small text-muted mb-0">Mengerjakan arsitektur kode web modern, optimalisasi kecepatan loading, struktur on-page SEO, dan analitik performa Google.</p>
+                    <div class="fw-bold small text-dark mb-1">Divisi Website & SEO</div>
+                    <p class="small text-muted mb-0">Mengerjakan arsitektur kode web modern, optimalisasi kecepatan loading, struktur on-page SEO, dan analitik Google.</p>
                   </div>
                 </div>
               </div>
@@ -227,3 +348,67 @@ const crumbs = [{ name: page.h1, path: page.path }];
 
   <CTASection />
 </BaseLayout>
+
+<style>
+  /* Division Badges & Status */
+  .division-icon-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: #f0f9ff;
+    color: #0284c7;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+  }
+  .status-dot-active {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #10b981;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+  }
+
+  /* Lowongan Mobile Card */
+  .lowongan-mobile-card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 16px;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .lowongan-mobile-card:hover {
+    border-color: #0284c7;
+    box-shadow: 0 6px 18px rgba(2, 132, 199, 0.1);
+  }
+
+  /* Responsive fixes for mobile (< 768px) to eliminate layout errors & horizontal overflow */
+  @media (max-width: 767.98px) {
+    .article-container {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+    .article-content {
+      padding: 1.25rem 0.85rem !important;
+      overflow-x: hidden;
+      border-radius: 18px;
+    }
+    .article-summary-box {
+      padding: 1rem 0.85rem !important;
+      border-radius: 14px;
+    }
+    .article-feature-box {
+      padding: 1rem 0.85rem !important;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .article-feature-img-wrap {
+      max-height: 180px;
+    }
+    .table-saka th, .table-saka td {
+      padding: 0.6rem 0.75rem;
+    }
+  }
+</style>

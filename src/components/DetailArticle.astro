@@ -24,12 +24,12 @@ const crumbs = [
 
 const faqs = page.faqs || [];
 
-import { articleVisuals, getDeterministicImage, getArticleGallery } from '../data/visuals';
+import { getArticleVisuals } from '../data/visuals';
 
-const visualItem = articleVisuals[page.path];
-const heroBg = visualItem?.src || getDeterministicImage(page.path);
-const galleryPhotos = getArticleGallery(page.path, heroBg);
-const featurePhoto = galleryPhotos[0]?.src || heroBg;
+const articleVisual = getArticleVisuals(page.path);
+const heroBg = articleVisual.src;
+const featurePhoto = articleVisual.feature.src;
+const galleryPhotos = articleVisual.gallery;
 ---
 
 <BaseLayout
@@ -82,20 +82,20 @@ const featurePhoto = galleryPhotos[0]?.src || heroBg;
                   <div class="article-feature-img-wrap">
                     <img
                       src={featurePhoto}
-                      alt={`Praktik kerja nyata pada ${page.h1}`}
+                      alt={articleVisual.feature.alt || `Praktik kerja nyata pada ${page.h1}`}
                       loading="lazy"
                       width="480"
                       height="300"
                     />
                     <span class="article-feature-badge">
-                      <i class="bi bi-patch-check me-1"></i>Praktik Nyata
+                      <i class="bi bi-patch-check me-1"></i>{articleVisual.feature.badge || 'Praktik Nyata'}
                     </span>
                   </div>
                 </div>
                 <div class="col-md-7">
                   <h3 class="h6 fw-bold text-primary mb-2">Standar Kualitas & Kompetensi Kerja</h3>
                   <p class="small text-muted mb-2">
-                    Seluruh aktivitas penugasan disesuaikan dengan ritme industri terukur agar peserta siap memasuki dunia kerja profesional.
+                    {articleVisual.feature.caption || 'Seluruh aktivitas penugasan disesuaikan dengan ritme industri terukur agar peserta siap memasuki dunia kerja profesional.'}
                   </p>
                   <div class="competency-item">
                     <i class="bi bi-check-circle-fill"></i>
