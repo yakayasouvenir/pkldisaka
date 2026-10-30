@@ -103,6 +103,20 @@ const graph = [
 
     <!-- Structured data (JSON-LD @graph) -->
     <script type="application/ld+json" is:inline set:html={jsonLd(graph)} />
+      <!-- Script penjamin halaman selalu terbuka di posisi paling atas (terutama saat dibuka/refresh di mobile) -->
+    <script is:inline>
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      }
+      window.addEventListener('pageshow', function () {
+        if (!window.location.hash) {
+          window.scrollTo(0, 0);
+        }
+      });
+    </script>
   </head>
   <body>
     <!-- Skip to main content (DESIGN.md Bab 7) -->

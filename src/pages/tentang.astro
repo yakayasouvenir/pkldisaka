@@ -225,123 +225,234 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
             Bagan struktur organisasi Saka dirancang untuk memastikan tata kelola industri yang profesional, pembagian tanggung jawab yang transparan, serta jalur bimbingan intensif bagi seluruh peserta Praktik Kerja Lapangan.
           </p>
 
-          <!-- Diagram Struktur Sesuai Bagan Resmi (Mempertahankan Struktur Utuh di Mobile) -->
+          <!-- Diagram Struktur Sesuai Bagan Resmi (Responsif 1 Layar HP di Mobile, Pohon Utuh di Desktop) -->
           <div class="org-chart-container p-3 p-md-4 rounded-4 bg-light border shadow-sm">
-            <!-- Indikator Geser Horizontal di Mobile -->
-            <div class="d-lg-none d-flex align-items-center justify-content-center gap-1.5 text-muted small mb-3 py-1.5 px-3 bg-white rounded-pill border shadow-xs mx-auto" style="width: fit-content; font-size: 0.78rem;">
-              <i class="bi bi-arrows-expand text-primary"></i>
-              <span>Geser ke samping untuk melihat bagan struktur lengkap</span>
+            
+            <!-- Bagan Struktur Tampilan Mobile & Tablet (< 992px): Pas 1 Layar HP Tanpa Geser -->
+            <div class="org-mobile-structure d-lg-none">
+              <!-- LEVEL 1: DIREKTUR -->
+              <div class="text-center mb-2">
+                <div class="org-card-box org-card-director text-center mx-auto shadow-sm" style="max-width: 290px; padding: 0.85rem 1rem;">
+                  <span class="badge bg-primary text-white rounded-pill px-2.5 py-1 mb-1 fw-bold" style="font-size: 0.7rem; letter-spacing: 0.04em;">
+                    DIREKTUR
+                  </span>
+                  <div class="org-person-name mb-0" style="font-size: 0.95rem;">Aditiya Yoga Isnaeni</div>
+                  <div class="text-muted small" style="font-size: 0.76rem;">Pimpinan Industri & Penanggung Jawab</div>
+                </div>
+                
+                <!-- Connector Arrow Down ke Cabang Divisi -->
+                <div class="org-mobile-stem-connector">
+                  <div class="org-mobile-stem-line"></div>
+                  <div class="org-mobile-stem-arrow"><i class="bi bi-chevron-down text-primary"></i></div>
+                </div>
+              </div>
+
+              <!-- LEVEL 2 & 3: 3 CABANG STRUKTUR VERTIKAL -->
+              <div class="d-flex flex-column gap-3">
+                
+                <!-- CABANG 1: CRO (Revenue, Marketing, & Desain) -->
+                <div class="org-mobile-branch-card">
+                  <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                    <div>
+                      <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-0.5 fw-bold" style="font-size: 0.68rem;">
+                        DIVISI CRO
+                      </span>
+                      <div class="fw-bold text-dark mt-1" style="font-size: 0.92rem;">I Gusti Ayu Dea Salsa</div>
+                    </div>
+                    <div class="org-mobile-icon-circle bg-primary-subtle text-primary">
+                      <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                  </div>
+                  
+                  <div class="text-muted small mb-2 fw-semibold" style="font-size: 0.72rem;">
+                    <i class="bi bi-arrow-return-right text-primary me-1"></i>Staf Bimbingan Industri:
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-xs p-2 d-flex flex-column justify-content-center">
+                        <div class="org-person-name" style="font-size: 0.8rem;">Bayu Setiawan</div>
+                        <div class="org-person-role small" style="font-size: 0.72rem;">SENIOR DESAIN</div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-xs p-2 d-flex flex-column justify-content-center">
+                        <div class="org-person-name" style="font-size: 0.8rem;">Muchammad Maluana Ishaq</div>
+                        <div class="org-person-role small" style="font-size: 0.72rem;">SENIOR MARKETING</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CABANG 2: FINANCE (Keuangan & Administrasi) -->
+                <div class="org-mobile-branch-card">
+                  <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                    <div>
+                      <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-0.5 fw-bold" style="font-size: 0.68rem;">
+                        DIVISI FINANCE
+                      </span>
+                      <div class="fw-bold text-dark mt-1" style="font-size: 0.92rem;">Yoga</div>
+                    </div>
+                    <div class="org-mobile-icon-circle bg-primary-subtle text-primary">
+                      <i class="bi bi-wallet2"></i>
+                    </div>
+                  </div>
+
+                  <div class="text-muted small mb-2 fw-semibold" style="font-size: 0.72rem;">
+                    <i class="bi bi-arrow-return-right text-primary me-1"></i>Staf Bimbingan Industri:
+                  </div>
+                  <div class="org-card-box org-card-sub text-center shadow-xs p-2">
+                    <div class="org-person-name no-underline" style="font-size: 0.8rem;">Tim Keuangan & Kasir</div>
+                    <div class="org-person-role small" style="font-size: 0.72rem;">FINANCE</div>
+                  </div>
+                </div>
+
+                <!-- CABANG 3: LEADER PRODUKSI (Workshop & Merchandise) -->
+                <div class="org-mobile-branch-card">
+                  <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                    <div>
+                      <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-0.5 fw-bold" style="font-size: 0.68rem;">
+                        DIVISI PRODUKSI
+                      </span>
+                      <div class="fw-bold text-dark mt-1" style="font-size: 0.92rem;">Jauhar Abdilah</div>
+                    </div>
+                    <div class="org-mobile-icon-circle bg-primary-subtle text-primary">
+                      <i class="bi bi-gear-wide-connected"></i>
+                    </div>
+                  </div>
+
+                  <div class="text-muted small mb-2 fw-semibold" style="font-size: 0.72rem;">
+                    <i class="bi bi-arrow-return-right text-primary me-1"></i>Staf Bimbingan Industri:
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-xs p-2 d-flex flex-column justify-content-center">
+                        <div class="org-person-name" style="font-size: 0.8rem;">Ahmad Ziyan Achwari</div>
+                        <div class="org-person-role small" style="font-size: 0.72rem;">STAF PRODUKSI</div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="org-card-box org-card-sub text-center h-100 shadow-xs p-2 d-flex flex-column justify-content-center">
+                        <div class="org-person-name" style="font-size: 0.8rem;">Umar Khotob</div>
+                        <div class="org-person-role small" style="font-size: 0.72rem;">STAF PRODUKSI</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
 
-            <!-- Board Bagan Struktur (Tetap 3 Kolom & Konektor Garis Utuh) -->
-            <div class="org-chart-board">
-              <!-- LEVEL 1: DIREKTUR -->
-              <div class="d-flex justify-content-center mb-3">
-                <div class="org-card-box org-card-director text-center shadow-sm">
-                  <div class="org-person-name">Aditiya Yoga Isnaeni</div>
-                  <div class="org-person-role">DIREKTUR</div>
-                </div>
-              </div>
-
-              <!-- Connector dari Direktur ke 3 Cabang -->
-              <div class="org-tree-stem-container">
-                <div class="org-stem-vertical"></div>
-                <div class="org-stem-horizontal-3"></div>
-                <div class="org-stem-drops d-flex justify-content-between">
-                  <div class="org-stem-drop"></div>
-                  <div class="org-stem-drop"></div>
-                  <div class="org-stem-drop"></div>
-                </div>
-              </div>
-
-              <!-- LEVEL 2 & 3: 3 CABANG UTAMA (CRO, FINANCE, LEADER PRODUKSI) -->
-              <div class="org-three-columns">
-                <!-- CABANG 1: CRO (Kiri) -->
-                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
-                  <!-- Level 2 Card: CRO -->
-                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
-                    <div class="org-person-name">I Gusti Ayu Dea Salsa</div>
-                    <div class="org-person-role">CRO</div>
+            <!-- Bagan Struktur Tampilan Desktop (>= 992px): Bagan Pohon 3 Cabang -->
+            <div class="d-none d-lg-block">
+              <div class="org-chart-board">
+                <!-- LEVEL 1: DIREKTUR -->
+                <div class="d-flex justify-content-center mb-3">
+                  <div class="org-card-box org-card-director text-center shadow-sm">
+                    <div class="org-person-name">Aditiya Yoga Isnaeni</div>
+                    <div class="org-person-role">DIREKTUR</div>
                   </div>
+                </div>
 
-                  <!-- Connector Sub-Cabang CRO -->
-                  <div class="org-sub-stem-container w-100">
-                    <div class="org-stem-vertical-short"></div>
-                    <div class="org-sub-horizontal-2"></div>
-                    <div class="org-sub-drops d-flex justify-content-between">
-                      <div class="org-stem-drop"></div>
-                      <div class="org-stem-drop"></div>
+                <!-- Connector dari Direktur ke 3 Cabang -->
+                <div class="org-tree-stem-container">
+                  <div class="org-stem-vertical"></div>
+                  <div class="org-stem-horizontal-3"></div>
+                  <div class="org-stem-drops d-flex justify-content-between">
+                    <div class="org-stem-drop"></div>
+                    <div class="org-stem-drop"></div>
+                    <div class="org-stem-drop"></div>
+                  </div>
+                </div>
+
+                <!-- LEVEL 2 & 3: 3 CABANG UTAMA (CRO, FINANCE, LEADER PRODUKSI) -->
+                <div class="org-three-columns">
+                  <!-- CABANG 1: CRO (Kiri) -->
+                  <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                    <!-- Level 2 Card: CRO -->
+                    <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                      <div class="org-person-name">I Gusti Ayu Dea Salsa</div>
+                      <div class="org-person-role">CRO</div>
                     </div>
-                  </div>
 
-                  <!-- Level 3 Cards di bawah CRO -->
-                  <div class="row g-2 w-100 flex-grow-1">
-                    <div class="col-6">
-                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
-                        <div class="org-person-name">Bayu Setiawan</div>
-                        <div class="org-person-role small">SENIOR DESAIN</div>
+                    <!-- Connector Sub-Cabang CRO -->
+                    <div class="org-sub-stem-container w-100">
+                      <div class="org-stem-vertical-short"></div>
+                      <div class="org-sub-horizontal-2"></div>
+                      <div class="org-sub-drops d-flex justify-content-between">
+                        <div class="org-stem-drop"></div>
+                        <div class="org-stem-drop"></div>
                       </div>
                     </div>
-                    <div class="col-6">
-                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
-                        <div class="org-person-name">Muchammad Maluana Ishaq</div>
-                        <div class="org-person-role small">SENIOR MARKETING</div>
+
+                    <!-- Level 3 Cards di bawah CRO -->
+                    <div class="row g-2 w-100 flex-grow-1">
+                      <div class="col-6">
+                        <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                          <div class="org-person-name">Bayu Setiawan</div>
+                          <div class="org-person-role small">SENIOR DESAIN</div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                          <div class="org-person-name">Muchammad Maluana Ishaq</div>
+                          <div class="org-person-role small">SENIOR MARKETING</div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <!-- CABANG 2: FINANCE (Tengah) -->
-                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
-                  <!-- Level 2 Card: FINANCE -->
-                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
-                    <div class="org-person-name no-underline">Yoga</div>
-                    <div class="org-person-role">FINANCE</div>
-                  </div>
-
-                  <!-- Connector Sub-Cabang FINANCE -->
-                  <div class="org-sub-stem-container w-100">
-                    <div class="org-stem-drop-single"></div>
-                  </div>
-
-                  <!-- Level 3 Card di bawah FINANCE -->
-                  <div class="w-100 flex-grow-1 d-flex flex-column">
-                    <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                  <!-- CABANG 2: FINANCE (Tengah) -->
+                  <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                    <!-- Level 2 Card: FINANCE -->
+                    <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                      <div class="org-person-name no-underline">Yoga</div>
                       <div class="org-person-role">FINANCE</div>
                     </div>
-                  </div>
-                </div>
 
-                <!-- CABANG 3: LEADER PRODUKSI (Kanan) -->
-                <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
-                  <!-- Level 2 Card: LEADER PRODUKSI -->
-                  <div class="org-card-box w-100 text-center mb-3 shadow-sm">
-                    <div class="org-person-name">Jauhar Abdilah</div>
-                    <div class="org-person-role">LEADER PRODUKSI</div>
-                  </div>
-
-                  <!-- Connector Sub-Cabang PRODUKSI -->
-                  <div class="org-sub-stem-container w-100">
-                    <div class="org-stem-vertical-short"></div>
-                    <div class="org-sub-horizontal-2"></div>
-                    <div class="org-sub-drops d-flex justify-content-between">
-                      <div class="org-stem-drop"></div>
-                      <div class="org-stem-drop"></div>
+                    <!-- Connector Sub-Cabang FINANCE -->
+                    <div class="org-sub-stem-container w-100">
+                      <div class="org-stem-drop-single"></div>
                     </div>
-                  </div>
 
-                  <!-- Level 3 Cards di bawah LEADER PRODUKSI -->
-                  <div class="row g-2 w-100 flex-grow-1">
-                    <div class="col-6">
+                    <!-- Level 3 Card di bawah FINANCE -->
+                    <div class="w-100 flex-grow-1 d-flex flex-column">
                       <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
-                        <div class="org-person-name">Ahmad Ziyan Achwari</div>
-                        <div class="org-person-role small">STAF PRODUKSI</div>
+                        <div class="org-person-role">FINANCE</div>
                       </div>
                     </div>
-                    <div class="col-6">
-                      <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
-                        <div class="org-person-name">Umar Khotob</div>
-                        <div class="org-person-role small">STAF PRODUKSI</div>
+                  </div>
+
+                  <!-- CABANG 3: LEADER PRODUKSI (Kanan) -->
+                  <div class="org-branch-wrap h-100 d-flex flex-column align-items-center">
+                    <!-- Level 2 Card: LEADER PRODUKSI -->
+                    <div class="org-card-box w-100 text-center mb-3 shadow-sm">
+                      <div class="org-person-name">Jauhar Abdilah</div>
+                      <div class="org-person-role">LEADER PRODUKSI</div>
+                    </div>
+
+                    <!-- Connector Sub-Cabang PRODUKSI -->
+                    <div class="org-sub-stem-container w-100">
+                      <div class="org-stem-vertical-short"></div>
+                      <div class="org-sub-horizontal-2"></div>
+                      <div class="org-sub-drops d-flex justify-content-between">
+                        <div class="org-stem-drop"></div>
+                        <div class="org-stem-drop"></div>
+                      </div>
+                    </div>
+
+                    <!-- Level 3 Cards di bawah LEADER PRODUKSI -->
+                    <div class="row g-2 w-100 flex-grow-1">
+                      <div class="col-6">
+                        <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                          <div class="org-person-name">Ahmad Ziyan Achwari</div>
+                          <div class="org-person-role small">STAF PRODUKSI</div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="org-card-box org-card-sub text-center h-100 shadow-sm d-flex flex-column justify-content-center">
+                          <div class="org-person-name">Umar Khotob</div>
+                          <div class="org-person-role small">STAF PRODUKSI</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -350,7 +461,7 @@ const crumbs = [{ name: 'Tentang Saka', path: '/tentang/' }];
             </div>
 
             <!-- LEVEL 4: PENEMPATAN SISWA & MAHASISWA PKL DI BAWAH STRUKTUR -->
-            <div class="org-intern-banner mt-4">
+            <div class="org-intern-banner mt-3 mt-md-4">
               <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 text-center text-md-start">
                 <div>
                   <div class="fw-bold text-dark mb-1 d-flex align-items-center justify-content-center justify-content-md-start gap-2">
