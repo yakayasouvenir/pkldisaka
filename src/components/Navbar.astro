@@ -345,85 +345,133 @@ const navIcons: Record<string, string> = {
     transition: transform 0.2s ease;
   }
 
+  /* Desktop Dropdown Card: Tata Letak Kotak 2 Kolom (Grid) */
+  .desktop-dropdown-card {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    width: 580px;
+    max-width: calc(100vw - 32px);
+    background: #ffffff;
+    border: 1px solid rgba(226, 232, 240, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 20px 42px -10px rgba(18, 30, 49, 0.16), 0 4px 14px rgba(0, 0, 0, 0.04);
+    padding: 0.75rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.2s;
+    z-index: 1050;
+  }
+
+  /* Area bridge tak terlihat untuk mencegah dropdown tertutup saat kursor berpindah */
+  .desktop-dropdown-card::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+  }
+
+  /* Hanya 1 dropdown yang tampil via hover atau class is-open (focus-within dihapus agar tidak nyangkut) */
+  .dropdown-parent:hover .desktop-dropdown-card,
+  .dropdown-parent.is-open .desktop-dropdown-card {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .dropdown-parent.is-open .dropdown-toggle-btn {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+  }
+
+  .dropdown-parent.is-open .nav-chevron,
   .dropdown-parent:hover .nav-chevron {
     transform: rotate(180deg);
   }
 
-  /* Desktop Dropdown Card */
-  .desktop-dropdown-card {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 290px;
-    background: #ffffff;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-card);
-    box-shadow: 0 16px 36px -8px rgba(32, 41, 56, 0.14);
-    padding: 0.5rem;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(8px);
-    transition: all 0.18s ease;
-    z-index: 1050;
-  }
-
-  .dropdown-parent:hover .desktop-dropdown-card {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+  /* Dropdown yang berada di sisi kanan menu otomatis rata kanan agar tidak terpotong */
+  .desktop-nav-item:nth-child(n+5) .desktop-dropdown-card {
+    left: auto;
+    right: 0;
   }
 
   .dropdown-card-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem 0.5rem;
   }
 
   .dropdown-sub-item {
     display: flex;
     align-items: flex-start;
-    gap: 0.65rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: var(--radius-sm);
+    gap: 0.75rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: 10px;
     text-decoration: none;
     color: var(--color-text);
     transition: all 0.15s ease;
+    border: 1px solid transparent;
   }
 
-  .dropdown-sub-item:hover,
+  .dropdown-sub-item:hover {
+    background-color: var(--color-primary-light);
+    border-color: rgba(26, 86, 219, 0.08);
+  }
+
   .dropdown-sub-item.active {
     background-color: var(--color-primary-light);
-    color: var(--color-primary);
+    border-color: rgba(26, 86, 219, 0.18);
   }
 
   .dropdown-sub-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: 7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
     background: var(--color-primary-light);
     color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.95rem;
+    font-size: 1rem;
     flex-shrink: 0;
     margin-top: 1px;
+    transition: all 0.15s ease;
   }
 
-  .dropdown-sub-item:hover .dropdown-sub-icon {
+  .dropdown-sub-item:hover .dropdown-sub-icon,
+  .dropdown-sub-item.active .dropdown-sub-icon {
     background: var(--color-primary);
     color: #ffffff;
+    transform: scale(1.05);
+  }
+
+  .dropdown-sub-text {
+    min-width: 0;
+    flex: 1;
   }
 
   .dropdown-sub-title {
     font-weight: 600;
     font-size: 0.88rem;
-    line-height: 1.25;
+    line-height: 1.3;
+    color: var(--color-heading, #1e293b);
+    transition: color 0.15s ease;
+  }
+
+  .dropdown-sub-item:hover .dropdown-sub-title,
+  .dropdown-sub-item.active .dropdown-sub-title {
+    color: var(--color-primary);
   }
 
   .dropdown-sub-desc {
-    font-size: 0.76rem;
+    font-size: 0.75rem;
     color: var(--color-muted);
+    line-height: 1.35;
     margin-top: 2px;
   }
 
@@ -799,6 +847,74 @@ const navIcons: Record<string, string> = {
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // -------------------------------------------------------------
+    // DESKTOP DROPDOWNS: Mencegah dropdown menumpuk / gabung bersamaan
+    // -------------------------------------------------------------
+    const desktopDropdowns = document.querySelectorAll('.desktop-nav-item.dropdown-parent');
+
+    function closeAllDesktopDropdowns() {
+      desktopDropdowns.forEach((item) => {
+        item.classList.remove('is-open');
+        const btn = item.querySelector('.dropdown-toggle-btn');
+        if (btn) {
+          btn.setAttribute('aria-expanded', 'false');
+          btn.blur();
+        }
+      });
+    }
+
+    desktopDropdowns.forEach((item) => {
+      const btn = item.querySelector('.dropdown-toggle-btn');
+
+      if (btn) {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const isOpen = item.classList.contains('is-open');
+          closeAllDesktopDropdowns();
+          if (!isOpen) {
+            item.classList.add('is-open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      }
+
+      // Saat mouse berpindah ke menu lain, tutup dropdown lain seketika
+      item.addEventListener('mouseenter', () => {
+        desktopDropdowns.forEach((other) => {
+          if (other !== item) {
+            other.classList.remove('is-open');
+            const otherBtn = other.querySelector('.dropdown-toggle-btn');
+            if (otherBtn) {
+              otherBtn.setAttribute('aria-expanded', 'false');
+              otherBtn.blur();
+            }
+          }
+        });
+      });
+
+      item.addEventListener('mouseleave', () => {
+        item.classList.remove('is-open');
+        if (btn) {
+          btn.setAttribute('aria-expanded', 'false');
+          btn.blur();
+        }
+      });
+    });
+
+    // Tutup seluruh dropdown saat pengguna mengklik area luar navbar
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (target && !target.closest('.desktop-nav')) {
+        closeAllDesktopDropdowns();
+      }
+    });
+
+    // Tutup seluruh dropdown saat tombol Escape ditekan
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeAllDesktopDropdowns();
+      }
+    });
     const toggleBtn = document.getElementById('mobileMenuToggle');
     const navPanel = document.getElementById('mobileNavPanel');
     const iconOpen = document.querySelector('.menu-icon-open');

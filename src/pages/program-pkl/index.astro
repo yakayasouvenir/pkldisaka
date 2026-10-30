@@ -26,7 +26,7 @@ const crumbs = [{ name: page.h1, path: page.path }];
     title={page.h1}
     lead={page.summary}
     crumbs={crumbs}
-    bgImage="/images/6.webp"
+    bgImage="/images/20.webp"
   />
 
   <section class="content-section">
@@ -51,29 +51,33 @@ const crumbs = [{ name: page.h1, path: page.path }];
             <div class="col-md-5">
               <div class="article-feature-img-wrap">
                 <img
-                  src="/images/wawancara-seleksi-magang.webp"
-                  alt="Sesi orientasi kurikulum dan pembimbingan peserta PKL Saka Malang"
+                  src="/images/13.webp"
+                  alt="Sesi pembekalan kurikulum industri dan mentoring terpadu bersama praktisi"
                   loading="lazy"
                   width="480"
                   height="300"
                 />
                 <span class="article-feature-badge">
-                  <i class="bi bi-mortarboard-fill me-1"></i>Vokasi Industri
+                  <i class="bi bi-mortarboard-fill me-1"></i>Kurikulum Industri
                 </span>
               </div>
             </div>
             <div class="col-md-7">
-              <h3 class="h6 fw-bold text-primary mb-2">Pilar Kurikulum Praktik Saka</h3>
+              <h3 class="h6 fw-bold text-primary mb-2">Pilar Pembinaan & Kurikulum Praktik Saka</h3>
               <p class="small text-muted mb-2">
-                Program disusun untuk mengonversi materi akademik menjadi keahlian siap pakai di industri pemasaran dan teknologi digital.
+                Program disusun untuk mengonversi materi kejuruan sekolah dan kampus menjadi keterampilan kerja riil berstandar industri digital.
               </p>
               <div class="competency-item">
                 <i class="bi bi-check-circle-fill"></i>
-                <span><strong>Proyek Komersial:</strong> Latihan mengerjakan brief klien riil dengan supervisi mentor.</span>
+                <span><strong>Bimbingan Praktisi:</strong> Arahan teknis langsung dari staf industri berpengalaman.</span>
+              </div>
+              <div class="competency-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span><strong>Portofolio Otentik:</strong> Hasil karya nyata dijadikan portofolio profesional siswa.</span>
               </div>
               <div class="competency-item mb-0">
                 <i class="bi bi-check-circle-fill"></i>
-                <span><strong>Review Mingguan:</strong> Presentasi hasil kerja untuk melatih kepercayaan diri siswa.</span>
+                <span><strong>Pengesahan Resmi:</strong> Penilaian transparan untuk laporan ke sekolah/kampus.</span>
               </div>
             </div>
           </div>
@@ -94,7 +98,66 @@ const crumbs = [{ name: page.h1, path: page.path }];
             </div>
           ))}
 
-          <h2 class="mt-4 mb-3">Sub-Program Terkait</h2>
+          <!-- Dokumentasi Foto Lapangan & Fasilitas Terkait (Foto 3 & 4) -->
+        <div class="article-gallery-showcase my-4 p-3 p-md-4 rounded-4 bg-light border">
+          <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+            <div>
+              <h3 class="h6 fw-bold text-dark mb-0">
+                <i class="bi bi-camera-fill text-primary me-2"></i>Dokumentasi Aktivitas & Fasilitas Terkait
+              </h3>
+              <p class="small text-muted mb-0">Gambaran nyata ekosistem kerja, sarana penunjang, dan pendampingan di Saka Malang.</p>
+            </div>
+            <span class="badge bg-white text-primary border shadow-xs">
+              <i class="bi bi-images me-1"></i>Dokumentasi Nyata
+            </span>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="gallery-photo-card h-100 bg-white rounded-3 overflow-hidden border shadow-xs d-flex flex-column">
+                <div class="position-relative">
+                  <img
+                    src="/images/22.webp"
+                    alt="Kolaborasi pengerjaan proyek industri lintas divisi kejuruan"
+                    loading="lazy"
+                    class="w-100 object-fit-cover"
+                    style="height: 195px;"
+                  />
+                  <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                    <i class="bi bi-people-fill me-1"></i>Praktik Tim Kerja
+                  </span>
+                </div>
+                <div class="p-3 d-flex flex-column flex-grow-1">
+                  <div class="fw-bold small text-dark mb-1">Kolaborasi Pengerjaan Proyek Industri</div>
+                  <p class="small text-muted mb-0" style="line-height: 1.5;">Peserta dibimbing menyelesaikan tugas nyata agensi dalam suasana kerja tim profesional yang kondusif.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="gallery-photo-card h-100 bg-white rounded-3 overflow-hidden border shadow-xs d-flex flex-column">
+                <div class="position-relative">
+                  <img
+                    src="/images/4.webp"
+                    alt="Pelepasan siswa magang dan penyerahan sertifikat kompetensi resmi"
+                    loading="lazy"
+                    class="w-100 object-fit-cover"
+                    style="height: 195px;"
+                  />
+                  <span class="badge bg-dark bg-opacity-75 text-white position-absolute top-0 end-0 m-2">
+                    <i class="bi bi-award-fill me-1"></i>Kelulusan Program
+                  </span>
+                </div>
+                <div class="p-3 d-flex flex-column flex-grow-1">
+                  <div class="fw-bold small text-dark mb-1">Penyerahan Sertifikat Kompetensi Resmi</div>
+                  <p class="small text-muted mb-0" style="line-height: 1.5;">Setiap peserta yang menuntaskan program PKL memperoleh sertifikat resmi berkop industri sebagai bukti kompetensi kerja.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="mt-4 mb-3">Sub-Program Terkait</h2>
           <div class="row g-3">
             <div class="col-md-6">
               <LinkCard

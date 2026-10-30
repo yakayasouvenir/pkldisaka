@@ -8,6 +8,7 @@ import CTASection from './CTASection.astro';
 import StatusNotice from './StatusNotice.astro';
 import { type PklPage } from '../data/pklData';
 import { faqNode } from '../lib/schema';
+import { getArticleVisuals } from '../data/visuals';
 
 interface Props {
   page: PklPage;
@@ -18,48 +19,158 @@ const { page, childrenPages } = Astro.props;
 const crumbs = [{ name: page.h1, path: page.path }];
 const faqs = page.faqs || [];
 
-const categoryImages: Record<string, { src: string; alt: string; caption: string }> = {
+interface HubPhoto {
+  src: string;
+  badge: string;
+  title: string;
+  alt: string;
+  caption: string;
+}
+
+interface HubVisualSet {
+  hero: string;
+  photo1: HubPhoto;
+  photo2: HubPhoto;
+}
+
+const categoryVisuals: Record<string, HubVisualSet> = {
+  'dokumen-pkl': {
+    hero: '/images/28.webp',
+    photo1: {
+      src: '/images/28.webp',
+      badge: 'Penyusunan Naskah',
+      title: 'Pengetikan Format Dokumen',
+      alt: 'Siswa menyusun naskah format dokumen PKL dan laporan magang di ThinkPad',
+      caption: 'Penyusunan format surat lamaran, CV magang, dan laporan akhir standar BKK.',
+    },
+    photo2: {
+      src: '/images/24.webp',
+      badge: 'Verifikasi Berkas',
+      title: 'Pemeriksaan Berkas & Surat',
+      alt: 'Pemeriksaan dan validasi kelengkapan berkas fisik & digital pendaftaran',
+      caption: 'Pemeriksaan legalitas surat pengantar sekolah dan registrasi data peserta.',
+    },
+  },
   jurusan: {
-    src: '/images/12.webp',
-    alt: 'Kegiatan praktik siswa kejuruan dalam studio kerja Saka Malang',
-    caption: 'Praktik langsung penugasan karya riil disesuaikan dengan kurikulum keahlian masing-masing jurusan SMK.',
+    hero: '/images/12.webp',
+    photo1: {
+      src: '/images/12.webp',
+      badge: 'Studio DKV & Grafika',
+      title: 'Praktik Desain Visual',
+      alt: 'Siswa kejuruan DKV merancang identitas visual dan layout desain di laptop',
+      caption: 'Praktik langsung penugasan karya riil disesuaikan kurikulum keahlian SMK.',
+    },
+    photo2: {
+      src: '/images/21.webp',
+      badge: 'Lab Koding RPL',
+      title: 'Pengembangan Web Modern',
+      alt: 'Siswa kejuruan RPL mempraktikkan koding aplikasi dan web modern',
+      caption: 'Eksplorasi modul koding, arsitektur frontend, dan database dibimbing praktisi.',
+    },
   },
   divisi: {
-    src: '/images/praktik-digital-marketing.webp',
-    alt: 'Praktik dan kolaborasi operasional divisi kerja industri di Saka',
-    caption: 'Penempatan divisi kerja terstruktur dengan evaluasi mingguan bersama mentor praktisi industri.',
-  },
-  'dokumen-pkl': {
-    src: '/images/penyerahan-dokumen-pkl.webp',
-    alt: 'Penyusunan format berkas administrasi dan penyerahan dokumen PKL resmi',
-    caption: 'Kelengkapan format surat lamaran, CV magang, surat pengantar, dan jurnal harian standar BKK.',
+    hero: '/images/20.webp',
+    photo1: {
+      src: '/images/20.webp',
+      badge: 'Kolaborasi Divisi',
+      title: 'Operasional Kerja Tim',
+      alt: 'Praktik dan kolaborasi operasional divisi kerja industri di Saka',
+      caption: 'Penempatan divisi kerja terstruktur dengan evaluasi berkala bersama mentor praktisi.',
+    },
+    photo2: {
+      src: '/images/22.webp',
+      badge: 'Sinergi Proyek',
+      title: 'Koordinasi Lintas Divisi',
+      alt: 'Sinergi tim lintas divisi dalam penyelesaian proyek industri',
+      caption: 'Kerja sama antar divisi kreatif, teknologi, dan pemasaran dalam proyek industri.',
+    },
   },
   'info-pkl': {
-    src: '/images/13.webp',
-    alt: 'Informasi dan wawasan pelaksanaan praktik kerja lapangan di Saka Malang',
-    caption: 'Panduan fundamental mengenai hakikat magang, durasi, dan ekosistem industri digital di Saka.',
+    hero: '/images/13.webp',
+    photo1: {
+      src: '/images/13.webp',
+      badge: 'Wawasan Industri',
+      title: 'Briefing Pelaksanaan Magang',
+      alt: 'Sesi presentasi dan wawasan pelaksanaan praktik kerja lapangan di studio',
+      caption: 'Panduan fundamental mengenai hakikat magang, durasi, dan kultur kerja profesional.',
+    },
+    photo2: {
+      src: '/images/10.webp',
+      badge: 'Sarana Kerja',
+      title: 'Fasilitas Studio & Workstation',
+      alt: 'Fasilitas workstation dan sarana penunjang operasional magang',
+      caption: 'Lingkungan kerja kondusif dilengkapi koneksi stabil untuk menunjang aktivitas peserta.',
+    },
   },
   'persiapan-pkl': {
-    src: '/images/wawancara-seleksi-magang.webp',
-    alt: 'Persiapan keterampilan, simulasi wawancara, dan operasional kerja magang',
-    caption: 'Kesiapan teknis, etika komunikasi, dan soft skill sebelum terjun ke ritme operasional proyek riil.',
+    hero: '/images/3.webp',
+    photo1: {
+      src: '/images/3.webp',
+      badge: 'Simulasi Wawancara',
+      title: 'Bimbingan Pra-Magang',
+      alt: 'Persiapan keterampilan, simulasi wawancara, dan operasional kerja magang',
+      caption: 'Kesiapan teknis, etika komunikasi, dan soft skill sebelum terjun ke proyek riil.',
+    },
+    photo2: {
+      src: '/images/24.webp',
+      badge: 'Kesiapan Berkas',
+      title: 'Verifikasi Persyaratan',
+      alt: 'Pemeriksaan checklist kelengkapan berkas pendaftaran dan portofolio',
+      caption: 'Memastikan kelengkapan administrasi dan berkas rekomendasi siap sejak awal.',
+    },
   },
   'pkl-malang': {
-    src: '/images/6.webp',
-    alt: 'Lingkungan kantor dan showroom display Saka di Kota Malang',
-    caption: 'Ekosistem kerja digital yang dinamis di kawasan Kota Malang, Jawa Timur.',
+    hero: '/images/6.webp',
+    photo1: {
+      src: '/images/6.webp',
+      badge: 'Sentra Malang',
+      title: 'Showroom & Kantor Industri',
+      alt: 'Lingkungan kantor dan showroom display Saka di Kota Malang',
+      caption: 'Ekosistem kerja digital yang dinamis di kawasan Kota Malang, Jawa Timur.',
+    },
+    photo2: {
+      src: '/images/10.webp',
+      badge: 'Fasilitas Kerja',
+      title: 'Workstation Kondusif',
+      alt: 'Fasilitas workstation dan lingkungan kerja studio di Malang',
+      caption: 'Aksesibilitas mudah dan fasilitas kerja modern untuk kenyamanan peserta magang.',
+    },
   },
   pengalaman: {
-    src: '/images/4.webp',
-    alt: 'Refleksi pengalaman dan apresiasi kelulusan peserta magang Saka',
-    caption: 'Cerita nyata alumni, studi kasus penanganan proyek, dan kultur kerja tim kolaboratif.',
+    hero: '/images/4.webp',
+    photo1: {
+      src: '/images/4.webp',
+      badge: 'Kelulusan Resmi',
+      title: 'Penyerahan Sertifikat',
+      alt: 'Refleksi pengalaman dan apresiasi kelulusan peserta magang Saka',
+      caption: 'Apresiasi resmi atas capaian portofolio dan dedikasi selama magang industri.',
+    },
+    photo2: {
+      src: '/images/7.webp',
+      badge: 'Jejaring Alumni',
+      title: 'Kebersamaan & Relasi',
+      alt: 'Kenangan kebersamaan hangat peserta magang dan mentor pembina',
+      caption: 'Cerita nyata alumni, kultur kerja tim kolaboratif, dan jalinan komunikasi berkelanjutan.',
+    },
   },
 };
 
-const hubImage = categoryImages[page.slug || ''] || {
-  src: '/images/13.webp',
-  alt: page.h1,
-  caption: 'Ekosistem kerja digital dan pembinaan vokasi terstruktur di Saka Malang.',
+const hubVisual = categoryVisuals[page.slug || ''] || {
+  hero: '/images/13.webp',
+  photo1: {
+    src: '/images/13.webp',
+    badge: 'Dokumentasi Nyata',
+    title: 'Aktivitas Kerja Industri',
+    alt: page.h1,
+    caption: 'Ekosistem kerja digital dan pembinaan vokasi terstruktur di Saka Malang.',
+  },
+  photo2: {
+    src: '/images/10.webp',
+    badge: 'Fasilitas Studio',
+    title: 'Workstation Magang',
+    alt: page.h1,
+    caption: 'Fasilitas perangkat dan lingkungan kerja penunjang penugasan siswa.',
+  },
 };
 ---
 
@@ -75,7 +186,7 @@ const hubImage = categoryImages[page.slug || ''] || {
     title={page.h1}
     lead={page.summary}
     crumbs={crumbs}
-    bgImage={hubImage.src}
+    bgImage={hubVisual.hero}
   />
 
   <section class="content-section">
@@ -88,42 +199,93 @@ const hubImage = categoryImages[page.slug || ''] || {
         />
       </div>
 
-      <!-- Main Category Content: Split Layout dengan Foto Ilustrasi & Poin Inti -->
+      <!-- Main Category Content: Split Layout dengan Dual Photo Showcase & Standar Vokasi -->
       {page.sections && page.sections.length > 0 && (
-        <div class="article-content mb-5">
+        <div class="category-showcase-box p-3 p-md-4 rounded-4 bg-white border shadow-xs mb-5">
           <div class="row g-4 align-items-center">
-            <div class="col-lg-5">
-              <div class="position-relative rounded-3 overflow-hidden border shadow-sm">
-                <img
-                  src={hubImage.src}
-                  alt={hubImage.alt}
-                  class="w-100 h-auto d-block"
-                  width="540"
-                  height="340"
-                  loading="lazy"
-                />
-                <div class="p-3 bg-white border-top">
-                  <small class="text-muted d-block" style="font-size: 0.8rem; line-height: 1.45;">
-                    <i class="bi bi-camera-fill text-primary me-1"></i>{hubImage.caption}
-                  </small>
+            <!-- Kolom Teks & Standar Kurikulum -->
+            <div class="col-lg-6">
+              <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary border border-primary-subtle px-2.5 py-1 mb-2.5 rounded-pill small fw-semibold">
+                <i class="bi bi-patch-check-fill"></i> Standar Resmi Vokasi
+              </div>
+              <h2 class="h5 fw-bold text-dark mb-2.5">{page.sections[0]?.heading || page.h1}</h2>
+              <p class="text-secondary mb-3" style="font-size: 0.94rem; line-height: 1.6;">
+                {page.sections[0]?.content || page.summary}
+              </p>
+
+              <!-- 3 Indikator Keunggulan Kompetensi -->
+              <div class="d-flex flex-column gap-2 mb-3">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check-circle-fill text-success mt-0.5"></i>
+                  <span class="small text-dark"><strong>Relevansi Praktik:</strong> Penugasan riil selaras dengan kurikulum industri dan kebutuhan pasar.</span>
+                </div>
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check-circle-fill text-success mt-0.5"></i>
+                  <span class="small text-dark"><strong>Bimbingan Praktisi:</strong> Arahan teknis intensif 1-on-1 dari staf profesional Saka.</span>
+                </div>
+                <div class="d-flex align-items-start gap-2">
+                  <i class="bi bi-check-circle-fill text-success mt-0.5"></i>
+                  <span class="small text-dark"><strong>Portofolio Otentik:</strong> Hasil kerja nyata dapat dijadikan portofolio profesional siswa.</span>
                 </div>
               </div>
+
+              {page.sections[0]?.bullets && (
+                <ul class="mb-0 ps-3 small text-muted">
+                  {page.sections[0].bullets.map((b) => (
+                    <li class="mb-1">{b}</li>
+                  ))}
+                </ul>
+              )}
             </div>
-            <div class="col-lg-7">
-              <div class="article-body">
-                {page.sections.map((sec) => (
-                  <div>
-                    <h2 class="h5 fw-bold text-dark mb-2">{sec.heading}</h2>
-                    <p class="text-secondary mb-3" style="font-size: 0.94rem; line-height: 1.6;">{sec.content}</p>
-                    {sec.bullets && (
-                      <ul class="mb-0">
-                        {sec.bullets.map((b) => (
-                          <li class="small text-secondary mb-1.5">{b}</li>
-                        ))}
-                      </ul>
-                    )}
+
+            <!-- Kolom Dual Photo Kompak & Seimbang (Bukan 1 Besar) -->
+            <div class="col-lg-6">
+              <div class="row g-3">
+                <!-- Foto 1 -->
+                <div class="col-12 col-sm-6">
+                  <div class="hub-photo-card h-100 d-flex flex-column">
+                    <div class="hub-photo-frame">
+                      <img
+                        src={hubVisual.photo1.src}
+                        alt={hubVisual.photo1.alt}
+                        class="hub-img-zoom"
+                        loading="lazy"
+                        width="360"
+                        height="225"
+                      />
+                      <span class="hub-photo-badge position-absolute top-0 start-0 m-2.5">
+                        <i class="bi bi-camera-fill me-1 text-primary"></i>{hubVisual.photo1.badge}
+                      </span>
+                    </div>
+                    <div class="p-3 bg-white flex-grow-1 d-flex flex-column">
+                      <div class="fw-bold text-dark mb-1" style="font-size: 0.86rem; line-height: 1.35;">{hubVisual.photo1.title}</div>
+                      <p class="text-muted mb-0" style="font-size: 0.76rem; line-height: 1.45;">{hubVisual.photo1.caption}</p>
+                    </div>
                   </div>
-                ))}
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="col-12 col-sm-6">
+                  <div class="hub-photo-card h-100 d-flex flex-column">
+                    <div class="hub-photo-frame">
+                      <img
+                        src={hubVisual.photo2.src}
+                        alt={hubVisual.photo2.alt}
+                        class="hub-img-zoom"
+                        loading="lazy"
+                        width="360"
+                        height="225"
+                      />
+                      <span class="hub-photo-badge position-absolute top-0 start-0 m-2.5">
+                        <i class="bi bi-camera-fill me-1 text-primary"></i>{hubVisual.photo2.badge}
+                      </span>
+                    </div>
+                    <div class="p-3 bg-white flex-grow-1 d-flex flex-column">
+                      <div class="fw-bold text-dark mb-1" style="font-size: 0.86rem; line-height: 1.35;">{hubVisual.photo2.title}</div>
+                      <p class="text-muted mb-0" style="font-size: 0.76rem; line-height: 1.45;">{hubVisual.photo2.caption}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -190,6 +352,7 @@ const hubImage = categoryImages[page.slug || ''] || {
               category={page.groupName}
               targetDate={child.targetDate}
               badge={child.status}
+              bgImage={getArticleVisuals(child.path).src}
             />
           </div>
         ))}

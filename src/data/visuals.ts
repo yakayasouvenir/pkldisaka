@@ -34,10 +34,10 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/1.webp",
-        alt: "Pemeriksaan sampel dummy packaging hardbox hasil perancangan desain siswa",
-        badge: "Desain Kemasan",
-        caption: "Evaluasi tata letak garis potong, kalibrasi warna cetak, dan kesesuaian tipografi pada kemasan boks riil.",
+        src: "/images/23.webp",
+        alt: "Persiapan tata cahaya dan setting studio foto produk komersial",
+        badge: "Setting Studio",
+        caption: "Pengaturan posisi tripod, softbox lighting, dan sudut pencahayaan untuk sesi foto produk katalog UMKM.",
       },
       {
         src: "/images/13.webp",
@@ -84,13 +84,13 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/23.webp",
-        alt: "Audit performa kecepatan website dan arsitektur kode SEO-friendly",
+        src: "/images/27.webp",
+        alt: "Audit performa kecepatan website dan pengujian Core Web Vitals",
         badge: "Optimasi Kode",
-        caption: "Pengujian Core Web Vitals, kompresi aset gambar, dan penataan struktur heading semantik Google.",
+        caption: "Pengujian skor performa Core Web Vitals Google, optimasi load time, dan kompresi modul kode web.",
       },
       {
-        src: "/images/13.webp",
+        src: "/images/5.webp",
         alt: "Sesi code review mingguan bersama mentor software engineering",
         badge: "Code Review",
         caption: "Evaluasi clean code, refactoring komponen UI, dan integrasi API dipandu mentor berpengalaman.",
@@ -98,7 +98,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/jurusan/bisnis-digital/": {
-    src: "/images/praktik-digital-marketing.webp",
+    src: "/images/24.webp",
     alt: "Siswa Bisnis Digital menganalisis performa kampanye dan etalase marketplace UMKM",
     caption: "Penguasaan analitik data bisnis, riset konversi penjualan, dan funnel promosi online.",
     feature: {
@@ -127,7 +127,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Aktivitas siswa jurusan Pemasaran dalam menyusun strategi komunikasi penawaran",
     caption: "Pelatihan komunikasi penawaran produk, customer service, dan negosiasi komersial.",
     feature: {
-      src: "/images/praktik-digital-marketing.webp",
+      src: "/images/24.webp",
       alt: "Penerapan strategi merchandising etalase toko digital Shopee dan Tokopedia",
       badge: "Merchandising Digital",
       caption: "Mengatur tata letak etalase kategori, banner promo, dan variasi bundling produk UMKM.",
@@ -148,24 +148,24 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/jurusan/teknik-grafika/": {
-    src: "/images/1.webp",
-    alt: "Siswa Teknik Grafika memeriksa layout cetak dummy kemasan souvenir industri",
-    caption: "Praktik standarisasi cetak, proofing warna, dan teknik finishing boks cinderamata.",
+    src: "/images/12.webp",
+    alt: "Siswa Teknik Grafika merancang layout cetak dan separasi warna di workstation",
+    caption: "Praktik standarisasi cetak, proofing warna, dan teknik pracetak grafika komersial.",
     feature: {
-      src: "/images/12.webp",
-      alt: "Penyiapan layout pracetak dan separasi warna di software desain grafis",
+      src: "/images/1.webp",
+      alt: "Pemeriksaan hasil cetak dummy dan perakitan packaging souvenir industri",
       badge: "Pracetak Digital",
       caption: "Penyusunan bleed, margin potong, dan kalibrasi warna CMYK agar hasil cetak presisi sesuai standar pabrik.",
     },
     gallery: [
       {
-        src: "/images/2.webp",
-        alt: "Praktik pengoperasian mesin heat press dan sablon cinderamata promosi",
+        src: "/images/25.webp",
+        alt: "Praktik pengoperasian mesin heat press dan produksi cinderamata promosi",
         badge: "Mesin Produksi",
         caption: "Pengoperasian mesin cetak sublim dan transfer media untuk produksi souvenir cinderamata instansi.",
       },
       {
-        src: "/images/10.webp",
+        src: "/images/26.webp",
         alt: "Area quality control dan perakitan packaging eksklusif pesanan klien",
         badge: "Quality Control",
         caption: "Pemeriksaan ketelitian lembaran karton kemasan, laminasi doff, dan ketahanan sudut boks souvenir.",
@@ -202,7 +202,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Pengelolaan arsip digital dan administrasi data perkantoran terpadu",
     caption: "Tata kelola persuratan, inventarisasi data, dan penjadwalan aktivitas proyek.",
     feature: {
-      src: "/images/penyerahan-dokumen-pkl.webp",
+      src: "/images/28.webp",
       alt: "Verifikasi berkas administrasi masuk dan pencatatan surat permohonan PKL",
       badge: "Tata Kelola Berkas",
       caption: "Pencatatan registrasi dokumen legalitas, surat pengantar sekolah, dan pengarsipan database peserta.",
@@ -234,7 +234,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/8.webp",
+        src: "/images/28.webp",
         alt: "Penyusunan storyboard dan skrip video pendek untuk media sosial",
         badge: "Storyboard Kreatif",
         caption: "Merancang urutan adegan visual dari hook awal, isi informasi produk, hingga call-to-action penutup.",
@@ -248,14 +248,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/divisi/digital-marketing/": {
-    src: "/images/praktik-digital-marketing.webp",
-    alt: "Praktik dan kolaborasi strategi pemasaran digital tim marketing Saka",
+    src: "/images/22.webp",
+    alt: "Praktik dan kolaborasi strategi pemasaran digital terpadu tim marketing Saka",
     caption: "Perancangan rencana kampanye, riset search intent, optimasi etalase toko online, dan iklan digital.",
     feature: {
-      src: "/images/5.webp",
-      alt: "Praktik analisis kata kunci pencarian dan optimasi listing e-commerce",
-      badge: "Listing E-Commerce",
-      caption: "Penerapan copywriting persuasif pada deskripsi produk Shopee dan Tokopedia guna meningkatkan rasio klik.",
+      src: "/images/12.webp",
+      alt: "Praktik perancangan materi visual promosi digital marketing dan optimasi marketplace",
+      badge: "Strategi Kampanye",
+      caption: "Kolaborasi peserta magang dalam riset kata kunci, perancangan banner promosi produk UMKM, dan manajemen campaign e-commerce.",
     },
     gallery: [
       {
@@ -265,10 +265,10 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
         caption: "Mentor memandu identifikasi segmen audiens, alokasi jadwal posting artikel, dan strategi penawaran promo.",
       },
       {
-        src: "/images/10.webp",
-        alt: "Fasilitas workstation tim digital marketing dengan monitoring dashboard analitik",
-        badge: "Workstation Marketing",
-        caption: "Ruang kerja kondusif dilengkapi koneksi stabil untuk memantau performa kampanye iklan dan transaksi toko.",
+        src: "/images/24.webp",
+        alt: "Aktivitas pemasaran digital, copywriting promosi, dan interaksi konsumen",
+        badge: "Pemasaran Digital",
+        caption: "Peserta mempraktikkan penyusunan pesan komunikasi pemasaran dan penawaran produk UMKM secara online.",
       },
     ],
   },
@@ -277,22 +277,22 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Praktik teknis pengembangan website dan optimasi SEO bersama mentor",
     caption: "Penerapan teknis arsitektur website modern, optimasi kecepatan, dan integrasi analitik.",
     feature: {
-      src: "/images/23.webp",
-      alt: "Audit performa SEO teknis Google Search Console dan Google Analytics",
-      badge: "Audit SEO",
-      caption: "Menganalisis impresi pencarian, click-through-rate kata kunci, serta memperbaiki indeks halaman bermasalah.",
+      src: "/images/27.webp",
+      alt: "Audit performa kecepatan website dan pengujian Core Web Vitals",
+      badge: "Optimasi Kode",
+      caption: "Pengujian Core Web Vitals, kompresi aset gambar, dan penataan struktur heading semantik Google.",
     },
     gallery: [
       {
-        src: "/images/10.webp",
-        alt: "Suasana meja kerja coding web development dengan setup dual screen",
-        badge: "Infrastruktur Web",
-        caption: "Workstation penunjang koding frontend dan backend dengan lingkungan staging pengujian terstruktur.",
+        src: "/images/5.webp",
+        alt: "Sesi code review mingguan bersama mentor software engineering",
+        badge: "Code Review",
+        caption: "Evaluasi clean code, refactoring komponen UI, dan integrasi API dipandu mentor berpengalaman.",
       },
       {
         src: "/images/13.webp",
         alt: "Diskusi rencana struktur konten pilar dan strategi internal linking website",
-        badge: "Strategi Konten SEO",
+        badge: "Strategi SEO",
         caption: "Penyusunan arsitektur topik artikel untuk mendongkrak otoritas domain web di hasil pencarian Google.",
       },
     ],
@@ -302,7 +302,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Perencanaan konten media sosial dan manajemen jadwal postingan berkala",
     caption: "Penyusunan content pillar, riset tren audio, dan analitik interaksi akun brand.",
     feature: {
-      src: "/images/praktik-digital-marketing.webp",
+      src: "/images/28.webp",
       alt: "Analisis performa reach dan interaksi konten akun Instagram & TikTok",
       badge: "Analitik Medsos",
       caption: "Peserta mengevaluasi data jam tayang paling aktif dan rasio penyimpanan (saves) pada setiap konten.",
@@ -334,23 +334,23 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/8.webp",
-        alt: "Pengembangan storyline dan skrip video unboxing produk komersial",
-        badge: "Storyboard Video",
-        caption: "Penyusunan skenario video promosi berdurasi 30-60 detik yang menonjolkan keunggulan produk UMKM.",
+        src: "/images/23.webp",
+        alt: "Persiapan tata cahaya softbox lighting dan setup tripod mini studio foto",
+        badge: "Setting Studio",
+        caption: "Penyetelan arah lampu studio dan sudut kamera untuk menghasilkan pencahayaan dramatis pada produk komersial.",
       },
       {
         src: "/images/10.webp",
-        alt: "Fasilitas komputer rendering grafis dan ruang studio pendukung di Saka",
+        alt: "Fasilitas workstation rendering grafis dan pasca-produksi video di Saka",
         badge: "Sarana Studio",
-        caption: "Peralatan fotografi lengkap dan workstation editing mumpuni untuk menghasilkan visual komersial berkualitas.",
+        caption: "Workstation penunjang editing video dan kurasi foto katalog produk komersial resolusi tinggi.",
       },
     ],
   },
   "/divisi/content-creator/": {
-    src: "/images/8.webp",
-    alt: "Sesi bimbingan perancangan ide konten promosi kreatif dan penulisan skrip",
-    caption: "Pengembangan storyline video pendek, pembuatan skrip, dan voiceover.",
+    src: "/images/28.webp",
+    alt: "Penyusunan storyboard dan penulisan skrip video pendek kreatif untuk media sosial",
+    caption: "Merancang urutan adegan visual dari hook awal, isi informasi produk, hingga call-to-action penutup.",
     feature: {
       src: "/images/15.webp",
       alt: "Produksi rekaman video konten pendek di mini studio kreatif Saka",
@@ -378,47 +378,47 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     caption: "Praktik desain grafis komersial, perancangan identitas visual, dan kemasan produk.",
     feature: {
       src: "/images/1.webp",
-      alt: "Pemeriksaan sampel cetak kemasan hardbox hasil karya divisi desain grafis",
+      alt: "Pemeriksaan sampel cetak kemasan hardbox dummy hasil karya desain grafis",
       badge: "Packaging Kemasan",
       caption: "Melihat wujud fisik hasil perancangan desain kemasan mulai dari kerapian lipatan hingga ketajaman warna.",
     },
     gallery: [
       {
-        src: "/images/15.webp",
-        alt: "Dokumentasi hasil karya desain kemasan melalui sesi foto katalog produk",
-        badge: "Katalog Portofolio",
-        caption: "Karya kemasan yang selesai diproduksi difoto secara profesional untuk arsip portofolio resmi siswa.",
+        src: "/images/13.webp",
+        alt: "Sesi review estetika dan diskusi masukan desain bersama tim kreatif",
+        badge: "Review Desain",
+        caption: "Setiap konsep visual dipresentasikan untuk mendapatkan arahan konstruktif sebelum diajukan ke klien.",
       },
       {
-        src: "/images/13.webp",
-        alt: "Sesi diskusi perancangan moodboard dan pemilihan palet warna bersama mentor",
-        badge: "Bimbingan Desain",
-        caption: "Arahan langsung mengenai prinsip hierarki informasi dan kesesuaian gaya desain dengan target pasar.",
+        src: "/images/10.webp",
+        alt: "Workstation desain grafis dengan perangkat software standar industri",
+        badge: "Studio Desain",
+        caption: "Didukung software grafis profesional (Adobe Illustrator, Photoshop, Figma) untuk pengerjaan aset komersial.",
       },
     ],
   },
   "/divisi/produksi-souvenir/": {
     src: "/images/2.webp",
-    alt: "Praktik pengoperasian mesin cetak dan finishing merchandise cinderamata",
+    alt: "Praktik pengoperasian mesin cetak sublim dan transfer media untuk produksi souvenir cinderamata",
     caption: "Pembuatan cinderamata pesanan instansi dan perakitan packaging eksklusif.",
     feature: {
-      src: "/images/1.webp",
-      alt: "Perakitan kotak kemasan merchandise pesanan instansi pemerintah dan swasta",
-      badge: "Perakitan Produk",
-      caption: "Siswa mempraktikkan proses pengeleman boks, perakitan pita souvenir, dan pengepakan rapi.",
+      src: "/images/25.webp",
+      alt: "Praktik perakitan boks cinderamata dan merchandise souvenir pesanan instansi",
+      badge: "Produksi Souvenir",
+      caption: "Siswa mempraktikkan proses perakitan massal boks cinderamata, penataan pita, dan pengepakan produk rapi.",
     },
     gallery: [
       {
-        src: "/images/6.webp",
-        alt: "Etalase showroom display produk cinderamata hasil produksi workshop Saka",
-        badge: "Showroom Produk",
-        caption: "Peserta mempelajari standar display etalase produk dan kurasi sampel cinderamata untuk klien.",
+        src: "/images/26.webp",
+        alt: "Area quality control dan perakitan packaging eksklusif pesanan klien",
+        badge: "Quality Control",
+        caption: "Pemeriksaan ketelitian lembaran karton kemasan, laminasi doff, dan ketahanan sudut boks souvenir.",
       },
       {
-        src: "/images/10.webp",
-        alt: "Area penataan logistik dan workstation manajemen pesanan souvenir",
-        badge: "Manajemen Produksi",
-        caption: "Pencatatan inventaris bahan baku, estimasi waktu pengerjaan pesanan, dan quality control akhir.",
+        src: "/images/6.webp",
+        alt: "Etalase showroom display produk cinderamata hasil produksi workshop Saka",
+        badge: "Showroom Display",
+        caption: "Peserta mempelajari standar display etalase produk dan kurasi sampel cinderamata untuk klien.",
       },
     ],
   },
@@ -434,16 +434,16 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/2.webp",
-        alt: "Praktik pengaplikasian teknik finishing hotprint foil emas pada kemasan boks",
-        badge: "Finishing Cetak",
-        caption: "Pengoperasian mesin foil hot stamping untuk memberikan aksen mewah pada logo brand di kemasan.",
+        src: "/images/25.webp",
+        alt: "Pemeriksaan sampel dummy packaging hardbox hasil perancangan desain siswa",
+        badge: "Perakitan Kemasan",
+        caption: "Evaluasi tata letak garis potong, kalibrasi warna cetak, dan kesesuaian tipografi pada kemasan boks riil.",
       },
       {
-        src: "/images/10.webp",
-        alt: "Area kerja perakitan kemasan dan pengecekan ketahanan sudut hardbox",
-        badge: "Inspeksi Kualitas",
-        caption: "Uji ketahanan kemasan terhadap tekanan dan memastikan kerapian lapisan kertas fancy boks.",
+        src: "/images/26.webp",
+        alt: "Area quality control dan perakitan packaging eksklusif pesanan klien",
+        badge: "Quality Control",
+        caption: "Pemeriksaan ketelitian lembaran karton kemasan, laminasi doff, dan ketahanan sudut boks souvenir.",
       },
     ],
   },
@@ -623,11 +623,11 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/surat-lamaran/": {
-    src: "/images/penyerahan-dokumen-pkl.webp",
+    src: "/images/28.webp",
     alt: "Format resmi surat lamaran magang dan penyerahan berkas standar BKK dan industri",
     caption: "Penyerahan berkas surat permohonan PKL resmi yang sopan, terstruktur, dan cepat disetujui HRD.",
     feature: {
-      src: "/images/wawancara-seleksi-magang.webp",
+      src: "/images/3.webp",
       alt: "Verifikasi berkas surat lamaran saat sesi konsultasi pendaftaran magang",
       badge: "Konsultasi Berkas",
       caption: "Mentor memeriksa kejelasan biodata, pilihan divisi, dan periode pelaksanaan magang yang diajukan.",
@@ -648,18 +648,18 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/surat-pengantar/": {
-    src: "/images/penyerahan-dokumen-pkl.webp",
+    src: "/images/24.webp",
     alt: "Verifikasi berkas dan penyerahan surat pengantar resmi dari pihak sekolah/kampus",
     caption: "Pentingnya kelengkapan administrasi legalitas dan surat rekomendasi dari institusi pendidikan asal siswa.",
     feature: {
-      src: "/images/wawancara-seleksi-magang.webp",
+      src: "/images/3.webp",
       alt: "Sesi penerimaan resmi dan konfirmasi kuota berdasarkan surat pengantar sekolah",
       badge: "Konfirmasi Kuota",
       caption: "Surat pengantar fisik diverifikasi langsung untuk mencocokkan ketersediaan kuota divisi yang dituju.",
     },
     gallery: [
       {
-        src: "/images/verifikasi-jurnal-magang.webp",
+        src: "/images/28.webp",
         alt: "Pencatatan registrasi surat masuk dan pembukuan data siswa magang baru",
         badge: "Registrasi Legalitas",
         caption: "Seluruh surat pengantar dicatat dalam buku registrasi resmi sebagai dasar penerbitan surat balasan.",
@@ -677,14 +677,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Penyusunan Curriculum Vitae magang ringkas 1 halaman yang ramah ATS",
     caption: "Panduan merancang CV profesional ramah ATS yang menonjolkan keterampilan utama.",
     feature: {
-      src: "/images/wawancara-seleksi-magang.webp",
+      src: "/images/3.webp",
       alt: "Review portofolio dan pembahasan riwayat keahlian CV saat interview magang",
       badge: "Review CV",
       caption: "Calon peserta mempresentasikan ringkasan keahlian software dan pengalaman proyek kelas di hadapan mentor.",
     },
     gallery: [
       {
-        src: "/images/penyerahan-dokumen-pkl.webp",
+        src: "/images/28.webp",
         alt: "Lampiran CV diserahkan bersama berkas surat rekomendasi sekolah ke kantor Saka",
         badge: "Penyerahan CV",
         caption: "CV fisik dilampirkan dalam map rapi untuk memudahkan pencocokan minat divisi kerja yang diminati.",
@@ -723,7 +723,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/laporan-pkl/": {
-    src: "/images/verifikasi-jurnal-magang.webp",
+    src: "/images/28.webp",
     alt: "Penyusunan bab laporan akhir PKL dan verifikasi pengesahan oleh mentor industri",
     caption: "Struktur baku laporan pertanggungjawaban kegiatan magang sesuai pedoman akademik yang disahkan mentor.",
     feature: {
@@ -734,7 +734,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/penyerahan-dokumen-pkl.webp",
+        src: "/images/24.webp",
         alt: "Penyerahan draf final laporan magang untuk ditandatangani dan distempel resmi",
         badge: "Pengesahan Naskah",
         caption: "Pemberian tanda tangan pembimbing industri dan stempel basah perusahaan pada lembar pengesahan laporan.",
@@ -748,7 +748,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/jurnal-harian/": {
-    src: "/images/verifikasi-jurnal-magang.webp",
+    src: "/images/24.webp",
     alt: "Pemeriksaan dan penandatanganan logbook jurnal harian aktivitas PKL oleh mentor industri",
     caption: "Teknik mendokumentasikan tugas harian agar mudah divalidasi dan ditandatangani pembimbing lapangan.",
     feature: {
@@ -765,7 +765,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
         caption: "Mentor memeriksa kesesuaian tugas yang dikerjakan dengan target kompetensi kejuruan siswa.",
       },
       {
-        src: "/images/penyerahan-dokumen-pkl.webp",
+        src: "/images/28.webp",
         alt: "Pengesahan paraf berkala pada buku jurnal fisik siswa setiap akhir pekan",
         badge: "Paraf Verifikasi",
         caption: "Paraf pembimbing memastikan seluruh catatan kegiatan diakui secara sah oleh pihak sekolah/kampus.",
@@ -798,18 +798,18 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/surat-balasan/": {
-    src: "/images/26.webp",
+    src: "/images/24.webp",
     alt: "Penerbitan surat keterangan persetujuan kuota magang resmi berkop industri",
     caption: "Alur konfirmasi penerimaan kuota bagi peserta yang telah lolos verifikasi berkas.",
     feature: {
-      src: "/images/penyerahan-dokumen-pkl.webp",
+      src: "/images/28.webp",
       alt: "Penyerahan fisik surat balasan penerimaan magang untuk diserahkan ke pihak sekolah",
       badge: "Surat Balasan Fisik",
       caption: "Surat resmi bertanda tangan pimpinan dan stempel basah Saka diserahkan kepada perwakilan siswa/guru.",
     },
     gallery: [
       {
-        src: "/images/wawancara-seleksi-magang.webp",
+        src: "/images/3.webp",
         alt: "Briefing orientasi jadwal masuk pertama setelah surat balasan resmi diterbitkan",
         badge: "Briefing Masuk",
         caption: "Pemberitahuan tata tertib hari pertama, seragam kerja, dan jam kedatangan sebelum pukul 08:00 WIB.",
@@ -823,7 +823,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/info-pkl/cara-mencari/": {
-    src: "/images/penyerahan-dokumen-pkl.webp",
+    src: "/images/24.webp",
     alt: "Mengajukan surat permohonan magang ke agensi dengan ekosistem bimbingan nyata",
     caption: "Langkah strategis menemukan agensi yang memberikan bimbingan nyata dan proyek riil.",
     feature: {
@@ -834,7 +834,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/wawancara-seleksi-magang.webp",
+        src: "/images/3.webp",
         alt: "Sesi konsultasi keselarasan kurikulum sekolah dengan bidang pekerjaan di industri",
         badge: "Konsultasi Kurikulum",
         caption: "Menghindari tempat magang yang menugaskan pekerjaan tidak relevan seperti fotokopi atau membuat kopi.",
@@ -859,7 +859,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/verifikasi-jurnal-magang.webp",
+        src: "/images/28.webp",
         alt: "Penyelarasan target penilaian akademik BKK sekolah dengan rubrik industri",
         badge: "Penilaian Akademik",
         caption: "Setiap jenjang memiliki instrumen evaluasi yang disesuaikan dengan kebutuhan pedoman kampusnya.",
@@ -952,7 +952,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Keterlibatan langsung memajukan branding kemasan produk UMKM lokal",
     caption: "Merasakan dampak nyata karya desain dan optimasi web bagi perkembangan bisnis lokal.",
     feature: {
-      src: "/images/praktik-digital-marketing.webp",
+      src: "/images/24.webp",
       alt: "Membantu digitalisasi toko online dan memperluas jangkauan pasar mitra UMKM binaan",
       badge: "Dampak Langsung",
       caption: "Setiap postingan artikel dan optimasi toko yang dibuat siswa memberikan efek riil pada omzet usaha mitra.",
@@ -1027,14 +1027,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Evaluasi persiapan dan kesalahan umum saat melamar magang di agensi digital",
     caption: "Hal-hal krusial yang perlu dihindari agar berkas Anda diprioritaskan oleh perusahaan.",
     feature: {
-      src: "/images/penyerahan-dokumen-pkl.webp",
+      src: "/images/28.webp",
       alt: "Menyiapkan berkas surat resmi jauh-jauh hari sebelum kuota periode penuh",
       badge: "Antisipasi Kuota",
       caption: "Kesalahan terbesar adalah mendaftar mepet; pastikan surat pengantar diajukan 1-2 bulan sebelum jadwal masuk.",
     },
     gallery: [
       {
-        src: "/images/wawancara-seleksi-magang.webp",
+        src: "/images/3.webp",
         alt: "Menghindari rasa minder saat wawancara dengan memahami keahlian dasar kejuruan",
         badge: "Kesiapan Wawancara",
         caption: "Mentor tidak menuntut keahlian sempurna, melainkan mencari sikap disiplin dan kemauan belajar tinggi.",
@@ -1048,7 +1048,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/persiapan-pkl/checklist/": {
-    src: "/images/penyerahan-dokumen-pkl.webp",
+    src: "/images/28.webp",
     alt: "Pemeriksaan checklist perlengkapan administrasi sebelum hari pertama masuk PKL",
     caption: "Daftar periksa dokumen fisik, kesiapan laptop, dan pakaian kerja sopan rapi.",
     feature: {
@@ -1059,7 +1059,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/wawancara-seleksi-magang.webp",
+        src: "/images/3.webp",
         alt: "Konfirmasi jam kedatangan hari pertama sebelum pukul 08:00 WIB bersama narahubung",
         badge: "Kedisiplinan Waktu",
         caption: "Hadir 15 menit lebih awal untuk persiapan piket pagi dan mengikuti doa bersama tepat waktu.",
@@ -1073,11 +1073,11 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/persiapan-pkl/interview/": {
-    src: "/images/wawancara-seleksi-magang.webp",
+    src: "/images/3.webp",
     alt: "Simulasi dan pelaksanaan wawancara perkenalan kompetensi dan orientasi PKL di Saka",
     caption: "Cara menjawab pertanyaan wawancara dengan lugas, percaya diri, santai, dan jujur di hadapan mentor.",
     feature: {
-      src: "/images/penyerahan-dokumen-pkl.webp",
+      src: "/images/24.webp",
       alt: "Membawa berkas surat rekomendasi sekolah dan portofolio karya saat sesi wawancara",
       badge: "Berkas Pendukung",
       caption: "Menunjukkan bukti keseriusan dan legalitas administratif resmi dari pihak sekolah/kampus asal.",
@@ -1098,18 +1098,18 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/persiapan-pkl/chat-hrd/": {
-    src: "/images/26.webp",
+    src: "/images/19.webp",
     alt: "Panduan tata krama komunikasi chat WhatsApp ke narahubung resmi agensi",
     caption: "Template kalimat sapaan, waktu menghubungi yang tepat, dan etika berkirim pesan.",
     feature: {
-      src: "/images/wawancara-seleksi-magang.webp",
+      src: "/images/3.webp",
       alt: "Tindak lanjut positif berupa konfirmasi jadwal interview setelah chat permohonan disetujui",
       badge: "Konfirmasi Ramah",
       caption: "Komunikasi yang sopan dan jelas mempermudah narahubung memproses ketersediaan kuota secara cepat.",
     },
     gallery: [
       {
-        src: "/images/penyerahan-dokumen-pkl.webp",
+        src: "/images/28.webp",
         alt: "Pengiriman dokumen PDF surat izin sekolah melalui kontak resmi sesuai arahan admin",
         badge: "Format Lampiran",
         caption: "Menyertakan file surat pengantar dengan nama file yang jelas dan rapi saat berkomunikasi via WhatsApp.",
@@ -1123,7 +1123,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/persiapan-pkl/skill-anak-magang/": {
-    src: "/images/praktik-digital-marketing.webp",
+    src: "/images/20.webp",
     alt: "Penguasaan keahlian digital marketing dan operasional marketplace online",
     caption: "Fokus pada penguasaan fundamental software, pemecahan masalah, dan kecepatan adaptasi.",
     feature: {
@@ -1159,7 +1159,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/wawancara-seleksi-magang.webp",
+        src: "/images/3.webp",
         alt: "Latihan etika berbicara santun, kontak mata yang baik, dan keterbukaan menerima kritik",
         badge: "Etika Komunikasi",
         caption: "Berkomunikasi secara jujur mengenai kendala kerja sehingga mentor dapat memberikan arahan tepat.",
@@ -1198,7 +1198,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/persiapan-pkl/belajar-seo/": {
-    src: "/images/23.webp",
+    src: "/images/27.webp",
     alt: "Pengenalan strategi dasar visibilitas di mesin pencari Google dan riset kata kunci",
     caption: "Konsep kata kunci, search volume, heading struktur, dan kecepatan web.",
     feature: {
@@ -1209,7 +1209,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     },
     gallery: [
       {
-        src: "/images/praktik-digital-marketing.webp",
+        src: "/images/24.webp",
         alt: "Praktik integrasi artikel SEO ke dalam strategi pemasaran toko digital dan marketplace",
         badge: "SEO Konten Bisnis",
         caption: "Menghubungkan artikel informatif ke etalase produk untuk mendatangkan traffic calon pembeli organik.",
@@ -1265,7 +1265,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
         caption: "Pertumbuhan pesat agensi digital di Malang membutuhkan talenta muda yang menguasai web modern.",
       },
       {
-        src: "/images/praktik-digital-marketing.webp",
+        src: "/images/24.webp",
         alt: "Praktik pemasaran online bagi siswa Bisnis Digital dan Manajemen di sentra bisnis Malang",
         badge: "Peluang Pemasaran",
         caption: "Ekosistem e-commerce lokal yang dinamis menjadi tempat belajar ideal bagi jurusan pemasaran.",
@@ -1298,7 +1298,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/pkl-malang/marketing/": {
-    src: "/images/praktik-digital-marketing.webp",
+    src: "/images/24.webp",
     alt: "Peluang karier divisi pemasaran dan promosi digital di kawasan Kota Malang",
     caption: "Membantu ekspansi pasar brand lokal menjangkau konsumen nasional.",
     feature: {
@@ -1448,43 +1448,40 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/program-pkl/alur-seleksi/": {
-    src: "/images/wawancara-seleksi-magang.webp",
-    alt: "Tahap orientasi, wawancara pengenalan dan briefing alur seleksi peserta PKL di Saka",
-    caption: "Proses seleksi dan bimbingan pengenalan kompetensi dilakukan secara santai, terarah, dan profesional.",
+    src: "/images/3.webp",
+    alt: "Tahap orientasi, wawancara pengenalan dan konsultasi alur seleksi peserta PKL di Saka",
+    caption: "Proses seleksi dan konsultasi minat bakat kompetensi dilakukan secara santai, terarah, dan profesional.",
     feature: {
-      src: "/images/penyerahan-dokumen-pkl.webp",
-      alt: "Tahap awal penyerahan berkas surat pengantar sekolah untuk verifikasi kuota",
-      badge: "Penerimaan Berkas",
-      caption: "Pemeriksaan kelengkapan administrasi dan pencocokan jurusan dengan divisi kerja yang tersedia.",
+      src: "/images/24.webp",
+      alt: "Pemeriksaan dan verifikasi kelengkapan berkas administrasi surat pengantar sekolah",
+      badge: "Verifikasi Berkas",
+      caption: "Pemeriksaan kelengkapan berkas surat pengantar sekolah, CV, dan pencocokan jurusan dengan kuota divisi.",
     },
     gallery: [
       {
         src: "/images/13.webp",
-        alt: "Briefing orientasi budaya kerja agensi, jam operasional, dan pembagian mentor",
+        alt: "Briefing orientasi budaya kerja agensi, jam operasional, dan pengenalan mentor",
         badge: "Briefing Onboarding",
         caption: "Peserta yang dinyatakan lolos seleksi berkas mengikuti briefing tata tertib dan pengenalan tim kerja.",
       },
       {
-        src: "/images/6.webp",
-        alt: "Hari pertama masuk magang: pengenalan ruangan kantor dan etalase produk industri",
+        src: "/images/8.webp",
+        alt: "Penyambutan siswa magang angkatan baru dan orientasi lingkungan kerja Saka",
         badge: "Hari Pertama Masuk",
-        caption: "Pengenalan fasilitas kerja dan adaptasi lingkungan kantor sebelum resmi memulai penugasan proyek.",
+        caption: "Pengenalan fasilitas kerja dan adaptasi lingkungan kantor sebelum resmi memulai penugasan proyek industri.",
       },
     ],
   },
 };
 
 export const allImagesPool = [
-  '/images/penyerahan-dokumen-pkl.webp',
-  '/images/verifikasi-jurnal-magang.webp',
-  '/images/wawancara-seleksi-magang.webp',
-  '/images/praktik-digital-marketing.webp',
-  '/images/10.webp', '/images/12.webp', '/images/13.webp', '/images/15.webp',
-  '/images/16.webp', '/images/21.webp', '/images/22.webp', '/images/6.webp',
-  '/images/4.webp', '/images/7.webp', '/images/1.webp', '/images/2.webp',
-  '/images/8.webp', '/images/17.webp', '/images/18.webp', '/images/19.webp',
-  '/images/20.webp', '/images/23.webp', '/images/24.webp', '/images/25.webp',
-  '/images/26.webp', '/images/5.webp', '/images/3.webp', '/images/11.webp',
+  '/images/1.webp', '/images/2.webp', '/images/3.webp', '/images/4.webp',
+  '/images/5.webp', '/images/6.webp', '/images/7.webp', '/images/8.webp',
+  '/images/9.webp', '/images/10.webp', '/images/11.webp', '/images/12.webp',
+  '/images/13.webp', '/images/14.webp', '/images/15.webp', '/images/16.webp',
+  '/images/17.webp', '/images/18.webp', '/images/19.webp', '/images/20.webp',
+  '/images/21.webp', '/images/22.webp', '/images/23.webp', '/images/24.webp',
+  '/images/25.webp', '/images/26.webp', '/images/27.webp', '/images/28.webp',
 ];
 
 export function getArticleVisuals(path: string): ArticleVisualData {
