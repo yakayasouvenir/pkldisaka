@@ -601,39 +601,11 @@ const faqs = homePage.faqs;
                 ))}
               </div>
 
-              <!-- Interactive Video Reel Button / Verified Footer (Rapi, Sejajar & Tidak Melebar) -->
-              {t.hasVideo ? (
-                <button
-                  type="button"
-                  class="testi-video-reel-btn home-video-modal-btn w-100 mt-auto"
-                  data-title={t.videoTitle || t.name}
-                  data-desc={t.quote}
-                  data-author={`${t.name} (${t.handle}) - ${t.school}`}
-                  data-thumb={t.videoThumbnail || t.avatar}
-                  data-video-url={t.videoUrl || ''}
-                  aria-label={`Putar video cerita ${t.name}`}
-                >
-                  <div class="d-flex align-items-center justify-content-between w-100">
-                    <div class="d-flex align-items-center gap-2 min-w-0">
-                      <span class="testi-play-icon-badge flex-shrink-0">
-                        <i class="bi bi-play-fill"></i>
-                      </span>
-                      <div class="text-start min-w-0">
-                        <div class="testi-play-btn-title text-truncate">Tonton Cerita Video</div>
-                        <div class="testi-play-btn-meta text-truncate">Reels Singkat • {t.videoDuration}</div>
-                      </div>
-                    </div>
-                    <span class="badge bg-danger text-white rounded-pill px-2.5 py-1 font-monospace flex-shrink-0" style="font-size: 0.68rem;">
-                      Play <i class="bi bi-play-circle-fill ms-0.5"></i>
-                    </span>
-                  </div>
-                </button>
-              ) : (
-                <div class="testi-footer-verified mt-auto pt-2.5 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.74rem;">
-                  <span><i class="bi bi-patch-check-fill text-success me-1"></i>Pengalaman Nyata</span>
-                  <span class="font-monospace text-secondary">{t.batch}</span>
-                </div>
-              )}
+              <!-- Verified Footer -->
+              <div class="testi-footer-verified mt-auto pt-2.5 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.74rem;">
+                <span><i class="bi bi-patch-check-fill text-success me-1"></i>Pengalaman Nyata</span>
+                <span class="font-monospace text-secondary">{t.batch}</span>
+              </div>
             </div>
           </div>
         ))}
@@ -697,39 +669,11 @@ const faqs = homePage.faqs;
                   ))}
                 </div>
 
-                <!-- Interactive Video Reel Button / Verified Footer -->
-                {t.hasVideo ? (
-                  <button
-                    type="button"
-                    class="testi-video-reel-btn home-video-modal-btn w-100 mt-auto"
-                    data-title={t.videoTitle || t.name}
-                    data-desc={t.quote}
-                    data-author={`${t.name} (${t.handle}) - ${t.school}`}
-                    data-thumb={t.videoThumbnail || t.avatar}
-                    data-video-url={t.videoUrl || ''}
-                    aria-label={`Putar video cerita ${t.name}`}
-                  >
-                    <div class="d-flex align-items-center justify-content-between w-100">
-                      <div class="d-flex align-items-center gap-2 min-w-0">
-                        <span class="testi-play-icon-badge flex-shrink-0">
-                          <i class="bi bi-play-fill"></i>
-                        </span>
-                        <div class="text-start min-w-0">
-                          <div class="testi-play-btn-title text-truncate">Tonton Cerita Video</div>
-                          <div class="testi-play-btn-meta text-truncate">Reels Singkat • {t.videoDuration}</div>
-                        </div>
-                      </div>
-                      <span class="badge bg-danger text-white rounded-pill px-2.5 py-1 font-monospace flex-shrink-0" style="font-size: 0.68rem;">
-                        Play <i class="bi bi-play-circle-fill ms-0.5"></i>
-                      </span>
-                    </div>
-                  </button>
-                ) : (
-                  <div class="testi-footer-verified mt-auto pt-2.5 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.74rem;">
-                    <span><i class="bi bi-patch-check-fill text-success me-1"></i>Pengalaman Nyata</span>
-                    <span class="font-monospace text-secondary">{t.batch}</span>
-                  </div>
-                )}
+                <!-- Verified Footer -->
+                <div class="testi-footer-verified mt-auto pt-2.5 border-top d-flex align-items-center justify-content-between text-muted small" style="font-size: 0.74rem;">
+                  <span><i class="bi bi-patch-check-fill text-success me-1"></i>Pengalaman Nyata</span>
+                  <span class="font-monospace text-secondary">{t.batch}</span>
+                </div>
               </div>
             </div>
           ))}
