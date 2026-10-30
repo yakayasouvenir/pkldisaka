@@ -41,6 +41,7 @@ const dailyRoutine = [
     desc: 'Peserta hadir sebelum jam 08:00. Mengawali pagi dengan doa bersama demi kelancaran hari, lalu piket pagi bareng menjaga kerapian studio kerja agar nyaman dan estetik.',
     icon: 'bi-sun-fill',
     badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+    bgImage: '/images/10.webp',
   },
   {
     step: 2,
@@ -53,10 +54,11 @@ const dailyRoutine = [
     desc: 'Setelah piket, kumpul santai bareng mentor. Mentor memaparkan target yang akan dikerjakan hari ini, materi praktis industri, dan arahan proyek komersial klien tanpa rasa tegang.',
     icon: 'bi-chat-dots-fill',
     badgeClass: 'bg-info-subtle text-info border-info-subtle',
+    bgImage: '/images/13.webp',
   },
   {
     step: 3,
-    time: '08:30 – 11:30 WIB',
+    time: '08:30 – 12:00 WIB',
     shortTime: '08:30 Praktik',
     emoji: '💻',
     badge: 'Praktik Nyata',
@@ -65,18 +67,20 @@ const dailyRoutine = [
     desc: 'Fokus pengerjaan tugas divisi (DKV, Web Dev, SEO, Video Kreatif, atau Kemasan). Mentor selalu standby di samping untuk mendampingi jika ada kendala teknis.',
     icon: 'bi-laptop-fill',
     badgeClass: 'bg-success-subtle text-success border-success-subtle',
+    bgImage: '/images/21.webp',
   },
   {
     step: 4,
-    time: '11:30 – 13:00 WIB',
-    shortTime: '11:30 Ishoma',
+    time: '12:00 – 13:00 WIB',
+    shortTime: '12:00 Ishoma',
     emoji: '🍱',
-    badge: 'Ishoma 1,5 Jam',
+    badge: 'Ishoma 1 Jam',
     progress: 70,
-    title: 'Istirahat Jam 11:30 / Adzan Dzuhur – Jam 1 (13:00)',
-    desc: 'Waktu istirahat panjang 1,5 jam mulai saat adzan Dzuhur (11:30) sampai jam 13:00 siang. Leluasa untuk sholat Dzuhur berjamaah, makan siang santai bareng, ngobrol akrab, dan rehat.',
+    title: 'Istirahat Jam 12:00 / Adzan Dzuhur – Jam 1 (13:00)',
+    desc: 'Waktu istirahat 1 jam mulai saat adzan Dzuhur (12:00) sampai jam 13:00 siang. Cukup dan leluasa untuk sholat Dzuhur berjamaah, makan siang santai bareng, ngobrol akrab, dan rehat.',
     icon: 'bi-cup-hot-fill',
     badgeClass: 'bg-warning-subtle text-warning-emphasis border-warning-subtle',
+    bgImage: '/images/22.webp',
   },
   {
     step: 5,
@@ -89,6 +93,7 @@ const dailyRoutine = [
     desc: 'Melanjutkan pengerjaan tugas proyek industri, eksplorasi ide kreatif, dan sesi review santai dari mentor untuk memastikan kualitas portofolio siswa berstandar agensi.',
     icon: 'bi-gear-wide-connected',
     badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+    bgImage: '/images/12.webp',
   },
   {
     step: 6,
@@ -101,6 +106,7 @@ const dailyRoutine = [
     desc: 'Jam 15:50 mulai bersiap-siap, merapikan file pekerjaan, menyimpan dokumen di repositori/cloud, evaluasi singkat harian, dan ditutup dengan doa bersama.',
     icon: 'bi-check-circle-fill',
     badgeClass: 'bg-secondary-subtle text-secondary border-secondary-subtle',
+    bgImage: '/images/15.webp',
   },
   {
     step: 7,
@@ -113,6 +119,7 @@ const dailyRoutine = [
     desc: 'Piket sore kilat merapikan workstation masing-masing. Begitu jam 16:00 tiba, seluruh anak magang langsung pulang! Tidak ada lembur malam, waktu istirahat di rumah terjamin.',
     icon: 'bi-door-open-fill',
     badgeClass: 'bg-danger-subtle text-danger border-danger-subtle',
+    bgImage: '/images/8.webp',
   },
 ];
 
@@ -300,7 +307,7 @@ const faqs = homePage.faqs;
         <span class="section-heading-eyebrow">Jam Kerja & Keseharian Magang</span>
         <h2 class="section-heading-title">PKL Cuma 5 Hari Kerja: Senin – Jumat (08:00 – 16:00)</h2>
         <p class="section-heading-desc mb-0">
-          Di Saka, kami menerapkan jam magang mulai jam <strong>08:00 – 16:00 WIB</strong>. PKL di kami cuma 5 hari kerja (Senin – Jumat), <strong>Sabtu dan Minggu libur</strong>. Istirahat siang leluasa 1,5 jam, lingkungan kerja family friendly, dan tanpa senioritas!
+          Di Saka, kami menerapkan jam magang mulai jam <strong>08:00 – 16:00 WIB</strong>. PKL di kami cuma 5 hari kerja (Senin – Jumat), <strong>Sabtu dan Minggu libur</strong>. Istirahat siang 1 jam (12:00 – 13:00 WIB), lingkungan kerja family friendly, dan tanpa senioritas!
         </p>
       </div>
 
@@ -333,9 +340,9 @@ const faqs = homePage.faqs;
             <div class="schedule-stat-icon bg-warning text-dark mx-auto mb-2 mb-md-3">
               <i class="bi bi-cup-hot-fill"></i>
             </div>
-            <div class="h6 fw-bold mb-1 text-dark">Istirahat 1,5 Jam</div>
-            <div class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">11:30 – 13:00 WIB</div>
-            <p class="small text-muted mb-0 d-none d-sm-block">Istirahat mulai adzan Dzuhur. Waktu santai sholat dan makan siang bareng.</p>
+            <div class="h6 fw-bold mb-1 text-dark">Istirahat 1 Jam</div>
+            <div class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">12:00 – 13:00 WIB</div>
+            <p class="small text-muted mb-0 d-none d-sm-block">Waktu 1 jam saat adzan Dzuhur. Cukup buat sholat dan makan siang bareng.</p>
           </div>
         </div>
 
@@ -372,12 +379,22 @@ const faqs = homePage.faqs;
                   {idx < dailyRoutine.length - 1 && <div class="daily-timeline-line"></div>}
                 </div>
                 <div class="daily-timeline-content">
-                  <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
-                    <span class="daily-timeline-time font-monospace fw-bold">{item.time}</span>
-                    <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">{item.badge}</span>
+                  <div class="daily-timeline-card position-relative overflow-hidden p-3 p-lg-3.5 rounded-3 border bg-white shadow-xs">
+                    <!-- Transparent Background Photo (Teks Tetap Jelas Terbaca) -->
+                    <div class="routine-card-bg-wrap" aria-hidden="true">
+                      <img src={item.bgImage} alt="" class="routine-card-bg-img" loading="lazy" />
+                      <div class="routine-card-bg-overlay"></div>
+                    </div>
+
+                    <div class="position-relative z-1">
+                      <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                        <span class="daily-timeline-time font-monospace fw-bold">{item.time}</span>
+                        <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">{item.badge}</span>
+                      </div>
+                      <h4 class="h6 fw-bold mb-1 text-dark">{item.title}</h4>
+                      <p class="small text-muted mb-0" style="line-height: 1.55;">{item.desc}</p>
+                    </div>
                   </div>
-                  <h4 class="h6 fw-bold mb-1 text-dark">{item.title}</h4>
-                  <p class="small text-muted mb-0" style="line-height: 1.55;">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -426,52 +443,60 @@ const faqs = homePage.faqs;
             <div class="routine-swipe-track" id="routineSwipeTrack" tabindex="0" role="region" aria-label="Alur kegiatan harian anak magang">
               {dailyRoutine.map((item, idx) => (
                 <div class="routine-swipe-card" data-step-index={idx}>
-                  <div class="routine-card-inner">
-                    <!-- Header Step & Progress -->
-                    <div class="routine-card-header">
-                      <div class="d-flex align-items-center justify-content-between w-100 mb-2">
-                        <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.7rem;">
-                          Step {item.step} of 7
-                        </span>
-                        <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">
-                          {item.badge}
-                        </span>
-                      </div>
-
-                      <div class="routine-card-progressbar" title={`Progres Hari: ${item.progress}%`}>
-                        <div class="routine-card-progressbar-fill" style={`width: ${item.progress}%;`}></div>
-                      </div>
+                  <div class="routine-card-inner position-relative overflow-hidden">
+                    <!-- Transparent Background Photo (Teks Tetap Jelas Terbaca) -->
+                    <div class="routine-card-bg-wrap" aria-hidden="true">
+                      <img src={item.bgImage} alt="" class="routine-card-bg-img" loading="lazy" />
+                      <div class="routine-card-bg-overlay"></div>
                     </div>
 
-                    <!-- Body -->
-                    <div class="routine-card-body">
-                      <div class="d-flex align-items-center gap-2 mb-2">
-                        <span class="routine-card-emoji">{item.emoji}</span>
-                        <span class="routine-card-time font-monospace fw-bold">{item.time}</span>
-                      </div>
-                      <h4 class="routine-card-title">{item.title}</h4>
-                      <p class="routine-card-desc">{item.desc}</p>
-                    </div>
+                    <div class="position-relative z-1 d-flex flex-column h-100">
+                      <!-- Header Step & Progress -->
+                      <div class="routine-card-header">
+                        <div class="d-flex align-items-center justify-content-between w-100 mb-2">
+                          <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.7rem;">
+                            Step {item.step} of 7
+                          </span>
+                          <span class={`badge border rounded-pill ${item.badgeClass}`} style="font-size: 0.72rem;">
+                            {item.badge}
+                          </span>
+                        </div>
 
-                    <!-- Footer Next Button -->
-                    <div class="routine-card-footer mt-auto pt-2 border-top d-flex align-items-center justify-content-between">
-                      <span class="small text-muted" style="font-size: 0.74rem;">
-                        {idx < dailyRoutine.length - 1 ? 'Lanjut ke jam berikutnya' : 'Selesai tepat waktu!'}
-                      </span>
-                      {idx < dailyRoutine.length - 1 && (
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link text-decoration-none p-0 fw-semibold text-primary routine-next-btn"
-                          data-next-step={idx + 1}
-                        >
-                          Berikutnya <i class="bi bi-chevron-right"></i>
-                        </button>
-                      )}
-                      {idx === dailyRoutine.length - 1 && (
-                        <span class="badge bg-success-subtle text-success border border-success-subtle">
-                          <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
+                        <div class="routine-card-progressbar" title={`Progres Hari: ${item.progress}%`}>
+                          <div class="routine-card-progressbar-fill" style={`width: ${item.progress}%;`}></div>
+                        </div>
+                      </div>
+
+                      <!-- Body -->
+                      <div class="routine-card-body">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <span class="routine-card-emoji">{item.emoji}</span>
+                          <span class="routine-card-time font-monospace fw-bold">{item.time}</span>
+                        </div>
+                        <h4 class="routine-card-title">{item.title}</h4>
+                        <p class="routine-card-desc">{item.desc}</p>
+                      </div>
+
+                      <!-- Footer Next Button -->
+                      <div class="routine-card-footer mt-auto pt-2 border-top d-flex align-items-center justify-content-between">
+                        <span class="small text-muted" style="font-size: 0.74rem;">
+                          {idx < dailyRoutine.length - 1 ? 'Lanjut ke jam berikutnya' : 'Selesai tepat waktu!'}
                         </span>
-                      )}
+                        {idx < dailyRoutine.length - 1 && (
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-link text-decoration-none p-0 fw-semibold text-primary routine-next-btn"
+                            data-next-step={idx + 1}
+                          >
+                            Berikutnya <i class="bi bi-chevron-right"></i>
+                          </button>
+                        )}
+                        {idx === dailyRoutine.length - 1 && (
+                          <span class="badge bg-success-subtle text-success border border-success-subtle">
+                            <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -580,6 +605,7 @@ const faqs = homePage.faqs;
                   data-desc={t.quote}
                   data-author={`${t.name} (${t.handle}) - ${t.school}`}
                   data-thumb={t.videoThumbnail || t.avatar}
+                  data-video-url={t.videoUrl || ''}
                   aria-label={`Putar video cerita ${t.name}`}
                 >
                   <div class="d-flex align-items-center justify-content-between w-100">
@@ -675,6 +701,7 @@ const faqs = homePage.faqs;
                     data-desc={t.quote}
                     data-author={`${t.name} (${t.handle}) - ${t.school}`}
                     data-thumb={t.videoThumbnail || t.avatar}
+                    data-video-url={t.videoUrl || ''}
                     aria-label={`Putar video cerita ${t.name}`}
                   >
                     <div class="d-flex align-items-center justify-content-between w-100">
@@ -979,7 +1006,20 @@ const faqs = homePage.faqs;
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
         </div>
         <div class="modal-body p-0 position-relative bg-black text-center" style="min-height: 400px; display: flex; align-items: center; justify-content: center;">
-          <div class="simulated-video-player w-100 h-100 position-relative">
+          <!-- 1. Real Video Container (Active when videoUrl exists) -->
+          <div id="homeModalRealVideoWrap" class="w-100 h-100 position-relative" style="display: none; background: #000;">
+            <video
+              id="homeModalVideoPlayer"
+              src=""
+              controls
+              playsinline
+              class="w-100"
+              style="max-height: 520px; object-fit: contain; background: #000;"
+            ></video>
+          </div>
+
+          <!-- 2. Simulated Video Screen -->
+          <div id="homeModalSimulatedWrap" class="simulated-video-player w-100 h-100 position-relative">
             <img id="homeModalVideoThumb" src="" alt="Thumbnail Video" class="w-100 object-fit-cover" style="max-height: 460px;" />
             <div class="position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-40 d-flex flex-column justify-content-between p-4">
               <div class="text-start">
@@ -1094,6 +1134,9 @@ const faqs = homePage.faqs;
       const modalThumb = document.getElementById('homeModalVideoThumb');
       const modalDesc = document.getElementById('homeModalVideoDesc');
       const modalAuthor = document.getElementById('homeModalVideoAuthor');
+      const realWrap = document.getElementById('homeModalRealVideoWrap');
+      const simWrap = document.getElementById('homeModalSimulatedWrap');
+      const realVideo = document.getElementById('homeModalVideoPlayer') as HTMLVideoElement | null;
 
       videoBtns.forEach((btn) => {
         btn.addEventListener('click', () => {
@@ -1101,11 +1144,27 @@ const faqs = homePage.faqs;
           const author = btn.getAttribute('data-author') || '';
           const desc = btn.getAttribute('data-desc') || '';
           const thumb = btn.getAttribute('data-thumb') || '';
+          const videoUrl = btn.getAttribute('data-video-url') || '';
 
           if (modalTitle) modalTitle.textContent = title;
-          if (modalThumb && thumb) (modalThumb as HTMLImageElement).src = thumb;
           if (modalDesc) modalDesc.textContent = desc;
           if (modalAuthor) modalAuthor.textContent = author;
+
+          if (videoUrl && realVideo && realWrap && simWrap) {
+            realWrap.style.display = 'block';
+            simWrap.style.display = 'none';
+            realVideo.src = videoUrl;
+            realVideo.load();
+            realVideo.play().catch(() => {});
+          } else {
+            if (realWrap) realWrap.style.display = 'none';
+            if (simWrap) simWrap.style.display = 'block';
+            if (modalThumb && thumb) (modalThumb as HTMLImageElement).src = thumb;
+            if (realVideo) {
+              realVideo.pause();
+              realVideo.src = '';
+            }
+          }
 
           const modalEl = document.getElementById('homeVideoModal');
           if (modalEl && (window as any).bootstrap) {
@@ -1114,6 +1173,15 @@ const faqs = homePage.faqs;
           }
         });
       });
+
+      const modalEl = document.getElementById('homeVideoModal');
+      if (modalEl) {
+        modalEl.addEventListener('hidden.bs.modal', () => {
+          if (realVideo) {
+            realVideo.pause();
+          }
+        });
+      }
     }
 
     function setupDailyRoutineSwipe() {
@@ -1265,6 +1333,47 @@ const faqs = homePage.faqs;
     .daily-timeline-time {
       font-size: 0.85rem;
       color: #0284c7;
+    }
+
+    /* Transparent Background Photo on Routine Cards (Desktop & Mobile) */
+    .daily-timeline-card {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 16px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.25s ease;
+    }
+    .daily-timeline-card:hover {
+      border-color: #0284c7;
+      box-shadow: 0 8px 24px -4px rgba(2, 132, 199, 0.12);
+      transform: translateX(4px);
+    }
+    .routine-card-bg-wrap {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      border-radius: inherit;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .routine-card-bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.14;
+      filter: saturate(1.15);
+      transition: transform 0.4s ease, opacity 0.3s ease;
+    }
+    .daily-timeline-card:hover .routine-card-bg-img,
+    .routine-card-inner:hover .routine-card-bg-img {
+      opacity: 0.22;
+      transform: scale(1.04);
+    }
+    .routine-card-bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 250, 252, 0.88) 100%);
     }
 
     /* Mobile Routine Pills Nav */

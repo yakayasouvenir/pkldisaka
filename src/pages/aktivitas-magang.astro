@@ -18,7 +18,7 @@ const keywords = {
     { text: 'Tempat Grow Bersama & Belajar Nyata', icon: 'bi-graph-up-arrow' },
     { text: 'PKL 5 Hari Kerja (Senin – Jumat, Sabtu & Minggu Libur)', icon: 'bi-calendar-check' },
     { text: 'Jam Kerja Manusiawi 08:00 – 16:00 WIB', icon: 'bi-clock-fill' },
-    { text: 'Istirahat Leluasa 1,5 Jam (11:30 – 13:00 WIB)', icon: 'bi-cup-hot-fill' },
+    { text: 'Istirahat Leluasa 1 Jam (12:00 – 13:00 WIB)', icon: 'bi-cup-hot-fill' },
     { text: 'Doa Bersama Pagi & Sore + Piket Bersama', icon: 'bi-sun-fill' },
   ],
   kompetensi: [
@@ -43,11 +43,12 @@ const shortVideos = [
   {
     id: 'vid-01',
     title: 'A Day in My Life: Anak PKL di Saka Malang',
-    desc: 'Dari datang jam 07:45, doa bersama, piket pagi, briefing santai jam 08:00, ngerjain proyek klien, istirahat 1,5 jam, sampai pulang jam 16:00 tanpa lembur.',
-    duration: '0:58',
+    desc: 'Dari datang jam 07:45, doa bersama, piket pagi, briefing santai jam 08:00, ngerjain proyek klien, istirahat 1 jam, sampai pulang jam 16:00 tanpa lembur.',
+    duration: '1:04',
     category: 'Keseharian Magang',
-    badge: 'Trending',
+    badge: 'Reels Trending',
     thumbnail: '/images/pkl/12.webp',
+    videoUrl: '/vidio/day-on-my-life.mp4',
     author: 'Dian Permata (SMKN 4 Malang)',
     aspectRatio: '9/16',
     views: '12.4K',
@@ -55,7 +56,7 @@ const shortVideos = [
   {
     id: 'vid-02',
     title: 'No Senioritas! Suasana Makan Bareng Pas Istirahat',
-    desc: 'Jam 11:30 adzan Dzuhur langsung istirahat panjang sampai jam 13:00. Makan siang bareng, sholat berjamaah, dan ngobrol akrab antar siswa dan mentor.',
+    desc: 'Jam 12:00 adzan Dzuhur langsung istirahat sampai jam 13:00. Makan siang bareng, sholat berjamaah, dan ngobrol akrab antar siswa dan mentor.',
     duration: '0:45',
     category: 'Budaya Kerja',
     badge: 'Family Friendly',
@@ -242,55 +243,101 @@ const activityPhotos = [
           <div class="col-md-6 col-lg-4">
             <div class="short-video-card h-100">
               <!-- Video Player Mock / Preview Container -->
-              <div class="short-video-thumb-wrap">
-                <img
-                  src={vid.thumbnail}
-                  alt={vid.title}
-                  class="short-video-thumb"
-                  loading="lazy"
-                  width="480"
-                  height="640"
-                />
-                <div class="short-video-overlay"></div>
+              <div class={`short-video-thumb-wrap ${vid.videoUrl ? 'has-real-video' : ''}`}>
+                {vid.videoUrl ? (
+                  <div class="short-video-real-wrap position-relative w-100 h-100 bg-black">
+                    <video
+                      src={vid.videoUrl}
+                      poster={vid.thumbnail}
+                      controls
+                      playsinline
+                      preload="metadata"
+                      class="short-video-native-media"
+                      aria-label={vid.title}
+                    >
+                      Browser Anda tidak mendukung pemutar video HTML5.
+                    </video>
+                    <!-- Badges -->
+                    <div class="short-video-top-meta pointer-events-none">
+                      <span class="badge bg-dark bg-opacity-75 text-white backdrop-blur border border-white-subtle">
+                        {vid.category}
+                      </span>
+                      <span class="badge bg-danger text-white">
+                        <i class="bi bi-play-circle-fill me-1"></i>Official Video
+                      </span>
+                    </div>
+                  </div>
+                ) : (
+                  <>
+                    <img
+                      src={vid.thumbnail}
+                      alt={vid.title}
+                      class="short-video-thumb"
+                      loading="lazy"
+                      width="480"
+                      height="640"
+                    />
+                    <div class="short-video-overlay"></div>
 
-                <!-- Badges -->
-                <div class="short-video-top-meta">
-                  <span class="badge bg-dark bg-opacity-75 text-white backdrop-blur border border-white-subtle">
-                    {vid.category}
-                  </span>
-                  <span class="badge bg-primary text-white">
-                    {vid.badge}
-                  </span>
-                </div>
+                    <!-- Badges -->
+                    <div class="short-video-top-meta">
+                      <span class="badge bg-dark bg-opacity-75 text-white backdrop-blur border border-white-subtle">
+                        {vid.category}
+                      </span>
+                      <span class="badge bg-primary text-white">
+                        {vid.badge}
+                      </span>
+                    </div>
 
-                <!-- Play Button Center -->
-                <button
-                  type="button"
-                  class="short-video-play-btn"
-                  aria-label={`Putar video ${vid.title}`}
-                  data-video-id={vid.id}
-                  data-video-title={vid.title}
-                  data-video-author={vid.author}
-                  data-video-desc={vid.desc}
-                  data-video-thumb={vid.thumbnail}
-                >
-                  <i class="bi bi-play-fill"></i>
-                </button>
+                    <!-- Play Button Center -->
+                    <button
+                      type="button"
+                      class="short-video-play-btn"
+                      aria-label={`Putar video ${vid.title}`}
+                      data-video-id={vid.id}
+                      data-video-title={vid.title}
+                      data-video-author={vid.author}
+                      data-video-desc={vid.desc}
+                      data-video-thumb={vid.thumbnail}
+                      data-video-url={vid.videoUrl || ''}
+                    >
+                      <i class="bi bi-play-fill"></i>
+                    </button>
 
-                <!-- Bottom Duration & Views -->
-                <div class="short-video-bottom-meta">
-                  <span class="small text-white d-flex align-items-center gap-1 font-monospace">
-                    <i class="bi bi-clock"></i> {vid.duration}
-                  </span>
-                  <span class="small text-white-50 d-flex align-items-center gap-1">
-                    <i class="bi bi-eye"></i> {vid.views}
-                  </span>
-                </div>
+                    <!-- Bottom Duration & Views -->
+                    <div class="short-video-bottom-meta">
+                      <span class="small text-white d-flex align-items-center gap-1 font-monospace">
+                        <i class="bi bi-clock"></i> {vid.duration}
+                      </span>
+                      <span class="small text-white-50 d-flex align-items-center gap-1">
+                        <i class="bi bi-eye"></i> {vid.views}
+                      </span>
+                    </div>
+                  </>
+                )}
               </div>
 
               <!-- Card Content -->
               <div class="short-video-body">
-                <h3 class="short-video-title">{vid.title}</h3>
+                <div class="d-flex align-items-center justify-content-between gap-2 mb-1">
+                  <h3 class="short-video-title mb-0">{vid.title}</h3>
+                  {vid.videoUrl && (
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-primary rounded-pill px-2.5 py-0.5 short-video-play-btn-inline font-monospace flex-shrink-0"
+                      style="font-size: 0.72rem;"
+                      data-video-id={vid.id}
+                      data-video-title={vid.title}
+                      data-video-author={vid.author}
+                      data-video-desc={vid.desc}
+                      data-video-thumb={vid.thumbnail}
+                      data-video-url={vid.videoUrl}
+                      title="Tonton di Layar Penuh"
+                    >
+                      <i class="bi bi-arrows-fullscreen me-1"></i>Layar Penuh
+                    </button>
+                  )}
+                </div>
                 <p class="short-video-desc">{vid.desc}</p>
                 <div class="short-video-author">
                   <i class="bi bi-person-circle text-primary me-1"></i>
@@ -366,9 +413,21 @@ const activityPhotos = [
           </h3>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
         </div>
-        <div class="modal-body p-0 position-relative bg-black text-center" style="min-height: 420px; display: flex; align-items: center; justify-content: center;">
-          <!-- Simulated Video Screen with animated progress -->
-          <div class="simulated-video-player w-100 h-100 position-relative">
+        <div class="modal-body p-0 position-relative bg-black text-center" style="min-height: 440px; display: flex; align-items: center; justify-content: center;">
+          <!-- 1. Real Video Player Container -->
+          <div id="modalRealVideoWrap" class="w-100 h-100 position-relative" style="display: none; background: #000;">
+            <video
+              id="modalVideoPlayer"
+              src=""
+              controls
+              playsinline
+              class="w-100"
+              style="max-height: 540px; object-fit: contain; background: #000;"
+            ></video>
+          </div>
+
+          <!-- 2. Simulated Video Screen (Fallback if mock) -->
+          <div id="modalSimulatedVideoWrap" class="simulated-video-player w-100 h-100 position-relative">
             <img id="modalVideoThumb" src="" alt="Thumbnail Video" class="w-100 object-fit-cover" style="max-height: 480px;" />
             <div class="position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-40 d-flex flex-column justify-content-between p-4">
               <div class="text-start">
@@ -436,11 +495,14 @@ const activityPhotos = [
       });
 
       // 2. Video Preview Modal
-      const playBtns = document.querySelectorAll('.short-video-play-btn');
+      const playBtns = document.querySelectorAll('.short-video-play-btn, .short-video-play-btn-inline');
       const modalTitle = document.getElementById('modalVideoTitle');
       const modalThumb = document.getElementById('modalVideoThumb') as HTMLImageElement | null;
       const modalDesc = document.getElementById('modalVideoDesc');
       const modalAuthor = document.getElementById('modalVideoAuthor');
+      const modalRealWrap = document.getElementById('modalRealVideoWrap');
+      const modalSimWrap = document.getElementById('modalSimulatedVideoWrap');
+      const modalVideoPlayer = document.getElementById('modalVideoPlayer') as HTMLVideoElement | null;
 
       playBtns.forEach((btn) => {
         btn.addEventListener('click', () => {
@@ -448,11 +510,27 @@ const activityPhotos = [
           const author = btn.getAttribute('data-video-author') || '';
           const desc = btn.getAttribute('data-video-desc') || '';
           const thumb = btn.getAttribute('data-video-thumb') || '';
+          const videoUrl = btn.getAttribute('data-video-url') || '';
 
           if (modalTitle) modalTitle.textContent = title;
-          if (modalThumb && thumb) modalThumb.src = thumb;
           if (modalDesc) modalDesc.textContent = desc;
           if (modalAuthor) modalAuthor.textContent = `Direkam oleh: ${author}`;
+
+          if (videoUrl && modalVideoPlayer && modalRealWrap && modalSimWrap) {
+            modalRealWrap.style.display = 'block';
+            modalSimWrap.style.display = 'none';
+            modalVideoPlayer.src = videoUrl;
+            modalVideoPlayer.load();
+            modalVideoPlayer.play().catch(() => {});
+          } else {
+            if (modalRealWrap) modalRealWrap.style.display = 'none';
+            if (modalSimWrap) modalSimWrap.style.display = 'block';
+            if (modalThumb && thumb) modalThumb.src = thumb;
+            if (modalVideoPlayer) {
+              modalVideoPlayer.pause();
+              modalVideoPlayer.src = '';
+            }
+          }
 
           // Trigger bootstrap modal
           const modalEl = document.getElementById('videoPreviewModal');
@@ -462,6 +540,16 @@ const activityPhotos = [
           }
         });
       });
+
+      // Pause modal video when closed
+      const modalEl = document.getElementById('videoPreviewModal');
+      if (modalEl) {
+        modalEl.addEventListener('hidden.bs.modal', () => {
+          if (modalVideoPlayer) {
+            modalVideoPlayer.pause();
+          }
+        });
+      }
     }
 
     setupAktivitasPage();
@@ -492,6 +580,36 @@ const activityPhotos = [
     aspect-ratio: 16 / 10;
     overflow: hidden;
     background: #0f172a;
+  }
+  .short-video-thumb-wrap.has-real-video {
+    aspect-ratio: 4 / 3;
+    background: #000000;
+  }
+  .short-video-real-wrap {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .short-video-native-media {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background: #000000;
+    outline: none;
+  }
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .short-video-play-btn-inline {
+    transition: all 0.2s ease;
+  }
+  .short-video-play-btn-inline:hover {
+    transform: scale(1.05);
   }
   .short-video-thumb {
     width: 100%;

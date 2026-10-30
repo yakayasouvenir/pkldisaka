@@ -21,6 +21,7 @@ export interface TestimonialItem {
   videoDuration?: string;
   videoTitle?: string;
   videoThumbnail?: string;
+  videoUrl?: string;
   tags: string[];
 }
 
@@ -43,9 +44,10 @@ export const TESTIMONIALS: TestimonialItem[] = [
     badge: 'Alumni DKV',
     vibeTag: '🔥 Vibes: 10/10',
     hasVideo: true,
-    videoDuration: '0:48',
-    videoTitle: 'Kesan Dian tentang Budaya Kerja Tanpa Senioritas di Saka',
+    videoDuration: '1:04',
+    videoTitle: 'A Day in My Life: Cerita Dian Magang Asik di Saka',
     videoThumbnail: '/images/pkl/12.webp',
+    videoUrl: '/vidio/day-on-my-life.mp4',
     tags: ['#NoSenioritas', '#DesainKemasan', '#SMKN4Malang', '#PortfolioKeren'],
   },
   {
@@ -58,9 +60,9 @@ export const TESTIMONIALS: TestimonialItem[] = [
     city: 'Kabupaten Malang',
     division: 'Multimedia & Video Creator',
     avatar: '/images/pkl/15.webp',
-    highlight: 'Jam kerja 5 hari & istirahat 1,5 jam paling manusiawi!',
+    highlight: 'Jam kerja 5 hari & istirahat 1 jam cukup dan manusiawi!',
     quote:
-      'Paling suka jam kerjanya yang manusiawi banget: 08:00 sampai 16:00, Sabtu-Minggu libur! Istirahat Dzuhur 1,5 jam cukup banget buat sholat dan makan santai bareng teman-teman. Suasananya family friendly banget!',
+      'Paling suka jam kerjanya yang teratur: 08:00 sampai 16:00, Sabtu-Minggu libur! Istirahat Dzuhur 1 jam cukup banget buat sholat dan makan santai bareng teman-teman. Suasananya family friendly banget!',
     rating: 5,
     batch: 'Batch Ganjil 2024/2025',
     badge: 'Alumni Multimedia',
