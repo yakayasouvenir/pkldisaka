@@ -2457,7 +2457,9 @@ p {
   will-change: transform;
 }
 
-.partner-marquee-track:hover {
+.partner-marquee-track:hover,
+.partner-marquee-track:active,
+.partner-marquee-track:focus-within {
   animation-play-state: paused;
 }
 
@@ -2546,7 +2548,7 @@ p {
     padding: 1.5rem 0 1.75rem;
   }
   .partner-marquee-track {
-    animation-duration: 32s;
+    animation-duration: 80s;
     gap: 0.85rem;
   }
   .partner-marquee-item {
