@@ -247,6 +247,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #0f172a;
   background-image: var(--hero-bg, url('/images/13.webp'));
   background-size: cover;
   background-position: center 32%;
@@ -254,6 +255,18 @@ p {
   color: #ffffff;
   padding: 5.5rem 1rem 4.5rem;
   overflow: hidden;
+}
+
+.home-hero-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 32%;
+  z-index: 0;
+  pointer-events: none;
 }
 
 @media (max-width: 767.98px) {
@@ -1288,8 +1301,16 @@ p {
   font-size: 0.92rem;
 }
 
+.site-footer .text-secondary {
+  color: #cbd5e1 !important;
+}
+
+.site-footer .border-secondary {
+  border-color: #475569 !important;
+}
+
 .site-footer a {
-  color: #9CA3AF;
+  color: #cbd5e1;
   text-decoration: none;
   transition: color 0.15s ease;
 }
@@ -1842,7 +1863,8 @@ p {
   color: var(--color-text);
   font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  will-change: transform;
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.05);
 }
 
@@ -1851,7 +1873,6 @@ p {
   border-color: var(--color-primary);
   color: #ffffff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
 }
 
 .env-nav-btn:disabled {

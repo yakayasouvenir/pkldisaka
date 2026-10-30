@@ -1,6 +1,6 @@
 ---
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.min.css';
+import '../styles/bootstrap-icons-swap.css';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/plus-jakarta-sans';
 import '../styles/global.css';
@@ -100,6 +100,11 @@ const graph = [
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+
+    <!-- Preload Hero LCP Candidate on Homepage -->
+    {isHome && (
+      <link rel="preload" as="image" href="/images/13.webp" fetchpriority="high" type="image/webp" />
+    )}
 
     <!-- Structured data (JSON-LD @graph) -->
     <script type="application/ld+json" is:inline set:html={jsonLd(graph)} />
