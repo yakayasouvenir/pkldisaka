@@ -108,17 +108,7 @@ const graph = [
 
     <!-- Structured data (JSON-LD @graph) -->
     <script type="application/ld+json" is:inline set:html={jsonLd(graph)} />
-      <!-- Script penjamin halaman selalu terbuka di posisi paling atas (terutama saat dibuka/refresh di mobile) -->
-    <script is:inline>
-      if ('scrollRestoration' in history) {
-        history.scrollRestoration = 'manual';
-      }
-      window.addEventListener('pageshow', function () {
-        if (!window.location.hash && window.scrollY > 0) {
-          window.scrollTo(0, 0);
-        }
-      });
-    </script>
+      
   </head>
   <body>
     <!-- Skip to main content (DESIGN.md Bab 7) -->
@@ -142,7 +132,17 @@ const graph = [
     <BackToTop />
 
     <script>
-      import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+      // Load Bootstrap bundle asynchronously when idle to keep main thread completely free for LCP
+      const initBootstrap = async () => {
+        const bs = await import('bootstrap/dist/js/bootstrap.bundle.min.js');
+        (window as any).bootstrap = bs.default || bs;
+      };
+
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(initBootstrap, { timeout: 2500 });
+      } else {
+        setTimeout(initBootstrap, 1200);
+      }
     </script>
   </body>
 </html>

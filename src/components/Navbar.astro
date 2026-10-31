@@ -347,6 +347,7 @@ const navIcons: Record<string, string> = {
 
   /* Desktop Dropdown Card: Tata Letak Kotak 2 Kolom (Grid) */
   .desktop-dropdown-card {
+    display: none;
     position: absolute;
     top: calc(100% + 6px);
     left: 0;
@@ -378,6 +379,7 @@ const navIcons: Record<string, string> = {
   /* Hanya 1 dropdown yang tampil via hover atau class is-open (focus-within dihapus agar tidak nyangkut) */
   .dropdown-parent:hover .desktop-dropdown-card,
   .dropdown-parent.is-open .desktop-dropdown-card {
+    display: block;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;

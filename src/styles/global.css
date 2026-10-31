@@ -261,6 +261,11 @@ p {
   object-fit: cover;
   object-position: center 32%;
   z-index: 0;
+  filter: brightness(0.42);
+}
+
+.home-hero-overlay {
+  display: none;
 }
 
 @media (max-width: 767.98px) {
@@ -271,25 +276,40 @@ p {
   }
 
   .home-hero-badge {
-    margin-bottom: 1.15rem;
-    padding: 0.35rem 0.95rem 0.35rem 0.45rem;
-    gap: 0.6rem;
-    max-width: 100%;
-  }
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.35rem 1.15rem 0.35rem 0.45rem;
+  background: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.75rem;
+  color: #ffffff;
+}
 
-  .home-hero-badge-pill {
-    font-size: 0.74rem;
-    padding: 0.35rem 0.75rem;
-  }
+.home-hero-badge-pill {
+  background: #0284c7;
+  background: linear-gradient(135deg, #0284c7 0%, #0089d9 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  line-height: 1.15;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 137, 217, 0.35);
+  flex-shrink: 0;
+}
 
-  .home-hero-badge-title {
-    font-size: 0.82rem;
-    margin-bottom: 0.1rem;
-  }
-
-  .home-hero-badge-sub {
-    font-size: 0.68rem;
-  }
+.home-hero-badge-text {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
 
   .home-hero-title {
     font-size: 1.8rem;
@@ -311,16 +331,7 @@ p {
 }
 
 .home-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.42) 0%,
-    rgba(0, 0, 0, 0.32) 40%,
-    rgba(0, 0, 0, 0.60) 100%
-  );
-  backdrop-filter: none;
-  z-index: 1;
+  display: none;
 }
 
 .home-hero-content {
@@ -1769,13 +1780,14 @@ p {
   width: 100%;
 }
 
+.env-carousel-track.has-snap { scroll-snap-type: x mandatory; }
 .env-carousel-track {
   display: flex;
   flex-wrap: nowrap;
   gap: 1.25rem;
   overflow-x: auto;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  /* snap deferred to .has-snap */
   padding: 0.5rem 0.25rem 1.25rem;
   margin: 0;
   list-style: none;

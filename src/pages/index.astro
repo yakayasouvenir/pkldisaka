@@ -198,20 +198,17 @@ const faqs = homePage.faqs;
       class="home-hero-bg-img"
       fetchpriority="high"
       loading="eager"
-      decoding="async"
+      decoding="sync"
       width="1350"
       height="771"
     />
     <div class="home-hero-overlay" aria-hidden="true"></div>
 
     <div class="container home-hero-content">
-      <a href="/lowongan-pkl/" class="home-hero-badge text-decoration-none shadow-sm" aria-label="Cari Peluang - Wujudkan Karier Impianmu">
-        <span class="home-hero-badge-pill">Cari Peluang</span>
-        <div class="home-hero-badge-text text-start">
-          <div class="home-hero-badge-title">Wujudkan Karier Impianmu</div>
-          <div class="home-hero-badge-sub">Peluang kerja dan magang untuk masa depanmu</div>
-        </div>
-      </a>
+      <div class="home-hero-badge shadow-sm" role="status">
+        <span class="home-hero-badge-pill">Vokasi & Magang</span>
+        <span class="home-hero-badge-text">Portal Resmi Panduan Praktik Kerja Industri</span>
+      </div>
 
       <h1 class="home-hero-title">
         Tempat Magang dan PKL Paling Asik di Malang
@@ -1154,9 +1151,17 @@ const faqs = homePage.faqs;
           }
 
           const modalEl = document.getElementById('homeVideoModal');
-          if (modalEl && (window as any).bootstrap) {
-            const modal = new (window as any).bootstrap.Modal(modalEl);
-            modal.show();
+          if (modalEl) {
+            if ((window as any).bootstrap?.Modal) {
+              const modal = new (window as any).bootstrap.Modal(modalEl);
+              modal.show();
+            } else {
+              import('bootstrap/dist/js/bootstrap.bundle.min.js').then((bs: any) => {
+                const ModalClass = bs.default?.Modal || bs.Modal;
+                const modal = new ModalClass(modalEl);
+                modal.show();
+              });
+            }
           }
         });
       });
@@ -1243,7 +1248,43 @@ const faqs = homePage.faqs;
       );
     }
 
+    
+    function setupSnapEnabler() {
+      const enableSnap = (el: HTMLElement | null) => {
+        if (el && !el.classList.contains('has-snap')) {
+          el.classList.add('has-snap');
+        }
+      };
+
+      ['routineSwipeTrack', 'envCarouselTrack'].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.addEventListener('pointerdown', () => enableSnap(el), { once: true, passive: true });
+          el.addEventListener('touchstart', () => enableSnap(el), { once: true, passive: true });
+        }
+      });
+
+      document.querySelectorAll('.testi-mobile-swipe-track').forEach((el) => {
+        el.addEventListener('pointerdown', () => enableSnap(el as HTMLElement), { once: true, passive: true });
+        el.addEventListener('touchstart', () => enableSnap(el as HTMLElement), { once: true, passive: true });
+      });
+
+      const activateAll = () => {
+        document.querySelectorAll('.routine-swipe-track, .testi-mobile-swipe-track, .env-carousel-track').forEach((el) => {
+          el.classList.add('has-snap');
+        });
+      };
+
+      if ('requestIdleCallback' in window) {
+        (window as any).requestIdleCallback(activateAll, { timeout: 2500 });
+      } else {
+        setTimeout(activateAll, 1800);
+      }
+    }
+
     function initHomePage() {
+      setupSnapEnabler();
+
       setupEnvCarousel();
       setupHomeVideoModal();
       setupDailyRoutineSwipe();
@@ -1422,11 +1463,12 @@ const faqs = homePage.faqs;
       overflow: hidden;
       position: relative;
     }
+    .routine-swipe-track.has-snap { scroll-snap-type: x mandatory; }
     .routine-swipe-track {
       display: flex;
       gap: 1rem;
       overflow-x: auto;
-      scroll-snap-type: x mandatory;
+      /* snap enabled via .has-snap to keep initial paint free for LCP */
       -webkit-overflow-scrolling: touch;
       padding: 0.5rem 0.25rem 0.75rem;
       scrollbar-width: thin;
@@ -1681,11 +1723,12 @@ const faqs = homePage.faqs;
     }
 
     /* Mobile Swipe Track for Testimonials */
+    .testi-mobile-swipe-track.has-snap { scroll-snap-type: x mandatory; }
     .testi-mobile-swipe-track {
       display: flex;
       gap: 1rem;
       overflow-x: auto;
-      scroll-snap-type: x mandatory;
+      /* snap enabled via .has-snap to keep initial paint free for LCP */
       -webkit-overflow-scrolling: touch;
       padding: 0.5rem 0.25rem 1rem;
       scrollbar-width: thin;
