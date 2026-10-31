@@ -94,12 +94,6 @@ export const NAV: NavItem[] = [
         desc: 'Vidio singkat, dokumentasi foto & kata kunci magang',
         icon: 'bi-play-circle-fill',
       },
-      {
-        href: '/galeri/',
-        label: 'Galeri Kenangan',
-        desc: 'Dokumentasi kegiatan, suasana kerja & momen alumni',
-        icon: 'bi-camera-fill',
-      },
     ],
   },
   {
@@ -149,7 +143,7 @@ export const NAV: NavItem[] = [
   },
   { href: '/tentang/', label: 'Tentang' },
   { href: '/blog/', label: 'Blog' },
-  { href: '/kontak/', label: 'Kontak' },
+  { href: '/galeri/', label: 'Galeri Kenang-kenangan' },
 ];
 
 export const INITIAL_DIVISIONS = [

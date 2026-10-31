@@ -352,14 +352,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Penyusunan storyboard dan penulisan skrip video pendek kreatif untuk media sosial",
     caption: "Merancang urutan adegan visual dari hook awal, isi informasi produk, hingga call-to-action penutup.",
     feature: {
-      src: "/images/15.webp",
+      src: "/images/30.webp",
       alt: "Produksi rekaman video konten pendek di mini studio kreatif Saka",
       badge: "Produksi Konten",
       caption: "Peserta mempraktikkan public speaking, teknik penataan tripod, dan pengambilan angle video dinamis.",
     },
     gallery: [
       {
-        src: "/images/16.webp",
+        src: "/images/29.webp",
         alt: "Editing video konten kreator dengan teks animasi dan efek suara menarik",
         badge: "Editing Kreatif",
         caption: "Penerapan prinsip pacing video cepat dan hook 3 detik pertama agar retensi penonton tetap tinggi.",
