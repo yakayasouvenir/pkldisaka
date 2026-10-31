@@ -40,7 +40,7 @@ const dailyRoutine = [
     title: 'Datang, Doa Bersama & Piket Pagi',
     desc: 'Peserta hadir sebelum jam 08:00. Mengawali pagi dengan doa bersama demi kelancaran hari, lalu piket pagi bareng menjaga kerapian studio kerja agar nyaman dan estetik.',
     icon: 'bi-sun-fill',
-    badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+    badgeClass: 'bg-primary-subtle text-primary-emphasis border-primary-subtle',
     bgImage: '/images/10.webp',
   },
   {
@@ -53,7 +53,7 @@ const dailyRoutine = [
     title: 'Briefing Tugas & Materi Bersama Mentor',
     desc: 'Setelah piket, kumpul santai bareng mentor. Mentor memaparkan target yang akan dikerjakan hari ini, materi praktis industri, dan arahan proyek komersial klien tanpa rasa tegang.',
     icon: 'bi-chat-dots-fill',
-    badgeClass: 'bg-info-subtle text-info border-info-subtle',
+    badgeClass: 'bg-info-subtle text-info-emphasis border-info-subtle',
     bgImage: '/images/13.webp',
   },
   {
@@ -66,7 +66,7 @@ const dailyRoutine = [
     title: 'Mengerjakan Tugas Divisi & Proyek Industri',
     desc: 'Fokus pengerjaan tugas divisi (DKV, Web Dev, SEO, Video Kreatif, atau Kemasan). Mentor selalu standby di samping untuk mendampingi jika ada kendala teknis.',
     icon: 'bi-laptop-fill',
-    badgeClass: 'bg-success-subtle text-success border-success-subtle',
+    badgeClass: 'bg-success-subtle text-success-emphasis border-success-subtle',
     bgImage: '/images/21.webp',
   },
   {
@@ -92,7 +92,7 @@ const dailyRoutine = [
     title: 'Lanjut Mengerjakan Tugas & Review Mentor',
     desc: 'Melanjutkan pengerjaan tugas proyek industri, eksplorasi ide kreatif, dan sesi review santai dari mentor untuk memastikan kualitas portofolio siswa berstandar agensi.',
     icon: 'bi-gear-wide-connected',
-    badgeClass: 'bg-primary-subtle text-primary border-primary-subtle',
+    badgeClass: 'bg-primary-subtle text-primary-emphasis border-primary-subtle',
     bgImage: '/images/12.webp',
   },
   {
@@ -105,7 +105,7 @@ const dailyRoutine = [
     title: 'Persiapan Pulang & Doa Bersama',
     desc: 'Jam 15:50 mulai bersiap-siap, merapikan file pekerjaan, menyimpan dokumen di repositori/cloud, evaluasi singkat harian, dan ditutup dengan doa bersama.',
     icon: 'bi-check-circle-fill',
-    badgeClass: 'bg-secondary-subtle text-secondary border-secondary-subtle',
+    badgeClass: 'bg-secondary-subtle text-secondary-emphasis border-secondary-subtle',
     bgImage: '/images/15.webp',
   },
   {
@@ -118,7 +118,7 @@ const dailyRoutine = [
     title: 'Piket Sore & Langsung Pulang (Bebas Lembur)',
     desc: 'Piket sore kilat merapikan workstation masing-masing. Begitu jam 16:00 tiba, seluruh anak magang langsung pulang! Tidak ada lembur malam, waktu istirahat di rumah terjamin.',
     icon: 'bi-door-open-fill',
-    badgeClass: 'bg-danger-subtle text-danger border-danger-subtle',
+    badgeClass: 'bg-danger-subtle text-danger-emphasis border-danger-subtle',
     bgImage: '/images/8.webp',
   },
 ];
@@ -254,7 +254,7 @@ const faqs = homePage.faqs;
     <div class="container mb-3">
       <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
         <div>
-          <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2.5 py-1 mb-1 font-monospace" style="font-size: 0.72rem;">
+          <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary-emphasis border border-primary-subtle rounded-pill px-2.5 py-1 mb-1 font-monospace" style="font-size: 0.72rem;">
             <i class="bi bi-mortarboard-fill text-primary"></i>
             <span>Sinergi Vokasi Industri</span>
           </div>
@@ -329,7 +329,7 @@ const faqs = homePage.faqs;
               <i class="bi bi-calendar2-week-fill"></i>
             </div>
             <div class="h6 fw-bold mb-1 text-dark">5 Hari Kerja</div>
-            <div class="badge bg-primary-subtle text-primary border border-primary-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">Senin – Jumat</div>
+            <div class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle mb-1 mb-md-2" style="font-size: 0.72rem;">Senin – Jumat</div>
             <p class="small text-muted mb-0 d-none d-sm-block">Sabtu & Minggu libur total. Waktu seimbang buat istirahat & keluarga.</p>
           </div>
         </div>
@@ -443,7 +443,7 @@ const faqs = homePage.faqs;
                   aria-controls={`routine-card-${idx}`}
                   class={`routine-pill-btn ${idx === 0 ? 'active' : ''}`}
                   data-step-target={idx}
-                  aria-label={`Lihat kegiatan ${item.time}`}
+                  aria-label={`${item.shortTime} (${item.time}) - ${item.title}`}
                 >
                   <span>{item.emoji}</span>
                   <span class="routine-pill-time">{item.shortTime}</span>
@@ -506,7 +506,7 @@ const faqs = homePage.faqs;
                           </button>
                         )}
                         {idx === dailyRoutine.length - 1 && (
-                          <span class="badge bg-success-subtle text-success border border-success-subtle">
+                          <span class="badge bg-success-subtle text-success-emphasis border border-success-subtle">
                             <i class="bi bi-check-circle-fill me-1"></i>Pulang On-Time
                           </span>
                         )}
@@ -534,7 +534,7 @@ const faqs = homePage.faqs;
     <div class="container">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
-          <div class="d-inline-flex align-items-center gap-1.5 badge bg-rose-subtle text-danger border border-danger-subtle rounded-pill px-3 py-1 mb-2 font-monospace" style="font-size: 0.74rem;">
+          <div class="d-inline-flex align-items-center gap-1.5 badge bg-danger-subtle text-danger-emphasis border border-danger-subtle rounded-pill px-3 py-1 mb-2 font-monospace" style="font-size: 0.74rem;">
             <span>✨ 100% Real Testimonials • Gen Z Approved</span>
           </div>
           <h2 class="section-heading-title mb-1">Kata Anak Magang: Serunya PKL di Saka!</h2>
@@ -856,7 +856,7 @@ const faqs = homePage.faqs;
       <div class="row g-4">
         <div class="col-md-6 col-lg-3">
           <div class="saka-card">
-            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 01</div>
+            <div class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start fw-bold">Langkah 01</div>
             <h3 class="h5 fw-bold">Pengurusan Berkas</h3>
             <p class="text-muted small">
               Siapkan Surat Pengantar resmi dari pihak sekolah/BKK, CV ringkas 1 halaman, dan portofolio karya (bagi DKV/RPL).
@@ -867,7 +867,7 @@ const faqs = homePage.faqs;
 
         <div class="col-md-6 col-lg-3">
           <div class="saka-card">
-            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 02</div>
+            <div class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start fw-bold">Langkah 02</div>
             <h3 class="h5 fw-bold">Pengiriman Berkas</h3>
             <p class="text-muted small">
               Kirimkan dokumen format PDF ke kanal narahubung resmi dengan mencantumkan nama, jurusan, dan periode magang.
@@ -878,7 +878,7 @@ const faqs = homePage.faqs;
 
         <div class="col-md-6 col-lg-3">
           <div class="saka-card">
-            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 03</div>
+            <div class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start fw-bold">Langkah 03</div>
             <h3 class="h5 fw-bold">Verifikasi & Wawancara</h3>
             <p class="text-muted small">
               Tim akan memvalidasi ketersediaan kuota divisi dan menjadwalkan sesi wawancara perkenalan secara daring/luring.
@@ -889,7 +889,7 @@ const faqs = homePage.faqs;
 
         <div class="col-md-6 col-lg-3">
           <div class="saka-card">
-            <div class="badge bg-primary-subtle text-primary mb-2 align-self-start fw-bold">Langkah 04</div>
+            <div class="badge bg-primary-subtle text-primary-emphasis mb-2 align-self-start fw-bold">Langkah 04</div>
             <h3 class="h5 fw-bold">Surat Konfirmasi</h3>
             <p class="text-muted small">
               Peserta yang diterima menerima Surat Balasan resmi untuk diserahkan kembali kepada pihak sekolah pemohon.

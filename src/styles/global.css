@@ -1397,31 +1397,46 @@ p {
   vertical-align: middle;
 }
 
-/* Floating WhatsApp Button */
+/* Floating WhatsApp Button - Optimized for WCAG AA Contrast (5.02:1) */
 .wa-float {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: #25D366;
+  background: #15803d;
   color: #ffffff;
   border-radius: var(--radius-pill);
   padding: 0.7rem 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  box-shadow: 0 8px 24px -4px rgba(37, 211, 102, 0.45);
+  box-shadow: 0 8px 24px -4px rgba(21, 128, 61, 0.45);
   font-weight: 700;
   font-size: 0.92rem;
   text-decoration: none;
   z-index: 1030;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .wa-float:hover {
+  background: #166534;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px -4px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 12px 28px -4px rgba(22, 101, 52, 0.6);
 }
+
+/* Accessibility contrast helpers & safeguards for Bootstrap subtle badges */
+.text-primary-emphasis { color: var(--bs-primary-text-emphasis, #052c65) !important; }
+.text-secondary-emphasis { color: var(--bs-secondary-text-emphasis, #2b2f32) !important; }
+.text-success-emphasis { color: var(--bs-success-text-emphasis, #0a3622) !important; }
+.text-info-emphasis { color: var(--bs-info-text-emphasis, #055160) !important; }
+.text-warning-emphasis { color: var(--bs-warning-text-emphasis, #664d03) !important; }
+.text-danger-emphasis { color: var(--bs-danger-text-emphasis, #58151c) !important; }
+
+.badge.bg-info-subtle { color: var(--bs-info-text-emphasis, #055160); }
+.badge.bg-success-subtle { color: var(--bs-success-text-emphasis, #0a3622); }
+.badge.bg-secondary-subtle { color: var(--bs-secondary-text-emphasis, #2b2f32); }
+.badge.bg-danger-subtle { color: var(--bs-danger-text-emphasis, #58151c); }
+.badge.bg-primary-subtle { color: var(--bs-primary-text-emphasis, #052c65); }
 
 /* =========================================================================
    COMPREHENSIVE RESPONSIVE MOBILE STYLES (< 768px and < 576px)
@@ -1505,7 +1520,7 @@ p {
     padding: 0;
     border-radius: 50%;
     justify-content: center;
-    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.45);
+    box-shadow: 0 4px 14px rgba(21, 128, 61, 0.45);
   }
   .wa-float span {
     display: none;
