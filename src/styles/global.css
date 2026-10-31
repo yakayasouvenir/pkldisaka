@@ -292,7 +292,7 @@ p {
 
 .home-hero-badge-pill {
   background: #0284c7;
-  background: linear-gradient(135deg, #0284c7 0%, #0089d9 100%);
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
   color: #ffffff;
   font-weight: 700;
   font-size: 0.8rem;
@@ -305,10 +305,25 @@ p {
 }
 
 .home-hero-badge-text {
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 0.85rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.home-hero-badge-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  margin-bottom: 0.1rem;
+}
+
+.home-hero-badge-sub {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.68rem;
+  line-height: 1.25;
 }
 
   .home-hero-title {
@@ -418,7 +433,7 @@ p {
 }
 
 .home-hero-badge-sub {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 0.76rem;
   font-weight: 400;
   letter-spacing: 0.01em;
