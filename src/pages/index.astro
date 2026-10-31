@@ -1016,24 +1016,42 @@ const faqs = homePage.faqs;
       const nextBtn = document.getElementById('envCarouselNext') as HTMLButtonElement | null;
       if (!track || !prevBtn || !nextBtn) return;
 
+      let isNavTicking = false;
+      let lastAtStart: boolean | null = null;
+      let lastAtEnd: boolean | null = null;
+
       function updateNavState() {
-        if (!track || !prevBtn || !nextBtn) return;
-        const atStart = track.scrollLeft <= 10;
-        const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 10;
-        prevBtn.disabled = atStart;
-        nextBtn.disabled = atEnd;
+        if (!track || !prevBtn || !nextBtn || isNavTicking) return;
+        isNavTicking = true;
+        window.requestAnimationFrame(() => {
+          const atStart = track.scrollLeft <= 10;
+          const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 10;
+          if (lastAtStart !== atStart) {
+            prevBtn.disabled = atStart;
+            lastAtStart = atStart;
+          }
+          if (lastAtEnd !== atEnd) {
+            nextBtn.disabled = atEnd;
+            lastAtEnd = atEnd;
+          }
+          isNavTicking = false;
+        });
+      }
+
+      let cachedCardWidth = 0;
+      function getCardWidth() {
+        if (cachedCardWidth > 0) return cachedCardWidth;
+        const item = track?.querySelector('.env-carousel-item') as HTMLElement | null;
+        cachedCardWidth = item ? item.offsetWidth + 20 : 340;
+        return cachedCardWidth;
       }
 
       prevBtn.addEventListener('click', () => {
-        const item = track.querySelector('.env-carousel-item') as HTMLElement | null;
-        const cardWidth = item ? item.offsetWidth + 20 : 340;
-        track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+        track.scrollBy({ left: -getCardWidth(), behavior: 'smooth' });
       });
 
       nextBtn.addEventListener('click', () => {
-        const item = track.querySelector('.env-carousel-item') as HTMLElement | null;
-        const cardWidth = item ? item.offsetWidth + 20 : 340;
-        track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+        track.scrollBy({ left: getCardWidth(), behavior: 'smooth' });
       });
 
       let isDown = false;
@@ -1085,8 +1103,16 @@ const faqs = homePage.faqs;
       );
 
       track.addEventListener('scroll', updateNavState, { passive: true });
-      window.addEventListener('resize', updateNavState, { passive: true });
-      updateNavState();
+      window.addEventListener('resize', () => {
+        cachedCardWidth = 0;
+        updateNavState();
+      }, { passive: true });
+
+      if ('requestIdleCallback' in window) {
+        (window as any).requestIdleCallback(updateNavState);
+      } else {
+        setTimeout(updateNavState, 300);
+      }
     }
 
     function setupHomeVideoModal() {

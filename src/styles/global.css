@@ -1342,7 +1342,16 @@ p {
   padding-top: 1.5rem;
   margin-top: 2.25rem;
   font-size: 0.85rem;
-  color: #6B7280;
+  color: #cbd5e1 !important;
+}
+
+.footer-bottom div,
+.footer-bottom a {
+  color: #cbd5e1 !important;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff !important;
 }
 
 /* Tables (DESIGN.md Bab 6) */
@@ -2468,7 +2477,8 @@ p {
   align-items: center;
   gap: 1.25rem;
   width: max-content;
-  animation: partnerMarqueeScroll 40s linear infinite;
+  animation: partnerMarqueeScroll 65s linear 1.5s infinite;
+  animation-fill-mode: both;
   will-change: transform;
 }
 
