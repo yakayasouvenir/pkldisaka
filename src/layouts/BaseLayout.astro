@@ -1,5 +1,5 @@
 ---
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/bootstrap-purged.css';
 import '../styles/bootstrap-icons-swap.css';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/plus-jakarta-sans';
@@ -132,17 +132,16 @@ const graph = [
     <BackToTop />
 
     <script>
-      // Load Bootstrap bundle asynchronously when idle to keep main thread completely free for LCP
-      const initBootstrap = async () => {
-        const bs = await import('bootstrap/dist/js/bootstrap.bundle.min.js');
-        (window as any).bootstrap = bs.default || bs;
-      };
-
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(initBootstrap, { timeout: 2500 });
-      } else {
-        setTimeout(initBootstrap, 1200);
-      }
+      // On-demand bootstrap loader: only loads when user interacts with accordion/modal
+      document.addEventListener('click', (e) => {
+        const target = (e.target as HTMLElement)?.closest('[data-bs-toggle]');
+        if (target && !(window as any).bootstrap) {
+          import('bootstrap/dist/js/bootstrap.bundle.min.js').then((bs: any) => {
+            (window as any).bootstrap = bs.default || bs;
+            (target as HTMLElement).click();
+          });
+        }
+      }, { passive: true });
     </script>
   </body>
 </html>

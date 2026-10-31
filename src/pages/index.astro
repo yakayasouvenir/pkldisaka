@@ -250,7 +250,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- MITRA SEKOLAH (ANIMASI 1 BARIS / CONTINUOUS RUNNING LOGO TICKER) -->
-  <section class="partner-marquee-section" aria-label="Mitra Sekolah & Kampus">
+  <section class="partner-marquee-section cv-auto" aria-label="Mitra Sekolah & Kampus">
     <div class="container mb-3">
       <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
         <div>
@@ -311,7 +311,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- JADWAL MAGANG & RUTINITAS HARIAN (DESKTOP: TIMELINE VERTIKAL TETAP, MOBILE: INTERACTIVE SWIPE DECK) -->
-  <section class="content-section" id="jadwal-rutinitas" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
+  <section class="content-section cv-auto" id="jadwal-rutinitas" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
     <div class="container">
       <div class="text-center mx-auto mb-4" style="max-width: 760px;">
         <span class="section-heading-eyebrow">Jam Kerja & Keseharian Magang</span>
@@ -530,7 +530,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- TESTIMONI GEN Z AESTHETIC (DESKTOP & MOBILE SOCIAL VIBE - RAPI & TIDAK KELUAR CARD) -->
-  <section class="content-section" id="testimoni-magang" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
+  <section class="content-section cv-auto" id="testimoni-magang" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
     <div class="container">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
@@ -698,7 +698,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- 3. VISUAL SHOWCASE: PEMBINAAN & FASILITAS KERJA NYATA (CAROUSEL / 1 BARIS SCROLL) -->
-  <section class="content-section content-section-alt" id="lingkungan-praktik">
+  <section class="content-section content-section-alt cv-auto" id="lingkungan-praktik">
     <div class="container">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end gap-3 mb-4">
         <div>
@@ -769,7 +769,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- 4. PINTASAN KE JURUSAN & DIVISI -->
-  <section class="content-section">
+  <section class="content-section cv-auto">
     <div class="container">
       <div class="row g-4 align-items-center mb-4">
         <div class="col-lg-8">
@@ -844,7 +844,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- 5. CARA DAFTAR & ALUR SELEKSI DALAM RINGKASAN FAKTUAL -->
-  <section class="content-section">
+  <section class="content-section cv-auto">
     <div class="container">
       <SectionHeading
         eyebrow="Prosedur Baku"
@@ -902,7 +902,7 @@ const faqs = homePage.faqs;
   </section>
 
   <!-- 6. PANDUAN & DOKUMEN EDUKASI TERBARU -->
-  <section class="content-section content-section-alt">
+  <section class="content-section content-section-alt cv-auto">
     <div class="container">
       <div class="row g-4 align-items-center mb-4">
         <div class="col-lg-8">
@@ -1105,11 +1105,7 @@ const faqs = homePage.faqs;
         updateNavState();
       }, { passive: true });
 
-      if ('requestIdleCallback' in window) {
-        (window as any).requestIdleCallback(updateNavState);
-      } else {
-        setTimeout(updateNavState, 300);
-      }
+      prevBtn.disabled = true;
     }
 
     function setupHomeVideoModal() {
@@ -1269,17 +1265,7 @@ const faqs = homePage.faqs;
         el.addEventListener('touchstart', () => enableSnap(el as HTMLElement), { once: true, passive: true });
       });
 
-      const activateAll = () => {
-        document.querySelectorAll('.routine-swipe-track, .testi-mobile-swipe-track, .env-carousel-track').forEach((el) => {
-          el.classList.add('has-snap');
-        });
-      };
-
-      if ('requestIdleCallback' in window) {
-        (window as any).requestIdleCallback(activateAll, { timeout: 2500 });
-      } else {
-        setTimeout(activateAll, 1800);
-      }
+      // Snap is activated purely on user touch / pointer interaction to keep page load free from compositor scroll invalidations
     }
 
     function initHomePage() {

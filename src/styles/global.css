@@ -2612,3 +2612,9 @@ p {
     scroll-behavior: auto !important;
   }
 }
+
+/* Performance: Skip rendering and layout calculation for below-the-fold content until scrolled into view */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}

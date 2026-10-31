@@ -8,7 +8,7 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
   compressHTML: true,
-  prefetch: { prefetchAll: true, defaultStrategy: 'viewport' },
+  prefetch: { prefetchAll: false, defaultStrategy: 'hover' },
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/404'),
