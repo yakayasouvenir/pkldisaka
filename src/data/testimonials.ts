@@ -28,7 +28,7 @@ export interface TestimonialItem {
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'testi-01',
-    name: 'Muhammad Sahrul Dani & Kevin Permady',
+    name: 'Muhammad Sahrul Dani & Kevin Pramudya',
     initials: 'SK',
     avatarBg: 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)',
     handle: '@sahrul.kevin',

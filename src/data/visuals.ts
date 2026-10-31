@@ -373,14 +373,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/divisi/desain-grafis/": {
-    src: "/images/12.webp",
+    src: "/images/13.webp",
     alt: "Suasana kerja peserta divisi desain grafis dan perancangan branding produk",
     caption: "Praktik desain grafis komersial, perancangan identitas visual, dan kemasan produk.",
     feature: {
-      src: "/images/1.webp",
-      alt: "Pemeriksaan sampel cetak kemasan hardbox dummy hasil karya desain grafis",
-      badge: "Packaging Kemasan",
-      caption: "Melihat wujud fisik hasil perancangan desain kemasan mulai dari kerapian lipatan hingga ketajaman warna.",
+      src: "/images/12.webp",
+      alt: "Peserta divisi desain grafis merancang materi visual dan identitas brand di workstation komputer",
+      badge: "Desain Grafis",
+      caption: "Mempelajari rancangan identitas visual, komposisi tipografi, dan file siap cetak di workstation studio.",
     },
     gallery: [
       {
@@ -423,14 +423,14 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/divisi/packaging/": {
-    src: "/images/1.webp",
+    src: "/images/26.webp",
     alt: "Pemeriksaan sampel prototipe packaging hardbox cinderamata eksklusif",
     caption: "Quality control cetak kemasan, teknik laminasi doff/glossy, dan embossing.",
     feature: {
-      src: "/images/12.webp",
-      alt: "Perancangan pola jaring-jaring pisau pond kemasan di workstation komputer",
-      badge: "Pola Kemasan",
-      caption: "Membuat kalkulasi dimensi kemasan presisi agar produk terlindungi dengan aman dan pas di dalam boks.",
+      src: "/images/1.webp",
+      alt: "Pemeriksaan sampel cetak kemasan hardbox dummy dan kerapian lipatan",
+      badge: "Packaging Kemasan",
+      caption: "Melihat wujud fisik hasil perancangan desain kemasan mulai dari kerapian lipatan hingga ketajaman warna.",
     },
     gallery: [
       {
@@ -623,7 +623,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/surat-lamaran/": {
-    src: "/images/28.webp",
+    src: "/images/3.webp",
     alt: "Format resmi surat lamaran magang dan penyerahan berkas standar BKK dan industri",
     caption: "Penyerahan berkas surat permohonan PKL resmi yang sopan, terstruktur, dan cepat disetujui HRD.",
     feature: {
@@ -648,7 +648,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/surat-pengantar/": {
-    src: "/images/24.webp",
+    src: "/images/28.webp",
     alt: "Verifikasi berkas dan penyerahan surat pengantar resmi dari pihak sekolah/kampus",
     caption: "Pentingnya kelengkapan administrasi legalitas dan surat rekomendasi dari institusi pendidikan asal siswa.",
     feature: {
@@ -673,7 +673,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/cv-magang/": {
-    src: "/images/24.webp",
+    src: "/images/4.webp",
     alt: "Penyusunan Curriculum Vitae magang ringkas 1 halaman yang ramah ATS",
     caption: "Panduan merancang CV profesional ramah ATS yang menonjolkan keterampilan utama.",
     feature: {
@@ -723,7 +723,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     ],
   },
   "/dokumen-pkl/laporan-pkl/": {
-    src: "/images/28.webp",
+    src: "/images/8.webp",
     alt: "Penyusunan bab laporan akhir PKL dan verifikasi pengesahan oleh mentor industri",
     caption: "Struktur baku laporan pertanggungjawaban kegiatan magang sesuai pedoman akademik yang disahkan mentor.",
     feature: {
