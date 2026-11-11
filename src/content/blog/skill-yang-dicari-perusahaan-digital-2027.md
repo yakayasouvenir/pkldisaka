@@ -1,5 +1,5 @@
 ---
-title: "Skill yang Paling Dicari Perusahaan Digital 2026–2027: Panduan Karier & Magang Vokasi"
+title: "Skill yang Paling Dicari Perusahaan Digital 2026–2027 Panduan Karier dan Magang Vokasi"
 description: "Daftar keterampilan teknis (hard skills) dan karakter profesional (soft skills) yang paling dibutuhkan industri digital, agensi kreatif, dan startup teknologi masa kini."
 answer: "Perusahaan digital modern mencari talenta dengan kompetensi T-shaped: memiliki keahlian teknis mendalam di satu bidang kejuruan utama, dipadukan dengan pemahaman luas seputar literasi analitik data, komunikasi kerja tim yang jelas, dan kemandirian memecahkan masalah."
 category: "Karier & Tren Industri"
