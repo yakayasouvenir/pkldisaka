@@ -11,18 +11,32 @@ const { path = '/' } = Astro.props;
 const normalize = (p: string) => (p.endsWith('/') ? p : `${p}/`);
 const currentPath = normalize(path);
 
-const isActive = (href: string) => {
+const isTopActive = (href: string) => {
   const normHref = normalize(href);
   if (normHref === '/') return currentPath === '/';
   return currentPath === normHref || currentPath.startsWith(normHref);
 };
 
-const isParentActive = (item: (typeof NAV)[number]) => {
-  if (isActive(item.href)) return true;
-  if (item.children) {
-    return item.children.some((c) => isActive(c.href));
+const isChildActive = (childHref: string, allChildren?: { href: string }[]) => {
+  const normChild = normalize(childHref);
+  if (currentPath === normChild) return true;
+  if (!allChildren) return false;
+
+  if (currentPath.startsWith(normChild)) {
+    const hasMoreSpecific = allChildren.some((other) => {
+      const normOther = normalize(other.href);
+      return normOther !== normChild && normOther.length > normChild.length && currentPath.startsWith(normOther);
+    });
+    return !hasMoreSpecific;
   }
   return false;
+};
+
+const isParentActive = (item: (typeof NAV)[number]) => {
+  if (item.children) {
+    return item.children.some((c) => isChildActive(c.href, item.children));
+  }
+  return isTopActive(item.href);
 };
 
 // Icon map for top-level navigation items
@@ -71,7 +85,7 @@ const navIcons: Record<string, string> = {
                   <div class="dropdown-card-inner">
                     {item.children.map((child) => (
                       <a
-                        class:list={['dropdown-sub-item', { active: isActive(child.href) }]}
+                        class:list={['dropdown-sub-item', { active: isChildActive(child.href, item.children) }]}
                         href={child.href}
                       >
                         {child.icon && (
@@ -91,9 +105,9 @@ const navIcons: Record<string, string> = {
             ) : (
               <li class="desktop-nav-item">
                 <a
-                  class:list={['desktop-nav-link', { active: isActive(item.href) }]}
+                  class:list={['desktop-nav-link', { active: isTopActive(item.href) }]}
                   href={item.href}
-                  aria-current={isActive(item.href) ? 'page' : undefined}
+                  aria-current={isTopActive(item.href) ? 'page' : undefined}
                 >
                   {item.label}
                 </a>
@@ -186,7 +200,7 @@ const navIcons: Record<string, string> = {
                 <div class="mobile-sub-list">
                   {item.children.map((child) => (
                     <a
-                      class:list={['mobile-sub-link', { active: isActive(child.href) }]}
+                      class:list={['mobile-sub-link', { active: isChildActive(child.href, item.children) }]}
                       href={child.href}
                     >
                       <div class="d-flex align-items-start gap-2">
@@ -208,7 +222,7 @@ const navIcons: Record<string, string> = {
           ) : (
             <div class="mobile-nav-single">
               <a
-                class:list={['mobile-single-link', { active: isActive(item.href) }]}
+                class:list={['mobile-single-link', { active: isTopActive(item.href) }]}
                 href={item.href}
               >
                 <span class="mobile-cat-icon">

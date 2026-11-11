@@ -35,7 +35,7 @@ interface HubVisualSet {
 
 const categoryVisuals: Record<string, HubVisualSet> = {
   'dokumen-pkl': {
-    hero: '/images/28.webp',
+    hero: '/images/10.webp',
     photo1: {
       src: '/images/28.webp',
       badge: 'Penyusunan Naskah',
@@ -52,7 +52,7 @@ const categoryVisuals: Record<string, HubVisualSet> = {
     },
   },
   jurusan: {
-    hero: '/images/12.webp',
+    hero: '/images/18.webp',
     photo1: {
       src: '/images/12.webp',
       badge: 'Studio DKV & Grafika',
@@ -137,7 +137,7 @@ const categoryVisuals: Record<string, HubVisualSet> = {
     },
   },
   pengalaman: {
-    hero: '/images/4.webp',
+    hero: '/images/7.webp',
     photo1: {
       src: '/images/4.webp',
       badge: 'Kelulusan Resmi',
@@ -352,7 +352,7 @@ const hubVisual = categoryVisuals[page.slug || ''] || {
               category={page.groupName}
               targetDate={child.targetDate}
               badge={child.status}
-              bgImage={getArticleVisuals(child.path).src}
+              bgImage={page.slug === 'divisi' ? getArticleVisuals(child.path).src : undefined}
             />
           </div>
         ))}

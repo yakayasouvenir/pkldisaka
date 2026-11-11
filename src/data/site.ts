@@ -126,10 +126,9 @@ export const NAV: NavItem[] = [
     ],
   },
   {
-    href: '/dokumen-pkl/',
+    href: '/dokumen-pkl/surat-lamaran/',
     label: 'Panduan & Edukasi',
     children: [
-      { href: '/dokumen-pkl/', label: 'Pusat Dokumen PKL', desc: 'Surat lamaran, CV, jurnal, laporan', icon: 'bi-file-earmark-text' },
       { href: '/dokumen-pkl/surat-lamaran/', label: 'Surat Lamaran PKL', desc: 'Format & struktur baku lamaran', icon: 'bi-envelope' },
       { href: '/dokumen-pkl/cv-magang/', label: 'CV Magang Pemula', desc: 'Format 1 halaman untuk siswa/mahasiswa', icon: 'bi-person-badge' },
       { href: '/dokumen-pkl/jurnal-harian/', label: 'Jurnal Harian PKL', desc: 'Panduan pengisian aktivitas kerja', icon: 'bi-calendar-check' },

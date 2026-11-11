@@ -58,7 +58,7 @@ export const GROUPS_INFO: Record<string, { title: string; desc: string; icon: st
     title: 'Dokumen PKL',
     desc: 'Format, contoh struktur, dan panduan administrasi berkas magang dari awal hingga laporan akhir.',
     icon: 'bi-file-earmark-text-fill',
-    path: '/dokumen-pkl/',
+    path: '/dokumen-pkl/surat-lamaran/',
   },
   B9: {
     title: 'Informasi PKL',
@@ -321,19 +321,30 @@ export const PKL_PAGES: PklPage[] = [
     categorySlug: 'program-pkl',
     title: 'Fasilitas & Lingkungan Kerja Peserta PKL | pkldisaka.com',
     h1: 'Fasilitas Pendukung Kegiatan PKL di Saka',
-    metaDescription: 'Ketahui fasilitas pendukung kerja bagi peserta PKL di Saka: ruang kerja kolaboratif, koneksi internet stabil, akses perangkat, dan ruang diskusi.',
-    summary: 'Saka menyediakan fasilitas ruang kerja yang memadai guna menunjang produktivitas dan kenyamanan peserta magang selama menjalankan tugas industri.',
+    metaDescription: 'Ketahui fasilitas pendukung kerja bagi peserta PKL di Saka: training berkala, bimbingan sampai bisa, ruang kerja kolaboratif, dan internet cepat.',
+    summary: 'Saka menyediakan fasilitas ruang kerja yang memadai dan program training berkala: peserta tidak hanya disuruh mengerjakan tugas, tetapi dibimbing intensif sampai bisa.',
     targetDate: '21/11/2026',
     status: 'Panduan Faktual',
     sections: [
       {
-        heading: 'Sarana Kerja yang Disediakan',
-        content: 'Fasilitas yang disediakan ditujukan untuk mendukung alur kerja harian peserta secara efektif:',
+        heading: 'Training Berkala & Bimbingan Intensif Sampai Bisa',
+        content: 'Salah satu fasilitas utama dan keunggulan belajar di Saka Malang adalah adanya program training berkala. Kami memegang teguh komitmen edukasi bahwa peserta magang tidak hanya disuruh mengerjakan tugas atau dilepas sendirian, melainkan dibimbing penuh oleh mentor praktisi sampai benar-benar paham dan bisa mengeksekusi proyek standar industri.',
         bullets: [
+          'Training Berkala: Sesi pelatihan rutin membahas software industri, workflow pengerjaan tugas, dan studi kasus proyek nyata.',
+          'Tidak Hanya Disuruh Mengerjakan: Peserta diajarkan logika dasar, standar estetika, dan trik teknis sebelum mengeksekusi penugasan.',
+          'Dibimbing Sampai Bisa: Pendampingan intensif 1-on-1 bersama mentor praktisi yang siap menjawab pertanyaan dan mengarahkan revisi secara sabar.',
+          'Portofolio Nyata: Setiap output dari sesi bimbingan dapat dijadikan portofolio otentik untuk melamar kerja setelah lulus.',
+        ],
+      },
+      {
+        heading: 'Sarana Kerja yang Disediakan',
+        content: 'Fasilitas fisik yang disediakan ditujukan untuk mendukung alur kerja harian peserta secara efektif dan kondusif:',
+        bullets: [
+          'Training berkala: Tidak hanya disuruh mengerjakan, tapi dibimbing secara intensif sampai bisa.',
           'Meja kerja kelompok (collaborative workspace) dengan pencahayaan dan sirkulasi udara baik.',
           'Jaringan internet berkecepatan tinggi untuk riset, pengunduhan aset kerja, dan upload tugas.',
           'Ruang pertemuan internal untuk sesi koordinasi harian (daily stand-up) dan presentasi review.',
-          'Area istirahat, fasilitas air minum, dan sarana ibadah di lingkungan kerja.',
+          'Area istirahat, fasilitas air minum gratis, dan sarana ibadah di lingkungan kerja.',
         ],
       },
       {
@@ -342,6 +353,10 @@ export const PKL_PAGES: PklPage[] = [
       },
     ],
     faqs: [
+      {
+        q: 'Apakah peserta hanya disuruh bekerja atau ada training pembimbingan?',
+        a: 'Di Saka tersedia training berkala. Peserta tidak hanya disuruh mengerjakan tugas, melainkan dibimbing secara intensif dari dasar sampai benar-benar bisa oleh mentor praktisi.',
+      },
       {
         q: 'Apakah komputer kerja disediakan untuk semua peserta?',
         a: 'Fasilitas perangkat kantor diutamakan untuk proyek tertentu. Peserta disarankan membawa laptop mandiri agar pekerjaan dan file pribadi dapat tersimpan aman.',
@@ -352,7 +367,7 @@ export const PKL_PAGES: PklPage[] = [
       },
       {
         q: 'Fasilitas apa saja yang disediakan di area kerja Saka?',
-        a: 'Tersedia koneksi internet serat optik berkecepatan tinggi, meja kerja kolaboratif, area diskusi tim, musholla, serta akses ke perangkat uji/studio.',
+        a: 'Tersedia training berkala (dibimbing sampai bisa), koneksi internet serat optik berkecepatan tinggi, meja kerja kolaboratif, area diskusi tim, musholla, serta akses ke perangkat studio.',
       },
     ],
     relatedUrls: ['/program-pkl/', '/program-pkl/alur-seleksi/', '/cara-daftar/'],
@@ -1562,43 +1577,8 @@ export const PKL_PAGES: PklPage[] = [
   },
 
   // =========================================================================
-  // B8: DOKUMEN PKL (9 URLs)
+  // B8: DOKUMEN PKL (8 URLs)
   // =========================================================================
-  {
-    id: 'B8-01',
-    group: 'B8',
-    groupName: 'Dokumen PKL',
-    path: '/dokumen-pkl/',
-    slug: 'dokumen-pkl',
-    title: 'Panduan & Format Dokumen Lengkap PKL SMK & Mahasiswa | pkldisaka.com',
-    h1: 'Pusat Panduan & Administrasi Dokumen PKL',
-    metaDescription: 'Download dan pelajari format dokumen wajib PKL: surat lamaran, surat pengantar, format CV, portofolio, jurnal harian, hingga laporan akhir magang.',
-    summary: 'Kelancaran pelaksanaan magang sangat ditentukan oleh ketertiban berkas administrasi. Temukan panduan struktur, tips penulisan, dan contoh kerangka dokumen baku.',
-    targetDate: '14/12/2026',
-    status: 'Panduan Faktual',
-    isHub: true,
-    sections: [
-      {
-        heading: 'Urgensi Tertib Administrasi Magang',
-        content: 'Dokumen magang bukan sekadar formalitas kertas, melainkan bukti otentik legalitas kegiatan belajar di luar sekolah yang diakui oleh dinas pendidikan dan kementerian.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Apakah format dokumen sekolah harus selalu sama dengan template di web ini?',
-        a: 'Template di website ini adalah panduan umum standar industri. Jika sekolah Anda memiliki format baku khusus, selalu prioritaskan format resmi dari sekolah.',
-      },
-      {
-        q: 'Format file apa yang dianjurkan saat mengirimkan dokumen administrasi?',
-        a: 'Gunakan format PDF dengan penamaan file yang rapi (contoh: CV_NamaLengkap_Jurusan.pdf) agar mudah diarsipkan dan diverifikasi tim administrasi.',
-      },
-      {
-        q: 'Siapa yang berwenang menandatangani surat pengantar dan laporan akhir?',
-        a: 'Surat pengantar ditandatangani oleh Kepala Sekolah atau Koordinator BKK/Hubin, sedangkan laporan akhir disahkan oleh mentor industri dan guru pembimbing sekolah.',
-      },
-    ],
-    relatedUrls: ['/dokumen-pkl/surat-lamaran/', '/dokumen-pkl/cv-magang/', '/dokumen-pkl/laporan-pkl/'],
-  },
   {
     id: 'B8-02',
     group: 'B8',

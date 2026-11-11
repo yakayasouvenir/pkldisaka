@@ -1,9 +1,3 @@
 ---
-import CategoryHub from '../../components/CategoryHub.astro';
-import { getPageByPath, getCategoryChildren } from '../../data/pklData';
-
-const page = getPageByPath('/dokumen-pkl/')!;
-const childrenPages = getCategoryChildren('dokumen-pkl');
+return Astro.redirect('/dokumen-pkl/surat-lamaran/', 301);
 ---
-
-<CategoryHub page={page} childrenPages={childrenPages} />

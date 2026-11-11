@@ -25,11 +25,13 @@ const crumbs = [
 const faqs = page.faqs || [];
 
 import { getArticleVisuals } from '../data/visuals';
+import { getGuideSpecialContent } from '../data/guideContent';
 
 const articleVisual = getArticleVisuals(page.path);
 const heroBg = articleVisual.src;
 const featurePhoto = articleVisual.feature.src;
 const galleryPhotos = articleVisual.gallery;
+const guideContent = getGuideSpecialContent(page.path);
 ---
 
 <BaseLayout
@@ -178,92 +180,179 @@ const galleryPhotos = articleVisual.gallery;
               </div>
             </div>
 
-            <!-- Alur SOP & Pelaksanaan Praktik Industri Terstruktur -->
-            <div class="sop-guide-box my-4 p-3 p-md-4 rounded-4 bg-white border shadow-xs">
-              <div class="d-flex align-items-center gap-2 mb-3">
-                <div class="rounded-circle bg-primary-subtle text-primary p-2 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px;">
-                  <i class="bi bi-clipboard2-check-fill"></i>
+            <!-- Jika halaman ini adalah panduan khusus, tampilkan Guide Special Box -->
+            {guideContent && (
+              <div class="guide-special-box my-4 p-3 p-md-4 rounded-4 bg-white border shadow-xs">
+                <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="rounded-circle bg-primary-subtle text-primary p-2 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px;">
+                      <i class="bi bi-journal-bookmark-fill"></i>
+                    </div>
+                    <div>
+                      <h3 class="h6 fw-bold text-dark mb-0">{guideContent.boxTitle}</h3>
+                      <p class="small text-muted mb-0">{guideContent.boxSubtitle}</p>
+                    </div>
+                  </div>
+                  <span class="badge bg-primary text-white border shadow-xs">
+                    <i class="bi bi-patch-check-fill me-1"></i>{guideContent.badge}
+                  </span>
                 </div>
-                <div>
-                  <h3 class="h6 fw-bold text-dark mb-0">Alur Standar Operasional Prosedur (SOP) Industri</h3>
-                  <p class="small text-muted mb-0">Tahapan pelaksanaan kerja terarah yang dilalui setiap peserta di Saka:</p>
-                </div>
-              </div>
 
-              <div class="sop-steps-list d-flex flex-column gap-3">
-                <div class="d-flex gap-3 align-items-start">
-                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">1</div>
-                  <div>
-                    <div class="fw-bold text-dark small">Orientasi Divisi & Pengenalan Budaya Kerja</div>
-                    <p class="small text-muted mb-0">Pemahaman tata tertib kantor, pengenalan tools kolaborasi (Trello, Slack/Drive), dan penentuan target kompetensi individu.</p>
+                {guideContent.templateCode && (
+                  <div class="guide-template-card my-3 p-3 rounded-3 bg-light border">
+                    <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-2">
+                      <span class="fw-bold small text-dark d-flex align-items-center gap-1">
+                        <i class="bi bi-file-earmark-text text-primary"></i>
+                        <span>Naskah / Format Resmi Siap Pakai:</span>
+                      </span>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary copy-guide-btn d-inline-flex align-items-center gap-1.5 rounded-pill px-3 py-1 fw-semibold"
+                        style="font-size: 0.78rem;"
+                      >
+                        <i class="bi bi-clipboard"></i>
+                        <span>Salin Format</span>
+                      </button>
+                    </div>
+                    <pre class="guide-template-pre p-3 rounded-3 bg-dark text-light font-monospace small mb-0 overflow-auto" style="max-height: 420px; white-space: pre-wrap; font-size: 0.81rem; line-height: 1.6;">{guideContent.templateCode}</pre>
                   </div>
-                </div>
-                <div class="d-flex gap-3 align-items-start">
-                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">2</div>
-                  <div>
-                    <div class="fw-bold text-dark small">Pengerjaan Proyek Industri & Asistensi Rutin</div>
-                    <p class="small text-muted mb-0">Eksekusi tugas nyata sesuai pembagian tim dengan pendampingan mentor untuk memastikan standar teknis memenuhi ekspektasi klien/pasar.</p>
-                  </div>
-                </div>
-                <div class="d-flex gap-3 align-items-start">
-                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">3</div>
-                  <div>
-                    <div class="fw-bold text-dark small">Verifikasi Portofolio & Pencatatan Jurnal Harian</div>
-                    <p class="small text-muted mb-0">Review mingguan atas output kerja, penyusunan studi kasus, dan pembubuhan tanda tangan verifikasi mentor pada buku logbook/jurnal PKL.</p>
-                  </div>
-                </div>
-                <div class="d-flex gap-3 align-items-start">
-                  <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">4</div>
-                  <div>
-                    <div class="fw-bold text-dark small">Evaluasi Akhir & Penerbitan Sertifikat Resmi</div>
-                    <p class="small text-muted mb-0">Presentasi hasil pencapaian kerja, pengisian formulir penilaian sekolah/kampus, dan penerbitan sertifikat magang berstandar industri.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                )}
 
-            <!-- Rubrik Evaluasi & Indikator Kelulusan -->
-            <div class="evaluation-rubric-box my-4 p-3 p-md-4 rounded-4 bg-light border">
-              <h3 class="h6 fw-bold text-dark mb-2">
-                <i class="bi bi-award-fill text-warning me-2"></i>Rubrik Penilaian & Indikator Kelulusan
-              </h3>
-              <p class="small text-muted mb-3">Aspek penilaian pembimbing industri yang dijadikan rujukan nilai rapor/transkrip magang:</p>
-              <div class="row g-2">
-                <div class="col-sm-6">
-                  <div class="p-2.5 bg-white rounded-3 border h-100">
-                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Kedisiplinan & Etika (25%)</div>
-                    <div class="small text-muted" style="font-size: 0.78rem;">Ketaatan jam kerja, attitude komunikasi profesional, dan kerapian lingkungan kantor.</div>
+                {guideContent.keyPoints && guideContent.keyPoints.length > 0 && (
+                  <div class="my-3">
+                    <h4 class="h6 fw-bold text-dark mb-2">
+                      <i class="bi bi-stars text-warning me-2"></i>{guideContent.keyPointsTitle || 'Poin-Poin Penting Panduan'}
+                    </h4>
+                    <div class="row g-2">
+                      {guideContent.keyPoints.map((kp) => (
+                        <div class="col-sm-6">
+                          <div class="p-3 bg-light rounded-3 border h-100">
+                            <div class="fw-bold small text-dark mb-1 d-flex align-items-center gap-2">
+                              <i class={`bi ${kp.icon}`}></i>
+                              <span>{kp.title}</span>
+                            </div>
+                            <p class="small text-muted mb-0" style="font-size: 0.8rem; line-height: 1.5;">{kp.desc}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {guideContent.checklists && guideContent.checklists.length > 0 && (
+                  <div class="my-3">
+                    <h4 class="h6 fw-bold text-dark mb-2">
+                      <i class="bi bi-check2-all text-success me-2"></i>{guideContent.checklistTitle || 'Daftar Checklist & Standar Kelayakan'}
+                    </h4>
+                    <div class="p-3 bg-light rounded-3 border">
+                      <div class="row g-2">
+                        {guideContent.checklists.map((item) => (
+                          <div class="col-sm-6">
+                            <div class="d-flex align-items-start gap-2">
+                              <i class="bi bi-check-circle-fill text-success flex-shrink-0 mt-1" style="font-size: 0.85rem;"></i>
+                              <span class="small text-dark" style="font-size: 0.82rem; line-height: 1.45;">{item}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            <!-- Alur SOP & Pelaksanaan Praktik Industri Terstruktur (Hanya untuk Jurusan & Divisi) -->
+            {!guideContent && (page.group === 'B5' || page.group === 'B6') && (
+              <div class="sop-guide-box my-4 p-3 p-md-4 rounded-4 bg-white border shadow-xs">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <div class="rounded-circle bg-primary-subtle text-primary p-2 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px;">
+                    <i class="bi bi-clipboard2-check-fill"></i>
+                  </div>
+                  <div>
+                    <h3 class="h6 fw-bold text-dark mb-0">Alur Standar Operasional Prosedur (SOP) Industri</h3>
+                    <p class="small text-muted mb-0">Tahapan pelaksanaan kerja terarah yang dilalui setiap peserta di Saka:</p>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="p-2.5 bg-white rounded-3 border h-100">
-                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Keterampilan Teknis (35%)</div>
-                    <div class="small text-muted" style="font-size: 0.78rem;">Ketelitian eksekusi, adaptasi teknologi, dan pemenuhan standar kualitas output proyek.</div>
+
+                <div class="sop-steps-list d-flex flex-column gap-3">
+                  <div class="d-flex gap-3 align-items-start">
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">1</div>
+                    <div>
+                      <div class="fw-bold text-dark small">Orientasi Divisi & Pengenalan Budaya Kerja</div>
+                      <p class="small text-muted mb-0">Pemahaman tata tertib kantor, pengenalan tools kolaborasi (Trello, Slack/Drive), dan penentuan target kompetensi individu.</p>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="p-2.5 bg-white rounded-3 border h-100">
-                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Inisiatif & Kerja Tim (20%)</div>
-                    <div class="small text-muted" style="font-size: 0.78rem;">Keaktifan bertanya, kolaborasi lintas divisi, dan kemampuan menyelesaikan hambatan.</div>
+                  <div class="d-flex gap-3 align-items-start">
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">2</div>
+                    <div>
+                      <div class="fw-bold text-dark small">Pengerjaan Proyek Industri & Asistensi Rutin</div>
+                      <p class="small text-muted mb-0">Eksekusi tugas nyata sesuai pembagian tim dengan pendampingan mentor untuk memastikan standar teknis memenuhi ekspektasi klien/pasar.</p>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="p-2.5 bg-white rounded-3 border h-100">
-                    <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Laporan & Portofolio (20%)</div>
-                    <div class="small text-muted" style="font-size: 0.78rem;">Kerapian jurnal harian, kelengkapan berkas pengesahan, dan portofolio karya nyata.</div>
+                  <div class="d-flex gap-3 align-items-start">
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">3</div>
+                    <div>
+                      <div class="fw-bold text-dark small">Verifikasi Portofolio & Pencatatan Jurnal Harian</div>
+                      <p class="small text-muted mb-0">Review mingguan atas output kerja, penyusunan studi kasus, dan pembubuhan tanda tangan verifikasi mentor pada buku logbook/jurnal PKL.</p>
+                    </div>
+                  </div>
+                  <div class="d-flex gap-3 align-items-start">
+                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 26px; height: 26px; font-weight: 700; font-size: 0.8rem; margin-top: 2px;">4</div>
+                    <div>
+                      <div class="fw-bold text-dark small">Evaluasi Akhir & Penerbitan Sertifikat Resmi</div>
+                      <p class="small text-muted mb-0">Presentasi hasil pencapaian kerja, pengisian formulir penilaian sekolah/kampus, dan penerbitan sertifikat magang berstandar industri.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
+
+            <!-- Rubrik Evaluasi & Indikator Kelulusan (Hanya untuk Jurusan & Divisi) -->
+            {!guideContent && (page.group === 'B5' || page.group === 'B6') && (
+              <div class="evaluation-rubric-box my-4 p-3 p-md-4 rounded-4 bg-light border">
+                <h3 class="h6 fw-bold text-dark mb-2">
+                  <i class="bi bi-award-fill text-warning me-2"></i>Rubrik Penilaian & Indikator Kelulusan
+                </h3>
+                <p class="small text-muted mb-3">Aspek penilaian pembimbing industri yang dijadikan rujukan nilai rapor/transkrip magang:</p>
+                <div class="row g-2">
+                  <div class="col-sm-6">
+                    <div class="p-2.5 bg-white rounded-3 border h-100">
+                      <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Kedisiplinan & Etika (25%)</div>
+                      <div class="small text-muted" style="font-size: 0.78rem;">Ketaatan jam kerja, attitude komunikasi profesional, dan kerapian lingkungan kantor.</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="p-2.5 bg-white rounded-3 border h-100">
+                      <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Keterampilan Teknis (35%)</div>
+                      <div class="small text-muted" style="font-size: 0.78rem;">Ketelitian eksekusi, adaptasi teknologi, dan pemenuhan standar kualitas output proyek.</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="p-2.5 bg-white rounded-3 border h-100">
+                      <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Inisiatif & Kerja Tim (20%)</div>
+                      <div class="small text-muted" style="font-size: 0.78rem;">Keaktifan bertanya, kolaborasi lintas divisi, dan kemampuan menyelesaikan hambatan.</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="p-2.5 bg-white rounded-3 border h-100">
+                      <div class="fw-bold small text-dark"><i class="bi bi-check2-circle text-success me-1"></i> Laporan & Portofolio (20%)</div>
+                      <div class="small text-muted" style="font-size: 0.78rem;">Kerapian jurnal harian, kelengkapan berkas pengesahan, dan portofolio karya nyata.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
 
             <!-- Tips Pembimbing Industri -->
-            <div class="mentor-protip-box">
+            <div class="mentor-protip-box my-4">
               <div class="mentor-protip-header">
                 <i class="bi bi-chat-quote-fill"></i>
-                <span>Tips dari Pembimbing Lapangan</span>
+                <span>{guideContent ? guideContent.tipsTitle : 'Tips dari Pembimbing Lapangan'}</span>
               </div>
               <p class="mentor-protip-text">
-                Kunci sukses selama menjalani program PKL bukan sekadar menyelesaikan tugas teknis, melainkan keterbukaan dalam menerima masukan (*feedback*), kedisiplinan komunikasi, dan inisiatif mendokumentasikan progres harian secara rapi untuk laporan akhir.
+                {guideContent
+                  ? guideContent.tipsContent
+                  : 'Kunci sukses selama menjalani program PKL bukan sekadar menyelesaikan tugas teknis, melainkan keterbukaan dalam menerima masukan (*feedback*), kedisiplinan komunikasi, dan inisiatif mendokumentasikan progres harian secara rapi untuk laporan akhir.'}
               </p>
             </div>
 
@@ -368,7 +457,7 @@ const galleryPhotos = articleVisual.gallery;
                 <a href="/divisi/" class="badge bg-light text-secondary border p-2 text-decoration-none rounded-pill hover-badge">
                   <i class="bi bi-diagram-3 me-1"></i>Pilihan Divisi
                 </a>
-                <a href="/dokumen-pkl/" class="badge bg-light text-secondary border p-2 text-decoration-none rounded-pill hover-badge">
+                <a href="/dokumen-pkl/surat-lamaran/" class="badge bg-light text-secondary border p-2 text-decoration-none rounded-pill hover-badge">
                   <i class="bi bi-file-earmark-text me-1"></i>Format Dokumen
                 </a>
                 <a href="/mitra/" class="badge bg-light text-secondary border p-2 text-decoration-none rounded-pill hover-badge">
@@ -394,3 +483,31 @@ const galleryPhotos = articleVisual.gallery;
 
   <CTASection />
 </BaseLayout>
+
+<script>
+  function setupGuideCopy() {
+    const copyBtns = document.querySelectorAll('.copy-guide-btn');
+    copyBtns.forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const box = btn.closest('.guide-special-box');
+        const pre = box?.querySelector('.guide-template-pre');
+        if (pre && pre.textContent) {
+          try {
+            await navigator.clipboard.writeText(pre.textContent.trim());
+            const orig = btn.innerHTML;
+            btn.innerHTML = '<i class="bi bi-check-lg text-success"></i> <span class="text-success">Tersalin!</span>';
+            btn.classList.add('border-success');
+            setTimeout(() => {
+              btn.innerHTML = orig;
+              btn.classList.remove('border-success');
+            }, 2500);
+          } catch (e) {
+            console.error('Clipboard copy failed', e);
+          }
+        }
+      });
+    });
+  }
+  document.addEventListener('DOMContentLoaded', setupGuideCopy);
+  document.addEventListener('astro:page-load', setupGuideCopy);
+</script>

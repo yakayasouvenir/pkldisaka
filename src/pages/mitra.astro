@@ -90,14 +90,46 @@ const faqs = [
           </div>
         </div>
 
+        <!-- Filter Kategori Mitra (Semua, Perguruan Tinggi, SMK Negeri, SMK Swasta) -->
+        <div class="d-flex flex-wrap align-items-center gap-2 mb-4" id="partnerFilterBar">
+          <button
+            type="button"
+            class="btn btn-sm btn-primary rounded-pill px-3 py-1.5 fw-semibold partner-filter-btn active"
+            data-filter="all"
+          >
+            Semua ({SCHOOL_PARTNERS.length})
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-light border text-secondary rounded-pill px-3 py-1.5 fw-semibold partner-filter-btn"
+            data-filter="Perguruan Tinggi Vokasi"
+          >
+            <i class="bi bi-mortarboard-fill text-primary me-1"></i> Perguruan Tinggi & Kampus ({SCHOOL_PARTNERS.filter(p => p.type === 'Perguruan Tinggi Vokasi').length})
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-light border text-secondary rounded-pill px-3 py-1.5 fw-semibold partner-filter-btn"
+            data-filter="SMK Negeri"
+          >
+            <i class="bi bi-building text-primary me-1"></i> SMK Negeri ({SCHOOL_PARTNERS.filter(p => p.type === 'SMK Negeri').length})
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm btn-light border text-secondary rounded-pill px-3 py-1.5 fw-semibold partner-filter-btn"
+            data-filter="SMK Swasta"
+          >
+            <i class="bi bi-building-check text-primary me-1"></i> SMK Swasta ({SCHOOL_PARTNERS.filter(p => p.type === 'SMK Swasta').length})
+          </button>
+        </div>
+
         <div class="partner-showcase-bg">
           <div class="row g-4">
             {SCHOOL_PARTNERS.map((p) => (
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 partner-col-item" data-category={p.type}>
                 <div class="partner-card-glass h-100 p-4 d-flex flex-column">
                   <!-- Header: Logo Sekolah & Meta Info -->
-                  <div class="d-flex align-items-center gap-3 mb-3">
-                    <div class="partner-logo-container">
+                  <div class="d-flex align-items-start gap-3 mb-3">
+                    <div class="partner-logo-container flex-shrink-0">
                       <img
                         src={p.logo}
                         alt={`Logo ${p.name}`}
@@ -108,17 +140,17 @@ const faqs = [
                       />
                     </div>
                     <div class="flex-grow-1 min-w-0">
-                      <div class="d-flex align-items-center justify-content-between gap-1 mb-1">
-                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle font-monospace" style="font-size: 0.68rem;">
+                      <h3 class="h6 fw-bold text-dark mb-1" style="font-size: 0.98rem; line-height: 1.35;">
+                        {p.name}
+                      </h3>
+                      <div class="d-flex flex-wrap align-items-center gap-2">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle font-monospace text-nowrap" style="font-size: 0.7rem; font-weight: 600;">
                           {p.type}
                         </span>
-                        <span class="small text-muted" style="font-size: 0.76rem;">
+                        <span class="small text-muted d-inline-flex align-items-center text-nowrap" style="font-size: 0.76rem;">
                           <i class="bi bi-geo-alt text-danger me-1"></i>{p.city}
                         </span>
                       </div>
-                      <h3 class="h6 fw-bold text-dark mb-0 line-clamp-2" style="font-size: 0.98rem; line-height: 1.35;">
-                        {p.name}
-                      </h3>
                     </div>
                   </div>
 
@@ -130,7 +162,7 @@ const faqs = [
                     <div class="small fw-semibold text-secondary mb-1" style="font-size: 0.78rem;">Peminatan / Jurusan:</div>
                     <div class="d-flex flex-wrap gap-1 mb-2">
                       {p.focusDepartments.map((d) => (
-                        <span class="badge bg-white text-secondary border font-monospace shadow-2xs" style="font-size: 0.7rem; font-weight: 500;">
+                        <span class="badge bg-white text-secondary border font-monospace shadow-2xs text-wrap text-start" style="font-size: 0.7rem; font-weight: 500; line-height: 1.35;">
                           {d}
                         </span>
                       ))}
@@ -222,4 +254,30 @@ const faqs = [
     secondaryHref={waLink('Halo Saka, saya ingin menanyakan kerja sama kemitraan PKL sekolah.')}
     secondaryText="Chat WhatsApp Kemitraan"
   />
+
+  <script>
+    const filterBtns = document.querySelectorAll('.partner-filter-btn');
+    const partnerCols = document.querySelectorAll<HTMLElement>('.partner-col-item');
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach((b) => {
+          b.classList.remove('btn-primary', 'active');
+          b.classList.add('btn-light', 'text-secondary');
+        });
+        btn.classList.add('btn-primary', 'active');
+        btn.classList.remove('btn-light', 'text-secondary');
+
+        const filter = btn.getAttribute('data-filter');
+        partnerCols.forEach((col) => {
+          const cat = col.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            col.style.display = '';
+          } else {
+            col.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </BaseLayout>
