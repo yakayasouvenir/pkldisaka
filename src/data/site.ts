@@ -3,18 +3,18 @@
 // =====================================================================
 
 export const SITE = {
-  name: 'pkldisaka.com',
+  name: 'pkldisaka.id',
   brandName: 'PKL Di Saka',
   legalName: 'PKL Di Saka Malang',
-  url: 'https://pkldisaka.com',
+  url: 'https://www.pkldisaka.id',
   locale: 'id-ID',
   tagline: 'Pusat Informasi & Praktik Kerja Lapangan di Kota Malang',
   description:
-    'pkldisaka.com adalah portal panduan Praktik Kerja Lapangan (PKL) terstruktur di Kota Malang: informasi program, kesesuaian jurusan, divisi kerja, dokumen magang, dan persiapan vokasi.',
+    'pkldisaka.id adalah portal panduan Praktik Kerja Lapangan (PKL) terstruktur di Kota Malang: informasi program, kesesuaian jurusan, divisi kerja, dokumen magang, dan persiapan vokasi.',
   phoneDisplay: '0821-3108-7971',
   phone: '+6282131087971',
   wa: '6282131087971',
-  email: 'info@pkldisaka.com',
+  email: 'info@pkldisaka.id',
   address: {
     street: 'Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang',
     city: 'Kota Malang',

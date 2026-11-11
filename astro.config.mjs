@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-const SITE_URL = 'https://pkldisaka.com';
+const SITE_URL = 'https://www.pkldisaka.id';
 
 export default defineConfig({
   site: SITE_URL,

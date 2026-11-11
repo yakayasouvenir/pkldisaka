@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "PKL Di Saka", url: "https://sakadigipro.com", phone: "6282131087971", phoneDisplay: "+62 821-3108-7971",
+  name: "PKL Di Saka", url: "https://www.pkldisaka.id", phone: "6282131087971", phoneDisplay: "+62 821-3108-7971",
   street: "Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang",
   city: "Kota Malang", region: "Jawa Timur", zip: "65138",
   address: "Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138",

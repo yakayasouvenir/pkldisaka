@@ -28,4 +28,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://pkldisaka.com/sitemap-index.xml
+Sitemap: https://www.pkldisaka.id/sitemap-index.xml
+Sitemap: https://www.pkldisaka.id/sitemap.xml
