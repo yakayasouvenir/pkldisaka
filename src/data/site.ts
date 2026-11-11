@@ -23,7 +23,7 @@ export const SITE = {
     country: 'ID',
     full: 'Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138',
   },
-  geo: { lat: -7.9835, lng: 112.6602 },
+  geo: { lat: -7.9907882, lng: 112.6804587 },
   hours: { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '16:00' },
   social: {
     instagram: 'https://www.instagram.com/pkldisaka',
@@ -37,7 +37,8 @@ export const SITE = {
 export const waLink = (text = 'Halo Admin PKL di Saka, saya ingin menanyakan informasi seputar pendaftaran PKL.') =>
   `https://wa.me/${SITE.wa}?text=${encodeURIComponent(text)}`;
 
-export const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.address.full)}`;
+export const mapsLink = 'https://maps.app.goo.gl/gv3sqEDHhVJedpcC8';
+export const mapsEmbedUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.0428781488056!2d112.6778838!3d-7.9907882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883be6e1709a9%3A0x2098f908691d26b1!2sTempat%20Pkl%20Di%20Malang%20(CV.SAUDGAR%20KAYA%20ABADI)!5e0!3m2!1sid!2sid!4v1731312000000!5m2!1sid!2sid';
 
 export type NavItem = {
   href: string;
