@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
@@ -8,13 +9,21 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
   compressHTML: true,
-  prefetch: { prefetchAll: false, defaultStrategy: 'hover' },
+
+  prefetch: {
+    prefetchAll: false,
+    defaultStrategy: 'hover',
+  },
+
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/404'),
-      i18n: { defaultLocale: 'id', locales: { id: 'id-ID' } },
+      filter: (page) => {
+        const pathname = new URL(page).pathname;
+        return !pathname.startsWith('/404');
+      },
     }),
   ],
+
   redirects: {
     '/cara-daftar-magang': '/cara-daftar/',
     '/program': '/program-pkl/',
@@ -23,4 +32,3 @@ export default defineConfig({
     '/program-pkl/galeri': '/galeri/',
   },
 });
-
