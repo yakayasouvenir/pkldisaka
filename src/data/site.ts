@@ -11,9 +11,9 @@ export const SITE = {
   tagline: 'Pusat Informasi & Praktik Kerja Lapangan di Kota Malang',
   description:
     'pkldisaka.id adalah portal panduan Praktik Kerja Lapangan (PKL) terstruktur di Kota Malang: informasi program, kesesuaian jurusan, divisi kerja, dokumen magang, dan persiapan vokasi.',
-  phoneDisplay: '0821-3108-7971',
-  phone: '+6282131087971',
-  wa: '6282131087971',
+  phoneDisplay: '0813-3432-1383',
+  phone: '+6281334321383',
+  wa: '6281334321383',
   email: 'info@pkldisaka.id',
   address: {
     street: 'Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang',

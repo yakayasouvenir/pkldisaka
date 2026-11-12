@@ -27,7 +27,7 @@ export default defineConfig({
   redirects: {
     '/cara-daftar-magang': '/cara-daftar/',
     '/program': '/program-pkl/',
-    '/wa': 'https://wa.me/6282131087971?text=Halo%20PKL%20Di%20Saka%2C%20saya%20ingin%20bertanya%20tentang%20magang.',
+    '/wa': 'https://wa.me/6281334321383?text=Halo%20PKL%20Di%20Saka%2C%20saya%20ingin%20bertanya%20tentang%20magang.',
     '/daftar': '/cara-daftar/',
     '/program-pkl/galeri': '/galeri/',
   },

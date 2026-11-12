@@ -476,7 +476,7 @@ export const PKL_PAGES: PklPage[] = [
         heading: 'Kanal Komunikasi Terverifikasi',
         content: 'Untuk menghindari penipuan atau informasi yang tidak akurat, pastikan Anda hanya menghubungi narahubung resmi Saka melalui jalur berikut:',
         bullets: [
-          'WhatsApp Resmi Pelayanan PKL: 0821-3108-7971 (Senin-Jumat, 08.00 - 17.00 WIB)',
+          'WhatsApp Resmi Pelayanan PKL: 0813-3432-1383 (Senin-Jumat, 08.00 - 17.00 WIB)',
           'Email Koordinasi Berkas: info@pkldisaka.com',
           'Alamat Operasional: Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138 (Layanan tatap muka dengan janji temu sebelumnya)',
         ],
@@ -493,7 +493,7 @@ export const PKL_PAGES: PklPage[] = [
       },
       {
         q: 'Berapa nomor kontak resmi yang dapat dihubungi?',
-        a: 'Layanan narahubung resmi dapat dihubungi via WhatsApp di nomor 0821-3108-7971 pada jam kerja Senin hingga Jumat pukul 08.00 - 16.00 WIB.',
+        a: 'Layanan narahubung resmi dapat dihubungi via WhatsApp di nomor 0813-3432-1383 pada jam kerja Senin hingga Jumat pukul 08.00 - 16.00 WIB.',
       },
       {
         q: 'Apakah bisa datang langsung ke kantor untuk konsultasi?',
