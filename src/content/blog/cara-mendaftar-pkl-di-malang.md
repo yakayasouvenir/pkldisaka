@@ -53,7 +53,7 @@ Pilihlah divisi yang selaras dengan keterampilan yang ingin Anda kembangkan. Jan
 
 ### 3. Cari dan Verifikasi Informasi Perusahaan di Malang
 
-Gunakan pencarian digital terpercaya atau ikuti panduan [mencari tempat PKL terdekat](/blog/tempat-pkl-terdekat/) untuk memastikan reputasi kantor. Pastikan perusahaan tersebut aktif beroperasi dan memiliki kanal narahubung resmi yang responsif.
+Gunakan pencarian digital terpercaya atau ikuti panduan [mencari tempat PKL terdekat](/blog/tempat-pkl-terdekat/) serta jelajahi informasi kuota pada halaman [tempat PKL terdekat](/tempat-pkl-terdekat/) di Malang untuk memastikan reputasi kantor. Pastikan perusahaan tersebut aktif beroperasi dan memiliki kanal narahubung resmi yang responsif.
 
 ### 4. Siapkan Dokumen Pendaftaran dalam Format Rapi
 
@@ -122,6 +122,13 @@ Di [PKL DISAKA](/) Malang, alur pendaftaran dirancang sangat praktis dan cepat:
 2. Kirimkan surat pengantar resmi sekolah dan draf CV.
 3. Sesi konsultasi minat singkat untuk mencocokkan proyek industri yang sedang berjalan.
 4. Surat Balasan Penerimaan resmi diterbitkan dalam 2–4 hari kerja untuk diserahkan ke sekolah Anda.
+
+## Rekomendasi Bacaan & Panduan Pendukung
+
+Sebelum mengirimkan berkas pendaftaran ke instansi tujuan, lengkapi persiapan Anda dengan panduan berikut:
+- **Kriteria Pemilihan Tempat PKL:** Pelajari tips memilih kantor magang di [tempat PKL terdekat untuk siswa SMK](/blog/tempat-pkl-terdekat/).
+- **Peta Rute & Titik Lokasi:** Simak cara pencarian via [tempat PKL terdekat dari rumah dengan Google Maps](/blog/tempat-pkl-terdekat-dari-rumah/).
+- **Panduan Induk Lokasi Malang:** Kunjungi informasi fasilitas lengkap pada halaman induk [tempat PKL terdekat](/tempat-pkl-terdekat/).
 
 ## Kesimpulan
 

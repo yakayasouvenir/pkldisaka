@@ -47,7 +47,7 @@ Kesesuaian bidang kerja memberikan dampak langsung pada kualitas kompetensi yang
 - **Kemudahan Penyusunan Laporan PKL:** Penugasan harian yang relevan memudahkan siswa saat mengisi buku jurnal harian dan menyusun bab pembahasan pada laporan akhir sekolah.
 - **Kesiapan Menghadapi Uji Kompetensi Keahlian (UKK):** Siswa yang terbiasa mengerjakan alur kerja industri akan lebih percaya diri dan terampil saat menghadapi ujian praktik akhir sekolah.
 
-Informasi ini berkaitan erat dengan panduan memilih [tempat PKL terdekat](/blog/tempat-pkl-terdekat/) yang tetap memprioritaskan mutu pembelajaran vokasi.
+Informasi ini berkaitan erat dengan panduan utama [tempat PKL terdekat](/tempat-pkl-terdekat/) di Kota Malang serta ulasan mendalam mengenai [tempat PKL terdekat untuk siswa SMK](/blog/tempat-pkl-terdekat/) yang tetap memprioritaskan mutu pembelajaran vokasi.
 
 <figure class="my-4 text-center">
   <img
@@ -129,6 +129,13 @@ Gunakan daftar periksa (*checklist*) berikut sebelum mengajukan berkas lamaran m
 ## Penempatan Jurusan Terstruktur di PKL DISAKA
 
 Di [PKL DISAKA](/) Malang, kurikulum pembinaan magang dirancang secara sistematis dengan pembagian divisi spesifik sesuai jurusan sekolah. Siswa SMK ditempatkan pada divisi kerja yang relevan (seperti Web Engineering untuk RPL, Network Maintenance untuk TKJ, Visual Design untuk DKV, dan Digital Marketing untuk Bisnis Daring) dengan modul pembelajaran aplikatif yang mendampingi peserta hingga mahir.
+
+## Rekomendasi Bacaan & Panduan Pendukung
+
+Untuk memperluas pemahaman Anda sebelum melamar magang, telusuri rujukan praktis berikut:
+- **Pencarian Rute dari Rumah:** Pahami cara memetakan kantor via [cara menemukan tempat PKL terdekat dari rumah dengan Google Maps](/blog/tempat-pkl-terdekat-dari-rumah/).
+- **Panduan Induk Lokasi Strategis:** Cek daftar divisi dan fasilitas di halaman utama [tempat PKL terdekat](/tempat-pkl-terdekat/).
+- **Persiapan Berkas Administrasi:** Ikuti tips pengajuan lamaran pada [cara mendaftar PKL di Malang](/blog/cara-mendaftar-pkl-di-malang/).
 
 ## Kesimpulan
 
