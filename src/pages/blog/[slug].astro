@@ -16,7 +16,8 @@ export async function getStaticPaths() {
 }
 
 const { post, allPosts } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+const tocHeadings = headings.filter((h) => h.depth === 2);
 
 const path = `/blog/${post.id}/`;
 const absUrl = new URL(path, SITE.url).toString();
@@ -170,24 +171,27 @@ if (post.data.faq && post.data.faq.length > 0) {
         </p>
       </div>
 
-      <!-- 6. TABLE OF CONTENTS (DAFTAR ISI PANDUAN) -->
-      <nav class="blog-toc" aria-label="Daftar Isi Artikel">
-        <div class="blog-toc-title">
-          <i class="bi bi-list-nested text-primary"></i>
-          <span>Daftar Isi Pembahasan:</span>
-        </div>
-        <ul>
-          <li><a href="#1-memahami">1. Pengantar & Latar Belakang Kebutuhan Industri</a></li>
-          <li><a href="#2-dokumen">2. Standar Kompetensi & Persiapan Berkas Esensial</a></li>
-          <li><a href="#3-etika">3. Tahapan Implementasi & Praktik Nyata di Lapangan</a></li>
-          <li><a href="#4-tahap">4. Evaluasi & Budaya Kerja Tim Profesional</a></li>
-          <li><a href="#5-matriks">5. Tabel Matriks Panduan Komprehensif</a></li>
-          <li><a href="#6-checklist">6. Checklist Verifikasi Mandiri Sebelum Melangkah</a></li>
-          {post.data.faq && post.data.faq.length > 0 && (
-            <li><a href="#faq-artikel">7. FAQ &mdash; Pertanyaan Umum yang Sering Diajukan</a></li>
-          )}
-        </ul>
-      </nav>
+      <!-- 6. TABLE OF CONTENTS (DAFTAR ISI PANDUAN OTOMATIS & DINAMIS) -->
+      {tocHeadings.length > 0 && (
+        <nav class="blog-toc" aria-label="Daftar Isi Artikel">
+          <div class="blog-toc-title">
+            <i class="bi bi-list-nested text-primary"></i>
+            <span>Daftar Isi Pembahasan:</span>
+          </div>
+          <ul>
+            {tocHeadings.map((h, idx) => (
+              <li>
+                <a href={`#${h.slug}`}>{idx + 1}. {h.text}</a>
+              </li>
+            ))}
+            {post.data.faq && post.data.faq.length > 0 && (
+              <li>
+                <a href="#faq-artikel">{tocHeadings.length + 1}. FAQ &mdash; Pertanyaan Umum yang Sering Diajukan</a>
+              </li>
+            )}
+          </ul>
+        </nav>
+      )}
 
       <!-- 7. ARTICLE PROSE (KONTEN LENGKAP ARTIKEL) -->
       <div class="blog-prose mb-5">
