@@ -9,9 +9,9 @@ authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
-image: "/images/5.webp"
-imageAlt: "Peta digital dan panduan pencarian lokasi tempat PKL terdekat dari rumah menggunakan perangkat ponsel"
-imageCaption: "Pemanfaatan fitur navigasi peta Google Maps untuk memetakan tempat magang terdekat dari kediaman siswa."
+image: "/images/blog/pkl-terdekat-3.webp"
+imageAlt: "Navigasi rute petunjuk arah Google Maps di smartphone menuju kantor tempat PKL terdekat"
+imageCaption: "Pemanfaatan aplikasi Google Maps untuk memetakan jarak dan rute perjalanan menuju tempat magang terdekat."
 keywords:
   - "tempat pkl terdekat dari rumah"
   - "cara mencari tempat pkl terdekat"

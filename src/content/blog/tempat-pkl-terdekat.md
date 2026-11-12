@@ -9,9 +9,9 @@ authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~7 Menit"
-image: "/images/1.webp"
-imageAlt: "Siswa SMK berdiskusi mengenai proyek magang dan rute perjalanan di studio PKL DISAKA"
-imageCaption: "Aktivitas pembekalan kerja dan koordinasi lokasi PKL bersama tim pembimbing PKL DISAKA."
+image: "/images/blog/pkl-terdekat-1.webp"
+imageAlt: "Siswa SMK membawa berkas dokumen berjalan tenang di kawasan kantor mencari tempat PKL terdekat"
+imageCaption: "Pencarian lokasi tempat PKL terdekat yang strategis dan mudah dijangkau dari rumah siswa."
 keywords:
   - "tempat pkl terdekat"
   - "tempat pkl untuk siswa smk"
@@ -50,15 +50,15 @@ Tempat pelaksanaan PKL dapat berupa perseroan, agensi digital, unit usaha kreati
 
 <figure class="my-4 text-center">
   <img
-    src="/images/2.webp"
-    alt="Siswa SMK mempelajari alur kerja profesional bersama mentor pembimbing"
+    src="/images/blog/pkl-terdekat-2.webp"
+    alt="Siswa SMK berdiskusi mengenai laporan dan proyek magang bersama mentor pembimbing di meja kantor"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengenalan lingkungan kerja dan budaya profesional bagi siswa magang di area kerja industri.
+    📸 Sesi bimbingan intensif dan evaluasi tugas harian bersama pembimbing industri di ruang kerja yang nyaman.
   </figcaption>
 </figure>
 
