@@ -40,7 +40,7 @@ Mencari tempat Praktik Kerja Lapangan (PKL) merupakan salah satu tahap penting y
 
 Tidak sedikit siswa yang mulai mencari tempat PKL terdekat agar lokasi praktik lebih mudah dijangkau dari rumah. Jarak memang menjadi pertimbangan penting, tetapi bukan satu-satunya hal yang perlu diperhatikan. Tempat PKL juga sebaiknya selaras dengan jurusan, tujuan pembelajaran, dan ketentuan sekolah.
 
-Untuk memperoleh pembinaan industri yang terstruktur dan legalitas berkas yang tertib di Kota Malang, kunjungi [beranda resmi PKL DISAKA](/) yang menghadirkan lingkungan kerja suportif bagi siswa SMK dan mahasiswa vokasi.
+Untuk memperoleh pembinaan industri yang terstruktur dan legalitas berkas yang tertib di Kota Malang, kunjungi [PKL di Saka](/) yang menghadirkan lingkungan kerja suportif bagi siswa SMK dan mahasiswa vokasi.
 
 ## Apa yang Dimaksud dengan Tempat PKL?
 
@@ -151,7 +151,7 @@ Pastikan akomodasi tempat kos, persetujuan orang tua, dan izin dari sekolah suda
 
 ## Mengenal Pilihan PKL di PKL DISAKA
 
-Bagi siswa SMK yang mencari lingkungan magang ramah pemula dengan bimbingan intensif, [portal website resmi PKL DISAKA](/) di Kota Malang membuka kesempatan penerimaan untuk berbagai divisi kejuruan:
+Bagi siswa SMK yang mencari lingkungan magang ramah pemula dengan bimbingan intensif, [PKL di Saka](/) di Kota Malang membuka kesempatan penerimaan untuk berbagai divisi kejuruan:
 
 - Divisi Rekayasa Perangkat Lunak & Web Development
 - Divisi Teknik Komputer & Jaringan (Infrastruktur & Hardware)
@@ -165,5 +165,5 @@ Di PKL DISAKA, peserta magang tidak hanya diberi tugas harian, melainkan dibimbi
 
 Menemukan tempat PKL terdekat membutuhkan evaluasi matang antara faktor jarak fisik, kesesuaian kurikulum kejuruan, ketersediaan pembimbing, serta perizinan sekolah. Jarak yang strategis akan sangat membantu kelancaran fisik harian, namun kualitas bimbingan industrilah yang menentukan masa depan karier Anda.
 
-Kunjungi [halaman utama PKL DISAKA](/) untuk melihat informasi lowongan kuota divisi, fasilitas kerja, dan konsultasi pendaftaran magang terbaru.
+Kunjungi [PKL di Saka](/) untuk melihat informasi lowongan kuota divisi, fasilitas kerja, dan konsultasi pendaftaran magang terbaru.
 

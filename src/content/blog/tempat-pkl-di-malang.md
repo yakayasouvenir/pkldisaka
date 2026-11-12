@@ -35,7 +35,7 @@ faq:
 
 Sedang mencari tempat PKL di Malang yang sesuai dengan jurusan dan kebutuhan sekolah? Sebelum menentukan pilihan, calon peserta perlu memperhatikan bidang kegiatan, persyaratan administrasi, jadwal pelaksanaan, serta kesesuaian program dengan kompetensi yang sedang dipelajari.
 
-Melalui [portal resmi PKL DISAKA](/) di Kota Malang, siswa SMK dan mahasiswa vokasi dapat mengakses informasi pembinaan praktik kerja lapangan yang berorientasi pada proyek industri riil. Calon peserta sebaiknya memeriksa informasi resmi mengenai bidang yang tersedia dan menghubungi tim PKL DISAKA untuk memastikan persyaratan serta mekanisme pendaftarannya secara transparan melalui [panduan PKL di Malang](/pkl-malang/).
+Melalui [PKL di Saka](/) di Kota Malang, siswa SMK dan mahasiswa vokasi dapat mengakses informasi pembinaan praktik kerja lapangan yang berorientasi pada proyek industri riil. Calon peserta sebaiknya memeriksa informasi resmi mengenai bidang yang tersedia dan menghubungi tim PKL DISAKA untuk memastikan persyaratan serta mekanisme pendaftarannya secara transparan melalui [panduan PKL di Malang](/pkl-malang/).
 
 ## Mengapa Memilih Tempat PKL di Malang Tidak Boleh Sembarangan?
 
@@ -166,7 +166,7 @@ Ketersediaan kegiatan untuk setiap jurusan di PKL DISAKA perlu dikonfirmasi lang
 
 ## Bagaimana PKL DISAKA Dapat Dipertimbangkan oleh Calon Peserta?
 
-PKL DISAKA dapat menjadi pilihan informasi bagi calon peserta yang sedang mencari program PKL di Malang. Sebelum menentukan pilihan, calon peserta perlu mengenali kebutuhan jurusan dan memastikan kesesuaian kegiatan melalui informasi resmi di [halaman utama PKL DISAKA](/).
+PKL DISAKA dapat menjadi pilihan informasi bagi calon peserta yang sedang mencari program PKL di Malang. Sebelum menentukan pilihan, calon peserta perlu mengenali kebutuhan jurusan dan memastikan kesesuaian kegiatan melalui informasi resmi di [PKL di Saka](/).
 
 Langkah pertama adalah menentukan bidang yang ingin dipelajari. Setelah itu, siapkan informasi asal sekolah, jurusan, periode pelaksanaan, dan dokumen yang diminta. Calon peserta juga perlu menanyakan beberapa hal penting berikut:
 

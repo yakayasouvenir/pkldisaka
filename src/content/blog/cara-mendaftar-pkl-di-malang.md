@@ -34,7 +34,7 @@ Mendapatkan tempat Praktik Kerja Lapangan (PKL) impian membutuhkan strategi dan 
 
 Proses pendaftaran di setiap industri memiliki standar yang berbeda. Beberapa tempat mensyaratkan portofolio karya, wawancara pengenalan, atau tes keahlian dasar. Dengan memahami tahapan pendaftaran sejak dini, Anda dapat meminimalkan risiko penolakan dan memastikan slot magang aman sebelum kalender sekolah dimulai.
 
-Untuk mendapatkan jalur pendaftaran yang transparan dan bebas pungutan liar di wilayah Malang, pelajari mekanismenya melalui [halaman utama PKL DISAKA](/) yang telah melayani puluhan sekolah kejuruan.
+Untuk mendapatkan jalur pendaftaran yang transparan dan bebas pungutan liar di wilayah Malang, pelajari mekanismenya melalui [PKL di Saka](/) yang telah melayani puluhan sekolah kejuruan.
 
 ## 7 Langkah Mendaftar PKL di Malang agar Cepat Diterima
 
@@ -127,5 +127,5 @@ Di [PKL DISAKA](/) Malang, alur pendaftaran dirancang sangat praktis dan cepat:
 
 Cara mendaftar PKL di Malang agar berpeluang besar diterima kuncinya terletak pada persiapan berkas sejak jauh hari, komunikasi yang sopan, dan pemilihan tempat magang yang memiliki sistem bimbingan teratur.
 
-Pastikan kuota divisi Anda aman dengan mengunjungi [portal resmi PKL DISAKA](/) dan konsultasikan jadwal magang sekolah Anda bersama tim pembina sekarang juga.
+Pastikan kuota divisi Anda aman dengan mengunjungi [PKL di Saka](/) dan konsultasikan jadwal magang sekolah Anda bersama tim pembina sekarang juga.
 

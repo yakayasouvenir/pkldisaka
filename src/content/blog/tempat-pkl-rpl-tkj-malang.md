@@ -33,7 +33,7 @@ faq:
 
 Sedang mencari tempat PKL jurusan RPL di Malang atau program praktik untuk siswa TKJ? Hal utama yang perlu diperhatikan adalah kesesuaian kegiatan dengan kompetensi yang dipelajari di sekolah.
 
-Siswa Rekayasa Perangkat Lunak (RPL) membutuhkan pengalaman yang berhubungan dengan pemrograman dan pengembangan aplikasi. Sementara itu, siswa Teknik Komputer dan Jaringan (TKJ) perlu memperkuat kemampuan mengenai komputer, sistem operasi, dan jaringan. Melalui [beranda utama PKL DISAKA](/), calon peserta dapat melihat gambaran umum ekosistem kerja teknologi yang disiapkan untuk menunjang kebutuhan kedua jurusan ini, lengkap dengan rujukan pada [panduan tempat PKL di Malang](/blog/tempat-pkl-di-malang/) dan direktori [panduan PKL di Malang](/pkl-malang/).
+Siswa Rekayasa Perangkat Lunak (RPL) membutuhkan pengalaman yang berhubungan dengan pemrograman dan pengembangan aplikasi. Sementara itu, siswa Teknik Komputer dan Jaringan (TKJ) perlu memperkuat kemampuan mengenai komputer, sistem operasi, dan jaringan. Melalui [PKL di Saka](/), calon peserta dapat melihat gambaran umum ekosistem kerja teknologi yang disiapkan untuk menunjang kebutuhan kedua jurusan ini, lengkap dengan rujukan pada [panduan tempat PKL di Malang](/blog/tempat-pkl-di-malang/) dan direktori [panduan PKL di Malang](/pkl-malang/).
 
 ## Mengapa Siswa RPL dan TKJ Perlu Memilih Tempat PKL Sesuai Jurusan?
 

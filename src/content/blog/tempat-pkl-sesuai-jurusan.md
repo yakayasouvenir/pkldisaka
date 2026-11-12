@@ -36,7 +36,7 @@ Memilih tempat Praktik Kerja Lapangan (PKL) yang sesuai jurusan merupakan pondas
 
 Oleh karena itu, siswa sangat tidak disarankan memilih lokasi hanya berdasarkan faktor kedekatan jarak atau popularitas nama perusahaan semata. Pertimbangan utama wajib dititikberatkan pada jenis pekerjaan, keterampilan teknis yang dapat dipelajari, ketersediaan mentor pembimbing, serta kesesuaian modul dengan program keahlian.
 
-Untuk mendapatkan referensi tempat magang dengan kesesuaian kompetensi yang teruji, akses [halaman beranda resmi PKL DISAKA](/) yang telah bermitra dengan berbagai SMK kejuruan unggulan di Jawa Timur.
+Untuk mendapatkan referensi tempat magang dengan kesesuaian kompetensi yang teruji, akses [PKL di Saka](/) yang telah bermitra dengan berbagai SMK kejuruan unggulan di Jawa Timur.
 
 ## Mengapa Tempat PKL Wajib Sesuai Jurusan?
 

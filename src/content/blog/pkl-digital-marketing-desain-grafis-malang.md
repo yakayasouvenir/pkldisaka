@@ -35,7 +35,7 @@ Mencari tempat PKL digital marketing Malang atau program praktik desain grafis m
 
 Digital marketing berfokus pada strategi pemasaran melalui kanal digital, seperti mesin pencari (SEO), website, marketplace, dan media sosial. Sementara itu, desain grafis berhubungan dengan penyampaian pesan melalui elemen visual seperti warna, tipografi, ilustrasi, tata letak, dan kemasan produk.
 
-Di [portal resmi PKL DISAKA](/), peserta didik SMK dan mahasiswa dapat menemukan integrasi antara pemasaran digital dengan kreasi visual industri. Anda dapat mengecek [pilihan program PKL di Malang](/blog/tempat-pkl-di-malang/) serta panduan menyeluruh seputar [peluang PKL di Malang](/pkl-malang/) untuk menyesuaikan kebutuhan divisi dengan kalender sekolah.
+Di [PKL di Saka](/), peserta didik SMK dan mahasiswa dapat menemukan integrasi antara pemasaran digital dengan kreasi visual industri. Anda dapat mengecek [pilihan program PKL di Malang](/blog/tempat-pkl-di-malang/) serta panduan menyeluruh seputar [peluang PKL di Malang](/pkl-malang/) untuk menyesuaikan kebutuhan divisi dengan kalender sekolah.
 
 ## Mengapa PKL Digital Marketing dan Desain Grafis Menarik untuk Dipelajari?
 
@@ -185,7 +185,7 @@ Format pesan santun yang dapat digunakan:
 
 > *"Selamat pagi Admin PKL DISAKA. Perkenalkan saya [Nama Lengkap], siswa kelas XI jurusan [DKV/Multimedia/Bisnis Digital] dari [Nama SMK]. Saya bermaksud menanyakan informasi ketersediaan kuota PKL divisi [Digital Marketing / Desain Grafis] untuk periode [Bulan - Bulan]. Bersama pesan ini saya sertakan CV dan portofolio karya saya. Mohon informasi terkait prosedur pendaftarannya. Terima kasih."*
 
-Informasi resmi mengenai kontak dan alamat kantor dapat diakses melalui [halaman utama PKL DISAKA](/).
+Informasi resmi mengenai kontak dan alamat kantor dapat diakses melalui [PKL di Saka](/).
 
 ## Kesimpulan
 

@@ -31,7 +31,7 @@ Menentukan lokasi Praktik Kerja Lapangan (PKL) tidak selalu mudah, terutama jika
 
 Namun, munculnya sebuah bisnis di Google Maps tidak serta-merta menjamin bahwa tempat tersebut sedang membuka kuota penerimaan magang. Siswa tetap perlu memverifikasi jenis pekerjaan, menghubungi kontak resmi, dan meminta persetujuan pihak sekolah. 
 
-Bagi Anda yang sedang merencanakan magang berkualitas, simak panduan komprehensif pada [portal resmi PKL DISAKA](/) yang telah diverifikasi langsung oleh ratusan alumni SMK di Kota Malang.
+Bagi Anda yang sedang merencanakan magang berkualitas, simak panduan komprehensif pada [PKL di Saka](/) yang telah diverifikasi langsung oleh ratusan alumni SMK di Kota Malang.
 
 ## Mengapa Google Maps Membantu Menemukan Lokasi PKL?
 
@@ -132,5 +132,5 @@ Lokasi PKL DISAKA telah terdaftar resmi dan terverifikasi di Google Maps, memuda
 
 Google Maps merupakan alat bantu yang sangat efektif untuk menemukan tempat PKL terdekat dari rumah secara cepat dan terukur. Jadikan hasil pencarian peta sebagai daftar rujukan awal, lalu teliti kesesuaian tugas, kontak resmi, dan persetujuan guru sekolah sebelum memutuskan.
 
-Jelajahi informasi alur bimbingan, fasilitas kerja, dan pilihan divisi magang terlengkap dengan mengunjungi [halaman beranda PKL DISAKA](/) sekarang juga.
+Jelajahi informasi alur bimbingan, fasilitas kerja, dan pilihan divisi magang terlengkap dengan mengunjungi [PKL di Saka](/) sekarang juga.
 
