@@ -47,14 +47,14 @@ Informasi ini dapat dijadikan dasar awal sebelum Anda menyusun daftar permohonan
 <figure class="my-4 text-center">
   <img
     src="/images/6.webp"
-    alt="Siswa memeriksa titik lokasi kantor dan rute perjalanan Google Maps sebelum melamar magang"
+    alt="Pengenalan suasana ruang kerja kantor dan etalase karya industri saat orientasi perdana siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Simulasi penentuan rute perjalanan harian menuju lokasi magang agar terhindar dari kemacetan lalu lintas.
+    📸 Pengenalan lingkungan kantor, fasilitas kerja, dan suasana operasional industri sebelum memulai masa magang.
   </figcaption>
 </figure>
 
@@ -94,14 +94,14 @@ Bawalah daftar nama perusahaan dan alamat lengkap yang telah Anda periksa kepada
 <figure class="my-4 text-center">
   <img
     src="/images/7.webp"
-    alt="Sesi diskusi dan verifikasi alamat tempat PKL bersama koordinator pembimbing"
+    alt="Sesi perpisahan hangat dan apresiasi pelepasan murid magang SMK bersama para mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Memastikan legalitas lokasi kerja dan kelayakan fasilitas praktik bersama pembimbing industri.
+    📸 Kilas balik kebersamaan, apresiasi, dan hubungan kekeluargaan yang terjalin erat selama masa praktik kerja.
   </figcaption>
 </figure>
 

@@ -109,14 +109,14 @@ Hindari tempat PKL yang membebankan biaya tanpa kejelasan fasilitas. Pahami rinc
 <figure class="my-4 text-center">
   <img
     src="/images/4.webp"
-    alt="Siswa magang memverifikasi berkas dan rute perjalanan bersama guru pembimbing"
+    alt="Momen penyerahan sertifikat kelulusan resmi bagi siswa yang telah menyelesaikan masa PKL dengan sukses"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Koordinasi administrasi dan penyesuaian kalender praktik kerja bersama guru pembimbing sekolah.
+    📸 Apresiasi sertifikat kompetensi resmi setelah peserta menuntaskan program PKL terstruktur dengan baik.
   </figcaption>
 </figure>
 

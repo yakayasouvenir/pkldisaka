@@ -9,9 +9,9 @@ authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
-image: "/images/15.webp"
-imageAlt: "Calon siswa magang menyerahkan berkas surat pengantar dan CV lamaran PKL kepada tim penerimaan"
-imageCaption: "Tahapan verifikasi berkas administrasi dan konsultasi pendaftaran magang di kantor PKL DISAKA Malang."
+image: "/images/24.webp"
+imageAlt: "Penyerahan berkas surat pengantar resmi pendaftaran PKL dan verifikasi kuota oleh tim industri"
+imageCaption: "Tahapan verifikasi berkas administrasi dan konsultasi pendaftaran magang di kantor PKL di Saka Malang."
 keywords:
   - "cara mendaftar pkl di malang"
   - "perusahaan menerima pkl di malang"
@@ -65,15 +65,15 @@ Kumpulkan seluruh dokumen dalam format file PDF beresolusi tajam (maksimal ukura
 
 <figure class="my-4 text-center">
   <img
-    src="/images/16.webp"
-    alt="Siswa magang menyusun berkas portofolio digital dan CV 1 halaman sebelum diajukan ke industri"
+    src="/images/28.webp"
+    alt="Pemeriksaan buku jurnal harian magang dan pencatatan berkas administrasi masuk siswa PKL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penyusunan berkas administrasi dan portofolio karya secara profesional mempercepat proses verifikasi.
+    📸 Pengarsipan berkas administrasi, logbook kegiatan, dan data siswa magang secara tertib dan transparan.
   </figcaption>
 </figure>
 

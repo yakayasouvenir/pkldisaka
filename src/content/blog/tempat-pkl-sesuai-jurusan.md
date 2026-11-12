@@ -9,9 +9,9 @@ authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
-image: "/images/8.webp"
-imageAlt: "Siswa SMK lintas jurusan sedang berkolaborasi mengerjakan penugasan proyek industri di studio PKL DISAKA"
-imageCaption: "Pembagian divisi kerja magang yang diselaraskan dengan kompetensi keahlian jurusan masing-masing siswa."
+image: "/images/21.webp"
+imageAlt: "Siswa SMK kejuruan teknologi dan jaringan sedang memprogram dan menguji sistem di workstation studio"
+imageCaption: "Pembagian penugasan proyek industri yang disesuaikan secara terarah dengan kompetensi keahlian kejuruan siswa."
 keywords:
   - "tempat pkl sesuai jurusan"
   - "tempat pkl jurusan tkj"
@@ -51,15 +51,15 @@ Informasi ini berkaitan erat dengan panduan memilih [tempat PKL terdekat](/blog/
 
 <figure class="my-4 text-center">
   <img
-    src="/images/11.webp"
-    alt="Siswa jurusan teknologi komputer mempelajari konfigurasi jaringan dan perangkat keras di ruang praktikum"
+    src="/images/10.webp"
+    alt="Fasilitas ruang kerja studio dan workstation komputer penunjang praktik kerja siswa kejuruan"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Praktik langsung penanganan perangkat jaringan dan pemeliharaan sistem komputer di lingkungan kerja.
+    📸 Ruang studio kerja kolaboratif dengan fasilitas workstation komputer dan koneksi internet cepat.
   </figcaption>
 </figure>
 
@@ -105,15 +105,15 @@ Prinsip relevansi kompetensi yang sama wajib diterapkan pada seluruh konsentrasi
 
 <figure class="my-4 text-center">
   <img
-    src="/images/14.webp"
-    alt="Siswa magang divisi desain grafis dan kreatif sedang mengevaluasi aset visual di workstation"
+    src="/images/12.webp"
+    alt="Siswa kejuruan DKV merancang identitas visual merek dan materi promosi kreatif di laptop"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penyelesaian tugas kreatif dan evaluasi portofolio desain visual bersama mentor praktisi.
+    📸 Pembelajaran desain komunikasi visual dan pembuatan materi kreatif yang disesuaikan dengan kebutuhan pasar.
   </figcaption>
 </figure>
 
