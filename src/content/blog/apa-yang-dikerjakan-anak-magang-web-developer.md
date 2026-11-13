@@ -1,10 +1,10 @@
----
+﻿---
 title: "Apa yang Dikerjakan Anak Magang Web Developer di Agensi Digital? Alur Kerja, Tools, dan Tugas Nyata"
 description: "Ketahui rutinitas harian anak magang web developer: slicing desain Figma ke HTML/CSS, perbaikan bug website, optimasi responsif mobile, dan alur bimbingan bersama mentor."
 answer: "Anak magang web developer di agensi digital bertugas mengonversi desain antarmuka menjadi halaman web yang responsif, mengelola komponen front-end, memperbaiki bug tampilan di berbagai ukuran layar, mempelajari optimasi kecepatan SEO web, dan berkolaborasi menggunakan Git bersama mentor industri."
 category: "Pengalaman & Teknis"
 eyebrow: "PANDUAN PRAKTIK WEB DEVELOPER INDUSTRI"
-author: "Tim Mentor Industri Saka"
+author: "Mochammad Evan Pratama"
 authorRole: "Divisi Web Engineering & SEO Technical Saka Malang"
 published: 2026-10-26
 updated: 2026-10-27
@@ -75,3 +75,4 @@ Pastikan laptop dan perlengkapan Anda sudah siap sebelum melangkah ke studio ker
 - [x] **Peramban Web untuk Pengujian:** Google Chrome atau Mozilla Firefox dengan akses Inspect Elements / DevTools yang siap digunakan.
 - [x] **Buku Catatan Teknis:** Menyiapkan buku catatan fisik atau aplikasi catatan digital untuk mencatat instruksi arsitektur proyek dan kata kunci penting dari mentor.
 - [x] **Sikap Mental Berani Bertanya:** Membiasakan diri bertanya saat menemui hambatan setelah melakukan eksplorasi mandiri.
+

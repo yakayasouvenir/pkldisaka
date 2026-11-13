@@ -1,10 +1,10 @@
----
+﻿---
 title: "Persiapan PKL TKJ untuk Siswa SMK Sebelum Memulai Magang"
 description: "Simak persiapan PKL TKJ untuk siswa SMK, mulai dari dokumen pendaftaran, keterampilan dasar, CV, portofolio, hingga sikap saat magang."
 answer: "Persiapan PKL TKJ meliputi dokumen sekolah, pemahaman materi jaringan komputer, CV satu halaman, portofolio proyek, perlengkapan kerja, dan kesiapan sikap profesional sebelum memasuki lingkungan industri."
 category: "Persiapan & Prosedur"
 eyebrow: "PANDUAN CHECKLIST MAGANG TKJ"
-author: "Van"
+author: "Mochammad Evan Pratama"
 authorRole: "Reviewer: Mochammad Evan Pratama • Koordinator Pembinaan Vokasi"
 published: 2026-11-13
 updated: 2026-11-13
@@ -154,4 +154,5 @@ Lengkapi persiapan magang Anda dengan membaca panduan terkait berikut:
 Persiapan PKL TKJ yang terencana dari sisi dokumen, keterampilan, perlengkapan, dan etika kerja akan membantu siswa menjalani kegiatan magang dengan penuh percaya diri dan meraih nilai evaluasi yang memuaskan.
 
 CV Saudagar Kaya Abadi di Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang praktik kerja industri yang berkaitan dengan website dan teknologi digital. Akses portal [PKL di Saka](/) dan halaman [PKL jurusan TKJ](/jurusan/tkj/) untuk panduan alur pendaftaran dan konsultasi kuota magang terbaru.
+
 

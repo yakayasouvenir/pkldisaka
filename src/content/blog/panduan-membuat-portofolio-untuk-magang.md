@@ -1,10 +1,10 @@
----
+﻿---
 title: "Panduan Membuat Portofolio Magang Pemula Format Struktur dan Contoh untuk Siswa SMK"
 description: "Cara praktis menyusun portofolio magang digital yang menarik dan meyakinkan recruiter industri, meski belum pernah bekerja profesional. Dilengkapi contoh kasus per jurusan."
 answer: "Portofolio magang yang efektif tidak butuh puluhan karya. Cukup pilih 2 sampai 3 karya terbaik, sertakan penjelasan singkat mengenai peranmu, alat yang digunakan, dan solusi yang dihasilkan, lalu sajikan dalam format PDF 1-3 halaman yang rapi dan mudah dibuka di ponsel."
 category: "Tips Portofolio"
 eyebrow: "PANDUAN PORTOFOLIO MAGANG & VOKASI"
-author: "Tim Mentor Industri Saka"
+author: "Mochammad Evan Pratama"
 authorRole: "Divisi Desain Kreatif & Multimedia Saka Malang"
 published: 2026-10-26
 updated: 2026-10-27
@@ -75,3 +75,4 @@ Gunakan daftar centang berikut untuk memastikan berkas portofolio Anda bebas dar
 - [x] **Bebas Plagiarisme:** Seluruh karya merupakan buatan sendiri atau hasil kolaborasi yang disebutkan peran spesifiknya.
 - [x] **Kontak Jelas:** Tercantum nomor WhatsApp aktif dan alamat email di bagian atas atau bawah halaman portofolio.
 - [x] **Format Teks Rapi:** Tidak ada kesalahan ejaan (*typo*) pada nama software atau istilah teknis kejuruan.
+

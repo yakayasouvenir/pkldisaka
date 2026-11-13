@@ -1,10 +1,10 @@
----
+﻿---
 title: "Tempat PKL Jurusan RPL dan TKJ di Malang untuk Siswa SMK Panduan Kompetensi dan Pembagian Tugas"
 description: "Mencari tempat PKL jurusan RPL dan TKJ di Malang? Pelajari kompetensi yang perlu disiapkan, contoh kegiatan, dan informasi PKL DISAKA."
 answer: "Siswa RPL dan TKJ di Malang perlu memilih tempat PKL yang spesifik melatih kompetensi kejuruan: pengembangan web, logika koding, dan basis data untuk RPL, serta pemeliharaan hardware, instalasi OS, dan jaringan komputer untuk TKJ. PKL DISAKA membuka penugasan terarah sesuai kompetensi kedua jurusan tersebut."
 category: "Kompetensi Teknologi & IT"
 eyebrow: "PANDUAN JURUSAN RPL & TKJ"
-author: "Tim Redaksi PKL DISAKA"
+author: "Mochammad Evan Pratama"
 authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-11
 updated: 2026-11-11
@@ -207,4 +207,5 @@ Kunjungi [website resmi PKL DISAKA](/) untuk memperoleh informasi kontak dan reg
 Tempat PKL jurusan RPL dan TKJ di Malang perlu dipilih berdasarkan kompetensi yang ingin dikembangkan siswa. RPL berfokus pada rancang bangun perangkat lunak dan web, sedangkan TKJ berhubungan dengan keandalan komputer dan infrastruktur jaringan.
 
 Sebelum mendaftar ke PKL DISAKA, pelajari rincian [prosedur cara daftar PKL](/cara-daftar/), siapkan CV, contoh karya proyek, rincian periode PKL, dan surat pengantar dari sekolah. Dapatkan panduan lengkap penempatan divisi melalui [sektor magang IT di Malang](/pkl-malang/) dan [website resmi PKL DISAKA](/).
+
 

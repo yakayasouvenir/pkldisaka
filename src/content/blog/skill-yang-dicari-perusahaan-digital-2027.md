@@ -1,10 +1,10 @@
----
+﻿---
 title: "Skill yang Paling Dicari Perusahaan Digital 2026–2027 Panduan Karier dan Magang Vokasi"
 description: "Daftar keterampilan teknis (hard skills) dan karakter profesional (soft skills) yang paling dibutuhkan industri digital, agensi kreatif, dan startup teknologi masa kini."
 answer: "Perusahaan digital modern mencari talenta dengan kompetensi T-shaped: memiliki keahlian teknis mendalam di satu bidang kejuruan utama, dipadukan dengan pemahaman luas seputar literasi analitik data, komunikasi kerja tim yang jelas, dan kemandirian memecahkan masalah."
 category: "Karier & Tren Industri"
 eyebrow: "PANDUAN KOMPETENSI MASA DEPAN TALENTA VOKASI"
-author: "Tim Mentor Industri Saka"
+author: "Mochammad Evan Pratama"
 authorRole: "Divisi People & Strategy Pembinaan Talenta Saka Malang"
 published: 2026-10-26
 updated: 2026-10-27
@@ -68,3 +68,4 @@ Gunakan daftar centang berikut untuk mengukur progres kemajuan diri Anda setiap 
 - [x] **Diskusi Proaktif dengan Mentor:** Mengagendakan sesi konsultasi singkat untuk meminta masukan mengenai kelemahan yang perlu diperbaiki.
 - [x] **Dokumentasi Hasil Karya:** Menyimpan file mentah dan file siap saji dari setiap tugas selesai ke folder portofolio pribadi.
 - [x] **Membangun Relasi Positif:** Berteman dan saling membantu dengan peserta magang dari divisi dan sekolah lain.
+

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Tempat PKL TKJ di Malang untuk Siswa SMK yang Ingin Mendapat Pengalaman Kerja"
 description: "Cari tempat PKL TKJ di Malang? Pelajari pilihan bidang magang, kegiatan, persiapan, dan hal yang perlu diperhatikan sebelum mendaftar."
 answer: "Tempat PKL TKJ di Malang dapat dipilih berdasarkan kompetensi jaringan, komputer, dan teknologi digital agar siswa memperoleh pengalaman kerja yang relevan. CV Saudagar Kaya Abadi di Malang menyediakan fasilitas bimbingan praktik kerja terstruktur untuk siswa kejuruan."
 category: "Panduan Vokasi & Magang"
 eyebrow: "PANDUAN PRAKTIK KERJA LAPANGAN TKJ"
-author: "Van"
+author: "Mochammad Evan Pratama"
 authorRole: "Reviewer: Mochammad Evan Pratama • Koordinator Pembinaan Vokasi"
 published: 2026-11-13
 updated: 2026-11-13
@@ -192,4 +192,5 @@ Memilih tempat PKL TKJ di Malang perlu mempertimbangkan kesesuaian bidang pekerj
 CV Saudagar Kaya Abadi di kawasan Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang PKL yang berkaitan dengan aktivitas website dan pekerjaan digital. Siswa perlu memastikan ketersediaan program serta kesesuaian tugas dengan kompetensi TKJ sebelum mendaftar.
 
 Kunjungi [PKL di Saka](/) dan telusuri halaman [PKL jurusan TKJ](/jurusan/tkj/) untuk melihat informasi kuota divisi, fasilitas kerja, dan konsultasi pendaftaran magang terbaru.
+
 

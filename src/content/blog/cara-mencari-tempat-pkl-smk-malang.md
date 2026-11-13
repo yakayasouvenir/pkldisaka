@@ -1,10 +1,10 @@
----
+﻿---
 title: "Cara Mencari Tempat PKL untuk Siswa SMK di Malang Lengkap Tahapan Syarat dan Contoh Pesan"
 description: "Bingung mencari tempat PKL untuk SMK di Malang? Pelajari langkah pencarian, dokumen yang dibutuhkan, dan cara menanyakan pendaftaran PKL DISAKA."
 answer: "Cara mencari tempat PKL untuk SMK di Malang dimulai dengan mengetahui jadwal kalender sekolah, menentukan bidang sesuai kejuruan, menyiapkan surat pengantar serta CV, menghubungi narahubung resmi 1-2 bulan sebelumnya, dan mengonfirmasi ketersediaan kuota secara sopan. PKL DISAKA menerima pendaftaran transparan untuk berbagai jurusan."
 category: "Panduan Administrasi & Pendaftaran"
 eyebrow: "PANDUAN LANGKAH & TAHAPAN PENDAFTARAN"
-author: "Tim Redaksi PKL DISAKA"
+author: "Mochammad Evan Pratama"
 authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-11
 updated: 2026-11-11
@@ -160,4 +160,5 @@ Sampaikan pertanyaan dengan jelas, gunakan tata bahasa Indonesia yang baik, dan 
 Cara mencari tempat PKL untuk siswa SMK di Malang memerlukan strategi yang disiplin dan persiapan administrasi yang tertib. Dengan menentukan bidang sesuai keahlian sejak 1–2 bulan sebelum jadwal masuk, Anda memiliki peluang jauh lebih besar untuk diterima di tempat magang yang berkualitas.
 
 Bagi Anda yang ingin mengonfirmasi kuota divisi industri digital di Malang, pelajari informasi selengkapnya melalui [panduan PKL di Malang](/pkl-malang/) dan [situs resmi PKL DISAKA](/) di Kota Malang.
+
 

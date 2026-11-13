@@ -1,10 +1,10 @@
----
+﻿---
 title: "PKL Digital Marketing dan Desain Grafis di Malang untuk Siswa SMK Keterampilan dan Portofolio"
 description: "Cari program PKL digital marketing dan desain grafis di Malang? Pelajari keterampilan, portofolio, dan cara menanyakan program PKL DISAKA."
 answer: "Program PKL digital marketing dan desain grafis di Malang melatih siswa memadukan strategi pemasaran digital (SEO, media sosial, riset pasar) dengan perancangan visual komersial (branding, layout, tipografi, dan konten multimedia). PKL DISAKA memfasilitasi kedua bidang ini melalui proyek komersial riil."
 category: "Kreatif & Pemasaran Digital"
 eyebrow: "PANDUAN BIDANG KREATIF & MARKETING"
-author: "Tim Redaksi PKL DISAKA"
+author: "Mochammad Evan Pratama"
 authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-11
 updated: 2026-11-11
@@ -192,4 +192,5 @@ Informasi resmi mengenai kontak dan alamat kantor dapat diakses melalui [PKL di 
 PKL digital marketing dan desain grafis di Malang memberikan kesempatan emas bagi siswa untuk mengasah kemampuan komunikasi visual dan strategi pemasaran digital berstandar industri.
 
 Sebelum mengajukan permohonan, pelajari tata [cara daftar PKL SMK & mahasiswa](/cara-daftar/), pastikan portofolio karya telah tersusun rapi, dan koordinasikan jadwal pelaksanaan dengan guru pembimbing sekolah. Dapatkan rincian pendaftaran melalui [panduan PKL di Malang](/pkl-malang/) dan [website resmi PKL DISAKA](/) di Kota Malang.
+
 

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Tempat PKL Sesuai Jurusan SMK untuk Memulai Karier Profesional"
 description: "Panduan memilih tempat PKL sesuai jurusan SMK. Pelajari kriteria divisi TKJ, RPL, DKV, Bisnis Digital, dan strategi mendapatkan pengalaman kerja relevan."
 answer: "Tempat PKL sesuai jurusan adalah lingkungan industri yang menyediakan fasilitas penugasan teknis selaras dengan kurikulum kejuruan siswa (seperti jaringan untuk TKJ, koding untuk RPL, atau desain visual untuk DKV). PKL DISAKA di Malang menyediakan penempatan divisi magang terstruktur yang disesuaikan dengan jurusan masing-masing siswa."
 category: "Kesesuaian Jurusan & Kompetensi"
 eyebrow: "PANDUAN KURIKULUM & DIVISI MAGANG"
-author: "Tim Redaksi PKL DISAKA"
+author: "Mochammad Evan Pratama"
 authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
@@ -142,4 +142,5 @@ Untuk memperluas pemahaman Anda sebelum melamar magang, telusuri rujukan praktis
 Tempat PKL yang ideal adalah tempat yang memberi Anda ruang bertumbuh sesuai dengan kompetensi jurusan kejuruan. Keberhasilan magang tidak dinilai dari seberapa besar gedung kantor tempat Anda beraktivitas, melainkan dari seberapa banyak keterampilan terapan yang berhasil Anda kuasai.
 
 Kunjungi [website resmi PKL DISAKA](/) untuk melihat direktori program magang per divisi jurusan dan berkonsultasi langsung mengenai kesesuaian kurikulum sekolah Anda.
+
 

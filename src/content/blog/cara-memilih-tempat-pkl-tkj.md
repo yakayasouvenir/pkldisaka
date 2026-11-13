@@ -1,10 +1,10 @@
----
+﻿---
 title: "Cara Memilih Tempat PKL TKJ yang Sesuai dengan Kompetensi Siswa"
 description: "Pelajari cara memilih tempat PKL TKJ berdasarkan kompetensi, fasilitas, pembimbing, lokasi, dan kegiatan kerja yang sesuai untuk siswa SMK."
 answer: "Cara memilih tempat PKL TKJ adalah dengan mempertimbangkan kesesuaian penugasan teknis dengan kurikulum kejuruan, ketersediaan mentor pembimbing, kelengkapan fasilitas studio, serta kejelasan administrasi sekolah agar pengalaman magang bermanfaat optimal."
 category: "Tips & Strategi Vokasi"
 eyebrow: "PANDUAN EVALUASI MITRA MAGANG"
-author: "Van"
+author: "Mochammad Evan Pratama"
 authorRole: "Reviewer: Mochammad Evan Pratama • Koordinator Pembinaan Vokasi"
 published: 2026-11-13
 updated: 2026-11-13
@@ -151,4 +151,5 @@ Untuk memperdalam persiapan memilih tempat magang Anda, baca juga artikel terkai
 Memilih tempat PKL TKJ yang tepat memerlukan evaluasi menyeluruh mengenai relevansi penugasan, keberadaan mentor pembimbing, ketersediaan fasilitas kerja, serta legalitas administrasi sekolah. Pengalaman magang yang berkualitas akan membentuk kesiapan mental dan keterampilan kerja yang nyata bagi masa depan Anda.
 
 CV Saudagar Kaya Abadi di kawasan Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang PKL di bidang website dan teknologi digital. Dapatkan informasi kuota dan konsultasi pendaftaran melalui portal [PKL di Saka](/) dan halaman [PKL jurusan TKJ](/jurusan/tkj/).
+
 

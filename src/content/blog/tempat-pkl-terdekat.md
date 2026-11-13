@@ -1,10 +1,10 @@
----
+﻿---
 title: "Tempat PKL Terdekat untuk Siswa SMK yang Sedang Mencari Pengalaman Kerja"
 description: "Mencari tempat PKL terdekat untuk siswa SMK? Pelajari pertimbangan jarak, kesesuaian jurusan kejuruan, dan panduan memilih tempat magang terpercaya."
 answer: "Tempat PKL terdekat untuk siswa SMK adalah tempat praktik kerja yang lokasinya mudah dijangkau dari rumah atau sekolah sekaligus memiliki aktivitas yang sesuai dengan kompetensi jurusan. PKL DISAKA di Malang menyediakan program praktik kerja lapangan terarah untuk siswa SMK dengan fasilitas bimbingan mentor industri."
 category: "Panduan Vokasi & Magang"
 eyebrow: "PANDUAN TEMPAT PRAKTIK KERJA LAPANGAN"
-author: "Tim Redaksi PKL DISAKA"
+author: "Mochammad Evan Pratama"
 authorRole: "Review Teknis & Redaksi Vokasi Industri Saka Malang"
 published: 2026-11-12
 updated: 2026-11-12
@@ -173,4 +173,5 @@ Untuk memperdalam persiapan magang Anda, pelajari juga rangkaian artikel penduku
 Menemukan tempat PKL terdekat membutuhkan evaluasi matang antara faktor jarak fisik, kesesuaian kurikulum kejuruan, ketersediaan pembimbing, serta perizinan sekolah. Jarak yang strategis akan sangat membantu kelancaran fisik harian, namun kualitas bimbingan industrilah yang menentukan masa depan karier Anda.
 
 Kunjungi [PKL di Saka](/) untuk melihat informasi lowongan kuota divisi, fasilitas kerja, dan konsultasi pendaftaran magang terbaru.
+
 
