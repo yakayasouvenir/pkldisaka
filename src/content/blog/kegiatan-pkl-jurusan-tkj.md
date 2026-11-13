@@ -184,3 +184,4 @@ Agar wawasan seputar pelaksanaan magang kejuruan Anda semakin komprehensif, pela
 Kegiatan PKL jurusan TKJ tidak selalu sama karena mengikuti bidang usaha dan fasilitas tempat praktik. Siswa dapat mempelajari komputer, jaringan, troubleshooting, dokumentasi, hingga pekerjaan website dan ekosistem digital.
 
 Sebelum memilih tempat, pastikan kegiatan yang ditawarkan sesuai dengan kompetensi sekolah dan terdapat pembimbing yang dapat memberikan arahan. CV Saudagar Kaya Abadi di Cemoro Kandang, Kedungkandang, dapat dihubungi melalui pusat informasi [PKL di Saka](/) dan halaman [PKL jurusan TKJ](/jurusan/tkj/) untuk menanyakan kemungkinan kegiatan PKL yang berkaitan dengan website dan pekerjaan digital.
+

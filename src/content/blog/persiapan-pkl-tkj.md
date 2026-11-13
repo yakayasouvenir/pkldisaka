@@ -154,3 +154,4 @@ Lengkapi persiapan magang Anda dengan membaca panduan terkait berikut:
 Persiapan PKL TKJ yang terencana dari sisi dokumen, keterampilan, perlengkapan, dan etika kerja akan membantu siswa menjalani kegiatan magang dengan penuh percaya diri dan meraih nilai evaluasi yang memuaskan.
 
 CV Saudagar Kaya Abadi di Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang praktik kerja industri yang berkaitan dengan website dan teknologi digital. Akses portal [PKL di Saka](/) dan halaman [PKL jurusan TKJ](/jurusan/tkj/) untuk panduan alur pendaftaran dan konsultasi kuota magang terbaru.
+

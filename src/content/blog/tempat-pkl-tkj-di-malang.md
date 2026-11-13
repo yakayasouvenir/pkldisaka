@@ -192,3 +192,4 @@ Memilih tempat PKL TKJ di Malang perlu mempertimbangkan kesesuaian bidang pekerj
 CV Saudagar Kaya Abadi di kawasan Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang PKL yang berkaitan dengan aktivitas website dan pekerjaan digital. Siswa perlu memastikan ketersediaan program serta kesesuaian tugas dengan kompetensi TKJ sebelum mendaftar.
 
 Kunjungi [PKL di Saka](/) dan telusuri halaman [PKL jurusan TKJ](/jurusan/tkj/) untuk melihat informasi kuota divisi, fasilitas kerja, dan konsultasi pendaftaran magang terbaru.
+
