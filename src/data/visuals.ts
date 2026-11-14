@@ -518,7 +518,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
         src: "/images/15.webp",
         alt: "Persiapan pulang jam 15:50, evaluasi singkat harian, doa bersama, dan pulang tepat jam 16:00",
         badge: "Pulang Tepat Waktu",
-        caption: "Budaya kerja bebas lembur: begitu jam 16:00 tiba setelah piket kilat, seluruh peserta langsung pulang.",
+        caption: "Budaya kerja disiplin dan tepat waktu: begitu jam 16:00 tiba setelah piket kilat, seluruh peserta langsung pulang.",
       },
     ],
   },
