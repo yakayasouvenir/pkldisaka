@@ -277,9 +277,16 @@ if (post.data.faq && post.data.faq.length > 0) {
       <div class="border rounded-4 p-4 mb-5 bg-light" style="border-color: rgba(226, 232, 240, 0.9) !important;">
         <div class="d-flex gap-4 align-items-start flex-column flex-sm-row">
           <div class="flex-shrink-0">
-            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center shadow-sm" style="width: 72px; height: 72px; font-size: 1.8rem;">
-              <i class="bi bi-person-badge-fill"></i>
-            </div>
+            <a href="/penulis/" title={`Lihat profil ${post.data.author}`}>
+              <img
+                src="/images/penulis-evan.webp"
+                alt={`Foto profil ${post.data.author}`}
+                class="rounded-circle shadow-sm border border-2 border-white"
+                style="width: 80px; height: 80px; object-fit: cover; object-position: top;"
+                width="80"
+                height="80"
+              />
+            </a>
           </div>
           <div class="flex-grow-1">
             <div class="small text-muted text-uppercase fw-semibold mb-1" style="letter-spacing: 0.05em; font-size: 0.75rem;">
@@ -291,19 +298,19 @@ if (post.data.faq && post.data.faq.length > 0) {
               </a>
             </div>
             <div class="small text-primary fw-semibold mb-2">
-              Penulis & Reviewer Teknis Vokasi Industri Saka Malang
+              Penulis Artikel & Reviewer Vokasi Industri CV Saudagar Kaya Abadi
             </div>
             <p class="small text-muted mb-3" style="line-height: 1.65;">
-              Praktisi industri dan pembina program vokasi di CV Saudagar Kaya Abadi Malang. Berpengalaman dalam pendampingan teknis siswa SMK dan mahasiswa di bidang teknologi jaringan, pengembangan web, SEO teknikal, serta strategi pemasaran digital untuk mempersiapkan generasi muda yang siap kerja dan berdaya saing.
+              Mochammad Evan Pratama aktif membina peserta didik vokasi tingkat SMK dan perguruan tinggi dalam program Praktik Kerja Lapangan (PKL) di Kota Malang. Berfokus pada penyiapan talenta muda di bidang Rekayasa Perangkat Lunak (RPL), Teknik Komputer dan Jaringan (TKJ), Desain Komunikasi Visual (DKV), serta Pemasaran Digital agar memiliki portofolio proyek terstandar dan mentalitas kerja profesional.
             </p>
             <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
               <div class="d-flex flex-wrap gap-2">
-                <span class="badge bg-white text-secondary border font-monospace">Penulis Teknis</span>
-                <span class="badge bg-white text-secondary border font-monospace">Praktisi Vokasi</span>
+                <span class="badge bg-white text-secondary border font-monospace">Penulis Artikel</span>
+                <span class="badge bg-white text-secondary border font-monospace">Vokasi Industri</span>
                 <span class="badge bg-white text-secondary border font-monospace">Saka Malang</span>
               </div>
-              <a href="/tentang/" class="small fw-bold text-primary text-decoration-none">
-                Pelajari Profil Lengkap Agensi Saka &rarr;
+              <a href="/penulis/" class="small fw-bold text-primary text-decoration-none">
+                Lihat Profil & Semua Artikel Penulis &rarr;
               </a>
             </div>
           </div>
