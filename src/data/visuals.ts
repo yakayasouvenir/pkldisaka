@@ -77,7 +77,7 @@ export const articleVisuals: Record<string, ArticleVisualData> = {
     alt: "Fasilitas studio pengembangan website dan workstation koding siswa SMK RPL di Saka Malang",
     caption: "Lingkungan kerja profesional dengan bimbingan praktisi software web dan fasilitas komputer berkecepatan tinggi.",
     feature: {
-      src: "/images/blog/kegiatan-pkl-jurusan-rpl.webp",
+      src: "/images/21.webp",
       alt: "Siswa SMK jurusan RPL sedang mempelajari kode web responsif dan arsitektur landing page di bawah bimbingan mentor industri",
       badge: "Praktik Web Modern",
       caption: "Peserta difasilitasi proyek pengembangan web nyata, optimasi antarmuka, dan kolaborasi repositori kode.",
