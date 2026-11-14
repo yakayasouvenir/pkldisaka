@@ -132,7 +132,7 @@ if (post.data.faq && post.data.faq.length > 0) {
 
       <!-- 3. ARTICLE METADATA BAR -->
       <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mb-4 pb-3 border-bottom">
-        <span>Ditulis oleh <strong class="text-dark">{post.data.author}</strong></span>
+        <span>Ditulis oleh <a href="/penulis/" class="text-dark fw-bold text-decoration-none border-bottom border-primary pb-1" title="Lihat profil penulis">{post.data.author}</a></span>
         <span>&bull;</span>
         <span>{formatDate(post.data.published)}</span>
         <span>&bull;</span>
@@ -286,7 +286,9 @@ if (post.data.faq && post.data.faq.length > 0) {
               Tentang Penulis
             </div>
             <div class="fw-bold fs-6 text-dark mb-1">
-              {post.data.author}
+              <a href="/penulis/" class="text-dark text-decoration-none border-bottom border-primary pb-1" title="Lihat profil dan artikel penulis">
+                {post.data.author}
+              </a>
             </div>
             <div class="small text-primary fw-semibold mb-2">
               Penulis & Reviewer Teknis Vokasi Industri Saka Malang

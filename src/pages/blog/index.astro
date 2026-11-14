@@ -95,10 +95,10 @@ const formatDate = (d: Date) =>
                 </div>
 
                 <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 pt-3 border-top mt-auto">
-                  <span class="small text-muted" style="font-size: 0.78rem;">
+                  <a href="/penulis/" class="small text-muted text-decoration-none" style="font-size: 0.78rem;" title="Lihat profil penulis">
                     <i class="bi bi-person-fill text-primary me-1"></i>
-                    {post.data.author}
-                  </span>
+                    <span class="hover-underline">{post.data.author}</span>
+                  </a>
                   <a
                     href={`/blog/${post.id}/`}
                     class="btn btn-sm btn-primary-saka d-inline-flex align-items-center gap-2 text-decoration-none"

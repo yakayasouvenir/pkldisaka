@@ -1,0 +1,138 @@
+---
+// src/pages/penulis.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StatusNotice from '../components/StatusNotice.astro';
+import CTASection from '../components/CTASection.astro';
+import { getCollection } from 'astro:content';
+import { profilePageNode } from '../lib/schema';
+
+const crumbs = [
+  { name: 'Blog', path: '/blog/' },
+  { name: 'Penulis', path: '/penulis/' },
+];
+
+const allPosts = await getCollection('blog');
+const authorName = 'Mochammad Evan Pratama';
+
+// Filter articles written by Mochammad Evan Pratama
+const authorPosts = allPosts
+  .filter((p) => p.data.author === authorName)
+  .sort((a, b) => new Date(b.data.published).getTime() - new Date(a.data.published).getTime());
+
+const formatDate = (d: Date) =>
+  new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
+---
+
+<BaseLayout
+  title={`${authorName} - Profil Penulis & Praktisi Vokasi | pkldisaka.id`}
+  description={`Profil profesional ${authorName}, praktisi industri digital dan pembina program vokasi di CV Saudagar Kaya Abadi Malang. Kumpulan artikel dan panduan magang kejuruan.`}
+  path="/penulis/"
+  crumbs={crumbs}
+>
+  <PageHero
+    eyebrow="Profil Penulis & Praktisi Industri"
+    title={authorName}
+    lead="Praktisi industri digital, pembina program vokasi SMK, dan reviewer kurikulum magang terapan di CV Saudagar Kaya Abadi Malang."
+    crumbs={crumbs}
+    bgImage="/images/blog-hero.webp"
+  />
+
+  <section class="content-section">
+    <div class="container">
+      <!-- Profile Card Summary -->
+      <div class="border rounded-4 p-4 p-md-5 mb-5 bg-white shadow-sm" style="border-color: rgba(226, 232, 240, 0.9) !important;">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-auto text-center">
+            <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center shadow" style="width: 100px; height: 100px; font-size: 2.8rem;">
+              <i class="bi bi-person-badge-fill"></i>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+              <span class="badge bg-primary text-white font-monospace px-3 py-2">Author & Mentor Vokasi</span>
+              <span class="badge bg-light text-secondary border font-monospace px-3 py-2">Saka Malang</span>
+            </div>
+            <h2 class="h4 fw-bold text-dark mb-2">{authorName}</h2>
+            <div class="text-primary fw-semibold mb-3" style="font-size: 0.95rem;">
+              Penulis Teknis & Reviewer Vokasi Industri CV Saudagar Kaya Abadi
+            </div>
+            <p class="text-muted mb-3" style="line-height: 1.7; font-size: 0.95rem;">
+              Mochammad Evan Pratama aktif membina peserta didik vokasi tingkat SMK dan perguruan tinggi dalam program Praktik Kerja Lapangan (PKL) di Kota Malang. Berfokus pada penyiapan talenta muda di bidang Rekayasa Perangkat Lunak (RPL), Teknik Komputer dan Jaringan (TKJ), Desain Komunikasi Visual (DKV), serta Pemasaran Digital agar memiliki portofolio proyek terstandar dan mentalitas kerja profesional.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark border">Rekayasa Perangkat Lunak</span>
+              <span class="badge bg-light text-dark border">Teknik Komputer & Jaringan</span>
+              <span class="badge bg-light text-dark border">SEO & Web Development</span>
+              <span class="badge bg-light text-dark border">Kurikulum Magang Industri</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <StatusNotice
+        status="Arsip Karya & Panduan"
+        note={`Menampilkan seluruh ${authorPosts.length} artikel panduan resmi yang ditulis oleh ${authorName} untuk membimbing siswa magang di Malang.`}
+      />
+
+      <!-- Articles Grid by Author -->
+      <div class="row g-4 mb-5">
+        {authorPosts.map((post) => (
+          <div class="col-lg-6 col-md-6 d-flex">
+            <article class="card border rounded-4 shadow-sm h-100 w-100 overflow-hidden d-flex flex-column hover-lift">
+              <a href={`/blog/${post.id}/`} class="blog-card-img-wrap d-block text-decoration-none position-relative" aria-label={`Baca panduan: ${post.data.title}`}>
+                <img
+                  src={post.data.image}
+                  alt={post.data.imageAlt}
+                  class="blog-card-img w-100"
+                  style="height: 230px; object-fit: cover;"
+                  loading="lazy"
+                  width="600"
+                  height="340"
+                />
+                <span class="badge bg-primary text-white position-absolute top-0 end-0 m-3 shadow-xs">
+                  {post.data.category}
+                </span>
+              </a>
+
+              <div class="card-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center gap-2 small text-muted mb-2">
+                  <span><i class="bi bi-calendar3 me-1"></i>{formatDate(post.data.published)}</span>
+                  <span>&bull;</span>
+                  <span><i class="bi bi-clock me-1"></i>{post.data.readingTime}</span>
+                </div>
+
+                <h3 class="h5 fw-bold mb-3">
+                  <a href={`/blog/${post.id}/`} class="text-dark text-decoration-none stretched-link-hover">
+                    {post.data.title}
+                  </a>
+                </h3>
+
+                <p class="text-muted small mb-3 flex-grow-1" style="line-height: 1.6;">
+                  {post.data.description}
+                </p>
+
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 pt-3 border-top mt-auto">
+                  <span class="small text-muted">
+                    <i class="bi bi-person-fill text-primary me-1"></i>{post.data.author}
+                  </span>
+                  <a
+                    href={`/blog/${post.id}/`}
+                    class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-2 text-decoration-none"
+                    style="font-size: 0.82rem;"
+                  >
+                    <span>Baca Selengkapnya</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
+
