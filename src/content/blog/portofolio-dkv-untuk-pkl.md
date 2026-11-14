@@ -57,6 +57,14 @@ Portofolio dapat menunjukkan aplikasi desain yang pernah digunakan siswa, sepert
 
 Penyelenggara PKL dapat melihat jenis pekerjaan visual yang pernah dibuat dan mempertimbangkan kesesuaiannya dengan kegiatan praktik.
 
+
+<figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+  <img src="/images/29.webp" alt="Siswa SMK DKV menyusun portofolio karya desain grafis di ruang kerja studio" class="w-full h-auto object-cover" loading="lazy" />
+  <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
+    Penyusunan tata letak dan kurasi portofolio desain visual oleh siswa SMK sebelum mengajukan magang industri.
+  </figcaption>
+</figure>
+
 ## Apa Saja Isi Portofolio Siswa DKV?
 
 Portofolio siswa DKV sebaiknya berisi karya yang menunjukkan variasi kemampuan desain. Pemilihan karya perlu disesuaikan dengan kompetensi yang ingin ditampilkan.
@@ -111,6 +119,14 @@ Jumlah karya dalam portofolio perlu mempertimbangkan kualitas, variasi, dan kete
 Lebih baik menampilkan beberapa karya berkualitas daripada memasukkan terlalu banyak desain yang kurang relevan.
 
 Setiap karya perlu memiliki tujuan dan penjelasan yang jelas.
+
+
+<figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+  <img src="/images/kenangkartu.webp" alt="Sampel karya desain merchandise kartu kenang-kenangan dan materi promosi visual" class="w-full h-auto object-cover" loading="lazy" />
+  <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
+    Dokumentasi sampel fisik hasil karya cetak desain grafis yang menjadi bukti portofolio nyata siswa DKV.
+  </figcaption>
+</figure>
 
 ## Bagaimana Cara Membuat Portofolio DKV untuk PKL?
 

@@ -81,6 +81,14 @@ Contohnya adalah menyusun materi promosi dengan menggunakan warna dan gaya visua
 
 Kegiatan ini membantu siswa memahami hubungan antara desain dan strategi komunikasi sebuah merek.
 
+
+<figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+  <img src="/images/vidioprinting.webp" alt="Siswa DKV mempelajari alur produksi cetak merchandise dan quality control produk visual" class="w-full h-auto object-cover" loading="lazy" />
+  <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
+    Praktik persiapan file cetak (pre-press) dan pengawasan mutu visual produk merchandise di CV Saudagar Kaya Abadi Malang.
+  </figcaption>
+</figure>
+
 ### 5. Mengenal Produksi Desain pada Produk Souvenir
 
 Produksi souvenir memiliki hubungan dengan kompetensi DKV karena desain dapat diterapkan pada berbagai produk promosi.

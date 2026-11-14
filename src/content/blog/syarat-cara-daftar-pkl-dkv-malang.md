@@ -1,5 +1,5 @@
 ---
-title: "Syarat dan Cara Daftar PKL DKV di Malang untuk Siswa SMK"
+title: "Syarat dan Cara Daftar [PKL jurusan DKV](/jurusan/dkv/) di Malang untuk Siswa SMK"
 description: "Cari tahu syarat dan cara daftar PKL DKV di Malang untuk siswa SMK. Persiapkan surat pengantar sekolah, CV, dan portofolio desain agar pengajuan diterima."
 answer: "Cara daftar PKL DKV di Malang diawali dengan memastikan jadwal sekolah, menyiapkan surat pengantar resmi, menyusun CV dan portofolio karya desain, lalu mengajukan permohonan ke mitra industri seperti CV Saudagar Kaya Abadi melalui saluran pendaftaran resmi."
 category: "Syarat & Pendaftaran"
@@ -26,10 +26,6 @@ faq:
   - q: "Apakah siswa DKV harus mengikuti seleksi sebelum PKL?"
     a: "Proses seleksi bergantung pada kebijakan masing-masing penyelenggara. Beberapa tempat dapat melakukan pemeriksaan dokumen atau konfirmasi terlebih dahulu."
 ---
-
-# CLUSTER 3
-
-# Syarat dan Cara Daftar PKL DKV di Malang untuk Siswa SMK
 
 **Meta Title:** Syarat dan Cara Daftar PKL DKV di Malang
 
@@ -90,6 +86,14 @@ Cara daftar PKL DKV di Malang dimulai dengan menentukan tempat praktik, meminta 
 Syarat PKL jurusan DKV umumnya mencakup dokumen administrasi sekolah, identitas peserta, dan informasi kemampuan calon peserta. Persyaratan dapat berbeda berdasarkan kebijakan masing-masing perusahaan atau penyelenggara.
 
 Siswa sebaiknya mempersiapkan dokumen berikut sebelum mengajukan permohonan.
+
+
+<figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+  <img src="/images/penyerahan-dokumen-pkl.webp" alt="Penyerahan surat permohonan PKL dan verifikasi dokumen administrasi magang DKV" class="w-full h-auto object-cover" loading="lazy" />
+  <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
+    Penyerahan berkas surat pengantar magang dari sekolah untuk verifikasi pendaftaran program PKL DKV di CV Saudagar Kaya Abadi Malang.
+  </figcaption>
+</figure>
 
 ### 1. Surat Pengantar dari Sekolah
 
@@ -156,6 +160,14 @@ Informasi yang perlu disiapkan mencakup tanggal mulai, tanggal selesai, durasi p
 Beberapa penyelenggara mungkin meminta dokumen tambahan, seperti formulir pendaftaran, surat pernyataan, atau persyaratan administrasi lainnya.
 
 Sebaiknya tanyakan terlebih dahulu agar tidak terjadi kekurangan dokumen saat pengajuan.
+
+
+<figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+  <img src="/images/30.webp" alt="Siswa SMK DKV mempersiapkan perlengkapan kerja dan software desain grafis sebelum magang" class="w-full h-auto object-cover" loading="lazy" />
+  <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
+    Orientasi persiapan teknis dan pembekalan perangkat kerja bagi peserta PKL DKV sebelum mulai menangani proyek industri.
+  </figcaption>
+</figure>
 
 ## Bagaimana Cara Daftar PKL DKV di Malang?
 
