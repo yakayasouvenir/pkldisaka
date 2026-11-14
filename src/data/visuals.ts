@@ -23,27 +23,27 @@ export interface ArticleVisualData {
 
 export const articleVisuals: Record<string, ArticleVisualData> = {
   "/jurusan/dkv/": {
-    src: "/images/12.webp",
-    alt: "Siswa jurusan DKV merancang identitas visual dan materi branding di laptop",
-    caption: "Penerapan kurikulum kejuruan DKV ke dalam proyek riil branding dan komunikasi visual komersial.",
+    src: "/images/blog/tempat-pkl-jurusan-dkv-malang.webp",
+    alt: "Siswa SMK DKV merancang identitas visual, kemasan merchandise, dan materi branding komersial",
+    caption: "Penerapan kurikulum kejuruan DKV ke dalam proyek riil branding, kemasan produk, dan komunikasi visual komersial.",
     feature: {
-      src: "/images/15.webp",
-      alt: "Sesi pemotretan produk komersial di mini studio dengan softbox lighting",
-      badge: "Praktik Studio",
-      caption: "Peserta DKV mengeksplorasi komposisi visual, sudut kamera, dan tata cahaya untuk katalog produk UMKM.",
+      src: "/images/blog/kegiatan-pkl-jurusan-dkv.webp",
+      alt: "Sesi asistensi desain grafis dan pengolahan gambar digital bersama pembimbing industri",
+      badge: "Praktik Studio Industri",
+      caption: "Peserta DKV mendalami proses layout kreatif, tipografi, dan digital imaging untuk katalog dan media promosi.",
     },
     gallery: [
       {
-        src: "/images/23.webp",
-        alt: "Persiapan tata cahaya dan setting studio foto produk komersial",
-        badge: "Setting Studio",
-        caption: "Pengaturan posisi tripod, softbox lighting, dan sudut pencahayaan untuk sesi foto produk katalog UMKM.",
+        src: "/images/12.webp",
+        alt: "Perancangan tata letak kemasan produk merchandise souvenir oleh siswa DKV",
+        badge: "Desain Kemasan",
+        caption: "Pengaturan bidang cetak, proporsi ukuran, dan warna kemasan souvenir di workshop SAKA Souvenir.",
       },
       {
-        src: "/images/13.webp",
-        alt: "Sesi review estetika dan diskusi masukan desain bersama tim kreatif",
-        badge: "Review Desain",
-        caption: "Setiap konsep visual dipresentasikan untuk mendapatkan arahan konstruktif sebelum diajukan ke klien.",
+        src: "/images/blog/portofolio-dkv-untuk-pkl.webp",
+        alt: "Sesi review kurasi karya dan portofolio desain visual bersama tim kreatif",
+        badge: "Kurasi Portofolio",
+        caption: "Setiap karya visual dipresentasikan untuk mendapatkan evaluasi mendalam sebelum dimasukkan ke portofolio siswa.",
       },
     ],
   },

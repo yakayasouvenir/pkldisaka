@@ -561,17 +561,23 @@ export const PKL_PAGES: PklPage[] = [
     sections: [
       {
         heading: 'Ruang Lingkup Praktik DKV',
-        content: 'Peserta DKV dilatih berpikir solutif dalam menerjemahkan pesan komunikasi visual ke dalam desain estetis yang berdaya jual.',
+        content: 'Peserta DKV dilatih berpikir solutif dalam menerjemahkan pesan komunikasi visual ke dalam desain estetis yang berdaya jual tinggi serta siap produksi.',
         bullets: [
-          'Perancangan feed, story, dan banner promosi untuk multiplatform digital.',
-          'Pembuatan aset visual kemasan (packaging) dan souvenir promosi.',
-          'Penerapan prinsip tipografi, teori warna, dan komposisi layout profesional.',
-          'Penggunaan standar software industri seperti Adobe Illustrator, Photoshop, dan Figma.',
+          'Perancangan feed, reels cover, story, dan banner promosi untuk multiplatform digital bisnis.',
+          'Pembuatan konsep dan tata letak kemasan produk (packaging) serta souvenir promosi komersial di SAKA Souvenir.',
+          'Penerapan prinsip tipografi modern, teori warna industri, dan komposisi visual responsif.',
+          'Penggunaan standar software industri seperti Adobe Illustrator, Photoshop, dan Figma secara terarah.',
+          'Persiapan file siap cetak (print-ready) dengan pengaturan color mode CMYK, bleed, dan resolusi standar produksi.',
         ],
       },
       {
         heading: 'Kompetensi yang Dibangun',
-        content: 'Selain kecakapan teknis desain, peserta dilatih membaca design brief klien, mempresentasikan konsep karya, serta melakukan revisi secara konstruktif.',
+        content: 'Selain kecakapan teknis desain, peserta dilatih membaca design brief klien, mempresentasikan konsep karya di hadapan tim kreatif, serta melakukan revisi secara konstruktif dan sistematis.',
+        bullets: [
+          'Komunikasi visual profesional dan pemahaman target audiens bisnis.',
+          'Manajemen aset grafis terstruktur dan konsistensi identitas merek (brand guidelines).',
+          'Kurasi karya portofolio berstandar industri yang siap diajukan untuk kelulusan dan karir masa depan.',
+        ],
       },
     ],
     faqs: [
@@ -587,8 +593,20 @@ export const PKL_PAGES: PklPage[] = [
         q: 'Software dan peralatan apa yang digunakan selama PKL di bidang ini?',
         a: 'Peserta akan menggunakan software standar industri (seperti Adobe Creative Cloud, Figma, VS Code, Git, Google Workspace, dll.) sesuai kebutuhan divisi kerja.',
       },
+      {
+        q: 'Proyek apa saja yang akan dikerjakan siswa DKV di Saka Malang?',
+        a: 'Siswa terlibat dalam proyek nyata desain identitas visual, perancangan grafis souvenir promosi di SAKA Souvenir, materi konten media sosial, dan penataan portofolio kreatif profesional.',
+      },
     ],
-    relatedUrls: ['/divisi/desain-grafis/', '/divisi/packaging/', '/dokumen-pkl/portofolio-dkv/'],
+    relatedUrls: [
+      '/blog/tempat-pkl-jurusan-dkv-malang/',
+      '/blog/kegiatan-pkl-jurusan-dkv/',
+      '/blog/portofolio-dkv-untuk-pkl/',
+      '/blog/syarat-cara-daftar-pkl-dkv-malang/',
+      '/divisi/desain-grafis/',
+      '/divisi/packaging/',
+      '/dokumen-pkl/portofolio-dkv/'
+    ],
   },
   {
     id: 'B5-03',
