@@ -185,7 +185,7 @@ Untuk melengkapi kesiapan Anda sebelum terjun ke dunia industri, pelajari juga r
 - **Kriteria Pemilihan Mitra:** Telusuri tips memilih kantor magang di [cara memilih tempat PKL TKJ sesuai kompetensi](/blog/cara-memilih-tempat-pkl-tkj/).
 - **Informasi Kurikulum Resmi:** Buka rincian capaian pembelajaran pada halaman [PKL jurusan TKJ](/jurusan/tkj/).
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Memilih tempat PKL TKJ di Malang perlu mempertimbangkan kesesuaian bidang pekerjaan, pembimbing, fasilitas, jadwal, dan persyaratan sekolah. Pengalaman PKL yang baik bukan hanya tentang menyelesaikan masa praktik, tetapi juga memahami proses kerja dan mengembangkan keterampilan nyata.
 

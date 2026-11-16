@@ -107,6 +107,6 @@ Buku jurnal harian dan laporan akhir PKL Anda akan memiliki bobot nilai yang san
 - Sertakan foto dokumentasi produk fisik dan kotak kemasan yang berhasil Anda rakit di [divisi packaging](/divisi/packaging/).
 - Buat kesimpulan dan saran mengenai optimasi efisiensi bahan di bengkel kerja.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Perbedaan mendasar antara belajar Grafika di sekolah dan bekerja di industri percetakan justru menjadi ruang belajar yang paling berharga bagi siswa SMK. Di sinilah teori bertransformasi menjadi keterampilan bernilai tinggi yang siap menghantarkan Anda menjadi tenaga ahli percetakan dan kemasan profesional. Mulailah perjalanan karir Anda bersama unit usaha terpercaya di [PKL di Saka](/) Malang.

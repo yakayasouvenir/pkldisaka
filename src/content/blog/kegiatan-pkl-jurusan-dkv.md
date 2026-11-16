@@ -197,7 +197,7 @@ Kebutuhan perangkat mengikuti kebijakan tempat PKL. Siswa sebaiknya menanyakan f
 
 Bagi siswa yang sedang mencari referensi studio magang, simak rujukan utama kami di [tempat PKL jurusan DKV di Malang](/blog/tempat-pkl-jurusan-dkv-malang/), pelajari panduan [portofolio DKV untuk PKL](/blog/portofolio-dkv-untuk-pkl/), serta tata [cara daftar PKL DKV di Malang](/blog/syarat-cara-daftar-pkl-dkv-malang/). Untuk registrasi langsung, kunjungi portal resmi [PKL di Saka](/) Malang.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Kegiatan PKL jurusan DKV memberikan pengalaman untuk menerapkan keterampilan desain dalam pekerjaan nyata. Aktivitasnya dapat mencakup desain grafis, pengolahan gambar, branding, konten digital, dan produksi media promosi.
 

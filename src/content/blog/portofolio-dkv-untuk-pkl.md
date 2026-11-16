@@ -256,7 +256,7 @@ PDF merupakan pilihan praktis karena mudah dibagikan dan dapat mempertahankan ta
 
 Setelah portofolio siap, pelajari rekomendasi [tempat PKL jurusan DKV di Malang](/blog/tempat-pkl-jurusan-dkv-malang/), ketahui ragam [kegiatan PKL jurusan DKV](/blog/kegiatan-pkl-jurusan-dkv/), dan lengkapi [syarat dan cara daftar PKL DKV di Malang](/blog/syarat-cara-daftar-pkl-dkv-malang/). Untuk mendaftar langsung ke CV Saudagar Kaya Abadi, kunjungi beranda [PKL di Saka](/) sekarang juga.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Portofolio DKV untuk PKL merupakan salah satu media penting untuk memperlihatkan kemampuan desain siswa SMK. Karya yang dipilih sebaiknya menunjukkan variasi kompetensi, seperti desain grafis, ilustrasi, branding, dan konten digital.
 

@@ -303,7 +303,7 @@ Durasi PKL mengikuti kurikulum dan ketentuan sekolah. Periode praktik perlu dise
 
 Untuk panduan mendalam lainnya, pelajari juga rincian [kegiatan PKL jurusan DKV](/blog/kegiatan-pkl-jurusan-dkv/), panduan menyusun [portofolio DKV untuk PKL](/blog/portofolio-dkv-untuk-pkl/), serta alur lengkap [syarat dan cara daftar PKL DKV di Malang](/blog/syarat-cara-daftar-pkl-dkv-malang/).
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Memilih tempat PKL jurusan DKV di Malang membutuhkan pertimbangan terhadap kesesuaian bidang pekerjaan, kesempatan praktik, dan kualitas pembimbingan. Siswa perlu mempersiapkan keterampilan desain, portofolio, serta dokumen administrasi sebelum mengajukan permohonan.
 

@@ -120,6 +120,6 @@ Bukan hanya keahlian teknis mesin yang berkembang, siswa juga mengasah *soft ski
 
 Untuk mempersiapkan diri secara optimal sebelum terjun ke dunia industri, baca panduan [tips persiapan PKL jurusan Grafika](/blog/tips-persiapan-pkl-jurusan-grafika/) serta kenali [perbedaan PKL Grafika di sekolah dan industri percetakan](/blog/perbedaan-pkl-grafika-sekolah-dan-industri/).
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Kegiatan PKL jurusan Grafika menyajikan pengalaman langsung yang dinamis dan berharga, mulai dari pengolahan file desain digital hingga wujud produk fisik kemasan dan merchandise promosi. Bergabunglah dengan program magang terakreditasi industri di [PKL di Saka](/) Malang untuk mengasah keterampilan Anda menjadi talenta grafika yang handal dan siap kerja.

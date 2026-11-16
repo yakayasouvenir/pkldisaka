@@ -333,7 +333,7 @@ Proses seleksi bergantung pada kebijakan masing-masing penyelenggara. Beberapa t
 
 Untuk mempersiapkan diri secara menyeluruh, baca juga panduan [tempat PKL jurusan DKV di Malang](/blog/tempat-pkl-jurusan-dkv-malang/), tinjau rincian [kegiatan PKL jurusan DKV](/blog/kegiatan-pkl-jurusan-dkv/), serta persiapkan [portofolio DKV untuk PKL](/blog/portofolio-dkv-untuk-pkl/) Anda. Segera ajukan kemitraan dan pendaftaran Anda melalui beranda resmi [PKL di Saka](/) Malang.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Cara daftar PKL DKV di Malang membutuhkan persiapan administrasi, CV, portofolio, dan informasi jadwal praktik yang jelas.
 

@@ -103,6 +103,6 @@ Keterampilan teknis akan menjadi sia-sia jika tidak dibarengi dengan etika kerja
 
 Untuk mengetahui detail suasana kerja dan jenis penugasan magang, baca artikel kami tentang [kegiatan PKL jurusan Grafika di percetakan](/blog/kegiatan-pkl-jurusan-grafika/) serta referensi [rekomendasi tempat PKL jurusan Grafika di Malang](/blog/rekomendasi-tempat-pkl-grafika-malang/).
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Persiapan PKL jurusan Grafika yang komprehensif akan menumbuhkan rasa percaya diri yang tinggi bagi siswa SMK. Dengan mematangkan dasar software grafis, kaidah pracetak, dan etika profesional, Anda siap menyerap ilmu sebanyak-banyaknya di [divisi packaging](/divisi/packaging/) dan workshop percetakan. Daftarkan diri Anda di sentra vokasi unggulan [PKL di Saka](/) Malang untuk memulai langkah awal karir grafika Anda.
