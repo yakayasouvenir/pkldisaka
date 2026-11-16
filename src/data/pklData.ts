@@ -828,7 +828,14 @@ export const PKL_PAGES: PklPage[] = [
         a: 'Peserta akan menggunakan software standar industri (seperti Adobe Creative Cloud, Figma, VS Code, Git, Google Workspace, dll.) sesuai kebutuhan divisi kerja.',
       },
     ],
-    relatedUrls: ['/divisi/produksi-souvenir/', '/divisi/packaging/', '/jurusan/dkv/'],
+    relatedUrls: [
+      '/blog/rekomendasi-tempat-pkl-grafika-malang/',
+      '/blog/kegiatan-pkl-jurusan-grafika/',
+      '/blog/tips-persiapan-pkl-jurusan-grafika/',
+      '/blog/perbedaan-pkl-grafika-sekolah-dan-industri/',
+      '/divisi/packaging/',
+      '/divisi/produksi-souvenir/',
+    ],
   },
   {
     id: 'B5-08',
@@ -1307,7 +1314,12 @@ export const PKL_PAGES: PklPage[] = [
         a: 'Evaluasi dilakukan setiap akhir pekan (*weekly review*) untuk membahas capaian hasil kerja, kendala teknis, serta saran perbaikan dari mentor.',
       },
     ],
-    relatedUrls: ['/jurusan/teknik-grafika/', '/jurusan/dkv/', '/divisi/produksi-souvenir/'],
+    relatedUrls: [
+      '/blog/rekomendasi-tempat-pkl-grafika-malang/',
+      '/blog/kegiatan-pkl-jurusan-grafika/',
+      '/jurusan/teknik-grafika/',
+      '/divisi/produksi-souvenir/',
+    ],
   },
 
   // =========================================================================
