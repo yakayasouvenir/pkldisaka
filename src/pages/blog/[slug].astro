@@ -31,7 +31,7 @@ const formatDate = (d: Date) =>
   new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
 
 // Related articles (other posts)
-const relatedPosts = allPosts.filter((p) => p.id !== post.id).slice(0, 2);
+const relatedPosts = allPosts.filter((p) => p.id !== post.id).slice(0, 4);
 
 // Comprehensive Structured Data (AEO & 2026-2027 Standards matching reference)
 const schemas: any[] = [
@@ -387,47 +387,33 @@ if (post.data.faq && post.data.faq.length > 0) {
           </div>
         </div>
 
-        <!-- 2. Ekosistem Vokasi Saka -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-title">
-            <i class="bi bi-mortarboard-fill text-primary"></i>
-            <span>Standar Pembinaan PKL</span>
-          </div>
-          <div class="sidebar-facts-list">
-            <div class="sidebar-fact-item">
-              <span class="fact-label">Kurikulum:</span>
-              <span class="fact-val">100% Proyek Nyata</span>
-            </div>
-            <div class="sidebar-fact-item">
-              <span class="fact-label">Biaya Pendaftaran:</span>
-              <span class="fact-val text-success">Gratis / Bebas Biaya</span>
-            </div>
-            <div class="sidebar-fact-item">
-              <span class="fact-label">Lokasi:</span>
-              <span class="fact-val">Kota Malang, Jatim</span>
-            </div>
-            <div class="sidebar-fact-item">
-              <span class="fact-label">Hasil Akhir:</span>
-              <span class="fact-val">Portofolio & Sertifikat</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3. Artikel Terkait Cepat -->
+        <!-- 2. Artikel Terkait -->
         {relatedPosts.length > 0 && (
           <div class="sidebar-widget">
             <div class="sidebar-widget-title">
               <i class="bi bi-journal-text text-primary"></i>
-              <span>Bacaan Rekomendasi</span>
+              <span>Artikel Terkait</span>
             </div>
-            <div class="d-flex flex-column gap-2">
+            <div class="d-flex flex-column gap-2.5">
               {relatedPosts.map((rel) => (
-                <a href={`/blog/${rel.id}/`} class="text-decoration-none p-2.5 border rounded bg-white hover-shadow d-block transition-all">
-                  <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.72rem;">
-                    {rel.data.category}
+                <a href={`/blog/${rel.id}/`} class="text-decoration-none p-2.5 border rounded bg-white hover-shadow d-flex align-items-center gap-2.5 transition-all">
+                  <div class="rounded overflow-hidden flex-shrink-0" style="width: 64px; height: 64px;">
+                    <img
+                      src={rel.data.image}
+                      alt={rel.data.title}
+                      width="64"
+                      height="64"
+                      class="w-100 h-100 object-fit-cover"
+                      loading="lazy"
+                    />
                   </div>
-                  <div class="fw-bold text-dark small line-clamp-2" style="font-size: 0.85rem; line-height: 1.35;">
-                    {rel.data.title} &rarr;
+                  <div class="flex-grow-1 min-w-0">
+                    <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.7rem;">
+                      {rel.data.category}
+                    </div>
+                    <div class="fw-bold text-dark small text-truncate-2" style="font-size: 0.82rem; line-height: 1.35;">
+                      {rel.data.title}
+                    </div>
                   </div>
                 </a>
               ))}
