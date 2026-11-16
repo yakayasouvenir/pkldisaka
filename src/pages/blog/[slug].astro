@@ -2,7 +2,7 @@
 // src/pages/blog/[slug].astro
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
-import { SITE, waLink } from '../../data/site';
+import { SITE, mapsLink, waLink } from '../../data/site';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -317,39 +317,53 @@ if (post.data.faq && post.data.faq.length > 0) {
         </div>
       </div>
 
-      <!-- 11. RELATED ARTICLES (ARTIKEL TERKAIT DENGAN THUMBNAIL FOTO DI KIRI) -->
-      {relatedPosts.length > 0 && (
-        <div class="border-top pt-4 mb-5">
-          <div class="small fw-bold text-uppercase text-primary mb-3" style="letter-spacing: 0.06em;">
-            Artikel Panduan Terkait Lainnya
+      <!-- 11. LOKASI KAMI (LOKASI WORKSHOP & SENTRA MAGANG SAKA MALANG) -->
+      <div class="border-top pt-4 mb-5">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+          <div>
+            <span class="section-heading-eyebrow mb-1 d-inline-block">Sentra Operasional Vokasi</span>
+            <h3 class="h5 fw-bold text-dark mb-0">
+              <i class="bi bi-geo-alt-fill text-danger me-1"></i> Lokasi Kami
+            </h3>
           </div>
-          <div class="row g-3">
-            {relatedPosts.map((rel) => (
-              <div class="col-sm-6">
-                <a href={`/blog/${rel.id}/`} class="blog-related-card">
-                  <div class="blog-related-thumb">
-                    <img
-                      src={rel.data.image}
-                      alt={rel.data.title}
-                      width="110"
-                      height="110"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="p-3 py-2 flex-grow-1 min-w-0">
-                    <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.72rem;">
-                      {rel.data.category}
-                    </div>
-                    <div class="fw-bold text-dark text-truncate-2" style="font-size: 0.88rem; line-height: 1.4;">
-                      {rel.data.title} &rarr;
-                    </div>
-                  </div>
-                </a>
+          <a
+            href={mapsLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5"
+          >
+            <i class="bi bi-geo-alt"></i>
+            <span>Buka Petunjuk Arah di Google Maps</span>
+          </a>
+        </div>
+
+        <div class="p-3.5 p-md-4 rounded-4 border bg-light d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3.5">
+          <div class="d-flex align-items-start gap-3">
+            <div class="rounded-circle bg-danger-subtle text-danger d-flex align-items-center justify-content-center flex-shrink-0" style="width: 48px; height: 48px; font-size: 1.35rem;">
+              <i class="bi bi-building"></i>
+            </div>
+            <div>
+              <div class="fw-bold text-dark mb-1 fs-6">
+                CV Saudagar Kaya Abadi (SAKA Souvenir)
               </div>
-            ))}
+              <p class="small text-muted mb-1" style="line-height: 1.5; max-width: 540px;">
+                {SITE.address.full}
+              </p>
+              <div class="small text-muted font-monospace" style="font-size: 0.78rem;">
+                <i class="bi bi-clock me-1 text-primary"></i> Jam Kerja: Senin - Jumat, 08.00 - 16.00 WIB
+              </div>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-100 w-md-auto text-md-end">
+            <a
+              href="/kontak/"
+              class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-semibold w-100 w-md-auto"
+            >
+              Lihat Detail Kontak & Janji Temu &rarr;
+            </a>
           </div>
         </div>
-      )}
+      </div>
 
       <!-- 12. BACK BUTTON -->
       <div class="text-center pb-3">
@@ -362,7 +376,41 @@ if (post.data.faq && post.data.faq.length > 0) {
     <!-- SIDEBAR BLOG -->
     <div class="col-lg-4">
       <aside class="detail-sidebar">
-        <!-- 1. WhatsApp Quick Consultation -->
+        <!-- 1. Artikel Terkait -->
+        {relatedPosts.length > 0 && (
+          <div class="sidebar-widget">
+            <div class="sidebar-widget-title mb-3 pb-2 border-bottom d-flex align-items-center gap-2">
+              <i class="bi bi-journal-text text-primary fs-5"></i>
+              <span class="fw-bold fs-6 text-dark">Artikel Terkait</span>
+            </div>
+            <div class="d-flex flex-column gap-3">
+              {relatedPosts.map((rel) => (
+                <a href={`/blog/${rel.id}/`} class="text-decoration-none p-2 border rounded-3 bg-white hover-shadow d-flex align-items-center gap-2.5 transition-all">
+                  <div class="rounded-2 overflow-hidden flex-shrink-0 border" style="width: 72px; height: 72px; background-color: #f1f5f9;">
+                    <img
+                      src={rel.data.image}
+                      alt={rel.data.title}
+                      width="72"
+                      height="72"
+                      class="w-100 h-100 object-fit-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="flex-grow-1 min-w-0">
+                    <div class="text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.68rem; letter-spacing: 0.02em;">
+                      {rel.data.category}
+                    </div>
+                    <div class="fw-bold text-dark text-truncate-2" style="font-size: 0.82rem; line-height: 1.4;">
+                      {rel.data.title}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- 2. WhatsApp Quick Consultation -->
         <div class="sidebar-widget sidebar-cta-card">
           <div class="d-inline-flex align-items-center gap-1.5 badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2.5 py-1 mb-2 font-monospace" style="font-size: 0.72rem;">
             <i class="bi bi-patch-check-fill text-primary"></i>
@@ -386,40 +434,6 @@ if (post.data.faq && post.data.faq.length > 0) {
             <span>Respon Cepat • Bebas Biaya 100%</span>
           </div>
         </div>
-
-        <!-- 2. Artikel Terkait -->
-        {relatedPosts.length > 0 && (
-          <div class="sidebar-widget">
-            <div class="sidebar-widget-title">
-              <i class="bi bi-journal-text text-primary"></i>
-              <span>Artikel Terkait</span>
-            </div>
-            <div class="d-flex flex-column gap-2.5">
-              {relatedPosts.map((rel) => (
-                <a href={`/blog/${rel.id}/`} class="text-decoration-none p-2.5 border rounded bg-white hover-shadow d-flex align-items-center gap-2.5 transition-all">
-                  <div class="rounded overflow-hidden flex-shrink-0" style="width: 64px; height: 64px;">
-                    <img
-                      src={rel.data.image}
-                      alt={rel.data.title}
-                      width="64"
-                      height="64"
-                      class="w-100 h-100 object-fit-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="flex-grow-1 min-w-0">
-                    <div class="small text-primary fw-semibold mb-1 font-monospace" style="font-size: 0.7rem;">
-                      {rel.data.category}
-                    </div>
-                    <div class="fw-bold text-dark small text-truncate-2" style="font-size: 0.82rem; line-height: 1.35;">
-                      {rel.data.title}
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
       </aside>
     </div>
   </div>
