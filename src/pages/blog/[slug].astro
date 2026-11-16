@@ -30,8 +30,94 @@ const crumbs = [
 const formatDate = (d: Date) =>
   new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
 
-// Related articles (other posts)
-const relatedPosts = allPosts.filter((p) => p.id !== post.id).slice(0, 4);
+// Define explicit topical clusters for 100% matched related articles
+const TOPIC_CLUSTERS = [
+  {
+    name: 'grafika',
+    ids: [
+      'rekomendasi-tempat-pkl-grafika-malang',
+      'kegiatan-pkl-jurusan-grafika',
+      'tips-persiapan-pkl-jurusan-grafika',
+      'perbedaan-pkl-grafika-sekolah-dan-industri',
+    ],
+  },
+  {
+    name: 'dkv',
+    ids: [
+      'tempat-pkl-jurusan-dkv-malang',
+      'kegiatan-pkl-jurusan-dkv',
+      'portofolio-dkv-untuk-pkl',
+      'syarat-cara-daftar-pkl-dkv-malang',
+    ],
+  },
+  {
+    name: 'rpl',
+    ids: [
+      'tempat-pkl-rpl-di-malang',
+      'kegiatan-pkl-jurusan-rpl',
+      'skill-sebelum-pkl-rpl',
+      'contoh-laporan-pkl-rpl',
+      'apa-yang-dikerjakan-anak-magang-web-developer',
+    ],
+  },
+  {
+    name: 'tkj',
+    ids: [
+      'tempat-pkl-tkj-di-malang',
+      'kegiatan-pkl-jurusan-tkj',
+      'persiapan-pkl-tkj',
+      'cara-memilih-tempat-pkl-tkj',
+      'tempat-pkl-rpl-tkj-malang',
+    ],
+  },
+  {
+    name: 'lokasi-terdekat',
+    ids: [
+      'tempat-pkl-terdekat',
+      'tempat-pkl-terdekat-dari-rumah',
+      'tempat-pkl-di-malang',
+      'tempat-pkl-sesuai-jurusan',
+    ],
+  },
+  {
+    name: 'pendaftaran-panduan',
+    ids: [
+      'cara-daftar-magang-di-malang',
+      'cara-mendaftar-pkl-di-malang',
+      'cara-mencari-tempat-pkl-smk-malang',
+      'panduan-membuat-portofolio-untuk-magang',
+    ],
+  },
+];
+
+// Contextual & Topical Relevance Matching
+const currentCluster = TOPIC_CLUSTERS.find((c) => c.ids.includes(post.id));
+
+let relatedPosts = [];
+if (currentCluster) {
+  relatedPosts = allPosts.filter((p) => currentCluster.ids.includes(p.id) && p.id !== post.id).slice(0, 4);
+}
+
+// Fallback or fill remaining with semantic category and token scoring
+if (relatedPosts.length < 4) {
+  const existingIds = new Set([post.id, ...relatedPosts.map((p) => p.id)]);
+  const currentTokens = `${post.id} ${post.data.title}`.toLowerCase().split(/[^a-z0-9]+/);
+
+  const scoredRemaining = allPosts
+    .filter((p) => !existingIds.has(p.id))
+    .map((p) => {
+      let score = 0;
+      if (p.data.category === post.data.category) score += 6;
+      const otherTokens = `${p.id} ${p.data.title}`.toLowerCase().split(/[^a-z0-9]+/);
+      const commonTokens = currentTokens.filter((t) => t.length > 3 && otherTokens.includes(t));
+      score += commonTokens.length * 3;
+      return { post: p, score };
+    })
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.post);
+
+  relatedPosts = [...relatedPosts, ...scoredRemaining].slice(0, 4);
+}
 
 // Comprehensive Structured Data (AEO & 2026-2027 Standards matching reference)
 const schemas: any[] = [
