@@ -108,7 +108,7 @@ export const NAV: NavItem[] = [
       { href: '/jurusan/bisnis-digital/', label: 'Bisnis Digital', desc: 'Riset pasar & e-commerce', icon: 'bi-graph-up' },
       { href: '/jurusan/pemasaran/', label: 'Pemasaran', desc: 'Salesmanship & customer relation', icon: 'bi-megaphone' },
       { href: '/jurusan/teknik-grafika/', label: 'Teknik Grafika', desc: 'Pra-cetak & finishing kemasan', icon: 'bi-printer' },
-      { href: '/jurusan/multimedia/', label: 'Multimedia', desc: 'Produksi siaran & audio visual', icon: 'bi-camera-video' },
+      { href: '/jurusan/informatika/', label: 'Informatika', desc: 'Rekayasa sistem & teknologi informasi', icon: 'bi-laptop' },
     ],
   },
   {
