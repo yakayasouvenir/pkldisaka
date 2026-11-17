@@ -37,7 +37,6 @@ Pekerjaan anak [magang informatika](/jurusan/informatika/) di Malang meliputi pe
 - Bidang digital agency juga menyediakan pembelajaran SEO, desain, dan pemasaran digital.
 - Kemampuan komunikasi, kedisiplinan, dan kerja sama menjadi keterampilan pendukung yang penting.
 
-
 <figure class="my-4 text-center">
   <img src="/images/blog/pekerjaan-magang-informatika.webp" alt="Peserta magang informatika mengerjakan proyek teknologi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penerapan logika pemrograman dalam mengerjakan modul aplikasi web di dunia industri.</figcaption>
@@ -51,20 +50,13 @@ Kegiatan tersebut dapat dilakukan di perusahaan teknologi, software house, digit
 
 Peserta magang biasanya mendapatkan tugas sesuai kemampuan dan kebutuhan tempat praktik. Pada tahap awal, pekerjaan dapat berupa latihan dasar dan pengenalan sistem. Setelah memahami prosedur, peserta dapat memperoleh tanggung jawab yang lebih kompleks dengan bimbingan mentor.
 
-Di Malang, kegiatan magang informatika memiliki keterkaitan dengan ekosistem pendidikan kejuruan. BPS Kota Malang mencatat terdapat 51 SMK pada tahun ajaran 2024/2025, dengan total 34.118 murid. Data tersebut menunjukkan besarnya kelompok pendidikan kejuruan yang berpotensi membutuhkan pengalaman praktik industri.&#x20;
-
-
-Badan Pusat Statistik Kota Malang+1
-
-
+Di Malang, kegiatan magang informatika memiliki keterkaitan dengan ekosistem pendidikan kejuruan. BPS Kota Malang mencatat terdapat 51 SMK pada tahun ajaran 2024/2025, dengan total 34.118 murid. Data tersebut menunjukkan besarnya kelompok pendidikan kejuruan yang berpotensi membutuhkan pengalaman praktik industri.
 
 ## Apa Saja Pekerjaan Anak Magang Informatika?
 
 Pekerjaan anak magang informatika terbagi menjadi beberapa bidang, mulai dari pengembangan perangkat lunak hingga pengelolaan infrastruktur komputer.
 
 ### 1. Programmer dan Website Development
-
-
 
 Programmer bertugas mengembangkan, memelihara, dan memperbaiki sistem perangkat lunak sesuai kebutuhan pengguna.
 
@@ -95,8 +87,6 @@ Bidang ini sangat relevan bagi siswa RPL dan mahasiswa informatika yang ingin me
 
 ### 2. Database Management
 
-
-
 Database management merupakan aktivitas mengelola data yang digunakan oleh sebuah aplikasi atau sistem informasi.
 
 Peserta magang dapat mempelajari cara menyimpan, mengatur, dan mengambil informasi melalui sistem basis data.
@@ -117,8 +107,6 @@ Peserta tidak boleh mengakses atau mengubah data produksi tanpa izin dan pengawa
 
 ### 3. IT Support dan Troubleshooting
 
-
-
 IT support bertugas membantu memastikan perangkat komputer dan teknologi pendukung dapat digunakan dengan baik.
 
 Bidang ini cocok bagi peserta TKJ dan informatika yang ingin memahami pemeliharaan perangkat serta penyelesaian masalah teknis.
@@ -137,8 +125,6 @@ Keterampilan yang dibutuhkan adalah pemahaman hardware, sistem operasi, instalas
 
 ### 4. Network Administration
 
-
-
 Network administration merupakan bidang yang berhubungan dengan pengelolaan jaringan komputer agar perangkat dapat saling terhubung.
 
 Peserta magang dapat mempelajari konfigurasi dasar jaringan, pengalamatan IP, penggunaan router, dan pemeriksaan konektivitas.
@@ -155,8 +141,6 @@ Contoh kegiatan praktik:
 Kegiatan yang berkaitan dengan perubahan konfigurasi jaringan harus dilakukan dengan izin dan pendampingan pembimbing.
 
 ### 5. Search Engine Optimization dan Website Management
-
-
 
 SEO merupakan kegiatan mengoptimalkan website agar lebih mudah ditemukan melalui mesin pencari.
 
@@ -177,8 +161,6 @@ Bidang ini cocok bagi peserta RPL dan Bisnis Digital yang tertarik pada pengemba
 
 ### 6. Graphic Design dan Digital Content
 
-
-
 Graphic design merupakan bidang yang menggabungkan kreativitas visual dengan kebutuhan komunikasi bisnis.
 
 Walaupun tidak selalu berkaitan langsung dengan pemrograman, bidang ini menjadi bagian penting dari industri digital.
@@ -196,8 +178,6 @@ Contoh pekerjaan magang:
 Peserta dapat mempelajari Canva, Figma, Adobe Photoshop, atau Adobe Illustrator sesuai fasilitas perusahaan.
 
 ### 7. Digital Marketing
-
-
 
 Digital marketing adalah kegiatan pemasaran menggunakan platform digital untuk menjangkau calon pelanggan.
 
@@ -247,7 +227,6 @@ Beberapa soft skill yang penting adalah:
 4. **Adaptasi:** Menyesuaikan diri dengan teknologi dan lingkungan baru.
 5. **Problem solving:** Mencari solusi terhadap permasalahan pekerjaan.
 6. **Tanggung jawab:** Menyelesaikan tugas dengan memperhatikan kualitas.
-
 
 <figure class="my-4 text-center">
   <img src="/images/blog/kegiatan-programmer-magang.webp" alt="Anak magang belajar pemrograman bersama mentor" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

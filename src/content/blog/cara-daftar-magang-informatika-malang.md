@@ -41,7 +41,6 @@ Cara daftar [magang informatika](/jurusan/informatika/) di Malang dimulai dengan
 - Gunakan bahasa profesional ketika mengirim permohonan.
 - Pastikan mendapatkan konfirmasi penerimaan resmi sebelum memulai magang.
 
-
 <figure class="my-4 text-center">
   <img src="/images/blog/pendaftaran-magang-informatika.webp" alt="Siswa menyiapkan dokumen pendaftaran magang informatika" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Pengecekan kelengkapan surat pengantar sekolah dan dokumen pendukung PKL.</figcaption>
@@ -53,18 +52,11 @@ Pendaftaran magang informatika di Malang dilakukan melalui beberapa tahapan, mul
 
 Proses ini perlu dipersiapkan dengan baik agar sekolah, kampus, dan perusahaan dapat memahami kebutuhan praktik peserta.
 
-Malang mempunyai lingkungan pendidikan kejuruan yang cukup besar. BPS Kota Malang mencatat 51 SMK pada tahun ajaran 2024/2025, terdiri dari 13 sekolah negeri dan 38 sekolah swasta. Keberadaan sekolah-sekolah tersebut membuat kebutuhan informasi mengenai program praktik industri menjadi relevan bagi calon peserta PKL.&#x20;
-
-
-Badan Pusat Statistik Kota Malang
-
-
+Malang mempunyai lingkungan pendidikan kejuruan yang cukup besar. BPS Kota Malang mencatat 51 SMK pada tahun ajaran 2024/2025, terdiri dari 13 sekolah negeri dan 38 sekolah swasta. Keberadaan sekolah-sekolah tersebut membuat kebutuhan informasi mengenai program praktik industri menjadi relevan bagi calon peserta PKL.
 
 Berikut tujuh langkah yang dapat dilakukan untuk mendaftar magang informatika.
 
 ### 1. Tentukan Bidang Magang yang Ingin Dipelajari
-
-
 
 Langkah pertama adalah menentukan bidang pekerjaan yang sesuai dengan jurusan dan minat.
 
@@ -83,8 +75,6 @@ Beberapa bidang yang dapat dipertimbangkan adalah:
 Setelah menentukan bidang, cari perusahaan yang mempunyai divisi atau program praktik sesuai kebutuhan tersebut.
 
 ### 2. Cari Perusahaan yang Membuka Program Magang
-
-
 
 Langkah berikutnya adalah mencari perusahaan yang menerima siswa SMK atau mahasiswa untuk mengikuti praktik kerja.
 
@@ -106,8 +96,6 @@ Untuk peserta yang mencari tempat praktik lintas bidang digital, [PKL di Saka](/
 Bidang praktik yang disebutkan meliputi SEO, website, desain grafis, fotografi dan video produk, packaging, serta digital marketing.
 
 ### 3. Siapkan Dokumen Persyaratan Magang
-
-
 
 Dokumen merupakan bagian penting dalam proses pendaftaran magang karena digunakan perusahaan untuk mengenali identitas dan kompetensi calon peserta.
 
@@ -139,8 +127,6 @@ Apabila perusahaan memberikan ketentuan ukuran berkas, ikuti batas yang telah di
 
 ### 4. Buat CV Magang yang Menarik dan Profesional
 
-
-
 CV merupakan dokumen yang membantu perusahaan memahami profil calon peserta magang.
 
 CV tidak harus menggunakan desain yang terlalu ramai. Hal terpenting adalah informasi mudah dibaca dan keterampilan ditampilkan secara jelas.
@@ -167,8 +153,6 @@ Contoh deskripsi profil untuk siswa TKJ:
 Deskripsi tersebut sebaiknya disesuaikan dengan kemampuan yang benar-benar dimiliki.
 
 ### 5. Siapkan Portofolio Sesuai Kompetensi
-
-
 
 Portofolio merupakan kumpulan hasil pekerjaan yang digunakan untuk menunjukkan kemampuan calon peserta.
 
@@ -217,8 +201,6 @@ Jangan mencantumkan proyek orang lain sebagai hasil pekerjaan sendiri.
 
 ### 6. Hubungi Perusahaan dengan Komunikasi Profesional
 
-
-
 Setelah dokumen selesai, hubungi perusahaan melalui kontak resmi yang tersedia.
 
 Pesan pendaftaran sebaiknya mencakup salam, identitas, asal sekolah, jurusan, maksud pendaftaran, periode magang, dan lampiran dokumen.
@@ -246,8 +228,6 @@ Hormat saya,
 Gunakan pesan yang singkat dan sopan. Hindari mengirim pesan berulang kali dalam waktu berdekatan apabila perusahaan belum memberikan balasan.
 
 ### 7. Ikuti Seleksi dan Tunggu Konfirmasi Penerimaan
-
-
 
 Setelah mengirim permohonan, perusahaan dapat melakukan pemeriksaan dokumen atau wawancara pengenalan.
 
@@ -302,7 +282,6 @@ Dokumen yang mungkin diperlukan antara lain:
 Mahasiswa sebaiknya menjelaskan kemampuan teknis yang telah dikuasai dan bidang pekerjaan yang ingin dipelajari.
 
 Contohnya, mahasiswa yang memiliki pengalaman membuat aplikasi dapat melamar ke bagian pengembangan perangkat lunak. Mahasiswa yang tertarik dengan pemasaran digital dapat mencari perusahaan yang menyediakan divisi SEO atau digital marketing.
-
 
 <figure class="my-4 text-center">
   <img src="/images/blog/cv-portofolio-magang.webp" alt="Contoh persiapan CV dan portofolio untuk mendaftar PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

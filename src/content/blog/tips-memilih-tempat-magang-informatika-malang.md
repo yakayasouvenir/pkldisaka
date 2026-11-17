@@ -37,7 +37,6 @@ Tips memilih tempat [magang informatika](/jurusan/informatika/) di Malang dimula
 - Evaluasi fasilitas, proyek praktik, dan lingkungan kerja.
 - Tanyakan ketentuan pendaftaran sebelum mengirim dokumen.
 
-
 <figure class="my-4 text-center">
   <img src="/images/blog/tips-memilih-tempat-magang.webp" alt="Siswa memilih tempat magang informatika di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Konsultasi dan pertimbangan matang dalam menentukan tempat PKL informatika di Malang.</figcaption>
@@ -51,12 +50,7 @@ Tempat magang yang sesuai dapat membantu siswa menerapkan ilmu sekolah, memahami
 
 Sebaliknya, tempat praktik yang tidak sesuai jurusan berisiko membuat peserta kurang mendapatkan pengalaman yang dibutuhkan untuk menyelesaikan tujuan pembelajaran.
 
-Konteks pendidikan di Malang juga menunjukkan pentingnya pemilihan tempat praktik secara terencana. BPS Kota Malang mencatat 51 SMK dengan 34.118 murid pada tahun ajaran 2024/2025. Jumlah tersebut menggambarkan besarnya lingkungan pendidikan kejuruan yang membutuhkan hubungan pembelajaran dengan dunia kerja.&#x20;
-
-
-Badan Pusat Statistik Kota Malang
-
-
+Konteks pendidikan di Malang juga menunjukkan pentingnya pemilihan tempat praktik secara terencana. BPS Kota Malang mencatat 51 SMK dengan 34.118 murid pada tahun ajaran 2024/2025. Jumlah tersebut menggambarkan besarnya lingkungan pendidikan kejuruan yang membutuhkan hubungan pembelajaran dengan dunia kerja.
 
 Karena itu, calon peserta sebaiknya tidak hanya mempertimbangkan popularitas perusahaan atau jarak lokasi. Kualitas pembelajaran dan relevansi pekerjaan perlu menjadi prioritas.
 
@@ -65,8 +59,6 @@ Karena itu, calon peserta sebaiknya tidak hanya mempertimbangkan popularitas per
 Pemilihan tempat magang yang tepat dapat dilakukan melalui beberapa tahap pemeriksaan sebelum mengajukan pendaftaran.
 
 ### 1. Sesuaikan Tempat Magang dengan Jurusan
-
-
 
 Kesesuaian jurusan merupakan faktor utama ketika menentukan tempat magang informatika.
 
@@ -84,8 +76,6 @@ Sebelum memilih perusahaan, tanyakan divisi apa saja yang tersedia dan jenis pek
 
 ### 2. Periksa Keberadaan Mentor atau Pembimbing
 
-
-
 Mentor berperan membantu peserta memahami pekerjaan dan mengembangkan kemampuan selama magang.
 
 Pembimbing yang baik tidak hanya memberikan tugas, tetapi juga menjelaskan tujuan pekerjaan, memberikan evaluasi, dan membantu peserta ketika menghadapi kesulitan.
@@ -100,8 +90,6 @@ Hal yang perlu ditanyakan kepada perusahaan meliputi:
 Ketersediaan mentor penting terutama bagi peserta yang baru pertama kali memasuki lingkungan industri.
 
 ### 3. Perhatikan Fasilitas yang Disediakan
-
-
 
 Fasilitas praktik membantu peserta menjalankan kegiatan sesuai kebutuhan pekerjaan.
 
@@ -120,8 +108,6 @@ Untuk bidang programmer, periksa apakah perangkat kerja mendukung software penge
 
 ### 4. Cari Tempat yang Memberikan Pengalaman Proyek
 
-
-
 Pengalaman proyek membantu peserta memahami bagaimana pekerjaan industri dilakukan.
 
 Proyek dapat berupa pengembangan website, desain kemasan, produksi konten, pengelolaan sistem, atau kegiatan pemasaran digital.
@@ -131,8 +117,6 @@ Sebelum mendaftar, tanyakan apakah peserta hanya mengerjakan latihan atau juga b
 Keterlibatan proyek sebaiknya tetap disesuaikan dengan kemampuan peserta dan pengawasan mentor.
 
 ### 5. Evaluasi Lingkungan dan Budaya Kerja
-
-
 
 Lingkungan kerja yang mendukung membantu peserta beradaptasi dan belajar secara lebih nyaman.
 
@@ -198,7 +182,6 @@ Digital agency cocok bagi peserta yang ingin mempelajari hubungan antara teknolo
 Software house lebih relevan bagi peserta yang ingin mendalami pengembangan perangkat lunak.
 
 Tidak ada pilihan yang selalu lebih baik untuk semua orang. Keputusan harus mengikuti kompetensi dan tujuan pembelajaran peserta.
-
 
 <figure class="my-4 text-center">
   <img src="/images/blog/mentor-magang-informatika.webp" alt="Mentor memberikan arahan kepada peserta magang informatika" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

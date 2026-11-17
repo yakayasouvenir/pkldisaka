@@ -41,7 +41,6 @@ faq:
 - Pengalaman proyek, kualitas mentor, fasilitas, dan kesesuaian pekerjaan menjadi faktor penting dalam memilih tempat magang.
 - [PKL di Saka](/) menyediakan lingkungan praktik lintas bidang kreatif dan digital berdasarkan informasi program yang diberikan.
 
-
 <figure class="my-4 text-center">
   <img src="/images/blog/tempat-magang-informatika-malang.webp" alt="Suasana kegiatan magang informatika di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Fasilitas dan lingkungan kerja digital agency untuk magang informatika di Malang.</figcaption>
@@ -53,12 +52,7 @@ Magang informatika di Malang memberikan kesempatan kepada siswa dan mahasiswa un
 
 Malang dikenal sebagai salah satu kota pendidikan di Jawa Timur. Kehadiran sekolah kejuruan, perguruan tinggi, komunitas teknologi, dan berbagai usaha kreatif membuat kota ini memiliki lingkungan yang relevan untuk pengembangan kompetensi digital.
 
-Berdasarkan publikasi BPS Kota Malang Dalam Angka 2025, terdapat 51 SMK di Kota Malang pada tahun ajaran 2024/2025. Jumlah tersebut terdiri dari 13 SMK negeri dan 38 SMK swasta. Data ini memperlihatkan besarnya ekosistem pendidikan kejuruan yang menjadi salah satu kelompok potensial peserta praktik kerja industri.&#x20;
-
-
-Badan Pusat Statistik Kota Malang+1
-
-
+Berdasarkan publikasi BPS Kota Malang Dalam Angka 2025, terdapat 51 SMK di Kota Malang pada tahun ajaran 2024/2025. Jumlah tersebut terdiri dari 13 SMK negeri dan 38 SMK swasta. Data ini memperlihatkan besarnya ekosistem pendidikan kejuruan yang menjadi salah satu kelompok potensial peserta praktik kerja industri.
 
 Bagi siswa SMK dan mahasiswa, memilih tempat magang bukan hanya tentang mendapatkan surat penerimaan. Tempat magang yang tepat seharusnya memberikan kesempatan untuk mempelajari proses kerja, memperoleh bimbingan, dan menyelesaikan tugas yang berhubungan dengan kompetensi pendidikan.
 
@@ -70,23 +64,23 @@ Beberapa manfaat yang bisa diperoleh meliputi:
 
 1\. **Meningkatkan keterampilan teknis**
 
-&#x20;  Peserta dapat mempelajari pemrograman, pengelolaan website, jaringan komputer, desain digital, hingga pemasaran berbasis teknologi sesuai bidang penempatan.
+  Peserta dapat mempelajari pemrograman, pengelolaan website, jaringan komputer, desain digital, hingga pemasaran berbasis teknologi sesuai bidang penempatan.
 
 2\. **Mengenal lingkungan kerja profesional**
 
-&#x20;  Peserta belajar berkomunikasi dengan rekan kerja, mengikuti briefing, memahami SOP, dan menyelesaikan pekerjaan berdasarkan tenggat waktu.
+  Peserta belajar berkomunikasi dengan rekan kerja, mengikuti briefing, memahami SOP, dan menyelesaikan pekerjaan berdasarkan tenggat waktu.
 
 3\. **Membangun portofolio**
 
-&#x20;  Hasil pekerjaan yang diizinkan untuk dipublikasikan dapat digunakan sebagai bukti kemampuan ketika melamar pekerjaan atau melanjutkan pendidikan.
+  Hasil pekerjaan yang diizinkan untuk dipublikasikan dapat digunakan sebagai bukti kemampuan ketika melamar pekerjaan atau melanjutkan pendidikan.
 
 4\. **Memahami kebutuhan industri**
 
-&#x20;  Peserta mengetahui bagaimana keterampilan yang dipelajari di sekolah atau kampus diterapkan dalam proyek nyata.
+  Peserta mengetahui bagaimana keterampilan yang dipelajari di sekolah atau kampus diterapkan dalam proyek nyata.
 
 5\. **Mengembangkan kemampuan komunikasi**
 
-&#x20;  Kerja tim, presentasi hasil pekerjaan, menerima evaluasi, dan menyampaikan kendala menjadi bagian penting dari pembelajaran.
+  Kerja tim, presentasi hasil pekerjaan, menerima evaluasi, dan menyampaikan kendala menjadi bagian penting dari pembelajaran.
 
 Manfaat tersebut akan lebih optimal apabila tempat magang mempunyai pembimbing yang aktif dan memberikan penugasan sesuai tingkat kemampuan peserta.
 
@@ -97,8 +91,6 @@ Tempat magang informatika di Malang dapat dikelompokkan berdasarkan karakteristi
 Setiap jenis tempat magang mempunyai fokus pembelajaran yang berbeda. Oleh karena itu, peserta perlu memahami karakteristiknya sebelum menentukan pilihan.
 
 ### 1. Digital Agency
-
-
 
 Digital agency merupakan perusahaan atau agensi yang menyediakan layanan digital untuk membantu kebutuhan bisnis dan pemasaran klien.
 
@@ -124,8 +116,6 @@ Keberagaman bidang tersebut memungkinkan peserta dari beberapa jurusan mempelaja
 
 ### 2. Software House
 
-
-
 Software house adalah perusahaan yang berfokus pada pengembangan perangkat lunak, aplikasi, dan sistem digital sesuai kebutuhan pengguna atau klien.
 
 Tempat magang ini lebih sesuai bagi peserta yang ingin memperdalam kemampuan pemrograman dan pengembangan sistem.
@@ -148,8 +138,6 @@ Software house cocok bagi peserta yang ingin membangun kemampuan teknis secara l
 
 ### 3. Perusahaan Teknologi Informasi
 
-
-
 Perusahaan teknologi informasi menyediakan layanan atau produk yang berkaitan dengan pengelolaan infrastruktur dan sistem digital.
 
 Bidang ini dapat memberikan pengalaman mengenai cara teknologi mendukung operasional organisasi.
@@ -170,8 +158,6 @@ Namun, sebelum memilih perusahaan, pastikan terdapat pembimbing dan pekerjaan ya
 
 ### 4. Divisi IT Internal Perusahaan
 
-
-
 Divisi IT internal merupakan bagian dari organisasi yang bertanggung jawab terhadap kebutuhan teknologi perusahaan.
 
 Peserta magang dapat mengenal bagaimana sistem komputer, jaringan, website, dan perangkat digital digunakan untuk mendukung kegiatan operasional.
@@ -181,8 +167,6 @@ Pekerjaan yang mungkin dilakukan meliputi pemeliharaan komputer, dokumentasi per
 Jenis tempat ini cocok bagi peserta yang ingin memahami penerapan teknologi dalam lingkungan bisnis nonteknologi.
 
 ### 5. Agensi Kreatif Berbasis Teknologi
-
-
 
 Agensi kreatif berbasis teknologi menggabungkan kemampuan desain, produksi konten, dan penggunaan perangkat digital dalam satu lingkungan kerja.
 
@@ -255,7 +239,6 @@ Sebagai contoh, siswa RPL yang mengikuti proyek website dapat mempelajari proses
 Sementara itu, peserta DKV dapat mempelajari proses menerima brief desain, membuat konsep visual, melakukan revisi, dan menyiapkan hasil akhir.
 
 Pengalaman tersebut memberikan gambaran mengenai alur pekerjaan profesional yang tidak selalu ditemukan dalam pembelajaran teori di sekolah.
-
 
 <figure class="my-4 text-center">
   <img src="/images/blog/aktivitas-magang-it.webp" alt="Peserta magang belajar teknologi informasi bersama mentor" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
