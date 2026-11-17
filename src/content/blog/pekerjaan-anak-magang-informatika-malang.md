@@ -53,7 +53,6 @@ Peserta magang biasanya mendapatkan tugas sesuai kemampuan dan kebutuhan tempat 
 
 Di Malang, kegiatan magang informatika memiliki keterkaitan dengan ekosistem pendidikan kejuruan. BPS Kota Malang mencatat terdapat 51 SMK pada tahun ajaran 2024/2025, dengan total 34.118 murid. Data tersebut menunjukkan besarnya kelompok pendidikan kejuruan yang berpotensi membutuhkan pengalaman praktik industri.&#x20;
 
-[image](https://www.google.com/s2/favicons?domain=https://malangkota.bps.go.id\&sz=32)
 
 Badan Pusat Statistik Kota Malang+1
 
@@ -65,9 +64,7 @@ Pekerjaan anak magang informatika terbagi menjadi beberapa bidang, mulai dari pe
 
 ### 1. Programmer dan Website Development
 
-[The Importance of Developing Clone Web/Software Projects for BTech Students and Graduates](https://images.openai.com/static-rsc-4/p3frtYBWVvbwtZcW7C0NiqnVz9X72uH2ofFk09FCV3BmFGX3f9Sie2Kvfq1zBr8Op1MnWUsPnFu9r9973JWsV35dbKWt26HX8w6L2-Apzf35sKhL0jwRNYtwOOztDe2lAeWrdfzUOJpDvxAo4lHcOUOE3-SVhmNBywcK9WHXacI?purpose=inline)
 
-[linkedin.com](https://www.linkedin.com/pulse/importance-developing-clone-websoftware-projects-btech-khan-npk6c?utm_source=chatgpt.com)
 
 Programmer bertugas mengembangkan, memelihara, dan memperbaiki sistem perangkat lunak sesuai kebutuhan pengguna.
 
@@ -98,9 +95,7 @@ Bidang ini sangat relevan bagi siswa RPL dan mahasiswa informatika yang ingin me
 
 ### 2. Database Management
 
-[How to Use AI to Auto-Generate SQL for Your Users - Querio](https://images.openai.com/static-rsc-4/QPv3Yt1N7xLlL8xeh7_mqVSNlkGCgnQV0jgnlo_FxIIdPGlizW19Ep4sT0SR25fjYq4jJCrVq8Np91h6Y197Cc98VUQz6jCzDX__im5uuo9hwI7uG0bQEWtgQkfuad3GQb2aFIuull2OZePP-a4apz8Cmfgl1-tWk0goQc139wc?purpose=inline)
 
-[querio.ai](https://querio.ai/articles/use-ai-auto-generate-sql-users?utm_source=chatgpt.com)
 
 Database management merupakan aktivitas mengelola data yang digunakan oleh sebuah aplikasi atau sistem informasi.
 
@@ -122,9 +117,7 @@ Peserta tidak boleh mengakses atau mengubah data produksi tanpa izin dan pengawa
 
 ### 3. IT Support dan Troubleshooting
 
-[Vad innebär felsökning – guide för pålitlig IT-support 2026](https://images.openai.com/static-rsc-4/PNHnKzZYSfp-Ri2TriJSLc1_WXuobz1JPrduN9weh6g6TC1_A4APlSGsHZYwsh98RjIenr-oIRWFytIMTbJzS13pmM29aKtgU1UtzOfOVFeb1yUZrr_NaDDmtKc8OBEWDhfNJ42bxSD65oC1m-8B--fpeHa8js6HM_s6Y2vT7-8?purpose=inline)
 
-[datasupport-stockholm.se](https://datasupport-stockholm.se/2026/03/13/vad-innebar-felsokning-guide-palitlig-it-support-2026/?utm_source=chatgpt.com)
 
 IT support bertugas membantu memastikan perangkat komputer dan teknologi pendukung dapat digunakan dengan baik.
 
@@ -144,9 +137,7 @@ Keterampilan yang dibutuhkan adalah pemahaman hardware, sistem operasi, instalas
 
 ### 4. Network Administration
 
-[Cisco Networking Course Certificate | Free & Fast Course](https://images.openai.com/static-rsc-4/voY4CLnA__JHH-6GlXKySRSbVgQ6MJYl1jgfmwH6R6hi_hZiiLZsmihWDH1ggOmqp4Z-DS0gPjLpsTCTK_8DsXyiUiemNMNXp05aK9mCvr8KQ6MFDLY2qgUDUjjCKT8OBf_vtcsF61AjQYPToWFskFER9L_rcn-MoDyEt2XeNuY?purpose=inline)
 
-[elevify.com](https://www.elevify.com/en/courses/engineering-construction-and-technology/telecommunications/cisco-networking-course-23bb6?utm_source=chatgpt.com)
 
 Network administration merupakan bidang yang berhubungan dengan pengelolaan jaringan komputer agar perangkat dapat saling terhubung.
 
@@ -165,9 +156,7 @@ Kegiatan yang berkaitan dengan perubahan konfigurasi jaringan harus dilakukan de
 
 ### 5. Search Engine Optimization dan Website Management
 
-[Recherche de Mots-Clés SEO : méthode et outils — RankProof](https://images.openai.com/static-rsc-4/auc7MRXAqV2HNr_c21qj-PMWyNFMHVAHfLykC2eeLiAQM43AUHhmMlVp62r_BSmIGbogc7yCE2O51hGiAzIwSZ9ZkgmPAREovXtCyI83cSda21AJU0cqoWnU8JCwIITD3rWila19itAbjdwuO_ADasilIgzZwUVoOsLraoRUSg4?purpose=inline)
 
-[rankproof.fr](https://www.rankproof.fr/blog/recherche-mots-cles-seo?utm_source=chatgpt.com)
 
 SEO merupakan kegiatan mengoptimalkan website agar lebih mudah ditemukan melalui mesin pencari.
 
@@ -188,9 +177,7 @@ Bidang ini cocok bagi peserta RPL dan Bisnis Digital yang tertarik pada pengemba
 
 ### 6. Graphic Design dan Digital Content
 
-[Graphic Design Services | Marketing Design for Digital & Print | MaaS by CodeSM](https://images.openai.com/static-rsc-4/o_KDvvN9PonxxhyXUpWgRlfXGo_PaOnDBMWwtFwndgFKLIWyREHGv3S1PBZlcwJ4gva2bpZEjZhrZDRh4UwqrvnpKItiynriPzvyv3MCGEd-oenGEJPQVHT28Vqzdb-fEJOktB7gDHhdi8C84ioF7qy_4ariU23kwJk1IFRNX3E?purpose=inline)
 
-[trymaas.com](https://www.trymaas.com/services/graphic-design/?utm_source=chatgpt.com)
 
 Graphic design merupakan bidang yang menggabungkan kreativitas visual dengan kebutuhan komunikasi bisnis.
 
@@ -210,9 +197,7 @@ Peserta dapat mempelajari Canva, Figma, Adobe Photoshop, atau Adobe Illustrator 
 
 ### 7. Digital Marketing
 
-[Social Media Management | sowera – Agentur Bayern](https://images.openai.com/static-rsc-4/9PLxet1si9mG6wR7QcxZYwTojfmZlxOHX98bLOlY3HW5GOMIq2JqIY8pTZUuzVb9U69rKM8xXo57yVNePfkICJv4xcuWQHxxyYZas1UrrrEs7isEnfW9mklF3w733YjeISELS41EHaOffu9hSgcjRSbQZSyA03ftD_q35qB0bSs?purpose=inline)
 
-[sowera.eu](https://sowera.eu/leistungen/social-media?utm_source=chatgpt.com)
 
 Digital marketing adalah kegiatan pemasaran menggunakan platform digital untuk menjangkau calon pelanggan.
 
@@ -331,4 +316,4 @@ Pekerjaan anak magang informatika di Malang memiliki cakupan yang luas. Peserta 
 
 Sebelum mendaftar, pahami terlebih dahulu keterampilan yang dibutuhkan dan pastikan tempat praktik menyediakan pekerjaan yang sesuai jurusan.
 
-Untuk menemukan tempat praktik yang tepat, lanjutkan membaca rekomendasi tempat magang informatika di Malang sebagai panduan memilih lingkungan kerja dan divisi pembelajaran.
+Untuk menemukan tempat praktik yang tepat, lanjutkan membaca [rekomendasi tempat magang informatika di Malang](/blog/rekomendasi-tempat-magang-informatika-di-malang/) sebagai panduan memilih lingkungan kerja dan divisi pembelajaran.

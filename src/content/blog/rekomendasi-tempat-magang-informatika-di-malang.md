@@ -1,6 +1,6 @@
 ---
 title: "Rekomendasi Tempat Magang Informatika di Malang untuk Siswa SMK dan Mahasiswa"
-description: "Cari rekomendasi tempat magang informatika di Malang untuk siswa SMK dan mahasiswa. Kenali pilihan bidang, fasilitas, dan cara mendaftar di PKL di Saka."
+description: "Cari [rekomendasi tempat magang informatika di Malang](/blog/rekomendasi-tempat-magang-informatika-di-malang/) untuk siswa SMK dan mahasiswa. Kenali pilihan bidang, fasilitas, dan cara mendaftar di PKL di Saka."
 answer: "Magang Informatika di Malang dapat dilakukan di digital agency, software house, perusahaan teknologi, dan divisi IT internal seperti PKL di Saka yang menyediakan pengalaman praktik sesuai kompetensi kejuruan."
 category: "Tips & Panduan Lokasi"
 eyebrow: "PANDUAN LOKASI & MAGANG INFORMATIKA"
@@ -55,7 +55,6 @@ Malang dikenal sebagai salah satu kota pendidikan di Jawa Timur. Kehadiran sekol
 
 Berdasarkan publikasi BPS Kota Malang Dalam Angka 2025, terdapat 51 SMK di Kota Malang pada tahun ajaran 2024/2025. Jumlah tersebut terdiri dari 13 SMK negeri dan 38 SMK swasta. Data ini memperlihatkan besarnya ekosistem pendidikan kejuruan yang menjadi salah satu kelompok potensial peserta praktik kerja industri.&#x20;
 
-[image](https://www.google.com/s2/favicons?domain=https://malangkota.bps.go.id\&sz=32)
 
 Badan Pusat Statistik Kota Malang+1
 
@@ -99,9 +98,7 @@ Setiap jenis tempat magang mempunyai fokus pembelajaran yang berbeda. Oleh karen
 
 ### 1. Digital Agency
 
-[How to Use Responsive Web Design to Your Advantage for 2026 | Research.com](https://images.openai.com/static-rsc-4/b4ZILVyAOrdDYy8WUi3lhRyCCGkD8n35974lmlueg3ndA5_yFBU6ZXiIYNAzi_Z36iHv7E9a0yIoVVPe-4HrM8rvcOZ9_9eXZ2Z8h0IRreX-Cm6d5NaBj1wAVj8lfkJNcY8JwJ7FAAbDO8nW0zeiyJf68IlDmyLR2OcNMLmdxE0?purpose=inline)
 
-[research.com](https://research.com/tutorials/responsive-web-design?utm_source=chatgpt.com)
 
 Digital agency merupakan perusahaan atau agensi yang menyediakan layanan digital untuk membantu kebutuhan bisnis dan pemasaran klien.
 
@@ -127,9 +124,7 @@ Keberagaman bidang tersebut memungkinkan peserta dari beberapa jurusan mempelaja
 
 ### 2. Software House
 
-[Schrill Technologies - ERP Consulting, SAP Solutions & IT Services](https://images.openai.com/static-rsc-4/XANc5L8N6crHGO1wQ4hQxOSoIVXov6l41N-eGakMZ253hZLYFc6Zc3oMc1j-Zi4kGyigmBracgihKTSN9BjLxyJBa7GOKN2tVF7lZj88-2-Ppce1yRka_htt9bgXjQuV-OhFJDDxP50oibN4jgo1xj0OU70qsWOA6P5hlo3CxEs?purpose=inline)
 
-[schrilltech.com](https://www.schrilltech.com/services/application-development?utm_source=chatgpt.com)
 
 Software house adalah perusahaan yang berfokus pada pengembangan perangkat lunak, aplikasi, dan sistem digital sesuai kebutuhan pengguna atau klien.
 
@@ -153,9 +148,7 @@ Software house cocok bagi peserta yang ingin membangun kemampuan teknis secara l
 
 ### 3. Perusahaan Teknologi Informasi
 
-[L'entreprise AGSI pour tout le matériel informatique](https://images.openai.com/static-rsc-4/ckE6oP1CUsYKUH9Iu66RIphltV1NthoaYT-E-AsmuXHH-xaXBfFgLGe_iBxVIgo6K9EwuSDseYIcNosu81vdsSvMaHH0DggS1aN5J_8S1eNWb-1YMsMFbQp9N8B5B7B0q4gFcCbpPocUGSeaXswVrV6yaW_ED8VSJMcPdIHBbPI?purpose=inline)
 
-[agsi.fr](https://www.agsi.fr/materiel.htm?utm_source=chatgpt.com)
 
 Perusahaan teknologi informasi menyediakan layanan atau produk yang berkaitan dengan pengelolaan infrastruktur dan sistem digital.
 
@@ -177,9 +170,7 @@ Namun, sebelum memilih perusahaan, pastikan terdapat pembimbing dan pekerjaan ya
 
 ### 4. Divisi IT Internal Perusahaan
 
-[Engineering the Future of Enterprise Technology | Xware Innovations](https://images.openai.com/static-rsc-4/KsWW5Q3BmJHyMMBtxtTgW8d3uBTJE-mHMVxEl0hxPDr1ljb6t0mTNBsL8ch-HcAJmA8uX_HyXV-NlVXJ9o8amVGGwj1GCHWiaqQInueuIBQpps0hrDCwH2mZpKiFLmC3H1WV28zroKp4DsFEM-6kw9-DCyzaiXbQO21ajpE9yrQ?purpose=inline)
 
-[xwareinnovations.com](https://www.xwareinnovations.com/?utm_source=chatgpt.com)
 
 Divisi IT internal merupakan bagian dari organisasi yang bertanggung jawab terhadap kebutuhan teknologi perusahaan.
 
@@ -191,9 +182,7 @@ Jenis tempat ini cocok bagi peserta yang ingin memahami penerapan teknologi dala
 
 ### 5. Agensi Kreatif Berbasis Teknologi
 
-[Hecho en Cabo Iconic Merchandise Shop - Cabo Hospitality](https://images.openai.com/static-rsc-4/ruGtAMxFA1bMtcwAw7SAmVzq25-ifvhD6PGhjp7ikD-rGrbqCUXYXE5y5HPiMdIShKa9RVfiIBDtqC3CxrFiYmnoQN6FmQKVvk91t3QGlVVpjdrMLBrjp2Eh6zf56tlxJBCzQfRmsC5hEJwJWQ7y6CPsufTYLY-x6sbTZYBNhSc?purpose=inline)
 
-[cabohospitality.com](https://www.cabohospitality.com/hechoencabo?utm_source=chatgpt.com)
 
 Agensi kreatif berbasis teknologi menggabungkan kemampuan desain, produksi konten, dan penggunaan perangkat digital dalam satu lingkungan kerja.
 
@@ -413,4 +402,4 @@ Digital agency cocok untuk peserta yang ingin mempelajari kombinasi teknologi da
 
 Bagi siswa SMK dan mahasiswa yang mencari lingkungan praktik lintas bidang digital, PKL di Saka dapat menjadi salah satu pilihan yang dipertimbangkan berdasarkan program yang tersedia.
 
-Untuk memperdalam informasi mengenai aktivitas pekerjaan, baca juga panduan pekerjaan anak magang informatika dan keterampilan yang dibutuhkan, tips memilih tempat magang informatika, dan cara daftar magang informatika di Malang.
+Untuk memperdalam informasi mengenai aktivitas pekerjaan, baca juga panduan [pekerjaan anak magang informatika dan keterampilan yang dibutuhkan](/blog/pekerjaan-anak-magang-informatika-malang/), [tips memilih tempat magang informatika](/blog/tips-memilih-tempat-magang-informatika-malang/), dan [cara daftar magang informatika di Malang](/blog/cara-daftar-magang-informatika-malang/).

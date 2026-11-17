@@ -13,7 +13,7 @@ image: "/images/blog/cara-daftar-magang-informatika-malang.webp"
 imageAlt: "Cara Daftar Magang Informatika di Malang dan Persyaratan yang Perlu Disiapkan"
 imageCaption: "Penyusunan berkas administrasi dan portofolio magang informatika siswa vokasi Malang."
 faq:
-  - q: "Bagaimana cara daftar magang informatika di Malang?"
+  - q: "Bagaimana [cara daftar magang informatika di Malang](/blog/cara-daftar-magang-informatika-malang/)?"
     a: "Tentukan bidang praktik, cari perusahaan yang sesuai, siapkan surat pengantar, CV, portofolio, hubungi kontak resmi, dan ikuti proses seleksi sampai mendapatkan konfirmasi penerimaan."
   - q: "Apa saja syarat daftar PKL untuk siswa SMK?"
     a: "Persyaratan umumnya meliputi status siswa aktif, surat pengantar sekolah, CV, informasi periode magang, dan dokumen tambahan sesuai kebijakan perusahaan."
@@ -55,7 +55,6 @@ Proses ini perlu dipersiapkan dengan baik agar sekolah, kampus, dan perusahaan d
 
 Malang mempunyai lingkungan pendidikan kejuruan yang cukup besar. BPS Kota Malang mencatat 51 SMK pada tahun ajaran 2024/2025, terdiri dari 13 sekolah negeri dan 38 sekolah swasta. Keberadaan sekolah-sekolah tersebut membuat kebutuhan informasi mengenai program praktik industri menjadi relevan bagi calon peserta PKL.&#x20;
 
-[image](https://www.google.com/s2/favicons?domain=https://malangkota.bps.go.id\&sz=32)
 
 Badan Pusat Statistik Kota Malang
 
@@ -65,9 +64,7 @@ Berikut tujuh langkah yang dapat dilakukan untuk mendaftar magang informatika.
 
 ### 1. Tentukan Bidang Magang yang Ingin Dipelajari
 
-[Marketing Internships Summer 2027: Timeline & Company Links  |  Extern](https://images.openai.com/static-rsc-4/TeVGv9Bt76ZN8G5hdaIvEkw00szhdHiukluoLcyYuvQp2yjK4ngaGe-IoekNGCcaCz9Ngwcpba68UhgyZT2DThKIGInb6fGmyFZeLeAQVoJBHV7QCjm5Kao_x9YQXORsKO88K8DmtOycZMKAMVNoGpl_KbOkdZPKodTx9mAdVcA?purpose=inline)
 
-[extern.com](https://www.extern.com/post/marketing-internships-summer-2027-guide?utm_source=chatgpt.com)
 
 Langkah pertama adalah menentukan bidang pekerjaan yang sesuai dengan jurusan dan minat.
 
@@ -87,9 +84,7 @@ Setelah menentukan bidang, cari perusahaan yang mempunyai divisi atau program pr
 
 ### 2. Cari Perusahaan yang Membuka Program Magang
 
-[Magang Nasional Kemnaker 2026 Batch 2 Dibuka Juli, Ini Jadwal Pendaftaran dan Tahapan Seleksinya](https://images.openai.com/static-rsc-4/OrJbIBoxVDmbyOUnvQwWHejiLQF2UKW2WBqDqikaTWQ8Osv-0ldRcFsIssxN5PV8zhPm3-9bFG6AxCi15IjrmfmhTScI_ZgleRzshQFJyRYc5hWmN3Oqkim6_lhmyyp4jvIAfilhP5RXPcvr5qfXGnUzN5AokSlC3P4HKvKw7bE?purpose=inline)
 
-[akurat.co](https://www.akurat.co/nasional/869803/magang-nasional-kemnaker-2026-batch-2-dibuka-juli-ini-jadwal-pendaftaran-dan-tahapan-seleksinya?utm_source=chatgpt.com)
 
 Langkah berikutnya adalah mencari perusahaan yang menerima siswa SMK atau mahasiswa untuk mengikuti praktik kerja.
 
@@ -112,9 +107,7 @@ Bidang praktik yang disebutkan meliputi SEO, website, desain grafis, fotografi d
 
 ### 3. Siapkan Dokumen Persyaratan Magang
 
-[Langkah-langkah Menyiapkan Dokumen Magang: Jangan Sampai Ada Terlewat! | kumparan.com](https://images.openai.com/static-rsc-4/4uuHaJgHaes2ufPfvrDXfX1aItwYQdIIX8f5gdgU7apx_HInOzi9RpLupsRAarS4hKEtBm4qg0bgFiMWMk4-4sWdqW7IlnMqCATmeJ7ucJ6iJ00PKQo8VR9AGRqI1_CpiLJG-97pg2YajpkX7-nLZtUvWhwYHOZ51CekqFT7X1Y?purpose=inline)
 
-[kumparan.com](https://kumparan.com/gading-haikal/langkah-langkah-menyiapkan-dokumen-magang-jangan-sampai-ada-terlewat-24D7jpwjpLD?utm_source=chatgpt.com)
 
 Dokumen merupakan bagian penting dalam proses pendaftaran magang karena digunakan perusahaan untuk mengenali identitas dan kompetensi calon peserta.
 
@@ -146,9 +139,7 @@ Apabila perusahaan memberikan ketentuan ukuran berkas, ikuti batas yang telah di
 
 ### 4. Buat CV Magang yang Menarik dan Profesional
 
-[The Right Way to Apply for Jobs Online in 2026 | Wynk Jobs - Wynk Jobs](https://images.openai.com/static-rsc-4/2rljx5GcfhjqQkv0QJJEvh7F-QNAlIYM7n5mc_-dvLlBE6tWrbYQEG2TkujjW8W5bfZqP3K8AffTTyk9Vy9-mIcvFvWPun24thDHJDg16vo5VkzpTuHXL2M94vOuAOIHYLIdzQ2tfRMg-PS5I--bSObcKvc08Mw_URmza-flyBg?purpose=inline)
 
-[wynkjobs.com](https://www.wynkjobs.com/job-search-tips/the-right-way-to-apply-for-jobs-online-in-2026-a-step-by-step-guide-that-actually-works?utm_source=chatgpt.com)
 
 CV merupakan dokumen yang membantu perusahaan memahami profil calon peserta magang.
 
@@ -177,9 +168,7 @@ Deskripsi tersebut sebaiknya disesuaikan dengan kemampuan yang benar-benar dimil
 
 ### 5. Siapkan Portofolio Sesuai Kompetensi
 
-[Portfolio Design & Development :: Behance](https://images.openai.com/static-rsc-4/UHLK2NTAIiJZhI_nwaTWetOeTs90LCaEwfztSwvn3J6AYNAYYEtSoNL1wJti5mpd9OEt8NUsDuKkaxIiqptgaQcqvpc27W0ebbOCFXiYla_zrQS6i-jzBxqy9huAJEGr9bXjnFJpFM6RzU1_16vu-tdQAHy10K8zJqtx8zY6eZY?purpose=inline)
 
-[behance.net](https://www.behance.net/gallery/233865707/Portfolio-Design-Development?utm_source=chatgpt.com)
 
 Portofolio merupakan kumpulan hasil pekerjaan yang digunakan untuk menunjukkan kemampuan calon peserta.
 
@@ -228,9 +217,7 @@ Jangan mencantumkan proyek orang lain sebagai hasil pekerjaan sendiri.
 
 ### 6. Hubungi Perusahaan dengan Komunikasi Profesional
 
-[Complete Guide to Upgrading Your Resume Step-by-Step](https://images.openai.com/static-rsc-4/TFKYwVVnl-nPygLLZXManDnWl37F3dqmAeq1_8JIYsejHaxgc0kHtiA2ZqKENBKkjPkHCAiWMgThVsom0kjg5FeZuDvfy4yAdmm-evJlj6lf2mZQWcYbFmzv8KqvLXlBql27RHs4ukDZb3lBYWIoWpWwmFVn3W4LhM5_d72o1cs?purpose=inline)
 
-[scale.jobs](https://scale.jobs/blog/resume-upgrade-guide-step-by-step?utm_source=chatgpt.com)
 
 Setelah dokumen selesai, hubungi perusahaan melalui kontak resmi yang tersedia.
 
@@ -260,9 +247,7 @@ Gunakan pesan yang singkat dan sopan. Hindari mengirim pesan berulang kali dalam
 
 ### 7. Ikuti Seleksi dan Tunggu Konfirmasi Penerimaan
 
-[Tackling - and nailing - those tricky internship interview questions | TopInterview](https://images.openai.com/static-rsc-4/bW6kr_RZ0zVklmKop_XkW1DQSHjDUd5tMdVbUi9jQCbytkuTFfPvCmcZN0vGc1jd6tvS2JeF_ihM0tYsAM1wikNebXHffvdDydtMUp0OwNgQBuyokA-EX17VnbDlq6w7QMYU3pddVrte3ctgLgcYgcX7AmIWOApVxPiStVPyNGY?purpose=inline)
 
-[topinterview.com](https://topinterview.com/interview-advice/tackling-and-nailing-those-tricky-internship-interview-questions?utm_source=chatgpt.com)
 
 Setelah mengirim permohonan, perusahaan dapat melakukan pemeriksaan dokumen atau wawancara pengenalan.
 
@@ -452,4 +437,4 @@ Siapkan surat pengantar, CV, portofolio, serta informasi periode magang sebelum 
 
 Bagi calon peserta yang mencari pengalaman praktik di bidang kreatif dan digital, PKL di Saka dapat menjadi salah satu alternatif untuk dipertimbangkan sesuai ketersediaan program.
 
-Untuk memahami pilihan tempat praktik sebelum mengirim pendaftaran, baca juga rekomendasi tempat magang informatika di Malang untuk siswa SMK dan mahasiswa.
+Untuk memahami pilihan tempat praktik sebelum mengirim pendaftaran, baca juga [rekomendasi tempat magang informatika di Malang](/blog/rekomendasi-tempat-magang-informatika-di-malang/) untuk siswa SMK dan mahasiswa.
