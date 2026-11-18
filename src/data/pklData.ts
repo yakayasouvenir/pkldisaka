@@ -702,6 +702,10 @@ export const PKL_PAGES: PklPage[] = [
       },
     ],
     relatedUrls: [
+      '/pkl-rpl-ngapain-aja/',
+      '/blog/tugas-anak-rpl-saat-pkl/',
+      '/blog/tempat-pkl-rpl/',
+      '/blog/persiapan-pkl-rpl/',
       '/blog/tempat-pkl-rpl-di-malang/',
       '/blog/kegiatan-pkl-jurusan-rpl/',
       '/blog/skill-sebelum-pkl-rpl/',
