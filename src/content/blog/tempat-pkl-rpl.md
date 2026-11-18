@@ -31,7 +31,7 @@ faq:
 - Pelibatan dalam proyek nyata menghasilkan portofolio kerja yang bernilai tinggi.
 - Ketentuan tempat magang wajib mendapatkan verifikasi dan persetujuan resmi dari pihak sekolah.
 
-Cari tahu detail rincian kegiatan harian magang IT di panduan komprehensif [pkl rpl ngapain aja](/pkl-rpl-ngapain-aja/) serta eksplorasi program magang industri terpadu di [PKL di Saka](/) yang memberikan lingkungan praktik koding aplikatif.
+Cari tahu detail rincian kegiatan harian magang IT di panduan komprehensif [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) serta eksplorasi program magang industri terpadu di [PKL di Saka](/) yang memberikan lingkungan praktik koding aplikatif.
 
 ## Di Mana Tempat PKL yang Cocok untuk Jurusan RPL?
 
@@ -211,4 +211,4 @@ Menemukan tempat PKL RPL yang tepat memerlukan pertimbangan matang seputar keses
 
 Software house, digital agency, dan korporasi dengan divisi IT aktif merupakan pilihan terbaik bagi siswa yang ingin mendalami dunia web development dan koding. Persiapkan CV profesional, surat pengantar sekolah, serta portofolio proyek sejak dini agar peluang diterima magang semakin besar.
 
-Untuk memahami lebih lanjut mengenai tugas harian siswa magang IT, baca panduan [pkl rpl ngapain aja](/pkl-rpl-ngapain-aja/) dan telusuri program pembinaan resmi di [PKL di Saka](/) yang memberikan lingkungan belajar koding berstandar industri.
+Untuk memahami lebih lanjut mengenai tugas harian siswa magang IT, baca panduan [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) dan telusuri program pembinaan resmi di [PKL di Saka](/) yang memberikan lingkungan belajar koding berstandar industri.

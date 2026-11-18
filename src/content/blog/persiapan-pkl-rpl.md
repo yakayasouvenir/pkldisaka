@@ -33,7 +33,7 @@ faq:
 - Kelengkapan berkas administrasi seperti CV dan surat pengantar sekolah wajib disiapkan rapi.
 - Kedisiplinan waktu, komunikasi santun, dan kemauan belajar menjadi kunci keberhasilan di industri.
 
-Simak rincian aktivitas dan peran kerja harian di halaman [pkl rpl ngapain aja](/pkl-rpl-ngapain-aja/) serta bergabunglah bersama program bimbingan vokasi terpercaya di [PKL di Saka](/) untuk mempraktikkan kemampuan koding secara nyata.
+Simak rincian aktivitas dan peran kerja harian di artikel [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) serta bergabunglah bersama program bimbingan vokasi terpercaya di [PKL di Saka](/) untuk mempraktikkan kemampuan koding secara nyata.
 
 ## Apa Saja yang Harus Dipersiapkan Sebelum PKL RPL?
 
@@ -196,4 +196,4 @@ Persiapan PKL RPL yang komprehensif memadukan penguasaan fondasi pemrograman web
 
 Dengan mempelajari dasar HTML, CSS, JavaScript, PHP, dan MySQL secara bertahap, siswa akan lebih siap menyerap ilmu baru dan berkontribusi secara nyata pada proyek industri yang diberikan mentor.
 
-Untuk menggali informasi lengkap mengenai alur penugasan magang IT, pelajari panduan [pkl rpl ngapain aja](/pkl-rpl-ngapain-aja/) dan daftarkan diri Anda di sentra edukasi vokasi resmi [PKL di Saka](/) yang siap mendampingi perjalanan koding Anda menuju standar industri.
+Untuk menggali informasi lengkap mengenai alur penugasan magang IT, pelajari panduan [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) dan daftarkan diri Anda di sentra edukasi vokasi resmi [PKL di Saka](/) yang siap mendampingi perjalanan koding Anda menuju standar industri.
