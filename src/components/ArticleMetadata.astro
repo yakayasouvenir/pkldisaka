@@ -18,12 +18,6 @@ const { groupName, targetDate, status = 'Panduan Faktual', readTime = '3 menit b
     <i class="bi bi-clock me-1"></i>
     <span>{readTime}</span>
   </div>
-  {targetDate && (
-    <div>
-      <i class="bi bi-calendar-event me-1"></i>
-      <span>Target: {targetDate}</span>
-    </div>
-  )}
   <div class="ms-auto">
     <span class="badge bg-success-subtle text-success border border-success-subtle">
       <i class="bi bi-check-circle me-1"></i>{status}

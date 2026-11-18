@@ -29,8 +29,7 @@ const { href, title, summary, category, targetDate, badge = 'Panduan Faktual', b
       <a href={href} class="text-decoration-none text-reset">{title}</a>
     </h3>
     <p class="saka-card-text">{summary}</p>
-    <div class="d-flex justify-content-between align-items-center pt-2 border-top mt-auto">
-      {targetDate ? <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Target: {targetDate}</small> : <span></span>}
+    <div class="d-flex justify-content-end align-items-center pt-2 border-top mt-auto">
       <a href={href} class="saka-card-link" aria-label={`Baca panduan: ${title}`}>
         Baca Panduan <i class="bi bi-arrow-right" aria-hidden="true"></i>
       </a>
