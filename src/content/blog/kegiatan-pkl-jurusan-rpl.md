@@ -163,5 +163,5 @@ Berikut adalah gambaran kurikulum mingguan yang biasa diterapkan pada program bi
 
 Kegiatan PKL jurusan RPL memberikan pengalaman berharga yang tidak dapat diperoleh hanya dari teori kelas. Dengan terlibat langsung dalam pembuatan web, optimasi landing page, dan pengujian kualitas, siswa memiliki bekal portofolio kuat untuk menyongsong dunia kerja atau melanjutkan studi.
 
-Bagi Anda yang ingin mempersiapkan kemampuan teknis sejak dini, pelajari panduan [skill yang harus dikuasai sebelum PKL RPL](/blog/skill-sebelum-pkl-rpl/) dan telusuri rekomendasi [tempat PKL RPL di Malang](/blog/tempat-pkl-rpl-di-malang/) melalui portal edukasi terpercaya di [PKL di Saka](/) serta laman kurikulum resmi [PKL jurusan RPL](/jurusan/rpl/).
+Bagi Anda yang ingin mempersiapkan kemampuan teknis sejak dini, pelajari panduan regulasi [apa itu PKL](/blog/apa-itu-pkl/), komparasi [perbedaan RPL dan TKJ](/blog/perbedaan-rpl-dan-tkj/), serta segudang [manfaat PKL](/blog/manfaat-pkl/) melalui portal edukasi terpercaya di [PKL di Saka](/) serta laman kurikulum resmi [PKL jurusan RPL](/jurusan/rpl/).
 
