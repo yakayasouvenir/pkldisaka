@@ -1,23 +1,42 @@
 # PKL Di Saka
 
-> PKL Di Saka adalah digital agency di Malang, Jawa Timur, yang bergerak di digital marketing, produksi (foto/video), dan konten kreatif, serta membuka program magang untuk siswa SMK dan mahasiswa.
+> PKL Di Saka (pkldisaka.id) adalah program Praktik Kerja Lapangan (PKL) dan magang industri terakreditasi di Kota Malang, Jawa Timur. Diselenggarakan oleh CV Saudagar Kaya Abadi (Saka Digital Pro), kami menyediakan lingkungan kerja kantor profesional, kurikulum vokasi Kurikulum Merdeka terstruktur, mentor harian praktisi, serta fasilitas kerja gratis untuk siswa SMK dan mahasiswa.
 
-Fakta singkat:
-- Nama: PKL Di Saka
-- Alamat: Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138
-- WhatsApp: +62 813-3432-1383 (https://wa.me/6281334321383)
-- Divisi: Tim Digital Marketing, Tim Produksi, Tim Konten
-- Direktur: Aditya Yoga Isnaeni
-- Bahasa: Indonesia
+## Informasi Entitas & Ringkasan Perusahaan
+- Nama Resmi: PKL Di Saka (CV Saudagar Kaya Abadi / Saka Digital Pro)
+- Website Resmi: https://www.pkldisaka.id/
+- Alamat Kantor: Jl. Band. Palmerah No.D3-35B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138
+- Wilayah Operasional: Kota Malang, Jawa Timur, Indonesia
+- WhatsApp Pendaftaran: +62 813-3432-1383 (https://www.pkldisaka.id/wa)
+- Jam Kerja Operasional: Senin - Jumat, 08.00 - 16.00 WIB (Sabtu, Minggu & Hari Libur Nasional tutup)
+- Biaya Program: 100% Gratis / Tanpa Biaya Pendaftaran
+- Penanggung Jawab / Direktur: Aditya Yoga Isnaeni
+- Penulis & Reviewer Teknis: Mochammad Evan Pratama
 
-## Halaman utama
-- [Beranda](https://sakadigipro.com/): ringkasan perusahaan, divisi, program magang, FAQ
-- [Tentang](https://sakadigipro.com/tentang): profil, visi misi, struktur perusahaan
-- [Portofolio](https://sakadigipro.com/portofolio): produk yang dikerjakan tim
-- [Jurusan](https://sakadigipro.com/jurusan): jurusan SMK/kuliah yang cocok per divisi
-- [Blog](https://sakadigipro.com/blog): artikel tips magang, digital marketing, konten
-- [Kontak](https://sakadigipro.com/kontak): lokasi, peta, WhatsApp
+## Divisi dan Program PKL yang Dibuka
+1. **Digital Marketing & SEO**: Riset kata kunci, optimasi website, copywriting, dan strategi pemasaran online.
+2. **Rekayasa Perangkat Lunak (RPL)**: Web development, CMS WordPress, pengujian aplikasi (Manual QA), manajemen basis data, dan dokumentasi IT (terbuka juga bagi siswa pemula yang belum mahir coding).
+3. **Teknik Komputer dan Jaringan (TKJ)**: Administrasi jaringan LAN/Wi-Fi, troubleshooting hardware, instalasi sistem operasi, dan IT support kantor.
+4. **Desain Komunikasi Visual (DKV)**: Desain grafis promosi, fotografi produk, video reels/TikTok, branding, dan desain merchandise kantor.
+5. **Manajemen Pemasaran & Bisnis Digital**: Riset pasar, penataan konten media sosial, administrasi digital, dan pelayanan konsumen.
+6. **Teknik Grafika & Percetakan**: Prepress, pengoperasian mesin cetak, finishing kemasan (packaging), dan quality control cetak.
 
-## Optional
-- [Sitemap](https://sakadigipro.com/sitemap-index.xml)
-- [RSS](https://sakadigipro.com/rss.xml)
+## Halaman Utama dan Struktur Navigasi
+- [Beranda](https://www.pkldisaka.id/): Informasi program magang, fasilitas, alur pendaftaran, dan testimoni.
+- [Tentang Kami](https://www.pkldisaka.id/tentang/): Profil perusahaan, legalitas, visi misi, dan lingkungan kerja industri.
+- [Program PKL](https://www.pkldisaka.id/program-pkl/): Rincian kurikulum, durasi (3 - 6 bulan), dan SOP kerja.
+- [Jurusan](https://www.pkldisaka.id/jurusan/): Panduan jurusan SMK dan program studi perguruan tinggi yang didukung.
+  - [Jurusan RPL](https://www.pkldisaka.id/jurusan/rpl/)
+  - [Jurusan TKJ](https://www.pkldisaka.id/jurusan/tkj/)
+  - [Jurusan DKV](https://www.pkldisaka.id/jurusan/dkv/)
+  - [Jurusan Bisnis Digital](https://www.pkldisaka.id/jurusan/bisnis-digital/)
+  - [Jurusan Pemasaran](https://www.pkldisaka.id/jurusan/pemasaran/)
+  - [Jurusan Teknik Grafika](https://www.pkldisaka.id/jurusan/teknik-grafika/)
+- [Cara Daftar](https://www.pkldisaka.id/cara-daftar/): Persyaratan berkas (surat pengantar sekolah, CV, portofolio) dan alur seleksi.
+- [Blog & Panduan Vokasi](https://www.pkldisaka.id/blog/): Kumpulan artikel panduan PKL terlengkap di Malang.
+- [FAQ](https://www.pkldisaka.id/faq/): Pertanyaan yang sering ditanyakan seputar durasi, biaya, dan tata tertib magang.
+- [Kontak](https://www.pkldisaka.id/kontak/): Lokasi Google Maps, jam kerja kantor, dan jalur komunikasi resmi.
+
+## Peta Situs & Feed
+- [Sitemap Index XML](https://www.pkldisaka.id/sitemap-index.xml)
+- [RSS Feed](https://www.pkldisaka.id/rss.xml)

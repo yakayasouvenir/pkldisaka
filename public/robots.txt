@@ -1,12 +1,22 @@
-
-# PKL Di Saka - robots.txt
+# PKL Di Saka (pkldisaka.id) - robots.txt
+# Dioptimalkan untuk Googlebot, Google AI Overviews (SGE), OpenAI ChatGPT, Perplexity, Claude, Bing Copilot, Apple Intelligence, dan AI Search Crawlers
 
 User-agent: *
 Allow: /
 Disallow: /wa
 Disallow: /daftar
 
-# AI Search dan AI Crawlers
+# Google Search, Google AI Overviews, Gemini & SGE
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI Search & ChatGPT AI Overviews
 User-agent: GPTBot
 Allow: /
 
@@ -16,6 +26,7 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
+# Anthropic Claude & Claude Search
 User-agent: ClaudeBot
 Allow: /
 
@@ -25,20 +36,38 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
+# Perplexity AI Search
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: Perplexity-User
 Allow: /
 
-User-agent: Google-Extended
+# Microsoft Bing & Bing Copilot AI
+User-agent: Bingbot
+Allow: /
+
+# Apple Intelligence & Applebot
+User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
-User-agent: Bingbot
+# ByteDance AI Search
+User-agent: Bytespider
 Allow: /
 
-# Sitemap Utama
+# Meta AI Crawlers
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# AI Knowledge & Context File
+# LLM Context: https://www.pkldisaka.id/llms.txt
+
+# Peta Situs Resmi (XML Sitemaps)
 Sitemap: https://www.pkldisaka.id/sitemap-index.xml
+Sitemap: https://www.pkldisaka.id/sitemap-0.xml
