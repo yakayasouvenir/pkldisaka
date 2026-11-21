@@ -84,7 +84,7 @@ Bagi siswa jurusan teknologi, pengalaman 6 bulan di lingkungan kantor sangat mem
 
 ## Jadwal Jam Kerja Harian Siswa PKL di Lingkungan Industri
 
-Sebagai acuan operasional di lingkungan industri kreatif digital Kota Malang (seperti di Saka Digital Pro):
+Sebagai acuan operasional di lingkungan industri kreatif digital Kota Malang (seperti di CV Saudagar Kaya Abadi):
 - **Hari Operasional**: 5 hari kerja, yaitu hari **Senin sampai Jumat**.
 - **Jam Kerja**: Pukul **08.00 WIB hingga 16.00 WIB** (dengan jeda istirahat dan ibadah pukul 11.45 – 13.00 WIB).
 - **Hari Libur**: Hari Sabtu, Minggu, dan tanggal merah nasional libur penuh.

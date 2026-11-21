@@ -169,4 +169,4 @@ Penulisan maksud dan tujuan PKL dalam laporan akademik harus menggunakan bahasa 
 
 Maksud dan tujuan PKL memiliki peran penting dalam pendidikan kejuruan dan tinggi karena menjembatani teori akademis dengan kebutuhan dunia kerja nyata. Melalui tahapan perencanaan, pelaksanaan, serta evaluasi yang matang, peserta didik tidak hanya menguasai keterampilan teknis tetapi juga membangun karakter profesional dan etika kerja yang tangguh.
 
-Persiapkan masa magang Anda dengan memilih tempat PKL yang menyediakan bimbingan mentor berpengalaman seperti di Saka Digital Pro Malang, agar pengalaman praktik kerja Anda menghasilkan portofolio nyata yang siap membuka pintu karir masa depan.
+Persiapkan masa magang Anda dengan memilih tempat PKL yang menyediakan bimbingan mentor berpengalaman seperti di CV Saudagar Kaya Abadi Malang, agar pengalaman praktik kerja Anda menghasilkan portofolio nyata yang siap membuka pintu karir masa depan.

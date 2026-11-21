@@ -22,8 +22,8 @@ faq:
     a: "Tugas utama meliputi manajemen jaringan kabel LAN dan Wi-Fi kantor, instalasi sistem operasi, troubleshooting hardware PC kantor, konfigurasi router, serta pendataan aset IT perusahaan."
   - q: "Apakah PKL TKJ di kantor lebih baik daripada di konter servis komputer?"
     a: "Di kantor, siswa mempelajari infrastruktur jaringan bisnis skala enterprise, standar operasional keamanan data, serta alur kerja kolaboratif yang lebih relevan dengan kebutuhan industri formal."
-  - q: "Apakah Saka Digital Pro menerima siswa magang TKJ di kantor?"
-    a: "Ya, Saka Digital Pro menerima siswa jurusan TKJ untuk mendalami instalasi jaringan lokal, pengelolaan server dasar, administrasi komputer kerja, dan integrasi perangkat IoT."
+  - q: "Apakah CV Saudagar Kaya Abadi menerima siswa magang TKJ di kantor?"
+    a: "Ya, CV Saudagar Kaya Abadi menerima siswa jurusan TKJ untuk mendalami instalasi jaringan lokal, pengelolaan server dasar, administrasi komputer kerja, dan integrasi perangkat IoT."
 ---
 
 Banyak siswa SMK program keahlian Teknik Komputer dan Jaringan (TKJ) bertanya-tanya: apakah jurusan TKJ bisa menjalani Praktik Kerja Lapangan (PKL) di lingkungan kantor modern? Jawabannya tentu sangat bisa. Kebutuhan operasional kantor masa kini sepenuhnya bergantung pada kelancaran infrastruktur teknologi informasi dan komunikasi data.
@@ -78,9 +78,9 @@ Agar pengalaman PKL optimal dan menghasilkan nilai akademik tinggi, perhatikan p
 - **Hindari Penugasan yang Hanya Administratif Kertas**: Tanyakan sejak awal apakah siswa dilibatkan dalam penanganan perangkat fisik dan konfigurasi sistem IT.
 - **Pilih Lingkungan yang Mendukung Kolaborasi Digital**: Tempat magang yang juga mengelola website atau aplikasi memungkinkan Anda mempelajari integrasi server lokal dengan cloud. Apabila Anda memiliki teman seangkatan yang fokus pada coding, ajak mereka menyimak opsi [PKL RPL bagi siswa yang belum bisa coding](/blog/pkl-rpl-belum-bisa-coding).
 
-## Rekomendasi Tempat PKL TKJ di Malang: Saka Digital Pro
+## Rekomendasi Tempat PKL TKJ di Malang: CV Saudagar Kaya Abadi
 
-Bagi siswa SMK di wilayah Malang Raya, **Saka Digital Pro** membuka kesempatan magang jurusan TKJ dengan materi yang relevan:
+Bagi siswa SMK di wilayah Malang Raya, **CV Saudagar Kaya Abadi** membuka kesempatan magang jurusan TKJ dengan materi yang relevan:
 - Perawatan berkala PC client dan server lokal.
 - Setting jaringan internet kantor berkecepatan tinggi.
 - Dokumentasi pemeliharaan perangkat IT.

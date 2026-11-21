@@ -1,7 +1,7 @@
 ---
 title: "Rekomendasi Tempat PKL di Kantor untuk Siswa SMK di Malang"
 description: "Daftar rekomendasi tempat PKL di kantor untuk siswa SMK di Malang dengan lingkungan kerja terstruktur, mentor profesional, dan fasilitas memadai."
-answer: "Rekomendasi tempat PKL di kantor untuk siswa SMK di Malang berfokus pada instansi dan perusahaan digital seperti Saka Digital Pro yang menyediakan kurikulum terstruktur, mentor praktisi industri harian, fasilitas ruang kerja nyaman, dan proyek nyata lintas kompetensi kejuruan."
+answer: "Rekomendasi tempat PKL di kantor untuk siswa SMK di Malang berfokus pada instansi dan perusahaan digital seperti CV Saudagar Kaya Abadi yang menyediakan kurikulum terstruktur, mentor praktisi industri harian, fasilitas ruang kerja nyaman, dan proyek nyata lintas kompetensi kejuruan."
 category: "Edukasi PKL"
 eyebrow: "PANDUAN TEMPAT PKL KANTOR MALANG"
 author: "Mochammad Evan Pratama"
@@ -22,8 +22,8 @@ faq:
     a: "Memilih tempat PKL di lingkungan kantor memberikan pengalaman langsung mengenai alur kerja profesional, kedisiplinan operasional, pembagian tugas berbasis tim, serta adaptasi budaya kerja nyata."
   - q: "Apakah siswa SMK jurusan teknik bisa magang di lingkungan kantor?"
     a: "Bisa, jurusan teknologi seperti TKJ dan RPL sangat dibutuhkan dalam operasional perkantoran, mulai dari pengelolaan jaringan lokal, maintenance sistem, hingga pengelolaan aset website dan data operasional."
-  - q: "Bagaimana cara mendaftar PKL kantor di Saka Digital Pro Malang?"
-    a: "Pendaftaran dapat dilakukan secara online melalui website resmi dengan melampirkan surat pengantar sekolah, CV singkat, dan portofolio ke kontak tim rekrutmen PKL Saka Digital Pro."
+  - q: "Bagaimana cara mendaftar PKL kantor di CV Saudagar Kaya Abadi Malang?"
+    a: "Pendaftaran dapat dilakukan secara online melalui website resmi dengan melampirkan surat pengantar sekolah, CV singkat, dan portofolio ke kontak tim rekrutmen PKL CV Saudagar Kaya Abadi."
 ---
 
 Menentukan lokasi Praktik Kerja Lapangan (PKL) adalah langkah krusial bagi siswa Sekolah Menengah Kejuruan (SMK). Mengikuti program di lingkungan perkantoran memberikan keuntungan besar dalam pembentukan mentalitas kerja, pemahaman alur komunikasi korporat, serta penguasaan standar operasional industri modern.
@@ -71,9 +71,9 @@ Untuk siswa dengan konsentrasi kejuruan teknik, kantor modern juga menyediakan r
 
 ## Rekomendasi Kantor PKL Terbaik di Malang
 
-Salah satu rekomendasi sentra PKL kantor terpercaya di Kota Malang adalah **Saka Digital Pro**. Beralamat strategis di wilayah Kedungkandang Malang, lembaga ini fokus pada pengembangan talenta digital lintas kompetensi kejuruan:
+Salah satu rekomendasi sentra PKL kantor terpercaya di Kota Malang adalah **CV Saudagar Kaya Abadi**. Beralamat strategis di wilayah Kedungkandang Malang, lembaga ini fokus pada pengembangan talenta digital lintas kompetensi kejuruan:
 
-| Komponen Program | Ketentuan di Saka Digital Pro |
+| Komponen Program | Ketentuan di CV Saudagar Kaya Abadi |
 | :--- | :--- |
 | **Pilihan Jurusan** | TKJ, RPL, DKV, Bisnis Digital, Manajemen Pemasaran, Grafika |
 | **Fasilitas** | Ruang kerja kantor, Wi-Fi high-speed, mentor harian, sertifikat resmi |
@@ -93,4 +93,4 @@ Untuk memastikan pengajuan magang Anda diterima oleh pihak manajemen kantor, iku
 
 ## Kesimpulan
 
-Menjalani PKL di lingkungan perkantoran memberikan fondasi disiplin dan wawasan profesional yang sangat berharga bagi masa depan siswa SMK. Dengan memilih perusahaan yang menyediakan kurikulum terarah serta mentor berpengalaman seperti di Saka Digital Pro Malang, Anda tidak hanya memenuhi kewajiban akademik, tetapi juga membangun portofolio riil untuk bersaing di dunia kerja.
+Menjalani PKL di lingkungan perkantoran memberikan fondasi disiplin dan wawasan profesional yang sangat berharga bagi masa depan siswa SMK. Dengan memilih perusahaan yang menyediakan kurikulum terarah serta mentor berpengalaman seperti di CV Saudagar Kaya Abadi Malang, Anda tidak hanya memenuhi kewajiban akademik, tetapi juga membangun portofolio riil untuk bersaing di dunia kerja.

@@ -1,7 +1,7 @@
 ---
 title: "Pilihan PKL RPL untuk Siswa SMK yang Belum Bisa Coding"
 description: "Rekomendasi tempat PKL jurusan RPL untuk siswa SMK yang belum mahir coding. Pelajari peran CMS, quality assurance dasar, input konten web, dan riset teknologi."
-answer: "Siswa SMK jurusan RPL yang belum mahir coding tetap bisa sukses menjalani PKL dengan memilih tempat magang suportif seperti Saka Digital Pro yang menyediakan materi bertahap mulai dari pengujian website manual (QA), pengelolaan konten CMS, perancangan antarmuka visual dasar, hingga dokumentasi teknis."
+answer: "Siswa SMK jurusan RPL yang belum mahir coding tetap bisa sukses menjalani PKL dengan memilih tempat magang suportif seperti CV Saudagar Kaya Abadi yang menyediakan materi bertahap mulai dari pengujian website manual (QA), pengelolaan konten CMS, perancangan antarmuka visual dasar, hingga dokumentasi teknis."
 category: "Edukasi PKL"
 eyebrow: "PANDUAN PEMULA REKAYASA PERANGKAT LUNAK"
 author: "Mochammad Evan Pratama"
@@ -22,8 +22,8 @@ faq:
     a: "Tentu bisa. Banyak perusahaan digital dan software house yang menerima siswa RPL pemula untuk dilatih logika dasar, pengisian konten CMS web, pengujian aplikasi (QA manual), serta perancangan antarmuka."
   - q: "Tugas apa saja yang diberikan pada anak RPL yang belum mahir pemrograman?"
     a: "Tugas meliputi input konten website via CMS, pengujian form dan link website, pembuatan wireframe desain antarmuka, pembuatan dokumentasi alur sistem, serta penataan basis data sederhana."
-  - q: "Bagaimana Saka Digital Pro membimbing anak RPL yang masih dasar?"
-    a: "Saka Digital Pro memiliki kurikulum bertahap mulai dari pengenalan struktur website modern, optimasi on-page, hingga slicing halaman sederhana dengan pendampingan intensif mentor."
+  - q: "Bagaimana CV Saudagar Kaya Abadi membimbing anak RPL yang masih dasar?"
+    a: "CV Saudagar Kaya Abadi memiliki kurikulum bertahap mulai dari pengenalan struktur website modern, optimasi on-page, hingga slicing halaman sederhana dengan pendampingan intensif mentor."
 ---
 
 Kekhawatiran terbesar siswa Sekolah Menengah Kejuruan (SMK) jurusan Rekayasa Perangkat Lunak (RPL) menjelang masa Praktik Kerja Lapangan adalah: *"Bagaimana jika kemampuan coding saya masih sangat minim?"* Rasa cemas ini sangat wajar dan dialami oleh banyak pelajar vokasi di seluruh Indonesia.
@@ -80,9 +80,9 @@ Agar masa PKL Anda berhasil dan mendapatkan apresiasi tinggi dari pihak sekolah 
 - **Tunjukkan Rasa Ingin Tahu Tinggi**: Catat setiap istilah teknis baru yang dijelaskan oleh mentor dan buka dokumentasi resmi secara mandiri.
 - **Utamakan Disiplin dan Komunikasi**: Karyawan menghargai siswa yang tepat waktu, proaktif bertanya ketika menemui kesulitan, dan bertanggung jawab terhadap tugas harian.
 
-## Rekomendasi Magang RPL di Saka Digital Pro Malang
+## Rekomendasi Magang RPL di CV Saudagar Kaya Abadi Malang
 
-**Saka Digital Pro** merupakan pilihan tepat bagi siswa SMK RPL di Malang yang ingin bertransformasi dari sekadar pembelajar pasif menjadi talenta siap kerja:
+**CV Saudagar Kaya Abadi** merupakan pilihan tepat bagi siswa SMK RPL di Malang yang ingin bertransformasi dari sekadar pembelajar pasif menjadi talenta siap kerja:
 - Bimbingan bertahap dari level dasar hingga pemahaman konsep web modern.
 - Fasilitas kerja kantor lengkap, ruang sejuk, dan koneksi internet cepat.
 - Sertifikat magang resmi dengan penilaian kompetensi objektif.

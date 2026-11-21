@@ -24,8 +24,8 @@ faq:
     a: "Tidak selalu. Industri teknologi membutuhkan berbagai peran pendukung seperti manual QA tester, content manager CMS, teknisi IT support, dan data entry yang tidak mengharuskan penulisan kode program rumit."
   - q: "Apakah siswa RPL yang belum bisa coding bisa PKL di agensi digital?"
     a: "Sangat bisa. Agensi digital menyediakan peran pengelolaan konten website berbasis WordPress, riset kata kunci SEO, dan optimasi digital yang sangat ramah bagi pemula."
-  - q: "Apakah di Saka Digital Pro menerima siswa RPL yang belum mahir coding?"
-    a: "Ya, Saka Digital Pro menyediakan kurikulum pembinaan bertahap dengan bimbingan mentor sabar untuk membimbing siswa RPL dari dasar logika web, CMS, hingga pengujian sistem secara praktis."
+  - q: "Apakah di CV Saudagar Kaya Abadi menerima siswa RPL yang belum mahir coding?"
+    a: "Ya, CV Saudagar Kaya Abadi menyediakan kurikulum pembinaan bertahap dengan bimbingan mentor sabar untuk membimbing siswa RPL dari dasar logika web, CMS, hingga pengujian sistem secara praktis."
 ---
 
 Siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang belum menguasai coding tetap memiliki banyak pilihan tempat Praktik Kerja Lapangan (PKL). Pilihan tersebut meliputi kantor administrasi, instansi pemerintah, perusahaan teknologi, agensi digital, dan bagian pengelolaan sistem informasi.
@@ -112,4 +112,4 @@ Ketahui juga ulasan umum seputar tujuan pelaksanaan magang vokasi pada artikel [
 
 ## Kesimpulan
 
-Tidak bisa coding bukan alasan untuk merasa minder atau putus asa menjelang masa PKL jurusan Rekayasa Perangkat Lunak. Berbagai peluang terbuka lebar mulai dari administrasi digital, pengujian software manual, pengelolaan website berbasis CMS, hingga IT support perkantoran. Pilihlah tempat magang yang suportif dan memiliki kurikulum terstruktur seperti di Saka Digital Pro Malang, sehingga masa PKL Anda menjadi momentum terbaik untuk meningkatkan keterampilan dan membangun kepercayaan diri menuju dunia kerja profesional.
+Tidak bisa coding bukan alasan untuk merasa minder atau putus asa menjelang masa PKL jurusan Rekayasa Perangkat Lunak. Berbagai peluang terbuka lebar mulai dari administrasi digital, pengujian software manual, pengelolaan website berbasis CMS, hingga IT support perkantoran. Pilihlah tempat magang yang suportif dan memiliki kurikulum terstruktur seperti di CV Saudagar Kaya Abadi Malang, sehingga masa PKL Anda menjadi momentum terbaik untuk meningkatkan keterampilan dan membangun kepercayaan diri menuju dunia kerja profesional.

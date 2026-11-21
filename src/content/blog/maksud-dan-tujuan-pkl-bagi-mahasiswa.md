@@ -94,4 +94,4 @@ Bagi mahasiswa yang ingin membedakan cara penulisan bab pendahuluan laporan maga
 
 ## Kesimpulan
 
-Maksud dan tujuan PKL bagi mahasiswa bermuara pada penguatan kompetensi profesional, pemahaman budaya industri, serta akselerasi kesiapan karir masa depan. Menjalani masa kerja praktik dengan target yang jelas dan etika kerja yang baik di tempat magang profesional seperti Saka Digital Pro Malang akan membuka peluang sukses yang luas di dunia industri.
+Maksud dan tujuan PKL bagi mahasiswa bermuara pada penguatan kompetensi profesional, pemahaman budaya industri, serta akselerasi kesiapan karir masa depan. Menjalani masa kerja praktik dengan target yang jelas dan etika kerja yang baik di tempat magang profesional seperti CV Saudagar Kaya Abadi Malang akan membuka peluang sukses yang luas di dunia industri.

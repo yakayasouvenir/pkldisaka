@@ -33,7 +33,7 @@ faq:
 
 Perusahaan penerima PKL RPL dapat berasal dari software house, agensi digital, startup, penyedia layanan IT, atau divisi teknologi perusahaan umum.
 
-Menemukan industri mitra yang terpercaya dan memiliki kurikulum pembinaan terstruktur sangat menentukan keberhasilan magang. Di [Saka Digital Pro Malang](https://www.pkldisaka.id/), program magang kejuruan dikelola secara profesional dengan bimbingan harian agar peserta siap bersaing di bursa kerja industri digital.
+Menemukan industri mitra yang terpercaya dan memiliki kurikulum pembinaan terstruktur sangat menentukan keberhasilan magang. Di [CV Saudagar Kaya Abadi Malang](https://www.pkldisaka.id/), program magang kejuruan dikelola secara profesional dengan bimbingan harian agar peserta siap bersaing di bursa kerja industri digital.
 
 ## Ringkasan Inti
 

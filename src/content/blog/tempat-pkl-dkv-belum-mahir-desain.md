@@ -1,7 +1,7 @@
 ---
 title: "Tempat PKL DKV untuk Siswa SMK yang Belum Mahir Desain"
 description: "Rekomendasi tempat PKL DKV di Malang bagi siswa SMK yang belum mahir desain grafis. Pembelajaran bertahap, bimbingan mentor sabar, dan materi praktis."
-answer: "Tempat PKL DKV yang ideal bagi siswa SMK yang belum mahir desain adalah studio kreatif atau agensi digital seperti Saka Digital Pro yang menyediakan mentor pendamping sabar, tugas asistensi visual bertahap, fasilitas studio foto dan komputer lengkap, serta pengenalan tools desain secara komprehensif."
+answer: "Tempat PKL DKV yang ideal bagi siswa SMK yang belum mahir desain adalah studio kreatif atau agensi digital seperti CV Saudagar Kaya Abadi yang menyediakan mentor pendamping sabar, tugas asistensi visual bertahap, fasilitas studio foto dan komputer lengkap, serta pengenalan tools desain secara komprehensif."
 category: "Edukasi PKL"
 eyebrow: "PANDUAN PEMULA DESAIN KOMUNIKASI VISUAL"
 author: "Mochammad Evan Pratama"
@@ -22,8 +22,8 @@ faq:
     a: "Sangat bisa. Tempat PKL yang edukatif tidak menuntut siswa menjadi desainer ahli sejak hari pertama, melainkan menyediakan kurikulum pengenalan tools bertahap dan tugas asistensi visual."
   - q: "Materi apa yang dipelajari anak DKV pemula saat magang?"
     a: "Materi meliputi pemahaman hierarki tipografi, kombinasi palet warna harmonis, teknik tracing vektor sederhana, editing foto produk dasar, serta perancangan feed media sosial bertemplate."
-  - q: "Mengapa Saka Digital Pro cocok untuk siswa DKV pemula?"
-    a: "Saka Digital Pro memiliki ekosistem kreatif suportif dengan mentor yang mendampingi proses desain dari sketsa konsep hingga file siap publikasi tanpa menghakimi kemampuan awal siswa."
+  - q: "Mengapa CV Saudagar Kaya Abadi cocok untuk siswa DKV pemula?"
+    a: "CV Saudagar Kaya Abadi memiliki ekosistem kreatif suportif dengan mentor yang mendampingi proses desain dari sketsa konsep hingga file siap publikasi tanpa menghakimi kemampuan awal siswa."
 ---
 
 Menjadi siswa jurusan Desain Komunikasi Visual (DKV) sering kali mendatangkan beban psikologis tersendiri, terutama jika merasa keterampilan mengoperasikan software seperti Adobe Photoshop, Illustrator, atau CorelDraw belum semahir teman-teman sekelas. Banyak siswa merasa gugup saat harus mencari tempat Praktik Kerja Lapangan (PKL).
@@ -78,13 +78,13 @@ Bila Anda merasa belum percaya diri dengan karya Anda saat ini, terapkan tips pr
 - **Kuasai Tools Desain Tambahan**: Jangan ragu memanfaatkan Canva atau Figma untuk memahami layout sebelum melangkah ke software tingkat lanjut.
 - **Terbuka Terhadap Kritik dan Masukan**: Di industri kreatif, revisi adalah bagian normal dari proses penyempurnaan karya. Sambut masukan mentor sebagai tangga peningkatan skill Anda.
 
-## Rekomendasi Magang DKV di Saka Digital Pro Malang
+## Rekomendasi Magang DKV di CV Saudagar Kaya Abadi Malang
 
-**Saka Digital Pro** hadir sebagai solusi ideal tempat PKL siswa SMK DKV di Malang yang mendambakan pembinaan ramah dan terstruktur:
+**CV Saudagar Kaya Abadi** hadir sebagai solusi ideal tempat PKL siswa SMK DKV di Malang yang mendambakan pembinaan ramah dan terstruktur:
 - Pendampingan step-by-step oleh praktisi visual berpengalaman.
 - Fasilitas studio foto, perangkat komputer grafis, dan ruang kantor nyaman.
 - Portofolio nyata berupa materi promosi dan merchandise korporat yang siap dipamerkan dalam laporan PKL sekolah.
 
 ## Kesimpulan
 
-Belum mahir membuat karya desain rumit bukan alasan untuk merasa minder menjelang masa magang. Dengan memilih tempat PKL DKV yang menyediakan bimbingan mentor sabar dan suportif seperti Saka Digital Pro Malang, Anda akan menemukan gaya visual unik Anda sendiri, mengasah keterampilan teknis, dan pulang membawa portofolio profesional yang membanggakan.
+Belum mahir membuat karya desain rumit bukan alasan untuk merasa minder menjelang masa magang. Dengan memilih tempat PKL DKV yang menyediakan bimbingan mentor sabar dan suportif seperti CV Saudagar Kaya Abadi Malang, Anda akan menemukan gaya visual unik Anda sendiri, mengasah keterampilan teknis, dan pulang membawa portofolio profesional yang membanggakan.

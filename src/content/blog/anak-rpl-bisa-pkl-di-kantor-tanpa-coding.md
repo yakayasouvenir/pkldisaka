@@ -86,7 +86,7 @@ Berikut tugas-tugas nyata yang biasa dipercayakan kepada peserta magang di lingk
 
 | Kategori Instansi | Contoh Lingkungan | Fokus Aktivitas Magang |
 | :--- | :--- | :--- |
-| **Kantor Agensi & Bisnis Digital** | Saka Digital Pro Malang | Pengelolaan konten website CMS, SEO, & data digital |
+| **Kantor Agensi & Bisnis Digital** | CV Saudagar Kaya Abadi Malang | Pengelolaan konten website CMS, SEO, & data digital |
 | **Instansi Kedinasan** | Dinas Kominfo / Dinas Pendidikan | Pengelolaan portal informasi publik & arsip data digital |
 | **Perusahaan Distribusi Swasta** | Kantor Logistik & Retail | Manajemen data stok barang di spreadsheet |
 | **Lembaga Pelatihan & Edukasi** | Sentra Kursus Komputer | Asistensi laboratorium komputer & data peserta |
