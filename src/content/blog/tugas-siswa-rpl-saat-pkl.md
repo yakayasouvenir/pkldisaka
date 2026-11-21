@@ -101,7 +101,7 @@ Menyusun jurnal harian sangat penting agar Anda tidak kesulitan saat menyusun la
 2. **Gunakan Bahasa Formal**: Jelaskan masalah teknis yang dihadapi dan solusi yang diberikan oleh mentor.
 3. **Dokumentasikan Foto Kegiatan**: Ambil foto dokumentasi suasana kerja atau hasil tangkapan layar proyek yang diizinkan mentor.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Tugas PKL jurusan RPL sangat bervariasi dan fleksibel. Baik Anda yang mahir menulis kode maupun yang lebih tertarik pada administrasi sistem informasi, selalu ada ruang belajar nyata di dunia industri.
 

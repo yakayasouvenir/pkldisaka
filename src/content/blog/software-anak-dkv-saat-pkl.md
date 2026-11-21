@@ -83,7 +83,7 @@ Penyuntingan video promosi reels/TikTok dan motion graphic untuk bumper promosi 
 | Canva | Template Cloud | Cepat & kolaboratif | Feed Instagram, presentasi |
 | Figma | Vektor Kolaboratif | Desain responsif real-time | UI/UX aplikasi & website |
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Anda tidak dituntut untuk menguasai semua software sekaligus secara sempurna sebelum PKL. Kuasai dasar 1–2 aplikasi utama sesuai minat Anda, lalu kembangkan keterampilan aplikasi lainnya secara bertahap selama masa praktik industri.
 

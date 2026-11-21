@@ -156,7 +156,7 @@ Sebelum mengajukan surat permohonan, perhatikan 5 aspek penting berikut:
 5. **Ikuti sesi wawancara** jika disyaratkan oleh industri.
 6. **Konfirmasikan penerimaan** ke pihak sekolah.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Jurusan RPL memiliki ragam pilihan tempat magang yang sangat luas, mulai dari software house hingga divisi IT perkantoran. Kunci utamanya adalah memilih tempat yang menyediakan mentor pembimbing dan tugas yang mendukung pembelajaran vokasi.
 

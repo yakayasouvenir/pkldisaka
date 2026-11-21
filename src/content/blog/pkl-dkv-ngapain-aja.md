@@ -103,7 +103,7 @@ Alur kerja desain di industri biasanya dimulai dari penerimaan brief dan berakhi
 5. **Review & Revisi**: Menyesuaikan karya berdasarkan evaluasi mentor.
 6. **Finalisasi & Ekspor**: Menyimpan file sesuai format kebutuhan (JPG, PNG, PDF, atau file master).
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 PKL DKV memberikan kesempatan nyata bagi siswa untuk menguji bakat visualnya di dunia kerja sesungguhnya. Jangan hanya menunggu instruksi; jadilah siswa yang proaktif, berani bertanya, dan teliti dalam merapikan portofolio.
 

@@ -78,7 +78,7 @@ Portofolio adalah tiket utama Anda untuk meyakinkan pihak industri:
 - **Cantumkan Penjelasan Singkat**: Jelaskan tujuan desain, software yang digunakan, dan konsep di balik karya tersebut.
 - **Kemas dalam Format PDF Rapi atau Link Online**: Pastikan file mudah dibuka oleh bagian HRD perusahaan mitra.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Persiapan skill sebelum PKL bukan berarti Anda harus sudah menjadi desainer visual profesional. Yang paling dicari oleh perusahaan adalah siswa yang memiliki fondasi dasar yang kuat, sikap disiplin, serta antusiasme tinggi untuk terus belajar.
 

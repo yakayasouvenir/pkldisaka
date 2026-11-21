@@ -105,7 +105,7 @@ Bagi siswa RPL, pengalaman menggunakan sistem perusahaan dapat membantu memahami
 4. **Pastikan ada pembimbing lapangan**: Agar ada mentor yang membimbing saat menemui kendala.
 5. **Konsultasikan kepada guru pembimbing sekolah**: Memastikan tempat magang memenuhi syarat kurikulum vokasi.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Siswa RPL tidak harus selalu menjalani PKL di perusahaan pembuat software atau bekerja sebagai programmer murni. Lingkungan perkantoran modern menyediakan beragam kesempatan belajar teknologi informasi yang sangat bermanfaat.
 

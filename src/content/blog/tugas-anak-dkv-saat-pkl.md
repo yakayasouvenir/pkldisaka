@@ -84,7 +84,7 @@ Merancang label stiker botol, box kemasan, dan mockup visual produk dengan mempe
 | Rumah Produksi Video | Thumbnail, aset grafis animasi, editing reels | Premiere Pro, After Effects |
 | Perusahaan Retail / Toko | Katalog produk, foto promosi, label kemasan | Photoshop, Illustrator |
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Tugas anak DKV selama masa PKL sangat bervariasi dan memberikan pengalaman berharga. Kerjakan setiap tugas dengan disiplin, pahami brief secara cermat, dan jangan ragu meminta masukan dari mentor.
 

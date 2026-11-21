@@ -90,7 +90,7 @@ Siswa dapat meneliti profil perusahaan teknologi untuk memahami kriteria penerim
 - **Portofolio Proyek Sederhana**: Cuplikan tugas sekolah (misalnya desain website atau aplikasi sederhana).
 - **Surat Kesediaan Mematuhi SOP Kantor**: Bukti komitmen disiplin dan tata tertib magang.
 
-## Kesimpulan Praktis
+## Kesimpulan
 
 Pilihan perusahaan bagi siswa RPL sangat beragam dan luas. Utamakan perusahaan yang memiliki mentor aktif dan memberikan tugas nyata yang relevan dengan perkembangan kompetensi Anda.
 
