@@ -1,0 +1,150 @@
+---
+// src/pages/layanan.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQList from '../components/FAQList.astro';
+import CTASection from '../components/CTASection.astro';
+import { faqNode } from '../lib/schema';
+import { waLink } from '../data/site';
+
+const crumbs = [{ name: 'Layanan', path: '/layanan/' }];
+
+const services = [
+  {
+    icon: 'bi-mortarboard-fill',
+    title: 'Pembinaan & Mentoring Praktik Kerja Lapangan (PKL)',
+    desc: 'Bimbingan harian intensif oleh mentor praktisi industri bagi siswa SMK dan mahasiswa untuk memperdalam keahlian teknis sesuai kompetensi kejuruan.',
+    points: [
+      'Kurikulum vokasi selaras standar industri & Kurikulum Merdeka',
+      'Pendampingan pengerjaan proyek riil komersial terarah',
+      'Evaluasi progres harian, mingguan, dan bimbingan laporan PKL',
+    ],
+  },
+  {
+    icon: 'bi-award-fill',
+    title: 'Sertifikasi Kompetensi & Portofolio Industri',
+    desc: 'Penerbitan sertifikat resmi kelulusan magang industri serta pendampingan penyusunan portofolio karya profesional bagi seluruh peserta.',
+    points: [
+      'Sertifikat PKL resmi dari CV Saudagar Kaya Abadi berisikan transkrip nilai kejuruan',
+      'Portofolio proyek nyata (website, desain, konten promosi, jaringan)',
+      'Surat rekomendasi kerja industri bagi peserta berprestasi',
+    ],
+  },
+  {
+    icon: 'bi-building-check',
+    title: 'Kemitraan Vokasi & MoU Sekolah / Kampus',
+    desc: 'Layanan kerja sama formal institusi pendidikan untuk penyaluran peserta didik magang secara terencana, terdata, dan berkelanjutan.',
+    points: [
+      'Penyusunan nota kesepahaman (MoU) kemitraan pendidikan vokasi',
+      'Prioritas alokasi kuota per angkatan dan per jurusan',
+      'Fasilitasi monitoring langsung bagi guru pembimbing atau dosen pamong',
+    ],
+  },
+  {
+    icon: 'bi-laptop-fill',
+    title: 'Fasilitas Kerja & Ekosistem Studio Digital',
+    desc: 'Penyediaan sarana pendukung operasional kerja modern untuk memastikan kelancaran seluruh proses pembelajaran peserta.',
+    points: [
+      'Ruang kerja kantor AC dan studio multimedia berstandar industri',
+      'Akses internet WiFi kecepatan tinggi khusus tim operasional',
+      '100% Bebas biaya program / tanpa pungutan pendaftaran',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'Apa saja layanan yang disediakan oleh CV Saudagar Kaya Abadi dalam program PKL?',
+    a: 'Kami menyediakan layanan pembinaan vokasi intensif dengan mentor praktisi harian, fasilitas studio kerja gratis, bimbingan laporan dan jurnal magang, penerbitan sertifikat resmi industri, serta kemitraan formal MoU bersama pihak sekolah dan perguruan tinggi.',
+  },
+  {
+    q: 'Apakah ada biaya yang dikenakan untuk program layanan PKL di Saka?',
+    a: 'Program PKL di Saka 100% GRATIS dan tidak dipungut biaya pendaftaran maupun biaya pembinaan.',
+  },
+  {
+    q: 'Bagaimana cara sekolah mengajukan kerja sama layanan kemitraan magang?',
+    a: 'Pihak sekolah atau kampus dapat mengirimkan draf MoU atau menghubungi tim kemitraan kami melalui kontak WhatsApp resmi di 0813-3432-1383.',
+  },
+  {
+    q: 'Apakah peserta PKL mendapatkan pendampingan pembuatan laporan akhir sekolah?',
+    a: 'Ya, tim mentor kami aktif membantu proses asistensi bab laporan sekolah, review jurnal kegiatan harian, serta pengisian blangko penilaian resmi dari institusi pendidikan Anda.',
+  },
+];
+---
+
+<BaseLayout
+  title="Layanan Pembinaan & Kemitraan PKL di Saka Malang"
+  description="Layanan terpadu Praktik Kerja Lapangan (PKL) di Saka Malang: pembinaan intensif mentor industri, sertifikasi kompetensi, MoU kemitraan sekolah, dan fasilitas kerja profesional."
+  path="/layanan/"
+  crumbs={crumbs}
+  schema={[faqNode('/layanan/', faqs)]}
+>
+  <PageHero
+    eyebrow="Solusi Vokasi Industri Terpadu"
+    title="Layanan Program PKL di Saka"
+    lead="Mendukung transformasi talenta vokasi dan institusi pendidikan melalui layanan bimbingan terstruktur, sertifikasi industri, dan kemitraan strategis di Kota Malang."
+    crumbs={crumbs}
+    bgImage="/images/13.webp"
+  />
+
+  <section class="content-section py-5">
+    <div class="container">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="badge bg-primary-subtle text-primary fw-semibold px-3 py-2 rounded-pill mb-2">Layanan Utama Kami</span>
+        <h2 class="h3 fw-bold text-dark">Dukungan Komprehensif untuk Siswa, Mahasiswa & Sekolah</h2>
+        <p class="text-muted">
+          Kami berkomitmen menghadirkan ekosistem magang yang tidak hanya memenuhi kewajiban administratif kurikulum, tetapi juga membekali peserta dengan kompetensi nyata yang bernilai di bursa kerja.
+        </p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        {services.map((item) => (
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm p-4 rounded-4 service-card hover-lift">
+              <div class="d-flex align-items-center mb-3">
+                <div class="service-icon-box bg-primary text-white rounded-3 p-3 me-3">
+                  <i class={`bi ${item.icon} fs-4`}></i>
+                </div>
+                <h3 class="h5 fw-bold text-dark mb-0">{item.title}</h3>
+              </div>
+              <p class="text-muted mb-3">{item.desc}</p>
+              <ul class="list-unstyled mb-0">
+                {item.points.map((pt) => (
+                  <li class="d-flex align-items-start mb-2 small text-secondary">
+                    <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
+                    <span>{pt}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-5 pt-3">
+        <FAQList items={faqs} id="faq-layanan" />
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
+
+<style>
+  .service-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  }
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(13, 110, 253, 0.08) !important;
+  }
+  .service-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+</style>

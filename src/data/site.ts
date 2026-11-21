@@ -84,6 +84,12 @@ export const NAV: NavItem[] = [
         icon: 'bi-journal-check',
       },
       {
+        href: '/layanan/',
+        label: 'Layanan',
+        desc: 'Layanan pembinaan, sertifikasi & kemitraan PKL',
+        icon: 'bi-gear-wide-connected',
+      },
+      {
         href: '/mitra/',
         label: 'Sekolah Mitra',
         desc: 'Institusi sekolah & kampus vokasi mitra magang',
