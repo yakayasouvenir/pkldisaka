@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~7 Menit"
 image: "/images/blog/pkl-terdekat-1.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait tempat pkl terdekat"
 imageCaption: "Pencarian lokasi tempat PKL terdekat yang strategis dan mudah dijangkau dari rumah siswa."
 keywords:
   - "tempat pkl terdekat"
@@ -51,14 +51,14 @@ Tempat pelaksanaan PKL dapat berupa perseroan, agensi digital, unit usaha kreati
 <figure class="my-4 text-center">
   <img
     src="/images/blog/pkl-terdekat-2.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Suasana bimbingan praktik bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi bimbingan intensif dan evaluasi tugas harian bersama pembimbing industri di ruang kerja yang nyaman.
+    Sesi bimbingan intensif dan evaluasi tugas harian bersama pembimbing industri di ruang kerja yang nyaman.
   </figcaption>
 </figure>
 
@@ -109,14 +109,14 @@ Hindari tempat PKL yang membebankan biaya tanpa kejelasan fasilitas. Pahami rinc
 <figure class="my-4 text-center">
   <img
     src="/images/4.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Apresiasi sertifikat kompetensi resmi setelah peserta menuntaskan program PKL terstruktur dengan baik.
+    Apresiasi sertifikat kompetensi resmi setelah peserta menuntaskan program PKL terstruktur dengan baik.
   </figcaption>
 </figure>
 

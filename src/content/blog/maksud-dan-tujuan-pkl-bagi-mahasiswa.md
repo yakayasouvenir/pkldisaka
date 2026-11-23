@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/maksud-dan-tujuan-pkl-bagi-mahasiswa.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan terkait maksud"
 imageCaption: "Mahasiswa perguruan tinggi terlibat aktif dalam proyek profesional selama kegiatan Praktik Kerja Lapangan."
 keywords:
   - "maksud dan tujuan PKL bagi mahasiswa"
@@ -35,7 +35,7 @@ Bagi mahasiswa diploma maupun sarjana di Malang yang ingin mengembangkan potensi
 <figure class="my-4">
   <img 
     src="/images/blog/mahasiswa-melaksanakan-pkl.webp" 
-    alt="Mahasiswa mengikuti praktik kerja lapangan di perusahaan" 
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -70,7 +70,7 @@ Hasil kerja selama magang menjadi portofolio konkret yang bernilai tinggi saat m
 <figure class="my-4">
   <img 
     src="/images/blog/persiapan-karier-mahasiswa.webp" 
-    alt="Mahasiswa mengembangkan keterampilan profesional selama PKL" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

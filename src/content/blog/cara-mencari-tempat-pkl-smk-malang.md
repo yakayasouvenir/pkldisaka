@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~6 Menit"
 image: "/images/wawancara-seleksi-magang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait mencari tempat pkl"
 imageCaption: "Proses komunikasi pendaftaran dan verifikasi berkas permohonan PKL di kantor Saka Malang."
 keywords:
   - "cara mencari tempat pkl untuk smk"
@@ -54,14 +54,14 @@ Persiapan awal juga membantu peserta memahami ekspektasi kerja di industri. Sisw
 <figure class="my-4 text-center">
   <img
     src="/images/penyerahan-dokumen-pkl.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Suasana bimbingan praktik bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengarsipan berkas surat pengantar resmi dan portofolio karya sebelum diajukan ke industri mitra.
+    Pengarsipan berkas surat pengantar resmi dan portofolio karya sebelum diajukan ke industri mitra.
   </figcaption>
 </figure>
 
@@ -99,14 +99,14 @@ Setiap instansi memiliki ketentuan berkas yang berbeda. Pastikan Anda mencatat s
 <figure class="my-4 text-center">
   <img
     src="/images/verifikasi-jurnal-magang.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Koordinasi administrasi dan penyesuaian kalender magang bersama guru pembimbing sekolah.
+    Koordinasi administrasi dan penyesuaian kalender magang bersama guru pembimbing sekolah.
   </figcaption>
 </figure>
 

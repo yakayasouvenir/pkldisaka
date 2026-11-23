@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/berapa-lama-waktu-pkl-kuliah.webp"
-imageAlt: "Siswa berdiskusi dengan mentor pembimbing"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program berapa lama waktu pkl kuliah"
 imageCaption: "Aktivitas magang dan koordinasi proyek mahasiswa di lingkungan perusahaan profesional."
 keywords:
   - "berapa lama waktu pkl kuliah"
@@ -35,7 +35,7 @@ Bagi mahasiswa yang ingin merasakan atmosfer kerja profesional di Kota Malang, m
 <figure class="my-4">
   <img 
     src="/images/blog/ilustrasi-mahasiswa-pkl-kuliah.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -75,7 +75,7 @@ Mahasiswa yang mengambil mata kuliah PKL reguler dapat menjalani praktik dalam w
 <figure class="my-4">
   <img 
     src="/images/blog/jadwal-pelaksanaan-pkl-mahasiswa.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

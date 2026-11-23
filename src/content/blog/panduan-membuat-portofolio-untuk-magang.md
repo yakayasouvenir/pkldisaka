@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~5 Menit"
 image: "/images/12.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengikuti kegiatan terkait membuat portofolio magang pemula fo"
 imageCaption: "Proses pengerjaan aset visual dan portofolio kreatif siswa jurusan DKV di studio desain Saka Malang."
 keywords: ["portofolio magang pemula", "cara buat portofolio dkv", "contoh portofolio rpl smk", "portofolio magang tanpa pengalaman", "format portofolio pdf"]
 faq:

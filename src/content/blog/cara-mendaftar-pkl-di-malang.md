@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/24.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait mendaftar pkl di malang"
 imageCaption: "Tahapan verifikasi berkas administrasi dan konsultasi pendaftaran magang di kantor PKL di Saka Malang."
 keywords:
   - "cara mendaftar pkl di malang"
@@ -66,14 +66,14 @@ Kumpulkan seluruh dokumen dalam format file PDF beresolusi tajam (maksimal ukura
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Suasana bimbingan praktik bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengarsipan berkas administrasi, logbook kegiatan, dan data siswa magang secara tertib dan transparan.
+    Pengarsipan berkas administrasi, logbook kegiatan, dan data siswa magang secara tertib dan transparan.
   </figcaption>
 </figure>
 
@@ -100,14 +100,14 @@ Jika diundang untuk sesi wawancara tatap muka atau perkenalan online, hadir tepa
 <figure class="my-4 text-center">
   <img
     src="/images/17.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi wawancara pengenalan minat untuk menentukan penempatan divisi yang paling tepat bagi siswa.
+    Sesi wawancara pengenalan minat untuk menentukan penempatan divisi yang paling tepat bagi siswa.
   </figcaption>
 </figure>
 

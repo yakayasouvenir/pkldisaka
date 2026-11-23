@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa mengikuti kegiatan terkait tempat pkl sesuai jurusan smk"
 imageCaption: "Pembagian penugasan proyek industri yang disesuaikan secara terarah dengan kompetensi keahlian kejuruan siswa."
 keywords:
   - "tempat pkl sesuai jurusan"
@@ -52,14 +52,14 @@ Informasi ini berkaitan erat dengan panduan utama [tempat PKL terdekat](/tempat-
 <figure class="my-4 text-center">
   <img
     src="/images/10.webp"
-    alt="Siswa praktik perakitan dan konfigurasi komputer"
+    alt="Suasana bimbingan praktik bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Ruang studio kerja kolaboratif dengan fasilitas workstation komputer dan koneksi internet cepat.
+    Ruang studio kerja kolaboratif dengan fasilitas workstation komputer dan koneksi internet cepat.
   </figcaption>
 </figure>
 
@@ -106,14 +106,14 @@ Prinsip relevansi kompetensi yang sama wajib diterapkan pada seluruh konsentrasi
 <figure class="my-4 text-center">
   <img
     src="/images/12.webp"
-    alt="Siswa mengerjakan tugas pemrograman di laptop"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pembelajaran desain komunikasi visual dan pembuatan materi kreatif yang disesuaikan dengan kebutuhan pasar.
+    Pembelajaran desain komunikasi visual dan pembuatan materi kreatif yang disesuaikan dengan kebutuhan pasar.
   </figcaption>
 </figure>
 

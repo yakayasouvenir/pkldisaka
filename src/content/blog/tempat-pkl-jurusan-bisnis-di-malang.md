@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-jurusan-bisnis-di-malang.webp"
-imageAlt: "Tempat PKL Jurusan Bisnis di Malang"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program tempat pkl jurusan bisnis di malang"
 imageCaption: "Aktivitas kolaboratif siswa SMK dan mahasiswa jurusan bisnis dalam menganalisis data pasar di Malang."
 faq:
   - q: "Jurusan bisnis bisa PKL di mana?"
@@ -151,7 +151,7 @@ karakteristik produk, dan strategi komunikasi pemasaran.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tempat-pkl-jurusan-bisnis-malang.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tempat-pkl-jurusan-bisnis-malang.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Sesi orientasi dan pengenalan alur kerja operasional bisnis modern bersama mentor.</figcaption>
 </figure>
 
@@ -268,7 +268,7 @@ dan jam kerja.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-pkl-bisnis-digital.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-pkl-bisnis-digital.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penerapan strategi analitik e-commerce dan optimalisasi listing produk komersial.</figcaption>
 </figure>
 

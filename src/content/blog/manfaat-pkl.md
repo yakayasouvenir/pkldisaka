@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/manfaat-pkl.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program manfaat pkl bagi siswa smk"
 imageCaption: "Peserta magang menerima sertifikat kelulusan Praktik Kerja Lapangan dari pembimbing industri sebagai bukti kompetensi kerja."
 keywords:
   - "manfaat PKL"
@@ -69,7 +69,7 @@ Setiap tugas yang diamanahkan memiliki tenggat waktu (*deadline*). Siswa dituntu
 Di lingkungan industri, siswa dilatih untuk berani bertanya jika menemui kendala, melaporkan progres harian secara teratur, serta mendiskusikan solusi bersama mentor pembimbing.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/pengembangan-keterampilan-pkl.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/pengembangan-keterampilan-pkl.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK mendapatkan pendampingan intensif dari mentor dalam mengembangkan keterampilan teknis dan komunikasi kerja.</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Hampir tidak ada proyek industri yang diselesaikan sendirian. Siswa belajar meng
 Ketika terjadi galat kode atau hambatan teknis, siswa tidak langsung menyerah melainkan dibimbing untuk menganalisis akar masalah dan mencari jalan keluar secara sistematis.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/persiapan-karier-siswa-smk.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/persiapan-karier-siswa-smk.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Kolaborasi proyek industri melatih siswa berpikir kritis dan solutif dalam menangani kebutuhan bisnis riil.</figcaption>
 </figure>
 

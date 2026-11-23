@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-tkj-di-malang.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa praktik konfigurasi perangkat jaringan program tempat pkl tkj di malang"
 imageCaption: "Pemberian materi pengenalan infrastruktur jaringan komputer dan workstation kerja bagi siswa PKL TKJ di Malang."
 keywords: ["tempat PKL TKJ di Malang", "pkl tkj malang", "tempat magang tkj malang", "pkl smk tkj", "cv saudagar kaya abadi"]
 faq:
@@ -50,14 +50,14 @@ Perbedaan tersebut membuat siswa memahami bahwa pekerjaan IT tidak hanya membutu
 <figure class="my-4 text-center">
   <img
     src="/images/10.webp"
-    alt="Siswa praktik perakitan dan konfigurasi komputer"
+    alt="Praktik pemeliharaan perangkat komputer dan jaringan kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Lingkungan kerja studio kolaboratif yang dilengkapi workstation komputer dan jaringan internet stabil untuk praktik siswa.
+    Lingkungan kerja studio kolaboratif yang dilengkapi workstation komputer dan jaringan internet stabil untuk praktik siswa.
   </figcaption>
 </figure>
 
@@ -111,14 +111,14 @@ Pekerjaan digital juga dapat melibatkan pencarian topik, riset kata kunci, penyu
 <figure class="my-4 text-center">
   <img
     src="/images/21.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi praktik langsung siswa dalam menguji alur kerja sistem digital dan konektivitas perangkat workstation.
+    Sesi praktik langsung siswa dalam menguji alur kerja sistem digital dan konektivitas perangkat workstation.
   </figcaption>
 </figure>
 

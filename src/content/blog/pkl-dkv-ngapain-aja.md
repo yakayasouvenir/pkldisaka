@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/pkl-dkv-siswa-membuat-desain.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio program pkl dkv ngapain aja ini daftar kegi"
 imageCaption: "Aktivitas siswa SMK jurusan DKV mengembangkan rancangan visual promosi di studio kreatif profesional."
 keywords:
   - "PKL DKV ngapain aja"

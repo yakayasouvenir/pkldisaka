@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~6 Menit"
 image: "/images/9.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan terkait magang di malang"
 imageCaption: "Konsultasi pendaftaran dan verifikasi berkas calon peserta PKL bersama koordinator pembimbing industri di studio Saka Malang."
 keywords: ["cara daftar magang malang", "pendaftaran pkl smk malang", "syarat pkl digital marketing", "tahapan magang mahasiswa malang", "tips diterima pkl"]
 faq:

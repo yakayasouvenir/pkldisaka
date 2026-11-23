@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/rekomendasi-tempat-pkl-di-malang.webp"
-imageAlt: "Rekomendasi ruang kerja praktik"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program tempat pkl di malang"
 imageCaption: "Siswa SMK dan mahasiswa mengikuti pengarahan strategi kerja magang bersama mentor di studio PKL Malang."
 keywords:
   - "rekomendasi tempat PKL di Malang"
@@ -51,7 +51,7 @@ Alamat sentra vokasi:
 Area kantor berlokasi strategis di kawasan Kedungkandang dengan akses transportasi yang mudah dari berbagai penjuru Malang Raya. Anda juga dapat membaca ulasan spesifik mengenai [tempat PKL di Kedungkandang Malang](/blog/tempat-pkl-di-kedungkandang-malang/) untuk informasi akses wilayah sekitarnya.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/rekomendasi-tempat-pkl-malang.webp" alt="Peserta mengikuti kegiatan praktik kerja lapangan di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/rekomendasi-tempat-pkl-malang.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Suasana kolaboratif peserta magang saat berdiskusi merancang kampanye digital di kantor CV Saudagar Kaya Abadi.</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Program magang ini dirancang fleksibel untuk menampung berbagai disiplin ilmu ke
 Bagi Anda yang ingin memahami eksplorasi kesempatan kerja selengkapnya, simak ulasan mendalam mengenai [peluang PKL di Malang](/blog/peluang-pkl-di-malang/) di berbagai sektor industri.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-pkl-disaka.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-pkl-disaka.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Aktivitas produktif siswa dan mahasiswa dalam memproduksi konten visual kreatif dan mengelola aset digital.</figcaption>
 </figure>
 

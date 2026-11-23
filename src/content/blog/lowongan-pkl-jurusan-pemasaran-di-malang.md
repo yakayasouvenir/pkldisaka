@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/lowongan-pkl-jurusan-pemasaran-di-malang.webp"
-imageAlt: "Lowongan PKL Jurusan Pemasaran di Malang untuk Siswa SMK"
+imageAlt: "Siswa mempelajari strategi digital marketing program lowongan pkl jurusan pemasaran di m"
 imageCaption: "Suasana pembinaan dan praktik kerja lapangan siswa jurusan Pemasaran di lingkungan industri Kota Malang."
 faq:
   - q: "Jurusan pemasaran bisa magang dimana?"
@@ -51,7 +51,7 @@ Beberapa manfaat memilih tempat PKL yang relevan antara lain:
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/suasana-pkl-pemasaran-malang.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/suasana-pkl-pemasaran-malang.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Peserta mendalami alur perencanaan konten dan riset promosi produk bersama mentor industri.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Siswa sebaiknya tidak hanya mengejar banyaknya tugas. Hal yang lebih penting ada
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-promosi-siswa-pemasaran.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-promosi-siswa-pemasaran.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Praktik merchandising dan penataan katalog produk untuk memperkuat daya tarik penjualan.</figcaption>
 </figure>
 

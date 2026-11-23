@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~7 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-tkj.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa praktik konfigurasi perangkat jaringan program kegiatan pkl jurusan tkj yang akan"
 imageCaption: "Pemberian materi penugasan teknis jaringan dan pengelolaan sistem digital bagi siswa magang TKJ."
 keywords: ["kegiatan PKL jurusan TKJ", "tugas pkl tkj", "kegiatan magang smk tkj", "materi pkl tkj", "cv saudagar kaya abadi"]
 faq:
@@ -70,14 +70,14 @@ Kesempatan melakukan konfigurasi langsung bergantung pada kebijakan tempat PKL. 
 <figure class="my-4 text-center">
   <img
     src="/images/22.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Praktik pemeliharaan perangkat komputer dan jaringan kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi konsultasi pemecahan masalah teknis dan review laporan berkala bersama pembimbing industri.
+    Sesi konsultasi pemecahan masalah teknis dan review laporan berkala bersama pembimbing industri.
   </figcaption>
 </figure>
 
@@ -122,14 +122,14 @@ Informasi mengenai fasilitas atau aktivitas perusahaan tidak otomatis berarti se
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengisian buku jurnal harian magang secara tertib sebagai bukti rekaman capaian pembelajaran di industri.
+    Pengisian buku jurnal harian magang secara tertib sebagai bukti rekaman capaian pembelajaran di industri.
   </figcaption>
 </figure>
 

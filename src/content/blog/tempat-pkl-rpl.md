@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-rpl.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer terkait tempat pkl rpl"
 imageCaption: "Lingkungan kerja perusahaan teknologi dan software house untuk siswa SMK jurusan RPL."
 faq:
   - q: "Tempat PKL apa yang cocok untuk siswa RPL?"
@@ -52,7 +52,7 @@ Kegiatan yang dapat dipelajari antara lain:
 Melalui lingkungan software house, siswa dapat merasakan atmosfer kolaborasi tim pengembang profesional sejak tahap perencanaan wireframe hingga live deployment.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tempat-magang-rpl.webp" alt="Lingkungan kerja perusahaan teknologi untuk siswa PKL RPL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tempat-magang-rpl.webp" alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Suasana kerja kolaboratif di agensi teknologi yang kondusif bagi peserta magang jurusan RPL.</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ Sekolah kejuruan, perguruan tinggi, atau yayasan pendidikan swasta memiliki kebu
 Siswa RPL dapat dilibatkan dalam pemeliharaan platform e-learning, perbaikan tampilan sistem informasi akademik, dan integrasi modul database di bawah arahan tenaga ahli IT kampus.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/siswa-pkl-software-house.webp" alt="Siswa SMK RPL belajar pengembangan website di perusahaan" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/siswa-pkl-software-house.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK RPL mendapatkan bimbingan intensif dari mentor dalam mengelola database dan logika pemrograman web.</figcaption>
 </figure>
 

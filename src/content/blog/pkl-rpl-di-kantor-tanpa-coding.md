@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~7 Menit"
 image: "/images/blog/pkl-rpl-di-kantor.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa praktik pemrograman komputer program pkl rpl di kantor tanpa harus menja"
 imageCaption: "Aktivitas siswa SMK RPL menjalankan tugas teknologi informasi dan operasional digital kantor."
 keywords:
   - "PKL RPL di kantor tanpa coding"

@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/rekomendasi-tempat-pkl-grafika-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengerjakan desain visual di studio program tempat pkl jurusan grafika di malan"
 imageCaption: "Penerapan teknik grafika, proses cetak merchandise, dan packaging kemasan di CV Saudagar Kaya Abadi Malang."
 faq:
   - q: "Di mana siswa jurusan Grafika bisa melaksanakan PKL di Malang?"
@@ -38,7 +38,7 @@ Praktik Kerja Lapangan (PKL) merupakan jembatan emas yang menghubungkan materi t
 Bagi siswa Teknik Grafika, pemilihan tempat PKL sangat krusial. Beberapa percetakan konvensional hanya berfokus pada cetak dokumen lembaran, sementara industri modern saat ini menuntut penguasaan *custom merchandise*, teknik sublimasi, hingga rekayasa kemasan karton (*folding box packaging*).
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-cetak-mesin.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-cetak-mesin.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Siswa SMK jurusan Teknik Grafika mempelajari alur kerja mesin cetak digital dan heat press di studio produksi CV Saudagar Kaya Abadi Malang.
   </figcaption>
@@ -83,7 +83,7 @@ Percetakan digital offset modern menawarkan kecepatan dan fleksibilitas cetak ta
 Ketelitian tingkat tinggi diasah karena kesalahan setting resolusi (DPI) atau profil warna dapat menyebabkan hasil cetak pudar atau pecah.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/kegiatan-produksi-grafika.webp" alt="Proses desain dan produksi produk grafika di tempat PKL" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/kegiatan-produksi-grafika.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Proses pengecekan hasil cetak warna proof sheet bersama mentor industri sebelum produksi massal merchandise dan kemasan.
   </figcaption>

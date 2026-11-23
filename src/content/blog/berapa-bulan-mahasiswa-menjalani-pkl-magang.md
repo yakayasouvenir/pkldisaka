@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~7 Menit"
 image: "/images/blog/berapa-bulan-mahasiswa-menjalani-pkl-magang.webp"
-imageAlt: "Siswa berdiskusi dengan mentor pembimbing"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program berapa bulan mahasiswa harus menjal"
 imageCaption: "Mahasiswa merencanakan durasi dan target kompetensi magang bersama rekan satu tim."
 keywords:
   - "berapa bulan mahasiswa menjalani pkl"
@@ -35,7 +35,7 @@ Memahami durasi magang sangat penting agar mahasiswa dapat merencanakan pembagia
 <figure class="my-4">
   <img 
     src="/images/blog/durasi-pkl-mahasiswa.webp" 
-    alt="Mahasiswa menjalani kegiatan PKL di lingkungan perusahaan" 
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -68,7 +68,7 @@ Kondisi ini membuktikan bahwa durasi magang tidak bisa disamaratakan. Mahasiswa 
 <figure class="my-4">
   <img 
     src="/images/blog/perbandingan-durasi-magang-kuliah.webp" 
-    alt="Perbandingan durasi PKL reguler dan magang mahasiswa" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

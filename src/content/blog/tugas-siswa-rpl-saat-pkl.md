@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/tugas-siswa-rpl-saat-pkl.webp"
-imageAlt: "Siswa RPL mengerjakan tugas pengembangan website selama PKL"
+imageAlt: "Siswa praktik pemrograman komputer program tugas siswa rpl saat pkl di perusah"
 imageCaption: "Peserta PKL jurusan RPL menyelesaikan tugas rekayasa web dan pengujian sistem bersama mentor."
 keywords:
   - "tugas PKL jurusan RPL"

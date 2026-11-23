@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/blog/pkl-terdekat-3.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait menemukan tempat pkl terdekat dari"
 imageCaption: "Pemanfaatan aplikasi Google Maps untuk memetakan jarak dan rute perjalanan menuju tempat magang terdekat."
 keywords:
   - "tempat pkl terdekat dari rumah"
@@ -47,14 +47,14 @@ Informasi ini dapat dijadikan dasar awal sebelum Anda menyusun daftar permohonan
 <figure class="my-4 text-center">
   <img
     src="/images/6.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Suasana bimbingan praktik bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengenalan lingkungan kantor, fasilitas kerja, dan suasana operasional industri sebelum memulai masa magang.
+    Pengenalan lingkungan kantor, fasilitas kerja, dan suasana operasional industri sebelum memulai masa magang.
   </figcaption>
 </figure>
 
@@ -94,14 +94,14 @@ Bawalah daftar nama perusahaan dan alamat lengkap yang telah Anda periksa kepada
 <figure class="my-4 text-center">
   <img
     src="/images/7.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Kilas balik kebersamaan, apresiasi, dan hubungan kekeluargaan yang terjalin erat selama masa praktik kerja.
+    Kilas balik kebersamaan, apresiasi, dan hubungan kekeluargaan yang terjalin erat selama masa praktik kerja.
   </figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/pekerjaan-anak-magang-informatika-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait pekerjaan anak magang informatika d"
 imageCaption: "Aktivitas pengembangan web dan eksplorasi coding siswa magang informatika di Malang."
 faq:
   - q: "Apa saja tugas anak magang informatika?"
@@ -30,7 +30,7 @@ faq:
 Pekerjaan anak [magang informatika](/jurusan/informatika/) di Malang meliputi pengembangan website, pemrograman, pengelolaan database, IT support, jaringan komputer, pengujian aplikasi, dan pengelolaan teknologi digital.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/pekerjaan-magang-informatika.webp" alt="Peserta magang informatika mengerjakan proyek teknologi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/pekerjaan-magang-informatika.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penerapan logika pemrograman dalam mengerjakan modul aplikasi web di dunia industri.</figcaption>
 </figure>
 
@@ -221,7 +221,7 @@ Beberapa soft skill yang penting adalah:
 6. **Tanggung jawab:** Menyelesaikan tugas dengan memperhatikan kualitas.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/kegiatan-programmer-magang.webp" alt="Anak magang belajar pemrograman bersama mentor" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/kegiatan-programmer-magang.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Pendampingan langsung oleh mentor teknis dalam debugging dan pemahaman alur sistem.</figcaption>
 </figure>
 

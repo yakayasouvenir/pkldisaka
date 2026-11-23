@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~7 Menit"
 image: "/images/blog/pekerjaan-pkl-rpl-selain-coding-cover.webp"
-imageAlt: "Pekerjaan PKL Jurusan RPL Selain Coding untuk Siswa Pemula"
+imageAlt: "Siswa praktik pemrograman komputer terkait pekerjaan pkl rpl selain coding"
 imageCaption: "Siswa SMK RPL mengeksplorasi berbagai peran teknologi pendukung selain penulisan kode program."
 keywords:
   - "pekerjaan PKL RPL selain coding"
@@ -35,7 +35,7 @@ Di lingkungan kantor digital modern seperti di [PKL di Saka](/) Malang, siswa RP
 <figure class="my-4">
   <img 
     src="/images/blog/pekerjaan-pkl-rpl-selain-coding.webp" 
-    alt="Siswa RPL mengerjakan tugas administrasi komputer saat PKL" 
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -71,7 +71,7 @@ Menyusun buku panduan pengguna (*user manual guide*) sederhana mengenai cara men
 <figure class="my-4">
   <img 
     src="/images/blog/aktivitas-siswa-rpl-di-kantor.webp" 
-    alt="Siswa SMK mengelola data digital menggunakan komputer" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

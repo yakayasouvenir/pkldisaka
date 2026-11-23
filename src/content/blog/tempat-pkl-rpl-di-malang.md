@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-rpl-di-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa praktik pemrograman komputer terkait tempat pkl rpl di malang"
 imageCaption: "Penerapan kompetensi pemrograman dan perancangan website responsif oleh siswa SMK RPL selama masa praktik industri."
 keywords:
   - "tempat PKL RPL di Malang"
@@ -47,14 +47,14 @@ Namun, di dunia industri kerja, siswa akan berhadapan dengan kebutuhan riil sepe
 <figure class="my-4 text-center">
   <img
     src="/images/blog/tempat-pkl-rpl-di-malang.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penerapan langsung kompetensi pemrograman web dan penataan kode semantik oleh siswa SMK jurusan Rekayasa Perangkat Lunak.
+    Penerapan langsung kompetensi pemrograman web dan penataan kode semantik oleh siswa SMK jurusan Rekayasa Perangkat Lunak.
   </figcaption>
 </figure>
 
@@ -78,14 +78,14 @@ Lingkungan ini sangat cocok sebagai laboratorium praktik bagi siswa yang ingin m
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-testing-responsive.webp"
-    alt="Siswa praktik perakitan dan konfigurasi komputer"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengujian performa antarmuka responsif di smartphone dan workstation komputer oleh siswa magang RPL.
+    Pengujian performa antarmuka responsif di smartphone dan workstation komputer oleh siswa magang RPL.
   </figcaption>
 </figure>
 
@@ -115,14 +115,14 @@ Setiap pekerjaan dicatat secara rapi dalam jurnal harian sebagai bahan evaluasi 
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-presentasi-proyek.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Presentasi capaian proyek akhir pengembangan website oleh peserta magang di hadapan tim pembimbing industri.
+    Presentasi capaian proyek akhir pengembangan website oleh peserta magang di hadapan tim pembimbing industri.
   </figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/perbedaan-pkl-grafika-sekolah-dan-industri.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio program memahami perbedaan pkl jurusan graf"
 imageCaption: "Siswa SMK Teknik Grafika mendalami perbedaan alur kerja perakitan kemasan antara teori kelas dan bengkel industri."
 faq:
   - q: "Apakah praktik mencetak di sekolah sama dengan di industri percetakan?"
@@ -34,7 +34,7 @@ Banyak siswa SMK beranggapan bahwa magang di industri percetakan hanya mengulang
 Ketika Anda belajar di [PKL di Saka](/), desain bukan sekadar gambar estetik yang dinilai dengan angka rapor, melainkan aset komersial yang harus diproduksi secara massal dengan toleransi kesalahan mendekati nol.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-quality-control.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-quality-control.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Pemeriksaan berkala hasil cetakan merchandise dan packaging untuk memastikan keseragaman warna dan kerapian potongan.
   </figcaption>
@@ -68,7 +68,7 @@ Saat terjun ke [divisi packaging](/divisi/packaging/) industri, siswa terjun ke 
 - Menerapkan teknik pengeleman yang presisi agar lem tidak meluber mengotori permukaan souvenir di dalamnya.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Proses pelipatan dan verifikasi kancing pengunci box kemasan produk suvenir di lini perakitan packaging.
   </figcaption>

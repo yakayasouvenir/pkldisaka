@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer terkait tempat pkl jurusan rpl"
 imageCaption: "Praktik langsung pengembangan website dan pengujian kode dibimbing oleh praktisi teknologi di Saka Malang."
 keywords:
   - "tempat pkl jurusan rpl di malang"
@@ -65,14 +65,14 @@ Siswa dapat memulai dari proyek sederhana seperti halaman profil, halaman inform
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengujian performa baris kode dan optimasi kecepatan website pada workstation peserta magang.
+    Pengujian performa baris kode dan optimasi kecepatan website pada workstation peserta magang.
   </figcaption>
 </figure>
 
@@ -111,14 +111,14 @@ Pemahaman tersebut membantu peserta mengenali fungsi setiap komponen dan memaham
 <figure class="my-4 text-center">
   <img
     src="/images/12.webp"
-    alt="Siswa praktik perakitan dan konfigurasi komputer"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Praktik perakitan perangkat keras dan pengujian stabilitas jaringan lokal di studio Saka Malang.
+    Praktik perakitan perangkat keras dan pengujian stabilitas jaringan lokal di studio Saka Malang.
   </figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~6 Menit"
 image: "/images/blog/pkl-rpl-belum-bisa-coding.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer terkait pilihan pkl rpl"
 imageCaption: "Pengelolaan konten dan struktur website menjadi jembatan awal memahami arsitektur software bagi siswa pemula."
 keywords:
   - "pkl rpl belum bisa coding"
@@ -33,7 +33,7 @@ Kabar baiknya, dunia rekayasa perangkat lunak tidak melulu tentang menulis ribua
 <figure class="my-4">
   <img 
     src="/images/blog/input-konten-website-rpl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -65,7 +65,7 @@ Anda juga dapat melihat kompetensi dasar yang dipelajari pada program kejuruan i
 <figure class="my-4">
   <img 
     src="/images/blog/pengujian-website-dasar-rpl.webp" 
-    alt="Siswa berdiskusi dengan mentor pembimbing" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

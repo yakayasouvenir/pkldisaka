@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer program apa yang dikerjakan anak magang web"
 imageCaption: "Aktivitas siswa magang RPL mengerjakan penulisan kode dan pengembangan antarmuka web di Saka Malang."
 keywords: ["magang web developer malang", "tugas pkl rpl agensi", "slicing figma to html", "magang front end developer smk", "pengalaman magang IT"]
 faq:

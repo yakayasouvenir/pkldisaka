@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/contoh-laporan-pkl-rpl.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa praktik pemrograman komputer terkait contoh laporan pkl rpl"
 imageCaption: "Penyusunan berkas laporan pertanggungjawaban kegiatan PKL jurusan Rekayasa Perangkat Lunak secara terstruktur dan sistematis."
 keywords:
   - "contoh laporan PKL RPL"
@@ -39,14 +39,14 @@ Bagi Anda yang menjalani program praktik kerja industri di agensi digital sepert
 <figure class="my-4 text-center">
   <img
     src="/images/blog/contoh-laporan-pkl-rpl.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pengorganisasian dokumen laporan PKL, penyusunan lembar pengesahan, dan verifikasi kelengkapan berkas magang.
+    Pengorganisasian dokumen laporan PKL, penyusunan lembar pengesahan, dan verifikasi kelengkapan berkas magang.
   </figcaption>
 </figure>
 
@@ -77,14 +77,14 @@ Secara umum, susunan laporan magang kejuruan mengikuti kaidah karya tulis ilmiah
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Rekapitulasi catatan jurnal aktivitas harian untuk dituangkan ke dalam bab pelaksanaan tugas laporan magang.
+    Rekapitulasi catatan jurnal aktivitas harian untuk dituangkan ke dalam bab pelaksanaan tugas laporan magang.
   </figcaption>
 </figure>
 
@@ -110,14 +110,14 @@ Bab ini adalah bagian terpenting dari seluruh laporan Anda. Jelaskan pekerjaan t
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-presentasi-proyek.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi pemaparan laporan dan demonstrasi hasil proyek web di hadapan pembimbing industri sebelum pengesahan berkas.
+    Sesi pemaparan laporan dan demonstrasi hasil proyek web di hadapan pembimbing industri sebelum pengesahan berkas.
   </figcaption>
 </figure>
 

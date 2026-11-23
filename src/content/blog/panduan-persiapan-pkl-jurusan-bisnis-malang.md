@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/panduan-persiapan-pkl-jurusan-bisnis-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mempelajari strategi digital marketing program persiapan pkl jurusan bisnis di mal"
 imageCaption: "Penyusunan berkas administrasi dan tata cara pendaftaran resmi magang bisnis di Malang."
 faq:
   - q: "Apa saja berkas untuk mendaftar PKL?"
@@ -116,7 +116,7 @@ diwajibkan oleh sekolah dan kampus.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/persiapan-pkl-jurusan-bisnis.webp" alt="Siswa menyiapkan dokumen pendaftaran PKL jurusan bisnis" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/persiapan-pkl-jurusan-bisnis.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Pemeriksaan kelengkapan surat pengantar sekolah, CV, dan portofolio karya kejuruan.</figcaption>
 </figure>
 
@@ -212,7 +212,7 @@ permohonan peserta.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/hari-pertama-pkl-perusahaan.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/hari-pertama-pkl-perusahaan.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Sesi pengarahan tata tertib, pembagian tugas harian, dan budaya kerja industri profesional.</figcaption>
 </figure>
 

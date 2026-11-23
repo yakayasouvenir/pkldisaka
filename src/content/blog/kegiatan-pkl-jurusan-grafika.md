@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-grafika.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengerjakan desain visual di studio program kegiatan pkl jurusan grafika"
 imageCaption: "Aktivitas siswa SMK Teknik Grafika dalam memverifikasi file pracetak dan mengoperasikan mesin cetak industri."
 faq:
   - q: "Apakah anak Grafika harus bisa mengoperasikan mesin cetak saat PKL?"
@@ -34,7 +34,7 @@ Kegiatan PKL jurusan Grafika merupakan aktivitas pembelajaran industri yang berf
 Di beranda [PKL di Saka](/), siswa vokasi diarahkan untuk terlibat langsung dalam ritme kerja profesional bersama tim grafika, tim packaging, dan divisi quality control.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-prepress-color.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-prepress-color.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Pemeriksaan kesesuaian profil warna cetak CMYK dan penataan layout lembaran cetak oleh siswa SMK Teknik Grafika.
   </figcaption>
@@ -74,7 +74,7 @@ Di bawah pengawasan mentor, siswa berkesempatan mengamati dan mempraktikkan pros
 - Pemuatan media cetak (*paper loading*) agar tidak terjadi kemacetan (*paper jam*).
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Perakitan dan uji coba kekuatan struktur mockup folding box kemasan souvenir di workshop packaging Saka Malang.
   </figcaption>

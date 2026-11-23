@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~7 Menit"
 image: "/images/blog/anak-rpl-bisa-pkl-di-kantor-tanpa-coding.webp"
-imageAlt: "Siswa SMK RPL praktik kerja di kantor"
+imageAlt: "Siswa praktik pemrograman komputer program anak rpl bisa pkl di kantor tanpa c"
 imageCaption: "Siswa RPL mengaplikasikan keterampilan komputer dan tata kelola administrasi digital di kantor."
 keywords:
   - "PKL RPL di kantor"
@@ -37,7 +37,7 @@ Bagi Anda yang berdomisili di Malang, program penempatan terarah di [PKL di Saka
 <figure class="my-4">
   <img 
     src="/images/blog/siswa-rpl-pkl-di-kantor.webp" 
-    alt="Siswa RPL bekerja menggunakan komputer di kantor" 
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -68,7 +68,7 @@ Berikut tugas-tugas nyata yang biasa dipercayakan kepada peserta magang di lingk
 <figure class="my-4">
   <img 
     src="/images/blog/aktivitas-administrasi-digital.webp" 
-    alt="Kegiatan administrasi digital menggunakan komputer kantor" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

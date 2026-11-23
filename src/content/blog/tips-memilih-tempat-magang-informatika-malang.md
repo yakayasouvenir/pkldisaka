@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/tips-memilih-tempat-magang-informatika-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait memilih tempat magang informatika d"
 imageCaption: "Diskusi persiapan memilih tempat magang informatika yang berkualitas dan terakreditasi di Malang."
 faq:
   - q: "Bagaimana cara memilih tempat magang informatika yang bagus?"
@@ -30,7 +30,7 @@ faq:
 Tips memilih tempat [magang informatika](/jurusan/informatika/) di Malang dimulai dengan memeriksa kesesuaian jurusan, kualitas mentor, fasilitas praktik, pengalaman proyek, lingkungan kerja, dan kejelasan program pembelajaran.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tips-memilih-tempat-magang.webp" alt="Siswa memilih tempat magang informatika di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tips-memilih-tempat-magang.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Konsultasi dan pertimbangan matang dalam menentukan tempat PKL informatika di Malang.</figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ Software house lebih relevan bagi peserta yang ingin mendalami pengembangan pera
 Tidak ada pilihan yang selalu lebih baik untuk semua orang. Keputusan harus mengikuti kompetensi dan tujuan pembelajaran peserta.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/mentor-magang-informatika.webp" alt="Mentor memberikan arahan kepada peserta magang informatika" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/mentor-magang-informatika.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Arahan terarah dari pembimbing industri menjamin penguasaan kompetensi kerja siswa.</figcaption>
 </figure>
 

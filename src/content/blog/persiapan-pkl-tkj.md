@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~8 Menit"
 image: "/images/blog/persiapan-pkl-tkj.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa praktik konfigurasi perangkat jaringan terkait persiapan pkl tkj"
 imageCaption: "Penyusunan berkas administrasi dan checklist kesiapan sebelum pelepasan siswa magang ke industri."
 keywords: ["persiapan PKL TKJ", "syarat pkl tkj", "dokumen pkl smk", "cv pkl tkj", "cv saudagar kaya abadi"]
 faq:
@@ -40,14 +40,14 @@ Sumber rujukan resmi: [BPS - Kota Malang Dalam Angka 2025](https://web-api.bps.g
 <figure class="my-4 text-center">
   <img
     src="/images/24.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Praktik pemeliharaan perangkat komputer dan jaringan kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penyerahan dokumen surat pengantar resmi dari pihak sekolah sebagai tahap awal verifikasi penerimaan siswa magang.
+    Penyerahan dokumen surat pengantar resmi dari pihak sekolah sebagai tahap awal verifikasi penerimaan siswa magang.
   </figcaption>
 </figure>
 
@@ -106,14 +106,14 @@ Jelaskan tujuan proyek, perangkat yang digunakan, dan peran spesifik Anda dalam 
 <figure class="my-4 text-center">
   <img
     src="/images/wawancara-seleksi-magang.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi wawancara pengenalan minat untuk mencocokkan proyek industri yang sedang berjalan dengan keahlian siswa.
+    Sesi wawancara pengenalan minat untuk mencocokkan proyek industri yang sedang berjalan dengan keahlian siswa.
   </figcaption>
 </figure>
 

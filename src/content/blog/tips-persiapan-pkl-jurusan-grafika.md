@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/tips-persiapan-pkl-jurusan-grafika.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio program persiapan pkl jurusan grafika"
 imageCaption: "Pembekalan teknis software desain grafis dan pengenalan sampel cetak sebelum memasuki magang industri."
 faq:
   - q: "Apakah siswa Grafika harus mahir seluruh software desain sebelum PKL?"
@@ -34,7 +34,7 @@ Memasuki dunia Praktik Kerja Lapangan (PKL) menuntut kesiapan yang matang, bukan
 Karena itu, mitra industri seperti [PKL di Saka](/) sangat mengapresiasi calon peserta magang yang memiliki inisiatif mempersiapkan diri sejak jauh-jauh hari sebelum tanggal mulai praktik.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-prepress-color.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-prepress-color.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Penyelarasan palet warna CMYK dan layout dokumen digital sebelum masuk ke tahapan cetak massal.
   </figcaption>
@@ -68,7 +68,7 @@ Keahlian yang sangat dicari saat ini adalah kemampuan menyusun jaring-jaring pis
 - Menghitung toleransi ketebalan kertas karton agar kancing pengunci box dapat menutup rapat dan rapi.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Latihan pembuatan prototipe fisik (mockup dummy) packaging kemasan untuk melatih ketelitian dimensi ukuran.
   </figcaption>

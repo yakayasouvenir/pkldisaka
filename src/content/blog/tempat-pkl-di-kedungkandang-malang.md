@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-di-kedungkandang-malang.webp"
-imageAlt: "Tempat PKL di Kedungkandang Malang"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program tempat pkl di kedungkandang malang"
 imageCaption: "Peserta magang sedang menganalisis data performa digital marketing di kantor CV Saudagar Kaya Abadi Kedungkandang Malang."
 keywords:
   - "tempat PKL di Kedungkandang Malang"
@@ -41,7 +41,7 @@ Salah satu **tempat PKL di Kedungkandang Malang** yang paling direkomendasikan a
 Selain lokasi yang strategis, calon peserta juga dapat membandingkannya dengan gambaran umum di artikel [rekomendasi tempat PKL di Malang](/blog/rekomendasi-tempat-pkl-di-malang/) untuk memahami ekosistem magang secara lebih luas.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tempat-pkl-kedungkandang.webp" alt="Lokasi tempat PKL di wilayah Kedungkandang Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tempat-pkl-kedungkandang.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Suasana diskusi tim di workstation kreatif CV Saudagar Kaya Abadi kawasan Cemorokandang Kedungkandang.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Mengenal proses finishing merchandise, penataan gift box souvenir promosi, dan u
 Seluruh rincian tugas harian ini dapat Anda simak di artikel [kegiatan PKL di Malang](/blog/kegiatan-pkl-di-malang/).
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/pkl-disaka-kedungkandang.webp" alt="Peserta menjalani kegiatan PKL DISAKA di Kedungkandang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/pkl-disaka-kedungkandang.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Peserta magang sedang mempraktikkan proses perancangan konten visual dan pengelolaan website.</figcaption>
 </figure>
 

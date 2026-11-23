@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/peluang-pkl-di-malang.webp"
-imageAlt: "Peluang PKL di Malang  di Berbagai Bidang"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program peluang pkl di malang"
 imageCaption: "Kolaborasi kreatif siswa SMK dan mahasiswa dalam mengeksplorasi proyek digital multimedia di Malang."
 keywords:
   - "peluang PKL di Malang"
@@ -39,7 +39,7 @@ Bagi siswa dan mahasiswa, **peluang PKL di Malang** tidak lagi terbatas pada pek
 Salah satu lokasi strategis untuk menjemput peluang ini adalah melalui sentra vokasi CV Saudagar Kaya Abadi di kawasan timur kota, seperti yang dijelaskan dalam ulasan [tempat PKL di Kedungkandang Malang](/blog/tempat-pkl-di-kedungkandang-malang/) serta gambaran umum di artikel [rekomendasi tempat PKL di Malang](/blog/rekomendasi-tempat-pkl-di-malang/).
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/peluang-pkl-malang.webp" alt="Siswa SMK mempelajari aktivitas kerja selama PKL di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/peluang-pkl-malang.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Peserta magang sedang menganalisis data konversi penjualan dan riset tren audiens digital.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ Peserta dilatih membuat video kreatif untuk platform modern seperti TikTok dan I
 Rincian tugas dan rutinitas harian dalam berbagai bidang ini dapat Anda baca di panduan [kegiatan PKL di Malang](/blog/kegiatan-pkl-di-malang/).
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/bidang-digital-pkl.webp" alt="Peserta PKL mempelajari bidang digital marketing dan desain" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/bidang-digital-pkl.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK mempraktikkan proses perancangan strategi konten digital di bawah arahan mentor.</figcaption>
 </figure>
 

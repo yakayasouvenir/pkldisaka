@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~6 Menit"
 image: "/images/blog/apakah-pkl-kuliah-bisa-1-bulan.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program apakah pkl kuliah bisa dilakukan se"
 imageCaption: "Konsultasi rencana penugasan PKL intensif satu bulan bersama pembimbing industri."
 keywords:
   - "apakah pkl kuliah bisa 1 bulan"
@@ -35,7 +35,7 @@ Bagi mahasiswa yang mengambil masa libur semester pendek, memilih tempat magang 
 <figure class="my-4">
   <img 
     src="/images/blog/mahasiswa-pkl-satu-bulan.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -68,7 +68,7 @@ Dalam skema 5 hari kerja per minggu, satu bulan memiliki sekitar 20 hingga 22 ha
 <figure class="my-4">
   <img 
     src="/images/blog/perhitungan-jam-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

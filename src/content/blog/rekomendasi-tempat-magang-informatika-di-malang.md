@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/rekomendasi-tempat-magang-informatika-di-malang.webp"
-imageAlt: "Rekomendasi Tempat Magang Informatika di Malang"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program tempat magang informatika di malang"
 imageCaption: "Suasana lingkungan belajar dan praktik industri informatika di PKL di Saka Malang."
 faq:
   - q: "Di mana tempat magang informatika di Malang?"
@@ -34,7 +34,7 @@ faq:
 [magang informatika](/jurusan/informatika/) di Malang dapat dilakukan di digital agency, software house, perusahaan teknologi, dan divisi IT internal yang menyediakan pengalaman praktik sesuai kompetensi siswa SMK maupun mahasiswa.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tempat-magang-informatika-malang.webp" alt="Suasana kegiatan magang informatika di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tempat-magang-informatika-malang.webp" alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Fasilitas dan lingkungan kerja digital agency untuk magang informatika di Malang.</figcaption>
 </figure>
 
@@ -233,7 +233,7 @@ Sementara itu, peserta DKV dapat mempelajari proses menerima brief desain, membu
 Pengalaman tersebut memberikan gambaran mengenai alur pekerjaan profesional yang tidak selalu ditemukan dalam pembelajaran teori di sekolah.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-magang-it.webp" alt="Peserta magang belajar teknologi informasi bersama mentor" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-magang-it.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Bimbingan mentor industri dalam menyelesaikan proyek teknologi informasi riil.</figcaption>
 </figure>
 

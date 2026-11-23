@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/maksud-dan-tujuan-pkl-cover.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan terkait maksud"
 imageCaption: "Siswa dan mahasiswa mengikuti program pembelajaran kerja praktik langsung di lingkungan perusahaan profesional."
 keywords:
   - "maksud dan tujuan PKL"
@@ -38,7 +38,7 @@ Bagi peserta didik vokasi dan mahasiswa yang ingin merasakan atmosfer kerja indu
 <figure class="my-4">
   <img 
     src="/images/blog/maksud-dan-tujuan-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -105,7 +105,7 @@ Bagi mahasiswa, kegiatan magang berfokus pada kesiapan transisi karir profesiona
 <figure class="my-4">
   <img 
     src="/images/blog/tahapan-pelaksanaan-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

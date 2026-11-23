@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~7 Menit"
 image: "/images/blog/portofolio-dkv-untuk-pkl.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio terkait portofolio dkv"
 imageCaption: "Penyusunan portofolio desain komunikasi visual yang memadukan konsep identitas merek dan media promosi."
 faq:
   - q: "Apakah siswa DKV wajib memiliki portofolio sebelum PKL?"
@@ -59,7 +59,7 @@ Penyelenggara PKL dapat melihat jenis pekerjaan visual yang pernah dibuat dan me
 
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/29.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/29.webp" alt="Proses perancangan materi kreatif selama kegiatan PKL DKV" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Penyusunan tata letak dan kurasi portofolio desain visual oleh siswa SMK sebelum mengajukan magang industri.
   </figcaption>
@@ -122,7 +122,7 @@ Setiap karya perlu memiliki tujuan dan penjelasan yang jelas.
 
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/kenangkartu.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/kenangkartu.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Dokumentasi sampel fisik hasil karya cetak desain grafis yang menjadi bukti portofolio nyata siswa DKV.
   </figcaption>

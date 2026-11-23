@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/persiapan-pkl-rpl.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa praktik pemrograman komputer terkait persiapan pkl rpl"
 imageCaption: "Siswa SMK jurusan Rekayasa Perangkat Lunak mempersiapkan berkas lamaran dan portofolio koding sebelum magang."
 faq:
   - q: "Apa yang harus dipelajari sebelum PKL RPL?"
@@ -50,7 +50,7 @@ Topik materi yang perlu dilatih:
 Sebagai latihan mandiri, buatlah satu halaman profil biodata lengkap yang menampilkan riwayat pendidikan, minat keahlian, dan tombol kontak WhatsApp.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/persiapan-siswa-smk-rpl.webp" alt="Siswa SMK jurusan RPL mempersiapkan diri sebelum PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/persiapan-siswa-smk-rpl.webp" alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK RPL mempersiapkan portofolio karya dan berkas pendaftaran dengan antusias menjelang masa seleksi magang.</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ Di dunia industri, efisiensi kerja sangat dipengaruhi oleh penguasaan perangkat 
 | Google Chrome DevTools | Menguji responsivitas layar dan melakukan debugging kode di browser |
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/portofolio-siswa-rpl.webp" alt="Siswa mengerjakan tugas pemrograman di laptop" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/portofolio-siswa-rpl.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Contoh portofolio proyek koding siswa RPL yang ditampilkan melalui antarmuka web modern.</figcaption>
 </figure>
 

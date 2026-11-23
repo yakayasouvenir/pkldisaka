@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~7 Menit"
 image: "/images/10.webp"
-imageAlt: "Siswa berdiskusi dengan mentor pembimbing"
+imageAlt: "Mahasiswa menjalani program praktik kerja lapangan program tempat pkl di malang"
 imageCaption: "Fasilitas ruang kerja kolaboratif dan suasana belajar peserta PKL di studio Saka Malang."
 keywords:
   - "tempat pkl di malang"
@@ -46,14 +46,14 @@ Praktik Kerja Lapangan merupakan bagian dari proses pembelajaran yang memberikan
 <figure class="my-4 text-center">
   <img
     src="/images/13.webp"
-    alt="Siswa berdiskusi dengan mentor pembimbing"
+    alt="Diskusi rencana magang dan tugas akhir mahasiswa vokasi"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Sesi pengarahan materi teknis dan pendampingan kurikulum kerja bersama pembimbing industri di Malang.
+    Sesi pengarahan materi teknis dan pendampingan kurikulum kerja bersama pembimbing industri di Malang.
   </figcaption>
 </figure>
 
@@ -92,14 +92,14 @@ Informasi tersebut sebaiknya diperoleh langsung dari penyelenggara program.
 <figure class="my-4 text-center">
   <img
     src="/images/24.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pemeriksaan kelengkapan berkas legalitas dan surat pengantar resmi pendaftaran PKL di Kota Malang.
+    Pemeriksaan kelengkapan berkas legalitas dan surat pengantar resmi pendaftaran PKL di Kota Malang.
   </figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~7 Menit"
 image: "/images/blog/tujuan-pkl-bagi-pengembangan-keterampilan-siswa.webp"
-imageAlt: "5 Tujuan PKL bagi Pengembangan Keterampilan Siswa SMK"
+imageAlt: "Siswa mengikuti kegiatan terkait 5 tujuan pkl bagi siswa"
 imageCaption: "Siswa SMK mengembangkan keahlian teknis dan karakter kerja profesional selama program PKL."
 keywords:
   - "tujuan PKL bagi siswa"
@@ -35,7 +35,7 @@ Mengikuti program magang di lingkungan terstruktur seperti di [PKL di Saka](/) m
 <figure class="my-4">
   <img 
     src="/images/blog/siswa-melaksanakan-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Suasana bimbingan praktik bersama mentor industri" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -74,7 +74,7 @@ Pengalaman magang memberikan gambaran utuh mengenai ritme kerja profesional, mem
 <figure class="my-4">
   <img 
     src="/images/blog/pengembangan-keterampilan-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

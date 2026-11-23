@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/tidak-bisa-ngoding-bisa-pkl-di-mana.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer program tidak bisa ngoding bisa pkl di mana"
 imageCaption: "Siswa SMK jurusan Rekayasa Perangkat Lunak belajar alur kerja teknologi digital di kantor."
 keywords:
   - "tidak bisa ngoding bisa PKL di mana"
@@ -35,7 +35,7 @@ Di Kota Malang, siswa dapat memilih lingkungan kerja yang adaptif dan suportif s
 <figure class="my-4">
   <img 
     src="/images/blog/tempat-pkl-rpl-tanpa-coding.webp" 
-    alt="Siswa RPL menjalani PKL di lingkungan perkantoran" 
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -76,7 +76,7 @@ Membantu instalasi aplikasi kerja, pemeliharaan periferal komputer kantor, penge
 <figure class="my-4">
   <img 
     src="/images/blog/pekerjaan-pkl-rpl-di-kantor.webp" 
-    alt="Siswa praktik perakitan dan konfigurasi komputer" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

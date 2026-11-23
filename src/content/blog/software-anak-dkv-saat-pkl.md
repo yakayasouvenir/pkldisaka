@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/software-desain-anak-dkv.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio program software yang digunakan anak dkv sa"
 imageCaption: "Peserta magang DKV mengoperasikan perangkat lunak desain standar industri di studio multimedia."
 keywords:
   - "software anak DKV saat PKL"

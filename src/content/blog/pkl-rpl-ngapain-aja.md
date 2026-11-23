@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/pkl-rpl-ngapain-aja.webp"
-imageAlt: "PKL RPL Ngapain Aja Tugas Coding dan Proyek Siswa SMK"
+imageAlt: "Siswa praktik pemrograman komputer program pkl rpl ngapain aja? tugas, kegiata"
 imageCaption: "Siswa SMK jurusan Rekayasa Perangkat Lunak berkolaborasi mengerjakan tugas coding website di studio IT."
 faq:
   - q: "PKL RPL ngapain aja selama di tempat magang?"
@@ -52,7 +52,7 @@ Contoh tugas nyata yang biasa diberikan:
 Sebagai contoh, siswa diminta membuat halaman beranda website perusahaan yang menampilkan logo, ringkasan profil, galeri foto, dan tombol chat WhatsApp. Pekerjaan ini melatih pemahaman siswa mengenai hubungan antara struktur HTML5 dan tata letak CSS modern seperti Flexbox dan CSS Grid.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tugas-coding-anak-rpl.webp" alt="Siswa RPL mengerjakan tugas coding selama PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tugas-coding-anak-rpl.webp" alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa RPL mengerjakan tugas coding dan penataan layout halaman selama PKL di bawah bimbingan mentor.</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ Siswa RPL belajar menggunakan MySQL untuk merancang dan memelihara skema data:
 Contohnya, siswa membantu merancang database sistem informasi sekolah yang berisi tabel data siswa, guru, kelas, dan absensi harian.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/contoh-proyek-website-rpl.webp" alt="Contoh proyek pembuatan website oleh siswa RPL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/contoh-proyek-website-rpl.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Contoh proyek pembuatan website nyata berbasis Figma dan Visual Studio Code yang diselesaikan oleh siswa RPL.</figcaption>
 </figure>
 

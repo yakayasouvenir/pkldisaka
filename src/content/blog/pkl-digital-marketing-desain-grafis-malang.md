@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~6 Menit"
 image: "/images/praktik-digital-marketing.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengerjakan desain visual di studio terkait pkl digital marketing"
 imageCaption: "Sesi pengerjaan audit konten digital dan perancangan strategi optimasi mesin pencari di Saka Malang."
 keywords:
   - "pkl digital marketing malang"
@@ -51,14 +51,14 @@ Peserta yang mendalami kedua bidang ini akan memiliki nilai tambah tinggi (*high
 <figure class="my-4 text-center">
   <img
     src="/images/18.webp"
-    alt="Siswa mengerjakan proyek desain grafis di komputer"
+    alt="Proses perancangan materi kreatif selama kegiatan PKL DKV"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Eksplorasi layout grafis, pemilihan palet warna, dan standarisasi aset promosi cetak di studio DKV Saka Malang.
+    Eksplorasi layout grafis, pemilihan palet warna, dan standarisasi aset promosi cetak di studio DKV Saka Malang.
   </figcaption>
 </figure>
 
@@ -106,14 +106,14 @@ Tipografi mencakup pemilihan jenis huruf, keterbacaan (readability), serta penga
 <figure class="my-4 text-center">
   <img
     src="/images/20.webp"
-    alt="Siswa mengerjakan proyek desain grafis di komputer"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Diskusi tim lintas divisi dalam menyelaraskan pesan teks pemasaran dengan elemen desain visual komersial.
+    Diskusi tim lintas divisi dalam menyelaraskan pesan teks pemasaran dengan elemen desain visual komersial.
   </figcaption>
 </figure>
 

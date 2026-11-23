@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/berapa-lama-waktu-pkl-smk-dan-mahasiswa.webp"
-imageAlt: "Berapa Lama Waktu PKL SMK Kurikulum Merdeka di Malang"
+imageAlt: "Siswa mengikuti kegiatan terkait berapa lama waktu pkl smk kurikulum"
 imageCaption: "Siswa SMK menyimak penjelasan kalender durasi dan jadwal bimbingan PKL bersama supervisor industri di Malang."
 keywords:
   - "berapa lama waktu pkl smk"
@@ -36,7 +36,7 @@ Di era regulasi pendidikan kejuruan saat ini, pelaksanaan Praktik Kerja Lapangan
 <figure class="my-4 text-center">
   <img 
     src="/images/blog/durasi-pkl-smk-mahasiswa.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Suasana bimbingan praktik bersama mentor industri" 
     class="img-fluid rounded-4 shadow-sm w-100" 
     loading="lazy" 
   />
@@ -68,7 +68,7 @@ Bagi siswa jurusan teknologi, pengalaman 6 bulan di lingkungan kantor sangat mem
 <figure class="my-4 text-center">
   <img 
     src="/images/blog/jadwal-kegiatan-pkl.webp" 
-    alt="Aktivitas siswa selama kegiatan praktik kerja" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded-4 shadow-sm w-100" 
     loading="lazy" 
   />

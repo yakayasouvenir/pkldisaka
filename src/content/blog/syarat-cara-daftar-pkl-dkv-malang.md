@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/syarat-cara-daftar-pkl-dkv-malang.webp"
-imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
+imageAlt: "Siswa mengerjakan desain visual di studio terkait syarat"
 imageCaption: "Pemeriksaan kelengkapan dokumen administrasi dan portofolio desain sebelum pengajuan magang industri."
 faq:
   - q: "Apa saja syarat PKL jurusan DKV?"
@@ -38,7 +38,7 @@ Syarat PKL jurusan DKV umumnya mencakup dokumen administrasi sekolah, identitas 
 Siswa sebaiknya mempersiapkan dokumen berikut secara rapi sebelum mengajukan permohonan magang.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/penyerahan-dokumen-pkl.webp" alt="Dokumen persyaratan pendaftaran PKL siswa DKV" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/penyerahan-dokumen-pkl.webp" alt="Proses perancangan materi kreatif selama kegiatan PKL DKV" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Pemeriksaan dan verifikasi kelengkapan berkas dokumen persyaratan pendaftaran PKL siswa DKV di Malang.
   </figcaption>
@@ -112,7 +112,7 @@ Sebaiknya tanyakan terlebih dahulu agar tidak terjadi kekurangan dokumen saat pe
 
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/30.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/30.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Siswa SMK menyiapkan berkas pengajuan PKL serta perlengkapan teknis sebelum memulai program magang industri di Malang.
   </figcaption>

@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~7 Menit"
 image: "/images/blog/cara-memilih-tempat-pkl-tkj.webp"
-imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
+imageAlt: "Siswa praktik konfigurasi perangkat jaringan program memilih tempat pkl tkj yang sesuai"
 imageCaption: "Pemberian arahan dan evaluasi kesesuaian modul kejuruan siswa dengan penugasan industri di studio PKL Malang."
 keywords: ["cara memilih tempat PKL TKJ", "memilih tempat magang tkj", "kriteria pkl tkj", "tips pkl smk tkj", "cv saudagar kaya abadi"]
 faq:
@@ -44,14 +44,14 @@ Sebelum menentukan pilihan, telitilah jenis pekerjaan harian, fasilitas studio, 
 <figure class="my-4 text-center">
   <img
     src="/images/20.webp"
-    alt="Siswa praktik perakitan dan konfigurasi komputer"
+    alt="Praktik pemeliharaan perangkat komputer dan jaringan kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Suasana kerja kolaboratif lintas divisi dalam pengelolaan infrastruktur sistem dan operasional digital.
+    Suasana kerja kolaboratif lintas divisi dalam pengelolaan infrastruktur sistem dan operasional digital.
   </figcaption>
 </figure>
 
@@ -90,14 +90,14 @@ Fokus pada pemahaman struktur website, pengelolaan domain dan hosting cPanel, pe
 <figure class="my-4 text-center">
   <img
     src="/images/4.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penerbitan sertifikat resmi bagi siswa yang telah menuntaskan seluruh program praktik kerja dan evaluasi kompetensi.
+    Penerbitan sertifikat resmi bagi siswa yang telah menuntaskan seluruh program praktik kerja dan evaluasi kompetensi.
   </figcaption>
 </figure>
 

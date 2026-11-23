@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/skill-sebelum-pkl-rpl.webp"
-imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
+imageAlt: "Siswa praktik pemrograman komputer program skill yang harus dikuasai sebelum p"
 imageCaption: "Pelatihan mandiri pemahaman logika algoritma dan struktur pemrograman web untuk mempersiapkan masa magang industri."
 keywords:
   - "skill sebelum PKL jurusan RPL"
@@ -45,14 +45,14 @@ Berikut adalah daftar kemampuan teknis mendasar yang perlu Anda latih sebelum me
 <figure class="my-4 text-center">
   <img
     src="/images/blog/skill-sebelum-pkl-rpl.webp"
-    alt="Siswa mengerjakan tugas pemrograman di laptop"
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Penguatan fondasi algoritma pemrograman dan pengenalan sintaks kode esensial menjelang penempatan magang.
+    Penguatan fondasi algoritma pemrograman dan pengenalan sintaks kode esensial menjelang penempatan magang.
   </figcaption>
 </figure>
 
@@ -79,14 +79,14 @@ Dalam praktik kerja industri di agensi digital, kemampuan menata tampilan agar r
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-belajar-coding.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Latihan mandiri membaca pesan kesalahan (debugging) dan mengoptimalkan fungsi skrip menggunakan editor kode.
+    Latihan mandiri membaca pesan kesalahan (debugging) dan mengoptimalkan fungsi skrip menggunakan editor kode.
   </figcaption>
 </figure>
 
@@ -114,14 +114,14 @@ Selain keterampilan teknis, keberhasilan siswa selama magang sangat dipengaruhi 
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Kebiasaan mencatat poin penting evaluasi dan menyusun jurnal harian secara rapi dan akuntabel.
+    Kebiasaan mencatat poin penting evaluasi dan menyusun jurnal harian secara rapi dan akuntabel.
   </figcaption>
 </figure>
 

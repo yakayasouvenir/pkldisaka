@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~7 Menit"
 image: "/images/blog/perbedaan-maksud-dan-tujuan-pkl.webp"
-imageAlt: "Perbedaan Maksud dan Tujuan PKL bagi Siswa dan Mahasiswa"
+imageAlt: "Siswa mengikuti kegiatan terkait perbedaan maksud"
 imageCaption: "Penyusunan bab pendahuluan laporan magang memerlukan pemahaman jelas mengenai maksud dan tujuan PKL."
 keywords:
   - "perbedaan maksud dan tujuan PKL"
@@ -37,7 +37,7 @@ Di lingkungan industri profesional seperti di [PKL di Saka](/) Malang, peserta d
 <figure class="my-4">
   <img 
     src="/images/blog/perbedaan-maksud-tujuan-pkl.webp" 
-    alt="Ilustrasi perbedaan maksud dan tujuan praktik kerja lapangan" 
+    alt="Suasana bimbingan praktik bersama mentor industri" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -75,7 +75,7 @@ Berikut perbandingan aspek fundamental antara maksud dan tujuan:
 <figure class="my-4">
   <img 
     src="/images/blog/contoh-tujuan-pkl.webp" 
-    alt="Contoh penulisan maksud dan tujuan PKL dalam laporan" 
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

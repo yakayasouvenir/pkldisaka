@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-rpl.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa praktik pemrograman komputer program kegiatan pkl jurusan rpl yang dilak"
 imageCaption: "Kolaborasi siswa SMK jurusan RPL dalam mengkaji modul pemrograman dan arsitektur landing page di ruang kerja agensi digital."
 keywords:
   - "kegiatan PKL jurusan RPL"
@@ -43,14 +43,14 @@ Kegiatan PKL jurusan RPL dirancang secara terstruktur agar siswa dapat beradapta
 <figure class="my-4 text-center">
   <img
     src="/images/blog/kegiatan-pkl-jurusan-rpl.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pembahasan kode dan tinjauan tampilan antarmuka web bersama rekan magang di workstation teknologi informasi.
+    Pembahasan kode dan tinjauan tampilan antarmuka web bersama rekan magang di workstation teknologi informasi.
   </figcaption>
 </figure>
 
@@ -77,14 +77,14 @@ Tampilan website komersial masa kini wajib nyaman dilihat dari layar ponsel pint
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-testing-responsive.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Praktik pengujian tampilan halaman web pada berbagai resolusi perangkat gawai di bawah panduan mentor.
+    Praktik pengujian tampilan halaman web pada berbagai resolusi perangkat gawai di bawah panduan mentor.
   </figcaption>
 </figure>
 
@@ -113,14 +113,14 @@ Setiap progres harian wajib didokumentasikan secara rapi. Hal ini melatih akunta
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Aktivitas siswa selama kegiatan praktik kerja"
+    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    📸 Pencatatan sistematis tugas harian, ringkasan kode yang diselesaikan, dan verifikasi catatan berkala.
+    Pencatatan sistematis tugas harian, ringkasan kode yang diselesaikan, dan verifikasi catatan berkala.
   </figcaption>
 </figure>
 

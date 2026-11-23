@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~5 Menit"
 image: "/images/13.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait skill yang paling dicari perusahaan"
 imageCaption: "Aktivitas tim kreatif dan mentor Saka Malang dalam menyelaraskan kebutuhan industri dengan kurikulum peserta PKL."
 keywords: ["skill digital 2027", "kompetensi lulusan smk dicari industri", "soft skill anak magang", "keahlian digital marketing terpopuler", "karier industri kreatif malang"]
 faq:

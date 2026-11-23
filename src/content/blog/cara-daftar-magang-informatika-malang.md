@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/cara-daftar-magang-informatika-malang.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa mengikuti kegiatan terkait magang informatika di malang"
 imageCaption: "Penyusunan berkas administrasi dan portofolio magang informatika siswa vokasi Malang."
 faq:
   - q: "Bagaimana [cara daftar magang informatika di Malang](/blog/cara-daftar-magang-informatika-malang/)?"
@@ -34,7 +34,7 @@ faq:
 Cara daftar [magang informatika](/jurusan/informatika/) di Malang dimulai dengan menentukan bidang praktik, mencari perusahaan, menyiapkan surat pengantar, CV, portofolio, mengirim permohonan, dan mengikuti proses seleksi.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/pendaftaran-magang-informatika.webp" alt="Siswa menyiapkan dokumen pendaftaran magang informatika" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/pendaftaran-magang-informatika.webp" alt="Suasana bimbingan praktik bersama mentor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Pengecekan kelengkapan surat pengantar sekolah dan dokumen pendukung PKL.</figcaption>
 </figure>
 
@@ -276,7 +276,7 @@ Mahasiswa sebaiknya menjelaskan kemampuan teknis yang telah dikuasai dan bidang 
 Contohnya, mahasiswa yang memiliki pengalaman membuat aplikasi dapat melamar ke bagian pengembangan perangkat lunak. Mahasiswa yang tertarik dengan pemasaran digital dapat mencari perusahaan yang menyediakan divisi SEO atau digital marketing.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/cv-portofolio-magang.webp" alt="Contoh persiapan CV dan portofolio untuk mendaftar PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/cv-portofolio-magang.webp" alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penyusunan portofolio digital berbasis proyek latihan untuk menarik minat industri.</figcaption>
 </figure>
 

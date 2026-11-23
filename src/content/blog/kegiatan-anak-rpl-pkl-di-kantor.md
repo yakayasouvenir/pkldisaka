@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-anak-rpl-pkl-di-kantor.webp"
-imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
+imageAlt: "Siswa praktik pemrograman komputer program kegiatan anak rpl saat pkl di kanto"
 imageCaption: "Aktivitas pengelolaan sistem informasi dan data operasional digital oleh siswa RPL di perkantoran."
 keywords:
   - "kegiatan anak RPL saat PKL di kantor"
