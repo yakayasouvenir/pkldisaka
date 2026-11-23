@@ -247,20 +247,20 @@ Pengalaman tersebut memberikan gambaran mengenai alur pekerjaan profesional yang
 
 ## Bagaimana Budaya Kerja Magang di PKL di Saka?
 
-PKL di Saka menawarkan pendekatan praktik lintas bidang kreatif dan digital dengan pembinaan yang mengutamakan kerja sama, komunikasi, serta pengalaman praktik.
+Program **PKL di Saka** dikelola oleh **CV Saudagar Kaya Abadi** sebagai agensi digital kreatif yang membuka studio dan fasilitasnya di kawasan Kedungkandang, Kota Malang. Program ini menawarkan pendekatan praktik lintas bidang kreatif dan digital dengan pembinaan yang mengutamakan kerja sama, komunikasi, serta pengalaman praktik nyata.
 
-Berdasarkan referensi program yang diberikan, lingkungan kerja Saka berada di Kedungkandang, Kota Malang, dengan pendekatan family friendly dan prinsip grow together.
+Lingkungan kerja di CV Saudagar Kaya Abadi menerapkan pendekatan *family friendly* dan prinsip *grow together* tanpa kesenjangan senioritas.
 
-Beberapa karakteristik program yang disebutkan adalah:
+Beberapa karakteristik operasional program yang berlaku:
 
-- Jadwal kerja Senin sampai Jumat.
-- Jam kegiatan pukul 08.00 sampai 16.00 WIB.
-- Istirahat pukul 12.00 sampai 13.00 WIB.
-- Kegiatan briefing bersama mentor.
-- Pembelajaran berdasarkan bidang penempatan.
-- Evaluasi dan penyusunan portofolio pada akhir program.
+- Jadwal kerja teratur: hari Senin sampai Jumat.
+- Jam kegiatan pukul 08.00 sampai 16.00 WIB (Sabtu-Minggu libur).
+- Waktu istirahat Dzuhur pukul 12.00 sampai 13.00 WIB.
+- Briefing pagi santai bersama mentor industri.
+- Penugasan terarah sesuai kompetensi jurusan masing-masing.
+- Evaluasi mingguan dan pendampingan penyusunan portofolio hingga penerbitan sertifikat resmi.
 
-Informasi tersebut merupakan gambaran program yang diberikan dan sebaiknya dikonfirmasi kembali saat pendaftaran, termasuk kuota, jadwal, fasilitas, serta ketentuan penerimaan terbaru.
+Informasi program ini disajikan secara faktual. Calon peserta disarankan mengecek kuota berjalan di halaman [lowongan PKL di Saka](/lowongan-pkl/) sebelum mengajukan berkas.
 
 ### Bagaimana Tahapan Pembinaan Peserta Magang di Saka?
 

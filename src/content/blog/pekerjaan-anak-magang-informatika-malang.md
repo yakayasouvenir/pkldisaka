@@ -50,7 +50,7 @@ Kegiatan tersebut dapat dilakukan di perusahaan teknologi, software house, digit
 
 Peserta magang biasanya mendapatkan tugas sesuai kemampuan dan kebutuhan tempat praktik. Pada tahap awal, pekerjaan dapat berupa latihan dasar dan pengenalan sistem. Setelah memahami prosedur, peserta dapat memperoleh tanggung jawab yang lebih kompleks dengan bimbingan mentor.
 
-Di Malang, kegiatan magang informatika memiliki keterkaitan dengan ekosistem pendidikan kejuruan. BPS Kota Malang mencatat terdapat 51 SMK pada tahun ajaran 2024/2025, dengan total 34.118 murid. Data tersebut menunjukkan besarnya kelompok pendidikan kejuruan yang berpotensi membutuhkan pengalaman praktik industri.
+Agar tidak salah langkah saat mengajukan permohonan PKL, pelajari terlebih dahulu panduan lengkap [tips memilih tempat magang informatika di Malang](/blog/tips-memilih-tempat-magang-informatika-malang/) agar divisi yang kamu pilih benar-benar sejalan dengan kompetensi kejuruanmu di sekolah.
 
 ## Apa Saja Pekerjaan Anak Magang Informatika?
 
@@ -235,21 +235,21 @@ Beberapa soft skill yang penting adalah:
 
 ## Bagaimana Contoh Kegiatan Magang Informatika di [PKL di Saka](/)?
 
-PKL di Saka berdasarkan informasi program yang diberikan menyediakan pembelajaran pada beberapa divisi kreatif dan digital yang relevan dengan jurusan SMK.
+Program **PKL di Saka** yang dikelola oleh **CV Saudagar Kaya Abadi** menyediakan fasilitas laboratorium industri terbuka bagi siswa SMK dan mahasiswa vokasi. Peserta magang di tempat ini tidak hanya mempelajari teori atau sekadar tugas administratif, melainkan dilibatkan langsung pada alur kerja agensi digital komersial.
 
-Peserta dapat mempelajari kegiatan sesuai penempatan, misalnya:
+Berikut gambaran pembagian penugasan nyata berdasarkan divisi kejuruan:
 
-| Divisi            | Contoh Kegiatan                                      |
-| ----------------- | ---------------------------------------------------- |
-| SEO dan Website   | Riset keyword, pengelolaan website, optimasi halaman |
-| Desain Grafis     | Membuat desain promosi dan identitas visual          |
-| Foto dan Video    | Produksi konten dan editing                          |
-| Packaging         | Membuat konsep dan desain kemasan                    |
-| Digital Marketing | Riset pasar dan pengelolaan konten                   |
+| Divisi & Jurusan | Contoh Pekerjaan Riil Harian | Output & Portofolio Siswa |
+| :--- | :--- | :--- |
+| **SEO & Website (RPL)** | Membangun komponen web HTML/CSS, responsive styling, audit meta tags, optimasi Core Web Vitals, dan struktur schema data. | Modul landing page live dan laporan audit performa web. |
+| **IT Support & Jaringan (TKJ)** | Troubleshooting perangkat kerja studio, perakitan kabel LAN, konfigurasi router/WiFi mikrotik, dan pemeliharaan server lokal. | Dokumentasi topologi jaringan dan logbook perbaikan hardware. |
+| **Desain Visual (DKV)** | Membuat aset grafis promosi, feed media sosial klien, layout katalog, dan mockup kemasan produk UMKM. | File master desain siap cetak dan feed feed portofolio aesthetic. |
+| **Foto & Video Produk** | Setting tata cahaya studio softbox, pengambilan shoot katalog komersial, serta video reels/TikTok bertema A Day in My Life. | Video promosi pendek dan foto katalog produk beresolusi tinggi. |
+| **Digital Marketing (Bisnis Digital)** | Riset kata kunci pencarian, copy postingan, penataan jadwal rilis konten, dan analisis metrik interaksi engagement. | Kalender editorial konten dan lembar evaluasi jangkauan audiens. |
 
-Program tersebut memberikan gambaran bahwa pekerjaan informatika dapat berhubungan dengan bidang kreatif dan bisnis digital, bukan hanya pemrograman.
+Pola pembinaan di CV Saudagar Kaya Abadi dilakukan melalui kurikulum vokasi terukur: mulai dari orientasi aturan industri, pendalaman tools praktis, penugasan proyek bertarget, hingga evaluasi hasil karya setiap pekan bersama mentor senior.
 
-Dalam referensi program, pembinaan dilakukan melalui orientasi, latihan dasar, penugasan proyek, dan evaluasi akhir. Peserta tetap perlu memastikan detail kegiatan dan ketersediaan divisi ketika menghubungi penyelenggara.
+Untuk melihat ketersediaan posisi terkini, kamu dapat memeriksa informasi [lowongan PKL di Saka](/lowongan-pkl/) sebelum mengajukan berkas lamaran.
 
 ## Bagaimana Cara Mempersiapkan Diri Sebelum Magang?
 

@@ -50,9 +50,9 @@ Tempat magang yang sesuai dapat membantu siswa menerapkan ilmu sekolah, memahami
 
 Sebaliknya, tempat praktik yang tidak sesuai jurusan berisiko membuat peserta kurang mendapatkan pengalaman yang dibutuhkan untuk menyelesaikan tujuan pembelajaran.
 
-Konteks pendidikan di Malang juga menunjukkan pentingnya pemilihan tempat praktik secara terencana. BPS Kota Malang mencatat 51 SMK dengan 34.118 murid pada tahun ajaran 2024/2025. Jumlah tersebut menggambarkan besarnya lingkungan pendidikan kejuruan yang membutuhkan hubungan pembelajaran dengan dunia kerja.
+Sebagai panduan menyeluruh, calon peserta perlu mengetahui [apa saja pekerjaan anak magang informatika](/blog/pekerjaan-anak-magang-informatika-malang/) di dunia kerja nyata serta membandingkan berbagai [rekomendasi tempat magang informatika di Malang](/blog/rekomendasi-tempat-magang-informatika-di-malang/) yang kredibel.
 
-Karena itu, calon peserta sebaiknya tidak hanya mempertimbangkan popularitas perusahaan atau jarak lokasi. Kualitas pembelajaran dan relevansi pekerjaan perlu menjadi prioritas.
+Karena itu, calon peserta sebaiknya tidak hanya mempertimbangkan popularitas perusahaan atau jarak lokasi. Kualitas pembelajaran, kompetensi mentor, dan relevansi pekerjaan perlu menjadi prioritas utama.
 
 ## Apa Saja Tips Memilih Tempat Magang Informatika di Malang?
 
@@ -223,29 +223,29 @@ Pertanyaan tersebut membantu peserta memahami ketentuan sebelum menyetujui progr
 
 ## Bagaimana Menilai Kualitas Tempat Magang di [PKL di Saka](/)?
 
-PKL di Saka berdasarkan referensi yang diberikan mempunyai pendekatan pembelajaran lintas bidang kreatif dan digital.
+**PKL di Saka** merupakan program Praktik Kerja Lapangan yang dikelola oleh badan usaha **CV Saudagar Kaya Abadi** di kawasan Kedungkandang, Kota Malang. Program ini menerapkan pendekatan pembinaan vokasi terstruktur lintas bidang teknologi dan industri kreatif.
 
-Informasi program tersebut menyebutkan kegiatan yang mencakup desain grafis, fotografi dan video produk, packaging, SEO, website, serta digital marketing.
+Informasi program resmi mencakup praktik langsung di divisi Rekayasa Perangkat Lunak (RPL / Website), Teknik Komputer & Jaringan (TKJ), Desain Komunikasi Visual (DKV), Fotografi & Videografi Produk, Packaging, serta SEO dan Digital Marketing.
 
-Beberapa aspek yang dapat dipertimbangkan oleh calon peserta meliputi:
+Beberapa kriteria penilaian yang dapat dijadikan tolok ukur oleh calon peserta meliputi:
 
-**Kesesuaian bidang praktik**
+**1. Kesesuaian Bidang Praktik & Kurikulum**
 
-Peserta dapat memeriksa ketersediaan divisi yang berhubungan dengan kompetensi sekolah.
+Peserta dibimbing sesuai jurusan sekolah untuk memastikan penugasan relevan dengan syarat kelulusan vokasi.
 
-**Pembinaan bertahap**
+**2. Pendampingan Mentor Industri Bertahap**
 
-Program yang dijelaskan mencakup orientasi, pembelajaran dasar, penugasan proyek, dan evaluasi.
+Program mencakup masa orientasi pengenalan budaya kerja, pendalaman tools industri, penugasan proyek komersial klien, hingga evaluasi portofolio mingguan.
 
-**Lingkungan kerja**
+**3. Lingkungan & Budaya Kerja Profesional**
 
-Referensi program menyebutkan budaya family friendly dan grow together sebagai pendekatan lingkungan kerja.
+Pendekatan kerja berbasis kolaborasi (*grow together*) tanpa senioritas, serta fasilitas studio kerja yang kondusif untuk eksplorasi keterampilan.
 
-**Jadwal kegiatan**
+**4. Jadwal Teratur & Transparansi Administratif**
 
-Informasi program menyebutkan kegiatan Senin sampai Jumat pukul 08.00 sampai 16.00 WIB dengan waktu istirahat pukul 12.00 sampai 13.00 WIB.
+Kegiatan berlangsung hari Senin sampai Jumat pukul 08.00 sampai 16.00 WIB (Sabtu-Minggu libur) dengan alur permohonan berkas dan sertifikat resmi tanpa biaya masuk (gratis).
 
-Seluruh ketentuan tersebut perlu dikonfirmasi kembali kepada pihak PKL di Saka karena jadwal, ketersediaan divisi, dan kapasitas penerimaan dapat berubah.
+Seluruh informasi ini dapat dipelajari lebih lanjut melalui panduan [program PKL di Saka](/program-pkl/) atau mengonfirmasi ketersediaan kuota berjalan.
 
 ## Kesalahan yang Sering Terjadi Saat Memilih Tempat Magang
 
