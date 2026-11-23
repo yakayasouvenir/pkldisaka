@@ -13,10 +13,12 @@ export const ID = {
 export const sameAs = Object.values(SITE.social);
 
 export const organizationNode = () => ({
-  '@type': 'Organization',
+  '@type': 'EducationalOrganization',
+  additionalType: 'https://schema.org/LocalBusiness',
   '@id': ID.org,
-  name: SITE.name,
+  name: SITE.brandName,
   legalName: SITE.legalName,
+  alternateName: (SITE as any).alternateName ?? ['Saka'],
   url: SITE.url,
   logo: {
     '@type': 'ImageObject',
@@ -37,6 +39,12 @@ export const organizationNode = () => ({
     postalCode: SITE.address.postalCode,
     addressCountry: SITE.address.country,
   },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: SITE.geo.lat,
+    longitude: SITE.geo.lng,
+  },
+  hasMap: 'https://maps.app.goo.gl/gv3sqEDHhVJedpcC8',
   sameAs,
 });
 

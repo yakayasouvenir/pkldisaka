@@ -259,7 +259,7 @@ Siswa dapat mengenal pentingnya ketepatan file desain sebelum diterapkan pada me
 
 Kegiatan aktual, kuota, jadwal, dan persyaratan penerimaan perlu dikonfirmasi langsung kepada pihak SAKA Souvenir.
 
-Informasi mengenai PKL Di Saka juga dapat ditemukan melalui [website resmi PKL Di Saka](https://pkldisaka.id/).
+Informasi mengenai PKL Di Saka juga dapat ditemukan melalui [website resmi PKL Di Saka](https://www.pkldisaka.id/).
 
 ## Apa yang Harus Diperhatikan Sebelum Mengajukan PKL?
 

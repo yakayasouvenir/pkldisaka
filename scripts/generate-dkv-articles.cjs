@@ -53,7 +53,7 @@ pilarBody = pilarBody.replace(
 );
 
 pilarBody = pilarBody.replace(
-  'Informasi lebih lanjut dapat diarahkan melalui website resmi PKL Di Saka, yaitu [pkldisaka.id](https://pkldisaka.id/).',
+  'Informasi lebih lanjut dapat diarahkan melalui website resmi PKL Di Saka, yaitu [pkldisaka.id](https://www.pkldisaka.id/).',
   `Informasi lebih lanjut mengenai registrasi dan jadwal kuota dapat diakses melalui portal resmi [PKL di Saka](/) serta konsultasi langsung bersama koordinator pembinaan vokasi.`
 );
 

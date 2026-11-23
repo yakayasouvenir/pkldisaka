@@ -3,9 +3,10 @@
 // =====================================================================
 
 export const SITE = {
-  name: 'pkldisaka.id',
-  brandName: 'PKL Di Saka',
-  legalName: 'PKL Di Saka Malang',
+  name: 'PKL di Saka',
+  brandName: 'PKL di Saka',
+  legalName: 'CV Saudagar Kaya Abadi',
+  alternateName: ['Saka', 'PKL di Saka Malang', 'CV. Saudagar Kaya Abadi'],
   url: 'https://www.pkldisaka.id',
   locale: 'id-ID',
   tagline: 'Pusat Informasi & Praktik Kerja Lapangan di Kota Malang',
