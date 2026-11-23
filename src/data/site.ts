@@ -1,5 +1,5 @@
 // =====================================================================
-// DATA UTAMA SITUS pkldisaka.com SESUAI PRD & PANDUAN DESAIN
+// DATA UTAMA SITUS pkldisaka.id SESUAI PRD & PANDUAN DESAIN
 // =====================================================================
 
 export const SITE = {

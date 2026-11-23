@@ -1,4 +1,4 @@
-# PRD --- Website pkldisaka.com
+# PRD --- Website pkldisaka.id
 
 **Versi:** 1.0\
 **Tanggal penyusunan:** 27 Oktober 2026\
@@ -6,7 +6,7 @@
 
 ## 1. Ringkasan Produk
 
-pkldisaka.com adalah website informasi dan penerimaan Praktik Kerja
+pkldisaka.id adalah website informasi dan penerimaan Praktik Kerja
 Lapangan (PKL) yang menggabungkan halaman utama program PKL, informasi
 jurusan dan divisi, pengalaman peserta, panduan dokumen, artikel edukasi
 PKL, persiapan PKL, serta informasi PKL di Malang.

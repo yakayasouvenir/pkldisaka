@@ -1,4 +1,4 @@
-# DESIGN.md --- Panduan Desain Website pkldisaka.com
+# DESIGN.md --- Panduan Desain Website pkldisaka.id
 
 **Versi:** 1.0\
 **Tanggal:** 27 Oktober 2026\
@@ -75,7 +75,7 @@ menganggapnya sebagai standar final.
   `--body-line-height`     `1.65`                  Kenyamanan baca
   ------------------------------------------------------------------------
 
-Nilai di atas adalah proposal, bukan identitas resmi pkldisaka.com.
+Nilai di atas adalah proposal, bukan identitas resmi pkldisaka.id
 Periksa kontras dan fokus setelah implementasi.
 
 ## 3. Struktur Global
