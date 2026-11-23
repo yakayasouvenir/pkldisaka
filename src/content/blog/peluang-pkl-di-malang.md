@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/peluang-pkl-di-malang.webp"
-imageAlt: "Peluang PKL di Malang untuk Siswa SMK dan Mahasiswa di Berbagai Bidang"
+imageAlt: "Peluang PKL di Malang  di Berbagai Bidang"
 imageCaption: "Kolaborasi kreatif siswa SMK dan mahasiswa dalam mengeksplorasi proyek digital multimedia di Malang."
 keywords:
   - "peluang PKL di Malang"

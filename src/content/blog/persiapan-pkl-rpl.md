@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/persiapan-pkl-rpl.webp"
-imageAlt: "Persiapan PKL RPL untuk Siswa SMK Mulai dari Skill hingga Berkas Pendaftaran"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Siswa SMK jurusan Rekayasa Perangkat Lunak mempersiapkan berkas lamaran dan portofolio koding sebelum magang."
 faq:
   - q: "Apa yang harus dipelajari sebelum PKL RPL?"
@@ -112,7 +112,7 @@ Di dunia industri, efisiensi kerja sangat dipengaruhi oleh penguasaan perangkat 
 | Google Chrome DevTools | Menguji responsivitas layar dan melakukan debugging kode di browser |
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/portofolio-siswa-rpl.webp" alt="Contoh portofolio proyek coding siswa RPL untuk mendaftar PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/portofolio-siswa-rpl.webp" alt="Siswa mengerjakan tugas pemrograman di laptop" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Contoh portofolio proyek koding siswa RPL yang ditampilkan melalui antarmuka web modern.</figcaption>
 </figure>
 

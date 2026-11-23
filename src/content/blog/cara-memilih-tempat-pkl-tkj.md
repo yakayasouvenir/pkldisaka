@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cara Memilih Tempat PKL TKJ yang Sesuai dengan Kompetensi Siswa"
 description: "Pelajari cara memilih tempat PKL TKJ berdasarkan kompetensi, fasilitas, pembimbing, lokasi, dan kegiatan kerja yang sesuai untuk siswa SMK."
 answer: "Cara memilih tempat PKL TKJ adalah dengan mempertimbangkan kesesuaian penugasan teknis dengan kurikulum kejuruan, ketersediaan mentor pembimbing, kelengkapan fasilitas studio, serta kejelasan administrasi sekolah agar pengalaman magang bermanfaat optimal."
@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~7 Menit"
 image: "/images/blog/cara-memilih-tempat-pkl-tkj.webp"
-imageAlt: "Siswa SMK mempertimbangkan tempat PKL TKJ berdasarkan kompetensi dan kegiatan kerja yang tersedia"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Pemberian arahan dan evaluasi kesesuaian modul kejuruan siswa dengan penugasan industri di studio PKL Malang."
 keywords: ["cara memilih tempat PKL TKJ", "memilih tempat magang tkj", "kriteria pkl tkj", "tips pkl smk tkj", "cv saudagar kaya abadi"]
 faq:
@@ -51,7 +51,7 @@ Sebelum menentukan pilihan, telitilah jenis pekerjaan harian, fasilitas studio, 
 <figure class="my-4 text-center">
   <img
     src="/images/20.webp"
-    alt="Kolaborasi tim kerja dalam mengelola operasional sistem digital dan workstation komputer"
+    alt="Siswa praktik perakitan dan konfigurasi komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -97,7 +97,7 @@ Fokus pada pemahaman struktur website, pengelolaan domain dan hosting cPanel, pe
 <figure class="my-4 text-center">
   <img
     src="/images/4.webp"
-    alt="Momen penyerahan sertifikat kelulusan magang bagi siswa yang menyelesaikan masa PKL dengan sukses"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

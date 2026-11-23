@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/maksud-dan-tujuan-pkl-cover.webp"
-imageAlt: "Maksud dan Tujuan PKL bagi Siswa SMK dan Mahasiswa di Lingkungan Industri"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Siswa dan mahasiswa mengikuti program pembelajaran kerja praktik langsung di lingkungan perusahaan profesional."
 keywords:
   - "maksud dan tujuan PKL"
@@ -38,7 +38,7 @@ Bagi peserta didik vokasi dan mahasiswa yang ingin merasakan atmosfer kerja indu
 <figure class="my-4">
   <img 
     src="/images/blog/maksud-dan-tujuan-pkl.webp" 
-    alt="Siswa dan mahasiswa mengikuti praktik kerja lapangan di lingkungan industri" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -112,7 +112,7 @@ Bagi mahasiswa, kegiatan magang berfokus pada kesiapan transisi karir profesiona
 <figure class="my-4">
   <img 
     src="/images/blog/tahapan-pelaksanaan-pkl.webp" 
-    alt="Tahapan pelaksanaan praktik kerja lapangan dari perencanaan hingga evaluasi" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/cara-daftar-magang-informatika-malang.webp"
-imageAlt: "Cara Daftar Magang Informatika di Malang dan Persyaratan yang Perlu Disiapkan"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penyusunan berkas administrasi dan portofolio magang informatika siswa vokasi Malang."
 faq:
   - q: "Bagaimana [cara daftar magang informatika di Malang](/blog/cara-daftar-magang-informatika-malang/)?"
@@ -32,14 +32,6 @@ faq:
 ## Jawaban Singkat
 
 Cara daftar [magang informatika](/jurusan/informatika/) di Malang dimulai dengan menentukan bidang praktik, mencari perusahaan, menyiapkan surat pengantar, CV, portofolio, mengirim permohonan, dan mengikuti proses seleksi.
-
-## Ringkasan Inti
-
-- Persiapkan dokumen administrasi sebelum menghubungi perusahaan.
-- Pilih bidang magang sesuai jurusan dan kompetensi.
-- Buat CV yang menjelaskan kemampuan serta pengalaman proyek.
-- Gunakan bahasa profesional ketika mengirim permohonan.
-- Pastikan mendapatkan konfirmasi penerimaan resmi sebelum memulai magang.
 
 <figure class="my-4 text-center">
   <img src="/images/blog/pendaftaran-magang-informatika.webp" alt="Siswa menyiapkan dokumen pendaftaran magang informatika" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

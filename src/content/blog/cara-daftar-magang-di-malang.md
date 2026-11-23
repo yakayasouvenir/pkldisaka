@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cara Daftar Magang di Malang untuk Siswa SMK dan Mahasiswa Lengkap Alur Syarat dan Tips Diterima"
 description: "Panduan lengkap langkah demi langkah mendaftar PKL dan magang industri digital di Malang: persiapan berkas administrasi, etika menghubungi HRD, timeline ideal, dan tips lolos seleksi."
 answer: "Untuk mendaftar PKL di Malang, siapkan surat pengantar sekolah/kampus, CV satu halaman yang rapi, dan portofolio karya sederhana. Hubungi perusahaan lewat kanal WhatsApp resmi 1-2 bulan sebelum jadwal, ikuti proses verifikasi berkas dan wawancara minat, lalu konfirmasi tanggal mulai magang."
@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~6 Menit"
 image: "/images/9.webp"
-imageAlt: "Siswa SMK dan mahasiswa vokasi berkonsultasi mengenai pendaftaran PKL di kantor agensi digital Saka Malang"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Konsultasi pendaftaran dan verifikasi berkas calon peserta PKL bersama koordinator pembimbing industri di studio Saka Malang."
 keywords: ["cara daftar magang malang", "pendaftaran pkl smk malang", "syarat pkl digital marketing", "tahapan magang mahasiswa malang", "tips diterima pkl"]
 faq:

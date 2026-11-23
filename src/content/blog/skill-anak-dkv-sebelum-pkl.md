@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/skill-anak-dkv-sebelum-pkl.webp"
-imageAlt: "Siswa DKV mempelajari keterampilan desain grafis sebagai persiapan sebelum mengikuti PKL"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Siswa SMK DKV melatih keahlian komposisi grafis dan penyusunan portofolio sebelum terjun ke dunia industri."
 keywords:
   - "skill anak DKV sebelum PKL"

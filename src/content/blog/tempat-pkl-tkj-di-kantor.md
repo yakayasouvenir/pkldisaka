@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~6 Menit"
 image: "/images/blog/tempat-pkl-tkj-di-kantor.webp"
-imageAlt: "Siswa SMK jurusan TKJ melakukan instalasi dan pemeliharaan perangkat jaringan komputer di kantor"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Praktek konfigurasi jaringan lokal dan administrasi perangkat komputer di lingkungan perkantoran."
 keywords:
   - "tempat pkl tkj di kantor"
@@ -33,7 +33,7 @@ Melalui program [PKL di Saka](/), siswa jurusan TKJ diajak memahami bagaimana ek
 <figure class="my-4">
   <img 
     src="/images/blog/administrasi-perangkat-tkj.webp" 
-    alt="Siswa SMK TKJ melakukan manajemen konfigurasi router dan kabel LAN di ruang server kantor" 
+    alt="Siswa praktik perakitan dan konfigurasi komputer" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -63,7 +63,7 @@ Untuk memperluas pemahaman mengenai kurikulum dan prospek kejuruan ini, Anda jug
 <figure class="my-4">
   <img 
     src="/images/blog/operasional-komputer-kantor-tkj.webp" 
-    alt="Siswa SMK TKJ berkoordinasi dengan staf kantor dalam pengujian sistem operasional komputer" 
+    alt="Siswa praktik perakitan dan konfigurasi komputer" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

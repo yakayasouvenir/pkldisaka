@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/perusahaan-penerima-pkl-rpl.webp"
-imageAlt: "Siswa jurusan RPL melaksanakan kegiatan magang di perusahaan teknologi"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Suasana kerja kolaboratif siswa jurusan RPL di perusahaan teknologi mitra vokasi."
 keywords:
   - "perusahaan penerima PKL RPL"

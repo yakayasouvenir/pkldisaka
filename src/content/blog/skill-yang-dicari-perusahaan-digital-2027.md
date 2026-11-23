@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Skill yang Paling Dicari Perusahaan Digital 2026–2027 Panduan Karier dan Magang Vokasi"
 description: "Daftar keterampilan teknis (hard skills) dan karakter profesional (soft skills) yang paling dibutuhkan industri digital, agensi kreatif, dan startup teknologi masa kini."
 answer: "Perusahaan digital modern mencari talenta dengan kompetensi T-shaped: memiliki keahlian teknis mendalam di satu bidang kejuruan utama, dipadukan dengan pemahaman luas seputar literasi analitik data, komunikasi kerja tim yang jelas, dan kemandirian memecahkan masalah."
@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~5 Menit"
 image: "/images/13.webp"
-imageAlt: "Ruang kolaborasi dan pertemuan tim agensi digital Saka Malang membahas strategi proyek komersial"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas tim kreatif dan mentor Saka Malang dalam menyelaraskan kebutuhan industri dengan kurikulum peserta PKL."
 keywords: ["skill digital 2027", "kompetensi lulusan smk dicari industri", "soft skill anak magang", "keahlian digital marketing terpopuler", "karier industri kreatif malang"]
 faq:

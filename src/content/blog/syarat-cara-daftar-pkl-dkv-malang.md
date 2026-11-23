@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/syarat-cara-daftar-pkl-dkv-malang.webp"
-imageAlt: "Siswa SMK DKV mempersiapkan berkas pendaftaran dan portofolio karya untuk pengajuan PKL di Malang"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Pemeriksaan kelengkapan dokumen administrasi dan portofolio desain sebelum pengajuan magang industri."
 faq:
   - q: "Apa saja syarat PKL jurusan DKV?"
@@ -30,14 +30,6 @@ faq:
 ## Jawaban Singkat
 
 Cara daftar PKL DKV di Malang dimulai dengan menentukan tempat praktik di bidang industri kreatif, meminta surat pengantar sekolah, menyiapkan CV dan portofolio karya visual, kemudian mengajukan permohonan sesuai prosedur penyelenggara. Bagi siswa yang ingin terjun ke industri desain merchandise dan media digital, program magang di [PKL jurusan DKV](/jurusan/dkv/) CV Saudagar Kaya Abadi memberikan alur pendaftaran yang jelas dan terstruktur.
-
-## Ringkasan Inti
-
-- Siswa perlu memastikan jadwal dan ketentuan PKL dari sekolah.
-- Surat pengantar merupakan salah satu dokumen administrasi resmi yang wajib dipersiapkan.
-- CV dan portofolio membantu memperlihatkan identitas serta kompetensi karya visual siswa DKV.
-- Pengajuan PKL harus mengikuti alur dan prosedur resmi mitra industri yang dituju.
-- Penerimaan peserta bergantung pada ketersediaan kuota program serta kesesuaian portofolio.
 
 ## Apa Saja Syarat PKL Jurusan DKV di Malang?
 
@@ -120,7 +112,7 @@ Sebaiknya tanyakan terlebih dahulu agar tidak terjadi kekurangan dokumen saat pe
 
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/30.webp" alt="Siswa SMK menyiapkan berkas pengajuan PKL dan perangkat kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/30.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Siswa SMK menyiapkan berkas pengajuan PKL serta perlengkapan teknis sebelum memulai program magang industri di Malang.
   </figcaption>

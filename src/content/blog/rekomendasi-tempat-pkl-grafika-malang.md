@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/rekomendasi-tempat-pkl-grafika-malang.webp"
-imageAlt: "Tempat PKL Jurusan Grafika di Malang untuk Siswa SMK di CV Saudagar Kaya Abadi"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penerapan teknik grafika, proses cetak merchandise, dan packaging kemasan di CV Saudagar Kaya Abadi Malang."
 faq:
   - q: "Di mana siswa jurusan Grafika bisa melaksanakan PKL di Malang?"
@@ -29,14 +29,6 @@ faq:
 
 Rekomendasi tempat PKL jurusan Grafika di Malang mencakup perusahaan percetakan komersial, industri packaging kemasan, dan unit produksi merchandise kreatif yang menyediakan fasilitas kerja nyata. Melalui program kejuruan terstruktur di [PKL jurusan Teknik Grafika](/jurusan/teknik-grafika/), siswa SMK mendapatkan pembekalan komprehensif mulai dari tahapan pracetak (*pre-press*), eksekusi mesin cetak, perakitan [divisi packaging](/divisi/packaging/), hingga pengawasan mutu produk akhir bersama CV Saudagar Kaya Abadi.
 
-## Ringkasan Inti
-
-- Siswa SMK Grafika sebaiknya memilih mitra industri yang mengintegrasikan proses desain, pracetak (*pre-press*), teknik cetak, dan finishing packaging.
-- Perusahaan percetakan dan industri suvenir merchandise memberikan portofolio fisik nyata yang sangat bernilai bagi lulusan vokasi.
-- Fasilitas workshop, ketersediaan mentor pembimbing, serta kejelasan alur kerja wajib diperiksa sebelum mengajukan permohonan magang.
-- Dokumen wajib seperti surat pengantar sekolah, CV, dan portofolio karya perlu disiapkan secara rapi.
-- Menghubungkan praktik sekolah dengan standar industri mempercepat kesiapan siswa menghadapi dunia kerja profesional.
-
 ## Mengapa Siswa Grafika Perlu Memilih Tempat PKL yang Sesuai?
 
 Tempat PKL jurusan Grafika adalah perusahaan atau lingkungan kerja yang memberikan kesempatan kepada siswa untuk menerapkan keterampilan desain grafis, persiapan pracetak, dan proses produksi cetak secara langsung. Tempat tersebut sebaiknya memiliki kegiatan yang berkesinambungan dengan kurikulum kejuruan SMK.
@@ -46,7 +38,7 @@ Praktik Kerja Lapangan (PKL) merupakan jembatan emas yang menghubungkan materi t
 Bagi siswa Teknik Grafika, pemilihan tempat PKL sangat krusial. Beberapa percetakan konvensional hanya berfokus pada cetak dokumen lembaran, sementara industri modern saat ini menuntut penguasaan *custom merchandise*, teknik sublimasi, hingga rekayasa kemasan karton (*folding box packaging*).
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-cetak-mesin.webp" alt="Siswa SMK jurusan Grafika melaksanakan praktik kerja di lingkungan produksi percetakan" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-cetak-mesin.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Siswa SMK jurusan Teknik Grafika mempelajari alur kerja mesin cetak digital dan heat press di studio produksi CV Saudagar Kaya Abadi Malang.
   </figcaption>

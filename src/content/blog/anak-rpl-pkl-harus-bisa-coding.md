@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/anak-rpl-pkl-harus-bisa-coding.webp"
-imageAlt: "Siswa jurusan RPL merancang antarmuka aplikasi di studio komputer"
+imageAlt: "Siswa jurusan RPL mendesain antarmuka di komputer"
 imageCaption: "Siswa SMK RPL mempersiapkan keterampilan dasar antarmuka digital dan logika pemrograman sebelum magang."
 keywords:
   - "anak RPL PKL harus bisa coding"

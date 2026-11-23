@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-pkl-di-malang.webp"
-imageAlt: "Kegiatan PKL di Malang dan Pengalaman Kerja yang Bisa Didapatkan Peserta"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas kolaboratif peserta magang saat mendiskusikan workflow penugasan digital di studio PKL di Saka Malang."
 keywords:
   - "kegiatan PKL di Malang"
@@ -48,7 +48,7 @@ Praktik Kerja Lapangan (PKL) bukan sekadar rutinitas administratif pelengkap nil
 Sebagai gambaran komprehensif, CV Saudagar Kaya Abadi melalui program PKL DISAKA di Kedungkandang menerapkan sistem bimbingan kerja yang terstruktur, seperti yang telah diulas dalam artikel [rekomendasi tempat PKL di Malang](/blog/rekomendasi-tempat-pkl-di-malang/) serta panduan lokasi [tempat PKL di Kedungkandang Malang](/blog/tempat-pkl-di-kedungkandang-malang/).
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/kegiatan-pkl-malang.webp" alt="Peserta menjalankan kegiatan praktik kerja lapangan di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/kegiatan-pkl-malang.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK dan mahasiswa berkolaborasi memproduksi aset digital dan konten promosi komersial.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Selain aktivitas koding dan desain di depan layar, peserta juga diajak mengenal 
 Eksplorasi ragam spesialisasi lainnya dapat Anda temukan pada ulasan [peluang PKL di Malang](/blog/peluang-pkl-di-malang/) serta rincian kalender di artikel [berapa lama waktu PKL SMK dan mahasiswa](/blog/berapa-lama-waktu-pkl-smk-dan-mahasiswa/).
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/pengalaman-pkl-digital.webp" alt="Peserta mempelajari pembuatan artikel dan pengelolaan website selama PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/pengalaman-pkl-digital.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa magang memantau performa kata kunci pencarian dan keterbacaan artikel di Google Search Console.</figcaption>
 </figure>
 

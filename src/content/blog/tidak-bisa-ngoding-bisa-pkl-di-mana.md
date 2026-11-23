@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/tidak-bisa-ngoding-bisa-pkl-di-mana.webp"
-imageAlt: "Siswa RPL yang belum mahir coding menjalani program magang di lingkungan industri teknologi"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Siswa SMK jurusan Rekayasa Perangkat Lunak belajar alur kerja teknologi digital di kantor."
 keywords:
   - "tidak bisa ngoding bisa PKL di mana"
@@ -83,7 +83,7 @@ Membantu instalasi aplikasi kerja, pemeliharaan periferal komputer kantor, penge
 <figure class="my-4">
   <img 
     src="/images/blog/pekerjaan-pkl-rpl-di-kantor.webp" 
-    alt="Aktivitas siswa RPL mengelola data dan perangkat komputer saat PKL" 
+    alt="Siswa praktik perakitan dan konfigurasi komputer" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~7 Menit"
 image: "/images/blog/anak-rpl-bisa-pkl-di-kantor-tanpa-coding.webp"
-imageAlt: "Siswa SMK RPL menjalani kegiatan Praktik Kerja Lapangan di lingkungan kantor modern"
+imageAlt: "Siswa SMK RPL praktik kerja di kantor"
 imageCaption: "Siswa RPL mengaplikasikan keterampilan komputer dan tata kelola administrasi digital di kantor."
 keywords:
   - "PKL RPL di kantor"

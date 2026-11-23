@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/skill-sebelum-pkl-rpl.webp"
-imageAlt: "Siswa SMK mempelajari dasar pemrograman dan logika algoritma sebelum PKL"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Pelatihan mandiri pemahaman logika algoritma dan struktur pemrograman web untuk mempersiapkan masa magang industri."
 keywords:
   - "skill sebelum PKL jurusan RPL"
@@ -52,7 +52,7 @@ Berikut adalah daftar kemampuan teknis mendasar yang perlu Anda latih sebelum me
 <figure class="my-4 text-center">
   <img
     src="/images/blog/skill-sebelum-pkl-rpl.webp"
-    alt="Siswa SMK mempelajari dasar pemrograman dan logika algoritma sebelum PKL"
+    alt="Siswa mengerjakan tugas pemrograman di laptop"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -86,7 +86,7 @@ Dalam praktik kerja industri di agensi digital, kemampuan menata tampilan agar r
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-belajar-coding.webp"
-    alt="Siswa SMK melatih kemampuan debugging dan menelaah pesan kesalahan skrip di ruang belajar"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -121,7 +121,7 @@ Selain keterampilan teknis, keberhasilan siswa selama magang sangat dipengaruhi 
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Pencatatan evaluasi harian dan pembuatan ringkasan proyek magang oleh siswa kejuruan"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

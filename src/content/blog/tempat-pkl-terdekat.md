@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tempat PKL Terdekat untuk Siswa SMK yang Sedang Mencari Pengalaman Kerja"
 description: "Mencari tempat PKL terdekat untuk siswa SMK? Pelajari pertimbangan jarak, kesesuaian jurusan kejuruan, dan panduan memilih tempat magang terpercaya."
 answer: "Tempat PKL terdekat untuk siswa SMK adalah tempat praktik kerja yang lokasinya mudah dijangkau dari rumah atau sekolah sekaligus memiliki aktivitas yang sesuai dengan kompetensi jurusan. PKL DISAKA di Malang menyediakan program praktik kerja lapangan terarah untuk siswa SMK dengan fasilitas bimbingan mentor industri."
@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~7 Menit"
 image: "/images/blog/pkl-terdekat-1.webp"
-imageAlt: "Siswa SMK membawa berkas dokumen berjalan tenang di kawasan kantor mencari tempat PKL terdekat"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Pencarian lokasi tempat PKL terdekat yang strategis dan mudah dijangkau dari rumah siswa."
 keywords:
   - "tempat pkl terdekat"
@@ -51,7 +51,7 @@ Tempat pelaksanaan PKL dapat berupa perseroan, agensi digital, unit usaha kreati
 <figure class="my-4 text-center">
   <img
     src="/images/blog/pkl-terdekat-2.webp"
-    alt="Siswa SMK berdiskusi mengenai laporan dan proyek magang bersama mentor pembimbing di meja kantor"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -109,7 +109,7 @@ Hindari tempat PKL yang membebankan biaya tanpa kejelasan fasilitas. Pahami rinc
 <figure class="my-4 text-center">
   <img
     src="/images/4.webp"
-    alt="Momen penyerahan sertifikat kelulusan resmi bagi siswa yang telah menyelesaikan masa PKL dengan sukses"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

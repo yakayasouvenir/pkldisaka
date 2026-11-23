@@ -1,4 +1,4 @@
-﻿---
+---
 title: "PKL Digital Marketing dan Desain Grafis di Malang untuk Siswa SMK Keterampilan dan Portofolio"
 description: "Cari program PKL digital marketing dan desain grafis di Malang? Pelajari keterampilan, portofolio, dan cara menanyakan program PKL DISAKA."
 answer: "Program PKL digital marketing dan desain grafis di Malang melatih siswa memadukan strategi pemasaran digital (SEO, media sosial, riset pasar) dengan perancangan visual komersial (branding, layout, tipografi, dan konten multimedia). PKL DISAKA memfasilitasi kedua bidang ini melalui proyek komersial riil."
@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~6 Menit"
 image: "/images/praktik-digital-marketing.webp"
-imageAlt: "Praktik riset kata kunci dan analisis kampanye digital marketing oleh siswa PKL di studio"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Sesi pengerjaan audit konten digital dan perancangan strategi optimasi mesin pencari di Saka Malang."
 keywords:
   - "pkl digital marketing malang"
@@ -51,7 +51,7 @@ Peserta yang mendalami kedua bidang ini akan memiliki nilai tambah tinggi (*high
 <figure class="my-4 text-center">
   <img
     src="/images/18.webp"
-    alt="Siswa DKV merancang identitas visual merek dan materi promosi cetak di workstation"
+    alt="Siswa mengerjakan proyek desain grafis di komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -106,7 +106,7 @@ Tipografi mencakup pemilihan jenis huruf, keterbacaan (readability), serta penga
 <figure class="my-4 text-center">
   <img
     src="/images/20.webp"
-    alt="Kolaborasi tim desain grafis dan copywriter dalam menyusun kalender konten kreatif"
+    alt="Siswa mengerjakan proyek desain grafis di komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

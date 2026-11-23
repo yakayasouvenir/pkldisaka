@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/maksud-dan-tujuan-pkl-bagi-mahasiswa.webp"
-imageAlt: "Maksud dan Tujuan PKL bagi Mahasiswa dalam Mempersiapkan Karier"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Mahasiswa perguruan tinggi terlibat aktif dalam proyek profesional selama kegiatan Praktik Kerja Lapangan."
 keywords:
   - "maksud dan tujuan PKL bagi mahasiswa"

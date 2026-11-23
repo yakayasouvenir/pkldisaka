@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tempat PKL Jurusan RPL dan TKJ di Malang untuk Siswa SMK Panduan Kompetensi dan Pembagian Tugas"
 description: "Mencari tempat PKL jurusan RPL dan TKJ di Malang? Pelajari kompetensi yang perlu disiapkan, contoh kegiatan, dan informasi PKL DISAKA."
 answer: "Siswa RPL dan TKJ di Malang perlu memilih tempat PKL yang spesifik melatih kompetensi kejuruan: pengembangan web, logika koding, dan basis data untuk RPL, serta pemeliharaan hardware, instalasi OS, dan jaringan komputer untuk TKJ. PKL DISAKA membuka penugasan terarah sesuai kompetensi kedua jurusan tersebut."
@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa kejuruan RPL mempraktikkan koding website dan arsitektur database di laptop"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Praktik langsung pengembangan website dan pengujian kode dibimbing oleh praktisi teknologi di Saka Malang."
 keywords:
   - "tempat pkl jurusan rpl di malang"
@@ -65,7 +65,7 @@ Siswa dapat memulai dari proyek sederhana seperti halaman profil, halaman inform
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Dokumentasi pengerjaan proyek koding dan penyusunan modul teknis siswa magang"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -111,7 +111,7 @@ Pemahaman tersebut membantu peserta mengenali fungsi setiap komponen dan memaham
 <figure class="my-4 text-center">
   <img
     src="/images/12.webp"
-    alt="Siswa kejuruan TKJ melakukan pengujian koneksi jaringan dan instalasi perangkat kerja di lab"
+    alt="Siswa praktik perakitan dan konfigurasi komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

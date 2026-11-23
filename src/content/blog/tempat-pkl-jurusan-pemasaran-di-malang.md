@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-jurusan-pemasaran-di-malang.webp"
-imageAlt: "Tempat PKL Jurusan Pemasaran di Malang yang Cocok untuk Siswa SMK"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penerapan strategi merchandising dan penataan etalase produk siswa magang Pemasaran di Malang."
 faq:
   - q: "Jurusan pemasaran bisa magang dimana?"
@@ -43,7 +43,7 @@ Siswa dapat mulai dari tugas sederhana sesuai arahan pembimbing. Misalnya, menyu
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/merchandising-toko-pkl-pemasaran.webp" alt="Siswa SMK menganalisis performa penjualan dan komunikasi produk dengan mentor" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/merchandising-toko-pkl-pemasaran.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Pendampingan langsung oleh mentor industri dalam mengamati respon pasar dan interaksi pelanggan.</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Bisnis online dapat menjadi pilihan bagi siswa yang ingin mengenal pemasaran mel
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/praktik-digital-marketing-pemasaran.webp" alt="Ruang kerja digital marketing untuk siswa PKL jurusan Pemasaran di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/praktik-digital-marketing-pemasaran.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Fasilitas komputasi dan studio kreatif untuk mendukung pembelajaran pemasaran modern.</figcaption>
 </figure>
 

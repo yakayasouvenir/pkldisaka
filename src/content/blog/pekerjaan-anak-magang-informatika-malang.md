@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/pekerjaan-anak-magang-informatika-malang.webp"
-imageAlt: "Pekerjaan Anak Magang Informatika di Malang dan Keterampilan yang Dibutuhkan"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas pengembangan web dan eksplorasi coding siswa magang informatika di Malang."
 faq:
   - q: "Apa saja tugas anak magang informatika?"
@@ -28,14 +28,6 @@ faq:
 ## Jawaban Singkat
 
 Pekerjaan anak [magang informatika](/jurusan/informatika/) di Malang meliputi pengembangan website, pemrograman, pengelolaan database, IT support, jaringan komputer, pengujian aplikasi, dan pengelolaan teknologi digital.
-
-## Ringkasan Inti
-
-- Pekerjaan magang informatika bergantung pada jurusan dan divisi penempatan.
-- Peserta RPL umumnya mempelajari website, coding, dan database.
-- Peserta TKJ dapat mempelajari jaringan komputer serta troubleshooting.
-- Bidang digital agency juga menyediakan pembelajaran SEO, desain, dan pemasaran digital.
-- Kemampuan komunikasi, kedisiplinan, dan kerja sama menjadi keterampilan pendukung yang penting.
 
 <figure class="my-4 text-center">
   <img src="/images/blog/pekerjaan-magang-informatika.webp" alt="Peserta magang informatika mengerjakan proyek teknologi" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

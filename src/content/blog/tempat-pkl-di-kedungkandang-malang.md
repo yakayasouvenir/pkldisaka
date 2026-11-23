@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-di-kedungkandang-malang.webp"
-imageAlt: "Tempat PKL di Kedungkandang Malang untuk Siswa SMK dan Mahasiswa"
+imageAlt: "Tempat PKL di Kedungkandang Malang"
 imageCaption: "Peserta magang sedang menganalisis data performa digital marketing di kantor CV Saudagar Kaya Abadi Kedungkandang Malang."
 keywords:
   - "tempat PKL di Kedungkandang Malang"

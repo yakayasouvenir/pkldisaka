@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Persiapan PKL TKJ untuk Siswa SMK Sebelum Memulai Magang"
 description: "Simak persiapan PKL TKJ untuk siswa SMK, mulai dari dokumen pendaftaran, keterampilan dasar, CV, portofolio, hingga sikap saat magang."
 answer: "Persiapan PKL TKJ meliputi dokumen sekolah, pemahaman materi jaringan komputer, CV satu halaman, portofolio proyek, perlengkapan kerja, dan kesiapan sikap profesional sebelum memasuki lingkungan industri."
@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~8 Menit"
 image: "/images/blog/persiapan-pkl-tkj.webp"
-imageAlt: "Siswa SMK jurusan TKJ menyiapkan dokumen dan perlengkapan sebelum melaksanakan PKL"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Penyusunan berkas administrasi dan checklist kesiapan sebelum pelepasan siswa magang ke industri."
 keywords: ["persiapan PKL TKJ", "syarat pkl tkj", "dokumen pkl smk", "cv pkl tkj", "cv saudagar kaya abadi"]
 faq:
@@ -47,7 +47,7 @@ Sumber rujukan resmi: [BPS - Kota Malang Dalam Angka 2025](https://web-api.bps.g
 <figure class="my-4 text-center">
   <img
     src="/images/24.webp"
-    alt="Penyerahan surat pengantar resmi pendaftaran PKL dari pihak sekolah kepada pihak industri"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -113,7 +113,7 @@ Jelaskan tujuan proyek, perangkat yang digunakan, dan peran spesifik Anda dalam 
 <figure class="my-4 text-center">
   <img
     src="/images/wawancara-seleksi-magang.webp"
-    alt="Sesi konsultasi dan wawancara pengenalan minat calon siswa PKL bersama pembimbing industri"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

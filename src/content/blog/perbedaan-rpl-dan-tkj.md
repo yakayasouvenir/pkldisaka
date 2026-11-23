@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/perbedaan-rpl-dan-tkj.webp"
-imageAlt: "Perbedaan Jurusan RPL dan TKJ dari Pembelajaran hingga Peluang Kerja"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Perbandingan aktivitas praktik siswa jurusan Rekayasa Perangkat Lunak (koding) dan Teknik Komputer Jaringan (infrastruktur jaringan)."
 keywords:
   - "perbedaan RPL dan TKJ"
@@ -51,7 +51,7 @@ Rekayasa Perangkat Lunak (RPL) adalah program keahlian yang mendalami seluruh pr
 Fokus pembelajaran RPL menitikberatkan pada logika algoritma, struktur data relasional, sintaks bahasa pemrograman, dan perancangan antarmuka visual. Siswa dilatih untuk berpikir sistematis, memahami kebutuhan pengguna, serta menghasilkan karya digital yang fungsional dan aman.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/praktik-koding-jurusan-rpl.webp" alt="Siswa jurusan RPL mempraktikkan koding aplikasi web di studio komputer" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/praktik-koding-jurusan-rpl.webp" alt="Siswa praktik perakitan dan konfigurasi komputer" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Aktivitas pembelajaran siswa RPL yang berfokus pada penataan kode semantik HTML, CSS, JavaScript, dan database.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Kurikulum kejuruan TKJ menitikberatkan pada keterampilan teknis instalasi dan pe
 5. **Troubleshooting Perangkat & Jaringan:** Menemukan sumber kerusakan koneksi jaringan menggunakan software diagnostik seperti ping, traceroute, dan alat ukur kabel.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/instalasi-jaringan-jurusan-tkj.webp" alt="Siswa jurusan TKJ sedang mengonfigurasi perangkat router dan kabel jaringan LAN" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/instalasi-jaringan-jurusan-tkj.webp" alt="Siswa praktik perakitan dan konfigurasi komputer" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa jurusan TKJ mempraktikkan konfigurasi perangkat keras router dan pengujian kestabilan sinyal jaringan.</figcaption>
 </figure>
 

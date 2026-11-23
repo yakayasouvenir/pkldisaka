@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/contoh-laporan-pkl-rpl.webp"
-imageAlt: "Siswa SMK menyusun dokumen laporan praktik kerja lapangan jurusan RPL"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penyusunan berkas laporan pertanggungjawaban kegiatan PKL jurusan Rekayasa Perangkat Lunak secara terstruktur dan sistematis."
 keywords:
   - "contoh laporan PKL RPL"
@@ -46,7 +46,7 @@ Bagi Anda yang menjalani program praktik kerja industri di agensi digital sepert
 <figure class="my-4 text-center">
   <img
     src="/images/blog/contoh-laporan-pkl-rpl.webp"
-    alt="Siswa SMK menyusun dokumen laporan praktik kerja lapangan jurusan RPL"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -84,7 +84,7 @@ Secara umum, susunan laporan magang kejuruan mengikuti kaidah karya tulis ilmiah
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Verifikasi data jurnal kegiatan dan pengujian kode sebagai bahan penyusunan laporan PKL"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -117,7 +117,7 @@ Bab ini adalah bagian terpenting dari seluruh laporan Anda. Jelaskan pekerjaan t
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-presentasi-proyek.webp"
-    alt="Siswa magang mempresentasikan laporan akhir dan demo website di hadapan mentor industri"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/contoh-tugas-anak-dkv-pkl.webp"
-imageAlt: "Siswa DKV mengerjakan tugas desain grafis selama praktik kerja lapangan"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Pengerjaan tugas proyek visual dan tata letak media promosi oleh siswa SMK DKV."
 keywords:
   - "tugas anak DKV saat PKL"

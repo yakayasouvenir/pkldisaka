@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cara Menemukan Tempat PKL Terdekat dari Rumah dengan Google Maps"
 description: "Panduan mencari tempat PKL terdekat dari rumah menggunakan Google Maps secara efektif. Temukan kantor relevan sesuai jurusan, tips kata kunci, dan verifikasi alamat."
 answer: "Cara menemukan tempat PKL terdekat dari rumah dengan Google Maps adalah dengan memanfaatkan fitur pencarian lokasi berbasis kata kunci jurusan (seperti IT, studio desain, atau digital marketing), memfilter radius jarak tempuh, mengecek foto serta ulasan lokasi, lalu menghubungi nomor kontak resmi yang tertera untuk mengonfirmasi penerimaan magang."
@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/blog/pkl-terdekat-3.webp"
-imageAlt: "Navigasi rute petunjuk arah Google Maps di smartphone menuju kantor tempat PKL terdekat"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Pemanfaatan aplikasi Google Maps untuk memetakan jarak dan rute perjalanan menuju tempat magang terdekat."
 keywords:
   - "tempat pkl terdekat dari rumah"
@@ -47,7 +47,7 @@ Informasi ini dapat dijadikan dasar awal sebelum Anda menyusun daftar permohonan
 <figure class="my-4 text-center">
   <img
     src="/images/6.webp"
-    alt="Pengenalan suasana ruang kerja kantor dan etalase karya industri saat orientasi perdana siswa"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -94,7 +94,7 @@ Bawalah daftar nama perusahaan dan alamat lengkap yang telah Anda periksa kepada
 <figure class="my-4 text-center">
   <img
     src="/images/7.webp"
-    alt="Sesi perpisahan hangat dan apresiasi pelepasan murid magang SMK bersama para mentor industri"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

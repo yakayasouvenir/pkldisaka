@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-rpl.webp"
-imageAlt: "Tempat PKL RPL yang Memberikan Pengalaman Coding dan Pengembangan Website"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Lingkungan kerja perusahaan teknologi dan software house untuk siswa SMK jurusan RPL."
 faq:
   - q: "Tempat PKL apa yang cocok untuk siswa RPL?"

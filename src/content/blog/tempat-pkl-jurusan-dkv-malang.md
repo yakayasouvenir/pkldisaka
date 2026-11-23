@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-jurusan-dkv-malang.webp"
-imageAlt: "Siswa SMK DKV berkolaborasi merancang desain kemasan produk dan grafis promosi saat PKL di Malang"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Kolaborasi siswa SMK jurusan Desain Komunikasi Visual saat menyelesaikan proyek grafis merchandise di CV Saudagar Kaya Abadi Malang."
 faq:
   - q: "Apakah jurusan DKV bisa PKL di perusahaan souvenir?"
@@ -89,7 +89,7 @@ Tempat PKL jurusan DKV di Malang dapat dipilih berdasarkan keterkaitan pekerjaan
 Salah satu pilihan yang relevan untuk dipertimbangkan adalah CV Saudagar Kaya Abadi melalui unit usaha SAKA Souvenir.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/12.webp" alt="Siswa SMK DKV merancang tata letak dan desain visual merchandise di studio SAKA Souvenir" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/12.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Aktivitas perancangan tata letak visual dan grafis merchandise oleh siswa SMK DKV di studio produksi CV Saudagar Kaya Abadi Malang.
   </figcaption>
@@ -295,7 +295,7 @@ Dokumen yang umumnya dipersiapkan adalah surat pengantar sekolah, CV, kartu pela
 Durasi PKL mengikuti kurikulum dan ketentuan sekolah. Periode praktik perlu disepakati dengan penyelenggara sebelum kegiatan dimulai.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/25.webp" alt="Siswa SMK DKV berdiskusi mengevaluasi portofolio desain merchandise dan cetak" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/25.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Evaluasi berkala karya portofolio desain souvenir dan materi grafis bersama mentor industri di Malang.
   </figcaption>

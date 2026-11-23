@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~6 Menit"
 image: "/images/blog/rekomendasi-tempat-pkl-di-kantor-malang.webp"
-imageAlt: "Suasana kerja kantor profesional untuk siswa SMK yang menjalani program PKL di Malang"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Suasana kerja kantor yang tertib, nyaman, dan kolaboratif bagi siswa magang SMK di Malang."
 keywords:
   - "tempat pkl di kantor"
@@ -33,7 +33,7 @@ Bagi Anda yang berdomisili atau bersekolah di wilayah Jawa Timur, mencari rekome
 <figure class="my-4">
   <img 
     src="/images/blog/suasana-kerja-kantor-smk.webp" 
-    alt="Siswa SMK menjalani aktivitas kerja terarah di lingkungan perkantoran modern Malang" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -62,7 +62,7 @@ Untuk siswa dengan konsentrasi kejuruan teknik, kantor modern juga menyediakan r
 <figure class="my-4">
   <img 
     src="/images/blog/bimbingan-pkl-kantor-malang.webp" 
-    alt="Sesi diskusi dan bimbingan mentor industri bersama peserta PKL di kantor Malang" 
+    alt="Siswa berdiskusi dengan mentor pembimbing" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

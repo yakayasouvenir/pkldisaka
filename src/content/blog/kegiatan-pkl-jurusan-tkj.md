@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Kegiatan PKL Jurusan TKJ yang Akan Dipelajari Siswa Selama Magang"
 description: "Kenali kegiatan PKL jurusan TKJ, mulai dari perawatan komputer, jaringan, troubleshooting, hingga pekerjaan digital yang dapat dipelajari siswa SMK."
 answer: "Kegiatan PKL jurusan TKJ meliputi pengenalan perangkat komputer, jaringan LAN/WLAN, troubleshooting, dokumentasi teknis, dan keterampilan pengelolaan website digital sesuai bidang penempatan industri."
@@ -10,7 +10,7 @@ published: 2026-11-13
 updated: 2026-11-13
 readingTime: "~7 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-tkj.webp"
-imageAlt: "Siswa jurusan TKJ mempelajari perangkat komputer dan aktivitas teknologi digital selama PKL"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Pemberian materi penugasan teknis jaringan dan pengelolaan sistem digital bagi siswa magang TKJ."
 keywords: ["kegiatan PKL jurusan TKJ", "tugas pkl tkj", "kegiatan magang smk tkj", "materi pkl tkj", "cv saudagar kaya abadi"]
 faq:
@@ -77,7 +77,7 @@ Kesempatan melakukan konfigurasi langsung bergantung pada kebijakan tempat PKL. 
 <figure class="my-4 text-center">
   <img
     src="/images/22.webp"
-    alt="Siswa magang berdiskusi dengan mentor pembimbing di meja kerja kantor studio"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -129,7 +129,7 @@ Informasi mengenai fasilitas atau aktivitas perusahaan tidak otomatis berarti se
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Pencatatan buku logbook jurnal harian kegiatan praktik kerja siswa SMK"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

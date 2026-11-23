@@ -51,7 +51,7 @@ Beberapa manfaat memilih tempat PKL yang relevan antara lain:
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/suasana-pkl-pemasaran-malang.webp" alt="Aktivitas belajar pemasaran digital dan perencanaan konten promosi siswa SMK" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/suasana-pkl-pemasaran-malang.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Peserta mendalami alur perencanaan konten dan riset promosi produk bersama mentor industri.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Siswa sebaiknya tidak hanya mengejar banyaknya tugas. Hal yang lebih penting ada
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-promosi-siswa-pemasaran.webp" alt="Siswa SMK Pemasaran menata etalase produk dan katalog promosi komersial" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-promosi-siswa-pemasaran.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Praktik merchandising dan penataan katalog produk untuk memperkuat daya tarik penjualan.</figcaption>
 </figure>
 

@@ -36,7 +36,7 @@ Di era regulasi pendidikan kejuruan saat ini, pelaksanaan Praktik Kerja Lapangan
 <figure class="my-4 text-center">
   <img 
     src="/images/blog/durasi-pkl-smk-mahasiswa.webp" 
-    alt="Siswa SMK mengikuti jadwal kegiatan praktik kerja lapangan di kantor" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded-4 shadow-sm w-100" 
     loading="lazy" 
   />
@@ -75,7 +75,7 @@ Bagi siswa jurusan teknologi, pengalaman 6 bulan di lingkungan kantor sangat mem
 <figure class="my-4 text-center">
   <img 
     src="/images/blog/jadwal-kegiatan-pkl.webp" 
-    alt="Peserta magang menyusun jadwal dan laporan kegiatan PKL di Malang" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded-4 shadow-sm w-100" 
     loading="lazy" 
   />

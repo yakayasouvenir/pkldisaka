@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-anak-rpl-pkl-di-kantor.webp"
-imageAlt: "Siswa SMK jurusan RPL menjalani kegiatan operasional sistem di kantor"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas pengelolaan sistem informasi dan data operasional digital oleh siswa RPL di perkantoran."
 keywords:
   - "kegiatan anak RPL saat PKL di kantor"

@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/panduan-persiapan-pkl-jurusan-bisnis-malang.webp"
-imageAlt: "Panduan Persiapan PKL Jurusan Bisnis di Malang dari Pendaftaran hingga Hari Pertama Kerja"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penyusunan berkas administrasi dan tata cara pendaftaran resmi magang bisnis di Malang."
 faq:
   - q: "Apa saja berkas untuk mendaftar PKL?"
@@ -212,7 +212,7 @@ permohonan peserta.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/hari-pertama-pkl-perusahaan.webp" alt="Peserta PKL mengikuti pengarahan mentor pada hari pertama kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/hari-pertama-pkl-perusahaan.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Sesi pengarahan tata tertib, pembagian tugas harian, dan budaya kerja industri profesional.</figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-rpl-di-malang.webp"
-imageAlt: "Siswa SMK RPL mengerjakan proyek pengembangan website saat PKL di Malang"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Penerapan kompetensi pemrograman dan perancangan website responsif oleh siswa SMK RPL selama masa praktik industri."
 keywords:
   - "tempat PKL RPL di Malang"
@@ -54,7 +54,7 @@ Namun, di dunia industri kerja, siswa akan berhadapan dengan kebutuhan riil sepe
 <figure class="my-4 text-center">
   <img
     src="/images/blog/tempat-pkl-rpl-di-malang.webp"
-    alt="Siswa SMK RPL mengerjakan proyek pengembangan website saat PKL di Malang"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -85,7 +85,7 @@ Lingkungan ini sangat cocok sebagai laboratorium praktik bagi siswa yang ingin m
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-testing-responsive.webp"
-    alt="Fasilitas workstation komputer dan bimbingan mentor teknis untuk siswa RPL di Malang"
+    alt="Siswa praktik perakitan dan konfigurasi komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -122,7 +122,7 @@ Setiap pekerjaan dicatat secara rapi dalam jurnal harian sebagai bahan evaluasi 
 <figure class="my-4 text-center">
   <img
     src="/images/blog/rpl-presentasi-proyek.webp"
-    alt="Siswa SMK RPL mempresentasikan hasil proyek website di hadapan mentor industri"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

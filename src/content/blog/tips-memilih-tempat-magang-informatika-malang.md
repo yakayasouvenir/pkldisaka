@@ -10,7 +10,7 @@ published: 2026-11-17
 updated: 2026-11-17
 readingTime: "~8 Menit"
 image: "/images/blog/tips-memilih-tempat-magang-informatika-malang.webp"
-imageAlt: "Tips Memilih Tempat Magang Informatika di Malang agar Pengalaman Kerja Relevan"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Diskusi persiapan memilih tempat magang informatika yang berkualitas dan terakreditasi di Malang."
 faq:
   - q: "Bagaimana cara memilih tempat magang informatika yang bagus?"
@@ -28,14 +28,6 @@ faq:
 ## Jawaban Singkat
 
 Tips memilih tempat [magang informatika](/jurusan/informatika/) di Malang dimulai dengan memeriksa kesesuaian jurusan, kualitas mentor, fasilitas praktik, pengalaman proyek, lingkungan kerja, dan kejelasan program pembelajaran.
-
-## Ringkasan Inti
-
-- Pilih tempat magang berdasarkan kompetensi yang ingin dikembangkan.
-- Periksa kesesuaian pekerjaan dengan jurusan sekolah atau program studi.
-- Pastikan perusahaan mempunyai mentor yang dapat memberikan arahan.
-- Evaluasi fasilitas, proyek praktik, dan lingkungan kerja.
-- Tanyakan ketentuan pendaftaran sebelum mengirim dokumen.
 
 <figure class="my-4 text-center">
   <img src="/images/blog/tips-memilih-tempat-magang.webp" alt="Siswa memilih tempat magang informatika di Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />

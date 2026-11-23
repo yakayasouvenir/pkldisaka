@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/apa-itu-pkl.webp"
-imageAlt: "Apa Itu PKL Pengertian Tujuan Manfaat dan Pelaksanaannya bagi Siswa SMK"
+imageAlt: "Siswa SMK berdiskusi di ruang kelas industri"
 imageCaption: "Siswa SMK mengikuti sesi orientasi dan pengenalan alur kerja Praktik Kerja Lapangan bersama mentor industri."
 keywords:
   - "apa itu PKL"
@@ -52,7 +52,7 @@ Dalam pelaksanaannya, siswa ditempatkan di perusahaan atau lembaga mitra untuk m
 PKL merupakan singkatan resmi dari Praktik Kerja Lapangan. Dalam konteks pendidikan vokasi, kegiatan ini menjadi wadah utama bagi siswa untuk mengenal standar mutu industri sekaligus mengasah kompetensi profesional sejak dini.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/kegiatan-pelaksanaan-pkl-smk.webp" alt="Siswa SMK mengikuti kegiatan pelaksanaan tugas PKL di kantor industri" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/kegiatan-pelaksanaan-pkl-smk.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Siswa SMK berkolaborasi menyelesaikan penugasan proyek industri didampingi oleh mentor profesional.</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ Rincian keuntungan nyata yang diperoleh peserta didik dibahas secara mendalam da
 - **Penyusunan Portofolio Kredibel:** Karya yang dihasilkan selama magang dapat dicantumkan secara legal dalam berkas lamaran kerja.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/manfaat-pengalaman-pkl.webp" alt="Siswa SMK menerima sertifikat dan apresiasi setelah menyelesaikan program PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/manfaat-pengalaman-pkl.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Penyelesaian program PKL memberikan sertifikat kompetensi industri resmi sebagai bukti kesiapan kerja siswa.</figcaption>
 </figure>
 

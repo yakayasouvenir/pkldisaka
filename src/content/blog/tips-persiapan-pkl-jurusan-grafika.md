@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/tips-persiapan-pkl-jurusan-grafika.webp"
-imageAlt: "Siswa SMK jurusan Grafika mempersiapkan keterampilan software desain dan kalibrasi cetak sebelum PKL"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Pembekalan teknis software desain grafis dan pengenalan sampel cetak sebelum memasuki magang industri."
 faq:
   - q: "Apakah siswa Grafika harus mahir seluruh software desain sebelum PKL?"
@@ -27,14 +27,6 @@ faq:
 
 Tips persiapan PKL jurusan Grafika bagi siswa SMK mencakup penguasaan dasar software grafis (vektor dan bitmap), pemahaman standar file cetak (*CMYK, bleed, 300 DPI*), pemahaman pola kemasan pada [divisi packaging](/divisi/packaging/), penyusunan portofolio karya terkurasi, serta kesiapan mentalitas kerja. Program unggulan di [PKL jurusan Teknik Grafika](/jurusan/teknik-grafika/) CV Saudagar Kaya Abadi Malang membantu siswa mengonversi teori sekolah menjadi kemahiran industri berdaya saing.
 
-## Ringkasan Inti
-
-- Penguasaan dasar software grafis seperti Adobe Illustrator, Photoshop, dan CorelDRAW mempermudah adaptasi kerja.
-- Pemahaman aturan pracetak (*pre-press*) menghindarkan perusahaan dari kerugian bahan akibat salah cetak.
-- Mengetahui cara merancang *dieline packaging* kemasan membuka peluang penempatan di divisi kreatif.
-- Portofolio dalam format PDF ringkas menjadi bukti visual nyata atas kapabilitas siswa.
-- Kedisiplinan waktu, kesiapan menerima revisi, dan etika komunikasi menjadi faktor kunci keberhasilan magang.
-
 ## Apa Saja Persiapan PKL Jurusan Grafika?
 
 Memasuki dunia Praktik Kerja Lapangan (PKL) menuntut kesiapan yang matang, bukan sekadar datang dan mengisi presensi. Di dunia industri percetakan modern, setiap kelalaian kecil dalam pengaturan file dapat berakibat fatal pada ratusan lembar hasil cetak.
@@ -42,7 +34,7 @@ Memasuki dunia Praktik Kerja Lapangan (PKL) menuntut kesiapan yang matang, bukan
 Karena itu, mitra industri seperti [PKL di Saka](/) sangat mengapresiasi calon peserta magang yang memiliki inisiatif mempersiapkan diri sejak jauh-jauh hari sebelum tanggal mulai praktik.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-prepress-color.webp" alt="Siswa mempelajari software desain grafis dan kalibrasi warna untuk persiapan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-prepress-color.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Penyelarasan palet warna CMYK dan layout dokumen digital sebelum masuk ke tahapan cetak massal.
   </figcaption>
@@ -76,7 +68,7 @@ Keahlian yang sangat dicari saat ini adalah kemampuan menyusun jaring-jaring pis
 - Menghitung toleransi ketebalan kertas karton agar kancing pengunci box dapat menutup rapat dan rapi.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Siswa SMK Grafika membuat dummy kemasan karton dengan pisau cutter dan penggaris presisi" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Latihan pembuatan prototipe fisik (mockup dummy) packaging kemasan untuk melatih ketelitian dimensi ukuran.
   </figcaption>

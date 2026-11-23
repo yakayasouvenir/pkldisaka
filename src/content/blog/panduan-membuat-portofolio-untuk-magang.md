@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Panduan Membuat Portofolio Magang Pemula Format Struktur dan Contoh untuk Siswa SMK"
 description: "Cara praktis menyusun portofolio magang digital yang menarik dan meyakinkan recruiter industri, meski belum pernah bekerja profesional. Dilengkapi contoh kasus per jurusan."
 answer: "Portofolio magang yang efektif tidak butuh puluhan karya. Cukup pilih 2 sampai 3 karya terbaik, sertakan penjelasan singkat mengenai peranmu, alat yang digunakan, dan solusi yang dihasilkan, lalu sajikan dalam format PDF 1-3 halaman yang rapi dan mudah dibuka di ponsel."
@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~5 Menit"
 image: "/images/12.webp"
-imageAlt: "Ruang studio desain Saka Malang tempat siswa magang mengerjakan portofolio kreatif dan materi branding"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Proses pengerjaan aset visual dan portofolio kreatif siswa jurusan DKV di studio desain Saka Malang."
 keywords: ["portofolio magang pemula", "cara buat portofolio dkv", "contoh portofolio rpl smk", "portofolio magang tanpa pengalaman", "format portofolio pdf"]
 faq:

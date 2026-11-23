@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tips-memilih-tempat-pkl-bisnis-malang.webp"
-imageAlt: "Tips Memilih Tempat PKL Jurusan Bisnis di Malang agar Sesuai Kompetensi"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Persiapan pemilihan mitra industri dan penyusunan proposal magang jurusan bisnis."
 faq:
   - q: "Bagaimana cara mengetahui tempat PKL sesuai jurusan bisnis?"
@@ -101,7 +101,7 @@ mengevaluasi hasil pekerjaan.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/tips-memilih-tempat-pkl-bisnis.webp" alt="Siswa mempertimbangkan pilihan perusahaan untuk PKL jurusan bisnis" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/tips-memilih-tempat-pkl-bisnis.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Evaluasi cermat terhadap kurikulum dan spesifikasi divisi kerja di perusahaan tujuan.</figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ mengevaluasi kegiatan PKL.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/konsultasi-pkl-perusahaan.webp" alt="Peserta berdiskusi dengan mentor mengenai kegiatan PKL di perusahaan" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/konsultasi-pkl-perusahaan.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Diskusi terarah bersama praktisi industri guna menyelaraskan target kompetensi kejuruan.</figcaption>
 </figure>
 

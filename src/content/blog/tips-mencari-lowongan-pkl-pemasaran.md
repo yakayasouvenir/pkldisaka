@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/tips-mencari-lowongan-pkl-pemasaran.webp"
-imageAlt: "Tips Mencari Lowongan PKL Jurusan Pemasaran agar Cepat Diterima"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Persiapan berkas administrasi dan portofolio promosi siswa SMK sebelum mengajukan PKL di Malang."
 faq:
   - q: "Jurusan pemasaran bisa magang dimana?"
@@ -43,7 +43,7 @@ Catat nama perusahaan, alamat, kontak resmi, bidang usaha, dan informasi penerim
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/persiapan-cv-magang-pemasaran.webp" alt="Siswa SMK menyiapkan CV dan dokumen pengajuan magang pemasaran" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/persiapan-cv-magang-pemasaran.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penyusunan Curriculum Vitae ringkas dan portofolio contoh karya penawaran produk.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Gunakan format yang rapi dan pastikan semua informasi mudah dibaca.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/komunikasi-pendaftaran-pkl-pemasaran.webp" alt="Konsultasi pengajuan magang pemasaran bersama tim penerimaan PKL" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/komunikasi-pendaftaran-pkl-pemasaran.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Membangun komunikasi awal yang sopan dan profesional meningkatkan peluang konfirmasi penerimaan.</figcaption>
 </figure>
 

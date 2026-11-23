@@ -10,7 +10,7 @@ published: 2026-11-20
 updated: 2026-11-20
 readingTime: "~8 Menit"
 image: "/images/blog/tips-pkl-rpl-meski-belum-bisa-coding-cover.webp"
-imageAlt: "Tips Menjalani PKL Jurusan RPL bagi Siswa yang Belum Mahir Coding"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Siswa SMK RPL mempersiapkan keterampilan kerja dan membangun kepercayaan diri sebelum magang."
 keywords:
   - "tips PKL jurusan RPL"
@@ -81,7 +81,7 @@ Simpan contoh hasil kerja Anda yang diizinkan untuk dipublikasikan, seperti tabe
 <figure class="my-4">
   <img 
     src="/images/blog/siswa-rpl-belajar-di-kantor.webp" 
-    alt="Siswa SMK mempelajari pekerjaan teknologi informasi di kantor" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

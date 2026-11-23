@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Apa yang Dikerjakan Anak Magang Web Developer di Agensi Digital? Alur Kerja, Tools, dan Tugas Nyata"
 description: "Ketahui rutinitas harian anak magang web developer: slicing desain Figma ke HTML/CSS, perbaikan bug website, optimasi responsif mobile, dan alur bimbingan bersama mentor."
 answer: "Anak magang web developer di agensi digital bertugas mengonversi desain antarmuka menjadi halaman web yang responsif, mengelola komponen front-end, memperbaiki bug tampilan di berbagai ukuran layar, mempelajari optimasi kecepatan SEO web, dan berkolaborasi menggunakan Git bersama mentor industri."
@@ -10,7 +10,7 @@ published: 2026-10-26
 updated: 2026-10-27
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa magang jurusan RPL sedang coding web development di laptop pada studio Saka Malang"
+imageAlt: "Siswa mengerjakan tugas pemrograman di laptop"
 imageCaption: "Aktivitas siswa magang RPL mengerjakan penulisan kode dan pengembangan antarmuka web di Saka Malang."
 keywords: ["magang web developer malang", "tugas pkl rpl agensi", "slicing figma to html", "magang front end developer smk", "pengalaman magang IT"]
 faq:

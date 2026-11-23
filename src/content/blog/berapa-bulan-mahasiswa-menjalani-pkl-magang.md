@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~7 Menit"
 image: "/images/blog/berapa-bulan-mahasiswa-menjalani-pkl-magang.webp"
-imageAlt: "Mahasiswa sedang berdiskusi mengenai durasi dan target pembelajaran magang di kantor"
+imageAlt: "Siswa berdiskusi dengan mentor pembimbing"
 imageCaption: "Mahasiswa merencanakan durasi dan target kompetensi magang bersama rekan satu tim."
 keywords:
   - "berapa bulan mahasiswa menjalani pkl"

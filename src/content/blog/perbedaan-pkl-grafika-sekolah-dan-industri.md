@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/perbedaan-pkl-grafika-sekolah-dan-industri.webp"
-imageAlt: "Perbandingan pembelajaran desain grafika di sekolah dan praktik kerja nyata di industri percetakan"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Siswa SMK Teknik Grafika mendalami perbedaan alur kerja perakitan kemasan antara teori kelas dan bengkel industri."
 faq:
   - q: "Apakah praktik mencetak di sekolah sama dengan di industri percetakan?"
@@ -27,14 +27,6 @@ faq:
 
 Perbedaan PKL jurusan Grafika di sekolah dan industri percetakan terletak pada tujuan pelaksanaan, standar akurasi, dan tanggung jawab terhadap produk fisik. Sekolah membekali siswa dengan pemahaman dasar teori, sedangkan program industri di [PKL jurusan Teknik Grafika](/jurusan/teknik-grafika/) CV Saudagar Kaya Abadi melatih siswa mengoperasikan alur produksi komersial, merakit pesanan di [divisi packaging](/divisi/packaging/), serta meminimalkan pemborosan bahan (*waste reduction*).
 
-## Ringkasan Inti
-
-- Praktik sekolah bertujuan mengukur pemahaman kurikulum siswa, sedangkan industri berfokus pada kepuasan pelanggan dan efisiensi produksi.
-- Desain di industri memiliki batasan teknis ketat mengenai jenis tinta, media cetak, garis *bleed*, dan ketebalan karton.
-- Perakitan kemasan fisik melatih kepekaan mekanis siswa terhadap struktur lipatan yang kuat dan fungsional.
-- Sikap kerja seperti ketepatan waktu, manajemen stres menghadapi *deadline*, dan komunikasi tim diasah secara alami di workshop.
-- Pengalaman lapangan ini menjadi jembatan krusial yang menyempurnakan kompetensi kejuruan siswa SMK.
-
 ## Apa Perbedaan PKL Jurusan Grafika di Sekolah dan Industri Percetakan?
 
 Banyak siswa SMK beranggapan bahwa magang di industri percetakan hanya mengulang tugas-tugas grafis yang pernah dikerjakan di laboratorium komputer sekolah. Faktanya, atmosfer kerja di industri menuntut paradigma yang sama sekali baru.
@@ -42,7 +34,7 @@ Banyak siswa SMK beranggapan bahwa magang di industri percetakan hanya mengulang
 Ketika Anda belajar di [PKL di Saka](/), desain bukan sekadar gambar estetik yang dinilai dengan angka rapor, melainkan aset komersial yang harus diproduksi secara massal dengan toleransi kesalahan mendekati nol.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-quality-control.webp" alt="Siswa SMK mempelajari proses produksi grafika dan kontrol kualitas di lingkungan industri percetakan" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-quality-control.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Pemeriksaan berkala hasil cetakan merchandise dan packaging untuk memastikan keseragaman warna dan kerapian potongan.
   </figcaption>
@@ -76,7 +68,7 @@ Saat terjun ke [divisi packaging](/divisi/packaging/) industri, siswa terjun ke 
 - Menerapkan teknik pengeleman yang presisi agar lem tidak meluber mengotori permukaan souvenir di dalamnya.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Siswa merakit prototipe box packaging kemasan karton di workshop" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Proses pelipatan dan verifikasi kancing pengunci box kemasan produk suvenir di lini perakitan packaging.
   </figcaption>

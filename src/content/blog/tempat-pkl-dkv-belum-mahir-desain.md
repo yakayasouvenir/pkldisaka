@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~6 Menit"
 image: "/images/blog/tempat-pkl-dkv-belum-mahir-desain.webp"
-imageAlt: "Siswa SMK DKV sedang belajar prinsip komposisi layout dan tipografi dibimbing mentor desain"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Praktek dokumentasi foto produk dan eksplorasi sudut visual membantu mengasah kepekaan estetika siswa DKV."
 keywords:
   - "tempat pkl dkv belum mahir desain"
@@ -33,7 +33,7 @@ Namun, dunia kreatif industri sesungguhnya lebih luas daripada sekadar mahir men
 <figure class="my-4">
   <img 
     src="/images/blog/dokumentasi-produk-dkv.webp" 
-    alt="Siswa SMK DKV melakukan sesi foto produk kreatif dan penataan pencahayaan sederhana di studio" 
+    alt="Siswa mengerjakan proyek desain grafis di komputer" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -63,7 +63,7 @@ Ketahui lebih banyak mengenai peta kompetensi desain grafis di halaman [Jurusan 
 <figure class="my-4">
   <img 
     src="/images/blog/packaging-kreatif-dkv.webp" 
-    alt="Desain mockup merchandise kantor dan kemasan produk hasil karya siswa magang DKV di Malang" 
+    alt="Siswa mengerjakan proyek desain grafis di komputer" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

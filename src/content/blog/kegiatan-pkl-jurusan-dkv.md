@@ -10,7 +10,7 @@ published: 2026-11-14
 updated: 2026-11-14
 readingTime: "~7 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-dkv.webp"
-imageAlt: "Siswa SMK DKV mempraktikkan desain grafis dan pengolahan aset visual di studio kerja"
+imageAlt: "Siswa mengerjakan proyek desain grafis di komputer"
 imageCaption: "Siswa SMK keahlian DKV mengolah tata letak desain dan aset visual digital dengan bimbingan mentor industri."
 faq:
   - q: "Anak DKV saat PKL mengerjakan apa?"
@@ -83,7 +83,7 @@ Kegiatan ini membantu siswa memahami hubungan antara desain dan strategi komunik
 
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/vidioprinting.webp" alt="Siswa DKV mempelajari alur produksi cetak merchandise dan quality control produk visual" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/vidioprinting.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Praktik persiapan file cetak (pre-press) dan pengawasan mutu visual produk merchandise di CV Saudagar Kaya Abadi Malang.
   </figcaption>
@@ -163,7 +163,7 @@ Berikut beberapa kebiasaan yang dapat diterapkan:
 7. Mencatat kegiatan untuk kebutuhan laporan PKL.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/23.webp" alt="Siswa SMK DKV sedang berdiskusi menyusun materi promosi media digital" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/23.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Diskusi tim penyusunan konsep konten visual media sosial dan katalog promosi produk.
   </figcaption>

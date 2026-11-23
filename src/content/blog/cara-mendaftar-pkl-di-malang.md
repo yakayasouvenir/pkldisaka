@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cara Mendaftar PKL di Malang agar Peluang Diterima Lebih Besar"
 description: "Panduan lengkap cara mendaftar PKL di Malang untuk siswa SMK dan mahasiswa. Pelajari syarat berkas, format CV, etika komunikasi, dan tips seleksi."
 answer: "Cara mendaftar PKL di Malang dengan peluang diterima lebih besar adalah dengan menyiapkan surat pengantar resmi sekolah, menyusun CV ringkas 1 halaman yang menonjolkan keterampilan kejuruan, menghubungi narahubung resmi 1-2 bulan sebelumnya dengan pesan yang sopan, dan mengonfirmasi ketersediaan kuota divisi di PKL DISAKA."
@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/24.webp"
-imageAlt: "Penyerahan berkas surat pengantar resmi pendaftaran PKL dan verifikasi kuota oleh tim industri"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Tahapan verifikasi berkas administrasi dan konsultasi pendaftaran magang di kantor PKL di Saka Malang."
 keywords:
   - "cara mendaftar pkl di malang"
@@ -66,7 +66,7 @@ Kumpulkan seluruh dokumen dalam format file PDF beresolusi tajam (maksimal ukura
 <figure class="my-4 text-center">
   <img
     src="/images/28.webp"
-    alt="Pemeriksaan buku jurnal harian magang dan pencatatan berkas administrasi masuk siswa PKL"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -100,7 +100,7 @@ Jika diundang untuk sesi wawancara tatap muka atau perkenalan online, hadir tepa
 <figure class="my-4 text-center">
   <img
     src="/images/17.webp"
-    alt="Sesi wawancara pengenalan calon peserta magang bersama tim pembimbing PKL DISAKA"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

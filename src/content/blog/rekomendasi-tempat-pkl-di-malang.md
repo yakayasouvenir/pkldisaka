@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~8 Menit"
 image: "/images/blog/rekomendasi-tempat-pkl-di-malang.webp"
-imageAlt: "Rekomendasi Tempat PKL di Malang untuk Siswa SMK dan Mahasiswa"
+imageAlt: "Rekomendasi ruang kerja praktik"
 imageCaption: "Siswa SMK dan mahasiswa mengikuti pengarahan strategi kerja magang bersama mentor di studio PKL Malang."
 keywords:
   - "rekomendasi tempat PKL di Malang"
@@ -101,7 +101,7 @@ Program magang ini dirancang fleksibel untuk menampung berbagai disiplin ilmu ke
 Bagi Anda yang ingin memahami eksplorasi kesempatan kerja selengkapnya, simak ulasan mendalam mengenai [peluang PKL di Malang](/blog/peluang-pkl-di-malang/) di berbagai sektor industri.
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-pkl-disaka.webp" alt="Aktivitas peserta PKL DISAKA dalam bidang digital dan kreatif" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-pkl-disaka.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="text-muted small mt-2">Aktivitas produktif siswa dan mahasiswa dalam memproduksi konten visual kreatif dan mengelola aset digital.</figcaption>
 </figure>
 

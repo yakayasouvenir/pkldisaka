@@ -10,7 +10,7 @@ published: 2026-11-19
 updated: 2026-11-19
 readingTime: "~7 Menit"
 image: "/images/blog/perbedaan-durasi-pkl-mahasiswa-semester-5-6-7.webp"
-imageAlt: "Mahasiswa lintas semester berkolaborasi dalam proyek digital di kantor"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Kolaborasi mahasiswa semester menengah dan akhir dalam pengerjaan proyek industri nyata."
 keywords:
   - "perbedaan durasi pkl mahasiswa semester 5 6 7"
@@ -35,7 +35,7 @@ Secara mendasar, durasi PKL tidak otomatis berbeda hanya karena angka semester, 
 <figure class="my-4">
   <img 
     src="/images/blog/pkl-mahasiswa-semester-5-6-7.webp" 
-    alt="Mahasiswa dari berbagai semester mengikuti kegiatan praktik kerja lapangan" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -74,7 +74,7 @@ Bagi Anda yang berencana magang singkat pada masa libur semester 5, pelajari pan
 <figure class="my-4">
   <img 
     src="/images/blog/jadwal-pkl-berdasarkan-semester.webp" 
-    alt="Ilustrasi jadwal pelaksanaan PKL mahasiswa semester 5, 6, dan 7" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

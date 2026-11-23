@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/anak-rpl-kalau-pkl-kerjanya-apa-hero.webp"
-imageAlt: "Siswa jurusan RPL melaksanakan kegiatan praktik kerja lapangan di software house"
+imageAlt: "Siswa jurusan RPL praktik kerja di software house"
 imageCaption: "Aktivitas pembinaan dan diskusi pengembangan web oleh mentor industri bersama siswa SMK jurusan RPL."
 keywords:
   - "anak RPL kalau PKL kerjanya apa"

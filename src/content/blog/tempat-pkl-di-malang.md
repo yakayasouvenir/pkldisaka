@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tempat PKL di Malang untuk Siswa SMK dan Mahasiswa Panduan Memilih Program dan Pendaftaran"
 description: "Sedang mencari tempat PKL di Malang? Pelajari cara memilih program sesuai jurusan, persiapan administrasi, dan informasi pendaftaran PKL DISAKA."
 answer: "Tempat PKL di Malang yang berkualitas harus selaras dengan jurusan siswa, memiliki alur pembelajaran dan bimbingan praktisi nyata, serta tertib administrasi. Calon peserta dapat mempertimbangkan PKL DISAKA dengan mengonfirmasi ketersediaan divisi dan jadwal pendaftaran resmi."
@@ -10,7 +10,7 @@ published: 2026-11-11
 updated: 2026-11-11
 readingTime: "~7 Menit"
 image: "/images/10.webp"
-imageAlt: "Suasana ruang kerja dan fasilitas operasional tempat PKL di Malang bersama mentor industri"
+imageAlt: "Siswa berdiskusi dengan mentor pembimbing"
 imageCaption: "Fasilitas ruang kerja kolaboratif dan suasana belajar peserta PKL di studio Saka Malang."
 keywords:
   - "tempat pkl di malang"
@@ -46,7 +46,7 @@ Praktik Kerja Lapangan merupakan bagian dari proses pembelajaran yang memberikan
 <figure class="my-4 text-center">
   <img
     src="/images/13.webp"
-    alt="Sesi bimbingan terarah dan diskusi pembelajaran kejuruan bersama praktisi industri di Saka Malang"
+    alt="Siswa berdiskusi dengan mentor pembimbing"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -92,7 +92,7 @@ Informasi tersebut sebaiknya diperoleh langsung dari penyelenggara program.
 <figure class="my-4 text-center">
   <img
     src="/images/24.webp"
-    alt="Verifikasi berkas fisik dan surat rekomendasi sekolah oleh tim administrasi magang"
+    alt="Aktivitas siswa selama kegiatan praktik kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

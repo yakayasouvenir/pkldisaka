@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/contoh-pekerjaan-anak-rpl-saat-pkl.webp"
-imageAlt: "Siswa jurusan RPL mengerjakan tugas pengembangan sistem di perusahaan IT"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Peserta PKL jurusan RPL berdiskusi dengan supervisor mengenai penugasan pengembangan website."
 keywords:
   - "pekerjaan anak RPL saat PKL"

@@ -35,7 +35,7 @@ Mengikuti program magang di lingkungan terstruktur seperti di [PKL di Saka](/) m
 <figure class="my-4">
   <img 
     src="/images/blog/siswa-melaksanakan-pkl.webp" 
-    alt="Siswa SMK melaksanakan praktik kerja lapangan di lingkungan industri" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />
@@ -74,7 +74,7 @@ Pengalaman magang memberikan gambaran utuh mengenai ritme kerja profesional, mem
 <figure class="my-4">
   <img 
     src="/images/blog/pengembangan-keterampilan-pkl.webp" 
-    alt="Peserta PKL mengembangkan keterampilan teknis dan profesional" 
+    alt="Aktivitas siswa selama kegiatan praktik kerja" 
     class="img-fluid rounded shadow-sm w-100"
     loading="lazy"
   />

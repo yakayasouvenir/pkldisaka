@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/peluang-magang-jurusan-bisnis-malang.webp"
-imageAlt: "Peluang Magang Jurusan Bisnis di Malang untuk Siswa SMK dan Mahasiswa"
+imageAlt: "Peluang Magang Jurusan Bisnis di Malang"
 imageCaption: "Pengembangan keterampilan promosi digital dan pengelolaan marketplace bagi peserta magang bisnis."
 faq:
   - q: "Jurusan bisnis bisa magang di bidang apa?"
@@ -142,7 +142,7 @@ merencanakan pengembangan usaha.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/peluang-magang-bisnis-eksplorasi.webp" alt="Mahasiswa jurusan bisnis menjalani aktivitas magang di perusahaan Malang" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/peluang-magang-bisnis-eksplorasi.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Kerja sama tim dalam merancang kampanye promosi dan pengamatan tren perilaku konsumen.</figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ tetap bergantung pada ketersediaan divisi dan kebijakan perusahaan.
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/aktivitas-digital-marketing-pkl.webp" alt="Peserta magang belajar mengelola pemasaran digital perusahaan" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/aktivitas-digital-marketing-pkl.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Eksplorasi pembuatan konten visual dan analitik listing produk e-commerce.</figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ published: 2026-11-16
 updated: 2026-11-16
 readingTime: "~8 Menit"
 image: "/images/blog/kegiatan-pkl-jurusan-grafika.webp"
-imageAlt: "Siswa jurusan Grafika mempelajari proses produksi percetakan selama PKL di studio workshop"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas siswa SMK Teknik Grafika dalam memverifikasi file pracetak dan mengoperasikan mesin cetak industri."
 faq:
   - q: "Apakah anak Grafika harus bisa mengoperasikan mesin cetak saat PKL?"
@@ -27,14 +27,6 @@ faq:
 
 Kegiatan PKL jurusan Grafika meliputi tahapan komprehensif mulai dari pembedahan *design brief*, persiapan file pracetak (*pre-press*), pengoperasian mesin cetak digital dan sablon sublimasi, pembuatan struktur kemasan pada [divisi packaging](/divisi/packaging/), hingga inspeksi kontrol kualitas (*quality control*). Melalui bimbingan intensif pada program kejuruan [PKL jurusan Teknik Grafika](/jurusan/teknik-grafika/), siswa mendapatkan keterampilan industri yang aplikatif dan terstandar.
 
-## Ringkasan Inti
-
-- Siswa Grafika diajak memahami alur produksi utuh dari sketsa konsep hingga barang jadi siap kirim.
-- Ketelitian dalam setting warna CMYK, resolusi gambar (300 DPI), dan penambahan garis *bleed* menjadi kompetensi wajib.
-- Keterlibatan di divisi kemasan memberikan keahlian menyusun *dieline packaging* yang presisi.
-- Praktik di workshop mengedepankan kepatuhan SOP keselamatan kerja dan efisiensi material.
-- Pengalaman nyata ini menjadi bekal portofolio kuat untuk meraih peluang karir setelah lulus SMK.
-
 ## Apa Saja Kegiatan PKL Jurusan Grafika?
 
 Kegiatan PKL jurusan Grafika merupakan aktivitas pembelajaran industri yang berfokus pada rekayasa komunikasi visual cetak. Di lingkungan kerja nyata seperti CV Saudagar Kaya Abadi, desain grafis tidak berhenti di layar monitor, melainkan diwujudkan menjadi aneka ragam produk fisik bernilai jual tinggi.
@@ -42,7 +34,7 @@ Kegiatan PKL jurusan Grafika merupakan aktivitas pembelajaran industri yang berf
 Di beranda [PKL di Saka](/), siswa vokasi diarahkan untuk terlibat langsung dalam ritme kerja profesional bersama tim grafika, tim packaging, dan divisi quality control.
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/grafika-prepress-color.webp" alt="Persiapan desain dan file sebelum proses pencetakan di workstation industri" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/grafika-prepress-color.webp" alt="Siswa mengerjakan proyek desain grafis di komputer" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Pemeriksaan kesesuaian profil warna cetak CMYK dan penataan layout lembaran cetak oleh siswa SMK Teknik Grafika.
   </figcaption>
@@ -82,7 +74,7 @@ Di bawah pengawasan mentor, siswa berkesempatan mengamati dan mempraktikkan pros
 - Pemuatan media cetak (*paper loading*) agar tidak terjadi kemacetan (*paper jam*).
 
 <figure class="my-8 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Siswa SMK Grafika merakit mockup kemasan box packaging karton" class="w-full h-auto object-cover" loading="lazy" />
+  <img src="/images/blog/packaging-mockup-grafika.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="w-full h-auto object-cover" loading="lazy" />
   <figcaption class="p-3 text-center text-xs text-slate-500 bg-slate-50 border-t border-slate-100">
     Perakitan dan uji coba kekuatan struktur mockup folding box kemasan souvenir di workshop packaging Saka Malang.
   </figcaption>

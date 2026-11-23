@@ -10,7 +10,7 @@ published: 2026-11-21
 updated: 2026-11-21
 readingTime: "~8 Menit"
 image: "/images/blog/tempat-pkl-jurusan-rpl.webp"
-imageAlt: "Siswa jurusan RPL melaksanakan praktik kerja lapangan di perusahaan teknologi"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Aktivitas siswa SMK jurusan RPL menjalani praktik kerja industri dengan arahan mentor profesional."
 keywords:
   - "jurusan RPL PKL di mana"

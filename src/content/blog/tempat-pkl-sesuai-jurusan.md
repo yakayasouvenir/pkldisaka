@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tempat PKL Sesuai Jurusan SMK untuk Memulai Karier Profesional"
 description: "Panduan memilih tempat PKL sesuai jurusan SMK. Pelajari kriteria divisi TKJ, RPL, DKV, Bisnis Digital, dan strategi mendapatkan pengalaman kerja relevan."
 answer: "Tempat PKL sesuai jurusan adalah lingkungan industri yang menyediakan fasilitas penugasan teknis selaras dengan kurikulum kejuruan siswa (seperti jaringan untuk TKJ, koding untuk RPL, atau desain visual untuk DKV). PKL DISAKA di Malang menyediakan penempatan divisi magang terstruktur yang disesuaikan dengan jurusan masing-masing siswa."
@@ -10,7 +10,7 @@ published: 2026-11-12
 updated: 2026-11-12
 readingTime: "~6 Menit"
 image: "/images/21.webp"
-imageAlt: "Siswa SMK kejuruan teknologi dan jaringan sedang memprogram dan menguji sistem di workstation studio"
+imageAlt: "Siswa praktik perakitan dan konfigurasi komputer"
 imageCaption: "Pembagian penugasan proyek industri yang disesuaikan secara terarah dengan kompetensi keahlian kejuruan siswa."
 keywords:
   - "tempat pkl sesuai jurusan"
@@ -52,7 +52,7 @@ Informasi ini berkaitan erat dengan panduan utama [tempat PKL terdekat](/tempat-
 <figure class="my-4 text-center">
   <img
     src="/images/10.webp"
-    alt="Fasilitas ruang kerja studio dan workstation komputer penunjang praktik kerja siswa kejuruan"
+    alt="Siswa praktik perakitan dan konfigurasi komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -106,7 +106,7 @@ Prinsip relevansi kompetensi yang sama wajib diterapkan pada seluruh konsentrasi
 <figure class="my-4 text-center">
   <img
     src="/images/12.webp"
-    alt="Siswa kejuruan DKV merancang identitas visual merek dan materi promosi kreatif di laptop"
+    alt="Siswa mengerjakan tugas pemrograman di laptop"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"

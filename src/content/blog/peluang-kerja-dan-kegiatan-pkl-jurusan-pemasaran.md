@@ -10,7 +10,7 @@ published: 2026-11-18
 updated: 2026-11-18
 readingTime: "~8 Menit"
 image: "/images/blog/peluang-kerja-dan-kegiatan-pkl-jurusan-pemasaran.webp"
-imageAlt: "Peluang Kerja dan Kegiatan PKL untuk Siswa Jurusan Pemasaran di Era Digital"
+imageAlt: "Aktivitas siswa selama kegiatan praktik kerja"
 imageCaption: "Eksplorasi pembuatan konten visual promosi dan pengelolaan etalase marketplace siswa SMK Pemasaran."
 faq:
   - q: "Apa saja kegiatan siswa SMK jurusan pemasaran saat PKL?"
@@ -64,7 +64,7 @@ Pengalaman kerja nyata yang diperoleh selama masa PKL membentuk fondasi portofol
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/kegiatan-praktik-sales-marketing.webp" alt="Siswa SMK merancang display katalog promosi produk dan suvenir" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/kegiatan-praktik-sales-marketing.webp" alt="Aktivitas siswa selama kegiatan praktik kerja" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Simulasi penataan etalase dan penetapan nilai jual produk komersial siap jual.</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Di Kota Malang, siswa SMK jurusan Pemasaran dapat mengembangkan kompetensi indus
 
 
 <figure class="my-4 text-center">
-  <img src="/images/blog/eksplorasi-karier-marketing-digital.webp" alt="Sesi evaluasi strategi kampanye digital bersama mentor lapangan" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
+  <img src="/images/blog/eksplorasi-karier-marketing-digital.webp" alt="Siswa berdiskusi dengan mentor pembimbing" class="img-fluid rounded-4 shadow-sm w-100" loading="lazy" />
   <figcaption class="small text-muted mt-2 fst-italic">Penguasaan keterampilan komunikasi bisnis dan tools digital sebagai bekal karier profesional.</figcaption>
 </figure>
 
