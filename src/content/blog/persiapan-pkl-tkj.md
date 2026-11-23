@@ -26,13 +26,6 @@ Menjalani masa Praktik Kerja Lapangan (PKL) membutuhkan persiapan yang matang ag
 
 Bagi Anda yang berdomisili di wilayah Jawa Timur dan ingin mendapatkan lingkungan kerja yang kondusif, kunjungi [PKL di Saka](/) sebagai referensi pembinaan vokasi terpercaya di Kota Malang. Pastikan pula Anda mencocokkan silabus sekolah dengan kurikulum industri pada direktori [PKL jurusan TKJ](/jurusan/tkj/) sebelum mengajukan berkas resmi.
 
-## Ringkasan Inti Persiapan Magang TKJ
-
-- Persiapan PKL TKJ dimulai dengan memahami ketentuan sekolah dan menentukan bidang pekerjaan yang sesuai.
-- Siswa perlu menyiapkan surat pengantar, identitas, CV, dan portofolio jika tersedia.
-- Materi komputer, jaringan, sistem operasi, dan troubleshooting dasar sebaiknya dipelajari kembali.
-- Sikap disiplin, komunikasi, tanggung jawab, dan kemauan belajar sama pentingnya dengan keterampilan teknis.
-- Sebelum mulai PKL, siswa perlu memastikan jadwal, lokasi, pembimbing, tugas, dan aturan tempat praktik.
 
 ## Apa Saja Persiapan PKL TKJ Sebelum Memulai Magang?
 

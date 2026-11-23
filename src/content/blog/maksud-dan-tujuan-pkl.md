@@ -45,13 +45,6 @@ Bagi peserta didik vokasi dan mahasiswa yang ingin merasakan atmosfer kerja indu
   <figcaption class="text-center text-muted small mt-2">Siswa dan mahasiswa mengikuti bimbingan Praktik Kerja Lapangan di lingkungan industri profesional.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- PKL merupakan kegiatan pembelajaran berbasis kerja di lingkungan industri atau dunia usaha.
-- Tujuan PKL adalah menghubungkan teori akademis dengan praktik pekerjaan secara langsung.
-- PKL membantu meningkatkan hard skills, soft skills, kedisiplinan, dan tanggung jawab.
-- Sekolah dan industri bekerja sama untuk membentuk peserta didik yang kompeten dan siap kerja.
-- Pelaksanaan PKL mencakup perencanaan, pelaksanaan, penilaian, serta monitoring dan evaluasi.
 
 ## Apa yang Dimaksud dengan PKL?
 

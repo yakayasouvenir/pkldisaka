@@ -37,12 +37,6 @@ Kondisi tersebut sering menimbulkan pertanyaan: apakah siswa RPL tetap bisa mend
 
 Jawabannya adalah **sangat bisa**. Di era transformasi digital saat ini, hampir setiap instansi membutuhkan tenaga yang mengerti pengelolaan website, sistem informasi, dan tata kelola data. Melalui bimbingan industri di [CV Saudagar Kaya Abadi](https://www.pkldisaka.id/), siswa diarahkan untuk mengaplikasikan wawasan teknisnya pada penataan operasional digital perkantoran yang rapi dan profesional.
 
-## Ringkasan Inti
-
-- Kantor non-IT tetap memiliki kebutuhan pengelolaan website dan sistem informasi internal.
-- Tugas di kantor mencakup pengelolaan CMS, pengujian sistem, rekapitulasi basis data, dan dokumentasi.
-- Siswa memperoleh wawasan etika perkantoran dan tata kelola data operasional.
-- Penting untuk memastikan tugas harian tetap terhubung dengan kompetensi keahlian kejuruan.
 
 ## Kegiatan Utama Siswa RPL di Kantor Non-IT
 

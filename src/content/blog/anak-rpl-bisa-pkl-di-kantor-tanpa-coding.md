@@ -44,13 +44,6 @@ Bagi Anda yang berdomisili di Malang, program penempatan terarah di [PKL di Saka
   <figcaption class="text-center text-muted small mt-2">Siswa jurusan RPL mengoperasikan komputer kantor untuk manajemen data dan penugasan digital.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Lingkungan perkantoran modern sangat membutuhkan keahlian komputer yang dipelajari siswa RPL.
-- Pekerjaan kantor tidak selalu membutuhkan kemampuan coding atau pembuatan software.
-- Administrasi digital, pengolahan spreadsheet, dan pengelolaan arsip menjadi opsi favorit.
-- Pengalaman kerja di kantor melatih etos profesional, kedisiplinan, dan komunikasi tim.
-- Ulasan lengkap mengenai pilihan tempat magang ini dapat disimak pada artikel induk [tidak bisa ngoding bisa PKL di mana](/blog/tidak-bisa-ngoding-bisa-pkl-di-mana).
 
 ## Mengapa Kantor Membutuhkan Siswa RPL?
 

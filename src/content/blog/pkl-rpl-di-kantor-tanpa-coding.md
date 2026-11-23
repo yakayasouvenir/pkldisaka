@@ -33,13 +33,6 @@ Siswa RPL dapat PKL di kantor tanpa menjadi programmer apabila perusahaan menyed
 
 Banyak siswa SMK kejuruan teknologi yang merasa cemas saat menjelang masa magang karena merasa belum menguasai bahasa pemrograman secara mahir. Di lingkungan kerja [program PKL industri Saka Malang](https://www.pkldisaka.id/), kurikulum magang dirancang adaptif sehingga siswa tetap dapat mengasah potensi digitalnya melalui peran operasional teknologi yang nyata dan terarah.
 
-## Ringkasan Inti
-
-- Siswa RPL tidak wajib selalu mengerjakan coding selama PKL.
-- Perusahaan perkantoran dapat menyediakan pekerjaan yang berhubungan dengan teknologi informasi.
-- Administrasi IT, pengelolaan data, troubleshooting, dan pengujian aplikasi merupakan pilihan kegiatan yang dapat dipertimbangkan.
-- Siswa tetap harus mendapatkan pekerjaan yang sesuai dengan kompetensi dan ketentuan sekolah.
-- Pemilihan tempat PKL perlu mempertimbangkan pembimbing, fasilitas, dan jenis pekerjaan.
 
 ## Apakah Anak RPL Bisa PKL di Kantor Biasa?
 

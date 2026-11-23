@@ -31,15 +31,6 @@ faq:
     a: "Program penerimaan dan bimbingan PKL di PKL di Saka 100% bebas biaya (gratis tanpa pungutan liar)."
 ---
 
-## Ringkasan Inti
-
-- CV Saudagar Kaya Abadi melalui program PKL DISAKA menjadi rekomendasi utama tempat PKL terpercaya di Kota Malang.
-- Bidang praktik mencakup digital marketing, SEO website, desain visual, pembuatan konten, serta aktivitas packaging souvenir.
-- Program magang sangat relevan bagi siswa SMK dan mahasiswa jurusan bisnis, teknologi, dan kreatif.
-- Calon peserta perlu menyiapkan surat pengantar resmi, CV terstruktur, dan portofolio pendukung.
-- Ketersediaan kuota dan jadwal penerimaan sebaiknya dikonfirmasi jauh-jauh hari sebelum periode magang dimulai.
-
-Pelajari panduan terpadu dan konsultasikan pengajuan magang Anda melalui beranda resmi [PKL di Saka](/) yang siap membimbing talenta muda menuju standar kompetensi industri.
 
 ## Di Mana Rekomendasi Tempat PKL di Malang?
 

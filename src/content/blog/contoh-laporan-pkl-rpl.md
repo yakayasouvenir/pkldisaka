@@ -35,13 +35,6 @@ Menyusun **laporan PKL RPL** merupakan tahapan akhir yang sangat menentukan kelu
 
 Bagi Anda yang menjalani program praktik kerja industri di agensi digital seperti CV Saudagar Kaya Abadi di Malang, proses penulisan laporan akan jauh lebih mudah karena setiap penugasan terstruktur dengan jelas. Anda dapat melihat ekosistem bimbingan vokasi di [PKL di Saka](/) serta menyelaraskan materi laporan Anda dengan kurikulum standar pada [PKL jurusan RPL](/jurusan/rpl/).
 
-## Ringkasan Inti Format Laporan PKL RPL
-
-- Laporan PKL berfungsi sebagai rekam jejak resmi kompetensi kejuruan siswa di hadapan pihak sekolah dan dunia industri.
-- Struktur baku laporan terdiri dari Bagian Awal (sampul, pengesahan), Bagian Inti (Pendahuluan, Profil Perusahaan, Pelaksanaan Tugas, Hasil dan Pembahasan), dan Bagian Penutup (Kesimpulan, Saran, Lampiran).
-- Uraian bab pembahasan wajib difokuskan pada proyek nyata yang dikerjakan sendiri, seperti slicing landing page, konfigurasi kode semantik HTML/CSS, atau pengujian fungsional web.
-- Jurnal harian dan dokumentasi foto kegiatan menjadi bukti autentik yang memperkuat orisinalitas laporan.
-- Kepatuhan terhadap format tata letak (*margin*, *font*, *spasi*) sesuai buku pedoman resmi sekolah wajib diperiksa sebelum dijilid.
 
 <figure class="my-4 text-center">
   <img

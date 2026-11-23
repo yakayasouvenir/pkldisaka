@@ -35,13 +35,6 @@ Tugas PKL jurusan RPL meliputi pengembangan website, pengelolaan basis data, pen
 
 Memahami apa yang akan dikerjakan selama masa magang membantu siswa mempersiapkan mental dan keterampilan secara matang. Di [program magang vokasi Saka Malang](https://www.pkldisaka.id/), setiap peserta diberikan kurikulum tugas yang berjenjang, dimulai dari pengenalan alur kerja industri hingga pengerjaan portofolio mandiri.
 
-## Ringkasan Inti
-
-- Siswa RPL dapat mengerjakan berbagai aktivitas teknologi selama PKL.
-- Kegiatan PKL tidak selalu mengharuskan peserta membuat program dari awal.
-- Tugas dapat mencakup Front-End, Back-End, UI/UX, QA, CMS, dan IT Support.
-- Pekerjaan peserta biasanya disesuaikan dengan kemampuan dan arahan pembimbing.
-- Dokumentasi kegiatan penting untuk evaluasi dan penyusunan laporan PKL.
 
 ## Apa Saja Tugas Utama Siswa RPL Saat PKL?
 

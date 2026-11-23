@@ -35,12 +35,6 @@ Salah satu kekhawatiran terbesar siswa RPL sebelum menjalani PKL adalah kemampua
 
 Kekhawatiran tersebut sangat wajar, terutama bagi siswa yang masih menyesuaikan diri dengan sintaks bahasa pemrograman di sekolah. Di lingkungan pembinaan [CV Saudagar Kaya Abadi](https://www.pkldisaka.id/), kurikulum magang disusun adaptif sehingga siswa pemula sekalipun dapat berkembang melalui pendampingan mentor praktisi yang sabar dan terarah.
 
-## Ringkasan Inti
-
-- Siswa RPL tidak wajib langsung menjadi programmer handal saat memulai PKL.
-- Pemahaman dasar HTML, CSS, dan logika database menjadi nilai tambah yang sangat membantu.
-- Tersedia beragam peran yang tidak memerlukan penulisan kode rumit, seperti QA manual dan operator CMS.
-- Sikap disiplin, kemauan belajar, dan keberanian bertanya jauh lebih diutamakan oleh pihak industri.
 
 ## Apakah Anak RPL Saat PKL Harus Bisa Coding?
 

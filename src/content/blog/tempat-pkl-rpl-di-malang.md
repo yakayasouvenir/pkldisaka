@@ -37,13 +37,6 @@ Menemukan **tempat PKL RPL di Malang** yang tepat merupakan langkah penting bagi
 
 Bagi Anda yang tengah mencari program magang berkualitas dengan bimbingan praktisi profesional, Anda dapat mempelajari ekosistem vokasi di [PKL di Saka](/) yang telah dipercaya mendampingi puluhan angkatan siswa kejuruan di Malang. Secara khusus, program ini dirancang untuk memperkuat kompetensi teknis pada [PKL jurusan RPL](/jurusan/rpl/) agar setiap siswa memiliki portofolio proyek riil berstandar industri.
 
-## Ringkasan Inti Panduan PKL RPL
-
-- Siswa RPL sebaiknya memilih tempat magang yang memiliki aktivitas nyata sesuai kompetensi perangkat lunak, web, dan sistem informasi.
-- Kegiatan PKL mencakup pembuatan landing page, slicing layout antarmuka (UI), pengujian responsivitas, integrasi CMS, serta dokumentasi teknis.
-- **CV Saudagar Kaya Abadi** menjadi salah satu referensi tempat PKL di kawasan Kedungkandang Malang yang memiliki portofolio aktif di bidang website dan strategi digital terintegrasi.
-- Calon peserta wajib mengonfirmasi ketersediaan kuota, jadwal kalender magang, pembimbing lapangan, serta keselarasan kurikulum sekolah sebelum mengirimkan berkas pengajuan.
-- Persiapan portofolio sederhana berbasis HTML, CSS, dan logika dasar algoritma akan meningkatkan peluang diterima di unit kerja digital.
 
 ## Apa Itu PKL untuk Jurusan RPL dan Mengapa Sangat Krusial?
 

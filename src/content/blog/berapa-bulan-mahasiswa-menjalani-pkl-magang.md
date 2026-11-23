@@ -42,13 +42,6 @@ Memahami durasi magang sangat penting agar mahasiswa dapat merencanakan pembagia
   <figcaption class="text-center text-muted small mt-2">Mahasiswa menjalani kegiatan PKL di lingkungan perusahaan profesional guna memenuhi bobot SKS praktik.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Durasi PKL mahasiswa bergantung pada kebijakan perguruan tinggi dan program studi.
-- PKL reguler umumnya berlangsung selama 1 hingga 3 bulan.
-- Program magang satu semester dapat berlangsung sekitar 4 hingga 6 bulan.
-- Jumlah SKS dan jam praktik memengaruhi kebutuhan waktu pelaksanaan.
-- Mahasiswa perlu memeriksa pedoman akademik sebelum menentukan jadwal magang.
 
 ## Durasi PKL Mahasiswa Secara Umum
 

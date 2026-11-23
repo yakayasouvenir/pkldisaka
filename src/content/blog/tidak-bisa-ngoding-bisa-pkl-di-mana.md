@@ -42,13 +42,6 @@ Di Kota Malang, siswa dapat memilih lingkungan kerja yang adaptif dan suportif s
   <figcaption class="text-center text-muted small mt-2">Siswa RPL menjalani aktivitas praktik kerja di lingkungan perkantoran modern Kota Malang.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Siswa RPL tidak harus selalu menjalankan tugas pemrograman rumit selama masa PKL.
-- Banyak pekerjaan pendukung teknologi yang dapat dipelajari tanpa kemampuan coding tingkat lanjut.
-- Tempat PKL dapat mencakup kantor swasta, instansi kedinasan, software house, dan agensi digital.
-- Keterampilan non-teknis seperti komunikasi, ketelitian data, dan pemecahan masalah sangat bernilai.
-- Pemilihan tempat PKL harus disesuaikan dengan kemampuan saat ini dan persetujuan pihak sekolah.
 
 ## Mengapa Siswa RPL yang Tidak Bisa Coding Tetap Bisa PKL?
 

@@ -29,15 +29,6 @@ faq:
     a: "Sebagian besar kegiatan berlangsung di dalam studio/kantor, namun peserta divisi video atau pemasaran dapat dilibatkan dalam sesi dokumentasi liputan dan pameran berkala."
 ---
 
-## Ringkasan Inti
-
-- Kegiatan PKL di Malang dirancang aplikatif untuk menghubungkan materi sekolah dengan kebutuhan dunia kerja nyata.
-- Peserta mempelajari keterampilan teknis modern seperti penulisan artikel SEO, pengelolaan website, dan desain visual.
-- CV Saudagar Kaya Abadi (PKL DISAKA) memberikan modul penugasan berbasis proyek komersial aktif.
-- Seluruh pengalaman kerja didokumentasikan dalam jurnal resmi untuk mempermudah penyusunan laporan akhir sekolah.
-- Kedisiplinan, etika komunikasi, dan kerja sama tim menjadi poin utama evaluasi pembimbing industri.
-
-Pelajari alur bimbingan resmi dan daftarkan diri Anda di portal terpadu [PKL di Saka](/) Malang.
 
 ## Ragam Kegiatan PKL di Malang
 

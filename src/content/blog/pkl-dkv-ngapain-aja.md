@@ -39,13 +39,6 @@ PKL DKV ngapain aja? Siswa Desain Komunikasi Visual biasanya mengerjakan desain 
 
 Bagi Anda yang sedang merencanakan magang kejuruan desain, menemukan studio yang tepat adalah langkah terpenting. Di [PKL Di Saka Malang](https://www.pkldisaka.id/) yang dikelola oleh **CV Saudagar Kaya Abadi**, siswa SMK DKV mendapatkan pendampingan intensif dari praktisi dalam menggarap aset visual komersial, promosi media sosial, hingga tata letak percetakan profesional.
 
-## Ringkasan Inti
-
-- Siswa DKV mengerjakan berbagai proyek desain sesuai kebutuhan perusahaan.
-- Kegiatan PKL meliputi desain grafis, fotografi, editing, dan produksi konten.
-- Siswa belajar menggunakan software desain yang diterapkan di industri.
-- Proses kerja melibatkan brief, riset, pembuatan desain, revisi, dan finalisasi.
-- PKL membantu membangun portofolio, keterampilan komunikasi, dan pengalaman profesional.
 
 ## Apa Itu PKL DKV dan Mengapa Penting bagi Siswa?
 

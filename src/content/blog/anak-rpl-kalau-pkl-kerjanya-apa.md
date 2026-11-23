@@ -37,13 +37,6 @@ Jurusan RPL yang kini juga dikenal dengan nama PPLG (Pengembangan Perangkat Luna
 
 Di [PKL Di Saka Malang](https://www.pkldisaka.id/) yang diselenggarakan oleh **CV Saudagar Kaya Abadi**, siswa SMK jurusan RPL dibimbing langsung oleh tim pengembang dalam memahami ekosistem teknologi nyata, mulai dari slicing desain antarmuka, optimasi CMS, hingga pengujian sistem secara terstruktur.
 
-## Ringkasan Inti
-
-- Siswa RPL mengerjakan berbagai tugas teknologi informasi sesuai kebutuhan industri.
-- Pekerjaan mencakup pembuatan website, pengembangan fitur, basis data, dan testing aplikasi.
-- Siswa tidak harus langsung menjadi programmer ahli; terdapat peran pendukung seperti QA manual dan desain UI/UX.
-- Alur kerja di software house berbeda dengan tugas di perkantoran umum maupun lembaga sekolah.
-- Kesiapan portofolio dan pemahaman dasar mempermudah adaptasi di lingkungan industri.
 
 ## Apa Saja Pekerjaan Anak RPL Saat PKL?
 

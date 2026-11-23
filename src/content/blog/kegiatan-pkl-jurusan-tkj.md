@@ -26,13 +26,6 @@ Kegiatan Praktik Kerja Lapangan (PKL) bagi siswa SMK jurusan Teknik Komputer dan
 
 Untuk mengetahui standar pembinaan dan program magang vokasi yang disesuaikan dengan kebutuhan industri terkini di Kota Malang, siswa dapat menelusuri informasi lengkap melalui [PKL di Saka](/) serta membaca silabus kompetensi pada halaman [PKL jurusan TKJ](/jurusan/tkj/).
 
-## Ringkasan Inti Aktivitas Magang TKJ
-
-- Kegiatan PKL TKJ bergantung pada bidang usaha dan kebutuhan tempat praktik.
-- Siswa dapat mengenal perawatan komputer, jaringan dasar, troubleshooting, serta dokumentasi pekerjaan.
-- Lingkungan kerja digital juga dapat memberikan pengalaman mengelola website, menulis artikel, dan melakukan riset kata kunci.
-- Siswa perlu mengikuti arahan pembimbing dan tidak melakukan perubahan pada perangkat atau sistem tanpa izin.
-- Hasil kegiatan sebaiknya dicatat sebagai bahan laporan dan evaluasi PKL.
 
 ## Apa Saja Kegiatan PKL Jurusan TKJ?
 

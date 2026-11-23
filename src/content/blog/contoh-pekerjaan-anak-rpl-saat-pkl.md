@@ -35,12 +35,6 @@ Menjalani PKL di perusahaan IT menjadi kesempatan bagi siswa RPL untuk mengenal 
 
 Bagi Anda yang ingin mengasah keterampilan rekayasa perangkat lunak secara langsung, [program PKL industri CV Saudagar Kaya Abadi](https://www.pkldisaka.id/) di Kota Malang menyediakan ekosistem pendampingan harian oleh praktisi profesional agar siswa memiliki portofolio proyek yang dapat diandalkan.
 
-## Ringkasan Inti
-
-- Pekerjaan di perusahaan IT bervariasi dari front-end, back-end, hingga quality assurance.
-- Siswa tidak dituntut langsung menguasai seluruh stack pemrograman.
-- Tugas diberikan secara bertahap sesuai kemampuan dan arahan mentor pembimbing.
-- Disiplin mencatat tugas mempermudah penyusunan laporan pertanggungjawaban sekolah.
 
 ## 10 Contoh Pekerjaan Anak RPL Saat PKL di Perusahaan IT
 

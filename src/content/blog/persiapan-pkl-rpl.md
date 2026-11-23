@@ -25,15 +25,6 @@ faq:
     a: "Keduanya umum digunakan dalam proses pendaftaran PKL. Namun, ketentuan akhir tetap mengikuti permintaan perusahaan dan kebijakan sekolah."
 ---
 
-## Ringkasan Inti
-
-- Siswa RPL perlu memahami fondasi dasar pemrograman sebelum memasuki tempat magang.
-- HTML, CSS, JavaScript, dan konsep basis data merupakan kemampuan teknis yang sangat relevan.
-- Portofolio proyek menjadi bukti konkret atas kemampuan teknis calon peserta magang.
-- Kelengkapan berkas administrasi seperti CV dan surat pengantar sekolah wajib disiapkan rapi.
-- Kedisiplinan waktu, komunikasi santun, dan kemauan belajar menjadi kunci keberhasilan di industri.
-
-Simak rincian aktivitas dan peran kerja harian di artikel [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) serta bergabunglah bersama program bimbingan vokasi terpercaya di [PKL di Saka](/) untuk mempraktikkan kemampuan koding secara nyata.
 
 ## Apa Saja yang Harus Dipersiapkan Sebelum PKL RPL?
 

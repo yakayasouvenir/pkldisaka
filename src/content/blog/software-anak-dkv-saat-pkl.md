@@ -35,13 +35,6 @@ Software anak DKV saat PKL umumnya mencakup Adobe Photoshop, Adobe Illustrator, 
 
 Menguasai software yang relevan dengan kebutuhan industri akan mempercepat proses adaptasi Anda di tempat magang. Di studio kreatif [CV Saudagar Kaya Abadi](https://www.pkldisaka.id/), peserta magang diperkenalkan dengan alur kerja software grafis modern serta pembiasaan manajemen layer dan file master yang rapi.
 
-## Ringkasan Inti
-
-- Setiap software desain memiliki fungsi yang berbeda.
-- Photoshop digunakan untuk mengolah dan memanipulasi gambar.
-- Illustrator dan CorelDRAW digunakan untuk desain berbasis vektor.
-- Canva membantu membuat materi visual dengan cepat.
-- Figma digunakan untuk merancang antarmuka aplikasi dan website.
 
 ## Mengapa Siswa DKV Perlu Menguasai Software Desain?
 

@@ -26,13 +26,6 @@ Memilih tempat Praktik Kerja Lapangan (PKL) bukan sekadar mencari lokasi yang be
 
 Untuk memperoleh mitra industri yang transparan, bebas biaya pendaftaran, dan memiliki modul pembinaan terstruktur di Kota Malang, siswa dapat mengeksplorasi layanan resmi di [PKL di Saka](/). Anda juga dapat meninjau rincian penugasan divisi pada halaman [PKL jurusan TKJ](/jurusan/tkj/) agar topik magang selaras dengan rencana karier Anda.
 
-## Ringkasan Inti Pemilihan Tempat PKL TKJ
-
-- Tempat PKL TKJ harus memiliki kegiatan yang relevan dengan kompetensi atau tujuan pembelajaran siswa.
-- Kesesuaian pekerjaan lebih penting daripada sekadar popularitas atau kedekatan lokasi kantor.
-- Pembimbing, fasilitas kerja, jadwal, dan aturan kerja perlu ditanyakan secara detail sebelum mendaftar.
-- CV Saudagar Kaya Abadi dapat dihubungi untuk menanyakan kemungkinan kegiatan PKL yang berkaitan dengan website dan pekerjaan digital.
-- Siswa perlu memastikan pilihan tempat PKL telah disetujui secara tertulis oleh pihak sekolah.
 
 ## Bagaimana Cara Memilih Tempat PKL TKJ yang Tepat?
 

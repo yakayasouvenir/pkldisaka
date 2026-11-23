@@ -35,13 +35,6 @@ Tugas anak DKV saat PKL umumnya meliputi pembuatan desain poster, banner, brosur
 
 Banyak siswa SMK yang bertanya-tanya apa saja rincian tugas yang akan dihadapi saat memasuki studio kerja. Di lingkungan [CV Saudagar Kaya Abadi Malang](https://www.pkldisaka.id/), peserta magang diberikan tugas bertingkat mulai dari adaptasi template branding hingga eksplorasi ide kreatif mandiri.
 
-## Ringkasan Inti
-
-- Tugas siswa DKV menyesuaikan bidang usaha tempat PKL.
-- Pekerjaan dapat berupa desain digital maupun media cetak.
-- Siswa belajar mengerjakan desain berdasarkan brief.
-- Software desain digunakan sesuai kebutuhan proyek.
-- Setiap tugas membantu mengembangkan kreativitas dan keterampilan profesional.
 
 ## Mengapa Tugas PKL DKV Berbeda di Setiap Perusahaan?
 

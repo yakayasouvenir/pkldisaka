@@ -43,13 +43,6 @@ Di era regulasi pendidikan kejuruan saat ini, pelaksanaan Praktik Kerja Lapangan
   <figcaption class="text-muted small mt-2">Siswa SMK memeriksa target mingguan dan agenda penugasan kerja pada jadwal bimbingan industri Malang.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Durasi pelaksanaan PKL SMK dalam Kurikulum Merdeka secara resmi dialokasikan selama 6 bulan (satu semester).
-- Beberapa sekolah menerapkan skema fleksibel 3 hingga 6 bulan sesuai kesiapan kurikulum jurusan dan mitra industri.
-- PKL SMK umumnya ditempatkan pada semester 5 atau 6 di kelas XII, atau semester 4 di kelas XI untuk program 3 tahun.
-- Peserta wajib mematuhi jam kerja industri (Senin - Jumat, pukul 08.00 - 16.00 WIB) dan mengisi jurnal kegiatan harian.
-- Bagi mahasiswa universitas atau politeknik, aturan durasi diatur tersendiri dalam pedoman [berapa lama waktu PKL kuliah dan kapan dilaksanakan](/blog/berapa-lama-waktu-pkl-kuliah).
 
 ## Regulasi Durasi PKL SMK di Era Kurikulum Merdeka
 

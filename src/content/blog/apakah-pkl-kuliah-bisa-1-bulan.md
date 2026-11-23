@@ -42,13 +42,6 @@ Bagi mahasiswa yang mengambil masa libur semester pendek, memilih tempat magang 
   <figcaption class="text-center text-muted small mt-2">Mahasiswa mengikuti kegiatan Praktik Kerja Lapangan intensif selama satu bulan di lingkungan kantor.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- PKL satu bulan memungkinkan apabila sesuai dengan pedoman program studi.
-- Jumlah hari kerja dan jam praktik harus memenuhi ketentuan kampus.
-- Perusahaan penerima harus bersedia menerima mahasiswa sesuai periode yang diajukan.
-- Mahasiswa wajib menyelesaikan kegiatan, administrasi, dan laporan PKL.
-- Persetujuan dosen atau koordinator PKL penting sebelum kegiatan dimulai.
 
 ## Syarat Utama PKL Kuliah 1 Bulan Diakui Kampus
 

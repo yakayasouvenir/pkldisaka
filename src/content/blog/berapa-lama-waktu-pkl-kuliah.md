@@ -42,13 +42,6 @@ Bagi mahasiswa yang ingin merasakan atmosfer kerja profesional di Kota Malang, m
   <figcaption class="text-center text-muted small mt-2">Mahasiswa sedang menjalani praktik kerja lapangan di perusahaan profesional untuk mengaplikasikan ilmu perkuliahan.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- PKL kuliah umumnya dilaksanakan selama 1 hingga 3 bulan pada skema praktik reguler.
-- Program magang terstruktur dapat berlangsung selama satu semester atau sekitar 4 hingga 6 bulan.
-- PKL biasanya dilaksanakan ketika mahasiswa sudah memenuhi persyaratan akademik program studi.
-- Waktu pelaksanaan dapat berada pada semester berjalan atau masa libur perkuliahan.
-- Durasi PKL dipengaruhi oleh jumlah SKS, program studi, kebijakan kampus, dan ketentuan tempat magang.
 
 ## Apa Itu PKL Kuliah?
 

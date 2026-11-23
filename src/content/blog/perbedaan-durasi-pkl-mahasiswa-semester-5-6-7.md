@@ -42,13 +42,6 @@ Secara mendasar, durasi PKL tidak otomatis berbeda hanya karena angka semester, 
   <figcaption class="text-center text-muted small mt-2">Mahasiswa dari berbagai semester mengikuti kegiatan Praktik Kerja Lapangan dengan bimbingan mentor industri.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Mahasiswa semester 5 dapat mulai PKL apabila sudah memenuhi persyaratan program studi.
-- Semester 6 sering menjadi periode pelaksanaan praktik pada sejumlah program Sarjana.
-- Semester 7 dapat digunakan untuk PKL atau magang sesuai kurikulum kampus.
-- Durasi PKL tidak otomatis berbeda hanya karena mahasiswa berada di semester tertentu.
-- Persiapan administrasi dan pemilihan tempat praktik sebaiknya dilakukan lebih awal.
 
 ## Karakteristik PKL Berdasarkan Tingkatan Semester
 

@@ -42,13 +42,6 @@ Di lingkungan kantor digital modern seperti di [PKL di Saka](/) Malang, siswa RP
   <figcaption class="text-center text-muted small mt-2">Siswa RPL mengerjakan penugasan administrasi data dan pengujian sistem digital di ruang kerja kantor.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Siswa RPL memiliki banyak pilihan peran industri selain menjadi programmer.
-- Administrasi digital, pengolahan spreadsheet, dan input data cocok bagi pemula.
-- Manual Quality Assurance memberikan wawasan berharga mengenai standar mutu software.
-- Pengelolaan website dapat dijalankan melalui platform Content Management System (CMS).
-- Keterampilan non-coding ini diulas lengkap dalam artikel pilar [tidak bisa ngoding bisa PKL di mana](/blog/tidak-bisa-ngoding-bisa-pkl-di-mana).
 
 ## 7 Pekerjaan PKL RPL Tanpa Mengharuskan Coding
 

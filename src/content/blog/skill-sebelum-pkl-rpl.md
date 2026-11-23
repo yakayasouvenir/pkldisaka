@@ -37,13 +37,6 @@ Kenyataannya, perusahaan tempat PKL tidak menuntut siswa menjadi programmer prof
 
 Untuk memastikan kesiapan diri Anda, Anda dapat mempelajari standar kriteria industri melalui [PKL di Saka](/) yang telah memfasilitasi ratusan siswa SMK vokasi. Di samping itu, pelajari secara mendalam silabus keahlian yang disyaratkan pada [PKL jurusan RPL](/jurusan/rpl/) agar persiapan belajar Anda lebih terarah.
 
-## Ringkasan Inti Kesiapan Skill RPL
-
-- Pondasi logika algoritma membantu siswa mencerna instruksi teknis dan alur penyelesaian masalah secara terstruktur.
-- Penguasaan HTML5 semantik dan CSS Flexbox/Grid menjadi modal paling praktis dan langsung terpakai pada proyek web industri.
-- Pengenalan dasar Git dan sistem editor kode mempercepat adaptasi dengan standar kerja tim developer.
-- Keterampilan non-teknis (*soft skills*) seperti etika komunikasi, ketepatan waktu, dan kerapian mencatat jurnal kerja menentukan penilaian akhir magang.
-- Portofolio mini proyek web sederhana sangat efektif untuk menunjukkan kesungguhan dan potensi diri kepada calon mentor industri.
 
 ## 5 Skill Teknis Kunci yang Wajib Dipersiapkan Siswa RPL
 

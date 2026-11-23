@@ -25,15 +25,6 @@ faq:
     a: "Boleh apabila proyek dan ketentuan perusahaan memungkinkan. Pembagian tugas harus jelas agar setiap siswa memperoleh pengalaman belajar."
 ---
 
-## Ringkasan Inti
-
-- Siswa RPL mengerjakan tugas pengembangan website dan aplikasi digital di bawah bimbingan mentor.
-- HTML, CSS, JavaScript, PHP, dan MySQL merupakan teknologi utama yang dipraktikkan.
-- Pembagian tugas PKL disesuaikan secara bertahap dengan kemampuan siswa dan kebutuhan proyek industri.
-- Siswa dapat mengenal proses kerja Front End dan Back End Developer secara nyata.
-- Hasil pekerjaan dapat menjadi portofolio bernilai tinggi untuk persiapan karier masa depan.
-
-Bagi Anda yang sedang merencanakan masa magang, ketahui kurikulum dan bimbingan langsung di portal resmi [PKL di Saka](/) serta temukan referensi [tempat PKL RPL](/blog/tempat-pkl-rpl/) dan [persiapan PKL RPL](/blog/persiapan-pkl-rpl/) yang tepat.
 
 ## PKL RPL Ngapain Aja? Ini Gambaran Tugas Nyatanya
 

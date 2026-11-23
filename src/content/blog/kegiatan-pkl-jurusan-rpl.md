@@ -35,13 +35,6 @@ Mengetahui gambaran **kegiatan PKL jurusan RPL** sebelum terjun ke dunia industr
 
 Dalam program bimbingan industri terpadu di [PKL di Saka](/) Malang, peserta didik diarahkan agar tidak hanya menghafal sintaks kode secara teoritis, melainkan mampu memecahkan masalah riil. Pelaksanaan tugas magang difokuskan secara khusus untuk mendukung kompetensi [PKL jurusan RPL](/jurusan/rpl/) agar selaras dengan kebutuhan dunia kerja masa kini.
 
-## Ringkasan Inti Aktivitas Magang RPL
-
-- Siswa RPL mempraktikkan proses rekayasa perangkat lunak dari pemotongan desain (*slicing*) hingga pengujian live di browser.
-- Tugas utama mencakup pembuatan landing page, pengelolaan konten CMS, perbaikan tata letak responsif, dan validasi fungsionalitas formulir.
-- **CV Saudagar Kaya Abadi** memberikan wadah belajar nyata di Malang dengan membimbing siswa mengelola situs web bisnis yang aktif beroperasi.
-- Siswa tidak dituntut langsung membuat aplikasi kompleks, melainkan diajarkan bertahap mulai dari kebersihan kode (*clean code*) hingga kedisiplinan dokumentasi.
-- Seluruh capaian dicatat dalam jurnal harian sebagai modal utama penyusunan laporan pertanggungjawaban di sekolah.
 
 ## Apa Saja Rangkaian Kegiatan Siswa RPL Selama PKL?
 

@@ -35,13 +35,6 @@ Perusahaan penerima PKL RPL dapat berasal dari software house, agensi digital, s
 
 Menemukan industri mitra yang terpercaya dan memiliki kurikulum pembinaan terstruktur sangat menentukan keberhasilan magang. Di [CV Saudagar Kaya Abadi Malang](https://www.pkldisaka.id/), program magang kejuruan dikelola secara profesional dengan bimbingan harian agar peserta siap bersaing di bursa kerja industri digital.
 
-## Ringkasan Inti
-
-- Siswa RPL mempunyai peluang PKL di berbagai jenis perusahaan.
-- Software house menjadi pilihan bagi siswa yang tertarik pada pengembangan aplikasi.
-- Perusahaan non-IT juga dapat menerima siswa apabila memiliki pekerjaan teknologi yang relevan.
-- Tidak semua perusahaan teknologi menerima siswa SMK, sehingga persyaratan harus diperiksa terlebih dahulu.
-- Pendaftaran perlu dilakukan dengan dokumen dan komunikasi yang profesional.
 
 ## Perusahaan Apa Saja yang Bisa Menjadi Tempat PKL RPL?
 

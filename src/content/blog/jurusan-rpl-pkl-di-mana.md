@@ -39,13 +39,6 @@ Jurusan RPL dapat menjalani PKL di software house, perusahaan IT, agensi digital
 
 Bagi Anda yang sedang merencanakan masa magang kejuruan, memilih lingkungan industri yang tepat adalah kunci utama. Di [PKL Di Saka Malang](https://www.pkldisaka.id/), siswa kejuruan dibimbing langsung oleh praktisi industri dalam menangani proyek nyata digital agency, pengelolaan web, hingga optimalisasi teknologi informasi kantor.
 
-## Ringkasan Inti
-
-- Siswa RPL dapat melaksanakan PKL di berbagai perusahaan yang menggunakan atau mengembangkan teknologi digital.
-- Software house dan perusahaan pengembang aplikasi cocok untuk siswa yang ingin belajar pemrograman secara langsung.
-- Agensi digital dan divisi IT perkantoran menyediakan pilihan pekerjaan selain menjadi programmer.
-- Tempat PKL sebaiknya memiliki pembimbing, tugas yang relevan, dan lingkungan kerja yang mendukung pembelajaran.
-- Siswa perlu menyiapkan CV, surat pengantar sekolah, keterampilan dasar, serta portofolio sebelum mendaftar.
 
 ## Di Mana Siswa Jurusan RPL Bisa Melaksanakan PKL?
 

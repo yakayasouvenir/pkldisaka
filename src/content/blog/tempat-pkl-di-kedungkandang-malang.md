@@ -31,15 +31,6 @@ faq:
     a: "Lokasi sangat mudah diakses via jalur Sawojajar, exit Tol Malang-Pandaan (Madyopuro), serta dilalui rute angkutan umum dan ojek online."
 ---
 
-## Ringkasan Inti
-
-- Kecamatan Kedungkandang merupakan salah satu sentra pengembangan vokasi dan bisnis kreatif unggulan di Kota Malang.
-- CV Saudagar Kaya Abadi melalui program PKL DISAKA beralamat di Cemorokandang, Kedungkandang.
-- Bidang praktik kerja meliputi digital marketing terapan, optimasi SEO, desain visual, content creation, dan packaging souvenir.
-- Memiliki akses jalan yang mudah dijangkau dari pusat kota Malang dan kawasan perumahan sekitarnya.
-- Kuota penerimaan diproses secara selektif dan transparan tanpa dipungut biaya apapun.
-
-Informasi pendaftaran lengkap dan konsultasi jurusan dapat diakses langsung melalui portal [PKL di Saka](/) Malang.
 
 ## Di Mana Tempat PKL di Kedungkandang Malang?
 

@@ -30,13 +30,6 @@ Mencari tempat Praktik Kerja Lapangan (PKL) yang tepat merupakan langkah awal kr
 
 Untuk mendapatkan referensi program magang yang terstruktur dengan bimbingan mentor berpengalaman di Kota Malang, siswa dan pihak sekolah dapat mengakses informasi resmi melalui [PKL di Saka](/) yang telah bermitra dengan berbagai SMK kejuruan. Selain itu, Anda juga dapat menelusuri kurikulum kejuruan spesifik pada direktori [PKL jurusan TKJ](/jurusan/tkj/) guna memastikan keselarasan kompetensi sekolah.
 
-## Ringkasan Inti Panduan PKL TKJ
-
-- PKL TKJ merupakan kegiatan pembelajaran di lingkungan kerja untuk menerapkan kompetensi yang telah dipelajari di sekolah.
-- Tempat PKL sebaiknya memiliki aktivitas yang berhubungan dengan komputer, jaringan, teknologi informasi, atau pekerjaan digital.
-- Siswa dapat mempelajari instalasi jaringan, perawatan komputer, troubleshooting, pengelolaan website, dan keterampilan pendukung lainnya sesuai bidang penempatan.
-- CV Saudagar Kaya Abadi di kawasan Cemoro Kandang, Kedungkandang, dapat dihubungi untuk menanyakan peluang PKL yang relevan dengan aktivitas digital perusahaan.
-- Sebelum mendaftar, siswa perlu memastikan kesesuaian pekerjaan, pembimbing, fasilitas, jadwal, dan persyaratan dari sekolah.
 
 ## Apa Itu PKL TKJ dan Mengapa Penting bagi Siswa SMK?
 

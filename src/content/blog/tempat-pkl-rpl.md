@@ -23,15 +23,6 @@ faq:
     a: "Ketentuannya bergantung pada perusahaan. Namun, portofolio sangat membantu untuk menunjukkan kemampuan dan pengalaman proyek siswa."
 ---
 
-## Ringkasan Inti
-
-- Siswa RPL perlu memilih tempat PKL yang selaras dengan kompetensi kejuruan sekolah.
-- Software house, agensi digital, dan perusahaan IT merupakan pilihan tempat magang yang ideal.
-- Ketersediaan mentor industri sangat krusial untuk membimbing alur kerja teknis.
-- Pelibatan dalam proyek nyata menghasilkan portofolio kerja yang bernilai tinggi.
-- Ketentuan tempat magang wajib mendapatkan verifikasi dan persetujuan resmi dari pihak sekolah.
-
-Cari tahu detail rincian kegiatan harian magang IT di panduan komprehensif [pkl rpl ngapain aja](/blog/pkl-rpl-ngapain-aja/) serta eksplorasi program magang industri terpadu di [PKL di Saka](/) yang memberikan lingkungan praktik koding aplikatif.
 
 ## Di Mana Tempat PKL yang Cocok untuk Jurusan RPL?
 

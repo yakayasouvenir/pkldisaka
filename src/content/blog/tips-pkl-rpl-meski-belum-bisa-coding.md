@@ -42,13 +42,6 @@ Perlu dipahami bahwa PKL adalah wahana pembelajaran, bukan ajang ujian kompetens
   <figcaption class="text-center text-muted small mt-2">Siswa RPL memperdalam penguasaan aplikasi komputer dan literasi data digital sebelum terjun ke industri.</figcaption>
 </figure>
 
-## Ringkasan Inti
-
-- Kemampuan coding bukan satu-satunya tolok ukur kesuksesan magang jurusan RPL.
-- Penguasaan aplikasi perkantoran, spreadsheet, dan manajemen file menjadi modal awal yang kuat.
-- Sikap disiplin, tanggung jawab, dan etika komunikasi sangat dihargai oleh para praktisi.
-- Siswa dapat membangun portofolio berharga melalui penugasan non-coding.
-- Rujukan utama mengenai pemilihan lokasi PKL dapat disimak pada panduan [tidak bisa ngoding bisa PKL di mana](/blog/tidak-bisa-ngoding-bisa-pkl-di-mana).
 
 ## 8 Tips Sukses Menjalani PKL RPL Tanpa Rasa Cemas
 

@@ -29,15 +29,6 @@ faq:
     a: "Siapkan CV yang rapi, lampirkan 2-3 sampel portofolio karya terbaik, dan ajukan permohonan 1-2 bulan sebelum masa magang dimulai."
 ---
 
-## Ringkasan Inti
-
-- Kota Malang memiliki ekosistem industri kreatif dan agensi digital yang sangat subur bagi peserta vokasi.
-- Peluang PKL tersebar di bidang desain grafis, produksi multimedia, digital marketing, penulisan SEO, dan manajemen website.
-- CV Saudagar Kaya Abadi melalui PKL DISAKA membuka penempatan terpadu berbasis proyek nyata bagi siswa SMK dan mahasiswa.
-- Setiap penugasan diarahkan untuk menghasilkan portofolio karya yang dapat digunakan melamar kerja setelah lulus.
-- Pemilihan bidang magang wajib diselaraskan dengan kurikulum institusi pendidikan.
-
-Telusuri kesempatan magang terbaik dan daftarkan diri Anda di portal terpercaya [PKL di Saka](/) Malang.
 
 ## Eksplorasi Peluang PKL di Malang
 

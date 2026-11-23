@@ -35,13 +35,6 @@ Skill anak DKV sebelum PKL meliputi kemampuan desain grafis, penguasaan software
 
 Memiliki bekal persiapan yang matang sebelum hari pertama magang akan membuat Anda lebih percaya diri menghadapi arahan mentor. Di lingkungan kerja industri [CV Saudagar Kaya Abadi Malang](https://www.pkldisaka.id/), peserta magang dibina tidak hanya dari aspek teknis visual, tetapi juga kemampuan komunikasi profesional dan etika kerja industri.
 
-## Ringkasan Inti
-
-- Pelajari dasar desain grafis sebelum mengikuti PKL.
-- Kuasai software yang sesuai dengan kebutuhan industri.
-- Pahami prinsip warna, tipografi, dan komposisi visual.
-- Latih kemampuan komunikasi dan kerja sama tim.
-- Siapkan portofolio untuk menunjukkan hasil karya terbaik.
 
 ## Apa Saja Hard Skills yang Harus Dimiliki Anak DKV?
 
