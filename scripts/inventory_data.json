@@ -1,0 +1,713 @@
+[
+  {
+    "no": 1,
+    "url": "https://www.pkldisaka.id/blog/anak-rpl-bisa-pkl-di-kantor-tanpa-coding/",
+    "title": "Anak RPL Bisa PKL di Kantor Tanpa Coding",
+    "keyword": "Anak RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 2,
+    "url": "https://www.pkldisaka.id/blog/anak-rpl-kalau-pkl-kerjanya-apa/",
+    "title": "Anak RPL Kalau PKL Kerjanya Apa Ini Daftar Tugas yang Sering Dikerjakan",
+    "keyword": "Anak RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 3,
+    "url": "https://www.pkldisaka.id/blog/anak-rpl-pkl-harus-bisa-coding/",
+    "title": "Apakah Anak RPL Saat PKL Harus Bisa Coding dan Membuat Website?",
+    "keyword": "Apakah Anak",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 4,
+    "url": "https://www.pkldisaka.id/blog/apa-itu-pkl/",
+    "title": "Apa Itu PKL Pengertian, Tujuan, Manfaat, dan Pelaksanaannya",
+    "keyword": "Apa Itu",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 5,
+    "url": "https://www.pkldisaka.id/blog/apa-yang-dikerjakan-anak-magang-web-developer/",
+    "title": "Apa yang Dikerjakan Anak Magang Web Developer di Agensi Digital? Alur Kerja, Tools, dan Tugas Nyata",
+    "keyword": "Apa yang",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 6,
+    "url": "https://www.pkldisaka.id/blog/apakah-pkl-kuliah-bisa-1-bulan/",
+    "title": "Apakah PKL Kuliah Bisa Dilakukan Selama 1 Bulan",
+    "keyword": "Apakah PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 7,
+    "url": "https://www.pkldisaka.id/blog/berapa-bulan-mahasiswa-menjalani-pkl-magang/",
+    "title": "Berapa Bulan Mahasiswa Harus Menjalani PKL atau Magang",
+    "keyword": "Berapa Bulan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 8,
+    "url": "https://www.pkldisaka.id/blog/berapa-lama-waktu-pkl-kuliah/",
+    "title": "Berapa Lama Waktu PKL Kuliah dan Kapan Dilaksanakan",
+    "keyword": "Berapa Lama",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 9,
+    "url": "https://www.pkldisaka.id/blog/berapa-lama-waktu-pkl-smk-dan-mahasiswa/",
+    "title": "Berapa Lama Waktu PKL SMK Kurikulum Merdeka dan Ketentuannya",
+    "keyword": "Berapa Lama",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 10,
+    "url": "https://www.pkldisaka.id/blog/cara-daftar-magang-di-malang/",
+    "title": "Cara Daftar Magang di Malang untuk Siswa SMK dan Mahasiswa Lengkap Alur Syarat dan Tips Diterima",
+    "keyword": "Cara Daftar",
+    "intent": "Transaksional / Prosedural",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 11,
+    "url": "https://www.pkldisaka.id/blog/cara-daftar-magang-informatika-malang/",
+    "title": "Cara Daftar Magang Informatika di Malang dan Persyaratan yang Perlu Disiapkan",
+    "keyword": "Cara Daftar",
+    "intent": "Transaksional / Prosedural",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 12,
+    "url": "https://www.pkldisaka.id/blog/cara-memilih-tempat-pkl-tkj/",
+    "title": "Cara Memilih Tempat PKL TKJ yang Sesuai dengan Kompetensi Siswa",
+    "keyword": "Cara Memilih",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 13,
+    "url": "https://www.pkldisaka.id/blog/cara-mencari-tempat-pkl-smk-malang/",
+    "title": "Cara Mencari Tempat PKL untuk Siswa SMK di Malang Lengkap Tahapan Syarat dan Contoh Pesan",
+    "keyword": "Cara Mencari",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 14,
+    "url": "https://www.pkldisaka.id/blog/cara-mendaftar-pkl-di-malang/",
+    "title": "Cara Mendaftar PKL di Malang agar Peluang Diterima Lebih Besar",
+    "keyword": "Cara Mendaftar",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 15,
+    "url": "https://www.pkldisaka.id/blog/contoh-laporan-pkl-rpl/",
+    "title": "Contoh Laporan PKL RPL dan Panduan Menyusunnya Sesuai Standar Sekolah",
+    "keyword": "Contoh Laporan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 16,
+    "url": "https://www.pkldisaka.id/blog/contoh-pekerjaan-anak-rpl-saat-pkl/",
+    "title": "10 Contoh Pekerjaan Anak RPL Saat PKL di Perusahaan IT",
+    "keyword": "10 Contoh",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 17,
+    "url": "https://www.pkldisaka.id/blog/jurusan-rpl-pkl-di-mana/",
+    "title": "Jurusan RPL PKL di Mana dan Rekomendasi Tempat yang Cocok",
+    "keyword": "Jurusan RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 18,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-anak-rpl-pkl-di-kantor/",
+    "title": "Kegiatan Anak RPL Saat PKL di Kantor dan Perusahaan Non-IT",
+    "keyword": "Kegiatan Anak",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 19,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-pkl-di-malang/",
+    "title": "Kegiatan PKL di Malang dan Pengalaman Kerja yang Bisa Didapatkan",
+    "keyword": "Kegiatan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 20,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-pkl-jurusan-dkv/",
+    "title": "Kegiatan PKL Jurusan DKV yang Dipelajari Siswa SMK di Malang",
+    "keyword": "Kegiatan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 21,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-pkl-jurusan-grafika/",
+    "title": "Kegiatan PKL Jurusan Grafika dan Contoh Pekerjaan di Industri Percetakan",
+    "keyword": "Kegiatan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 22,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-pkl-jurusan-rpl/",
+    "title": "Kegiatan PKL Jurusan RPL yang Dilakukan Selama Magang di Dunia Industri",
+    "keyword": "Kegiatan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 23,
+    "url": "https://www.pkldisaka.id/blog/kegiatan-pkl-jurusan-tkj/",
+    "title": "Kegiatan PKL Jurusan TKJ yang Akan Dipelajari Siswa Selama Magang",
+    "keyword": "Kegiatan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 24,
+    "url": "https://www.pkldisaka.id/blog/lowongan-pkl-jurusan-pemasaran-di-malang/",
+    "title": "Lowongan PKL Jurusan Pemasaran di Malang untuk Siswa SMK",
+    "keyword": "Lowongan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 25,
+    "url": "https://www.pkldisaka.id/blog/maksud-dan-tujuan-pkl-bagi-mahasiswa/",
+    "title": "Maksud dan Tujuan PKL bagi Mahasiswa",
+    "keyword": "Maksud dan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 26,
+    "url": "https://www.pkldisaka.id/blog/maksud-dan-tujuan-pkl/",
+    "title": "Maksud dan Tujuan PKL bagi Siswa SMK dan Mahasiswa",
+    "keyword": "Maksud dan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 27,
+    "url": "https://www.pkldisaka.id/blog/manfaat-pkl/",
+    "title": "Manfaat PKL bagi Siswa SMK dan Mahasiswa Sebelum Bekerja",
+    "keyword": "Manfaat PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 28,
+    "url": "https://www.pkldisaka.id/blog/panduan-membuat-portofolio-untuk-magang/",
+    "title": "Panduan Membuat Portofolio Magang Pemula Format Struktur dan Contoh untuk Siswa SMK",
+    "keyword": "Panduan Membuat",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 29,
+    "url": "https://www.pkldisaka.id/blog/panduan-persiapan-pkl-jurusan-bisnis-malang/",
+    "title": "Panduan Persiapan PKL Jurusan Bisnis di Malang dari Pendaftaran hingga Hari Pertama Kerja",
+    "keyword": "Panduan Persiapan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 30,
+    "url": "https://www.pkldisaka.id/blog/pekerjaan-anak-magang-informatika-malang/",
+    "title": "Pekerjaan Anak Magang Informatika di Malang dan Keterampilan yang Dibutuhkan",
+    "keyword": "Pekerjaan Anak",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 31,
+    "url": "https://www.pkldisaka.id/blog/pekerjaan-pkl-rpl-selain-coding/",
+    "title": "Pekerjaan PKL RPL Selain Coding untuk Pemula",
+    "keyword": "Pekerjaan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 32,
+    "url": "https://www.pkldisaka.id/blog/peluang-kerja-dan-kegiatan-pkl-jurusan-pemasaran/",
+    "title": "Peluang Kerja dan Kegiatan PKL untuk Siswa Jurusan Pemasaran di Era Digital",
+    "keyword": "Peluang Kerja",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 33,
+    "url": "https://www.pkldisaka.id/blog/peluang-magang-jurusan-bisnis-malang/",
+    "title": "Peluang Magang Jurusan Bisnis di Malang untuk Siswa SMK dan Mahasiswa",
+    "keyword": "Peluang Magang",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 34,
+    "url": "https://www.pkldisaka.id/blog/peluang-pkl-di-malang/",
+    "title": "Peluang PKL di Malang untuk SMK dan Mahasiswa Berbagai Bidang",
+    "keyword": "Peluang PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 35,
+    "url": "https://www.pkldisaka.id/blog/perbedaan-durasi-pkl-mahasiswa-semester-5-6-7/",
+    "title": "Perbedaan Durasi PKL Mahasiswa Semester 5 6 dan 7",
+    "keyword": "Perbedaan Durasi",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 36,
+    "url": "https://www.pkldisaka.id/blog/perbedaan-maksud-dan-tujuan-pkl/",
+    "title": "Perbedaan Maksud dan Tujuan PKL bagi Siswa",
+    "keyword": "Perbedaan Maksud",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 37,
+    "url": "https://www.pkldisaka.id/blog/perbedaan-pkl-grafika-sekolah-dan-industri/",
+    "title": "Panduan Memahami Perbedaan PKL Jurusan Grafika di Sekolah dan Industri Percetakan",
+    "keyword": "Panduan Memahami",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 38,
+    "url": "https://www.pkldisaka.id/blog/perbedaan-rpl-dan-tkj/",
+    "title": "Perbedaan RPL dan TKJ dari Materi hingga Peluang Kerja",
+    "keyword": "Perbedaan RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 39,
+    "url": "https://www.pkldisaka.id/blog/persiapan-pkl-rpl/",
+    "title": "Persiapan PKL RPL untuk Siswa SMK agar Siap Magang",
+    "keyword": "Persiapan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 40,
+    "url": "https://www.pkldisaka.id/blog/persiapan-pkl-tkj/",
+    "title": "Persiapan PKL TKJ untuk Siswa SMK Sebelum Memulai Magang",
+    "keyword": "Persiapan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 41,
+    "url": "https://www.pkldisaka.id/blog/perusahaan-penerima-pkl-jurusan-rpl/",
+    "title": "Perusahaan Apa Saja yang Menerima Siswa PKL Jurusan RPL",
+    "keyword": "Perusahaan Apa",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 42,
+    "url": "https://www.pkldisaka.id/blog/pkl-digital-marketing-desain-grafis-malang/",
+    "title": "PKL Digital Marketing dan Desain Grafis di Malang untuk Siswa SMK Keterampilan dan Portofolio",
+    "keyword": "PKL Digital",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 43,
+    "url": "https://www.pkldisaka.id/blog/pkl-dkv-ngapain-aja/",
+    "title": "PKL DKV Ngapain Aja Ini Daftar Kegiatan dan Pengalaman Siswa Selama Magang",
+    "keyword": "PKL DKV",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 44,
+    "url": "https://www.pkldisaka.id/blog/pkl-rpl-belum-bisa-coding/",
+    "title": "Pilihan PKL RPL untuk Siswa SMK yang Belum Bisa Coding",
+    "keyword": "Pilihan PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 45,
+    "url": "https://www.pkldisaka.id/blog/pkl-rpl-di-kantor-tanpa-coding/",
+    "title": "PKL RPL di Kantor Tanpa Harus Menjadi Programmer",
+    "keyword": "PKL RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 46,
+    "url": "https://www.pkldisaka.id/blog/pkl-rpl-ngapain-aja/",
+    "title": "PKL RPL Ngapain Aja? Tugas, Kegiatan Koding, dan Proyek Siswa SMK",
+    "keyword": "PKL RPL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 47,
+    "url": "https://www.pkldisaka.id/blog/portofolio-dkv-untuk-pkl/",
+    "title": "Portofolio DKV untuk PKL yang Menarik dan Profesional bagi Siswa SMK",
+    "keyword": "Portofolio DKV",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 48,
+    "url": "https://www.pkldisaka.id/blog/rekomendasi-tempat-magang-informatika-di-malang/",
+    "title": "Rekomendasi Tempat Magang Informatika di Malang untuk Siswa SMK dan Mahasiswa",
+    "keyword": "Rekomendasi Tempat",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 49,
+    "url": "https://www.pkldisaka.id/blog/rekomendasi-tempat-pkl-di-kantor-malang/",
+    "title": "Rekomendasi Tempat PKL di Kantor untuk Siswa SMK di Malang",
+    "keyword": "Rekomendasi Tempat",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 50,
+    "url": "https://www.pkldisaka.id/blog/rekomendasi-tempat-pkl-di-malang/",
+    "title": "Rekomendasi Tempat PKL di Malang untuk SMK dan Mahasiswa",
+    "keyword": "Rekomendasi Tempat",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 51,
+    "url": "https://www.pkldisaka.id/blog/rekomendasi-tempat-pkl-grafika-malang/",
+    "title": "Rekomendasi Tempat PKL Jurusan Grafika di Malang untuk Siswa SMK",
+    "keyword": "Rekomendasi Tempat",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 52,
+    "url": "https://www.pkldisaka.id/blog/skill-anak-dkv-sebelum-pkl/",
+    "title": "Skill yang Harus Dikuasai Anak DKV Sebelum Mengikuti PKL agar Tidak Kesulitan",
+    "keyword": "Skill yang",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 53,
+    "url": "https://www.pkldisaka.id/blog/skill-sebelum-pkl-rpl/",
+    "title": "Skill yang Harus Dikuasai Sebelum PKL Jurusan RPL untuk Siswa SMK",
+    "keyword": "Skill yang",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 54,
+    "url": "https://www.pkldisaka.id/blog/skill-yang-dicari-perusahaan-digital-2027/",
+    "title": "Skill yang Paling Dicari Perusahaan Digital 2026–2027 Panduan Karier dan Magang Vokasi",
+    "keyword": "Skill yang",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 55,
+    "url": "https://www.pkldisaka.id/blog/software-anak-dkv-saat-pkl/",
+    "title": "Software yang Digunakan Anak DKV Saat PKL untuk Mengerjakan Desain",
+    "keyword": "Software yang",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 56,
+    "url": "https://www.pkldisaka.id/blog/syarat-cara-daftar-pkl-dkv-malang/",
+    "title": "Syarat dan Cara Daftar PKL DKV di Malang untuk Siswa SMK",
+    "keyword": "Syarat dan",
+    "intent": "Transaksional / Prosedural",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 57,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-di-kedungkandang-malang/",
+    "title": "Tempat PKL di Kedungkandang Malang untuk Siswa SMK dan Mahasiswa",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 58,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-di-malang/",
+    "title": "Tempat PKL di Malang untuk Siswa SMK dan Mahasiswa Panduan Memilih Program dan Pendaftaran",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 59,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-dkv-belum-mahir-desain/",
+    "title": "Tempat PKL DKV untuk Siswa SMK yang Belum Mahir Desain",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 60,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-jurusan-bisnis-di-malang/",
+    "title": "Tempat PKL Jurusan Bisnis di Malang untuk Siswa SMK dan Mahasiswa",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 61,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-jurusan-dkv-malang/",
+    "title": "Tempat PKL Jurusan DKV di Malang untuk Mengembangkan Kreativitas Siswa SMK",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 62,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-jurusan-pemasaran-di-malang/",
+    "title": "Tempat PKL Jurusan Pemasaran di Malang yang Cocok untuk Siswa SMK",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 63,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-rpl-di-malang/",
+    "title": "Tempat PKL RPL di Malang untuk Siswa SMK yang Ingin Pengalaman Nyata",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 64,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-rpl-tkj-malang/",
+    "title": "Tempat PKL Jurusan RPL dan TKJ di Malang untuk Siswa SMK Panduan Kompetensi dan Pembagian Tugas",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 65,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-rpl/",
+    "title": "Tempat PKL RPL untuk Belajar Coding dan Website",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 66,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-sesuai-jurusan/",
+    "title": "Tempat PKL Sesuai Jurusan SMK untuk Memulai Karier Profesional",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 67,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-terdekat-dari-rumah/",
+    "title": "Cara Menemukan Tempat PKL Terdekat dari Rumah dengan Google Maps",
+    "keyword": "Cara Menemukan",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 68,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-terdekat/",
+    "title": "Tempat PKL Terdekat untuk Siswa SMK yang Sedang Mencari Pengalaman Kerja",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 69,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-tkj-di-kantor/",
+    "title": "Rekomendasi Tempat PKL TKJ di Kantor untuk Siswa SMK",
+    "keyword": "Rekomendasi Tempat",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 70,
+    "url": "https://www.pkldisaka.id/blog/tempat-pkl-tkj-di-malang/",
+    "title": "Tempat PKL TKJ di Malang untuk Siswa SMK yang Ingin Mendapat Pengalaman Kerja",
+    "keyword": "Tempat PKL",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 71,
+    "url": "https://www.pkldisaka.id/blog/tidak-bisa-ngoding-bisa-pkl-di-mana/",
+    "title": "Tidak Bisa Ngoding Bisa PKL di Mana Ini Pilihan Tempat PKL untuk Siswa RPL",
+    "keyword": "Tidak Bisa",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 72,
+    "url": "https://www.pkldisaka.id/blog/tips-memilih-tempat-magang-informatika-malang/",
+    "title": "Tips Memilih Tempat Magang Informatika di Malang agar Mendapat Pengalaman Kerja yang Relevan",
+    "keyword": "Tips Memilih",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 73,
+    "url": "https://www.pkldisaka.id/blog/tips-memilih-tempat-pkl-bisnis-malang/",
+    "title": "Tips Memilih Tempat PKL Jurusan Bisnis di Malang agar Sesuai Kompetensi",
+    "keyword": "Tips Memilih",
+    "intent": "Investigasi Komersial / Navigasi Lokasi",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 74,
+    "url": "https://www.pkldisaka.id/blog/tips-mencari-lowongan-pkl-pemasaran/",
+    "title": "Tips Mencari Lowongan PKL Jurusan Pemasaran agar Cepat Diterima",
+    "keyword": "Tips Mencari",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 75,
+    "url": "https://www.pkldisaka.id/blog/tips-persiapan-pkl-jurusan-grafika/",
+    "title": "Tips Persiapan PKL Jurusan Grafika dan Skill yang Perlu Dikuasai Siswa SMK",
+    "keyword": "Tips Persiapan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 76,
+    "url": "https://www.pkldisaka.id/blog/tips-pkl-rpl-meski-belum-bisa-coding/",
+    "title": "Tips PKL RPL Meski Belum Bisa Coding",
+    "keyword": "Tips PKL",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 77,
+    "url": "https://www.pkldisaka.id/blog/tugas-anak-dkv-saat-pkl/",
+    "title": "Tugas Anak DKV Saat PKL dan Contoh Pekerjaan yang Sering Diberikan Perusahaan",
+    "keyword": "Tugas Anak",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 78,
+    "url": "https://www.pkldisaka.id/blog/tugas-siswa-rpl-saat-pkl/",
+    "title": "Tugas Siswa RPL Saat PKL di Perusahaan dan Perkantoran",
+    "keyword": "Tugas Siswa",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  },
+  {
+    "no": 79,
+    "url": "https://www.pkldisaka.id/blog/tujuan-pkl-bagi-pengembangan-keterampilan-siswa/",
+    "title": "5 Tujuan PKL bagi Siswa dan Manfaatnya",
+    "keyword": "5 Tujuan",
+    "intent": "Informasional",
+    "statusAudit": "Selesai",
+    "statusRevisi": "Telah Direvisi (Alami & Bebas Pola AI)"
+  }
+]
