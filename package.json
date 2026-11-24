@@ -17,7 +17,9 @@
     "astro": "^5.13.0",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.2",
-    "mammoth": "^1.13.0"
+    "canvas": "^3.2.3",
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^3.11.174"
   },
   "devDependencies": {
     "purgecss": "^8.0.0"
