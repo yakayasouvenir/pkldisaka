@@ -1,6 +1,6 @@
 ---
 title: "Contoh Laporan PKL SMK Lengkap Doc & PDF Sesuai Standar Industri"
-description: "Dapatkan [contoh laporan PKL SMK](/dokumen-pkl/contoh-laporan-pkl-smk/) lengkap: susunan cover, lembar pengesahan, Bab I Pendahuluan, Bab II Tinjauan DUDI, Bab III Hasil Belajar, dan Bab IV Penutup."
+description: "Dapatkan [contoh laporan PKL SMK](/dokumen-pkl/laporan-pkl/) lengkap: susunan cover, lembar pengesahan, Bab I Pendahuluan, Bab II Tinjauan DUDI, Bab III Hasil Belajar, dan Bab IV Penutup."
 keyword: "contoh laporan pkl smk"
 category: "Dokumen & Panduan PKL"
 eyebrow: "PANDUAN DOKUMEN & FORMAT LAPORAN"
@@ -25,7 +25,7 @@ Laporan Praktik Kerja Lapangan (PKL) adalah dokumen resmi yang wajib disusun ole
 
 Banyak siswa mengalami kesulitan ketika harus memulai penulisan laporan dari nol. Melalui artikel ini, kami menyajikan struktur lengkap **contoh laporan PKL SMK** berbasis format dokumen portofolio industri yang diterapkan di **CV Saudagar Kaya Abadi (PKL di Saka)** Malang.
 
-Untuk melihat halaman panduan khusus dokumen dan sistematika bab secara interaktif, kamu juga dapat membuka laman resmi [Contoh Laporan PKL SMK](/dokumen-pkl/contoh-laporan-pkl-smk/) di menu Panduan & Edukasi kami.
+Untuk melihat halaman panduan khusus dokumen dan sistematika bab secara interaktif, kamu juga dapat membuka laman resmi [Contoh Laporan PKL SMK](/dokumen-pkl/laporan-pkl/) di menu Panduan & Edukasi kami.
 
 ## Struktur Standar Laporan PKL SMK
 
@@ -133,4 +133,4 @@ Berikut 13 contoh pekerjaan nyata yang lazim didokumentasikan:
 
 Menyusun laporan PKL SMK yang rapi tidaklah sulit jika kamu memahami kerangka baku dan mencicil pencatatannya sejak awal masa magang. Pastikan kamu selalu mengisi [jurnal harian PKL](/dokumen-pkl/jurnal-harian/) secara disiplin agar data dokumentasi Bab III terkumpul lengkap tanpa ada yang terlewat.
 
-Bagi kamu yang membutuhkan panduan interaktif lengkap mengenai berkas administrasi dan tata cara pelaksanaan magang, kunjungi laman [Panduan & Edukasi PKL di Saka](/dokumen-pkl/contoh-laporan-pkl-smk/) sekarang juga.
+Bagi kamu yang membutuhkan panduan interaktif lengkap mengenai berkas administrasi dan tata cara pelaksanaan magang, kunjungi laman [Panduan & Edukasi PKL di Saka](/dokumen-pkl/laporan-pkl/) sekarang juga.
