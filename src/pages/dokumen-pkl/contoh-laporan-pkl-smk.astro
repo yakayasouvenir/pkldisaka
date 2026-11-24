@@ -1,0 +1,592 @@
+---
+// src/pages/dokumen-pkl/contoh-laporan-pkl-smk.astro
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import StatusNotice from '../../components/StatusNotice.astro';
+import RelatedLinks from '../../components/RelatedLinks.astro';
+import FAQList from '../../components/FAQList.astro';
+import CTASection from '../../components/CTASection.astro';
+import { faqNode } from '../../lib/schema';
+import { waLink } from '../../data/site';
+
+const crumbs = [
+  { name: 'Dokumen PKL', path: '/dokumen-pkl/surat-lamaran/' },
+  { name: 'Contoh Laporan PKL SMK', path: '/dokumen-pkl/contoh-laporan-pkl-smk/' },
+];
+
+const faqs = [
+  {
+    q: 'Apakah naskah contoh laporan PKL SMK ini bisa langsung saya salin (copy-paste)?',
+    a: 'Bisa. Seluruh struktur naskah dokumen laporan PKL di halaman ini disajikan lengkap mulai dari Halaman Judul, Motto, Lembar Persembahan, Kata Pengantar, Daftar Isi, Bab I Pendahuluan, Bab II Tinjauan DUDI, Bab III Hasil Belajar Nyata, hingga Bab IV Penutup. Anda cukup mengganti tanda kurung siku [ ] dengan identitas diri, sekolah, dan tempat magang Anda.',
+  },
+  {
+    q: 'Format file apa yang diwajibkan oleh sekolah saat mengumpulkan laporan PKL?',
+    a: 'Umumnya sekolah meminta draf laporan diketik dalam format Microsoft Word (.docx), kemudian dicetak atau diekspor ke PDF setelah disahkan dengan tanda tangan dan stempel resmi dari pihak industri.',
+  },
+  {
+    q: 'Bagaimana cara mengisi Bab III untuk jurusan lain selain RPL/Pemasaran?',
+    a: 'Sesuaikan rincian 13 aktivitas kerja di Bab III dengan divisi jurusan Anda. Misalnya untuk DKV masukkan proyek desain logo dan packaging, untuk TKJ masukkan perakitan PC dan konfigurasi mikrotik.',
+  },
+];
+---
+
+<BaseLayout
+  title="Contoh Laporan PKL SMK Lengkap Doc & Naskah Format Word Baku | pkldisaka.id"
+  description="Naskah lengkap contoh laporan PKL SMK siap pakai: Halaman Judul, Motto, Lembar Persembahan, Kata Pengantar, Daftar Isi, Bab I, Bab II, Bab III Dokumentasi Belajar, Bab IV Penutup."
+  path="/dokumen-pkl/contoh-laporan-pkl-smk/"
+  crumbs={crumbs}
+  schema={[faqNode('/dokumen-pkl/contoh-laporan-pkl-smk/', faqs)]}
+>
+  <PageHero
+    eyebrow="DOKUMEN & FORMAT BAKU PKL"
+    title="Contoh Laporan PKL SMK Lengkap (Format Dokumen Word / Doc)"
+    lead="Naskah dokumen portofolio dan laporan akhir Praktik Kerja Lapangan (PKL) SMK lengkap sesuai standar industri. Teks dapat langsung disalin dan diedit sesuai identitas sekolah Anda."
+    crumbs={crumbs}
+    bgImage="/images/9.webp"
+  />
+
+  <section class="content-section py-5">
+    <div class="container">
+      <div class="row g-4 g-xl-5 justify-content-center">
+        <!-- Main Document Reader (Paper Styled) -->
+        <div class="col-lg-10">
+          <StatusNotice
+            status="Naskah Resmi Siap Pakai"
+            targetDate="10/01/2026"
+            note="Gunakan naskah laporan ini sebagai acuan penyusunan penilaian kenaikan kelas dan sidang PKL. Bagian di dalam kurung siku [...] dapat disesuaikan dengan data Anda."
+          />
+
+          <!-- Quick Action Toolbar -->
+          <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 p-3 mb-4 rounded-3 bg-light border shadow-sm">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-file-earmark-word-fill fs-3 text-primary"></i>
+              <div>
+                <strong class="d-block text-dark">Naskah Dokumen Portofolio PKL SMK</strong>
+                <small class="text-muted">Format baku Bab I s/d Bab IV lengkap dengan Motto & Persembahan</small>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <button
+                type="button"
+                id="copyDocBtn"
+                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 d-inline-flex align-items-center gap-1.5 shadow-xs"
+              >
+                <i class="bi bi-clipboard-check"></i>
+                <span id="copyBtnText">Salin Seluruh Naskah</span>
+              </button>
+              <a
+                href="#naskah-dokumen"
+                class="btn btn-primary-saka btn-sm rounded-pill px-3 py-1.5 d-inline-flex align-items-center gap-1.5 shadow-xs text-decoration-none"
+              >
+                <i class="bi bi-eye"></i>
+                <span>Baca Naskah</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Document Paper Container -->
+          <div
+            id="naskah-dokumen"
+            class="doc-paper-container bg-white p-4 p-md-5 rounded-4 border shadow-sm mb-5 font-serif"
+            style="border-color: #cbd5e1 !important; line-height: 1.8; color: #1e293b;"
+          >
+            <!-- COVER / HALAMAN JUDUL -->
+            <div class="doc-cover text-center py-5 border-bottom mb-5">
+              <h1 class="h3 fw-bold text-uppercase mb-3" style="letter-spacing: 0.5px; line-height: 1.4;">
+                DOKUMENTASI PORTOFOLIO PRAKTIK KERJA LAPANGAN<br />
+                DI [NAMA PERUSAHAAN / INSTANSI]
+              </h1>
+              <p class="fst-italic text-secondary mb-5">
+                Disusun Sebagai Salah Satu Syarat Penilaian Kenaikan Kelas / Kelulusan
+              </p>
+
+              <!-- Logo Box Placeholder -->
+              <div class="my-5 d-flex justify-content-center">
+                <div class="p-4 border border-2 border-dashed rounded-4 bg-light text-center" style="max-width: 280px; width: 100%;">
+                  <i class="bi bi-image fs-1 text-muted d-block mb-2"></i>
+                  <span class="small text-muted fw-semibold">[TEMPELKAN LOGO SEKOLAH / DUDI DI SINI]</span>
+                </div>
+              </div>
+
+              <div class="my-5">
+                <p class="mb-1 text-uppercase fw-semibold">Oleh:</p>
+                <div class="fw-bold fs-5 text-dark">[NAMA PESERTA]</div>
+                <div class="text-secondary">[NIS / NIM / NOMOR INDUK]</div>
+                <div class="text-secondary">[KELAS / PROGRAM]</div>
+                <div class="fw-semibold text-primary">[JURUSAN / PROGRAM STUDI]</div>
+              </div>
+
+              <div class="mt-5 pt-4 text-uppercase fw-bold text-dark" style="font-size: 0.95rem; letter-spacing: 0.5px;">
+                PEMERINTAH PROVINSI JAWA TIMUR<br />
+                DINAS PENDIDIKAN<br />
+                [NAMA SEKOLAH / PERGURUAN TINGGI]<br />
+                <span class="fw-normal text-muted fst-italic text-lowercase" style="font-size: 0.85rem;">[Website dan email resmi sekolah/kampus]</span>
+              </div>
+            </div>
+
+            <!-- MOTTO -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-4 text-dark" style="letter-spacing: 1px;">MOTTO</h2>
+              <blockquote class="blockquote text-center fst-italic my-4 text-secondary">
+                <p class="mb-2">"Kesuksesan itu bukan ditunggu, tetapi diwujudkan."</p>
+                <p class="mb-2">"Tidak ada hal yang sia-sia dalam belajar karena ilmu akan bermanfaat pada waktunya."</p>
+                <p class="mb-0">"Tak pernah ada kata terlambat untuk menjadi apa yang kamu impikan."</p>
+              </blockquote>
+            </div>
+
+            <!-- PERSEMBAHAN -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-4 text-dark" style="letter-spacing: 1px;">PERSEMBAHAN</h2>
+              <p>
+                Dengan penuh rasa syukur ke hadirat Tuhan Yang Maha Esa atas segala rahmat, karunia, serta kesehatan yang diberikan, sehingga penulis dapat menyelesaikan kegiatan Praktik Kerja Lapangan (PKL) dan penyusunan laporan ini dengan baik.
+              </p>
+              <p class="fw-semibold mb-2">Laporan Praktik Kerja Lapangan ini penulis persembahkan kepada:</p>
+              <ol class="ps-3 mb-4">
+                <li class="mb-2"><strong>Kedua orang tua tercinta</strong> yang selalu memberikan doa, dukungan, perhatian, semangat, serta motivasi kepada penulis selama menjalani kegiatan PKL hingga penyusunan laporan ini dapat terselesaikan.</li>
+                <li class="mb-2"><strong>Bapak/Ibu guru</strong>, khususnya guru pembimbing PKL, yang telah memberikan arahan, bimbingan, serta ilmu yang sangat bermanfaat kepada penulis selama proses pelaksanaan PKL dan penyusunan laporan.</li>
+                <li class="mb-2"><strong>Pimpinan dan seluruh karyawan perusahaan tempat pelaksanaan PKL</strong> yang telah memberikan kesempatan kepada penulis untuk belajar secara langsung di dunia kerja, serta memberikan pengalaman, wawasan, dan pengetahuan baru yang sangat berguna.</li>
+                <li class="mb-2"><strong>Teman-teman seperjuangan</strong> yang telah memberikan bantuan, dukungan, dan kerja sama selama kegiatan PKL berlangsung, sehingga setiap kegiatan dapat dijalani dengan baik.</li>
+                <li class="mb-2"><strong>Semua pihak yang tidak dapat disebutkan satu per satu</strong> yang telah membantu penulis baik secara langsung maupun tidak langsung dalam pelaksanaan PKL maupun penyusunan laporan ini.</li>
+              </ol>
+              <p class="mb-0">
+                Penulis menyadari bahwa selama pelaksanaan PKL hingga penyusunan laporan ini masih terdapat banyak kekurangan. Oleh karena itu, penulis berharap pengalaman dan ilmu yang diperoleh selama kegiatan PKL dapat menjadi bekal yang bermanfaat untuk pengembangan kemampuan serta persiapan memasuki dunia kerja di masa mendatang.
+              </p>
+            </div>
+
+            <!-- KATA PENGANTAR -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-4 text-dark" style="letter-spacing: 1px;">KATA PENGANTAR</h2>
+              <p>
+                Dengan mengucapkan puji syukur kehadirat Allah SWT yang senantiasa melimpahkan rahmat, berkah, dan karunia-Nya, sehingga penulis dapat menyelesaikan laporan dokumentasi portofolio Praktik Kerja Lapangan (PKL) di <strong>[Nama Perusahaan / Instansi]</strong> dengan baik dan tepat waktu.
+              </p>
+              <p>
+                Laporan dokumentasi ini disusun berdasarkan kegiatan yang telah dilaksanakan selama penulis menjalani Praktik Kerja Lapangan di perusahaan tersebut. Penyusunan laporan ini bertujuan sebagai bentuk pertanggungjawaban atas pelaksanaan PKL serta sebagai salah satu syarat dan acuan dalam pelaksanaan ujian setelah kegiatan praktik kerja di dunia usaha selesai dilaksanakan.
+              </p>
+              <p class="fw-semibold mb-2">Pada kesempatan ini penulis ingin menyampaikan ucapan terima kasih kepada:</p>
+              <ul class="ps-3 mb-4">
+                <li class="mb-1.5"><strong>[Nama Kepala Sekolah/Pimpinan Kampus]</strong> selaku Kepala [Nama Sekolah / Perguruan Tinggi].</li>
+                <li class="mb-1.5"><strong>[Nama Ketua Program/Jurusan]</strong> selaku Ketua Konsentrasi Keahlian [JURUSAN/PROGRAM STUDI].</li>
+                <li class="mb-1.5"><strong>[Nama Pimpinan Perusahaan]</strong> selaku pimpinan perusahaan [Nama Perusahaan / Instansi].</li>
+                <li class="mb-1.5"><strong>[Nama Guru/Dosen Pembimbing]</strong> selaku guru pembimbing selama pelaksanaan Praktik Kerja Lapangan.</li>
+                <li class="mb-1.5"><strong>[Nama Pembimbing Industri]</strong> selaku pembimbing dari pihak industri.</li>
+                <li class="mb-1.5"><strong>Seluruh staff dan karyawan [Nama Perusahaan / Instansi]</strong> yang telah memberikan pengalaman, arahan, dan bantuan selama kegiatan PKL berlangsung.</li>
+                <li class="mb-1.5"><strong>Dewan guru beserta staff [Nama Sekolah / Perguruan Tinggi]</strong> atas bimbingan dan ilmu yang telah diberikan selama penulis menempuh pendidikan.</li>
+                <li class="mb-1.5"><strong>Teman-teman</strong> yang telah membantu dan memberikan dukungan hingga laporan Praktik Kerja Lapangan ini dapat terselesaikan dengan baik.</li>
+              </ul>
+              <p>
+                Penulis menyadari bahwa laporan ini masih memiliki kekurangan. Oleh karena itu, penulis mengharapkan kritik dan saran yang membangun demi perbaikan laporan di masa mendatang. Semoga laporan Praktik Kerja Lapangan ini dapat bermanfaat bagi semua pihak.
+              </p>
+              <div class="row justify-content-end mt-4">
+                <div class="col-sm-5 text-center">
+                  <div>[Kota], [Tanggal Bulan Tahun]</div>
+                  <div class="my-4 text-muted fst-italic">[Tanda Tangan]</div>
+                  <div class="fw-bold text-dark">[NAMA PESERTA]</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DAFTAR ISI & DAFTAR GAMBAR -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-4 text-dark" style="letter-spacing: 1px;">DAFTAR ISI & DAFTAR GAMBAR</h2>
+              <div class="row g-4 font-monospace small">
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light">
+                    <strong class="d-block border-bottom pb-2 mb-2 text-dark font-sans fw-bold">SISTEMATIKA BAB:</strong>
+                    <div>Daftar Gambar .................................................. v</div>
+                    <div class="fw-bold mt-2 text-primary">BAB I PENDAHULUAN ................................. 1</div>
+                    <div>1.1 Latar Belakang PKL .................................... 1</div>
+                    <div>1.2 Pengertian PKL ......................................... 1</div>
+                    <div>1.3 Tujuan PKL ............................................ 1</div>
+                    <div>1.4 Manfaat PKL ........................................... 2</div>
+                    <div>1.5 Manfaat Penulisan Portofolio PKL ...................... 2</div>
+                    <div class="fw-bold mt-2 text-primary">BAB II TINJAUAN UMUM DUDI .......................... 3</div>
+                    <div>2.1 Tempat dan Waktu Pelaksanaan PKL ...................... 3</div>
+                    <div>2.2 Sejarah Singkat DUDI ................................. 3</div>
+                    <div>2.3 Struktur Organisasi DUDI ............................. 4</div>
+                    <div>2.4 Tata Tertib, K3 ...................................... 5</div>
+                    <div>2.5 Prosedur PKL ......................................... 5</div>
+                    <div>2.6 Etika dan Perilaku ................................... 5</div>
+                    <div>2.7 Pelanggaran dan Sanksi ............................... 6</div>
+                    <div class="fw-bold mt-2 text-primary">BAB III PROSES DAN HASIL BELAJAR ................... 7</div>
+                    <div>3.1 Pekerjaan yang Dilakukan di DUDI ...................... 7</div>
+                    <div>3.2 Dokumentasi Kegiatan PKL ............................. 7</div>
+                    <div>3.3 Hambatan dan Pemecahan Masalah ....................... 15</div>
+                    <div class="fw-bold mt-2 text-primary">BAB IV PENUTUP .................................... 16</div>
+                    <div>4.1 Kesimpulan ........................................... 16</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light">
+                    <strong class="d-block border-bottom pb-2 mb-2 text-dark font-sans fw-bold">DAFTAR GAMBAR DOKUMENTASI:</strong>
+                    <div>2.2 Logo Perusahaan / Instansi ........................... 3</div>
+                    <div>2.3 Struktur Organisasi DUDIKA ........................... 4</div>
+                    <div>3.2.1 Membuat Tampilan Web di Blogger .................... 7</div>
+                    <div>3.2.2 Pembuatan Desain Visual Menggunakan AI .............. 8</div>
+                    <div>3.2.3 Monitoring Web via Google Search Console ............ 8</div>
+                    <div>3.2.4 Doa Sebelum Belajar & Briefing ..................... 9</div>
+                    <div>3.2.5 Piket Bersama ....................................... 9</div>
+                    <div>3.2.6 Membuat Artikel Website ............................ 10</div>
+                    <div>3.2.7 Memasukkan Tali & Inner ke Safety Box .............. 11</div>
+                    <div>3.2.8 Packing Safety Box ................................. 12</div>
+                    <div>3.2.9 Membuat Konten Video TikTok ........................ 12</div>
+                    <div>3.2.10 Promosi Lewat Google Local Guide / Maps .......... 13</div>
+                    <div>3.2.11 Membuat Goal Framework ............................ 13</div>
+                    <div>3.2.12 Mempelajari Content Pillar & Cluster .............. 14</div>
+                    <div>3.2.13 Membantu Merakit Totebag Souvenir ................. 15</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BAB I PENDAHULUAN -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-1 text-dark">BAB I</h2>
+              <h3 class="h6 fw-bold text-uppercase text-center mb-4 text-primary" style="letter-spacing: 1px;">PENDAHULUAN</h3>
+              
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">1.1 Latar Belakang</h4>
+              <p>
+                Praktik Kerja Lapangan (PKL) adalah suatu bentuk penyelenggaraan pendidikan keahlian profesional, yang memadukan secara sistematik dan sinkron antara program pendidikan di sekolah dan program pengusahaan yang diperoleh melalui kegiatan bekerja langsung di dunia kerja untuk mencapai suatu tingkat keahlian profesional.
+              </p>
+              <p>
+                Praktik Kerja Lapangan dilaksanakan untuk memenuhi kebutuhan tenaga kerja yang profesional di bidangnya. Melalui Praktik Kerja Lapangan diharapkan dapat menciptakan tenaga kerja yang profesional tersebut. Di mana para siswa yang melaksanakan pendidikan tersebut diharapkan dapat menerapkan ilmu yang didapat dan sekaligus mempelajari dunia industri.
+              </p>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">1.2 Pengertian PKL</h4>
+              <p>
+                Praktik Kerja Lapangan (PKL) adalah kegiatan pendidikan, pelatihan dan pembelajaran yang dilaksanakan di Dunia Usaha atau Dunia Industri dalam upaya pendekatan ataupun untuk meningkatkan mutu siswa-siswi Sekolah Menengah Kejuruan (SMK) dengan kompetensi (kemampuan) siswa sesuai bidangnya dan juga menambah bekal untuk masa-masa mendatang guna memasuki dunia kerja yang semakin banyak serta ketat dalam persaingannya seperti di masa sekarang ini.
+              </p>
+              <p>
+                Di samping dunia usaha, Praktik Kerja Lapangan (PKL) dapat memberikan keuntungan pada pelaksanaan itu sendiri yaitu sekolah, karena keahlian yang tidak diajarkan di sekolah bisa didapat di dunia usaha, sehingga dengan adanya Praktik Kerja Lapangan (PKL) dapat meningkatkan mutu dan relevansi Pendidikan Menengah Kejuruan yang dapat diarahkan untuk mengembangkan suatu sistem yang mantap antara dunia pendidikan dan dunia usaha.
+              </p>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">1.3 Tujuan PKL</h4>
+              <ol class="ps-3 mb-3">
+                <li class="mb-1.5">Memberikan pengalaman kerja secara langsung/nyata kepada peserta didik dalam rangka menanamkan dan menginternalisasi iklim kerja positif yang berorientasi pada peduli mutu, waktu, proses, biaya, dan hasil kerja.</li>
+                <li class="mb-1.5">Memberikan kesempatan kepada peserta didik untuk membangun dan mengembangkan karakter sesuai dengan nilai-nilai positif yang tumbuh dan diperlukan oleh masyarakat, khususnya di dunia kerja yang ditekuni.</li>
+                <li class="mb-1.5">Menghasilkan lulusan yang kompeten, yang memiliki tingkat pengetahuan, keterampilan, dan etos kerja yang sesuai dengan tuntutan dunia kerja.</li>
+                <li class="mb-1.5">Memperoleh hubungan keterkaitan dan kesepadanan (Link and Match) Sekolah Menengah Kejuruan (SMK/MAK) dengan dunia kerja.</li>
+                <li class="mb-1.5">Meningkatkan efisiensi proses pendidikan dan pelatihan lulusan yang berkualitas dan profesional.</li>
+                <li class="mb-1.5">Memberi pengakuan dan penghargaan terhadap pengalaman kerja sebagai bagian dari proses pendidikan dan pelatihan.</li>
+              </ol>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">1.4 Manfaat PKL</h4>
+              <ul class="ps-3 mb-3">
+                <li class="mb-1.5">Menambah keterampilan, pengetahuan, gagasan seputar dunia usaha serta industri yang profesional dan andal.</li>
+                <li class="mb-1.5">Membantu mengasah keterampilan yang sebelumnya telah diberikan di sekolah.</li>
+                <li class="mb-1.5">Membentuk pola pikir siswa agar terkonstruktif secara baik serta memberikan pengalaman dalam dunia industri maupun dunia kerja.</li>
+              </ul>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">1.5 Manfaat Penulisan Dokumentasi Portofolio PKL</h4>
+              <ul class="ps-3 mb-0">
+                <li class="mb-1.5">Salah satu bukti bahwa telah mengikuti program Praktik Kerja Lapangan (PKL) dengan baik.</li>
+                <li class="mb-1.5">Salah satu bentuk pertanggungjawaban dari siswa setelah mengikuti program Praktik Kerja Lapangan (PKL) sesuai keahliannya masing-masing.</li>
+                <li class="mb-1.5">Meningkatkan kemampuan siswa dalam hal menulis laporan yang bersifat resmi dan penting, sehingga siswa dapat lebih memperhatikan kosakata dan penulisan kata yang baik.</li>
+              </ul>
+            </div>
+
+            <!-- BAB II TINJAUAN UMUM -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-1 text-dark">BAB II</h2>
+              <h3 class="h6 fw-bold text-uppercase text-center mb-4 text-primary" style="letter-spacing: 1px;">TINJAUAN UMUM PERUSAHAAN / DUDI</h3>
+              
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.1 Tempat dan Waktu Pelaksanaan PKL</h4>
+              <p>
+                Waktu pelaksanaan Praktik Kerja Lapangan (PKL) dilaksanakan mulai tanggal 5 Januari 2026 sampai 27 Juni 2026, sesuai jadwal yang telah ditentukan. Dalam melaksanakan Praktik Kerja Lapangan (PKL) di <strong>[NAMA PERUSAHAAN / INSTANSI]</strong> yang berlokasi di <strong>[Alamat Lengkap Perusahaan]</strong> menggunakan sistem 5 (lima) hari kerja yaitu hari Senin – Jumat dimulai pukul 08.00 - 16.00 WIB.
+              </p>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.2 Sejarah Singkat Perusahaan / Instansi</h4>
+              <p>
+                <strong>CV Saudagar Kaya Abadi</strong> merupakan perusahaan agensi digital dan industri kreatif yang berfokus pada strategi digital marketing komprehensif meliputi Blog Marketing (Web 2.0), Video Marketing, Social Media Marketing, Forum Marketing, SEO (Search Engine Optimization), Desain Visual, serta Pelatihan Digital Marketing.
+              </p>
+              <p>
+                Peserta magang diharapkan sesudah mengikuti program magang di CV Saudagar Kaya Abadi dapat menguasai ilmu-ilmu praktis seputar dunia digital marketing dan teknologi industri, sehingga memunculkan kreativitas siswa dalam bersaing di dunia bisnis maupun kewirausahaan (*entrepreneurship*).
+              </p>
+              <div class="p-3 bg-light border rounded-3 mb-3">
+                <div class="fw-bold mb-1">Visi & Misi Perusahaan:</div>
+                <div><strong>a. Visi:</strong> Menjadi mitra industri terpercaya dalam transformasi talenta muda vokasi menuju profesional digital yang kompeten dan berdaya saing global.</div>
+                <div class="mt-1"><strong>b. Misi:</strong> Memberikan bimbingan proyek nyata terstruktur, menyediakan fasilitas kerja kondusif, dan mengintegrasikan pembelajaran industri modern ke dalam kurikulum magang kejuruan.</div>
+              </div>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.3 Struktur Organisasi DUDIKA</h4>
+              <p>
+                Struktur organisasi di tempat PKL terdiri atas Direktur Utama, Pembimbing Industri, Tim Desain & Media Kreatif, Tim SEO & Website, serta Tim Produksi Souvenir & Pengemasan. Setiap bagian memiliki tugas dan tanggung jawab sesuai bidangnya.
+              </p>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.4 Tata Tertib, Keselamatan dan Kesehatan Kerja (K3)</h4>
+              <p>
+                Fasilitas selama PKL disediakan oleh perusahaan untuk menunjang kenyamanan siswa, seperti air minum, koneksi internet Wi-Fi kecepatan tinggi, dan perangkat PC kerja.
+              </p>
+              <p class="fw-semibold mb-1">Kewajiban Siswa Selama PKL:</p>
+              <ul class="ps-3 mb-3">
+                <li>Berpakaian bebas rapi, bersih, dan sopan.</li>
+                <li>Melaksanakan penugasan PKL sesuai jadwal yang telah dibuat bersama mentor.</li>
+                <li>Hadir tepat waktu sebelum jam kerja dimulai (sebelum pukul 08.00 WIB).</li>
+              </ul>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.5 Prosedur PKL</h4>
+              <p>
+                Praktik kerja lapangan mempunyai prosedur persiapan sebelum dan selama praktik:
+              </p>
+              <ul class="ps-3 mb-3">
+                <li>Siswa mempersiapkan diri terkait kompetensi di bidang keahlian sekolah.</li>
+                <li>Belajar berinteraksi, bersikap santun, dan membangun kerja sama tim yang baik.</li>
+                <li>Mengikuti pembekalan teknis dari guru pembimbing sekolah.</li>
+                <li>Mempersiapkan berkas administrasi resmi (surat pengantar, CV, surat balasan).</li>
+                <li>Menyiapkan transportasi dan menyiapkan buku jurnal harian PKL.</li>
+              </ul>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.6 Etika dan Perilaku</h4>
+              <ul class="ps-3 mb-3">
+                <li>Siswa wajib bersikap sopan, santun, dan ramah kepada mentor serta sesama rekan kerja.</li>
+                <li>Tidak diperbolehkan menyalahgunakan fasilitas perusahaan (komputer, akun, dan akses sistem) untuk kepentingan pribadi.</li>
+                <li>Siswa harus bekerja secara jujur, disiplin, teliti, dan bertanggung jawab.</li>
+              </ul>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">2.7 Pelanggaran dan Sanksi</h4>
+              <p class="mb-0">
+                Setiap pelanggaran terhadap tata tertib dikenakan sanksi bertahap mulai dari teguran lisan, peringatan tertulis, hingga pelaporan kepada pihak sekolah. Siswa wajib menjaga kebersihan ruang studio kerja demi keamanan bersama.
+              </p>
+            </div>
+
+            <!-- BAB III PROSES DAN HASIL BELAJAR -->
+            <div class="doc-section mb-5 pb-4 border-bottom">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-1 text-dark">BAB III</h2>
+              <h3 class="h6 fw-bold text-uppercase text-center mb-4 text-primary" style="letter-spacing: 1px;">PROSES DAN HASIL BELAJAR DI TEMPAT PKL</h3>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">3.1 Pekerjaan yang Dilakukan di Tempat PKL</h4>
+              <p>
+                Berikut adalah 13 rangkaian penugasan nyata yang dikerjakan peserta didik selama masa magang di DUDI:
+              </p>
+
+              <!-- List 13 Kegiatan dengan Dokumentasi Gambar -->
+              <div class="row g-4 my-2">
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">1. Membuat Web di Blogger</strong>
+                    <p class="small text-secondary mb-2">Melakukan pembuatan dan pengembangan tampilan website perusahaan menggunakan Blogger dengan menyesuaikan tata letak, menu navigasi, dan elemen visual responsif. (Contoh web: <code>https://www.corporategiftindo.com</code>).</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.1 Tampilan Blogger</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">2. Pembuatan Desain Visual Menggunakan AI</strong>
+                    <p class="small text-secondary mb-2">Membuat foto produk dengan mengunggah mentahan foto box/barang ke platform AI generatif dengan prompt khusus untuk mengubah latar belakang menjadi studio profesional komersial.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.2 Desain Visual AI</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">3. Monitoring Web via Google Search Console</strong>
+                    <p class="small text-secondary mb-2">Melakukan pemantauan performa website melalui GSC dengan menganalisis metrik jumlah klik, total tayangan, rata-rata CTR, dan posisi ranking kata kunci untuk mendukung optimasi SEO.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.3 Monitoring GSC</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">4. Doa Bersama Sebelum Belajar & Bekerja</strong>
+                    <p class="small text-secondary mb-2">Mengawali rutinitas pagi dengan doa bersama agar kegiatan harian berjalan lancar, berkah, serta mempererat kebersamaan dan kekeluargaan seluruh anggota tim.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.4 Doa Bersama</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">5. Piket Menjaga Kebersihan Area Kerja</strong>
+                    <p class="small text-secondary mb-2">Membersihkan area studio, menyapu lantai, dan merapikan meja komputer setelah jam kerja selesai demi menumbuhkan rasa tanggung jawab dan kepedulian lingkungan.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.5 Piket Studio</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">6. Membuat Artikel SEO Website</strong>
+                    <p class="small text-secondary mb-2">Menulis artikel edukatif dan komersial untuk kebutuhan website perusahaan, mencari referensi tepercaya, serta menyusun struktur paragraf yang rapi dan informatif.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.6 Artikel Website</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">7. Memasukkan Tali & Inner ke Safety Box</strong>
+                    <p class="small text-secondary mb-2">Memasang tali pengaman dan busa inner ke dalam safety box secara teliti dan rapi agar produk terlindung dengan baik sebelum dikirim ke pelanggan.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.7 Perakitan Safety Box</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">8. Packing & Pengemasan Safety Box</strong>
+                    <p class="small text-secondary mb-2">Melipat, menyusun, dan mengemas kardus safety box dengan standar kerapian tinggi guna mencegah kerusakan fisik selama proses distribusi logistik.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.8 Packing Safety Box</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">9. Membuat Konten Video Promosi Media Sosial</strong>
+                    <p class="small text-secondary mb-2">Merekam dan mengedit video pendek seputar aktivitas kerja magang (*A Day in My Life*) untuk diunggah ke akun TikTok dan Instagram sebagai materi promosi digital.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.9 Konten Video TikTok</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">10. Promosi Lewat Google Local Guide (Maps)</strong>
+                    <p class="small text-secondary mb-2">Membantu visibilitas profil bisnis perusahaan di Google Maps melalui kontribusi foto studio, ulasan positif, dan verifikasi informasi lokasi kantor.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.10 Google Local Guide</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">11. Membuat Goal Framework Pengembangan Diri</strong>
+                    <p class="small text-secondary mb-2">Menentukan target pencapaian satu tahun ke depan, yaitu membuat website portofolio pribadi sebagai bukti penguasaan keterampilan digital dan portofolio kerja nyata.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.11 Goal Framework</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 border rounded-3 bg-light h-100">
+                    <strong class="d-block text-primary mb-1">12. Mempelajari Content Pillar & Cluster SEO</strong>
+                    <p class="small text-secondary mb-2">Menyusun strategi konten website menggunakan metode pillar page dan cluster support content agar artikel saling terhubung dan mendongkrak peringkat web di Google.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.12 Content Pillar & Cluster</small>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="p-3 border rounded-3 bg-light">
+                    <strong class="d-block text-primary mb-1">13. Membantu Merakit Totebag Souvenir Klien</strong>
+                    <p class="small text-secondary mb-2">Membantu proses perakitan manual totebag merchandise, pengecekan jahitan, pemasangan aksesoris, dan kontrol mutu kerapian sebelum diserahkan kepada pemesan.</p>
+                    <small class="text-muted fst-italic">Ref: Gambar 3.2.13 Perakitan Totebag</small>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">3.3 Hambatan Selama PKL dan Pemecahan Masalah</h4>
+              <div class="p-3 border rounded-3 bg-white mb-2">
+                <strong class="text-danger d-block mb-1"><i class="bi bi-exclamation-triangle-fill me-1"></i>Hambatan yang Dihadapi:</strong>
+                <ul class="ps-3 mb-2 small text-secondary">
+                  <li>Cukup sulit beradaptasi dengan ritme kerja industri dan orang baru saat minggu pertama magang.</li>
+                  <li>Keterbatasan pengetahuan awal mengenai software khusus dan logika strategi digital marketing.</li>
+                </ul>
+                <strong class="text-success d-block mb-1"><i class="bi bi-check-circle-fill me-1"></i>Solusi & Pemecahan Masalah:</strong>
+                <ul class="ps-3 mb-0 small text-secondary">
+                  <li>Memberanikan diri bergaul dan menjalin komunikasi ramah dengan seluruh rekan dan mentor kerja.</li>
+                  <li>Meningkatkan rasa percaya diri dan inisiatif bertanya setiap kali menghadapi kebingungan tugas.</li>
+                  <li>Mencatat instruksi mentor dan memanfaatkan waktu luang untuk mempelajari tutorial mandiri.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- BAB IV PENUTUP -->
+            <div class="doc-section mb-0">
+              <h2 class="h5 fw-bold text-uppercase text-center mb-1 text-dark">BAB IV</h2>
+              <h3 class="h6 fw-bold text-uppercase text-center mb-4 text-primary" style="letter-spacing: 1px;">PENUTUP</h3>
+              
+              <h4 class="h6 fw-bold text-dark mt-4 mb-2">4.1 Kesimpulan</h4>
+              <p>
+                Setelah melaksanakan Praktik Kerja Lapangan (PKL) selama kurang lebih 6 bulan di <strong>[NAMA PERUSAHAAN / INSTANSI]</strong>, penulis memperoleh banyak pengalaman, pengetahuan, serta keterampilan baru yang tidak didapatkan secara langsung di bangku sekolah. Melalui kegiatan PKL ini, penulis dapat memahami bagaimana dunia kerja yang sebenarnya, mulai dari kedisiplinan, tanggung jawab, kerja sama tim, hingga cara menyelesaikan pekerjaan sesuai target dan standar perusahaan.
+              </p>
+              <p>
+                Selama PKL, penulis mempelajari berbagai bidang pekerjaan seperti pembuatan artikel website, pengelolaan web Blogger, dasar-dasar SEO, pembuatan konten visual, serta proses produksi dan pengemasan produk. Dari kegiatan tersebut, penulis menjadi lebih memahami pentingnya kreativitas, ketelitian, komunikasi, dan kemampuan beradaptasi dalam lingkungan kerja profesional.
+              </p>
+              <p>
+                Selain meningkatkan kemampuan teknis (*hard skill*), PKL juga memberikan pengalaman dalam membentuk sikap kerja (*soft skill*) yang lebih mandiri, disiplin, percaya diri, dan bertanggung jawab. Penulis menyadari bahwa dunia industri membutuhkan tidak hanya kemampuan akademik, tetapi juga etika kerja dan kemampuan bekerja sama dengan orang lain.
+              </p>
+              <p class="mb-0">
+                Dengan adanya kegiatan PKL ini, penulis berharap pengalaman dan ilmu yang telah diperoleh dapat menjadi bekal yang bermanfaat untuk menghadapi dunia kerja maupun untuk melanjutkan pendidikan ke jenjang yang lebih tinggi. PKL juga menjadi pengalaman berharga yang membantu penulis mempersiapkan diri menjadi sumber daya manusia yang lebih kompeten, profesional, dan siap bersaing di era digital.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="p-4 rounded-4 bg-primary-subtle border border-primary-subtle text-center mb-5">
+            <h3 class="h6 fw-bold text-primary mb-2">Siap Menyusun Laporan PKL SMK Anda?</h3>
+            <p class="small text-secondary mb-3">
+              Salin naskah lengkap di atas ke Microsoft Word atau Google Docs, kemudian sesuaikan bagian dalam tanda kurung siku dengan data resmi sekolah dan tempat magang Anda.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-2">
+              <button
+                type="button"
+                id="copyDocBottomBtn"
+                class="btn btn-primary rounded-pill px-4 py-2 font-sans fw-semibold shadow-xs"
+              >
+                <i class="bi bi-clipboard-check me-1"></i>Salin Seluruh Naskah ke Clipboard
+              </button>
+              <a
+                href={waLink('Halo Admin PKL di Saka, saya ingin konsultasi mengenai format laporan PKL SMK.')}
+                target="_blank"
+                rel="noopener"
+                class="btn btn-outline-success rounded-pill px-4 py-2 font-sans fw-semibold shadow-xs"
+              >
+                <i class="bi bi-whatsapp me-1"></i>Konsultasi Laporan via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <RelatedLinks
+            links={[
+              { path: '/dokumen-pkl/laporan-pkl/', title: 'Panduan Menyusun Laporan Akhir PKL' },
+              { path: '/dokumen-pkl/jurnal-harian/', title: 'Panduan Pengisian Jurnal Harian PKL' },
+              { path: '/dokumen-pkl/presentasi/', title: 'Panduan Menyiapkan Slide Presentasi Evaluasi PKL' },
+              { path: '/blog/contoh-laporan-pkl-smk/', title: 'Artikel Blog: Contoh Laporan PKL SMK Doc & PDF' },
+            ]}
+          />
+
+          <FAQList faqs={faqs} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
+
+<script>
+  function setupCopyButton() {
+    const copyBtn = document.getElementById('copyDocBtn');
+    const copyBottomBtn = document.getElementById('copyDocBottomBtn');
+    const copyText = document.getElementById('copyBtnText');
+    const paper = document.getElementById('naskah-dokumen');
+
+    function performCopy() {
+      if (!paper) return;
+      const textToCopy = paper.innerText;
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        if (copyText) copyText.innerText = 'Naskah Tersalin!';
+        if (copyBtn) copyBtn.classList.replace('btn-outline-primary', 'btn-success');
+        if (copyBottomBtn) copyBottomBtn.innerText = '✓ Berhasil Disalin ke Clipboard!';
+
+        setTimeout(() => {
+          if (copyText) copyText.innerText = 'Salin Seluruh Naskah';
+          if (copyBtn) copyBtn.classList.replace('btn-success', 'btn-outline-primary');
+          if (copyBottomBtn) copyBottomBtn.innerHTML = '<i class="bi bi-clipboard-check me-1"></i>Salin Seluruh Naskah ke Clipboard';
+        }, 3000);
+      }).catch(err => {
+        console.error('Gagal menyalin:', err);
+      });
+    }
+
+    if (copyBtn) copyBtn.addEventListener('click', performCopy);
+    if (copyBottomBtn) copyBottomBtn.addEventListener('click', performCopy);
+  }
+
+  document.addEventListener('DOMContentLoaded', setupCopyButton);
+</script>
+
+<style>
+  .doc-paper-container {
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    border-radius: 16px;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .doc-paper-container h1,
+  .doc-paper-container h2,
+  .doc-paper-container h3,
+  .doc-paper-container h4 {
+    font-family: 'Bricolage Grotesque Variable', sans-serif;
+  }
+</style>
