@@ -9,8 +9,8 @@ authorRole: "Penulis & Reviewer Teknis Vokasi Industri Saka Malang"
 published: 2026-11-24
 updated: 2026-11-24
 readingTime: "~7 Menit"
-image: "/images/blog/laporan-pkl-rpl-1.webp"
-imageAlt: "Panduan cara membuat laporan PKL RPL BAB 1 sampai BAB 4 secara bertahap dan terstruktur"
+image: "/images/blog/cara-membuat-laporan-1.webp"
+imageAlt: "Kolaborasi siswa SMK RPL dalam praktik penulisan dan cara membuat laporan PKL RPL"
 imageCaption: "Langkah teratur siswa SMK menyusun setiap bab laporan magang industri berdasarkan catatan portofolio aktual."
 keywords:
   - "cara membuat laporan PKL RPL"
@@ -32,8 +32,8 @@ Dengan pendekatan bertahap, Anda dapat menyelesaikan BAB I hingga BAB IV dengan 
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-1.webp"
-    alt="Panduan cara membuat laporan PKL RPL BAB 1 sampai BAB 4 secara bertahap dan terstruktur"
+    src="/images/blog/cara-membuat-laporan-1.webp"
+    alt="Kolaborasi siswa SMK RPL dalam praktik penulisan dan cara membuat laporan PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
@@ -66,15 +66,15 @@ BAB I berfungsi sebagai pembuka akademis laporan. Susun dengan alur berikut:
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-2.webp"
-    alt="Siswa SMK RPL menyusun pembahasan BAB III dengan menganalisis kode proyek di laptop"
+    src="/images/blog/cara-membuat-laporan-2.webp"
+    alt="Bimbingan mentor industri dalam menyusun pembahasan laporan teknis"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Menyusun pembahasan tugas teknis BAB III dengan mencocokkan potongan kode dan tampilan antarmuka sistem.
+    Menyusun pembahasan tugas teknis BAB III dengan mencocokkan potongan kode dan tampilan antarmuka sistem bersama mentor.
   </figcaption>
 </figure>
 
@@ -104,15 +104,15 @@ BAB III adalah bagian dengan bobot penilaian tertinggi. Untuk setiap penugasan y
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-3.webp"
-    alt="Sesi asistensi draf laporan PKL bersama pembimbing industri"
+    src="/images/blog/cara-membuat-laporan-3.webp"
+    alt="Siswa magang SMK RPL bekerja mandiri menyelesaikan penugasan dan draf laporan"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Konsultasi draf laporan bersama pembimbing untuk memastikan akurasi data dan kesesuaian format sebelum sidang.
+    Penyelesaian modul aplikasi dan penyusunan draf laporan secara mandiri dan disiplin.
   </figcaption>
 </figure>
 

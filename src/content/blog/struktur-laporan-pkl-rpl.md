@@ -9,7 +9,7 @@ authorRole: "Penulis & Reviewer Teknis Vokasi Industri Saka Malang"
 published: 2026-11-24
 updated: 2026-11-24
 readingTime: "~6 Menit"
-image: "/images/blog/laporan-pkl-rpl-2.webp"
+image: "/images/blog/struktur-laporan-pkl-1.webp"
 imageAlt: "Siswa jurusan RPL mengamati struktur laporan PKL RPL dan alur penulisan dokumen di komputer"
 imageCaption: "Penyusunan sistematika naskah laporan PKL jurusan Rekayasa Perangkat Lunak agar rapi dan mudah dievaluasi guru penguji."
 keywords:
@@ -32,7 +32,7 @@ Jika Anda sedang mencari gambaran komprehensif dari awal hingga akhir, Anda dapa
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-2.webp"
+    src="/images/blog/struktur-laporan-pkl-1.webp"
     alt="Siswa jurusan RPL mengamati struktur laporan PKL RPL dan alur penulisan dokumen di komputer"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
@@ -71,15 +71,15 @@ Berikut urutan hierarki standar penyusunan laporan magang kejuruan:
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-1.webp"
-    alt="Diskusi siswa SMK dalam merancang struktur laporan PKL RPL bersama tim magang"
+    src="/images/blog/struktur-laporan-pkl-2.webp"
+    alt="Dokumen laporan PKL dijilid rapi beserta lembar pengesahan dan rincian bab laporan"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Diskusi kelompok siswa magang dalam menyelaraskan format laporan sesuai template panduan sekolah.
+    Format draf berkas laporan PKL lengkap dengan penataan margin dan nomor halaman standar sekolah.
   </figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Berikut urutan hierarki standar penyusunan laporan magang kejuruan:
 Memuat identitas resmi institusi mitra, sejarah singkat berdirinya perusahaan, bidang produk/layanan digital, bagan struktur organisasi divisi, serta tata tertib kedisiplinan dan Keselamatan & Kesehatan Kerja (K3).
 
 ### 4. BAB III Pelaksanaan dan Pembahasan Hasil Belajar
-Merupakan bab inti dengan bobot nilai terbesar. Membahas divisi penempatan siswa, uraian 13 atau lebih aktivitas harian nyata, teknologi pemrograman yang dipakai (HTML, CSS, JavaScript, Git, CMS, dsb.), kendala teknis yang dihadapi, solusi pemecahan masalah, serta portofolio output kerja yang berhasil diselesaikan. Jika Anda masih bingung menentukan topik bahasan, simak referensi [contoh judul laporan PKL RPL](/blog/contoh-judul-laporan-pkl-rpl/).
+Merupakan bab inti dengan bobot nilai terbesar. Membahas divisi penempatan siswa, uraian aktivitas harian nyata, teknologi pemrograman yang dipakai (HTML, CSS, JavaScript, Git, CMS, dsb.), kendala teknis yang dihadapi, solusi pemecahan masalah, serta portofolio output kerja yang berhasil diselesaikan. Jika Anda masih bingung menentukan topik bahasan, simak referensi [contoh judul laporan PKL RPL](/blog/contoh-judul-laporan-pkl-rpl/).
 
 ### 5. BAB IV Penutup
 - **4.1 Kesimpulan:** Rangkuman objektif atas ketercapaian target magang dan keterampilan yang terbentuk.
@@ -99,15 +99,15 @@ Merupakan bab inti dengan bobot nilai terbesar. Membahas divisi penempatan siswa
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-3.webp"
-    alt="Mentor industri membimbing siswa dalam mereview sistematika bab dan lampiran laporan magang"
+    src="/images/blog/struktur-laporan-pkl-3.webp"
+    alt="Konsultasi struktur bab laporan magang siswa bersama mentor industri"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Mentor industri melakukan review sistematika bab laporan sebelum dicetak dan ditandatangani.
+    Konsultasi langsung untuk memvalidasi kelengkapan dokumen dan sistematika isi laporan PKL RPL.
   </figcaption>
 </figure>
 

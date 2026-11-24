@@ -9,9 +9,9 @@ authorRole: "Penulis & Reviewer Teknis Vokasi Industri Saka Malang"
 published: 2026-11-24
 updated: 2026-11-24
 readingTime: "~5 Menit"
-image: "/images/blog/laporan-pkl-rpl-3.webp"
-imageAlt: "Mentor industri membimbing siswa dalam menentukan contoh judul laporan PKL RPL yang sesuai penugasan nyata"
-imageCaption: "Konsultasi penentuan topik dan judul laporan PKL jurusan Rekayasa Perangkat Lunak agar fokus dan mudah dipertanggungjawabkan."
+image: "/images/blog/judul-laporan-pkl-1.webp"
+imageAlt: "Presentasi proyek web siswa SMK yang menjadi acuan contoh judul laporan PKL RPL"
+imageCaption: "Presentasi dan evaluasi judul laporan PKL jurusan Rekayasa Perangkat Lunak agar fokus dan mudah dipertanggungjawabkan."
 keywords:
   - "contoh judul laporan PKL RPL"
   - "judul laporan magang RPL SMK"
@@ -32,15 +32,15 @@ Bagi Anda yang menjalani pembinaan industri di [PKL di Saka](https://www.pkldisa
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-3.webp"
-    alt="Mentor industri membimbing siswa dalam menentukan contoh judul laporan PKL RPL yang sesuai penugasan nyata"
+    src="/images/blog/judul-laporan-pkl-1.webp"
+    alt="Presentasi proyek web siswa SMK yang menjadi acuan contoh judul laporan PKL RPL"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Sesi mentoring penentuan topik laporan agar sesuai dengan kontribusi nyata siswa selama di industri.
+    Siswa mempresentasikan hasil akhir proyek digital yang dijadikan topik judul laporan magang industri.
   </figcaption>
 </figure>
 
@@ -71,15 +71,15 @@ Berikut 30 pilihan inspirasi judul laporan magang kejuruan yang dikelompokkan be
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-1.webp"
-    alt="Siswa SMK RPL bekerja sama menyusun laporan proyek website"
+    src="/images/blog/judul-laporan-pkl-2.webp"
+    alt="Siswa SMK RPL fokus menulis kode pemrograman antarmuka sistem web"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Kolaborasi siswa dalam mengimplementasikan desain web responsif yang diangkat sebagai topik laporan.
+    Praktik penulisan kode antarmuka web yang menjadi dasar penentuan judul laporan magang kejuruan.
   </figcaption>
 </figure>
 
@@ -101,15 +101,15 @@ Berikut 30 pilihan inspirasi judul laporan magang kejuruan yang dikelompokkan be
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/laporan-pkl-rpl-2.webp"
-    alt="Siswa SMK RPL menganalisis basis data dan kode proyek untuk penulisan laporan"
+    src="/images/blog/judul-laporan-pkl-3.webp"
+    alt="Siswa SMK RPL menguji performa website dan struktur navigasi halaman"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Pengujian performa data dan pencatatan hasil query untuk dimasukkan ke dalam lampiran laporan magang.
+    Pengujian fungsionalitas dan performa halaman web sebagai bahan kajian laporan akhir PKL.
   </figcaption>
 </figure>
 
