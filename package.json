@@ -16,7 +16,8 @@
     "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
     "astro": "^5.13.0",
     "bootstrap": "^5.3.8",
-    "bootstrap-icons": "^1.13.2"
+    "bootstrap-icons": "^1.13.2",
+    "mammoth": "^1.13.0"
   },
   "devDependencies": {
     "purgecss": "^8.0.0"
