@@ -1,136 +1,142 @@
 ---
-title: "Contoh Laporan PKL RPL dan Panduan Menyusunnya Sesuai Standar Sekolah"
-description: "Pelajari struktur dan contoh laporan PKL RPL mulai dari pendahuluan, kegiatan, hingga kesimpulan. Susun laporan magang sesuai pedoman sekolah dengan benar."
-answer: "Contoh laporan PKL RPL memuat susunan baku yang terdiri dari halaman judul (sampul), lembar pengesahan sekolah dan industri, kata pengantar, daftar isi, BAB I Pendahuluan, BAB II Profil Perusahaan Mitra (seperti CV Saudagar Kaya Abadi), BAB III Pembahasan Kegiatan Teknis (pembuatan website dan landing page), BAB IV Penutup (kesimpulan dan saran), serta Lampiran dokumen dan jurnal kerja harian."
+title: "Contoh Laporan PKL RPL Lengkap dan Susunannya untuk SMK"
+description: "Pelajari contoh laporan PKL RPL dari cover, kata pengantar, BAB I-IV, daftar pustaka, hingga lampiran. Dilengkapi panduan penyesuaian untuk siswa SMK."
+answer: "Laporan PKL RPL adalah dokumen resmi yang menjelaskan kegiatan, tugas kejuruan, proses kerja, pemecahan kendala, dan hasil belajar siswa selama menjalani Praktik Kerja Lapangan. Umumnya, laporan terdiri dari bagian awal (cover, pengesahan, kata pengantar, daftar isi), BAB I Pendahuluan, BAB II Profil Industri Mitra, BAB III Pelaksanaan Proyek Kerja, BAB IV Penutup, Daftar Pustaka, serta Lampiran portofolio dan jurnal harian."
 category: "Kurikulum & Penugasan"
-eyebrow: "PANDUAN PENYUSUNAN LAPORAN MAGANG RPL"
+eyebrow: "PANDUAN PENYUSUNAN LAPORAN PKL REKAYASA PERANGKAT LUNAK"
 author: "Mochammad Evan Pratama"
 authorRole: "Penulis & Reviewer Teknis Vokasi Industri Saka Malang"
-published: 2026-11-14
-updated: 2026-11-14
+published: 2026-11-24
+updated: 2026-11-24
 readingTime: "~8 Menit"
-image: "/images/blog/contoh-laporan-pkl-rpl.webp"
-imageAlt: "Siswa praktik pemrograman komputer terkait contoh laporan pkl rpl"
-imageCaption: "Penyusunan berkas laporan pertanggungjawaban kegiatan PKL jurusan Rekayasa Perangkat Lunak secara terstruktur dan sistematis."
+image: "/images/blog/laporan-pkl-rpl-1.webp"
+imageAlt: "Siswa SMK jurusan Rekayasa Perangkat Lunak berdiskusi menyusun contoh laporan PKL RPL di ruang kerja"
+imageCaption: "Aktivitas siswa SMK jurusan RPL dalam menyusun draf naskah laporan pertanggungjawaban Praktik Kerja Lapangan secara sistematis."
 keywords:
   - "contoh laporan PKL RPL"
+  - "struktur laporan PKL RPL"
   - "cara membuat laporan PKL RPL"
-  - "susunan laporan magang SMK RPL"
-  - "laporan PKL rekayasa perangkat lunak"
-  - "format laporan magang sekolah"
+  - "contoh judul laporan PKL RPL"
+  - "laporan magang SMK RPL"
 faq:
   - q: "Apa saja isi pokok dalam laporan PKL jurusan RPL?"
-    a: "Isi pokok meliputi pendahuluan tujuan magang, profil institusi/perusahaan mitra, rincian kompetensi teknis yang dikerjakan (web/software), hasil proyek akhir, kendala beserta solusinya, kesimpulan, serta lampiran jurnal harian."
-  - q: "Berapa jumlah halaman minimal untuk laporan PKL SMK?"
-    a: "Tidak ada standar mutlak karena mengikuti buku pedoman masing-masing SMK. Rata-rata laporan berkisar antara 25 hingga 50 halaman termasuk lampiran dokumentasi dan tangkapan layar kode."
-  - q: "Apakah kode program (source code) harus dilampirkan seluruhnya?"
-    a: "Tidak perlu melampirkan ribuan baris kode. Cukup sertakan potongan kode kunci (*code snippets*) yang paling relevan dengan modul yang Anda buat, disertai tangkapan layar antarmuka hasil akhir."
-  - q: "Apakah laporan PKL harus dipresentasikan di depan penguji?"
-    a: "Sebagian besar SMK mewajibkan ujian sidang atau seminar pertanggungjawaban PKL untuk menilai pemahaman siswa terhadap proyek yang telah dikerjakan selama di industri."
-  - q: "Apa tips agar laporan magang cepat disetujui pembimbing?"
-    a: "Mulailah mencicil penulisan sejak pertengahan masa magang, gunakan data jurnal harian yang akurat, konsultasikan draf bab per bab kepada mentor industri, dan patuhi format tata letak sekolah."
+    a: "Isi pokoknya mencakup pendahuluan, profil tempat PKL, rincian kompetensi teknis yang dikerjakan (web/software), dokumentasi hasil proyek, kendala beserta solusinya, kesimpulan, serta lampiran jurnal harian."
+  - q: "Apakah laporan PKL RPL harus membahas pembuatan aplikasi kompleks?"
+    a: "Tidak harus. Topik laporan disesuaikan dengan pekerjaan nyata, seperti pengembangan antarmuka website, pengujian fungsi fitur, pengelolaan data, pemeliharaan sistem, atau pembuatan dokumentasi teknis."
+  - q: "Berapa jumlah bab umum dalam laporan PKL SMK?"
+    a: "Standar umum sekolah vokasi menggunakan empat bab (BAB I Pendahuluan, BAB II Gambaran Umum Industri, BAB III Pelaksanaan & Pembahasan, BAB IV Penutup), dilengkapi bagian awal dan lampiran."
+  - q: "Apakah kode program (source code) harus dimasukkan seluruhnya?"
+    a: "Tidak perlu. Cukup sertakan potongan kode penting (*code snippets*) yang relevan dengan modul yang Anda selesaikan, disertai tangkapan layar tampilan antarmuka hasil akhir."
+  - q: "Di mana saya bisa melihat contoh naskah format laporan yang siap pakai?"
+    a: "Anda dapat melihat acuan format naskah lengkap pada halaman contoh laporan PKL SMK di website ini yang sudah disesuaikan dengan standar industri."
 ---
 
-Menyusun **laporan PKL RPL** merupakan tahapan akhir yang sangat menentukan kelulusan siswa SMK program keahlian Rekayasa Perangkat Lunak. Laporan ini bukan sekadar formalitas administratif pelengkap nilai rapor, melainkan dokumen pertanggungjawaban akademis yang merekam seluruh keterampilan teknis, proyek industri, dan kedisiplinan yang telah Anda pelajari selama masa magang.
+Menyusun **contoh laporan PKL RPL** yang rapi, runtut, dan sesuai kaidah akademis merupakan tahapan penting bagi siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) maupun Pengembangan Perangkat Lunak dan Gim (PPLG). Laporan ini bukan sekadar formalitas pengumpulan berkas nilai, melainkan bukti otentik pertanggungjawaban atas proyek nyata dan etos kerja industri yang Anda pelajari selama magang.
 
-Bagi Anda yang menjalani program praktik kerja industri di agensi digital seperti CV Saudagar Kaya Abadi di Malang, proses penulisan laporan akan jauh lebih mudah karena setiap penugasan terstruktur dengan jelas. Anda dapat melihat ekosistem bimbingan vokasi di [PKL di Saka](/) serta menyelaraskan materi laporan Anda dengan kurikulum standar pada [PKL jurusan RPL](/jurusan/rpl/).
-
+Bagi Anda yang sedang merencanakan atau menjalani praktik kejuruan di dunia usaha, ekosistem pembinaan di [PKL di Saka](/) memberikan pengalaman langsung dalam menangani alur kerja digital agency, pengembangan web, dan optimasi performa digital. Untuk melihat contoh dokumen baku siap pakai, Anda dapat mempelajari panduan naskah di [contoh laporan PKL SMK](/dokumen-pkl/laporan-pkl/).
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/contoh-laporan-pkl-rpl.webp"
-    alt="Aktivitas penugasan proyek pemrograman siswa PKL RPL"
+    src="/images/blog/laporan-pkl-rpl-1.webp"
+    alt="Siswa SMK jurusan Rekayasa Perangkat Lunak berdiskusi menyusun contoh laporan PKL RPL di ruang kerja"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Pengorganisasian dokumen laporan PKL, penyusunan lembar pengesahan, dan verifikasi kelengkapan berkas magang.
+    Siswa SMK berkolaborasi meninjau draf laporan PKL RPL berdasarkan jurnal aktivitas kerja industri.
   </figcaption>
 </figure>
 
-## Struktur Baku Susunan Laporan PKL SMK Jurusan RPL
+## Mengapa Siswa Jurusan RPL Perlu Menyusun Laporan PKL?
 
-Secara umum, susunan laporan magang kejuruan mengikuti kaidah karya tulis ilmiah terapan berikut:
+Praktik Kerja Lapangan memberikan kesempatan bagi siswa untuk merasakan dinamika lingkungan kerja profesional. Bagi siswa program keahlian [PKL jurusan RPL](/jurusan/rpl/), kegiatan magang dapat berfokus pada pembuatan landing page, pengembangan web interaktif, pengujian perangkat lunak, hingga pengelolaan basis data.
 
-### Bagian Awal Laporan
-1. **Halaman Judul / Sampul Depan:** Memuat judul laporan yang jelas (contoh: *"Laporan Praktik Kerja Lapangan: Perancangan dan Implementasi Landing Page Responsif di CV Saudagar Kaya Abadi Malang"*), logo SMK, nama lengkap siswa, NIS/NISN, program keahlian, dan tahun ajaran.
-2. **Halaman Pengesahan Sekolah:** Ditandatangani oleh Guru Pembimbing dan Kepala Program Keahlian RPL.
-3. **Halaman Pengesahan Industri:** Ditandatangani oleh Mentor Lapangan dan Pimpinan Perusahaan Mitra disertai stempel resmi.
-4. **Kata Pengantar:** Ungkapan rasa syukur dan terima kasih kepada guru, pihak manajemen perusahaan, serta rekan satu tim.
-5. **Daftar Isi, Daftar Gambar, dan Daftar Tabel:** Panduan nomor halaman agar pembaca mudah menelusuri isi laporan.
+Laporan PKL berfungsi sebagai media dokumentasi tertulis yang menghubungkan teori di bangku sekolah dengan penerapan nyata di industri. Melalui laporan ini, guru pembimbing sekolah dapat mengevaluasi ketercapaian kompetensi kejuruan Anda, sekaligus melatih kemampuan komunikasi teknis siswa. 
 
-### Bagian Isi Laporan
+Jika Anda ingin memahami hierarki bab secara lebih mendalam, pelajari juga ulasan khusus mengenai [struktur laporan PKL RPL](/blog/struktur-laporan-pkl-rpl/) dan panduan langkah demi langkah pada [cara membuat laporan PKL RPL](/blog/cara-membuat-laporan-pkl-rpl/).
 
-#### BAB I: PENDAHULUAN
-- **Latar Belakang PKL:** Menjelaskan pentingnya pengalaman kerja industri bagi siswa kejuruan dalam menyongsong revolusi teknologi digital.
-- **Tujuan Pelaksanaan:** Menguraikan tujuan spesifik (misal: mengasah kemampuan styling CSS, memahami alur kerja agensi, dan membangun portofolio web nyata).
-- **Manfaat PKL:** Manfaat bagi siswa, sekolah, dan perusahaan mitra.
-- **Waktu dan Tempat Pelaksanaan:** Alamat lengkap kantor dan tanggal periode magang.
+---
 
-#### BAB II: TINJAUAN UMUM PERUSAHAAN MITRA
-- **Profil Singkat Perusahaan:** Menjelaskan profil **CV Saudagar Kaya Abadi** sebagai unit bisnis digital marketing dan pengembangan aset web di Malang.
-- **Visi dan Misi Perusahaan.**
-- **Struktur Organisasi:** Menggambarkan posisi divisi teknologi, tim konten, dan pembimbing lapangan.
+## Struktur Baku Laporan PKL RPL dari Awal sampai Akhir
+
+Secara umum, susunan laporan magang SMK RPL terdiri dari beberapa bagian utama:
+
+1. **Bagian Awal:** Halaman judul (cover), lembar pengesahan sekolah dan DUDI, motto, kata persembahan, kata pengantar, daftar isi, serta daftar gambar.
+2. **BAB I Pendahuluan:** Latar belakang pelaksanaan PKL, tujuan umum/khusus, manfaat bagi siswa, sekolah, dan perusahaan, waktu serta tempat pelaksanaan, dan metode pengumpulan data.
+3. **BAB II Profil Perusahaan Mitra:** Sejarah singkat perusahaan mitra, bidang layanan/usaha, visi misi, struktur organisasi, tata tertib, serta budaya kerja K3.
+4. **BAB III Pelaksanaan dan Pembahasan Kerja:** Uraian divisi kerja, tugas nyata harian, alat dan teknologi pemrograman yang digunakan, kendala yang dihadapi, solusi pemecahan masalah, serta hasil kompetensi.
+5. **BAB IV Penutup:** Kesimpulan capaian magang dan saran konstruktif.
+6. **Bagian Akhir:** Daftar pustaka referensi dan lampiran jurnal kerja.
+
+### Contoh Format Cover & Kata Pengantar
+
+Pada bagian cover, cantumkan judul proyek magang yang jelas, misalnya *"Pengembangan dan Pemeliharaan Website pada [Nama Perusahaan]"*. Pastikan menyertakan identitas lengkap seperti Nama, NIS/NISN, Kelas, Kompetensi Keahlian, serta logo resmi sekolah Anda.
+
+Untuk kata pengantar, sampaikan rasa syukur kepada Tuhan Yang Maha Esa dan ucapan terima kasih kepada pimpinan perusahaan mitra, pembimbing industri di [PKL di Saka](https://www.pkldisaka.id/), guru pembimbing sekolah, dan orang tua yang senantiasa memberi dukungan.
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/rpl-jurnal-kegiatan.webp"
-    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
+    src="/images/blog/laporan-pkl-rpl-2.webp"
+    alt="Siswa SMK RPL menganalisis struktur kode program sambil mencatat laporan kegiatan harian"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Rekapitulasi catatan jurnal aktivitas harian untuk dituangkan ke dalam bab pelaksanaan tugas laporan magang.
+    Pemeriksaan kode proyek dan pencatatan dokumentasi sistematis untuk kebutuhan pembahasan BAB III laporan PKL.
   </figcaption>
 </figure>
 
-#### BAB III: PELAKSANAAN KEGIATAN & PEMBAHASAN TEKNIS
-Bab ini adalah bagian terpenting dari seluruh laporan Anda. Jelaskan pekerjaan teknis yang Anda kerjakan secara rinci, misalnya:
-- **Alat dan Bahan:** Software yang digunakan (Visual Studio Code, Google Chrome DevTools, Git, Node.js).
-- **Langkah Kerja Pembuatan Halaman Web:**
-  1. Tahap analisis struktur konten dan pembuatan wireframe sederhana.
-  2. Tahap penulisan markup semantik HTML5.
-  3. Tahap penataan tata letak menggunakan CSS Flexbox dan CSS Grid.
-  4. Tahap penambahan interaktivitas menggunakan JavaScript.
-- **Pengujian & Evaluasi:** Menjelaskan hasil uji coba responsivitas pada perangkat mobile dan perbaikan bug yang ditemukan.
-- **Kendala yang Dihadapi dan Solusi:** Menguraikan masalah teknis yang dialami serta bagaimana bimbingan mentor membantu menyelesaikan kendala tersebut.
+---
 
-#### BAB IV: PENUTUP
-- **Kesimpulan:** Ringkasan capaian kompetensi yang berhasil dikuasai siswa selama masa magang.
-- **Saran:** Rekomendasi positif yang membangun bagi adik kelas calon peserta PKL dan bagi pihak penyelenggara.
+## Pembahasan BAB I Pendahuluan & BAB II Profil Industri
 
-### Bagian Akhir Laporan
-- **Daftar Pustaka:** Referensi buku kejuruan, dokumentasi resmi (MDN Web Docs, W3Schools), dan modul yang digunakan.
-- **Lampiran:** Lembar jurnal kegiatan harian bertanda tangan mentor, dokumentasi foto kerja nyata, serta cuplikan kode (*source code snippet*) penting.
+Pada **BAB I**, jelaskan urgensi sinkronisasi (*link and match*) antara kurikulum SMK dengan kebutuhan industri teknologi informasi. Ungkapkan bahwa kegiatan PKL melatih etos kerja mandiri, ketelitian penulisan kode, serta kolaborasi tim. Tuliskan waktu magang (misalnya 6 bulan sistem kerja 5 hari kerja) dan metode pengumpulan data seperti observasi lapangan, wawancara mentor, serta studi dokumentasi proyek.
+
+Pada **BAB II**, uraikan profil perusahaan tempat Anda magang secara jujur dan faktual. Jika Anda melaksanakan magang di agensi kreatif atau penyedia solusi digital, jelaskan lini usaha utamanya seperti optimasi web, digital marketing, maupun pengembangan antarmuka aplikasi. Jangan membuat asumsi informasi yang tidak diverifikasi oleh mentor industri.
+
+---
+
+## Menuliskan BAB III: Pelaksanaan Pekerjaan Nyata Siswa RPL
+
+BAB III merupakan inti dari laporan pertanggungjawaban PKL Anda. Hindari hanya menuliskan daftar tugas tanpa penjelasan alur kerja. Uraikan setiap penugasan dengan format: tujuan tugas, proses langkah pengerjaan, tools yang dipakai, kendala, dan hasil akhirnya.
+
+Sebagai gambaran inspirasi judul laporan yang tepat untuk kegiatan Anda, simak referensi [contoh judul laporan PKL RPL](/blog/contoh-judul-laporan-pkl-rpl/) yang disesuaikan dengan lingkup penugasan.
+
+### Contoh Uraian Kegiatan dan Tabel Harian
+
+Misalnya, jika Anda ditugaskan membangun landing page informasi, jelaskan tahapan perancangan wireframe, penyusunan struktur HTML, pengaturan tata letak CSS, hingga pengujian responsivitas pada perangkat mobile.
+
+| Hari / Tanggal | Rincian Aktivitas Kerja Industri | Hasil Pembelajaran & Kompetensi |
+|---|---|---|
+| Minggu 1-2 | Pengenalan alur kerja Git & struktur proyek tim | Memahami alur kerja branching dan aturan penulisan kode tim |
+| Minggu 3-6 | Perancangan tata letak antarmuka web responsif | Mampu mengatur layout CSS Grid & Flexbox sesuai mockup |
+| Minggu 7-12 | Integrasi konten dan pengujian fungsi formulir | Menemukan bug validasi input dan memperbaikinya |
+| Minggu 13-18 | Optimasi kecepatan web dan audit SEO teknis | Memahami skor Google PageSpeed dan performa aset gambar |
 
 <figure class="my-4 text-center">
   <img
-    src="/images/blog/rpl-presentasi-proyek.webp"
-    alt="Evaluasi hasil kerja dan penyusunan portofolio kegiatan siswa"
+    src="/images/blog/laporan-pkl-rpl-3.webp"
+    alt="Mentor industri mendampingi siswa PKL dalam meninjau draf dokumen laporan dan arsitektur website"
     class="img-fluid rounded-3 border shadow-xs"
     width="840"
     height="472"
     loading="lazy"
   />
   <figcaption class="text-muted small mt-2 fst-italic">
-    Sesi pemaparan laporan dan demonstrasi hasil proyek web di hadapan pembimbing industri sebelum pengesahan berkas.
+    Sesi konsultasi draf laporan PKL bersama mentor industri untuk memastikan validitas data dan kerapian format naskah.
   </figcaption>
 </figure>
 
-## Tips Praktis Agar Laporan PKL RPL Cepat Selesai dan Nilai Maksimal
+---
 
-1. **Cicil Bab I dan BAB II di Awal Magang:** Informasi profil perusahaan dan latar belakang PKL dapat Anda tulis pada minggu-minggu pertama magang.
-2. **Kumpulkan Dokumentasi Foto Berkala:** Ambil foto suasana kerja, tampilan layar monitor yang menampilkan koding Anda, dan sesi diskusi bersama mentor secara etis dan sopan.
-3. **Catat Kode Program yang Dikerjakan Sendiri:** Simpan potongan kode yang Anda buat agar tidak perlu membongkar kembali file repositori lama saat menyusun bab pembahasan.
-4. **Gunakan Fitur Heading dan Daftar Isi Otomatis di Word/Docs:** Memanfaatkan format heading (`Heading 1`, `Heading 2`) membuat nomor halaman daftar isi selalu sinkron dan rapi.
+## Kendala Kerja, Solusi, dan BAB IV Penutup
 
-## Kesimpulan
+Selama proses magang di industri, wajar jika siswa menghadapi tantangan awal seperti adaptasi ritme kerja kantor atau memahami kode program berskala besar yang sudah ada (*legacy code*). Di laporan PKL, ceritakan bagaimana Anda mengatasi kendala tersebut melalui komunikasi aktif dengan mentor, membaca dokumentasi resmi, serta memperbanyak latihan mandiri.
 
-Laporan PKL jurusan RPL adalah cerminan dari kesungguhan Anda selama menimba ilmu di lingkungan industri. Dengan menyusunnya secara sistematis, jujur, dan berpedoman pada kurikulum sekolah, Anda tidak hanya meraih nilai praktik yang memuaskan, tetapi juga memiliki portofolio dokumentasi teknis yang membanggakan.
+Pada **BAB IV**, simpulkan seluruh capaian belajar secara ringkas: peningkatan hard skills di bidang web/perangkat lunak dan penguatan soft skills seperti manajemen waktu dan tanggung jawab. Berikan saran positif bagi adik kelas serta penyempurnaan program magang ke depan.
 
-Untuk melengkapi pemahaman seputar dunia magang kejuruan, simak artikel [kegiatan PKL jurusan RPL selama magang](/blog/kegiatan-pkl-jurusan-rpl/), pelajari [skill yang harus dikuasai sebelum PKL RPL](/blog/skill-sebelum-pkl-rpl/), serta temukan rekomendasi [tempat PKL RPL di Malang](/blog/tempat-pkl-rpl-di-malang/) di portal resmi [PKL di Saka](/) dan halaman kompetensi [PKL jurusan RPL](/jurusan/rpl/).
-
+Untuk memudahkan Anda menyusun berkas laporan dalam format cetak maupun Word, Anda dapat langsung mengunduh dan menyalin referensi naskah dokumen pada [contoh laporan PKL SMK](/dokumen-pkl/laporan-pkl/). Mulailah merangkum catatan harian Anda sekarang agar laporan selesai tepat waktu dan siap diujikan di hadapan dewan penguji sekolah.
