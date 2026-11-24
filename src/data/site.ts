@@ -140,7 +140,7 @@ export const NAV: NavItem[] = [
       { href: '/dokumen-pkl/surat-lamaran/', label: 'Surat Lamaran PKL', desc: 'Format & struktur baku lamaran', icon: 'bi-envelope' },
       { href: '/dokumen-pkl/cv-magang/', label: 'CV Magang Pemula', desc: 'Format 1 halaman untuk siswa/mahasiswa', icon: 'bi-person-badge' },
       { href: '/dokumen-pkl/jurnal-harian/', label: 'Jurnal Harian PKL', desc: 'Panduan pengisian aktivitas kerja', icon: 'bi-calendar-check' },
-      { href: '/Template_Laporan_PKL_Universal.docx', label: 'Contoh Laporan PKL SMK', desc: 'Download template file Word (.docx)', icon: 'bi-file-earmark-word-fill' },
+      { href: '/dokumen-pkl/laporan-pkl/', label: 'Contoh Laporan PKL SMK', desc: 'Format docx, baca naskah & download', icon: 'bi-file-earmark-word-fill' },
       { href: '/info-pkl/', label: 'Informasi Dasar PKL', desc: 'Aturan durasi, skema, & regulasi', icon: 'bi-info-circle' },
       { href: '/persiapan-pkl/', label: 'Persiapan Pra-PKL', desc: 'Checklist, interview, & soft skill', icon: 'bi-check2-circle' },
       { href: '/pkl-malang/', label: 'Panduan PKL di Malang', desc: 'Estimasi biaya hidup, kos & lokasi', icon: 'bi-geo-alt' },
