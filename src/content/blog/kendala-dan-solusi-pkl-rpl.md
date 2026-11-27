@@ -27,6 +27,20 @@ faq:
 
 Kendala dan solusi PKL RPL dapat mencakup kesalahan kode, masalah database, tampilan website, keterbatasan pemahaman teknologi, komunikasi kerja, serta pengelolaan waktu selama pelaksanaan kegiatan PKL.
 
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/kendala-dan-solusi-pkl-rpl-1.webp"
+    alt="Contoh kendala dan solusi siswa PKL jurusan RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Contoh kendala dan solusi siswa PKL jurusan RPL.
+  </figcaption>
+</figure>
+
 Selama menjalani Praktik Kerja Lapangan, siswa jurusan Rekayasa Perangkat Lunak dapat menghadapi pekerjaan yang belum pernah dipelajari sebelumnya.
 
 Permasalahan tersebut dapat dijadikan bahan pembahasan laporan untuk menunjukkan kemampuan siswa dalam memahami dan menyelesaikan tugas.
@@ -71,6 +85,20 @@ Contoh paragraf laporan.
 Proses pemeriksaan kesalahan program dikenal sebagai debugging.
 
 Dokumentasi [Chrome DevTools](https://developer.chrome.com/docs/devtools/) dapat digunakan untuk mempelajari fitur pemeriksaan website melalui browser.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/kendala-dan-solusi-pkl-rpl-2.webp"
+    alt="Proses pemeriksaan kesalahan kode program selama PKL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Proses pemeriksaan kesalahan kode program selama PKL.
+  </figcaption>
+</figure>
 
 ## Bagaimana Contoh Kendala Website Tidak Responsif?
 
@@ -123,6 +151,20 @@ Contoh paragraf laporan.
 > Penulis mengalami kesulitan dalam memahami beberapa kebutuhan tampilan pada awal pengerjaan proyek. Untuk mengatasi kendala tersebut, penulis melakukan koordinasi dengan pembimbing lapangan dan mencatat perubahan yang diperlukan. Catatan tersebut kemudian digunakan sebagai acuan dalam menyelesaikan pekerjaan.
 
 Komunikasi yang baik membantu mengurangi kesalahan akibat perbedaan pemahaman terhadap tugas.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/kendala-dan-solusi-pkl-rpl-3.webp"
+    alt="Siswa PKL berkonsultasi mengenai solusi kendala teknis dan pembagian tugas kerja"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Siswa PKL berkonsultasi mengenai solusi kendala teknis dan pembagian tugas kerja.
+  </figcaption>
+</figure>
 
 ## Bagaimana Contoh Kendala Manajemen Waktu PKL RPL?
 

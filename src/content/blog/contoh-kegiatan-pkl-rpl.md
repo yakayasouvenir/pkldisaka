@@ -27,6 +27,20 @@ faq:
 
 Contoh kegiatan PKL RPL meliputi pembuatan website, pemrograman aplikasi, pengelolaan database, desain antarmuka, pengujian perangkat lunak, dan pemeliharaan sistem sesuai kebutuhan perusahaan tempat PKL.
 
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-kegiatan-pkl-rpl-1.webp"
+    alt="Contoh kegiatan siswa PKL jurusan Rekayasa Perangkat Lunak"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Contoh kegiatan siswa PKL jurusan Rekayasa Perangkat Lunak.
+  </figcaption>
+</figure>
+
 Siswa jurusan Rekayasa Perangkat Lunak dapat memperoleh berbagai jenis pekerjaan selama Praktik Kerja Lapangan. Tugas tersebut bergantung pada bidang perusahaan, kemampuan siswa, dan proyek yang sedang dikerjakan.
 
 Pengalaman selama PKL perlu dicatat agar dapat digunakan sebagai bahan penyusunan laporan.
@@ -57,6 +71,20 @@ Berikut beberapa contoh kegiatan yang dapat dijadikan referensi.
 Tidak semua siswa harus mengerjakan proyek yang kompleks. Pekerjaan sederhana tetap dapat menjadi bahan laporan apabila dijelaskan secara terperinci.
 
 Sebagai contoh, memperbaiki tampilan navigasi website merupakan kegiatan yang berkaitan dengan kompetensi pengembangan antarmuka.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-kegiatan-pkl-rpl-2.webp"
+    alt="Pengerjaan website oleh siswa PKL RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Pengerjaan website oleh siswa PKL RPL.
+  </figcaption>
+</figure>
 
 ## Bagaimana Contoh Deskripsi Kegiatan PKL Web Developer?
 
@@ -121,6 +149,20 @@ Contoh paragraf laporan.
 > Penulis membuat rancangan antarmuka halaman katalog menggunakan Figma. Rancangan tersebut mencakup susunan navigasi, penempatan gambar produk, dan pengaturan informasi agar pengguna dapat menemukan produk dengan mudah.
 
 Hasil rancangan dapat didokumentasikan melalui tangkapan layar wireframe atau desain akhir sesuai izin pembimbing.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-kegiatan-pkl-rpl-3.webp"
+    alt="Dokumentasi aktivitas siswa PKL jurusan RPL di lingkungan industri"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Dokumentasi aktivitas siswa PKL jurusan RPL di lingkungan industri.
+  </figcaption>
+</figure>
 
 ## Bagaimana Mengubah Jurnal Harian Menjadi Deskripsi Kegiatan?
 

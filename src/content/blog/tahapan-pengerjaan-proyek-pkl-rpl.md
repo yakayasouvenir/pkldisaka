@@ -27,6 +27,20 @@ faq:
 
 Tahapan pengerjaan proyek PKL RPL meliputi analisis kebutuhan, perancangan, implementasi program, pengujian, perbaikan, dan dokumentasi hasil pekerjaan sesuai metode pengembangan yang diterapkan perusahaan tempat PKL.
 
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/tahapan-pengerjaan-proyek-pkl-rpl-1.webp"
+    alt="Tahapan pengerjaan proyek pengembangan website siswa PKL RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Tahapan pengerjaan proyek pengembangan website siswa PKL RPL.
+  </figcaption>
+</figure>
+
 Menjelaskan tahapan pengerjaan proyek merupakan salah satu bagian penting dalam laporan PKL jurusan Rekayasa Perangkat Lunak.
 
 Pembahasan ini menunjukkan bagaimana siswa memahami tugas, menerapkan kompetensi, dan menyelesaikan pekerjaan berdasarkan kebutuhan perusahaan.
@@ -97,6 +111,20 @@ Dokumentasi mengenai teknologi pengembangan website dapat dipelajari melalui [MD
 
 Penjelasan implementasi tidak harus memuat seluruh source code. Potongan kode yang relevan dapat disertakan apabila diperlukan dan diizinkan oleh perusahaan.
 
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/tahapan-pengerjaan-proyek-pkl-rpl-2.webp"
+    alt="Proses implementasi dan pengujian website selama PKL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Proses implementasi dan pengujian website selama PKL.
+  </figcaption>
+</figure>
+
 ## Bagaimana Menulis Tahap Pengujian Proyek?
 
 Pengujian proyek PKL RPL dilakukan untuk memeriksa kesesuaian fungsi aplikasi, menemukan kesalahan program, serta memastikan hasil implementasi memenuhi kebutuhan pekerjaan yang telah ditentukan sebelumnya.
@@ -152,6 +180,20 @@ Contoh keterangan gambar yang dapat digunakan adalah sebagai berikut.
 - Gambar 3.4 Hasil akhir halaman katalog.
 
 Penomoran gambar perlu disesuaikan dengan ketentuan sekolah.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/tahapan-pengerjaan-proyek-pkl-rpl-3.webp"
+    alt="Pembelajaran dan pengerjaan tahapan proyek PKL siswa SMK jurusan RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Pembelajaran dan pengerjaan tahapan proyek PKL siswa SMK jurusan RPL.
+  </figcaption>
+</figure>
 
 ## Bagaimana Menyusun Tahapan Proyek dalam BAB III?
 

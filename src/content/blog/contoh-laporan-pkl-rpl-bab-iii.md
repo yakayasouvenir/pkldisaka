@@ -32,6 +32,20 @@ faq:
 
 Contoh laporan PKL RPL BAB III memuat pelaksanaan kegiatan, tahapan pengerjaan proyek, teknologi yang digunakan, hasil pekerjaan, serta kendala dan solusi selama PKL.
 
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-laporan-pkl-rpl-bab-iii-1.webp"
+    alt="Contoh struktur BAB III laporan PKL siswa SMK jurusan RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Contoh struktur BAB III laporan PKL siswa SMK jurusan RPL.
+  </figcaption>
+</figure>
+
 BAB III merupakan bagian laporan yang menjelaskan pekerjaan siswa selama mengikuti Praktik Kerja Lapangan. Pada jurusan Rekayasa Perangkat Lunak atau RPL, pembahasan biasanya berkaitan dengan pemrograman, pengembangan website, pengelolaan database, pengujian aplikasi, atau pekerjaan teknologi informasi lainnya.
 
 Berbeda dengan BAB I yang menjelaskan pendahuluan dan BAB II yang umumnya membahas profil perusahaan, BAB III lebih berfokus pada pengalaman kerja dan penerapan kompetensi siswa.
@@ -101,6 +115,20 @@ Selama melaksanakan Praktik Kerja Lapangan, penulis mendapatkan tugas membantu p
 Kegiatan yang dilakukan meliputi pembuatan struktur halaman, pengaturan tampilan antarmuka, penambahan informasi produk, pengujian responsivitas, serta perbaikan tampilan berdasarkan arahan pembimbing.
 
 Penulis juga mempelajari cara mengelola file proyek dan melakukan dokumentasi terhadap perubahan yang telah dikerjakan.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-laporan-pkl-rpl-bab-iii-2.webp"
+    alt="Siswa PKL RPL mengerjakan proyek pengembangan website"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Siswa PKL RPL mengerjakan proyek pengembangan website.
+  </figcaption>
+</figure>
 
 ### 3.3 Tahapan Pengerjaan Proyek
 
@@ -203,6 +231,20 @@ Pengujian website dapat mencakup pemeriksaan navigasi, formulir, gambar, tautan,
 Kesalahan yang ditemukan selama pengujian perlu diperbaiki dan diperiksa kembali.
 
 Dokumentasi dapat berupa tangkapan layar, potongan kode, diagram alur, atau catatan perubahan proyek.
+
+<figure class="my-4 text-center">
+  <img
+    src="/images/blog/contoh-laporan-pkl-rpl-bab-iii-3.webp"
+    alt="Dokumentasi hasil pekerjaan untuk pembahasan laporan PKL RPL"
+    class="img-fluid rounded-3 border shadow-xs"
+    width="840"
+    height="472"
+    loading="lazy"
+  />
+  <figcaption class="text-muted small mt-2 fst-italic">
+    Dokumentasi hasil pekerjaan untuk pembahasan laporan PKL RPL.
+  </figcaption>
+</figure>
 
 Pembahasan lebih terperinci tersedia pada [contoh tahapan pengerjaan proyek PKL RPL](/blog/tahapan-pengerjaan-proyek-pkl-rpl/).
 
